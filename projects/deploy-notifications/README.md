@@ -1,4 +1,8 @@
-# Deploy notifications
+---
+description: Get notified when something changes.
+---
+
+# Notifications
 
 There are three different ways you can alert [Sleuth that a deploy has taken place](https://sleuth.io/):
 

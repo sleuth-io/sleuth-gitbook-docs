@@ -3,7 +3,7 @@
 * [Getting Started](README.md)
 * [Projects](projects/README.md)
   * [Creating a project](projects/creating-a-project.md)
-  * [Deploy notifications](projects/deploy-notifications/README.md)
+  * [Notifications](projects/deploy-notifications/README.md)
     * [Manual deploy notification](projects/deploy-notifications/manual-deploy-notification.md)
     * [Automatic by push](projects/deploy-notifications/automatic-by-push.md)
     * [Automatic by tag](projects/deploy-notifications/automatic-by-tag/README.md)
