@@ -13,4 +13,5 @@
   * [Pricing & Discounts](purchasing-and-licensing/pricing-and-discounts.md)
   * [Ordering](purchasing-and-licensing/ordering.md)
 * [Glossary](glossary.md)
+* [FAQ](faq.md)
 
