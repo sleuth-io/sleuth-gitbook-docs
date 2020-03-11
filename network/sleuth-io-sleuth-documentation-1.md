@@ -1,4 +1,0 @@
-# sleuth-io/sleuth-documentation
-
-
-
