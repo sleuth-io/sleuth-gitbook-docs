@@ -1,7 +1,9 @@
 # Table of contents
 
-* [Getting Started](README.md)
+* [Getting Started with Sleuth](README.md)
+* [Untitled](untitled.md)
 * [Projects](projects/README.md)
+  * [Change sources](projects/change-sources.md)
   * [Creating a project](projects/creating-a-project.md)
   * [Notifications](projects/deploy-notifications/README.md)
     * [Manual deploy notification](projects/deploy-notifications/manual-deploy-notification.md)
