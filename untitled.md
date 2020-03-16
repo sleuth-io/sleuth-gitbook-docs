@@ -4,5 +4,5 @@ description: >-
   Dashboard.
 ---
 
-# The Project Dashboard
+# Project Dashboard
 
