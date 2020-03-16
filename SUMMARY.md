@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting Started with Sleuth](README.md)
+* [Getting Started](README.md)
 * [Project Dashboard](untitled.md)
 * [Integrations](integrations.md)
 * [Projects](projects/README.md)
