@@ -1,9 +1,3 @@
----
-description: >-
-  Sleuth relies on commits to your Git repository to detect the changes that
-  happen between deploys.
----
-
 # Manual deploy notification
 
 Ping the Sleuth API with a Git commit **sha** or **tag** to mark your deploy, like so:
