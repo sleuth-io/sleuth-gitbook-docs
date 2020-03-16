@@ -15,7 +15,6 @@
   * [Notifications](projects/deploy-notifications/README.md)
     * [Manual deploy notification](projects/deploy-notifications/manual-deploy-notification.md)
     * [Automatic by push](projects/deploy-notifications/automatic-by-push.md)
-    * [Automatic by tag](projects/deploy-notifications/automatic-by-tag/README.md)
-      * [Tagging your code](projects/deploy-notifications/automatic-by-tag/tagging-your-code.md)
+    * [Automatic by tag](projects/deploy-notifications/automatic-by-tag.md)
 * [Glossary](glossary.md)
 
