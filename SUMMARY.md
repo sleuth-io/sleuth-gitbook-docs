@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [Project Dashboard](untitled.md)
+* [Dashboard](untitled.md)
 * [Integrations](integrations/README.md)
   * [GitHub](integrations/github.md)
   * [Bitbucket](integrations/bitbucket.md)
