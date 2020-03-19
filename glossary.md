@@ -1,6 +1,6 @@
 ---
 description: >-
-  Sleuth uses standard DevOps terminology to describe its functions, tools, and
+  Sleuth uses standard DevOps terminology to describe functions, tools, and
   operations.
 ---
 
@@ -10,17 +10,23 @@ description: >-
 
 That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
 
-### Change source
+#### Change source
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+#### **Organizations**
 
-### **Organizations**
-
-### **Projects**
+#### **Projects**
 
 Projects contain **change sources**:
 
 #### **Code deployments**
+
+Code deployments track deploys. Deploys collect the code changes, pull requests, issues, and authors deploying to your environment. 
+
+Code deployments also: 
+
+* capture the code reviews in each deploy;
+* generate ChatOps notifications of deploys;
+* preview what changes a deploy will contain.
 
 #### **Feature flags**
 
