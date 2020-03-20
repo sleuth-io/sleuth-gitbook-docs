@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Getting Started](README.md)
+* [Getting started](README.md)
+* [Integrations](integrations.md)
 * [Projects](projects/README.md)
   * [Change sources](projects/change-sources.md)
   * [Creating a project](projects/creating-a-project.md)
@@ -9,12 +10,12 @@
     * [Automatic by push](projects/deploy-notifications/automatic-by-push.md)
     * [Automatic by tag](projects/deploy-notifications/automatic-by-tag.md)
 * [Dashboard](untitled.md)
-* [Integrations](integrations/README.md)
-  * [GitHub](integrations/github.md)
-  * [Bitbucket](integrations/bitbucket.md)
-  * [LaunchDarkly](integrations/launchdarkly.md)
-  * [Slack](integrations/slack.md)
-  * [Jira](integrations/jira.md)
-  * [Clubhouse](integrations/clubhouse.md)
+* [Integrations](integrations-1/README.md)
+  * [GitHub](integrations-1/github.md)
+  * [Bitbucket](integrations-1/bitbucket.md)
+  * [LaunchDarkly](integrations-1/launchdarkly.md)
+  * [Slack](integrations-1/slack.md)
+  * [Jira](integrations-1/jira.md)
+  * [Clubhouse](integrations-1/clubhouse.md)
 * [Glossary](glossary.md)
 
