@@ -6,7 +6,7 @@ description: >-
 
 # Projects
 
-### Creating a Project
+## Creating a Project
 
 To configure a project you must link your personal or organization's GitHub or Bitbucket accounts to your Sleuth organization.
 
@@ -70,4 +70,18 @@ To tag your code and push your changes to your remote repository, use a similar 
 git tag production_2015-04-18--16-15
 git push git@github.com:joeuser/myrepo.git production_2015-04-18--16-15
 ```
+
+## Editing a Project
+
+After creating a project, you might want to make changes to its configuration. This can be pointing to a different repo or adding or deleting an integration. This can be done by selecting your project in the sidebar.
+
+In the screenshot below, **Documentation** is the currently the active project. 
+
+![](.gitbook/assets/project-select.png)
+
+With the project selected, click on the gear icon and select **Edit Project**. 
+
+![](.gitbook/assets/edit-project.png)
+
+
 
