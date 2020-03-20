@@ -1,30 +1,13 @@
 ---
 description: >-
-  Welcome to Sleuth! Sleuth provides a single pane of glass through which you
-  can view your entire DevOps landscape.
+  Deployment tracking for moving fast without breaking things. Sleuth tracks and
+  reports on deploys by tracking the difference between revisions in your code
+  repository.
 ---
 
 # Getting started
 
-## Deploy, improve, repeat.
+Getting Sleuth up and running is easy. 
 
-Cloud-based deployment tracking that arms software teams with the knowledge required to move faster. Full visibility and reporting across your team’s entire DevOps stack. Improve uptime and stop change related incidents before they ship.  
 
-{% tabs %}
-{% tab title="XML/HTML/SVG" %}
-```markup
-$ give me super-powers
-```
-{% endtab %}
-
-{% tab title="" %}
-```
-
-```
-{% endtab %}
-{% endtabs %}
-
-​
-
-Move to continuous delivery with confidence.
 
