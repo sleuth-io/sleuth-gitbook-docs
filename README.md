@@ -7,7 +7,7 @@ description: >-
 
 # Getting started
 
-Getting Sleuth up and running is easy. 
+Getting  
 
 
 
