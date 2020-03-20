@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Getting started](README.md)
-* [Integrations](integrations.md)
 * [Projects](projects/README.md)
   * [Change sources](projects/change-sources.md)
   * [Creating a project](projects/creating-a-project.md)
