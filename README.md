@@ -7,9 +7,7 @@ description: >-
 
 # Getting started
 
-Getting Sleuth up and running is quick and easy. To get started, let's create a Project: 
+Getting Sleuth up and running is quick and easy.
 
-1. In the sidebar, click Create. 
-2. 
 
 
