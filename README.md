@@ -7,7 +7,8 @@ description: >-
 
 # Getting started
 
-Getting  
+Getting Sleuth up and running is quick and easy. To get started, let's create a Project: 
 
+1. 
 
 
