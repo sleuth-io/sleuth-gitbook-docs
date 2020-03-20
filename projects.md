@@ -83,5 +83,7 @@ With the project selected, click on the gear icon and select **Edit Project**.
 
 ![](.gitbook/assets/edit-project.png)
 
+![](.gitbook/assets/edit-project-detail.png)
 
+Here you can change the project name or add a description. If you haven't already setup change sorces, chatops integrations 
 
