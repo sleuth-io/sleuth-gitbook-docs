@@ -10,3 +10,5 @@ The Dashboard is the singular pane-of-glass view into your project, providing yo
 
 ![Sleuth Project Dashboard](.gitbook/assets/dashboardv2-full-view.png)
 
+
+
