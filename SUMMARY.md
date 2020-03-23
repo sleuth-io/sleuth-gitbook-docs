@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
+  * [Mountain Biking](projects/change-sources.md)
 * [Project Dashboard](untitled.md)
 * [Integrations](integrations.md)
 * [Projects](projects/README.md)
