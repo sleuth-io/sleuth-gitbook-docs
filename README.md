@@ -29,7 +29,9 @@ Get Sleuth up and running in four easy steps:
 {% endtab %}
 
 {% tab title="Step 3: Invite team members" %}
-You can add existing members to your organization or add the email address of someone you'd like to have invited to join your organization. If the invitation's accepted, the user will automatically be added to your organization. You can also configure your organization so that anyone signing up with an email from your company's domain will automatically join your organization without any additional action needed.
+You can add existing members to your organization or add the email address of someone you'd like to have invited to join your organization. If the invitation's accepted, the user will automatically be added to your organization. 
+
+You can also configure your organization so that anyone signing up with an email from your company's domain will automatically join your organization without any additional action needed.
 {% endtab %}
 
 {% tab title="Step 4: Add change source" %}
