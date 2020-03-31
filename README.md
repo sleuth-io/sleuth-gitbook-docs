@@ -28,14 +28,6 @@ Get Sleuth up and running in four easy steps:
 * Enable Slack to stay on top of your changes and alert your developers when they have changes deployed.
 * Enable Jira to track the issues and epics you are deploying to your users
 * Enable Clubhouse to track the issues and epics you are deploying to your users.
-
-
-
-
-
-
-
-.
 {% endtab %}
 
 {% tab title="Step 3: Invite team members" %}
