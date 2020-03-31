@@ -1,16 +1,8 @@
----
-description: >-
-  Get a 30,000-foot view of your DevOps environment in the Sleuth Project
-  Dashboard.
----
-
 # Dashboard
 
 The Dashboard is the singular pane-of-glass view into your project, providing you with a comprehensive overview of code deployments, feature flags, impact, and all integrations.
 
 You can take a look at the Sleuth development team's [Dashboard](https://app.sleuth.io/sleuth/sleuth) right now.  
-
-![](.gitbook/assets/dashboard-callouts.png)
 
 Let's take a quick look at some of the elements in the Dashboard: 
 
