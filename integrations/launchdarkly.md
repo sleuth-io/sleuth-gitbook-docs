@@ -6,7 +6,7 @@ Feature flags have quickly become an important part of software development. Mak
 
 Before you start, you should already have a LaunchDarkly account, and your environment setup and running. If not, head over to [LaunchDarkly](https://app.launchdarkly.com/) to create an account. 
 
-To add the LaunchDarkly integration in Sleuth:
+To add the LaunchDarkly integration:
 
 * Click **Integrations** in the sidebar.
 * Click **connect** in the LaunchDarkly Change Sources card.
