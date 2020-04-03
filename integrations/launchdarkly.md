@@ -1,6 +1,6 @@
 # LaunchDarkly
 
-### About the Integration
+### About the Integration ![](../.gitbook/assets/launchdarkly-logo.png) 
 
 Feature flags have quickly become an important part of software development. Making high-impact changes with minimal risk and maximum control of your applications helps deliver quality software to your customers. The Sleuth-LaunchDarkly integration provides a powerful way to track how your feature flags affect the quality of your deploys over time. The LaunchDarkly integration enables Sleuth to track changes made via your LaunchDarkly features flags.
 
