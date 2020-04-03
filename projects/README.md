@@ -1,3 +1,9 @@
+---
+description: >-
+  Sleuth detects the changes that happen between deploys by analyzing commits to
+  your repositories.
+---
+
 # Projects
 
 ## Creating a Project
@@ -9,17 +15,21 @@ To create a new project:
 1. Click **Create**. 
 2. Click **Create project**.
 
+![](../.gitbook/assets/create-new-project.png)
+
 To track deploys we must have access to the code you deploy. In order to access all of your commit, issue and pull request information, we need to authorize with a **full read and write** scope of your Github or Bitbucket repo.
 
-Select the code repository from the dropdown and specify the branch that you deploy from. Sleuth will initialize the project with your last commit until further deploys are detected. 
+Select the code repository from the dropdown and specify the branch that you deploy from. Sleuth will initialize the project with your last commit until further deploys are detected.
+
+![](../.gitbook/assets/edit-deployment.png)
 
 ### Notifying Sleuth when you deploy <a id="telling-us-when-you-deploy"></a>
 
-How does Sleuth know when you have deployed? There are three different ways that Sleuth can be notified: 
+How does Sleuth know when you have deployed? There are three different ways that Sleuth can be notified:
 
-1. [Manually]().
-2. [Automatically tracking by push]().
-3. [Automatically tracking by tag](). 
+1. [Manually](./#manually-registering-your-deploy).
+2. [Automatically tracking by push](./#automatic-tracking-for-each-push-to-the-configured-branch).
+3. [Automatically tracking by tag](./#automatic-tracking-for-each-tag-made-against-the-configured-branch). 
 
 #### Manually registering your deploy
 
@@ -65,9 +75,15 @@ git push git@github.com:joeuser/myrepo.git production_2015-04-18--16-15
 
 After creating a project, you might want to make changes to its configuration. This can be pointing to a different repo or adding or deleting an integration. This can be done by selecting your project in the sidebar.
 
-In the screenshot below, **Documentation** is the currently the active project. 
+In the screenshot below, **Documentation** is the currently the active project.
 
-With the project selected, click on the gear icon and select **Edit Project**. 
+![](../.gitbook/assets/project-select.png)
+
+With the project selected, click on the gear icon and select **Edit Project**.
+
+![](../.gitbook/assets/edit-project.png)
+
+![](../.gitbook/assets/edit-project-detail.png)
 
 Here you can change the project name or add a description.
 
