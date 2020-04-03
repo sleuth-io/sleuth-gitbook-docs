@@ -4,11 +4,11 @@ Integrations allow Sleuth to communicate with the various CD/CI tools in your De
 
 The following integrations are currently available, with more coming very soon: 
 
-* GitHub
-* Bitbucket
+* [GitHub](github.md)
+* [Bitbucket](bitbucket.md)
 * [LaunchDarkly](launchdarkly.md)
-* Slack
-* Jira
-* Clubhouse
+* [Slack](slack.md)
+* [Jira](jira.md)
+* [Clubhouse](clubhouse.md)
 * More coming soon... 
 
