@@ -19,7 +19,7 @@ Get Sleuth up and running in four easy steps:
 {% endtab %}
 
 {% tab title="Step 2: Connect integrations" %}
-* Connect [GitHub](integrations/github.md), [Bitbucket](integrations/bitbucket.md) and [LaunchDarkly](integrations/launchdarkly.md) change source integrations; [Slack](integrations/slack.md) ChatOps integrations; and [Jira](integrations/jira.md) and [Clubhouse](integrations/clubhouse.md) issue tracking integrations. 
+* Connect GitHub, Bitbucket and LaunchDarkly change source integrations; Slack ChatOps integrations; and Jira and Clubhouse issue tracking integrations. 
 * Enable GitHub or Bitbucket to track deploys made via your code repositories. See pull requests, commits, authors and issues associated with every deploy.
 * Enable LaunchDarkly to track changes made via your feature flags. Associate your flag changes with your code deployments.
 * Enable Slack to stay on top of your changes and alert your DevOps team members when changes have been deployed.
