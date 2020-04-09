@@ -1,4 +1,49 @@
 # Slack
 
-Stay tuned—we'll have some sweet content up soon!
+### About the Integration ![](../.gitbook/assets/slack_mark_monochrome_black_sm.png) 
+
+Take DevOps clarity to the next level with a Slack integration. Keep your teams informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. Gone are the days of bloated distribution lists and constantly pestering your team with yet another "We've deployed again!" email. 
+
+Instead, use the powerful features of Slack to keep tabs on your code deploys. With one automated Sleuth message in Slack, see: 
+
+* when your deploy occurred; 
+* what was deployed; 
+* how big the deploy was; 
+* the commit hash; 
+* how many commits, PRs, issues, and changes were in the deploy; 
+* any associated [Jira](jira.md) issues with the deploy; and
+* any additional information within Sleuth.  
+
+![](../.gitbook/assets/slack-channel-deploy-message.png)
+
+Before you start, you should already have a Slack account. Additionally, you should create channels that you plan to use for messaging in Slack before setting up the integration in Sleuth. Sleuth will ask for the Slack channel where it should send its messages to. 
+
+{% hint style="info" %}
+You can select either a Private or Public Slack channel. Select a Public channel, then share that channel with your teams from within Slack for maximum DevOps' team visibility. 
+{% endhint %}
+
+To add the Slack integration:
+
+* Click **Integrations** in the sidebar.
+* Click **connect** in the Slack Chat Ops card. 
+
+{% hint style="info" %}
+You must add Sleuth as an Authorized Application in Slack.  
+For more information, [read the Slack documentation](https://api.slack.com).
+{% endhint %}
+
+* The Slack logo in the Change Source card will turn green when the integration is successful. 
+
+![](../.gitbook/assets/slack-integration-connected.png)
+
+{% hint style="info" %}
+Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
+{% endhint %}
+
+* That’s it—Sleuth will now use Slack to relay important deploy information to your team. Remember, you can share your Slack channel with anyone in your organization who needs visibility into what your team is doing.
+
+  
+  ****
+
+
 
