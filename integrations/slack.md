@@ -1,12 +1,10 @@
 # Slack
 
-### About the Integration  
+### About the Integration ![](../.gitbook/assets/slack_mark_monochrome_black_sm.png) 
 
-Take DevOps clarity to the next level with the Sleuth-Slack integration. Keep your teams and other principals informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. Gone are the days of bloated distribution lists and constantly pestering your team with yet another "We've deployed again!" email. Use Slack's powerful communications features to keep development teams informed about your code deploys, and your entire organization up to date on your team's progress. 
+Take DevOps clarity to the next level with the Sleuth-Slack integration. Keep your teams and other principals informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. Gone are the days of bloated distribution lists and bombarding your team with yet another "We've deployed again!" email. Use Slack's powerful communications features to keep development teams informed about your code deploys, and your entire organization up to date on your team's progress. 
 
-Agile teams will spend most of their time viewing the Sleuth Dashboard to get the granular detail they need to keep deploys on track. Other members of your organization, however, just want a quick update on your team's progress without being inundated with the details; the Big Picture view, if you will. 
-
-A Slack message from Sleuth provides just that—a single, automated message where they can see: 
+Agile teams will spend most of their time viewing the [Dashboard](../dashboard.md) to get the granular detail they need to stay informed on the status of deploys, impact, magnitude, and the wealth of other information Sleuth provides. Other members of your organization, however, just want a quick update on your team's progress without getting in the weeds; the Big Picture view, if you will. Slack messages from Sleuth provide just that—automated, easily-digestable messages where they can view: 
 
 * when your deploy occurred; 
 * what was deployed; 
@@ -16,7 +14,7 @@ A Slack message from Sleuth provides just that—a single, automated message whe
 * any [Jira](jira.md) issues associated with the deploy; and
 * any additional information within Sleuth.  
 
-![](../.gitbook/assets/slack-channel-deploy-message.png)
+![](../.gitbook/assets/slack-channel-deploy-message_2.png)
 
 {% hint style="info" %}
 A [Jira integration](jira.md) is required to view associated Jira issues within automated Slack messages from Sleuth.  
@@ -46,7 +44,7 @@ For more information, [read the Slack documentation](https://api.slack.com).
 Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
 {% endhint %}
 
-* That’s it—Sleuth will now use Slack to relay important deploy information to your team. Remember, you can share your Slack channel with anyone in your organization who needs visibility into what your team is doing.
+* That’s it—Sleuth will now use Slack to relay important deploy information to your team. Remember, you can share your Slack channel with anyone who needs visibility into what your team is doing. 
 
   
   ****
