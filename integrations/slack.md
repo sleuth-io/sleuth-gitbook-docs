@@ -2,9 +2,11 @@
 
 ### About the Integration  
 
-Take DevOps clarity to the next level with the Sleuth-Slack integration. Keep your teams and other principals informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. Gone are the days of bloated distribution lists and constantly pestering your team with yet another "We've deployed again!" email. Use Slack's powerful communications features instead to keep tabs on your code deploys, and keeping your entire organization up to date on your team's progress. 
+Take DevOps clarity to the next level with the Sleuth-Slack integration. Keep your teams and other principals informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. Gone are the days of bloated distribution lists and constantly pestering your team with yet another "We've deployed again!" email. Use Slack's powerful communications features to keep development teams informed about your code deploys, and your entire organization up to date on your team's progress. 
 
-With just a single automated Sleuth message in Slack, see: 
+Agile teams will spend most of their time viewing the Sleuth Dashboard to get the granular detail they need to keep deploys on track. Other members of your organization, however, just want a quick update on your team's progress without being inundated with the details; the Big Picture view, if you will. 
+
+A Slack message from Sleuth provides just that—a single, automated message where they can see: 
 
 * when your deploy occurred; 
 * what was deployed; 
