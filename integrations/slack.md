@@ -1,6 +1,6 @@
 # Slack
 
-### About the Integration ![](../.gitbook/assets/slack_mark_monochrome_black_sm.png) 
+### About the Integration  
 
 Take DevOps clarity to the next level with a Slack integration. Keep your teams informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. Gone are the days of bloated distribution lists and constantly pestering your team with yet another "We've deployed again!" email. 
 
