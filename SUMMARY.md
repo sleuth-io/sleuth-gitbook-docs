@@ -2,6 +2,7 @@
 
 * [Getting started](README.md)
 * [Dashboard](dashboard.md)
+* [Impact](impact.md)
 * [Integrations](integrations/README.md)
   * [GitHub](integrations/github.md)
   * [Bitbucket](integrations/bitbucket.md)
