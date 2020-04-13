@@ -8,6 +8,7 @@ Agile teams will spend most of their time viewing the [Dashboard](../dashboard.m
 
 * when your deploy occurred; 
 * what was deployed; 
+* who the author was;
 * how big the deploy was; 
 * the commit hash; 
 * how many commits, PRs, issues, and changes were in the deploy; 
@@ -44,7 +45,7 @@ For more information, [read the Slack documentation](https://api.slack.com).
 Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
 {% endhint %}
 
-* That’s it—Sleuth will now use Slack to relay important deploy information to your team. Remember, you can share your Slack channel with anyone who needs visibility into what your team is doing. 
+* Sleuth will now use Slack to relay important deploy information to your team. Integration with Slack must be done at the organization level in Sleuth. Remember, you can share your Slack channel with anyone who needs visibility into what your team is doing. This is especially useful for targeted communication, as you might not want the entire organization receiving every message about various projects that you are managing. 
 
   
   ****
