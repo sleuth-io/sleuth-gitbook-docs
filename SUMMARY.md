@@ -18,6 +18,7 @@
   * [Organization Settings](dashboard/organization-settings.md)
   * [Locking repos](dashboard/locking-repos.md)
   * [Notifications](dashboard/notifications.md)
+  * [Settings](dashboard/settings.md)
 * [Impact](impact.md)
 * [Projects](projects/README.md)
   * [Change sources](projects/change-sources.md)
