@@ -4,7 +4,7 @@
 
 Take DevOps clarity to the next level with the Sleuth-Slack integration. Keep your teams and other principals informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. No more bloated distribution lists, and bombarding your team with a barrage of emails. Use Slack's powerful communications features to keep development teams informed about your code deploys, and your entire organization up to date on progress.
 
-Agile teams will spend most of their time viewing the Sleuth [Dashboard](../dashboard.md) to get the granular detail they need to stay informed on the status of deploys, impact, magnitude, and the breadth and scope of information Sleuth provides. Other members of your organization, however, might only want a quick update on your team's progress without getting in the weeds; the Big Picture view🖼. Slack messages provide just that—automated, easily-digestable messages where they can view: 
+Agile teams will spend most of their time viewing the Sleuth [Dashboard](../dashboard/) to get the granular detail they need to stay informed on the status of deploys, impact, magnitude, and the breadth and scope of information Sleuth provides. Other members of your organization, however, might only want a quick update on your team's progress without getting in the weeds; the Big Picture view🖼. Slack messages provide just that—automated, easily-digestable messages where they can view: 
 
 * when your deploy occurred; 
 * what was deployed; 
@@ -41,15 +41,13 @@ For more information, [read the Slack documentation](https://api.slack.com).
 
 ![](../.gitbook/assets/slack-integration-connected.png)
 
+* The Slack integration is done at the Organization level in your Sleuth account. Since multiple Projects can exist within an Organization, you'll want to go in to each Project and configure notifications individually. Create your Slack channels first before configuring the notifications in the Sleuth Projects; you 
+
 {% hint style="info" %}
 Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
 {% endhint %}
 
 * Sleuth will now use Slack to relay important deploy information to your team. 
-
-{% hint style="info" %}
-Slack integration is done at the Sleuth Organization level. You can share your Slack channel with anyone. This is especially useful for targeted communication, as you might not want the entire organization receiving every message about various projects that you are managing. 
-{% endhint %}
 
   
 ****

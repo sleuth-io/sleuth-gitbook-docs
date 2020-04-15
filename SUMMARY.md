@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Getting started](README.md)
-* [Dashboard](dashboard.md)
+* [Dashboard](dashboard/README.md)
+  * [Organization Settings](dashboard/organization-settings.md)
 * [Impact](impact.md)
 * [Integrations](integrations/README.md)
   * [Rollbar](integrations/rollbar.md)
