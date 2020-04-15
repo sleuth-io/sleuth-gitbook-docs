@@ -16,6 +16,8 @@
     * [Clubhouse](dashboard/integrations/clubhouse.md)
   * [Invite People](dashboard/invite-people.md)
   * [Organization Settings](dashboard/organization-settings.md)
+  * [Locking repos](dashboard/locking-repos.md)
+  * [Notifications](dashboard/notifications.md)
 * [Impact](impact.md)
 * [Projects](projects/README.md)
   * [Change sources](projects/change-sources.md)
