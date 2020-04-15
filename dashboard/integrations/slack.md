@@ -24,7 +24,7 @@ A [Jira integration](jira.md) is required to view associated Jira issues within 
 Before you start, you should already have a Slack account. Additionally, you should create channels that you plan to use for messaging in Slack before setting up the integration in Sleuth. Sleuth will ask for the Slack channel where it should send its messages to. You can have as many channels as needed. You might have different audiences, who might have different needs. Your developers might want a channel that communicates every deploy; your CTO, on the other hand, might want a quieter channel that only communicates Unhealthy deploys, which could signal a problem. But no news is good news, right? 📰 
 
 {% hint style="info" %}
-Don't forget to set the security on your Slack channels, to either Public or Private. 
+Don't forget to set the security on your Slack channels, to either Public or Private. If you select Private, you will need to invite the Sleuth "bot" to the channel first. 
 {% endhint %}
 
 To add the Slack integration:
