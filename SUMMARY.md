@@ -3,7 +3,6 @@
 * [Getting started](README.md)
 * [Dashboard](dashboard/README.md)
   * [Selecting a project](dashboard/selecting-a-project.md)
-  * [Creating a project](dashboard/creating-a-project.md)
   * [Project settings](dashboard/project-settings.md)
   * [Integrations](dashboard/integrations/README.md)
     * [Rollbar](dashboard/integrations/rollbar.md)
