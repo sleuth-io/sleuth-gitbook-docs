@@ -21,6 +21,7 @@
   * [Clubhouse](integrations/clubhouse.md)
 * [Impact](impact.md)
 * [Projects](projects/README.md)
+  * [Project settings](projects/project-settings.md)
   * [Change sources](projects/change-sources.md)
   * [Creating a project](projects/creating-a-project.md)
   * [Notifications](projects/notifications/README.md)
