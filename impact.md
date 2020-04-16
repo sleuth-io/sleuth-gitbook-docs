@@ -10,7 +10,7 @@ A user wants to know if a deploy has had a positive/negative/neutral impact on t
 
 Since we’ll be monitoring Impact we can establish a baseline of “normal” for the project. We want to be able to detect when the impact value has deviated from “normal” and call this out in Sleuth.
 
-We can start with Standard Deviation and get more nuanced from there. A user wants to know, in [Slack](dashboard/integrations/slack.md) if a deploy has had a positive/negative/neutral impact on the project.
+We can start with Standard Deviation and get more nuanced from there. A user wants to know, in [Slack](integrations/slack.md) if a deploy has had a positive/negative/neutral impact on the project.
 
 This information should also be used in the personalized Slack notifications we send to change authors. 
 
