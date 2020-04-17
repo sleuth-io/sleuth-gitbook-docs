@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Getting started](README.md)
+* [Signing up](README.md)
+* [Getting started](getting-started.md)
 * [Dashboard](dashboard/README.md)
   * [Selecting a project](dashboard/selecting-a-project.md)
   * [Project settings](dashboard/project-settings.md)

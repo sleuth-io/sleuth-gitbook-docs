@@ -5,7 +5,7 @@ description: >-
   repository.
 ---
 
-# Getting started
+# Signing up
 
 Before you get started with Sleuth, you must first [create an account](https://app.sleuth.io/account/signup/). You can try Sleuth free for 30 days. Pricing information can be found [here](https://www.sleuth.io/pricing).
 
