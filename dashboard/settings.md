@@ -1,4 +1,4 @@
-# Settings
+# Project settings
 
 ![The Settings dropdown in the Dashboard.](../.gitbook/assets/toolbar-settings-selected.png)
 

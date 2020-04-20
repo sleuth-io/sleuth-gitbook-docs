@@ -7,9 +7,9 @@ description: >-
 
 # Signing up
 
-Before you get started with Sleuth, you must first [create an account](https://app.sleuth.io/account/signup/). You can try Sleuth free for 30 days. Pricing information can be found [here](https://www.sleuth.io/pricing).
+Before you get started, you must first [create an account](https://app.sleuth.io/account/signup/). Once that's created, we'll connect to a repo, either GitHub or Bitbucket. 
 
-![](.gitbook/assets/create-account.png)
+![](.gitbook/assets/signup-sleuth.png)
 
 If you already have a Google, GitHub or Bitbucket account, you can sign up with those instead. After you have successfully logged in, you can create your first Sleuth Project!
 

@@ -1,4 +1,4 @@
-# Notifications
+# Slack notifications
 
 Configure the Slack notifications for your project by selecting **Configure Slack integration**. This will display the integration dialog: 
 
