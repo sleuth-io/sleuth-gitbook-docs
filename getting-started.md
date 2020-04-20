@@ -8,7 +8,7 @@ description: >-
 
 ## Information Architecture
 
-Sleuth can help you track the health and status of your deploys by providing a single of pane of glass through which you can view all of your change and impact sources. The Sleuth information architecture terms should already be familiar to you, since we use industry-standard CI/CD nomenclature \(_check out_ [_**Terminology**_](glossary.md) _for more informatio_n\). 
+Sleuth can help you track the health and status of your deploys by providing a single of pane of glass through which you can view all of your change and impact sources. The Sleuth information architecture terms should already be familiar to you, since we use industry-standard CI/CD nomenclature \(_check out_ [_**Terminology**_](glossary.md) _for more information_\). 
 
 
 
@@ -27,6 +27,11 @@ Combining Impact Source information with Change Source data is what drives the i
 ![The Sleuth Dashboard ](.gitbook/assets/sleuth-dashboard-april172020.png)
 
 You can instantly see the impact of your deploys on your entire project environment over a period of time by viewing the Trend Graph; for detailed information on individual deploys you can view a deploy card \(see below\). 
+
+{% hint style="info" %}
+You can view a live version of the Sleuth Dashboard at [https://app.sleuth.io/sleuth/sleuth](https://app.sleuth.io/sleuth/sleuth).   
+It's what the Sleuth team uses everyday to make **awesome**! ✨ 
+{% endhint %}
 
 ### Deploy cards
 
