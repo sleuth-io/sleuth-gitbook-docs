@@ -1,34 +1,14 @@
----
-description: >-
-  Integrations are what drive the data that drives Sleuth. As a single page of
-  glass, Sleuth dives in to all your CI/CD tools and gives you an in-depth
-  update of your deploys' health, in one view.
----
-
 # Integrations
 
-To get more information on the **integrations** that power Sleuth, click on one of the tools below: 
+Integrations allow Sleuth to communicate with the various CD/CI tools in your DevOps arsenal. They enable Sleuth to collect the information it needs to provide a comprehensive view of your deployments, ensuring that you always know what is happening with your code—commits, deploys, issues, feature flags—and communicating successful—or failed—deployments through the Slack integration. 
 
-{% tabs %}
-{% tab title="Change Sources" %}
+The following integrations are currently available, with more coming very soon: 
+
 * [GitHub](github.md)
 * [Bitbucket](bitbucket.md)
 * [LaunchDarkly](launchdarkly.md)
-{% endtab %}
-
-{% tab title="Chat Ops" %}
 * [Slack](slack.md)
-{% endtab %}
-
-{% tab title="Issue Trackers" %}
 * [Jira](jira.md)
 * [Clubhouse](clubhouse.md)
-{% endtab %}
-
-{% tab title="Error Trackers" %}
-* [Rollbar](rollbar.md)
-* [Sentry](sentry.md)
-* [Honeybadger](honeybadger.md)
-{% endtab %}
-{% endtabs %}
+* More coming soon... 
 
