@@ -12,7 +12,7 @@ Sleuth can help you track the health and status of your deploys by providing a s
 
 
 
-![Diagram of the Sleuth information architecture](.gitbook/assets/sleuth-information-architexture.pdf)
+![](.gitbook/assets/sleuth_ia_graphic.png)
 
 In Sleuth you create a **Project** container, which houses all the necessary **Environments** your team might need to create, develop and test your applications. These Enviroments might include production, staging, development, and could even account for different deployment strategies such as canary, blue/green, etc. 
 
