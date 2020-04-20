@@ -8,7 +8,7 @@ description: >-
 
 ## Information Architecture
 
-Sleuth can help you track the health and status of your deploys by providing a single of pane of glass through which you can view all of your change and impact sources. 
+Sleuth can help you track the health and status of your deploys by providing a single of pane of glass through which you can view all of your change and impact sources. The Sleuth information architecture terms should already be familiar to you, since we use industry-standard CI/CD nomenclature \(_check out_ [_**Terminology**_](glossary.md) _for more informatio_n\). 
 
 
 
@@ -36,7 +36,7 @@ By viewing a deploy card, you can:
 * instantly view the pull request in whichever repository it resides in \([GitHub](integrations/github.md) or [Bitbucket](integrations/bitbucket.md), for example\);
 * know when the deploy occurred; 
 * get an objective, historical assesment of your project's health __\(_Unhealthy_, _Ailing_, _Healthy_, _Improved_\); and
-* know how large of an impact the deploy had on your project overall. 
+* know how large or small of an impact the deploy had on your project overall. 
 
 ![Deploy card in the Sleuth Dashboard](.gitbook/assets/deploy-tracking.png)
 
