@@ -45,6 +45,11 @@ By viewing a deploy card, you can:
 
 ![A Sleuth deploy card showing detailed information about a single deploy](.gitbook/assets/deploy-tracking.png)
 
+To get more information about a deploy, you can:
+
+* Click on the card title to view all the PRs, commites, issues, files, impact and authors of the deploy; or
+* Click on any of the PRs that comprised the deploy to view the deployed code in its corresponding repo.
+
 ### Magnitude
 
  Another significant metric assessment Sleuth provides is **Magnitude**. The Magnitude chart shows you how many large versus small deploys you have committed to your repos \(changes can be _Small_, _Medium_, _Large_, or _Gigantic_\). Since the overall goal of solid CI/CD practice is to deploy small and deploy often, the Magnitude chart gives you instant insight into whether you're _continuously deploying_ small, effective changes to your repositories instead of occasional _gigantic_, unstable changes, which could prove problematic if a rollback is necessary when a change proves fatal to your application. 
