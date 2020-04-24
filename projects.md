@@ -33,7 +33,7 @@ How does Sleuth know when you have deployed? There are three different ways that
 
 #### Manually registering your deploy
 
-Ping us with a Git commit sha or tag to mark your deploy by making a POST to DeployHub.
+Ping us with a Git commit sha or tag to mark your deploy by making a POST to Sleuth.
 
 ```text
 curl -X POST -d api_key=YOUR_API_KEY -d sha=YOUR_SHA https://sleuth.io/api/1/ORG_NAME/PROJECT_NAME/register_deploy
