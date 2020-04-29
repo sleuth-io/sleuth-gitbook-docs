@@ -24,7 +24,7 @@ Sleuth tracks Change Sources, such as **Code Deployments**, **Feature Flags**, a
 
 Combining Impact Source information with Change Source data is what drives the information you see on the Sleuth [**Dashboard**](dashboard.md). 
 
-![Sleuth Dashboard view](.gitbook/assets/sleuth-dashboard-april172020.png)
+![](.gitbook/assets/screen-shot-2020-04-29-at-2.17.48-pm.png)
 
 You can instantly see the impact of your deploys on your entire project environment over a period of time by viewing the Trend Graph; for detailed information on individual deploys you can view a deploy card \(see below\). 
 
@@ -45,11 +45,11 @@ By viewing a deploy card, you can:
 
 ![A Sleuth deploy card showing detailed information about a single deploy](.gitbook/assets/deploy-tracking.png)
 
-### Magnitude
+### Size
 
- Another significant metric assessment Sleuth provides is **Magnitude**. The Magnitude chart shows you how many large versus small deploys you have committed to your repos \(changes can be _Small_, _Medium_, _Large_, or _Gigantic_\). Since the overall goal of solid CI/CD practice is to deploy small and deploy often, the Magnitude chart gives you instant insight into whether you're _continuously deploying_ small, effective changes to your repositories instead of occasional _gigantic_, unstable changes, which could prove problematic if a rollback is necessary when a change proves fatal to your application. 
+Another significant metric assessment Sleuth provides is **Size**. The Size chart shows you how many large versus small deploys you have committed to your repos \(changes can be _Small_, _Medium_, _Large_, or _Gigantic_\). Since the overall goal of solid CI/CD practice is to deploy small and deploy often, the Size chart gives you instant insight into whether you're _continuously deploying_ small, effective changes to your repositories instead of occasional _gigantic_, unstable changes, which could prove problematic if a rollback is necessary when a change proves fatal to your application. 
 
-![Magnitude graph on the Dashboard](.gitbook/assets/magnitude_apr202020.png)
+![The Size chart in the Sleuth Dashboard](.gitbook/assets/screen-shot-2020-04-29-at-2.19.19-pm.png)
 
 ## Slack notifications
 
@@ -69,7 +69,7 @@ If you haven't already signed up for a Sleuth account, [you'll need to do that f
 {% tab title="Step 1" %}
 #### Go to the Sleuth [Dashboard](dashboard.md)
 
-![](.gitbook/assets/sleuth-dashboard-april172020.png)
+![](.gitbook/assets/screen-shot-2020-04-29-at-2.17.48-pm.png)
 {% endtab %}
 
 {% tab title="Step 2" %}
