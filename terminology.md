@@ -35,5 +35,7 @@ Impact is integral to the Sleuth experience, and is one of the main metrics Sleu
 
  The Lock feature in Sleuth prevents pull requests from merging into main branches, and generates automatic notifications via your Chat Ops [integrations](integrations/) \(e.g., [Slack](integrations/slack.md)\). 
 
+![Locking a project/deployment is as easy as pressing one button](.gitbook/assets/sleuth-lock-blog-button.png)
+
 Read team member Don Brown's blog post on how Sleuth's locking feature can make your DevOps life happier! 
 
