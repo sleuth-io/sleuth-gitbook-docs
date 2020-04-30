@@ -43,6 +43,14 @@ Read team member Don Brown's blog post on how Sleuth's locking feature can make 
 
 The Leaderboard provides a social component to Sleuth by endeavoring developers to deploy faster and smaller. 
 
+**Scoring**
+
+The score of an author is the sum of several categories of scoring:
+
+* **Deploy** - 5 points for each deploy
+* **Author** - 3 points for each deploy in which the author was involved but didn't perform the deploy
+* **Impact** - 2 points for each deploy rated 'Healthy', and 10 for each deploy rated 'Improved'
+
 ## Size
 
 The Size graph displays the overall size of the deploys being committed to the repo in your project. This is a quantitative way to gauge how your team is performing. Although size on its own is not a pure indication of the quality of the code your team is committing, it can help you and your team's goal of deploying smaller and faster. Quality still matters, of course, but maintaining smaller pieces of code and deploying more often makes it easier to scale things back if your application crashes. 
