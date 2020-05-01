@@ -7,7 +7,7 @@ description: >-
 
 # Signing up
 
-Before you get started, you must first [create an account](https://app.sleuth.io/account/signup/). Once that's created, we'll connect to a repo, either GitHub or Bitbucket. 
+Before you ****get started, you must first [create an account](https://app.sleuth.io/account/signup/). Once that's created, we'll connect to a repo, either GitHub or Bitbucket. 
 
 ![](.gitbook/assets/signup-sleuth.png)
 
