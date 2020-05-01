@@ -22,7 +22,7 @@ All the data Sleuth collects about your code deployments is displayed in the Das
 
 * **Size** 🇨 
 
-  This graph gives you a quick way to gauge the overall scope of your deployed changes. 
+  This graph gives you a quick way to gauge the overall scope of your deployed changes. Deploy sizes can be Small, Medium, Large, and Gigantic. Size determination is not absolute; Sleuth analyzes your code repo and 
 
 * **Deploy Cards** 🇩 
 
