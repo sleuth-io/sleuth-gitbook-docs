@@ -23,6 +23,14 @@ Select the code repository from the dropdown and specify the branch that you dep
 
 ![](.gitbook/assets/edit-deployment.png)
 
+### Adding source changes <a id="telling-us-when-you-deploy"></a>
+
+Sleuth uses your code repos and feature flags as its main sources of change. By analyzing past behavior \(i.e., commits, pull requests, issues, feature flags, etc.\) and comparing it with your current deploy, Sleuth helps paint a picture of your entire project's health status, giving you instant feedback on the changes you and your team are making to the code base. 
+
+#### Adding a change source
+
+To add a source of change, first make sure you have the necessary permissions. 
+
 ### Notifying Sleuth when you deploy <a id="telling-us-when-you-deploy"></a>
 
 How does Sleuth know when you have deployed? There are three different ways that Sleuth can be notified: 
