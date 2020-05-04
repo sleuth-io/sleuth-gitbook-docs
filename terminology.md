@@ -7,17 +7,9 @@ description: >-
 
 # Terminology
 
-## Projects
-
-**Projects** are the main entities in Sleuth. They house your code deployments, feature flags, impact sources, and any manual changes you configure. Think of them as the application you're deploying.  
-
 ## Code deployment
 
 **Code deployments** track changes made via source code and the software development surrounding the change. Each deploy collects the **code reviews, issues, code changes and authors** of the change being deployed to your systems. Code can live on either [GitHub](integrations/github.md) or [Bitbucket](integrations/bitbucket.md) repos. 
-
-## Feature flags
-
-Sleuth tracks **feature flags** changes in [LaunchDarkly](integrations/launchdarkly.md) by changing the values of feature flags. Each flag change collects the changes made, who made them, and the state of your other flags and the linked code version deployed at the time of the change. Feature flags are an integral part of software development, and Sleuth tracks them along with other metrics to provide you with a snapshot of your deployments' health. 
 
 ## Impact
 
@@ -31,7 +23,31 @@ Once a commit is performed, Sleuth samples the commit at the moment of deploy, s
 
 Impact is integral to the Sleuth experience, and is one of the main metrics Sleuth computes to provide you with the overall health status of your deploys. 
 
+## Feature flags
 
+Sleuth tracks **feature flags** changes in [LaunchDarkly](integrations/launchdarkly.md) by changing the values of feature flags. Each flag change collects the changes made, who made them, and the state of your other flags and the linked code version deployed at the time of the change. Feature flags are an integral part of software development, and Sleuth tracks them along with other metrics to provide you with a snapshot of your deployments' health. 
+
+## Leaderboard
+
+The Leaderboard provides a social component to Sleuth by endeavoring developers to deploy faster and smaller. 
+
+**Scoring**
+
+The score of an author is the simple sum of several metrics:
+
+* **Deploy** - 5 points for each deploy;
+* **Author** - 3 points for each deploy in which the author was involved but didn't perform the deploy;
+* **Impact** - 2 points for each deploy rated 'Healthy', and 10 for each deploy rated 'Improved'.
+
+## Projects
+
+**Projects** are the main entities in Sleuth. They house your code deployments, feature flags, impact sources, and any manual changes you configure. Think of them as the application you're deploying.  
+
+## Size
+
+The Size graph displays the overall size of the deploys being committed to the repo in your project. This is a quantitative way to gauge how your team is performing. Although size on its own is not a pure indication of the quality of the code your team is committing, it can help you and your team realize the goal of deploying smaller and faster. Quality still matters, of course, but maintaining smaller pieces of code and deploying more often makes it easier to scale things back if your application crashes. 
+
+![Size graph on the Dashboard](.gitbook/assets/screen-shot-2020-04-29-at-2.19.19-pm.png)
 
 
 
