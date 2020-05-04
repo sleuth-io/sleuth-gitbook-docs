@@ -12,4 +12,5 @@
   * [Jira](integrations/jira.md)
   * [Clubhouse](integrations/clubhouse.md)
 * [Terminology](terminology.md)
+* [About](about.md)
 

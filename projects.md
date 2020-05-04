@@ -1,14 +1,14 @@
 ---
 description: >-
-  Sleuth detects the changes that happen between deploys by analyzing commits to
-  your repositories.
+  Sleuth detects the changes that happen between deploys by analyzing the
+  commits, issues, PRs, and number of authors to your repositories.
 ---
 
 # Projects
 
 ## Creating a Project
 
-To configure a project you must link your personal or organization's GitHub or Bitbucket accounts to your Sleuth organization.
+To configure a project you must link your personal or the organization's GitHub or Bitbucket accounts to your Sleuth organization.
 
 To create a new project:
 
@@ -29,7 +29,10 @@ Sleuth uses your code repos and feature flags as its main sources of change. By 
 
 #### Adding a change source
 
-To add a source of change, first make sure you have the necessary permissions. 
+To add a source of change, first make sure you have the necessary permissions. The current sources of change you can add to Sleuth are: 
+
+* GitHub
+* Bitbucket
 
 ### Notifying Sleuth when you deploy <a id="telling-us-when-you-deploy"></a>
 

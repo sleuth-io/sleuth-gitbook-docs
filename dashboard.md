@@ -8,7 +8,7 @@ description: >-
 
 
 
-![The Sleuth Dashboard view](.gitbook/assets/dashboard-callouts.png)
+![](.gitbook/assets/dashboard-with-size.png)
 
 All the data Sleuth collects about your code deployments is displayed in the Dashboard. The Dashboard is composed of the following elements: 
 
