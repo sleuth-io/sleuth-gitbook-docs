@@ -13,11 +13,11 @@ description: >-
 
 ## Code deployment
 
-**Code deployments** track changes made via source code and the software development surrounding the change. Each deploy collects the **code reviews, issues, code changes and authors** of the change being deployed to your systems. Code can live on either [GitHub](integrations/github.md) or [Bitbucket](integrations/bitbucket.md) repos. 
+**Code deployments** track changes made via source code and the software development surrounding the change. Each deploy collects the **code reviews, issues, code changes and authors** of the change being deployed to your systems. Code can live on either [GitHub](integrations-1/change-sources/code-deployment/github.md) or [Bitbucket](integrations-1/change-sources/code-deployment/bitbucket.md) repos. 
 
 ## Feature flags
 
-Sleuth tracks **feature flags** changes in [LaunchDarkly](integrations/launchdarkly.md) by changing the values of feature flags. Each flag change collects the changes made, who made them, and the state of your other flags and the linked code version deployed at the time of the change. Feature flags are an integral part of software development, and Sleuth tracks them along with other metrics to provide you with a snapshot of your deployments' health. 
+Sleuth tracks **feature flags** changes in [LaunchDarkly](integrations-1/change-sources/feature-flags/launchdarkly.md) by changing the values of feature flags. Each flag change collects the changes made, who made them, and the state of your other flags and the linked code version deployed at the time of the change. Feature flags are an integral part of software development, and Sleuth tracks them along with other metrics to provide you with a snapshot of your deployments' health. 
 
 ## Impact
 
@@ -33,7 +33,7 @@ Impact is integral to the Sleuth experience, and is one of the main metrics Sleu
 
 ## Locking
 
- The Lock feature in Sleuth prevents pull requests from merging into main branches, and generates automatic notifications via your Chat Ops [integrations](integrations/) \(e.g., [Slack](integrations/slack.md)\). 
+ The Lock feature in Sleuth prevents pull requests from merging into main branches, and generates automatic notifications via your Chat Ops [integrations]() \(e.g., [Slack](integrations-1/chat-ops/slack.md)\). 
 
 ![Locking a project/deployment is as easy as pressing one button](.gitbook/assets/sleuth-lock-blog-button.png)
 
