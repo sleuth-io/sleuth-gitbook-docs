@@ -11,5 +11,11 @@
   * [Slack](integrations/slack.md)
   * [Jira](integrations/jira.md)
   * [Clubhouse](integrations/clubhouse.md)
+  * [GitLab](integrations/gitlab.md)
+  * [Sentry](integrations/sentry.md)
+  * [Honeybadger](integrations/honeybadger.md)
+  * [Rollbar](integrations/rollbar.md)
+  * [New Relic](integrations/new-relic.md)
+  * [Datadog](integrations/datadog.md)
 * [Terminology](terminology.md)
 

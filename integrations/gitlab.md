@@ -1,4 +1,4 @@
-# Sentry
+# GitLab
 
 Coming soon...
 
