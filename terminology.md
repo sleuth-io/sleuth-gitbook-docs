@@ -57,3 +57,11 @@ The Size graph displays the overall size of the deploys being committed to the r
 
 ![Size graph on the Dashboard](.gitbook/assets/screen-shot-2020-04-29-at-2.19.19-pm.png)
 
+## View Compare
+
+The View Compare function provides a link to the right of the commit hash that opens up the corresponding code repo in Bitbucker, GitHub or GitLab where you can view the changes between differente branches. 
+
+Since the interfaces vary on the various code repository services, consult the documentation for the corresponding service for help on using the compare function. 
+
+![](.gitbook/assets/view-compare-arrow.png)
+
