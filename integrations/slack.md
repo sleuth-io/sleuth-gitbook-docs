@@ -4,7 +4,7 @@
 
 Keep your teams and other principals informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. No more bloated distribution lists, and bombarding your team with a barrage of emails. Use Slack's powerful communications features to keep development teams informed about your code deploys, and your entire organization up to date on progress.
 
-Agile teams will spend most of their time viewing the Sleuth [Dashboard]() to get the granular detail they need to stay informed on the status of deploys, impact, magnitude, and the breadth and scope of information Sleuth provides. Other members of your organization, however, might only want a quick update on your team's progress without getting in the weeds; the Big Picture view🖼. Slack messages provide just that—automated, easily-digestable messages where they can view: 
+Agile teams will spend most of their time viewing the Sleuth [Dashboard](../dashboard.md) to get the granular detail they need to stay informed on the status of deploys, impact, magnitude, and the breadth and scope of information Sleuth provides. Other members of your organization, however, might only want a quick update on your team's progress without getting in the weeds; the Big Picture view🖼. Slack messages provide just that—automated, easily-digestable messages where they can view: 
 
 * when your deploy occurred; 
 * what was deployed; 
@@ -12,7 +12,7 @@ Agile teams will spend most of their time viewing the Sleuth [Dashboard]() to ge
 * how big the deploy was; 
 * the commit hash; 
 * how many commits, PRs, issues, and changes were in the deploy; 
-* any [Jira]() issues associated with the deploy; and
+* any [Jira](jira.md) issues associated with the deploy; and
 * a link to the Sleuth deploy card, where even more information is available.  
 
 ![Sleuth bot-generated Slack notification](../.gitbook/assets/slack-channel-deploy-message_2.png)
