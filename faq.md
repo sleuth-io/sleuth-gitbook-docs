@@ -1,6 +1,6 @@
 # FAQ
 
-## How should I represent my environments in Sleuth?
+## How should I represent my Environments in Sleuth?
 
 Currently, the way to represent your Environments in Sleuth is to model them as Projects. 
 
