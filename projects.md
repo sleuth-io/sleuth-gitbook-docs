@@ -39,7 +39,9 @@ Ping us with a Git commit sha or tag to mark your deploy by making a POST to Sle
 curl -X POST -d api_key=YOUR_API_KEY -d sha=YOUR_SHA https://sleuth.io/api/1/ORG_NAME/PROJECT_NAME/register_deploy
 ```
 
-Make sure to replace `YOUR_API_KEY`, `YOUR_SHA`, `ORG_NAME` and `PROJECT_NAME` with your actual information.
+Make sure to replace `YOUR_API_KEY`, `YOUR_SHA`, `ORG_NAME` and `PROJECT_NAME` with your actual information. You can find your API Key in **Organization Settings** &gt; **Details** &gt; **Api key**. 
+
+![Sleuth API key](.gitbook/assets/screen-shot-2020-05-06-at-9.29.52-pm.png)
 
 **You can find `YOUR_SHA` with the commands:**
 
