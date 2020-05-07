@@ -7,7 +7,53 @@ description: >-
 
 # Terminology
 
-## Projects
+## Information Architecture \(IA\)
+
+Sleuth can help you track the health and status of your deploys by providing a single of pane of glass through which you can view all of your change and impact sources. The Sleuth information architecture terms should already be familiar to you, since we use industry-standard CI/CD nomenclature. 
+
+
+
+![The Sleuth Information Architecture](.gitbook/assets/sleuth_ia_graphic.png)
+
+In Sleuth you create a **Project** container, which houses all the necessary **Environments** your team might need to create, develop and test your applications. These Enviroments might include production, staging, development, and could even account for different deployment strategies such as canary, blue/green, etc. 
+
+Once you've created and configured the various Environments within your Project, you can start adding connections to your **Change Sources** and **Impact Sources** \(see [Integrations](integrations-1/about-integrations....md) for more information on connecting Change Sources and Impact Sources\). 
+
+Sleuth tracks Change Sources, such as **Code Deployments**, **Feature Flags**, and **Infrastructure**, and constantly analyzes the information they contain to capture the state of your code before, during, and after deploys. Additionally, Sleuth intakes information provided by various Impact Sources, such as **Error Rates**, **Uptime**, and **Other SLIs**. 
+
+## Dashboard
+
+Combining Impact Source information with Change Source data is what drives the information you see on the Sleuth Dashboard. 
+
+You can instantly see the impact of your deploys on your entire project environment over a period of time by viewing the Trend Graph; for detailed information on individual deploys you can view a deploy card \(see below\). 
+
+{% hint style="info" %}
+You can view a live version of the Sleuth Dashboard at [https://app.sleuth.io/sleuth/sleuth](https://app.sleuth.io/sleuth/sleuth).   
+It's what the Sleuth team uses everyday to make **awesome**! ✨ 
+{% endhint %}
+
+## Deploy cards
+
+By viewing a deploy card, you can: 
+
+* see who authored the deploy and how many PRs/commits/issues/files were in the deploy; 
+* instantly view the pull request in whichever repository it resides in \([GitHub](integrations-1/change-sources/code-deployment/github.md) or [Bitbucket](integrations-1/change-sources/code-deployment/bitbucket.md), for example\);
+* know when the deploy occurred; 
+* get an objective, historical assessment of your project's health __\(_Unhealthy_, _Ailing_, _Healthy_, _Improved_\); and
+* know how large or small of an impact the deploy had on your project overall. 
+
+![A Sleuth deploy card showing detailed information about a single deploy](.gitbook/assets/deploy-tracking.png)
+
+To get more information about a deploy, you can:
+
+* Click on the card title to view all the PRs, commits, issues, files, impact and authors of the deploy; or
+* Click on any of the PRs that comprised the deploy to view the deployed code in its corresponding repo.
+
+## Size
+
+Another significant metric assessment Sleuth provides is **Size**. The Size chart shows you how many large versus small deploys you have committed to your repos \(changes can be _Small_, _Medium_, _Large_, or _Gigantic_\). Since the overall goal of solid CI/CD practice is to deploy small and deploy often, the Size chart gives you instant insight into whether you're _continuously deploying_ small, effective changes to your repositories instead of occasional _gigantic_, unstable changes, which could prove problematic if a rollback is necessary when a change proves fatal to your application. 
+
+![](.gitbook/assets/screen-shot-2020-04-29-at-2.19.19-pm.png)
 
 **Projects** are the main entities in Sleuth. They house your code deployments, feature flags, impact sources, and any manual changes you configure. Think of them as the application you're deploying.  
 

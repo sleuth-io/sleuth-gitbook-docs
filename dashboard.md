@@ -1,12 +1,10 @@
 ---
-description: >-
-  Get a 30,000-foot view of your DevOps environment in the Sleuth Project
-  Dashboard.
+description: 'Get a 30,000-foot view of your DevOps environment on the Sleuth Dashboard.'
 ---
 
 # Dashboard
 
-
+The **Dashboard** is Sleuth's command central. Sleuth aggregates all of the data your disparate tools generate and presents it to you in a clean, easy-to-use interface, as shown below. 
 
 ![](.gitbook/assets/dashboard-with-size.png)
 
@@ -20,13 +18,13 @@ All the data Sleuth collects about your code deployments is displayed in the Das
 
   A visual representation of the changes that have have been made over the selected time range.
 
-* **Magnitude** 🇨 
+* **Size/Leaderboard** 🇨 
 
-  This graph gives you a quick way to gauge the overall scope of your deployed changes. 
+  The [**Size**](terminology.md#size) graph gives you a quick way to see the average size of your deployments. The [**Leaderboard**](terminology.md#leaderboard) gamifies a team's deployment frequency, motivating you and your peers to make smaller deployments faster. 
 
-* **Deploys** 🇩 
+* **Deploy Card** 🇩 
 
-  A running list of your deploys, shown in chronological order. Direct links are provided to the corresponding repos, allowing you to quickly see what changes were made. The magnitude of the deploy is displayed. Collectively, the magnitude of your deploys over the displayed time range impacts the magnitude graph.
+  A running list of your deploys, shown in chronological order. Direct links are provided to the corresponding repos, allowing you to quickly see what changes were made. The size of the deploy is also displayed. Collectively, the size of your deploys over the displayed time range impacts the size graph. Clicking on the commit hash will display more detailed information about all the events leading up to the deploy. [Learn more](terminology.md#deploy-cards) about deploy cards. 
 
 * **Change Sources** 🇪 All of the sources of change connected to your project are displayed here. Collectively, all of the change sources combined drive the data shown in the main Trend Graph🇧.
 
