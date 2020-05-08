@@ -1,6 +1,6 @@
 # Projects
 
-## Creating a Project
+## Creating a project
 
 To configure a project you must link your personal or the organization's GitHub or Bitbucket accounts to your Sleuth organization.
 
