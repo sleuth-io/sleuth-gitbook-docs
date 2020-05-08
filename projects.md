@@ -15,13 +15,11 @@ To create a new project:
 1. Click **Create**. 
 2. Click **Create project**.
 
-![](.gitbook/assets/create-new-project%20%281%29.png)
-
+{% hint style="info" %}
 To track deploys we must have access to the code you deploy. In order to access all of your commit, issue and pull request information, we need to authorize with a **full read and write** scope of your Github or Bitbucket repo.
+{% endhint %}
 
 Select the code repository from the dropdown and specify the branch that you deploy from. Sleuth will initialize the project with your last commit until further deploys are detected. 
-
-![](.gitbook/assets/edit-deployment.png)
 
 ### Notifying Sleuth when you deploy <a id="telling-us-when-you-deploy"></a>
 
