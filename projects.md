@@ -14,37 +14,35 @@ To create a new project:
 
 1. Click **Create**. 
 2. Click **Create project**.
+3. **Name** your project and give it a description, if desired. 
 
-![](.gitbook/assets/create-new-project%20%281%29.png)
+To track deployments, **Sleuth must have access** to the code you deploy. In order to access all of your commist, issues and pull request information, Sleuth needs to authorize with a **full read and write** scope of your code repository and most other change sources. 
 
-To track deploys we must have access to the code you deploy. In order to access all of your commit, issue and pull request information, we need to authorize with a **full read and write** scope of your Github or Bitbucket repo.
+**Select the code repository** from the dropdown and specify the branch that you deploy from. Sleuth will initialize the project with your last commit until further deploys are detected. 
 
-Select the code repository from the dropdown and specify the branch that you deploy from. Sleuth will initialize the project with your last commit until further deploys are detected. 
+### Change sources <a id="telling-us-when-you-deploy"></a>
 
-![](.gitbook/assets/edit-deployment.png)
-
-### Adding source changes <a id="telling-us-when-you-deploy"></a>
-
-Sleuth uses your code repos and feature flags as its main sources of change. By analyzing past behavior \(i.e., commits, pull requests, issues, feature flags, etc.\) and comparing it with your current deploy, Sleuth helps paint a picture of your entire project's health status, giving you instant feedback on the changes you and your team are making to the code base. 
+Sleuth uses your code repos as its main sources of change. By analyzing past behavior \(i.e., commits, pull requests, issues, feature flags, etc.\) and comparing it with your current and future deploys, Sleuth paints a picture of your entire project's health status, giving you instant feedback on the changes you and your team are making to the code base. Sleuth can also look at feature flags and infrastructure environments, and provide you with actionable metrics for those platforms. 
 
 #### Adding a change source
 
-To add a source of change, first make sure you have the necessary permissions. The current sources of change you can add to Sleuth are: 
+To add a source of change, first make sure you have the necessary permissions. 
 
-* GitHub
-* Bitbucket
+{% hint style="info" %}
+See [Change Sources](integrations-1/change-sources/) to see which sources of change Sleuth supports. 
+{% endhint %}
 
 ### Notifying Sleuth when you deploy <a id="telling-us-when-you-deploy"></a>
 
 How does Sleuth know when you have deployed? There are three different ways that Sleuth can be notified: 
 
-1. [Manually](projects.md#manually-registering-your-deploy).
-2. [Automatically tracking by push](projects.md#automatic-tracking-for-each-push-to-the-configured-branch).
-3. [Automatically tracking by tag](projects.md#automatic-tracking-for-each-tag-made-against-the-configured-branch). 
+* [Manually](projects.md#manually-registering-your-deploy)
+* [Automatically tracking by push](projects.md#automatic-tracking-for-each-push-to-the-configured-branch)
+* [Automatically tracking by tag](projects.md#automatic-tracking-for-each-tag-made-against-the-configured-branch)
 
 #### Manually registering your deploy
 
-Ping us with a Git commit sha or tag to mark your deploy by making a POST to Sleuth.
+Ping Sleuth with a Git commit SHA or tag to mark your deploy by making a POST request, like so:
 
 ```text
 curl -X POST -d api_key=YOUR_API_KEY -d sha=YOUR_SHA https://sleuth.io/api/1/ORG_NAME/PROJECT_NAME/register_deploy
@@ -96,5 +94,5 @@ With the project selected, click on the gear icon and select **Edit Project**.
 
 ![](.gitbook/assets/edit-project-detail.png)
 
-Here you can change the project name or add a description.
+Here, on the **Edit Project** dialog, you can change the **project name** or add a **description**.
 
