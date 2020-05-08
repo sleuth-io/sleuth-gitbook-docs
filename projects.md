@@ -1,9 +1,3 @@
----
-description: >-
-  Sleuth detects the changes that happen between deploys by analyzing the
-  commits, issues, PRs, and number of authors to your repositories.
----
-
 # Projects
 
 ## Creating a Project
@@ -14,7 +8,7 @@ To create a new project:
 
 1. Click **Create**. 
 2. Click **Create project**.
-3. **Name** your project and give it a description, if desired. 
+3. **Name** your project and give it a **description**, if desired. 
 
 To track deployments, **Sleuth must have access** to the code you deploy. In order to access all of your commist, issues and pull request information, Sleuth needs to authorize with a **full read and write** scope of your code repository and most other change sources. 
 
