@@ -1,7 +1,7 @@
 ---
 description: >-
-  Sleuth detects the changes that happen between deploys by analyzing commits to
-  your repositories.
+  Projects house the code deployments, feature flags, and sources of change for
+  your code repositories. You can create and manage multiple projects.
 ---
 
 # Projects
