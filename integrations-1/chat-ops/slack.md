@@ -54,9 +54,9 @@ Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to 
 This section is under construction. 
 {% endhint %}
 
-Slack integration is setup and configured in a Sleuth organization. Any projects created within the Sleuth organization have access to the configured Slack space. This enables Slack notifications to be broadcast to anyone authorized to access the space. When a channel is configured with a Sleuth project, anyone who follows that Slack channel will receive all messages sent to that channel. 
+Slack integration is setup and configured in a Sleuth organization. All Sleuth projects created within the Sleuth organization have access to the configured Slack space. This enables Slack notifications to be **broadcast to everyone** who has access to the Slack space. When a channel is configured with a Sleuth project, anyone who follows that Slack channel will receive all messages sent to that channel. 
 
-Sleuth can also be setup to send individual Slack messages. For example, instead of notifying the entire team of a commit or pull request or a locked repo, you might only want to notify the author \(or all authors who made a commit to the repo\) or the individual who performed the merge. 
+Sleuth can also be setup to send **individual Slack messages**. For example, instead of broadcasting a message to all channel subscribers of a commit, pull request or a locked repo, you might only want to notify the author \(or all authors who made a commit to the repo\) or the individual who performed the merge. 
 
 Notifications &gt; Configure Slack Notification
 
