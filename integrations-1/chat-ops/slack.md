@@ -48,15 +48,17 @@ Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to 
 
 * Sleuth will now use Slack to relay important deploy information to your team. 
 
-## Slack Messaging Details
+### Setting up Slack notifications
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 This section is under construction. 
 {% endhint %}
 
-You can configure how Sleuth sends notifications in Slack. You can communicate to your entire team or just an individual; you can broadcast every single deploy or only when a repo is locked.
+Slack integration is setup and configured in a Sleuth organization. Any projects created within the Sleuth organization have access to the configured Slack space. This enables Slack notifications to be broadcast to anyone authorized to access the space. When a channel is configured with a Sleuth project, anyone who follows that Slack channel will receive all messages sent to that channel. 
 
- Notifications &gt; Configure Slack Notification
+Sleuth can also be setup to send individual Slack messages. For example, instead of notifying the entire team of a commit or pull request or a locked repo, you might only want to notify the author \(or all authors who made a commit to the repo\) or the individual who performed the merge. 
+
+Notifications &gt; Configure Slack Notification
 
 Team: Select the Slack channel \(team\); autocomplete \(no need for the hash\);
 
@@ -66,7 +68,9 @@ Manage Account &gt; Account Settings &gt; Identities
 
 Deploy where you are the Author; code deploys only and author of any commits or you're the one who pressed Merge. Notification is list of your code changes. List of their own PRs or own commits \(if you pressed Merge only the commit PR; only 6 maximum even if there's more information\) 
 
-GOTCHA: personal messages we have to know who the person is on GitHub ; have to be Sleuth user, not just on Github \(they have to click the Connect button\); we have to know 
+{% hint style="warning" %}
+Recipients of individual Slack messages from the Sleuth bot must be registered both in your code repo \(i.e., GitHub, Bitbucket, GitLab, etc.\) and  in Sleuth. 
+{% endhint %}
 
 Your Aliases for Github are shown if Sleuth knows who are 
 
