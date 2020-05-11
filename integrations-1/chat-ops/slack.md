@@ -4,7 +4,7 @@
 
 Keep your teams and other principals informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. No more bloated distribution lists, and bombarding your team with a barrage of emails. Use Slack's powerful communications features to keep development teams informed about your code deploys, and your entire organization up to date on progress.
 
-Agile teams will spend most of their time viewing the Sleuth [Dashboard]() to get the granular detail they need to stay informed on the status of deploys, impact, magnitude, and the breadth and scope of information Sleuth provides. Other members of your organization, however, might only want a quick update on your team's progress without getting in the weeds; the Big Picture view🖼. Slack messages provide just that—automated, easily-digestable messages where they can view: 
+Agile teams will spend most of their time viewing the Sleuth [Dashboard](../../dashboard.md) to get the granular detail they need to stay informed on the status of deploys, impact, magnitude, and the breadth and scope of information Sleuth provides. Other members of your organization, however, might only want a quick update on your team's progress without getting in the weeds; the Big Picture view🖼. Slack messages provide just that—automated, easily-digestable messages where they can view: 
 
 * when your deploy occurred; 
 * what was deployed; 
@@ -24,7 +24,7 @@ A Jira integration is required to view associated Jira issues within automated S
 Before you start, you should already have a Slack account. Additionally, you should create channels that you plan to use for messaging in Slack before setting up the integration in Sleuth. Sleuth will ask for the Slack channel where it should send its messages to. You can have as many channels as needed. You might have different audiences, who might have different needs. Your developers might want a channel that communicates every deploy; your CTO, on the other hand, might want a quieter channel that only communicates Unhealthy deploys, which could signal a problem. But no news is good news, right? 📰 
 
 {% hint style="info" %}
-Don't forget to set the security on your Slack channels, to either Public or Private. If you select Private, you will need to invite the Sleuth "bot" to the channel first. 
+Don't forget to set the security on your Slack channels, to either **Public** or **Private**. If you select **Private**, you will need to invite the Sleuth "bot" to the channel first. 
 {% endhint %}
 
 To add the Slack integration:
@@ -33,8 +33,7 @@ To add the Slack integration:
 * Click **connect** in the Slack Chat Ops card. 
 
 {% hint style="info" %}
-You must add Sleuth as an Authorized Application in Slack.  
-For more information, [read the Slack documentation](https://api.slack.com).
+You must add Sleuth as an Authorized Application in Slack. For more information, [read the Slack documentation](https://api.slack.com).
 {% endhint %}
 
 * The Slack logo in the Change Source card will turn green when the integration is successful. 
@@ -48,4 +47,34 @@ Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to 
 {% endhint %}
 
 * Sleuth will now use Slack to relay important deploy information to your team. 
+
+## Slack Messaging Details
+
+{% hint style="warning" %}
+This section is under construction. 
+{% endhint %}
+
+You can configure how Sleuth sends notifications in Slack. You can communicate to your entire team or just an individual; you can broadcast every single deploy or only when a repo is locked.
+
+ Notifications &gt; Configure Slack Notification
+
+Team: Select the Slack channel \(team\); autocomplete \(no need for the hash\);
+
+Individual: Connect Slack ID, then Sleuth can send personal messages 
+
+Manage Account &gt; Account Settings &gt; Identities
+
+Deploy where you are the Author; code deploys only and author of any commits or you're the one who pressed Merge. Notification is list of your code changes. List of their own PRs or own commits \(if you pressed Merge only the commit PR; only 6 maximum even if there's more information\) 
+
+GOTCHA: personal messages we have to know who the person is on GitHub ; have to be Sleuth user, not just on Github \(they have to click the Connect button\); we have to know 
+
+Your Aliases for Github are shown if Sleuth knows who are 
+
+Slack You are connected as USERNAME
+
+Fine Tune Notifications
+
+Receive personal Slack messages \(only Individual\)
+
+Only Deployed Code \(All or Exclude my deployments\) includes Commit or PR
 
