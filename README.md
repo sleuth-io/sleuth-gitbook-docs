@@ -2,7 +2,7 @@
 
 Sleuth is a deployment tracker that helps you move fast without breaking things. It only takes a few minutes to connect Sleuth to a change source and start analyzing the health of your code. 
 
-A change source can be a code deployment on GitHub, feature flags on LaunchDarkly, or issues on Jira, with many other integrations available. 
+A change source can be a code deployment on GitHub/Bitbucket/GitLab; feature flags on LaunchDarkly; or issues on Jira/Clubhouse, with many other integrations available. 
 
 To get started with Sleuth: 
 
@@ -12,7 +12,7 @@ To get started with Sleuth:
 4. **Connect your integrations.** These are change sources, chat ops, issue trackers, or error trackers. Make sure you have access credentials for these services; Sleuth will need to connect and make the integration. If you're part of an organization that has already setup a Sleuth environment and your email address uses the same domain, your integrations might already be connected. 
 5. **Add a change source.** These code deployments can be a code repo on GitHub, feature flags on LaunchDarkly, or infrastructure on AWS. As in step 4, make sure you have access credentials for these services handy. 
 
-If you haven't already signed up for a Sleuth account, [you'll need to do that first](./). Otherwise, let's continue by connecting Sleuth to a code repo. 
+If you haven't already signed up for a Sleuth account, [you'll need to do that first](./). Otherwise, let's continue by connecting Sleuth to a code repo. Click through tabs 1 thought 6 below: 
 
 {% tabs %}
 {% tab title="Step 1" %}

@@ -20,11 +20,11 @@ All the data Sleuth collects about your code deployments is displayed in the Das
 
 * **Size/Leaderboard** 🇨 
 
-  The [**Size**](terminology.md#size) graph gives you a quick way to see the average size of your deployments. The [**Leaderboard**](terminology.md#leaderboard) gamifies a team's deployment frequency, motivating you and your peers to make smaller deployments faster. 
+  The [**Size**](integrations-1/terminology.md#size) graph gives you a quick way to see the average size of your deployments. The [**Leaderboard**](integrations-1/terminology.md#leaderboard) gamifies a team's deployment frequency, motivating you and your peers to make smaller deployments faster. 
 
 * **Deploy Card** 🇩 
 
-  A running list of your deploys, shown in chronological order. Direct links are provided to the corresponding repos, allowing you to quickly see what changes were made. The size of the deploy is also displayed. Collectively, the size of your deploys over the displayed time range impacts the size graph. Clicking on the commit hash will display more detailed information about all the events leading up to the deploy. [Learn more](terminology.md#deploy-cards) about deploy cards. 
+  A running list of your deploys, shown in chronological order. Direct links are provided to the corresponding repos, allowing you to quickly see what changes were made. The size of the deploy is also displayed. Collectively, the size of your deploys over the displayed time range impacts the size graph. Clicking on the commit hash will display more detailed information about all the events leading up to the deploy. [Learn more](integrations-1/terminology.md#deploy-cards) about deploy cards. 
 
 * **Change Sources** 🇪 All of the sources of change connected to your project are displayed here. Collectively, all of the change sources combined drive the data shown in the main Trend Graph🇧.
 

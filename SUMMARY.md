@@ -31,7 +31,7 @@
   * [Clubhouse](integrations-1/issue-trackers/clubhouse.md)
   * [Jira](integrations-1/issue-trackers/jira.md)
 * [Manual Changes](integrations-1/manual-changes.md)
-* [FAQ](faq.md)
-* [Terminology](terminology.md)
-* [About](about.md)
+* [FAQ](integrations-1/faq.md)
+* [Terminology](integrations-1/terminology.md)
+* [About](integrations-1/about.md)
 
