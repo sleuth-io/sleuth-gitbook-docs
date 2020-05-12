@@ -61,9 +61,7 @@ Both team and one-to-one notifications can be configured in Slack. For example, 
 
 ## Let's get you started! 
 
-If you haven't already signed up for a Sleuth account, [you'll need to do that first](./). Otherwise, let's continue by connecting Sleuth to a code repo. 
-
- 
+If you haven't already signed up for a Sleuth account, [you'll need to do that first](./). Otherwise, let's continue by connecting Sleuth to a code repo. Click through tabs 1 thought 6 below:
 
 {% tabs %}
 {% tab title="Step 1" %}
@@ -118,8 +116,6 @@ You can also configure your organization so that anyone signing up with an email
 You can now start seeing your code in [the Sleuth Dashboard](dashboard.md). Happy deploying! 
 {% endtab %}
 {% endtabs %}
-
-
 
 
 
