@@ -1,7 +1,7 @@
 ---
 description: >-
   Deployment tracking for moving fast without breaking things. Sleuth tracks and
-  reports on deploys by tracking the difference between revisions in your code
+  reports on deploys by analyzing the difference between revisions in your code
   repository.
 ---
 
@@ -11,5 +11,5 @@ Before you ****get started, you must first [create an account](https://app.sleut
 
 ![](.gitbook/assets/signup-sleuth.png)
 
-If you already have a Google, GitHub or Bitbucket account, you can sign up with those instead. After you have successfully logged in, you can get started by creating your first Sleuth Project.
+If you already have a Google, GitHub or Bitbucket account, you can sign up with those instead. After you have successfully logged in, you can get started by creating your first Sleuth [Project](projects.md#creating-a-project).
 
