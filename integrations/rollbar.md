@@ -1,4 +1,0 @@
-# Rollbar
-
-Coming soon...
-

@@ -1,12 +1,10 @@
 ---
-description: >-
-  Get a 30,000-foot view of your DevOps environment in the Sleuth Project
-  Dashboard.
+description: 'Get a 30,000-foot view of your DevOps environment on the Sleuth Dashboard.'
 ---
 
 # Dashboard
 
-
+The **Dashboard** is Sleuth's command central. Sleuth aggregates all of the data your disparate tools generate and presents it to you in a clean, easy-to-use interface, as shown below. 
 
 ![](.gitbook/assets/dashboard-with-size.png)
 
@@ -20,14 +18,13 @@ All the data Sleuth collects about your code deployments is displayed in the Das
 
   A visual representation of the changes that have have been made over the selected time range.
 
-* **Size** 🇨 
+* **Size/Leaderboard** 🇨 
 
-  This graph gives you a quick way to gauge the overall scope of your deployed changes. Deploy sizes can be Small, Medium, Large, and Gigantic. Size determination is not absolute; Sleuth analyzes your code repo and 
+  The [**Size**](integrations-1/terminology.md#size) graph gives you a quick way to see the average size of your deployments. The [**Leaderboard**](integrations-1/terminology.md#leaderboard) gamifies a team's deployment frequency, motivating you and your peers to make smaller deployments faster. 
 
-* **Deploy Cards** 🇩 
+* **Deploy Card** 🇩 
 
-  A running list of your deploys, shown in chronological order. Direct links are provided to the corresponding repos, allowing you to quickly see what changes were made. The size of the deploy is displayed. Collectively, the size of your deploys over the displayed time range impacts the Size graph.   
-  The **Timeline** also provides detailed information on all the activities leading up to a deploy. Hovering over the timeline bubbles will display the activity; the icons indicate the activity, such as commits, issues, pull requests, and so on. 
+  A running list of your deploys, shown in chronological order. Direct links are provided to the corresponding repos, allowing you to quickly see what changes were made. The size of the deploy is also displayed. Collectively, the size of your deploys over the displayed time range impacts the size graph. Clicking on the commit hash will display more detailed information about all the events leading up to the deploy. [Learn more](integrations-1/terminology.md#deploy-cards) about deploy cards. 
 
 * **Change Sources** 🇪 All of the sources of change connected to your project are displayed here. Collectively, all of the change sources combined drive the data shown in the main Trend Graph🇧.
 
