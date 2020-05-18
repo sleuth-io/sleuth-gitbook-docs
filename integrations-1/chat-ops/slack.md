@@ -12,7 +12,7 @@ Agile teams will spend most of their time viewing the Sleuth [Dashboard](../../d
 * how big the deploy was; 
 * the commit hash; 
 * how many commits, PRs, issues, and changes were in the deploy; 
-* any [Jira]() issues associated with the deploy; and
+* any [Jira](../issue-trackers/jira.md) issues associated with the deploy; and
 * a link to the Sleuth deploy card, where even more information is available.  
 
 ![Sleuth bot-generated Slack notification](../../.gitbook/assets/slack-channel-deploy-message_2.png)
