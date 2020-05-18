@@ -47,3 +47,5 @@ Integrations are separated by the base utility they provide:
 
 ### Manual Changes
 
+Manual changes allow you to enter just about anything into the Sleuth Dashboard as a change source. [Read](manual-changes.md) more about it. 
+
