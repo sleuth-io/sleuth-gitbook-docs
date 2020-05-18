@@ -50,35 +50,11 @@ Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to 
 
 ### Setting up Slack notifications
 
-{% hint style="danger" %}
-This section is under construction. 
-{% endhint %}
-
 Slack integration is setup and configured in a Sleuth organization. All Sleuth projects created within the Sleuth organization have access to the configured Slack space. This enables Slack notifications to be **broadcast to everyone** who has access to the Slack space. When a channel is configured with a Sleuth project, anyone who follows that Slack channel will receive all messages sent to that channel. 
 
-Sleuth can also be setup to send **individual Slack messages**. For example, instead of broadcasting a message to all channel subscribers of a commit, pull request or a locked repo, you might only want to notify the author \(or all authors who made a commit to the repo\) or the individual who performed the merge. 
-
-Notifications &gt; Configure Slack Notification
-
-Team: Select the Slack channel \(team\); autocomplete \(no need for the hash\);
-
-Individual: Connect Slack ID, then Sleuth can send personal messages 
-
-Manage Account &gt; Account Settings &gt; Identities
-
-Deploy where you are the Author; code deploys only and author of any commits or you're the one who pressed Merge. Notification is list of your code changes. List of their own PRs or own commits \(if you pressed Merge only the commit PR; only 6 maximum even if there's more information\) 
+Sleuth can also be setup to send **individual Slack messages**. For example, instead of broadcasting a message to all channel subscribers of a commit, pull request or a locked repo, you might only want to notify the author \(or all authors who made at least one commit\), or only the individual who initiated the deploy. 
 
 {% hint style="warning" %}
-Recipients of individual Slack messages from the Sleuth bot must be registered both in your code repo \(i.e., GitHub, Bitbucket, GitLab, etc.\) and  in Sleuth. 
+To receive messages from the Sleuth bot, recipients must be registered both in your code repo \(i.e., GitHub, Bitbucket, etc.\) and also in Sleuth. 
 {% endhint %}
-
-Your Aliases for Github are shown if Sleuth knows who are 
-
-Slack You are connected as USERNAME
-
-Fine Tune Notifications
-
-Receive personal Slack messages \(only Individual\)
-
-Only Deployed Code \(All or Exclude my deployments\) includes Commit or PR
 
