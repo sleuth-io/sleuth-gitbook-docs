@@ -42,7 +42,11 @@ Ping Sleuth with a Git commit SHA or tag to mark your deploy by making a POST re
 curl -X POST -d api_key=YOUR_API_KEY -d sha=YOUR_SHA https://sleuth.io/api/1/ORG_NAME/PROJECT_NAME/register_deploy
 ```
 
-Make sure to replace `YOUR_API_KEY`, `YOUR_SHA`, `ORG_NAME` and `PROJECT_NAME` with your actual information.
+Make sure to replace `YOUR_API_KEY`, `YOUR_SHA`, `ORG_NAME` and `PROJECT_NAME` with your actual information. You can find your API Key in **Organization Settings** &gt; **Details** &gt; **Api key**. 
+
+![Sleuth API key](.gitbook/assets/screen-shot-2020-05-06-at-9.29.52-pm.png)
+
+\*\*\*\*
 
 **You can find `YOUR_SHA` with the commands:**
 
@@ -53,13 +57,13 @@ git rev-parse HEAD
 
 #### Automatic tracking for each push to the configured branch
 
-When this option is selected Sleuth will add a POST-commit hook to your repository on GitHub or Bitbucket.
+When this option is selected Sleuth will add a POST-commit hook to your repository.
 
 This will ping Sleuth every time a commit is made. When we detect a commit against your projects branch we'll register a new deploy.
 
 #### Automatic tracking for each tag made against the configured branch
 
-When this option is selected, Sleuth will add a POST-commit hook to your repository on Bitbucket or GitHub.
+When this option is selected, Sleuth will add a POST-commit hook to your repository.
 
 This will ping Sleuth every time a commit is made. When we detect a tag against your projects branch, Sleuth will register a new deploy.
 
