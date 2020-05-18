@@ -1,4 +1,0 @@
-# New Relic
-
-Coming soon...
-

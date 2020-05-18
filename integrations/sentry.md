@@ -1,4 +1,0 @@
-# Sentry
-
-Coming soon...
-
