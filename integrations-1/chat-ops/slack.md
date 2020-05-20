@@ -4,7 +4,7 @@
 
 Keep your teams and other principals informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. No more bloated distribution lists, and bombarding your team with a barrage of emails. Use Slack's powerful communications features to keep development teams informed about your code deploys, and your entire organization up to date on progress.
 
-Agile teams will spend most of their time viewing the Sleuth [Dashboard](../../dashboard.md) to get the granular detail they need to stay informed on the status of deploys, impact, magnitude, and the breadth and scope of information Sleuth provides. Other members of your organization, however, might only want a quick update on your team's progress without getting in the weeds; the Big Picture view🖼. Slack messages provide just that—automated, easily-digestable messages where they can view: 
+Agile teams will spend most of their time viewing the [Dashboard](../../dashboard.md) to get the granular detail they need to stay informed on the status of deploys, impact, magnitude, and the breadth and scope of information Sleuth provides. Other members of your organization, however, might only want a quick update on your team's progress without getting in the weeds; the Big Picture view. Slack messages provide just that—automated, easily-digestable messages where they can view: 
 
 * when your deploy occurred; 
 * what was deployed; 
@@ -18,37 +18,10 @@ Agile teams will spend most of their time viewing the Sleuth [Dashboard](../../d
 ![Sleuth bot-generated Slack notification](../../.gitbook/assets/slack-channel-deploy-message_2.png)
 
 {% hint style="info" %}
-A Jira integration is required to view associated Jira issues within automated Slack messages from Sleuth.  
+A [Jira integration](../issue-trackers/jira.md) is required to view associated Jira issues in automated Slack messages from Sleuth.  
 {% endhint %}
 
-Before you start, you should already have a Slack account. Additionally, you should create channels that you plan to use for messaging in Slack before setting up the integration in Sleuth. Sleuth will ask for the Slack channel where it should send its messages to. You can have as many channels as needed. You might have different audiences, who might have different needs. Your developers might want a channel that communicates every deploy; your CTO, on the other hand, might want a quieter channel that only communicates Unhealthy deploys, which could signal a problem. But no news is good news, right? 📰 
-
-{% hint style="info" %}
-Don't forget to set the security on your Slack channels, to either **Public** or **Private**. If you select **Private**, you will need to invite the Sleuth "bot" to the channel first. 
-{% endhint %}
-
-To add the Slack integration:
-
-* Click **Integrations** in the sidebar.
-* Click **connect** in the Slack Chat Ops card. 
-
-{% hint style="info" %}
-You must add Sleuth as an Authorized Application in Slack. For more information, [read the Slack documentation](https://api.slack.com).
-{% endhint %}
-
-* The Slack logo in the Change Source card will turn green when the integration is successful. 
-
-![](../../.gitbook/assets/slack-integration-connected.png)
-
-* The Slack integration is done at the Organization level. Since multiple Projects can exist within an Organization, you'll want to go in to each Project and configure notifications individually.  Create your Slack channels first before configuring the notifications in the Sleuth Projects; you can't create a new channel from Sleuth if it doesn't yet exist within Slack. 
-
-{% hint style="info" %}
-Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
-{% endhint %}
-
-* Sleuth will now use Slack to relay important deploy information to your team. 
-
-### Setting up Slack notifications
+Before you start, you should already have a Slack account. Additionally, you should create channels that you plan to use for messaging in Slack before setting up the integration. Sleuth will ask for the Slack channel where it should send its messages to. You can create as many channels necessary to target various groups or individuals. You might have different audiences, who might have different needs. 
 
 Slack integration is setup and configured in a Sleuth organization. All Sleuth projects created within the Sleuth organization have access to the configured Slack space. This enables Slack notifications to be **broadcast to everyone** who has access to the Slack space. When a channel is configured with a Sleuth project, anyone who follows that Slack channel will receive all messages sent to that channel. 
 
@@ -57,4 +30,52 @@ Sleuth can also be setup to send **individual Slack messages**. For example, ins
 {% hint style="warning" %}
 To receive messages from the Sleuth bot, recipients must be registered both in your code repo \(i.e., GitHub, Bitbucket, etc.\) and also in Sleuth. 
 {% endhint %}
+
+## Adding the Slack integration
+
+* Click **Integrations** in the sidebar.
+* Find the **Chat Ops** &gt; **Slack** card, then click **connect**. 
+* Click **Allow** to make the integration. 
+
+{% hint style="info" %}
+You must add Sleuth as an Authorized Application in Slack. For more information, [read the Slack documentation](https://api.slack.com).
+{% endhint %}
+
+{% hint style="warning" %}
+In some organizations, adding third-party integrations to Slack must be authorized by an App Manager. Slack allows you to message the App Manager directly from the _Request to install_ dialog, as shown below. Once authorization is granted, you can proceed with the integration.
+{% endhint %}
+
+![Adding Slack third-party integrations might require your App Manager&apos;s approval.](../../.gitbook/assets/slack-request-to-install-screen%20%281%29.png)
+
+* The Slack logo in the Change Source card **will turn green** when the integration is successful. 
+
+![](../../.gitbook/assets/slack-integration-connected.png)
+
+* The Slack integration is done at the [organization](../terminology.md#information-architecture-ia) level. Since multiple [projects](../../projects.md) can exist within an organization, you'll want to go in to each project and configure notifications individually. This is especially important for individual Slack notifications, such as notifying the author of a commit and/or the person responsible for deploying. 
+
+{% hint style="info" %}
+Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration. For corporate Slack instances, this will require the Slack App Manager to authorize the Sleuth app again. 
+{% endhint %}
+
+* Sleuth will now use Slack to relay important deploy information to your team, as well as individual notifications to commit authors and/or deploy initiators. 
+
+### To broadcast to channels
+
+Now that the Slack integration has been made to your organization, you can fine-tune Slack notifications within each project. Depending on how many Sleuth projects you have and the various teams working on those projects, it's unlikely every person in the organization will want to receive notifications on projects they're not currently working on. 
+
+{% hint style="info" %}
+Don't forget to set the security on your Slack channels to **Public** or **Private**. If you select **Private**, you will need to invite the Sleuth "bot" to the channel first. 
+{% endhint %}
+
+To configure channel notifications: 
+
+1. Select the project you wish to modify in the project dropdown in the sidebar. 
+2. Click **Project Settings**.
+3. Click Slack Notifications. 
+4. Type the name of the channel you wish to broadcast to in the _Slack channel_ field. Once you start typing, a list of available channels will auto-populate. 
+5. Press Save. 
+
+The channel you specified will start receiving deployment notifications that will look somewhat like this one: 
+
+![A sample Slack notification alerting the selected channel that a deploy was just made.](../../.gitbook/assets/slack-channel-deploy-message_2.png)
 

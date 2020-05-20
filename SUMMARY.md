@@ -2,7 +2,7 @@
 
 * [Getting started](README.md)
 * [Signing up](signing-up.md)
-* [Dashboard](dashboard.md)
+* [The Dashboard](dashboard.md)
 * [Projects](projects.md)
 
 ## Integrations <a id="integrations-1"></a>

@@ -1,6 +1,6 @@
 # GitLab
 
-## About the Integration
+## About the Integration ![](../../../.gitbook/assets/gitlab-logo.svg) 
 
 Code repos are one of the key sources of change Sleuth needs to do its job. Once a code repo is integrated, Sleuth immediately begins its analysis, looking at your commit history, number of authors, deploy frequency, size of commits, and other data to give you a full picture of how you and your team are managing your project's codebase. You'll instantly see the Deploy Graph come to life with a complete snapshot that gives you the information you need to start deploying faster.
 
