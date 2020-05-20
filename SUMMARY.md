@@ -7,7 +7,7 @@
 
 ## Integrations <a id="integrations-1"></a>
 
-* [About Integrations...](integrations-1/about-integrations....md)
+* [About Integrations...](integrations-1/about-integrations.md)
 * [Change Sources](integrations-1/change-sources/README.md)
   * [Code Deployment](integrations-1/change-sources/code-deployment/README.md)
     * [Bitbucket](integrations-1/change-sources/code-deployment/bitbucket.md)

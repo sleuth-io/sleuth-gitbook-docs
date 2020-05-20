@@ -86,7 +86,7 @@ git push git@github.com:joeuser/myrepo.git production_2015-04-18--16-15
 
 ## Editing a Project
 
-After creating a project, you might want to make changes to its configuration, such as pointing to a different repo or adding or deleting an [integration](integrations-1/about-integrations....md). This can be done by selecting your project in the sidebar.
+After creating a project, you might want to make changes to its configuration, such as pointing to a different repo or adding or deleting an [integration](integrations-1/about-integrations.md). This can be done by selecting your project in the sidebar.
 
 In the screenshot below, **Documentation** is the currently the active project. 
 

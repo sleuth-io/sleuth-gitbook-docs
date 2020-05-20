@@ -1,6 +1,6 @@
 # Manual Changes
 
-Manual changes let you enter anything that you want tracked in Sleuth. Such changes are those not tracked by source code, feature flags, or another type of change that Sleuth [currently supports](about-integrations....md). They are a free-form entry that can have any name or description you'd like. 
+Manual changes let you enter anything that you want tracked in Sleuth. Such changes are those not tracked by source code, feature flags, or another type of change that Sleuth [currently supports](about-integrations.md). They are a free-form entry that can have any name or description you'd like. 
 
 Examples include: 
 
