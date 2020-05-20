@@ -1,15 +1,12 @@
----
-description: >-
-  Projects are the main container for your code deploys. You should consider
-  creating a additional projects to track multiple environments (e.g., staging,
-  production, etc.).
----
-
 # Projects
 
 ## Creating a project
 
-To configure a project, you must link at least a personal or your organization's [change source](integrations-1/change-sources/) accounts to your Sleuth account.
+**Projects** are the main container that Sleuth uses to organize your change sources. For example, a project can correlate to a web app you have created, or a staging or development environment for that application. 
+
+{% hint style="info" %}
+Sleuth will soon have support for environments. Until then, you can create multiple projects to house separate environments. For example, you can create a _Super Web App Production_ project and a separate _Super Web App Staging_ project. Integrations made at the organization level will be available to both projects. 
+{% endhint %}
 
 To create a new project:
 
