@@ -18,7 +18,7 @@ To integrate Honeybadger as an error impact source in Sleuth:
 6. Once the integration is successful, you will see an **Add impact** dropdown. Select the Sleuth project you'd like to measure error impact on.   ![](../../../.gitbook/assets/honeybadger-sleuth-tile-connected.png) 
 7. Give this error tracking instance a **name** and select the **Honeybadger** **project** and **enviroment**. This information can be obtained in your Honeybadger account portal.  ![](../../../.gitbook/assets/honeybadger-sleuth-impact-info.png) 
 
-That's it! Sleuth will now start including error information from Honeybadger in your deploys so you can start tracking the impact of your changes over time. Head over to the [Dashboard](../../../dashboard.md) to start seeing your data in action. 
+That's it! Sleuth will now start including error information from Honeybadger in your deploys so you can start tracking the impact of your changes over time. Head over to the [Dashboard](../../../dashboard.md) to start seeing your data in action in the trend graph and deploy cards. 
 
 
 
