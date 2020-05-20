@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Getting started](README.md)
-* [Signing up](signing-up.md)
+* [Signing up](README.md)
+* [Getting started](getting-started.md)
 * [The Dashboard](dashboard.md)
 * [Projects](projects.md)
 
