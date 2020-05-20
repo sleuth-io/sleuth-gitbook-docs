@@ -2,7 +2,11 @@
 
 ## Creating a project
 
-To configure a project you must link your personal or the organization's GitHub or Bitbucket accounts to your Sleuth organization.
+**Projects** are the main container that Sleuth uses to organize your change sources. For example, a project can correlate to a web app you have created, or a staging or development environment for that application. 
+
+{% hint style="info" %}
+Sleuth will soon have support for environments. Until then, you can create multiple projects to house separate environments. For example, you can create a _Super Web App Production_ project and a separate _Super Web App Staging_ project. Integrations made at the organization level will be available to both projects. 
+{% endhint %}
 
 To create a new project:
 
