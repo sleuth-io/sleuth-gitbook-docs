@@ -43,7 +43,7 @@ How does Sleuth know when you have deployed? There are three different ways Sleu
 Ping Sleuth with a Git commit SHA or a tag to mark your deploy by making a `POST` request, like so:
 
 ```text
-curl -X POST -d api_key=YOUR_API_KEY -d sha=YOUR_SHA https://sleuth.io/api/1/ORG_NAME/PROJECT_NAME/register_deploy
+curl -X POST -d api_key=YOUR_API_KEY -d sha=YOUR_SHA https://app.sleuth.io/api/1/ORG_NAME/PROJECT_NAME/register_deploy
 ```
 
 You'll need to replace `YOUR_API_KEY`, `YOUR_SHA`, `ORG_NAME` and `PROJECT_NAME` with your actual values. 
