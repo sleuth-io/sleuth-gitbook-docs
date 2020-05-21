@@ -26,3 +26,5 @@ Do not share this link with anyone outside of your organization. The CURL comman
 
 The manual change will display on your [Dashboard](../dashboard.md) and shown just like any other source of change. Manual changes are not tracked by Sleuth; you'll need to update and manage them on your own. 
 
+To submit a manual change via CLI, read the Sleuth [API Reference](../resources/api-reference.md#manual-change). 
+
