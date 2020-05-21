@@ -6,13 +6,13 @@ The Sleuth REST API provides methods to make manual changes and log manual deplo
 
 The Sleuth REST API requires authentication using the API key from your Sleuth [project](../projects.md). 
 
-{% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method method="post" host="https://app.sleuth.io" path="/api/1/deployments/" %}
 {% api-method-summary %}
-Get Cakes
+Manual Deploy
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+This endpoint allows you to make manual deployments.
 {% endapi-method-description %}
 
 {% api-method-spec %}
