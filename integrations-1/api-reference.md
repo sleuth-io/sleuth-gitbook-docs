@@ -1,6 +1,6 @@
 # API Reference
 
-The Sleuth REST API provides methods to make manual changes and log manual deploys. 
+The Sleuth REST API provides methods that allow access for project and deploy manipulation. 
 
 ### Authentication
 
