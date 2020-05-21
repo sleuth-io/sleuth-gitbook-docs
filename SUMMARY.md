@@ -32,8 +32,11 @@
   * [Clubhouse](integrations-1/issue-trackers/clubhouse.md)
   * [Jira](integrations-1/issue-trackers/jira.md)
 * [Manual Changes](integrations-1/manual-changes.md)
-* [Terminology](integrations-1/terminology.md)
-* [API Reference](integrations-1/api-reference.md)
-* [FAQ](integrations-1/faq.md)
-* [About](integrations-1/about.md)
+
+## Resources
+
+* [Terminology](resources/terminology.md)
+* [API Reference](resources/api-reference.md)
+* [FAQ](resources/faq.md)
+* [About](resources/about.md)
 
