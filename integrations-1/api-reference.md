@@ -4,11 +4,43 @@ The Sleuth REST API provides methods to make manual changes and log manual deplo
 
 ### Authentication
 
-The Sleuth REST API requires authentication using the API key from your Sleuth [project](../projects.md). 
+The Sleuth REST API requires authentication using the API key from your Sleuth [project](../projects.md).
+
+{% api-method method="post" host="https://app.sleuth.io" path="api/1/ORG\_NAME/PROJECT\_NAME/register\_deploy" %}
+{% api-method-summary %}
+Manual Deploy Registration
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Manual changes are those not tracked by source code, feature flags, or any other type of change that Sleuth supports. They are a free-form entry that can have any name or description. 
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
 {% api-method method="post" host="https://app.sleuth.io" path="/api/1/deployments/" %}
 {% api-method-summary %}
-Manual Deploy
+Manual Change
 {% endapi-method-summary %}
 
 {% api-method-description %}
