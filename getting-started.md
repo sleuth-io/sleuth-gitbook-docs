@@ -9,9 +9,9 @@ To get started with Sleuth:
 1. **Create an account.** You can use an email address or connect via SSO thru Google, GitHub or Bitbucket. Read [Signing up](getting-started.md) for more information. 
 2. **Name your project.** You can also add a description, which is optional. 
 3. **Add a change source.** This can be a code deployment on [GitHub](integrations-1/change-sources/code-deployment/github.md), feature flags on [LaunchDarkly](integrations-1/change-sources/feature-flags/launchdarkly.md), issues from [Jira](integrations-1/issue-trackers/jira.md), or the many [other available integrations](integrations-1/about-integrations.md). 
-4. **Add an integration.** An integration can be change sources, chat ops, issue trackers, and error and metric trackers. Make sure you have access credentials for any integration you want to connect. If you're part of an organization that has already set up a Sleuth environment and your email address uses the same domain, integrations might already be connected to your organization. In such cases, you won't need to add the integration yourself.  
+4. **Add an integration.** An integration can be change sources, chat ops, issue trackers, and error and metric trackers. Make sure you have access credentials for any integration you want to connect.  
 
-Click through tabs 1 thought 6 below to get started with connecting Sleuth to your integrations and change sources: 
+Click through tabs 1 thought 6 for more details: 
 
 {% tabs %}
 {% tab title="Step 1" %}
@@ -47,13 +47,13 @@ Click through tabs 1 thought 6 below to get started with connecting Sleuth to yo
 
 ![](.gitbook/assets/invite-team-members.png)
 
-You can add existing members to your organization or add the email address of someone you'd like to have invited to join your organization. If the invitation's accepted, the user will automatically be added to your organization. 
+If you're part of an organization that has already set up a Sleuth environment and your email address uses the same domain, integrations might already be connected to your organization. In these cases, you won't need to add the integration yourself. 
 
-You can also configure your organization so that anyone signing up with an email from your company's domain will automatically join your organization without any additional action needed.
+You can add existing members to your organization or add the email address of someone you'd like to have invited to join your organization. If the invitation's accepted, the user will automatically be added to your organization. 
 {% endtab %}
 
 {% tab title="Step 6" %}
-#### Add change source
+#### Add change sources
 
 * See commits, issues, pull requests, changed files and authors for every deploy.
 * Quickly see when you've rolled out code and exactly what's changed to help squash bugs.
