@@ -2,7 +2,7 @@
 
 Sleuth is a deployment tracker that helps you move fast without breaking things. It only takes a few minutes to connect Sleuth to a change source and start analyzing the health of your code. 
 
-A change source can be a code deployment on GitHub/Bitbucket/GitLab; feature flags on LaunchDarkly; or issues on Jira/Clubhouse, with [many other integrations](integrations-1/about-integrations.md) available. 
+A change source can be a code deployment on Bitbucket, GitHub or GitLab; feature flags on LaunchDarkly; or issues on Clubhouse or Jira, with [many other integrations](integrations-1/about-integrations.md) available. 
 
 To get started with Sleuth: 
 
@@ -10,6 +10,10 @@ To get started with Sleuth:
 2. **Name your project.** You can also add a description, which is optional. 
 3. **Add a change source.** This can be a code deployment on [GitHub](integrations-1/change-sources/code-deployment/github.md), feature flags on [LaunchDarkly](integrations-1/change-sources/feature-flags/launchdarkly.md), issues from [Jira](integrations-1/issue-trackers/jira.md), or the many [other available integrations](integrations-1/about-integrations.md). 
 4. **Add an integration.** An integration can be change sources, chat ops, issue trackers, and error and metric trackers. Make sure you have access credentials for any integration you want to connect.  
+5. **Create an account.** You can use an email address or connect via SSO thru Google, GitHub or Bitbucket. Read [Signing up](getting-started.md) for more information. 
+6. **Name your project.** You can also add a description, which is optional. 
+7. **Add a change source.** This can be a code deployment on [GitHub](integrations-1/change-sources/code-deployment/github.md), feature flags on [LaunchDarkly](integrations-1/change-sources/feature-flags/launchdarkly.md), issues from [Jira](integrations-1/issue-trackers/jira.md), or the many [other available integrations](integrations-1/about-integrations.md). 
+8. **Add an integration.** An integration can be change sources, chat ops, issue trackers, and error and metric trackers. Make sure you have access credentials for any integration you want to connect.  
 
 For a more detailed walkthrough of the setup process, click through the tabs below: 
 
