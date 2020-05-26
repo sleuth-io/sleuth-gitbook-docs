@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Welcome!](README.md)
-* [Signing up](getting-started.md)
-* [Dashboard](dashboard.md)
+* [Getting started](getting-started.md)
+* [The Dashboard](dashboard.md)
 * [Projects](projects.md)
 
 ## Integrations <a id="integrations-1"></a>

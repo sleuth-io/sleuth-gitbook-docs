@@ -2,7 +2,7 @@
 description: 'Get a 30,000-foot view of your DevOps environment on the Sleuth Dashboard.'
 ---
 
-# Dashboard
+# The Dashboard
 
 The **Dashboard** is Sleuth's command central. Sleuth aggregates all of the data your disparate tools generate and presents it to you in a clean, easy-to-use interface, as shown below. 
 
