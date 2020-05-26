@@ -5,7 +5,7 @@ description: >-
   code deploys.
 ---
 
-# Getting started
+# Welcome!
 
 Sleuth is a deployment tracker that helps you move fast without breaking things. It only takes a few minutes to connect Sleuth to a change source and start analyzing the health of your code. 
 
@@ -13,7 +13,7 @@ A change source can be a code deployment on GitHub/Bitbucket/GitLab; feature fla
 
 To get started with Sleuth: 
 
-1. **Create an account.** You can use an email address or connect via SSO thru Google, GitHub or Bitbucket. Go to [Signing up](signing-up.md) for more information. 
+1. **Create an account.** You can use an email address or connect via SSO thru Google, GitHub or Bitbucket. \([Sign up for a free Sleuth account](https://app.sleuth.io/account/signup/) if you haven't already; then come back here to continue.\)
 2. **Name your project.** You can also add a description if you wish. 
 3. **Add a change source.** This can be a code deployment on [GitHub](integrations-1/change-sources/code-deployment/github.md), feature flags on [LaunchDarkly](integrations-1/change-sources/feature-flags/launchdarkly.md), issues on [Jira](integrations-1/issue-trackers/jira.md), or the many [other available integrations](integrations-1/about-integrations....md). 
 4. **Connect your integrations.** These are change sources, chat ops, issue trackers, or error trackers. Make sure you have access credentials for these services; Sleuth will need to connect to make the integration. If you're part of an organization that has already setup a Sleuth environment and your email address uses the same domain, your integrations might already be connected. 
