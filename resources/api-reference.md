@@ -6,36 +6,44 @@ The Sleuth REST API provides methods that allow access for project and deploy ma
 
 The Sleuth REST API requires authentication using the API key from your Sleuth [project](../projects.md).
 
-{% api-method method="post" host="https://app.sleuth.io" path="api/1/<Organization Name>/<Project Name>/register\_deploy" %}
+{% api-method method="post" host="https://app.sleuth.io" path="api/1/<Organization Slug>/<Deployment Slug>/register\_deploy" %}
 {% api-method-summary %}
 Manual Deploy Registration
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This allows users to manually register their deploys. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="Organization Name" type="string" required=true %}
-Sleuth organization that contains the affected project. 
+{% api-method-parameter name="Organization Slug" type="string" required=true %}
+Sleuth organization parent of the affected code deployment. 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="Project Name" type="string" required=true %}
-Name of the project that you're registering a deploy to. 
+{% api-method-parameter name="Deployment Slug" type="string" required=true %}
+Slug of the code deployment that you're registering a deploy to. 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
-{% api-method-headers %}
-{% api-method-parameter name="YOUR\_SHA" type="string" required=true %}
-The Git commit hash of the deploy you're manually registering. 
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="email" type="string" required=false %}
+Email address of author
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="YOUR\_API\_KEY" type="string" required=true %}
-Your Sleuth organization's API key, which can be found in your Project Settings. 
+{% api-method-parameter name="date" type="string" required=false %}
+ISO 8601 date string of the deployment
 {% endapi-method-parameter %}
-{% endapi-method-headers %}
+
+{% api-method-parameter name="api\_key" type="string" required=true %}
+Found in org settings
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="sha" type="string" required=true %}
+Deployment code sha that defines the deployment. Look in copy for tracking your deploys page. 
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -46,6 +54,26 @@ Your Sleuth organization's API key, which can be found in your Project Settings.
 
 ```
 Success
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+Input date problem, including if SHA doesn't exist or has already been reported. 
+{% endapi-method-response-example-description %}
+
+```
+String of message problem
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+API key not valid or the deployment is not in the specific organization
+{% endapi-method-response-example-description %}
+
+```
+String of message problem
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -64,27 +92,25 @@ Manual changes are those not tracked by source code, feature flags, or any other
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="Organization Name" type="string" required=true %}
-Sleuth organization that contains the affected project. 
+{% api-method-parameter name="Organization Slug" type="string" required=true %}
+copy from above
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="Project Name" type="string" required=true %}
-Name of the project that you're registering a deploy to. 
+{% api-method-parameter name="Project Slug" type="string" required=true %}
+Slug of the project that you're registering a deploy to. 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
-{% api-method-headers %}
-{% api-method-parameter name="api\_key" type="string" required=true %}
-Your Sleuth organization's API key, which can be found in your Project Settings. 
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
 {% api-method-form-data-parameters %}
-{% api-method-parameter name="email" type="string" required=true %}
+{% api-method-parameter name="api\_key" type="string" required=true %}
+Found in org settings
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="email" type="string" required=false %}
 The email address of the user associated with the project receiving the manual change.  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="name" type="string" required=false %}
+{% api-method-parameter name="name" type="string" required=true %}
 The title for your manual change. 
 {% endapi-method-parameter %}
 
@@ -105,13 +131,109 @@ Success.
 ```
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=404 %}
+{% api-method-response-example httpCode=302 %}
 {% api-method-response-example-description %}
-Could not find the project and/or organization. 
+
 {% endapi-method-response-example-description %}
 
 ```
-404
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://app.sleuth.io" path="api/1/<Organization Slug>/<Deployment Slug>/register\_deploy" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="Organization Slug" type="string" required=true %}
+Sleuth organization parent of the affected code deployment.
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://app.sleuth.io" path="api/1/<Organization Slug>/<Deployment Slug>/register\_deploy" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="Organization Slug" type="string" required=true %}
+Sleuth organization parent of the affected code deployment. 
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://app.sleuth.io" path="api/1/<Organization Slug>/<Deployment Slug>/register\_deploy" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="Organization Slug" type="string" required=true %}
+Sleuth organization parent of the affected code deployment. 
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
