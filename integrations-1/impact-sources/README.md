@@ -1,6 +1,6 @@
 # Impact Sources
 
-**Impact sources** provide Sleuth with error information from your deployed code to provide you with an objective measure of how well your code is performing.  
+**Impact sources** provide Sleuth with error information from your deployed code to provide you with an objective measure of the impact of your deploys on your code.  
 
 #### Errors
 
