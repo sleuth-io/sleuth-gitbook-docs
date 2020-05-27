@@ -19,11 +19,11 @@ This allows users to manually register their deploys.
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="Organization Slug" type="string" required=true %}
-Sleuth organization parent of the affected code deployment. 
+Slug of the organization parent of the affected code deployment
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Deployment Slug" type="string" required=true %}
-Slug of the code deployment that you're registering a deploy to. 
+Slug of the code deployment
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -33,15 +33,15 @@ Email address of author
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="date" type="string" required=false %}
-ISO 8601 date string of the deployment
+ISO 8601 deployment date string
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="api\_key" type="string" required=true %}
-Found in org settings
+Located in the _Organization Settings &gt; Details &gt; Api Key_ field
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="sha" type="string" required=true %}
-Deployment code sha that defines the deployment. Look in copy for tracking your deploys page. 
+Deployment code SHA that defines the deployment. Look in copy for tracking your deploys page
 {% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
@@ -80,7 +80,7 @@ String of message problem
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://app.sleuth.io" path="/api/1/deployments/<Organization Name>/<Project Name>/register\_manual\_deploy" %}
+{% api-method method="post" host="https://app.sleuth.io" path="/api/1/deployments/<Organization Slug>/<Project Slug>/register\_manual\_deploy" %}
 {% api-method-summary %}
 Manual Change
 {% endapi-method-summary %}
@@ -93,29 +93,29 @@ Manual changes are those not tracked by source code, feature flags, or any other
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="Organization Slug" type="string" required=true %}
-copy from above
+Slug of the organization parent of the affected code deployment
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Project Slug" type="string" required=true %}
-Slug of the project that you're registering a deploy to. 
+Slug of the project that you're registering a deploy to 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-form-data-parameters %}
 {% api-method-parameter name="api\_key" type="string" required=true %}
-Found in org settings
+Located in the _Organization Settings &gt; Details &gt; Api Key_ field
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="email" type="string" required=false %}
-The email address of the user associated with the project receiving the manual change.  
+Email address of the user associated with the project receiving the manual change
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="name" type="string" required=true %}
-The title for your manual change. 
+Title for the manual change
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="description" type="string" required=false %}
-The description of your manual change. 
+Description for the manual change
 {% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
@@ -132,102 +132,6 @@ Success.
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=302 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="post" host="https://app.sleuth.io" path="api/1/<Organization Slug>/<Deployment Slug>/register\_deploy" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="Organization Slug" type="string" required=true %}
-Sleuth organization parent of the affected code deployment.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="post" host="https://app.sleuth.io" path="api/1/<Organization Slug>/<Deployment Slug>/register\_deploy" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="Organization Slug" type="string" required=true %}
-Sleuth organization parent of the affected code deployment. 
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="post" host="https://app.sleuth.io" path="api/1/<Organization Slug>/<Deployment Slug>/register\_deploy" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="Organization Slug" type="string" required=true %}
-Sleuth organization parent of the affected code deployment. 
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
 
 {% endapi-method-response-example-description %}
