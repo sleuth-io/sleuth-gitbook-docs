@@ -1,6 +1,6 @@
 # Jira
 
-The **Jira** integration is coming soon!
+The **Jira** integration documentation is coming soon!
 
 ![](../../.gitbook/assets/jira-connect-success-default-tracker.png)
 
