@@ -2,11 +2,9 @@
 
 ## About the Integration ![](../../../.gitbook/assets/sentry-glyph-dark.png) 
 
-Sentry is an error monitoring service that helps DevOps teams discover, triage, and prioritize their errors in real-time. 
+Sentry is an error monitoring service that helps DevOps teams discover, triage, and prioritize their errors in real-time. Before you start, you should already have a Sentry account and your environment setup and running. If not, head over to [Sentry](https://sentry.io/signup/) to get things started. Once you're done, return to Sleuth so you can complete setup of the integration. 
 
-Before you start, you should already have a Sentry account, and your environment setup and running. If not, head over to [Sentry](https://sentry.io/signup/) to get things started. 
-
-To add the Sentry integration:
+To add the Sleuth Sentry integration:
 
 * Click **Integrations** in the sidebar.
 * Click **connect** in the Sentry Error Trackers card.
