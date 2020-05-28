@@ -11,19 +11,26 @@ To add the Sleuth Sentry integration:
 * Enter the Sentry Auth Token, then press **Save**. 
 
 {% hint style="info" %}
-The Sentry Auth Token can be found in Sentry, under **Settings &gt; Account Details &gt; API &gt; Auth Token**. ****
+The Sentry Auth Token can be found in Sentry, under **Settings** &gt; **Account Details** &gt; **API** &gt; **Auth Token**, as shown below. 
 {% endhint %}
 
  
 
-![](../../../.gitbook/assets/sentry-auth-token-screen.png)
+![Sentry Auth Token in the Sentry dashboard.](../../../.gitbook/assets/sentry-auth-token-screen.png)
 
-![](../../../.gitbook/assets/sentry-auth-token-enter-dialog.png)
+![Sentry auth token entry field in Sleuth](../../../.gitbook/assets/sentry-auth-token-enter-dialog.png)
 
-* Once the Sentry integration is successful, you will see the message, "Sentry is connected" displayed. 
-* Click **Add impact** to select the Sentry project that will be monitoring your application errors. All projects, regardless of which Sentry environment they're in, will be displayed in the 
+* Once the Sentry integration is successful, you will see the message, **Sentry is connected** displayed. 
 
-![](../../../.gitbook/assets/sentry-enable-success.png)
+![Successful integration with Sentry!](../../../.gitbook/assets/sentry-enable-success.png)
+
+* Click **Add impact** to select the Sentry project that will be monitoring your application errors. All projects, regardless of which Sentry environment they're in, will be displayed in the Project dropdown. 
+
+{% hint style="warning" %}
+Sleuth will not auto-populate the **Environment** field dropdown due to the way the Sentry API handles environment data. Check your Sentry project first before populating this field. Environments are created when a deployed application monitored by Sentry sends environment data \(e.g., in Javascript, the application could send`environment: 'staging'`\) back to Sentry by tagging issues via your SDK.   
+  
+For more information,[ read more](https://docs.sentry.io/enriching-error-data/environments/?platform=browser#how-to-send-environment-data) about how Sentry receives environment data. 
+{% endhint %}
 
 ![Impact entry dialog for Sentry](../../../.gitbook/assets/sentry-impact-source-entry.png)
 
