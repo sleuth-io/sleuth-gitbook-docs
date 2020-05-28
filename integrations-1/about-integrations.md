@@ -49,5 +49,5 @@ Integrations are separated by the base utility they provide:
 
 Manual changes allow you to enter just about anything into the Sleuth Dashboard as a change source. [Read](manual-changes.md) more about it. 
 
-_**\*** indicates an integration that is coming soon._ 
+_**\*** integration that is coming soon._ 
 
