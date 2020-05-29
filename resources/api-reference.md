@@ -1,6 +1,9 @@
-# API Reference
+# Sleuth API
 
-The Sleuth REST API provides methods that allow access for project and deploy manipulation. 
+The Sleuth REST API provides methods that enables users to:
+
+* Manually register their deploys
+* Submit manual changes
 
 ### Authentication
 
@@ -12,7 +15,9 @@ Manual Deploy Registration
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This allows users to manually register their deploys. 
+Manually register your deploys via the Sleuth API. Keep in mind that the organization and deployment slugs are not the semantic name of your organization and deployment as shown in the organization settings, which can contains spaces and capitalized characters. Rather, they're the slugs as displayed in the URL of your organization and deployment, with spaces and replaced by a hyphen \(**-**\); non-alphabetical characters \(e.g., **\(\)@\#$%^**, etc.\) are ignored.   
+  
+For example, if you're viewing a deployment called _plugin picker \(dev\)_ and your organization is called _Amazing Software_, the URL will display as **https://app.sleuth.io/amazing-software/deployments/plugin-picker-dev**. The organization slug is **amazing-softwar**e, the deployment slug is **plugin-picker-dev**. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -86,7 +91,9 @@ Manual Change
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Manual changes are those not tracked by source code, feature flags, or any other type of change not supported by Sleuth. They are a free-form entry that can have any name or description you'd like. 
+Manual changes are those not tracked by source code, feature flags, or any other type of change not supported by Sleuth. They are a free-form entry that includes a **name** and **description**. Although the description is optional, the form data in the manual change must contain a name as one of its parameters.   
+  
+For example, if you're viewing a project called _Software Selector_ and your organization is called _Amazing Software_, the URL will display as **https://app.sleuth.io/amazing-software/software-selector**. The organization slug is **amazing-software**, the project slug is **software-selector**.
 {% endapi-method-description %}
 
 {% api-method-spec %}

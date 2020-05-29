@@ -36,7 +36,7 @@
 
 ## Resources
 
-* [API Reference](resources/api-reference.md)
+* [Sleuth API](resources/api-reference.md)
 * [Terminology](resources/terminology.md)
 * [FAQ](resources/faq.md)
 * [About](resources/about.md)
