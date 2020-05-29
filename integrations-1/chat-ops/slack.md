@@ -51,7 +51,7 @@ In some organizations, adding third-party integrations to Slack must be authoriz
 
 ![](../../.gitbook/assets/slack-integration-connected.png)
 
-* The Slack integration is done at the [organization](../terminology.md#information-architecture-ia) level. Since multiple [projects](../../projects.md) can exist within an organization, you'll want to go in to each project and configure notifications individually. This is especially important for individual Slack notifications, such as notifying the author of a commit and/or the person responsible for deploying. 
+* The Slack integration is done at the [organization](../../resources/terminology.md#information-architecture-ia) level. Since multiple [projects](../../projects.md) can exist within an organization, you'll want to go in to each project and configure notifications individually. This is especially important for individual Slack notifications, such as notifying the author of a commit and/or the person responsible for deploying. 
 
 {% hint style="info" %}
 Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration. For corporate Slack instances, this will require the Slack App Manager to authorize the Sleuth app again. 

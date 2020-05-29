@@ -32,7 +32,11 @@
   * [Clubhouse](integrations-1/issue-trackers/clubhouse.md)
   * [Jira](integrations-1/issue-trackers/jira.md)
 * [Manual Changes](integrations-1/manual-changes.md)
-* [FAQ](integrations-1/faq.md)
-* [Terminology](integrations-1/terminology.md)
-* [About](integrations-1/about.md)
+
+## Resources
+
+* [Sleuth API](resources/sleuth-api.md)
+* [Terminology](resources/terminology.md)
+* [FAQ](resources/faq.md)
+* [About](resources/about.md)
 

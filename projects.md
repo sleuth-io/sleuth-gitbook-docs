@@ -18,9 +18,9 @@ To track deployments, **Sleuth must have access** to the code you deploy. In ord
 
 **Select the code repository** from the dropdown and specify the branch that you deploy from. Sleuth will initialize the project with your last commit until further deploys are detected. 
 
-### Change sources <a id="telling-us-when-you-deploy"></a>
+## Change sources
 
-Sleuth uses your code repos as its main sources of change. By analyzing past behavior \(i.e., commits, pull requests, issues, feature flags, etc.\) and comparing it with your current and future deploys, Sleuth paints a picture of your entire project's health status, giving you instant feedback on the impact of the changes you and your team are making. Sleuth can also look at feature flags and infrastructure environments, and provide you with actionable metrics obtained from those platforms. 
+Sleuth uses your code repos as its main sources of change. By analyzing past behavior \(i.e., commits, pull requests, issues, feature flags, etc.\) and comparing it with your current and future deploys, Sleuth paints a picture of your entire project's health status, giving you instant feedback on the impact of the changes you and your team are making. Sleuth can also look at feature flags and infrastructure environments, and provide you with actionable metrics, such as error logs, CPU utilization, and other information obtained from those platforms.
 
 #### Adding a change source
 
@@ -40,15 +40,14 @@ How does Sleuth know when you have deployed? There are three different ways Sleu
 
 #### Manually registering your deploy
 
-Ping Sleuth with a Git commit SHA or a tag to mark your deploy by making a `POST` request, like so:
+Ping Sleuth with a Git commit SHA or a tag to mark your deploy by making a `POST` request. You'll need to provide theses values when making the call:
 
-```text
-curl -X POST -d api_key=YOUR_API_KEY -d sha=YOUR_SHA https://app.sleuth.io/api/1/ORG_NAME/PROJECT_NAME/register_deploy
-```
+*  `YOUR_API_KEY`
+*  `YOUR_SHA`
+* `ORG_NAME`
+* `PROJECT_NAME` 
 
-You'll need to replace `YOUR_API_KEY`, `YOUR_SHA`, `ORG_NAME` and `PROJECT_NAME` with your actual values. 
-
-You can find your API Key in **Organization Settings** &gt; **Details** &gt; **Api key**: 
+You can find your _API Key_ in **Organization Settings** &gt; **Details** &gt; **Api key**: 
 
 ![Locating your Sleuth API key](.gitbook/assets/screen-shot-2020-05-06-at-9.29.52-pm.png)
 
@@ -61,7 +60,11 @@ git checkout YOUR_BRANCH
 git rev-parse HEAD
 ```
 
-#### Automatic tracking for each push to the configured branch
+{% hint style="info" %}
+[Get more detailed information](resources/sleuth-api.md#manual-deploy-registration) on manually registering a deploy via the Sleuth API.
+{% endhint %}
+
+####  Automatic tracking for each push to the configured branch
 
 When this option is selected Sleuth will add a POST-commit hook to your repository.
 
