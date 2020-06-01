@@ -36,6 +36,12 @@ To add the Slack integration:
 You must add Sleuth as an Authorized Application in Slack. For more information, [read the Slack documentation](https://api.slack.com).
 {% endhint %}
 
+{% hint style="warning" %}
+The [Slack integration](slack.md#about-the-integration) requires admin/owner access to the Slack instance for your team. If you alter the Slack integration at the organization level, it will affect all projects in the parent organization that use Slack. 
+{% endhint %}
+
+
+
 * The Slack logo in the Change Source card will turn green when the integration is successful. 
 
 ![](../../.gitbook/assets/slack-integration-connected.png)

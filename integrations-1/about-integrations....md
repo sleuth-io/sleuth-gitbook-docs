@@ -4,6 +4,8 @@ Integrations allow Sleuth to communicate with the various CD/CI tools in your De
 
 You can even have Sleuth track a [manual change](manual-changes.md), which can be anything you can assign a name and description to. 
 
+Integrations are made at the organization level. This gives all projects created within that organization access to the integration. If applicable, custom settings for a particular integration are made from within the project. For example, individual Slack notifications are made at the project level; this segregates messages to that particular project so that users only receive messages for projects they contributed to.  
+
 Integrations are separated by the base utility they provide: 
 
 ### Change Sources
