@@ -77,25 +77,26 @@ Once a commit is performed, Sleuth samples the commit at the moment of deploy, s
 
 Impact is integral to the Sleuth experience, and is one of the main metrics Sleuth computes to provide you with the overall health status of your deploys. 
 
-## Locking
+## Deployment Locking
 
- The Lock feature in Sleuth prevents pull requests from merging into main branches, and generates automatic notifications via your Chat Ops [integrations]() \(e.g., [Slack](../integrations-1/chat-ops/slack.md)\). 
+ The Lock feature in Sleuth prevents pull requests from merging into main branches, and generates automatic notifications via your Chat Ops [integrations](../integrations-1/about-integrations.md) \(e.g., [Slack](../integrations-1/chat-ops/slack.md)\). 
 
 ![Locking a project/deployment is as easy as pressing one button](../.gitbook/assets/sleuth-lock-blog-button.png)
 
-Read team member Don Brown's blog post on how Sleuth's locking feature can make your DevOps life happier! 
+Read Sleuth CTO [Don Brown's blog post](https://www.sleuth.io/post/prevent-unwanted-changes-with-sleuth-deployment-locking) on how Sleuth's locking feature can make your DevOps life easier! 
 
 ## Leaderboard
 
-The Leaderboard provides a social component to Sleuth by endeavoring developers to deploy faster and smaller. 
+The Leaderboard provides a competitive component to Sleuth by endeavoring developers to deploy faster and smaller. 
 
 **Scoring**
 
-The score of an author is the simple sum of several metrics:
+The score of an author is the sum of several categories of scoring:
 
-* **Deploy** - 5 points for each deploy;
-* **Author** - 3 points for each deploy in which the author was involved but didn't perform the deploy;
-* **Impact** - 2 points for each deploy rated 'Healthy', and 10 for each deploy rated 'Improved'.
+* **Deploy**: 5 points for each deploy.
+* **Author**: 3 points for each deploy in which the author was involved but didn't perform the deploy.
+* **Impact**: 2 points for each deploy rated _Healthy_, 10 for each deploy rated _Improved_.
+* **Reaction**: ½ point for each reaction to the author's deploys, rounded up. 
 
 ## Size
 
