@@ -14,7 +14,9 @@ To set up the Sleuth Jira integration:
 
 1. Click **Integrations** in the left sidebar, then click **Issue Trackers**. 
 2. In the _Jira_ tile, click **connect**. 
-3. 
+
+
+
 ![](../../.gitbook/assets/jira-connect-success-default-tracker.png)
 
 ## Configuring the integration
