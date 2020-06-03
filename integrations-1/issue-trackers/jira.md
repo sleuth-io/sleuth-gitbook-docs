@@ -33,7 +33,7 @@ After setting up the Jira integration, you must designate which Sleuth project t
 #### To change the default issue tracker: 
 
 1. Click on **Project Settings** in the left sidebar, then select **Details**. 
-2. Select an issue tracker. The integration must be connected via the organization before it's displayed here. 
+2. Select a new default issue tracker. The integration **must be connected** at the organization level before it can be selected.  ![](../../.gitbook/assets/jira-default-issue-tracker.png) 
 3. Press **Save**. 
 
 ## Removing the integration
