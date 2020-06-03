@@ -12,7 +12,8 @@ To set up the Sleuth Clubhouse integration:
 
 1. Click **Integrations** in the left sidebar, then click **Issue Trackers**. 
 2. In the _Clubhouse_ tile, click **connect**. 
-3. The Clubhouse icon turns green and the message **Jira is connected** is displayed in the tile.
+3. Enter the _API Token_ of your Clubhouse instance into the corresponding field, then press **Save**. To quickly access your Clubhouse instance to obtain an API token, click **generate**.   ![](../../.gitbook/assets/clubhouse-api-key.png) 
+4. The Clubhouse icon turns green and the message **Clubhouse is connected** is displayed in the tile.
 
 ## Configuring the integration
 
