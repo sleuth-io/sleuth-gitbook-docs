@@ -8,6 +8,12 @@ Integration with Clubhouse is made at the Sleuth organization level. More than o
 
 ## Setting up the integration
 
+To set up the Sleuth Clubhouse integration:
+
+1. Click **Integrations** in the left sidebar, then click **Issue Trackers**. 
+2. In the _Clubhouse_ tile, click **connect**. 
+3. The Clubhouse icon turns green and the message **Jira is connected** is displayed in the tile.
+
 ## Configuring the integration
 
 ## Removing the integration
