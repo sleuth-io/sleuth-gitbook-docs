@@ -14,7 +14,8 @@ To set up the Sleuth Jira integration:
 
 1. Click **Integrations** in the left sidebar, then click **Issue Trackers**. 
 2. In the _Jira_ tile, click **connect**. 
-3. The Jira icon turns green and the message **Jira is connected** is displayed in the tile.
+3. Enter the _API Token_, _Username_, and fully qualified _URL_ of your Jira instance into the corresponding fields, then press **Save**. To quickly access your Jira instance to obtain an API key, click **generate**.   ![](../../.gitbook/assets/jira-api-key-generate.png) 
+4. The Jira icon turns green and the message **Jira is connected** is displayed in the tile.
 
 ![Successful integration!](../../.gitbook/assets/screen-shot-2020-06-02-at-3.05.34-pm.png)
 
