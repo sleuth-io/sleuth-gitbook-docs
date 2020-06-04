@@ -40,7 +40,20 @@ You can also change the default issue tracker at any time.
 
 1. Click on **Project Settings** in the left sidebar, then select **Details**. 
 2. Select a new default issue tracker. The integration **must be connected** at the organization level before it can be selected.  ![](../../.gitbook/assets/clubhouse-default-issue-tracker.png) 
-3. Press **Save**.  
+3. Press **Save**.
+
+#### To set a new default issue tracker: 
+
+1. Click on **Project Settings** in the left sidebar, then select **Details**. 
+2. Select a new default issue tracker. The integration must be connected via the organization before it's displayed here. 
+3. Press **Save**.
 
 ## Removing the integration
+
+#### If you wish to dissolve the Jira integration for the organization: 
+
+1. Click on **Integrations** in the left sidebar, then on **Issue Trackers**. 
+2. In the Clubhouse integration card, click **disconnect**.
+
+The Clubhouse integration is disconnected and no longer available to any projects within that organization. You will need to select a new default issue tracker for any projects that used the Clubhouse integration. Simply follow the instructions in the section above: **To set a new default issue tracker**. 
 

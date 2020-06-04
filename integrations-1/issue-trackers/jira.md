@@ -1,7 +1,5 @@
 # Jira
 
-
-
 ## About the Integration ![](../../.gitbook/assets/jira-software-2x-blue%20%281%29.png) 
 
 The Jira integration allows Sleuth to use Jira as a deployment issue tracker. When you deploy, Sleuth will automatically connect your Jira issues to the deploys, so you can always find the source of your changes later. 
@@ -43,7 +41,7 @@ After setting up the Jira integration, you must designate which Sleuth project t
 #### If you wish to dissolve the Jira integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Issue Trackers**. 
-2. Click **disconnect**.
+2. In the Jira integration card, click **disconnect**.
 
 The Jira integration is disconnected and no longer available to any projects within that organization. Any projects that used the Jira integration will need a new default issue tracker selected. 
 
@@ -52,4 +50,6 @@ The Jira integration is disconnected and no longer available to any projects wit
 1. Click on **Project Settings** in the left sidebar, then select **Details**. 
 2. Select a new default issue tracker. The integration must be connected via the organization before it's displayed here. 
 3. Press **Save**.
+
+The Jira integration is disconnected and no longer available to any projects within that organization. You will need to select a new default issue tracker for any projects that used the Jira integration. Simply follow the instructions in the section above: **To set a new default issue tracker**. 
 
