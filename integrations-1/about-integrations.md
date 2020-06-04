@@ -8,7 +8,7 @@ You can even have Sleuth track a [manual change](manual-changes.md), which can b
 
 ### Sleuth Integrations
 
-| Integration | Type | Notes |
+| Integration | Type | Additional info... |
 | :--- | :--- | :--- |
 | [AWS](change-sources/infrastructure/aws.md) | Infrastructure | Can be used a change source. _Coming soon._  |
 | [Bitbucket](change-sources/code-deployment/bitbucket.md) | Code Deployment | Can be used a change source.  |
