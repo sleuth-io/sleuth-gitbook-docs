@@ -30,11 +30,17 @@ After setting up the Clubhouse integration, you must designate which Sleuth proj
 3. All projects in the organization are displayed. Select which project you'd like to set Clubhouse as the default issue tracker for. 
 4. Once the default project is chosen, you will be taken to the selected project's [dashboard](../../dashboard.md). 
 
+With the integration complete, Sleuth will now connect your Clubhouse issues \(stories\) or projects when you enter the story or project ID prececed by **CH** \(e.g., CH14\) into your code deployment commit message. Connected stories will display in the Issues tab of a deployment card, which can be viewed by clickin the deploy's hash. 
+
+![Connected Clubhouse issues \(stories\) are available in the Issues tab](../../.gitbook/assets/issues-tab-deploy-card.png)
+
+You can also change the default issue tracker at any time. 
+
 #### To change the default issue tracker: 
 
 1. Click on **Project Settings** in the left sidebar, then select **Details**. 
 2. Select a new default issue tracker. The integration **must be connected** at the organization level before it can be selected.  ![](../../.gitbook/assets/clubhouse-default-issue-tracker.png) 
-3. Press **Save**. 
+3. Press **Save**.  
 
 ## Removing the integration
 
