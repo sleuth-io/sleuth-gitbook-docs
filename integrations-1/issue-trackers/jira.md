@@ -57,5 +57,5 @@ The Jira integration is disconnected and no longer available to any projects wit
 2. Select a new default issue tracker. The integration must be connected via the organization before it's displayed here. 
 3. Press **Save**.
 
-
+The Jira integration is disconnected and no longer available to any projects within that organization. You will need to select a new default issue tracker for any projects that used the Jira integration. Simply follow the instructions in the section above: **To set a new default issue tracker**. 
 
