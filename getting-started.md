@@ -39,11 +39,11 @@ For a more detailed walkthrough of the setup process, click through the tabs bel
 {% tab title="Step 4" %}
 #### Connect integrations
 
-* Connect [GitHub](integrations-1/change-sources/code-deployment/github.md), [Bitbucket](integrations-1/change-sources/code-deployment/bitbucket.md) and [LaunchDarkly](integrations-1/change-sources/feature-flags/launchdarkly.md) change source integrations; [Slack](integrations-1/chat-ops/slack.md) ChatOps integrations; and [Jira](integrations-1/issue-trackers/jira.md) and [Clubhouse](integrations-1/issue-trackers/clubhouse.md) issue tracking integrations. 
-* Enable GitHub or Bitbucket to track deploys made via your code repositories. See pull requests, commits, authors and issues associated with every deploy.
-* Enable LaunchDarkly to track changes made via your feature flags. Associate your flag changes with your code deployments.
-* Enable Slack to stay on top of your changes and alert your DevOps team members when changes have been deployed.
-* Enable Jira or Clubhouse to track the issues and epics you are deploying to your users
+Integrations are what enables Sleuth to gather data from disparate systems and present them to you in a single, easy-to-parse interface—the [Dashboard](dashboard.md). 
+
+Integrations are made at the Sleuth organization level. You can then add as many projects as you like within the organization. Once integrations are made to the organization, all projects created under the organization have access to the integrations' connections. Furthermore, any custom settings to an integration can be made for each project. For example, your staging project might send [Slack](integrations-1/chat-ops/slack.md) notifications to one team, your production project to another. 
+
+[Learn more](integrations-1/about-integrations.md) about integrations. 
 {% endtab %}
 
 {% tab title="Step 5" %}
