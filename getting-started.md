@@ -60,14 +60,14 @@ You can add existing members to your organization or add the email address of so
 #### Add change sources
 
 * See commits, issues, pull requests, changed files and authors for every deploy.
-* Quickly see when you've rolled out code and exactly what's changed to help squash bugs.
-* Release notes sent to your Slack team channels.
-* See an aggregate of what's been deployed today, this week or this month.
+* Get notified when you or others on your team deploy, and know exactly what's changed and how it impacts your code.
+* Get release notes sent to specified Slack channels.
+* See an aggregate of what's been deployed today, this week or the entire month.
 * Allow everyone in your organization to understand what code changes you're shipping.
 
 #### 💥 You're ready! 
 
-You can now start seeing the impact of your changes in [the Sleuth Dashboard](dashboard.md). Happy deploying! 
+Start seeing the impact of your changes in [the Sleuth Dashboard](dashboard.md). Happy deploying! 
 {% endtab %}
 {% endtabs %}
 
