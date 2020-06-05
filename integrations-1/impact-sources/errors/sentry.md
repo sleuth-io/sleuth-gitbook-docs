@@ -24,7 +24,7 @@ The Sentry Auth Token can be found in Sentry, under **Settings** &gt; **Account 
 
 ![Successful integration with Sentry!](../../../.gitbook/assets/sentry-enable-success.png)
 
-* Click **Add impact** to select the Sentry project that will be monitoring your application errors. All projects, regardless of which Sentry environment they're in, will be displayed in the Project dropdown. 
+* Click **Add impact** to select the Sleuth project that will be processing your application errors. All projects within the organization will be displayed in the dropdown. 
 
 {% hint style="warning" %}
 Sleuth will not auto-populate the **Environment** field dropdown due to the way the Sentry API handles environment data. Check your Sentry project first before populating this field. Environments are created when a deployed application monitored by Sentry sends environment data \(e.g., in Javascript, the application could send`environment: 'staging'`\) back to Sentry by tagging issues via your SDK.   
