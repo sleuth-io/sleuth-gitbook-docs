@@ -21,25 +21,15 @@ The Rollbar Auth Token can be found in Rollbar, under **Settings** &gt; **{Proje
  
 
 * Once the Rollbar integration is successful, you will see the message **Rollbar enabled** in the **Errors** integration card. 
-* Click **Add impact** to select the Sleuth project that will be monitoring your application errors. All projects, regardless of which environment they're in, will be displayed in the Project dropdown. 
-
-{% hint style="warning" %}
-Sleuth will not auto-populate the **Environment** field dropdown due to the way the Sentry API handles environment data. Check your Sentry project first before populating this field. Environments are created when a deployed application monitored by Sentry sends environment data \(e.g., in Javascript, the application could send`environment: 'staging'`\) back to Sentry by tagging issues via your SDK.   
-  
-For more information,[ read more](https://docs.sentry.io/enriching-error-data/environments/?platform=browser#how-to-send-environment-data) about how Sentry receives environment data. 
-{% endhint %}
-
-![Impact entry dialog for Sentry](../../../.gitbook/assets/sentry-impact-source-entry.png)
+* Click **Add impact** to select the Sleuth project that will be processing your application errors. All projects within the organization will be displayed in the dropdown. 
 
 {% hint style="info" %}
 Integrations are made at the Sleuth organization level, and are available for all projects within that organization. Individual settings for an integration are made at the project level.  
 {% endhint %}
 
-* The Sentry logo in the Change Source card turns to green when the integration is successful. 
-
 {% hint style="info" %}
-Click **disconnect** to dissolve the Sleuth-Sentry integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
+Click **disconnect** to dissolve the Sleuth-Rollbar integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
 {% endhint %}
 
-* That’s it—Sleuth will start displaying Sentry error metrics in your deploys. Read [**Dashboard**](../../../dashboard.md) for more information on how errors are communicated in deploy cards. 
+* That’s it—Sleuth will start displaying Rollbar error metrics in your deploys. Read [**Dashboard**](../../../dashboard.md) for more information on how errors are commun~~i~~cated in deploy cards. 
 
