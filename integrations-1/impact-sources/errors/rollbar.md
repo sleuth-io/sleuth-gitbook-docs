@@ -2,7 +2,9 @@
 
 ## About the Integration ![](../../../.gitbook/assets/rollbar-mark-black.png) 
 
-Rollbar is an error monitoring service that helps DevOps teams discover, triage, and prioritize their errors in real-time. Before you start, you should already have a Rollbar account and your environment setup and running. If not, head over to Rollbar to get things started. Once you're done, return to Sleuth so you can complete setup of the integration. 
+Rollbar is an error monitoring service that helps DevOps teams automate error monitoring and triaging. Before you start, you should already have a [Rollbar](https://rollbar.com/signup/) account and your environment setup and running. If not, head over to Rollbar to get things started. Once you're done, return to Sleuth so you can complete setup of the integration. 
+
+## Setting up the integration
 
 To add the Sleuth Rollbar integration:
 
@@ -16,9 +18,9 @@ The Rollbar Auth Token can be found in Rollbar, under **Settings** &gt; **{Proje
 [Get more information about Rollbar Account Access Tokens.](https://explorer.docs.rollbar.com/#section/Authentication/Account-Access-Tokens) ![](../../../.gitbook/assets/icon-link-27.png) 
 {% endhint %}
 
-![RollRollbar Account Access Tokens screen](../../../.gitbook/assets/rollbar-account-access-token-generate.png)
+![Rollbar Account Access Tokens screen](../../../.gitbook/assets/rollbar-account-access-token-generate.png)
 
- 
+## Configuring the integration
 
 * Once the Rollbar integration is successful, you will see the message **Rollbar enabled** in the **Errors** integration card. 
 * Click **Add impact** to select the Sleuth project that will be processing your application errors. All projects within the organization will be displayed in the dropdown. 
@@ -32,4 +34,27 @@ Click **disconnect** to dissolve the Sleuth-Rollbar integration. You will need t
 {% endhint %}
 
 * That’s it—Sleuth will start displaying Rollbar error metrics in your deploys. Read [**Dashboard**](../../../dashboard.md) for more information on how errors are commun~~i~~cated in deploy cards. 
+
+## Removing the integration
+
+#### If you wish to dissolve the Rollbar integration for the organization: 
+
+1. Click on **Integrations** in the left sidebar, then on **Error Trackers**. 
+2. In the Rollbar integration card, click **disconnect**.
+
+The Rollbar integration is disconnected and no longer available to any projects within that organization.  Other error trackers that may be connected to your organization are not affected. 
+
+#### If you wish to edit the Rollbar integration for project: 
+
+1. Select the **project** in the project selector in the sidebar. 
+2. Click on **Project Settings** in the sidebar. 
+3. Click on **Impact**.
+4. Click **edit** on the impact source you wish to delete or edit.  
+5. Edit the _Name_, _Project_, and/or _Environment_ settings, then press **Save**. 
+
+{% hint style="info" %}
+The _Projects_ dropdown is automatically populated with the list of projects in the connected Rollbar account. The _Environment_ field is not validated, but should match the environment values in your Rollbar settings. [Read the Rollbar documentation on Environments](https://docs.rollbar.com/docs/environments) for more information. 
+{% endhint %}
+
+
 

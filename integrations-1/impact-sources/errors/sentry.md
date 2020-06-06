@@ -4,6 +4,8 @@
 
 Sentry is an error monitoring service that helps DevOps teams discover, triage, and prioritize their errors in real-time. Before you start, you should already have a Sentry account and your environment setup and running. If not, head over to [Sentry](https://sentry.io/signup/) to get things started. Once you're done, return to Sleuth so you can complete setup of the integration. 
 
+## Setting up the integration
+
 To add the Sleuth Sentry integration:
 
 * Click **Integrations** in the sidebar.
@@ -24,6 +26,8 @@ The Sentry Auth Token can be found in Sentry, under **Settings** &gt; **Account 
 
 ![Successful integration with Sentry!](../../../.gitbook/assets/sentry-enable-success.png)
 
+## Configuring the integration
+
 * Click **Add impact** to select the Sleuth project that will be processing your application errors. All projects within the organization will be displayed in the dropdown. 
 
 {% hint style="warning" %}
@@ -39,6 +43,8 @@ Integrations are made at the Sleuth organization level, and are available for al
 {% endhint %}
 
 * The Sentry logo in the Change Source card turns to green when the integration is successful. 
+
+## Removing the integration
 
 {% hint style="info" %}
 Click **disconnect** to dissolve the Sleuth-Sentry integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
