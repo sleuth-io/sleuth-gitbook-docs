@@ -10,3 +10,9 @@ You can connect as many repositories to a project as you'd like; be sure to name
 
 Check out the [Bitbucket](bitbucket.md), [GitHub](github.md), [Jira](../../issue-trackers/jira.md), or [Clubhouse](../../issue-trackers/clubhouse.md) integration pages if you'd like to track your issues using those tools instead of or in addition to GitLab.
 
+## Setting up the integration
+
+## Configuring the integration
+
+## Removing the integration
+
