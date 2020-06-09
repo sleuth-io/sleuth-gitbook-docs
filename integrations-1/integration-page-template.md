@@ -26,7 +26,7 @@ After setting up the integration, configure various settings and features to ens
 
 Dissolving the integration. 
 
-## any additional topics
+## Deep Dive
 
-Setting up Slack channels with this integration, etc. 
+Additional technical information that doesn't aid in setting up, configuring or removing an integration. Not crucial to using Sleuth, but provides our audience with a deeper understanding of how our integrations communicate with the various tools they're connected to.  
 

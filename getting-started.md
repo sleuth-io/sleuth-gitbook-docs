@@ -15,7 +15,7 @@ For a more detailed walkthrough of the setup process, click through the tabs bel
 
 {% tabs %}
 {% tab title="Step 1" %}
-#### Go to the Sleuth [Dashboard](dashboard.md)
+#### Go to the Sleuth [Dashboard](dashboard/)
 
 ![](.gitbook/assets/screen-shot-2020-04-29-at-2.17.48-pm.png)
 {% endtab %}
@@ -63,7 +63,7 @@ You can add existing members to your organization or add the email address of so
 
 #### 💥 You're ready! 
 
-You can now start seeing the impact of your changes in [the Sleuth Dashboard](dashboard.md). Happy deploying! 
+You can now start seeing the impact of your changes in [the Sleuth Dashboard](dashboard/). Happy deploying! 
 {% endtab %}
 {% endtabs %}
 

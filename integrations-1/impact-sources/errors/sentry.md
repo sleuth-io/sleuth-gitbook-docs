@@ -50,5 +50,5 @@ Integrations are made at the Sleuth organization level, and are available for al
 Click **disconnect** to dissolve the Sleuth-Sentry integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
 {% endhint %}
 
-* That’s it—Sleuth will start displaying Sentry error metrics in your deploys. Read [**Dashboard**](../../../dashboard.md) for more information on how errors are communicated in deploy cards. 
+* That’s it—Sleuth will start displaying Sentry error metrics in your deploys. Read [**Dashboard**](../../../dashboard/) for more information on how errors are communicated in deploy cards. 
 

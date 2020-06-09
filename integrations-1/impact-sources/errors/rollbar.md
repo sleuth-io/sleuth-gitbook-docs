@@ -33,7 +33,7 @@ Integrations are made at the Sleuth organization level, and are available for al
 Click **disconnect** to dissolve the Sleuth-Rollbar integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
 {% endhint %}
 
-* That’s it—Sleuth will start displaying Rollbar error metrics in your deploys. Read [**Dashboard**](../../../dashboard.md) for more information on how errors are commun~~i~~cated in deploy cards. 
+* That’s it—Sleuth will start displaying Rollbar error metrics in your deploys. Read [**Dashboard**](../../../dashboard/) for more information on how errors are commun~~i~~cated in deploy cards. 
 
 ## Removing the integration
 

@@ -28,5 +28,5 @@ For more information, [read the LaunchDarkly documentation](https://docs.launchd
 Click **disconnect** to dissolve the Sleuth-LaunchDarkly integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
 {% endhint %}
 
-* That’s it—Sleuth will now track your feature flags as a source of change. Read [**Dashboard**](../../../dashboard.md) for more information on how feature flag issues are communicated in your Project’s deploy cards. 
+* That’s it—Sleuth will now track your feature flags as a source of change. Read [**Dashboard**](../../../dashboard/) for more information on how feature flag issues are communicated in your Project’s deploy cards. 
 

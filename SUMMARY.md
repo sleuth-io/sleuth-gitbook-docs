@@ -2,7 +2,8 @@
 
 * [Welcome!](README.md)
 * [Getting started](getting-started.md)
-* [The Dashboard](dashboard.md)
+* [Dashboard](dashboard/README.md)
+  * [Search](dashboard/search.md)
 * [Projects](projects.md)
 
 ## Integrations <a id="integrations-1"></a>

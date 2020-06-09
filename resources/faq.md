@@ -12,7 +12,7 @@ Someone on your team might have already created a Sleuth project, and connected 
 
 ## Can I get chat support? 
 
-Yes! Sleuth uses Tawk.to for chat support. Look in the lower-right hand corner of your [Dashboard](../dashboard.md) and click on the Tawk.to icon to get instant chat support \(available Monday thru Friday, 8 am to 5 pm PST\).   
+Yes! Sleuth uses Tawk.to for chat support. Look in the lower-right hand corner of your [Dashboard](../dashboard/) and click on the Tawk.to icon to get instant chat support \(available Monday thru Friday, 8 am to 5 pm PST\).   
 
 ![Tawk.to chat widget on the Dashboard](../.gitbook/assets/tawk-to-icon.png)
 
