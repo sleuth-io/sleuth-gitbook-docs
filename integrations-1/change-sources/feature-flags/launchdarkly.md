@@ -26,7 +26,7 @@ For more information, [read the LaunchDarkly documentation](https://docs.launchd
 
 ![](../../../.gitbook/assets/screen-shot-2020-03-31-at-3.52.19-pm.png)
 
-* That’s it—Sleuth will now track your feature flags as a source of change. Read [**Dashboard**](../../../dashboard.md) for more information on how feature flag issues are communicated in your Project’s deploy cards. 
+* That’s it—Sleuth will now track your feature flags as a source of change. Read [**Dashboard**](../../../dashboard.md) for more information on how feature flag issues are communicated within your project’s deploy cards. 
 
 ## Removing the integration
 
