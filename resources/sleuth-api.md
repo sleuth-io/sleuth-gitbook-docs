@@ -18,9 +18,9 @@ Manual Deploy Registration
 {% api-method-description %}
 Manually register your deploys via the Sleuth API.   
   
-Keep in mind that the organization and deployment slugs are not the semantic name of your organization and deployment as shown in the organization settings, which can contain spaces and capitalized characters. Rather, they're the slugs as displayed in the URL of your organization and deployment, with spaces replaced by a hyphen \(-\) and non-alphabetical characters \(e.g., **\(\)@\#$%^**, etc.\) ignored.  
+Note that the organization and deployment slugs are not the semantic name of your organization and deployment as shown in the organization settings, which can contain spaces and capitalized characters. The slugs displayed are the URL of your organization and deployment, with spaces replaced by a hyphen \(-\) and non-alphabetical characters \(e.g., **\(\)@\#$%^**, etc.\) ignored.  
   
-For example, if you're viewing a deployment called **plugin picker \(dev\)** and your organization is called **Amazing Software**, the URL will display as **https://app.sleuth.io/amazing-software/deployments/plugin-picker-dev**. The organization slug is **amazing-software**, the deployment slug is **plugin-picker-dev**.
+For example, if you're viewing a deployment called **plugin picker \(dev\)** and your organization is called **Amazing Software**, the URL will display as **https://app.sleuth.io/amazing-software/deployments/plugin-picker-dev**. Thus, the organization slug is **amazing-software**, the deployment slug is **plugin-picker-dev**.
 {% endapi-method-description %}
 
 {% api-method-spec %}
