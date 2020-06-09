@@ -12,8 +12,8 @@ Before you start, you should already have a LaunchDarkly account, and your envir
 
 To add the LaunchDarkly integration:
 
-* Click **Integrations** in the sidebar.
-* Click **connect** in the LaunchDarkly Change Sources card.
+1. Click **Integrations** in the sidebar.
+2. Click **connect** in the LaunchDarkly Change Sources card.
 
 ![](../../../.gitbook/assets/integration_connect_sleuth_01.png)
 
@@ -22,15 +22,18 @@ You must add Sleuth as an Authorized Application in the corresponding LaunchDark
 For more information, [read the LaunchDarkly documentation](https://docs.launchdarkly.com/integrations/oauth).
 {% endhint %}
 
-* The LaunchDarkly logo in the Change Source card turns to green when the integration is successful. 
+3. On successful integration, you'll see _LaunchDarkly is connected as {LaunchDarkly user account}_ displayed in the LaunchDarkly tile. 
 
-![](../../../.gitbook/assets/screen-shot-2020-03-31-at-3.52.19-pm.png)
+![A successful LaunchDarkly integration!](../../../.gitbook/assets/screen-shot-2020-03-31-at-3.52.19-pm.png)
 
-* That’s it—Sleuth will now track your feature flags as a source of change. Read [**Dashboard**](../../../dashboard.md) for more information on how feature flag issues are communicated within your project’s deploy cards. 
+4. That’s it—Sleuth will now track your feature flags as a source of change. Read [**Dashboard**](../../../dashboard.md) for more information on how feature flag issues are communicated within your project’s deploy cards. 
 
 ## Removing the integration
 
-{% hint style="info" %}
-Click **disconnect** to dissolve the Sleuth-LaunchDarkly integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
-{% endhint %}
+#### If you wish to dissolve the **LaunchDarkly** integration for the organization: 
+
+1. Click on **Integrations** in the left sidebar, then on **Change Sources**. 
+2. In the LaunchDarkly integration card, click **disconnect**.
+
+The LaunchDarkly integration is disconnected and no longer available to any projects within that organization. 
 
