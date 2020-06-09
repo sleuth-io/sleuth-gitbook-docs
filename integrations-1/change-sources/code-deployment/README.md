@@ -2,7 +2,9 @@
 
 **Code deployments** contain the code repositories that Sleuth analyzes to provide a meaningful and clear view of the impact your changes make over time. 
 
-* [Bitbucket](bitbucket.md)
-* [GitHub](github.md)
-* [GitLab](gitlab.md) _\(support coming soon\)_
+| Integration | Type | Additional info... |
+| :--- | :--- | :--- |
+| [Bitbucket](bitbucket.md) | Code Deployment | Can be used a change source.  |
+| [GitHub](github.md) | Code Deployment | Can be used as a change source.  |
+| [GitLab](gitlab.md) | Code Deployment | _Coming soon._ |
 

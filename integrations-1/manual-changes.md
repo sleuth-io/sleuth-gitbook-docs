@@ -15,14 +15,18 @@ To add a manual change:
 3. Press **Create**. 
 
 {% hint style="info" %}
-A well-formed cURL request with your project data pre-populated is displayed \(see similar image below\). You can use this CURL request on CLI or by using Postman.  
+A well-formed curl request with your project data pre-populated is displayed \(see similar image below\). You can use this curl request on CLI or by using Postman.  
 {% endhint %}
 
 {% hint style="danger" %}
-Do not share this link with anyone outside of your organization. The CURL command that is displayed contains your private Sleuth API key and other private information. 
+**Do not share the curl link with anyone outside of your organization.** The dynamically-generated curl command contains your private Sleuth API key and other private information. 
 {% endhint %}
 
-![cURL information in Add Manual Change page](../.gitbook/assets/curl_url_dialog.png)
+![curl information in Add Manual Change page](../.gitbook/assets/curl_url_dialog.png)
 
-The manual change will display on your [Dashboard](../dashboard.md) and shown just like any other source of change. Manual changes are not tracked by Sleuth; you'll need to update and manage them on your own. 
+The manual change will be visible on your [Dashboard](../dashboard.md) and displayed just like any other source of change. Manual changes are not updated nor managed by Sleuth; you'll need to maintain them on your own. 
+
+{% hint style="info" %}
+Manual changes can be also be [submitted via the Sleuth API](../resources/sleuth-api.md#manual-change). 
+{% endhint %}
 

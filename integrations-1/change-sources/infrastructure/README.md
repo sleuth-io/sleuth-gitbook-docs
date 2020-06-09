@@ -6,10 +6,8 @@ Infrastructure as a change source support coming soon.
 
 **Infrastructure** as a change source tracks changes made to the infrastructure that powers your applications. Connect to your cloud infrastructure provider to collect the details and impact of changes made, and how they affect your infrastructure users. 
 
-Link infrastructure changes to code
-
-Empower your developers to DevOps
-
-* [AWS](aws.md)
-* [Terraform Cloud](terraform-cloud.md)
+| Integration | Type | Additional info... |
+| :--- | :--- | :--- |
+| [AWS](aws.md) | Infrastructure | Can be used a change source. _Coming soon._  |
+| [Terraform Cloud](terraform-cloud.md) | Infrastructure | _Coming soon._ |
 
