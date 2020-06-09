@@ -77,6 +77,16 @@ Once a commit is performed, Sleuth samples the commit at the moment of deploy, s
 
 Impact is integral to the Sleuth experience, and is one of the main metrics Sleuth computes to provide you with the overall health status of your deploys. 
 
+## Deploy Tracking Type
+
+When adding a code deployment change source, you can specify when and how Sleuth should track changes in your repo. 
+
+![](../.gitbook/assets/deploy-tracking-type.png)
+
+* **Manually register each deploy**: You must manually notify Sleuth when a commit has been made to your code repo. This can be done via the [Sleuth API](sleuth-api.md#manual-deploy-registration). 
+* **Automatically create deploys for every tag on branch**: When a commit is tagged, Sleuth will automatically create a deploy. 
+* **Automatically create deploys for every push to branch**: When a commit is pushed, Sleuth will automatically create a deploy. 
+
 ## Deployment Locking
 
  The Lock feature in Sleuth prevents pull requests from merging into main branches, and generates automatic notifications via your Chat Ops [integrations](../integrations-1/about-integrations.md) \(e.g., [Slack](../integrations-1/chat-ops/slack.md)\). 
