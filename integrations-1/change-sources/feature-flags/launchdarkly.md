@@ -32,13 +32,13 @@ For more information, [read the LaunchDarkly documentation](https://docs.launchd
 
 ## Configuring the integration
 
-You now need to add a LaunchDarkly project and environment to a Sleuth project as a feature flag change source. This source of change is the project that Sleuth will monitor and report in the [Dashboard](../../../dashboard.md) on each and every deploy you make to that repo, along with any other change sources you have connected to your project. 
+You now need to add a LaunchDarkly project and environment to a Sleuth project as a feature flag change source. This source of change is the project that Sleuth will monitor and report in the [Dashboard](../../../dashboard.md) on each and every deploy you make to that repo, along with additional information from any other connected change sources report t. 
 
 To configure the LaunchDarkly integration: 
 
-1. After step \#4 above, you will be taken back to the GitHub integration tile. On the GitHub tile, click the **Add code deployment** dropdown.   ![](../../../.gitbook/assets/ld-add-code-deployment.png) 
-2. Select the [Sleuth project](../../../projects.md) you wish to add a chance source to from the dropdown list.   ![](../../../.gitbook/assets/ld-add-code-deployment-withdropdown.png) 
-3. In the _Edit Feature Flag change source_ screen, you must configure which feature flag project and environment to monitor and give the change source a name. Any Sleuth projects currently using feature flags as a change source are displayed in the **User by code deployments** section.   __![](../../../.gitbook/assets/ld-edit-ff-change-source.png) 
+1. After step \#4 above, you will be taken back to the LaunchDarkly integration tile. On the LaunchDarkly tile, click the **Add feature flags** dropdown.   ![](../../../.gitbook/assets/ld-add-code-deployment.png) 
+2. Select the [Sleuth project](../../../projects.md) you wish to add a feature flag chance source to from the dropdown list.   ![](../../../.gitbook/assets/ld-add-code-deployment-withdropdown.png) 
+3. In the _Edit Feature Flag change source_ screen, you must configure which feature flag project and environment to monitor and give the change source a name. Any Sleuth projects currently using feature flags as a change source are displayed in the **Used by code deployments** section.   __![](../../../.gitbook/assets/ld-edit-ff-change-source.png) 
 
 ## Removing the integration
 
