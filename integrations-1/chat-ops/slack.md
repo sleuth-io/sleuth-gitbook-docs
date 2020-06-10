@@ -33,25 +33,27 @@ To receive messages from the Sleuth bot, recipients must be registered both in y
 
 ## Setting up the integration
 
-* Click **Integrations** in the sidebar.
-* Find the **Chat Ops** &gt; **Slack** card, then click **connect**. 
-* Click **Allow** to make the integration. 
+1. Click **Integrations** in the sidebar.
+2. In the **Chat Ops** &gt; **Slack** card, click **connect**. 
+3. Click **Allow** to make the integration. 
 
 {% hint style="info" %}
 You must add Sleuth as an Authorized Application in Slack. For more information, [read the Slack documentation](https://api.slack.com).
 {% endhint %}
 
 {% hint style="warning" %}
-In some organizations, adding third-party integrations to Slack must be authorized by an App Manager. Slack allows you to message the App Manager directly from the _Request to install_ dialog, as shown below. Once authorization is granted, you can proceed with the integration.
+Adding a third-party integration to Slack must be authorized by your Slack App Manager. Slack allows you to message the App Manager directly from the _Request to install_ dialog, as shown below. Once authorization is granted, you can proceed with the integration.
 {% endhint %}
 
 ![Adding Slack third-party integrations might require your App Manager&apos;s approval.](../../.gitbook/assets/slack-request-to-install-screen%20%281%29.png)
 
-* The Slack logo in the Change Source card **will turn green** when the integration is successful. 
+4. The Slack logo in the Change Source card **will turn green** when the integration is successful. 
 
 ![](../../.gitbook/assets/slack-integration-connected.png)
 
-* The Slack integration is done at the [organization](../../resources/terminology.md#information-architecture-ia) level. Since multiple [projects](../../projects.md) can exist within an organization, you'll want to go in to each project and configure notifications individually. This is especially important for individual Slack notifications, such as notifying the author of a commit and/or the person responsible for deploying. 
+{% hint style="info" %}
+The Slack integration is done at the [organization](../../resources/terminology.md#information-architecture-ia) level. Since multiple [projects](../../projects.md) can exist within an organization, you'll want to go in to each project and configure notifications individually. This is especially important for individual Slack notifications, such as notifying the author of a commit and/or the person responsible for initiating deploying. 
+{% endhint %}
 
 ## Configuring the integration
 
