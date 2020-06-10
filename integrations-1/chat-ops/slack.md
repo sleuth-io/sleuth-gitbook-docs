@@ -31,7 +31,7 @@ Sleuth can also be setup to send **individual Slack messages**. For example, ins
 To receive messages from the Sleuth bot, recipients must be registered both in your code repo \(i.e., GitHub, Bitbucket, etc.\) and also in Sleuth. 
 {% endhint %}
 
-## Adding the Slack integration
+## Setting up the integration
 
 * Click **Integrations** in the sidebar.
 * Find the **Chat Ops** &gt; **Slack** card, then click **connect**. 
@@ -53,15 +53,13 @@ In some organizations, adding third-party integrations to Slack must be authoriz
 
 * The Slack integration is done at the [organization](../../resources/terminology.md#information-architecture-ia) level. Since multiple [projects](../../projects.md) can exist within an organization, you'll want to go in to each project and configure notifications individually. This is especially important for individual Slack notifications, such as notifying the author of a commit and/or the person responsible for deploying. 
 
-{% hint style="info" %}
-Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration. For corporate Slack instances, this will require the Slack App Manager to authorize the Sleuth app again. 
-{% endhint %}
+## Configuring the integration
 
-* Sleuth will now use Slack to relay important deploy information to your team, as well as individual notifications to commit authors and/or deploy initiators. 
+Sleuth will now use Slack to relay important deploy information to your team, as well as individual notifications to commit authors and/or deploy initiators. 
 
 ### To broadcast to channels
 
-Now that the Slack integration has been made to your organization, you can fine-tune Slack notifications within each project. Depending on how many Sleuth projects you have and the various teams working on those projects, it's unlikely every person in the organization will want to receive notifications on projects they're not currently working on. 
+Now that the Slack integration has been made to your organization, you can fine-tune Slack notifications within each project. Depending on how many Sleuth projects you have and the various teams working on those projects, it might be the case that not every person in configured organization will want to receive notifications on projects they're not working on. 
 
 {% hint style="info" %}
 Don't forget to set the security on your Slack channels to **Public** or **Private**. If you select **Private**, you will need to invite the Sleuth "bot" to the channel first. 
@@ -70,12 +68,20 @@ Don't forget to set the security on your Slack channels to **Public** or **Priva
 To configure channel notifications: 
 
 1. Select the project you wish to modify in the project dropdown in the sidebar. 
-2. Click **Project Settings**.
-3. Click Slack Notifications. 
-4. Type the name of the channel you wish to broadcast to in the _Slack channel_ field. Once you start typing, a list of available channels will auto-populate. 
-5. Press Save. 
+2. Click on **Project Settings**, then click **Slack Notifications**. 
+3. Start typing the name of the channel you wish to broadcast to in the _Slack channel_ field. A list of available channels will auto-populate. Select the preferred broadcast channel for the project you're currently in. 
+4. Press **Save**. 
 
-The channel you specified will start receiving deployment notifications that will look somewhat like this one: 
+The selected Slack channel will start receiving deployment notifications similar to the one shown below: 
 
-![A sample Slack notification alerting the selected channel that a deploy was just made.](../../.gitbook/assets/slack-channel-deploy-message_2.png)
+![Example Slack notification alerting the selected channel that a deploy was made.](../../.gitbook/assets/slack-channel-deploy-message_2.png)
+
+## Removing the integration
+
+#### If you wish to dissolve the **Slack** integration for the organization: 
+
+1. Click on **Integrations** in the left sidebar, then on **Chat Ops**. 
+2. In the Slack integration card, click **disconnect**.
+
+The Slack integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Slack integration will be lost. 
 
