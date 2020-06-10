@@ -37,7 +37,7 @@ Click on the **Edit on GitHub** link on the right side of the page that contains
 You are viewing version 2 \(**v2**\) of Sleuth Documentation.   
 Last update on May 19, 2020 at 10:17 p.m. PST. 
 
-
+![](../.gitbook/assets/sleuth_gif_v1_3.gif)
 
  
 
