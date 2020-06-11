@@ -59,15 +59,15 @@ The Slack integration is done at the [organization](../../resources/terminology.
 
 Sleuth will now use Slack to relay important deploy information to your team, as well as individual notifications to commit authors and/or deploy initiators. 
 
-### To broadcast to channels
+### Broadcasting to channels
 
-Now that the Slack integration has been made to your organization, you can fine-tune Slack notifications within each project. Depending on how many Sleuth projects you have and the various teams working on those projects, it might be the case that not every person in configured organization will want to receive notifications on projects they're not working on. 
+With the Slack integration made to your organization, you can fine-tune Slack notifications within each project. Depending on how many Sleuth projects you have and the various teams working on those projects, it might be the case that not every person in configured organization will want to receive notifications on projects they're not working on. 
 
 {% hint style="info" %}
 Don't forget to set the security on your Slack channels to **Public** or **Private**. If you select **Private**, you will need to invite the Sleuth "bot" to the channel first. 
 {% endhint %}
 
-To configure channel notifications: 
+#### To configure channel notifications: 
 
 1. Select the project you wish to modify in the project dropdown in the sidebar. 
 2. Click on **Project Settings**, then click **Slack Notifications**. 
