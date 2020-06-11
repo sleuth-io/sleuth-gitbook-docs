@@ -5,6 +5,7 @@
 * [Dashboard](dashboard/README.md)
   * [Search](dashboard/search.md)
 * [Projects](projects.md)
+* [Notifications](notifications.md)
 
 ## Integrations <a id="integrations-1"></a>
 
