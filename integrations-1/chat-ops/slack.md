@@ -27,10 +27,12 @@ Before you start, you should already have a Slack account. Additionally, you sho
 Don't forget to set the security on your Slack channels, to either **Public** or **Private**. If you select **Private**, you will need to invite the Sleuth "bot" to the channel first. 
 {% endhint %}
 
+## Setting up the integration
+
 To add the Slack integration:
 
-* Click **Integrations** in the sidebar.
-* Click **connect** in the Slack Chat Ops card. 
+1. Click **Integrations** in the sidebar.
+2. Click **connect** in the Slack Chat Ops card. 
 
 {% hint style="info" %}
 You must add Sleuth as an Authorized Application in Slack. For more information, [read the Slack documentation](https://api.slack.com).
@@ -40,21 +42,25 @@ You must add Sleuth as an Authorized Application in Slack. For more information,
 The [Slack integration](slack.md#about-the-integration) requires admin/owner access to the Slack instance for your team. If you alter the Slack integration at the organization level, it will affect all projects in the parent organization that use Slack. 
 {% endhint %}
 
-
-
-* The Slack logo in the Change Source card will turn green when the integration is successful. 
+3. The Slack logo in the Change Source card will turn green when the integration is successful. 
 
 ![](../../.gitbook/assets/slack-integration-connected.png)
 
-* The Slack integration is done at the Organization level. Since multiple Projects can exist within an Organization, you'll want to go in to each Project and configure notifications individually.  Create your Slack channels first before configuring the notifications in the Sleuth Projects; you can't create a new channel from Sleuth if it doesn't yet exist within Slack. 
+## Configuring the integration
+
+The Slack integration is done at the Organization level. Since multiple Projects can exist within an Organization, you'll want to go in to each Project and configure notifications individually.
+
+Create your Slack channels first before configuring the notifications in the Sleuth Projects; you can't create a new channel from Sleuth if it doesn't yet exist within Slack. 
+
+Sleuth will now use Slack to relay important deploy information to your team. 
+
+## Removing the integration
 
 {% hint style="info" %}
 Click **disconnect** to dissolve the Sleuth-Slack integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
 {% endhint %}
 
-* Sleuth will now use Slack to relay important deploy information to your team. 
-
-### Setting up Slack notifications
+* **Setting up Slack notifications**
 
 {% hint style="danger" %}
 This section is under construction. 
