@@ -58,7 +58,7 @@ Qs:
 3. Set up Slack for 1:1 notifications
 4. Do Slack and email notifications mirror same action/activity? **No**
 5. Are **My Notifications** unique to each project/change source screen? **YES**
-6. Explain how it works in, eg, Atlassian, where 13 users will be part of team, yet Atlassian Slack account is probably handled by a central admin. Is the ENTIRE company the Org, and individual teams will create their own PROJECTS? How does Sleuth arbritrate members who join org with @atlassian.com email address, but need to join only certain projects? Atlassian is the ORG; within the ATL ORG there are 
+6. Explain how it works in, eg, Company X, where 13 users will be part of team, yet Company X Slack account is probably handled by a central admin. Is the ENTIRE company the Org, and individual teams will create their own PROJECTS? How does Sleuth arbritrate members who join org with @companyx.com email address, but need to join only certain projects? Company X is the ORG; within the COX ORG there are 
 7. We need to know who you are in Slack **AND** GitHub \(Bitbucket \(Bitbucket Server for local\) or LaunchDarkly\); hosted GitLab is easier Contact Support if you need more info 
 
 "Slack app connected. Next step: choose the Slack channel to which we can send notifications about deploys as they happen." 
