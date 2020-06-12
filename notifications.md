@@ -51,7 +51,7 @@ Email notifications are sent at the frequency you select, and can be configured 
 
 ### Notes
 
-Qs for Dylan: 
+Qs: 
 
 1. Set up Slack for org
 2. Set up Slack for project
