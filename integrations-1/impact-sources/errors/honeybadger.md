@@ -1,6 +1,6 @@
 # Honeybadger
 
-## About the Integration
+## About the integration
 
 Honeybadger is a service that watches your applications in production and lets you know about errors and outages. This integration allows Sleuth to track these errors and outages to measure their overall impact to your code deploys, which is displayed in the [trend graph](../../../resources/terminology.md#dashboard) and, if applicable, in the [deploy card](../../../resources/terminology.md#deploy-cards) of every commit. 
 

@@ -1,6 +1,6 @@
 # Slack
 
-## About the Integration ![](../../.gitbook/assets/slack_mark_monochrome_black_sm.png) 
+## About the integration ![](../../.gitbook/assets/slack_mark_monochrome_black_sm.png) 
 
 Keep your teams and other principals informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. No more bloated distribution lists, and bombarding your team with a barrage of emails. Use Slack's powerful communications features to keep development teams informed about your code deploys, and your entire organization up to date on progress.
 

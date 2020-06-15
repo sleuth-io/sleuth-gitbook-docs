@@ -1,6 +1,6 @@
 # Rollbar
 
-## About the Integration ![](../../../.gitbook/assets/rollbar-mark-black.png) 
+## About the integration ![](../../../.gitbook/assets/rollbar-mark-black.png) 
 
 Rollbar is an error monitoring service that helps DevOps teams automate error monitoring and triaging. Before you start, you should already have a [Rollbar](https://rollbar.com/signup/) account and your environment setup and running. If not, head over to Rollbar to get things started. Once you're done, return to Sleuth so you can complete setup of the integration. 
 

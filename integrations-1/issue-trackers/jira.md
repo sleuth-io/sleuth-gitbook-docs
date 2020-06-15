@@ -1,6 +1,6 @@
 # Jira
 
-## About the Integration ![](../../.gitbook/assets/jira-software-2x-blue%20%281%29.png) 
+## About the integration ![](../../.gitbook/assets/jira-software-2x-blue%20%281%29.png) 
 
 The Jira integration allows Sleuth to use Jira as a deployment issue tracker. When you deploy, Sleuth will automatically connect your Jira issues to the deploys, so you can always find the source of your changes later. Direct links to related Jira projects are provided in the deploy cards, allowing you to quickly see the Jira issues that affect your deploys. 
 
