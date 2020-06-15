@@ -14,7 +14,7 @@ All the data Sleuth collects about your code deployments is displayed in the Das
 
   The Sidebar provides quick access to your projects \(if you have more than one\), code deployments, feature flags, and impacts. 
 
-* **Trend Graph** 🇧 
+* **Trend graph** 🇧 
 
   A visual representation of the changes that have have been made over the selected time range.
 
@@ -22,9 +22,9 @@ All the data Sleuth collects about your code deployments is displayed in the Das
 
   The [**Size**](../resources/terminology.md#size) graph gives you a quick way to see the average size of your deployments. The [**Leaderboard**](../resources/terminology.md#leaderboard) gamifies a team's deployment frequency, motivating you and your peers to make smaller deployments faster. 
 
-* **Deploy Card** 🇩 
+* **Deploy card** 🇩 
 
   A running list of your deploys, shown in chronological order. Direct links are provided to the corresponding repos, allowing you to quickly see what changes were made. The size of the deploy is also displayed. Collectively, the size of your deploys over the displayed time range impacts the size graph. Clicking on the commit hash will display more detailed information about all the events leading up to the deploy. [Learn more](../resources/terminology.md#deploy-cards) about deploy cards. 
 
-* **Change Sources** 🇪 All of the sources of change connected to your project are displayed here. Collectively, all of the change sources combined drive the data shown in the main Trend Graph🇧.
+* **Change sources** 🇪 All of the sources of change connected to your project are displayed here. Collectively, all of the change sources combined drive the data shown in the main Trend Graph🇧.
 

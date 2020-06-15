@@ -3,7 +3,12 @@
 * [Welcome!](README.md)
 * [Getting started](getting-started.md)
 * [Dashboard](dashboard/README.md)
+  * [Change sources](dashboard/change-sources.md)
+  * [Deploy card](dashboard/deploy-card.md)
   * [Search](dashboard/search.md)
+  * [Sidebar](dashboard/sidebar.md)
+  * [Size/Leaderboard](dashboard/size-leaderboard.md)
+  * [Trend graph](dashboard/trend-graph.md)
 * [Projects](projects.md)
 * [Notifications](notifications.md)
 
