@@ -10,6 +10,12 @@
 
 The Sleuth REST API requires authentication using the API key from your Sleuth [project](/@sleuth/s/sleuth/~/drafts/-M8WXrzvQ-fp5VsbiE8G/v/v3/projects).
 
+## Errors
+
+* Codes in the `2xx` range indicate success
+* Codes in the `4xx` range indicate incorrect or incomplete parameters \(e.g., parameter  omitted, etc.\)
+* Codes in the `5xx` range indicate an error with Sleuth servers
+
 {% api-method method="post" host="https://app.sleuth.io" path="api/1/<Organization Slug>/<Deployment Slug>/register\_deploy" %}
 {% api-method-summary %}
 Manual Deploy Registration
