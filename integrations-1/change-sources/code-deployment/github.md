@@ -29,6 +29,15 @@ To configure the GitHub integration:
 2. Select the [Sleuth project](../../../projects.md) you wish to add a chance source to from the dropdown list.   ![](../../../.gitbook/assets/github-add-code-deployment-withdropdown.png) 
 3. In the _Add a new Code Deployment change source_ screen, you must configure which code repo and branch to monitor; give the code deployment a name; select the [deploy tracking type](../../../resources/terminology.md#deploy-tracking-type); and tell Sleuth whether to [lock the target branch](../../../resources/terminology.md#deployment-locking) if it has unreleased code.  __![](../../../.gitbook/assets/bitbucket-add-code-deployment-change-source.png) 
 
+{% hint style="info" %}
+You can always edit existing code deployments by selecting your project, then clicking on _Project Settings_, then _Code Deployments_, then clicking **edit** next to code deployment you wish to update.   
+You can also add a new code deployment by clicking the **Add code deployment** button.  
+   
+ ![](../../../.gitbook/assets/screen-shot-2020-06-16-at-11.31.24-am.png) 
+{% endhint %}
+
+![](../../../.gitbook/assets/screen-shot-2020-06-16-at-11.31.24-am.png)
+
 ### Advanced Settings
 
 The preferences in Advanced Settings allow you to control the information flow from a deploy. You can control whether a deploy affects your project's health, shows up in notifications or is included in the project dashboard. 
