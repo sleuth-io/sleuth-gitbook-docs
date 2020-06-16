@@ -8,6 +8,8 @@
 ## Integrations <a id="integrations-1"></a>
 
 * [About Integrations...](integrations-1/about-integrations.md)
+* [Builds](integrations-1/builds/README.md)
+  * [CircleCI](integrations-1/builds/circleci.md)
 * [Change Sources](integrations-1/change-sources/README.md)
   * [Code Deployment](integrations-1/change-sources/code-deployment/README.md)
     * [Bitbucket](integrations-1/change-sources/code-deployment/bitbucket.md)

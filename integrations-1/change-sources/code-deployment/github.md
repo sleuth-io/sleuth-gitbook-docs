@@ -29,6 +29,10 @@ To configure the GitHub integration:
 2. Select the [Sleuth project](../../../projects.md) you wish to add a chance source to from the dropdown list.   ![](../../../.gitbook/assets/github-add-code-deployment-withdropdown.png) 
 3. In the _Add a new Code Deployment change source_ screen, you must configure which code repo and branch to monitor; give the code deployment a name; select the [deploy tracking type](../../../resources/terminology.md#deploy-tracking-type); and tell Sleuth whether to [lock the target branch](../../../resources/terminology.md#deployment-locking) if it has unreleased code.  __![](../../../.gitbook/assets/bitbucket-add-code-deployment-change-source.png) 
 
+### Advanced Settings
+
+
+
 ## Removing the integration
 
 #### If you wish to dissolve the GitHub integration for the organization: 
