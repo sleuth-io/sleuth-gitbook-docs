@@ -26,8 +26,6 @@ In the previous section you created a project-level Slack notification. Team mem
    * **Deployed code**: Selecting **All** means you will receive a Slack notification every time code in which you are the author is deployed.  Selecting **Exclude my deployments** notifies you of all deployments except those in which you're the author. This option is great if you're up to speed on your own code but want to keep tabs on how the rest of your team's deployments are doing. 
    * **Impact of your Code**: Selecting **All** means you will always receive a Slack notification about the impact of your code on the rate of production errors.  Selecting **Exclude healthy** sends a notification only if a deployment occurs in which the impact of your code on productions errors is anything except _Healthy;_ this includes _Unhealthy_, _Ailing_, or _Improved_.   ![](.gitbook/assets/notifications-slack-notifications-setup.png) 
 
-
-
 ### Setting up email notifications 
 
 Email notifications are sent at the frequency you select, and can be configured individually at the project and change source level. 
