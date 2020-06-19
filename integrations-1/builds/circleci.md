@@ -1,8 +1,6 @@
 # CircleCI
 
-
-
-![](../../.gitbook/assets/circleci-integration-dialog.png)
+## About the integration
 
 ## Setting up the integration
 
