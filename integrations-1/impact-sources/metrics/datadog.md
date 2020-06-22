@@ -50,5 +50,9 @@ Click **disconnect** to dissolve the Sleuth Datadog integration. You will need t
 
 ## Notes
 
+Datadog - a implementartion of impact source - is a metric impact source. We deployment, we go to source every 15 minutes. With Datadog which metric is it, which direction \(if you want this number to be high/low\). Anomaly Detection - after 6 times \(deploys\) we train our model to say this is normal. Every minute for 15 minutes, every Impact Source. 
+
+Python library that talks about anomaly detection. 
+
 
 
