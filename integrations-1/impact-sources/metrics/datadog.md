@@ -48,3 +48,7 @@ Click **disconnect** to dissolve the Sleuth Datadog integration. You will need t
 
 * That’s it—Sleuth will start displaying Datadog metrics in your deploys. Read [**Dashboard**](../../../dashboard/) for more information on how metrics are communicated in deploy cards. 
 
+## Notes
+
+
+
