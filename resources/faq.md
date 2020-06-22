@@ -4,7 +4,7 @@
 
 Currently, the way to represent your environments in Sleuth is to model them as [projects](../projects.md). Create a new project for each environment, such as staging, production, development, etc., and then map change sources, deployments, feature flags, etc., to each environment individually. 
 
-We will introduce full-featured environment support to Sleuth very soon, so stay tuned. 
+More information about how environments are represented in the Sleuth Information Architecture is available on the [Terminology page](terminology.md#information-architecture-ia). 
 
 ## How do I connect to my organization? 
 
