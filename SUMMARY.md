@@ -47,7 +47,7 @@
 
 * [Sleuth API](resources/api-reference.md)
 * [Terminology](resources/terminology.md)
-* [FAQ](resources/faq/README.md)
-  * [Purchasing](resources/faq/purchasing.md)
+* [FAQ](resources/faq.md)
+* [Purchasing](resources/purchasing.md)
 * [About](resources/about.md)
 
