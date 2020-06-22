@@ -22,7 +22,7 @@ For detailed pricing information, visit our [Pricing section](https://www.sleuth
 
 ## **How do I pick my plan?**
 
-To change your plan: 
+To pick a new plan or change your current one: 
 
 1. [Login](https://app.sleuth.io/accounts/login/) to your Sleuth account. 
 2. Click on the organization name at the top of the sidebar, then click on **Organization settings**. 

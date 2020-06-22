@@ -1,9 +1,5 @@
 # FAQ
 
-## Pricing
-
-
-
 ## How are environments represented in Sleuth?
 
 Currently, the way to represent your environments in Sleuth is to model them as [projects](../projects.md). Create a new project for each environment, such as staging, production, development, etc., and then map change sources, deployments, feature flags, etc., to each environment individually. 
@@ -23,6 +19,10 @@ Sleuth uses an open source anomaly detection tool to perform its impact source r
 Yes! Sleuth uses Tawk.to for chat support. Look in the lower-right hand corner of your [Dashboard](../dashboard/) and click on the Tawk.to icon to get instant chat support \(available Monday thru Friday, 8 am to 5 pm PST\).   
 
 ![Tawk.to chat widget on the Dashboard](../.gitbook/assets/tawk-to-icon.png)
+
+## How much does Sleuth cost? 
+
+You can get detailed pricing and purchasing information here on the [Purchasing](purchasing.md) page. 
 
 
 
