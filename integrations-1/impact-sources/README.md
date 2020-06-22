@@ -6,7 +6,6 @@
 | :--- | :--- | :--- |
 | [Datadog](metrics/datadog.md) | Metrics | _Coming soon._ |
 | [Honeybadger](errors/honeybadger.md) | Errors |  |
-| [New Relic](metrics/new-relic.md) | Metrics | _Coming soon._ |
 | [Rollbar](errors/rollbar.md) | Errors | \_\_ |
 | [Sentry](errors/sentry.md) | Errors |   |
 

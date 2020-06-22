@@ -28,7 +28,6 @@
     * [Sentry](integrations-1/impact-sources/errors/sentry.md)
   * [Metrics](integrations-1/impact-sources/metrics/README.md)
     * [Datadog](integrations-1/impact-sources/metrics/datadog.md)
-    * [New Relic](integrations-1/impact-sources/metrics/new-relic.md)
 * [Issue Trackers](integrations-1/issue-trackers/README.md)
   * [Clubhouse](integrations-1/issue-trackers/clubhouse.md)
   * [Jira](integrations-1/issue-trackers/jira.md)

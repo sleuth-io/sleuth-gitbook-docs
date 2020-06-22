@@ -19,7 +19,7 @@ You can even have Sleuth track a [manual change](manual-changes.md), which can b
 | [Honeybadger](impact-sources/errors/honeybadger.md) | Impact Errors |  |
 | [Jira](issue-trackers/jira.md) | Issue Tracker |  |
 | [LaunchDarkly](change-sources/feature-flags/launchdarkly.md) | Feature Flags | Can be used a change source.  |
-| [New Relic](impact-sources/metrics/new-relic.md) | Impact Metrics | _Coming soon._ |
+| New Relic | Impact Metrics | [Contact us](mailto:support@sleuth.io?subject=Interested%20in%20New%20Relic%20integration) for more information |
 | [Rollbar](impact-sources/errors/rollbar.md) | Impact Errors |  |
 | [Sentry](impact-sources/errors/sentry.md) | Impact Errors |  |
 | [Slack](chat-ops/slack.md) | Chat Ops |  |
