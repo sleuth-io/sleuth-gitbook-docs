@@ -12,7 +12,7 @@ Someone on your team might have already created a Sleuth project, and connected 
 
 ## How does Sleuth perform anomaly detection? 
 
-Sleuth uses an open source anomaly detection tool to perform its impact source reporting. When you deploy, Sleuth immediately starts analyzing the information received from your integrated tools. Of course, the more tools you have means that Sleuth has more information to process, which will give you a much clearer picture of how healthy \(or not\) your deploys are. For example, with a [Datadog](../integrations-1/impact-sources/metrics/datadog.md) integration you can set the baseline of the reported metrics and then configure Sleuth how to process any deviations; for example, less 500 errors are better than more. 
+Sleuth uses an open source anomaly detection tool to perform its impact source reporting. When you deploy, Sleuth immediately starts analyzing the information received from your integrated tools. Of course, the more tools you have means that Sleuth has more information to process, which will give you a much clearer picture of how healthy or unhealthy your deploys are. For example, with a [Datadog](../integrations-1/impact-sources/metrics/datadog.md) integration you can set the baseline of the reported metrics and then configure Sleuth how to process any deviations; for example, less **500** errors are better than more. 
 
 ## Can I get chat support? 
 
