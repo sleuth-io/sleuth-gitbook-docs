@@ -22,7 +22,7 @@ Yes! Sleuth uses Tawk.to for chat support. Look in the lower-right hand corner o
 
 ## How much does Sleuth cost? 
 
-You can get detailed pricing and purchasing information here on the [Purchasing](purchasing.md) page. 
+You can get detailed pricing and purchasing information on the [Purchasing](purchasing.md) page. 
 
 
 
