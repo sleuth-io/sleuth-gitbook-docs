@@ -13,7 +13,7 @@ Self-hosted Sentry instances are currently **not** supported by Sleuth.
 To add the Sleuth Sentry integration:
 
 * Click **Integrations** in the sidebar.
-* Click the _Error Trackers_ tab, then **connect** in the Sentry card.
+* Click the _Error Trackers_ tab, then **enable** in the Sentry card.
 * Enter the Sentry Auth Token, then press **Save**. 
 
 {% hint style="info" %}
