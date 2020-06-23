@@ -6,5 +6,5 @@
 | :--- | :--- | :--- |
 | [Bitbucket](bitbucket.md) | Code Deployment | Can be used a change source.  |
 | [GitHub](github.md) | Code Deployment | Can be used as a change source.  |
-| [GitLab](gitlab.md) | Code Deployment | _Coming soon._ |
+| [GitLab]() | Code Deployment | _Coming soon._ |
 

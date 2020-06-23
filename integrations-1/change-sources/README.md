@@ -7,7 +7,7 @@
 | [AWS](infrastructure/aws.md) | Infrastructure | Can be used a change source. _Coming soon._  |
 | [Bitbucket](code-deployment/bitbucket.md) | Code Deployment | Can be used a change source.  |
 | [GitHub](code-deployment/github.md) | Code Deployment | Can be used as a change source.  |
-| [GitLab](code-deployment/gitlab.md) | Code Deployment | _Coming soon._ |
+| [GitLab]() | Code Deployment | _Coming soon._ |
 | [LaunchDarkly](feature-flags/launchdarkly.md) | Feature Flags | Can be used a change source.  |
 | [Terraform Cloud](infrastructure/terraform-cloud.md) | Infrastructure | _Coming soon._ |
 

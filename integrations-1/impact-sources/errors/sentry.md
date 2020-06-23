@@ -48,11 +48,14 @@ Integrations are made at the Sleuth organization level, and are available for al
 
 * The Sentry logo in the Change Source card turns to green when the integration is successful. 
 
+That’s it—Sleuth will start displaying Sentry error metrics in your deploys. Read [**Dashboard**](../../../dashboard.md) for more information on how errors are communicated in deploy cards. 
+
 ## Removing the integration
 
-{% hint style="info" %}
-Click **disconnect** to dissolve the Sleuth-Sentry integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
-{% endhint %}
+#### If you wish to dissolve the **Sentry** integration for the organization: 
 
-* That’s it—Sleuth will start displaying Sentry error metrics in your deploys. Read [**Dashboard**](../../../dashboard.md) for more information on how errors are communicated in deploy cards. 
+1. Click on **Integrations** in the left sidebar, then on **Error Trackers**. 
+2. In the Slack integration card, click **disable**.
+
+The Sentry integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Sentry integration will be lost.
 

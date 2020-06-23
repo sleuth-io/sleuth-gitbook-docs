@@ -34,7 +34,7 @@ To receive messages from the Sleuth bot, recipients must be registered both in y
 ## Setting up the integration
 
 1. Click **Integrations** in the sidebar.
-2. In the **Chat Ops** &gt; **Slack** card, click **connect**. 
+2. In the **Chat Ops** &gt; **Slack** card, click **enable**. 
 3. Click **Allow** to make the integration. 
 
 {% hint style="info" %}
@@ -83,7 +83,7 @@ The selected Slack channel will start receiving deployment notifications similar
 #### If you wish to dissolve the **Slack** integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Chat Ops**. 
-2. In the Slack integration card, click **disconnect**.
+2. In the Slack integration card, click **disable**.
 
 The Slack integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Slack integration will be lost. 
 

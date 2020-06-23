@@ -13,7 +13,7 @@ Once Jira is configured as the issue tracker, every time the Jira issue key is i
 To set up the Sleuth Jira integration:
 
 1. Click **Integrations** in the left sidebar, then click **Issue Trackers**. 
-2. In the _Jira_ tile, click **connect**. 
+2. In the _Jira_ tile, click **enable**. 
 3. Enter the _API Token_, _Username_, and fully qualified _URL_ of your Jira instance into the corresponding fields, then press **Save**. To quickly access your Jira instance to obtain an API key, click **generate**.   ![](../../.gitbook/assets/jira-api-key-generate.png) 
 4. The Jira icon turns green and the message **Jira is connected** is displayed in the tile.
 
@@ -47,7 +47,7 @@ You can also change the default issue tracker at any time.
 #### If you wish to dissolve the Jira integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Issue Trackers**. 
-2. Click **disconnect**.
+2. Click **disable**.
 
 The Jira integration is disconnected and no longer available to any projects within that organization. Any projects that used the Jira integration will need a new default issue tracker selected. 
 

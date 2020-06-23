@@ -13,7 +13,6 @@
   * [Code Deployment](integrations-1/change-sources/code-deployment/README.md)
     * [Bitbucket](integrations-1/change-sources/code-deployment/bitbucket.md)
     * [GitHub](integrations-1/change-sources/code-deployment/github.md)
-    * [GitLab](integrations-1/change-sources/code-deployment/gitlab.md)
   * [Feature Flags](integrations-1/change-sources/feature-flags/README.md)
     * [LaunchDarkly](integrations-1/change-sources/feature-flags/launchdarkly.md)
   * [Infrastructure](integrations-1/change-sources/infrastructure/README.md)

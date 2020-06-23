@@ -9,7 +9,7 @@ Rollbar is an error monitoring service that helps DevOps teams automate error mo
 To add the Sleuth Rollbar integration:
 
 * Click **Integrations** in the sidebar.
-* Click **connect** in the Rollbar Error Trackers card.
+* Click **enable** in the Rollbar Error Trackers card.
 * Enter the Rollbar Auth Token, then press **Save**. 
 
 {% hint style="info" %}
@@ -40,13 +40,13 @@ Click **disconnect** to dissolve the Sleuth-Rollbar integration. You will need t
 #### If you wish to dissolve the Rollbar integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Error Trackers**. 
-2. In the Rollbar integration card, click **disconnect**.
+2. In the Rollbar integration card, click **disable**.
 
 The Rollbar integration is disconnected and no longer available to any projects within that organization.  Other error trackers that may be connected to your organization are not affected. 
 
 #### If you wish to edit the Rollbar integration for project: 
 
-1. Select the **project** in the project selector in the sidebar. 
+1. Select the **Project** in the project selector in the sidebar. 
 2. Click on **Project Settings** in the sidebar. 
 3. Click on **Impact**.
 4. Click **edit** on the impact source you wish to delete or edit.  

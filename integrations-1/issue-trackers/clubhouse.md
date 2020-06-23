@@ -15,7 +15,7 @@ Clubhouse uses the term **story** as its standard unit of work. For Sleuth Docum
 To set up the Sleuth Clubhouse integration:
 
 1. Click **Integrations** in the left sidebar, then click **Issue Trackers**. 
-2. In the _Clubhouse_ tile, click **connect**. 
+2. In the _Clubhouse_ tile, click **enable**. 
 3. Enter the _API Token_ of your Clubhouse instance into the corresponding field, then press **Save**. To quickly access your Clubhouse instance to obtain an API token, click **generate**.   ![](../../.gitbook/assets/clubhouse-api-key.png) 
 4. When integration is successful, **Clubhouse is connected** is displayed in the tile.  ![](../../.gitbook/assets/clubhouse-connect-success.png) 
 
@@ -53,7 +53,7 @@ You can also change the default issue tracker at any time.
 #### If you wish to dissolve the Jira integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Issue Trackers**. 
-2. In the Clubhouse integration card, click **disconnect**.
+2. In the Clubhouse integration card, click **disable**.
 
 The Clubhouse integration is disconnected and no longer available to any projects within that organization. You will need to select a new default issue tracker for any projects that used the Clubhouse integration. Simply follow the instructions in the section above: **To set a new default issue tracker**. 
 

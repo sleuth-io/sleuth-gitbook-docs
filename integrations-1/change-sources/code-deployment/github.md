@@ -8,14 +8,14 @@ Integrating GitHub with Sleuth is simple. If you're setting connecting to a pers
 
 You can connect as many repositories to a project as you'd like; be sure to name them accordingly in Sleuth. You will also be able to tell Sleuth whether it should [manually register](../../manual-changes.md) each deploy or automatically create deploys [for every push to or tag on branch](../../../resources/terminology.md#deploy-tracking-type); it's completely up to you. This setting can be changed at any time. Additionally, you can configure your target branch to [lock](../../../resources/terminology.md#locking) if it contains unreleased code.
 
-Check out the [Bitbucket](bitbucket.md), [GitLab](gitlab.md), [Jira](../../issue-trackers/jira.md), or [Clubhouse](../../issue-trackers/clubhouse.md) integration pages if you'd like to track your issues using those tools instead of or in addition to GitHub.
+Check out the [Bitbucket](bitbucket.md), [GitLab](), [Jira](../../issue-trackers/jira.md), or [Clubhouse](../../issue-trackers/clubhouse.md) integration pages if you'd like to track your issues using those tools instead of or in addition to GitHub.
 
 ## Setting up the integration
 
 To set up the Sleuth GitHub integration: 
 
 1. Click **Integrations** in the left sidebar, then click **Change Sources**. 
-2. In the _GitHub_ tile, click **connect**. 
+2. In the _GitHub_ tile, click **enable**. 
 3. Sign in to your GitHub account. If enabled, enter your 2FA code and click **Verify**. Don't worry, you'll select the GitHub repo to connect to your Sleuth project later.   ![](../../../.gitbook/assets/github-signin.png)  ![](../../../.gitbook/assets/github-2fa.png) 
 4. Upon successful integration, you'll see _GitHub is connected as {GitHub user account}_ displayed in the GitHub tile, and the GitHub logo will turn green. You'll next configure the code deployment to connect your repo to a project. 
 
@@ -67,7 +67,7 @@ With _Include in Project Dashboard_ checked, all the deploys for this change sou
 #### If you wish to dissolve the GitHub integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Change Sources**. 
-2. In the GitHub integration card, click **disconnect**.
+2. In the GitHub integration card, click **disable**.
 
 The GitHub integration is disconnected and no longer available to any projects within that organization. 
 
