@@ -1,5 +1,9 @@
 # GitLab
 
+{% hint style="info" %}
+The GitLab integration is available upon request. Contact [support@sleuth.io](mailto:support@sleuth.io?subject=GitLab%20integration) if you are interested. 
+{% endhint %}
+
 ## About the integration ![](../../../.gitbook/assets/gitlab-logo.svg) 
 
 Code deployments are one of the key sources of change Sleuth needs to do its job. Once a code deployment is integrated as a change of source, Sleuth immediately begins its analysis, looking at your commit history, number of authors, deploy frequency, size of commits, and other data to give you a full picture of how you and your team are managing your project's codebase. You'll instantly see the [Trend Graph](../../../resources/terminology.md#dashboard) come to life with a complete snapshot that gives you the information you need to start deploying faster.
@@ -15,7 +19,7 @@ Check out the [Bitbucket](bitbucket.md), [GitHub](github.md), [Jira](../../issue
 To set up the Sleuth GitLab integration: 
 
 1. Click **Integrations** in the left sidebar, then click **Change Sources**. 
-2. In the _GitLab_ tile, click **connect**. 
+2. In the _GitLab_ tile, click **enable**. 
 3. You must grant Sleuth access to your GitLab account. Don't worry, you'll select the GitLab repo to connect to your Sleuth project later. 
 4. On successful integration, you'll see _GitLab is connected as {Bitbucket user account}_ displayed in the GitLab tile, and the GitLab logo will turn green. You'll next configure the code deployment to connect your repo to a project. 
 
@@ -34,7 +38,7 @@ To configure the GitLab integration:
 #### If you wish to dissolve the **GitLab** integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Change Sources**. 
-2. In the GitLab integration card, click **disconnect**.
+2. In the GitLab integration card, click **disable**.
 
 The GitLab integration is disconnected and no longer available to any projects within that organization. 
 
