@@ -2,7 +2,7 @@
 
 ## About the integration
 
-The CircleCI integration provides Sleuth with the ability to track your CircleCI builds and associate them with your corresponding Sleuth deploys. Once configured, the Sleuth CircleCI integration silently monitors your deployment activity, and ties your CircleCI builds with associated deployments you make to your integrated change sources, such as [GitHub](../change-sources/code-deployment/github.md) or [Bitbucket](../change-sources/code-deployment/bitbucket.md). 
+The CircleCI integration provides Sleuth with the ability to track your CircleCI builds and associate them with your corresponding Sleuth deploys. Once configured, the Sleuth CircleCI integration silently monitors your deployment activity, and ties your CircleCI builds with associated deployments you make to your integrated change sources by matching the git SHAs from your code repos.  
 
 ## Setting up the integration
 
@@ -30,6 +30,10 @@ To configure the CircleCI integration, you will need to set a default build serv
 2. Click the **Set default build server** dropdown.   ![](../../.gitbook/assets/circleci-integration-enabled.png) 
 3. Select a project to set as the default build server. You'll need to add a code deployment to the selected project if you haven't already done so. 
 
+Now that the CircleCI integration is configured, you will begin seeing information displayed in the Builds tab of a [deploy card](../../dashboard/deploy-card.md), as shown below. 
+
+![](../../.gitbook/assets/circleci-sha-builds-tab%20%281%29.png)
+
 ## Removing the integration
 
 #### If you wish to dissolve the CirclCI integration for the organization: 
@@ -38,20 +42,4 @@ To configure the CircleCI integration, you will need to set a default build serv
 2. In the CircleCI integration card, click **disable**.
 
 The CircleCI integration is disconnected and no longer available to any projects within that organization.
-
-![](../../.gitbook/assets/circleci-integration-dialog.png)
-
-## Notes
-
-What does CircleCI report back to Sleuth?
-
-New category of information. How we grab issue data when we get a deployment, we
-
-How does it know which deploy to associate? 
-
-Give me all your recent builds, give me SHA and let's see if it's same SHA. Git sends SHA to Circle, Circle grabs that SHA. Just tells Sleuth how many builds you do. 
-
-
-
-
 
