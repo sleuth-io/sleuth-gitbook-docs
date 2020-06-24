@@ -37,14 +37,14 @@ Click **disconnect** to dissolve the Sleuth-Rollbar integration. You will need t
 
 ## Removing the integration
 
-#### If you wish to dissolve the Rollbar integration for the organization: 
+#### To dissolve the Rollbar integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Error Trackers**. 
 2. In the Rollbar integration card, click **disable**.
 
 The Rollbar integration is disconnected and no longer available to any projects within that organization.  Other error trackers that may be connected to your organization are not affected. 
 
-#### If you wish to edit the Rollbar integration for project: 
+#### To edit the Rollbar integration for project: 
 
 1. Select the **Project** in the project selector in the sidebar. 
 2. Click on **Project Settings** in the sidebar. 

@@ -52,7 +52,7 @@ That’s it—Sleuth will start displaying Sentry error metrics in your deploys.
 
 ## Removing the integration
 
-#### If you wish to dissolve the **Sentry** integration for the organization: 
+#### To dissolve the **Sentry** integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Error Trackers**. 
 2. In the Slack integration card, click **disable**.
