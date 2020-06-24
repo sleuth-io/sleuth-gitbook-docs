@@ -16,5 +16,7 @@ Yes! Sleuth uses Tawk.to for chat support. Look in the lower-right hand corner o
 
 ![Tawk.to chat widget on the Dashboard](../.gitbook/assets/tawk-to-icon.png)
 
+## How much does Sleuth cost? 
 
+Get detailed pricing and purchasing information on the [Purchasing](purchasing.md) page. 
 
