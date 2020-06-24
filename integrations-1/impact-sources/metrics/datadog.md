@@ -40,11 +40,14 @@ Integrations are made at the Sleuth organization level, and are available for al
 
 * The Datadog logo in the Change Source card turns to green when the integration is successful. 
 
+That’s it—Sleuth will start displaying Datadog metrics in your deploys. Read [**Dashboard**](../../../dashboard/) for more information on how metrics are communicated in deploy cards. 
+
 ## Removing the integration
 
-{% hint style="info" %}
-Click **disable** to dissolve the Sleuth Datadog integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
-{% endhint %}
+#### To dissolve the **Datadog** integration for the organization: 
 
-* That’s it—Sleuth will start displaying Datadog metrics in your deploys. Read [**Dashboard**](../../../dashboard/) for more information on how metrics are communicated in deploy cards. 
+1. Click on **Integrations** in the left sidebar, then on **Metric Trackers**. 
+2. In the Datadog integration card, click **disable**.
+
+The Datadog integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Datadog integration will be lost.
 
