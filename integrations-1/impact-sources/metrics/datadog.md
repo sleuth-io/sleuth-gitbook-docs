@@ -9,22 +9,22 @@ Datadog is an metric monitoring service that helps DevOps teams discover, triage
 To add the Sleuth Datadog integration:
 
 * Click **Integrations** in the sidebar.
-* Click the _Metric Trackers_ tab, then **connect** in the Datadog card.
+* Click the _Metric Trackers_ tab, then **enable** in the Datadog card.
 * Enter your Datadog API Key and Application Key in the corresponding fields. 
-* If your Datadog servers' are in the EU, enable the _My Datadog servers are in the EU_ checkbox. If you don't know, leave this unchecked.  
+* If your Datadog servers' are in the EU, enable the _My Datadog servers are in the EU_ checkbox. Leave this unchecked if you are unsure.  
 * Press **Save**. 
 
 {% hint style="info" %}
-The Datadog API Key and Application Key can be found under **Integrations** &gt; **API**, as shown below. Or, you can click on the **generate** link, which will take you directly to the APIs page in your Datadog console, where you can generate the keys Sleuth needs to integrate with Datadog.  
+The Datadog API Key and Application Key can be found under **Integrations** &gt; **API**, as shown below. Or, you can click on the **generate** link, which will take you directly to the APIs page in your Datadog console, where you can then generate the keys Sleuth needs to complete the integration.  
 {% endhint %}
 
  
 
-![](../../../.gitbook/assets/datadog.png)
+![The API Keys section of the Datadog control panel](../../../.gitbook/assets/datadog.png)
 
-![](../../../.gitbook/assets/datadog-integration-api-key.png)
+![API and Application Key entry in Sleuth](../../../.gitbook/assets/datadog-integration-api-key.png)
 
-* Once the Datadog integration is successful, you will see the message, **Datadog is connected** displayed. 
+* Once the Datadog integration is successful, you will see the message **Datadog is connected** displayed \(as shown below\). 
 
 ![](../../../.gitbook/assets/datadog-integration.png)
 
@@ -43,16 +43,8 @@ Integrations are made at the Sleuth organization level, and are available for al
 ## Removing the integration
 
 {% hint style="info" %}
-Click **disconnect** to dissolve the Sleuth Datadog integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
+Click **disable** to dissolve the Sleuth Datadog integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
 {% endhint %}
 
 * That’s it—Sleuth will start displaying Datadog metrics in your deploys. Read [**Dashboard**](../../../dashboard/) for more information on how metrics are communicated in deploy cards. 
-
-## Notes
-
-Datadog - a implementartion of impact source - is a metric impact source. We deployment, we go to source every 15 minutes. With Datadog which metric is it, which direction \(if you want this number to be high/low\). Anomaly Detection - after 6 times \(deploys\) we train our model to say this is normal. Every minute for 15 minutes, every Impact Source. 
-
-Python library that talks about anomaly detection. 
-
-
 
