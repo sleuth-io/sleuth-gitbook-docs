@@ -6,10 +6,10 @@ A change source can be a code deployment on Bitbucket, GitHub or GitLab; feature
 
 To get started with Sleuth: 
 
-1. **Create an account.** You can use an email address or connect via SSO thru Google, GitHub or Bitbucket. Read [Signing up](getting-started.md) for more information. 
-2. **Name your project.** You can also add a description, which is optional. 
-3. **Add a change source.** This can be a code deployment on [GitHub](integrations-1/change-sources/code-deployment/github.md), feature flags on [LaunchDarkly](integrations-1/change-sources/feature-flags/launchdarkly.md), issues from [Jira](integrations-1/issue-trackers/jira.md), or the many [other available integrations](integrations-1/about-integrations....md). 
-4. **Add an integration.** An integration can be change sources, chat ops, issue trackers, and error and metric trackers. Make sure you have access credentials for any integration you want to connect.  
+* **Create an account.** You can use an email address or connect via SSO thru Google, GitHub or Bitbucket. Read [Signing up](getting-started.md) for more information. 
+* **Name your project.** You can also add a description, which is optional. 
+* **Add a change source.** This can be a code deployment on [GitHub](integrations-1/change-sources/code-deployment/github.md), feature flags on [LaunchDarkly](integrations-1/change-sources/feature-flags/launchdarkly.md), issues from [Jira](integrations-1/issue-trackers/jira.md), or the many [other available integrations](integrations-1/about-integrations....md). 
+* **Add an integration.** An integration can be change sources, chat ops, issue trackers, and error and metric trackers. Make sure you have access credentials for any integration you want to connect.  
 
 For a more detailed walkthrough of the setup process, click through the tabs below: 
 
