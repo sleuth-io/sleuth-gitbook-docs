@@ -10,15 +10,15 @@ To add the Sleuth CircleCI integration:
 
 1. Click **Integrations** in the sidebar.
 2. Click the **Builds** tab, then click **enable** in the CircleCI card.   ![](../../.gitbook/assets/circleci-connect-card.png) 
-3. Enter your CircleCI User API Token, then press **Save**. To quickly obtain your User API Token, make sure you're logged in to your CircleCI account, then click **generate**. You will be taken to the Personal API Tokens section of your CircleCI account.      
-
-![Sleuth CircleCI Personal API Token entry dialog](../../.gitbook/assets/circleci-api-token-entry.png)
-
-![Generate a new CircleCI Personal API Token in your CircleCI User settings](../../.gitbook/assets/circleci-user-api-token-generate.png)
+3. Enter your CircleCI User API Token, then press **Save**. To quickly obtain your User API Token, make sure you're logged in to your CircleCI account, then click **generate**. You will be taken to the Personal API Tokens section of your CircleCI account. 
 
 {% hint style="info" %}
 [Read the CircleCI documentation](https://circleci.com/docs/2.0/managing-api-tokens/#creating-a-personal-api-token) for more information on generating Personal API Tokens. 
 {% endhint %}
+
+![Sleuth CircleCI Personal API Token entry dialog](../../.gitbook/assets/circleci-api-token-entry.png)
+
+![Generate a new CircleCI Personal API Token in your CircleCI User settings](../../.gitbook/assets/circleci-user-api-token-generate.png)
 
 ## Configuring the integration
 
