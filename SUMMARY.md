@@ -35,6 +35,7 @@
     * [Rollbar](integrations-1/impact-sources/errors/rollbar.md)
     * [Sentry](integrations-1/impact-sources/errors/sentry.md)
   * [Metrics](integrations-1/impact-sources/metrics/README.md)
+    * [SignalFx](integrations-1/impact-sources/metrics/signalfx.md)
     * [Datadog](integrations-1/impact-sources/metrics/datadog.md)
 * [Issue Trackers](integrations-1/issue-trackers/README.md)
   * [Clubhouse](integrations-1/issue-trackers/clubhouse.md)
