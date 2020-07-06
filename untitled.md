@@ -1,5 +1,5 @@
 ---
-description: 'Manage your account, notifications, and identities'
+description: 'Manage your personal Sleuth account, notifications, and identities settings'
 ---
 
 # Account Settings
