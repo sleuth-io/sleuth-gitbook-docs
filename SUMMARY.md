@@ -11,6 +11,7 @@
   * [Trend graph](dashboard/trend-graph.md)
 * [Projects](projects.md)
 * [Notifications](notifications.md)
+* [Account Settings](untitled.md)
 
 ## Integrations <a id="integrations-1"></a>
 
