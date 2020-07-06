@@ -4,8 +4,9 @@
 
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |
-| [Datadog](metrics/datadog.md) | Metrics | _Coming soon._ |
+| [Datadog](metrics/datadog.md) | Metrics |  |
 | [Honeybadger](errors/honeybadger.md) | Errors |  |
 | [Rollbar](errors/rollbar.md) | Errors | \_\_ |
 | [Sentry](errors/sentry.md) | Errors |   |
+| [SignalFx](metrics/signalfx.md) | Metrics |  |
 

@@ -10,20 +10,22 @@ You can even have Sleuth track a [manual change](manual-changes.md), which can b
 
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |
-| [AWS](change-sources/infrastructure/aws.md) | Infrastructure | Can be used a change source. _Coming soon._  |
-| [Bitbucket](change-sources/code-deployment/bitbucket.md) | Code Deployment | Can be used a change source.  |
-| [Clubhouse](issue-trackers/clubhouse.md) | Issue Tracker |  |
-| [Datadog](impact-sources/metrics/datadog.md) | Impact Metrics | _Coming soon._ |
-| [GitHub](change-sources/code-deployment/github.md) | Code Deployment | Can be used as a change source.  |
-| [GitLab]() | Code Deployment | _Coming soon._ |
-| [Honeybadger](impact-sources/errors/honeybadger.md) | Impact Errors |  |
-| [Jira](issue-trackers/jira.md) | Issue Tracker |  |
-| [LaunchDarkly](change-sources/feature-flags/launchdarkly.md) | Feature Flags | Can be used a change source.  |
+| [AWS](change-sources/infrastructure/aws.md) | Infrastructure | Can be used a change source. _Coming soon_ |
+| [Bitbucket](change-sources/code-deployment/bitbucket.md) | Code Deployment | Code deployments as a change source |
+| CircleCI | Builds | Track your builds |
+| [Clubhouse](issue-trackers/clubhouse.md) | Issue Tracker | Automatically associate issues with deploys |
+| [Datadog](impact-sources/metrics/datadog.md) | Metric Tracker | \_\_ |
+| [GitHub](change-sources/code-deployment/github.md) | Change Source | Code deployments as a change source |
+| GitLab | Change Source | [Contact us](mailto:support@sleuth.io?subject=Interested%20in%20New%20Relic%20integration) for more information |
+| [Honeybadger](impact-sources/errors/honeybadger.md) | Error Tracker |  |
+| [Jira](issue-trackers/jira.md) | Issue Tracker | Automatically associate issues with deploys |
+| [LaunchDarkly](change-sources/feature-flags/launchdarkly.md) | Change Source | Feature flags as a change source |
 | New Relic | Impact Metrics | [Contact us](mailto:support@sleuth.io?subject=Interested%20in%20New%20Relic%20integration) for more information |
-| [Rollbar](impact-sources/errors/rollbar.md) | Impact Errors |  |
-| [Sentry](impact-sources/errors/sentry.md) | Impact Errors |  |
-| [Slack](chat-ops/slack.md) | Chat Ops |  |
-| [Terraform Cloud](change-sources/infrastructure/terraform-cloud.md) | Infrastructure | _Coming soon._  |
+| [Rollbar](impact-sources/errors/rollbar.md) | Error Tracker |  |
+| [Sentry](impact-sources/errors/sentry.md) | Error Tracker |  |
+| [SignalFx](impact-sources/metrics/signalfx.md) | Metric Tracker |  |
+| [Slack](chat-ops/slack.md) | Chat Ops | Notify your entire team or specific individuals |
+| [Terraform Cloud](change-sources/infrastructure/terraform-cloud.md) | Infrastructure | Can be used as a change source. _Coming soon_ |
 
 ### Manual Changes
 
