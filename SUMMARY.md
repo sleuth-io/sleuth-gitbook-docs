@@ -13,6 +13,7 @@
 * [Notifications](notifications.md)
 * [Account Settings](untitled.md)
 * [Project Settings](project-settings.md)
+* [Organization Settings](organization-settings.md)
 
 ## Integrations <a id="integrations-1"></a>
 
