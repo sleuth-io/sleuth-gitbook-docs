@@ -36,7 +36,7 @@ Now that the CircleCI integration is configured, you will begin seeing informati
 
 ## Removing the integration
 
-#### If you wish to dissolve the CirclCI integration for the organization: 
+#### If you wish to dissolve the CircleCI integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Builds**. 
 2. In the CircleCI integration card, click **disable**.

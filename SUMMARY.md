@@ -11,9 +11,12 @@
   * [Trend graph](dashboard/trend-graph.md)
 * [Projects](projects.md)
 * [Notifications](notifications.md)
-* [Account Settings](untitled.md)
-* [Project Settings](project-settings.md)
-* [Organization Settings](organization-settings.md)
+
+## Settings
+
+* [Account Settings](settings/untitled-1.md)
+* [Project Settings](settings/project-settings.md)
+* [Organization Settings](settings/organization-settings.md)
 
 ## Integrations <a id="integrations-1"></a>
 
