@@ -12,7 +12,7 @@ You can even have Sleuth track a [manual change](manual-changes.md), which can b
 | :--- | :--- | :--- |
 | [AWS](change-sources/infrastructure/aws.md) | Infrastructure | Can be used a change source. _Coming soon_ |
 | [Bitbucket](change-sources/code-deployment/bitbucket.md) | Code Deployment | Code deployments as a change source |
-| CircleCI | Builds | Track your builds |
+| [CircleCI](builds/circleci.md) | Builds | Track your builds |
 | [Clubhouse](issue-trackers/clubhouse.md) | Issue Tracker | Automatically associate issues with deploys |
 | [Datadog](impact-sources/metrics/datadog.md) | Metric Tracker | \_\_ |
 | [GitHub](change-sources/code-deployment/github.md) | Change Source | Code deployments as a change source |
