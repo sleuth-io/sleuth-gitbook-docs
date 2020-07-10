@@ -1,7 +1,8 @@
 ---
 description: >-
-  Sleuth is a DevOps tracker built with Python, running on Terraform Cloud. Made
-  with tender loving care in San Francisco, California, USA.
+  Sleuth is a DevOps tracker with a Python, Django, ES, Postgres, and Fargate
+  stack, running on Terraform Cloud. Made with TLC in San Francisco, California,
+  USA.
 ---
 
 # About
