@@ -33,22 +33,3 @@ Of course, we also have a **Free** tier. [Sign up now](https://app.sleuth.io/acc
 
 Click on the **Edit on GitHub** link on the right side of the page that contains the error \(even this one!\). Make the change\(s\), then submit a pull request.  Thank you in advance for helping out! 
 
-## Colophon
-
-You are viewing **v2** of Sleuth Documentation. You can view previous and development versions by clicking **Production** in the nav menu. 
-
-### Change Log
-
-| Description of Change | Page | Date |
-| :--- | :--- | :--- |
-| Added animated Sleuth logo | About | June 10, 2020 |
-| Updated copy on About the Integration | Slack | June 10, 2020 |
-| Updated copy on About the Integration | GitLab | June 9, 2020 |
-| Added table of integrations | About Integrations... | June 8, 2020 |
-
-![](../.gitbook/assets/sleuth_gif_v1_3.gif)
-
- 
-
-
-
