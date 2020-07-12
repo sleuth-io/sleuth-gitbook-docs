@@ -20,5 +20,20 @@ You can find information on pricing [here](https://www.sleuth.io/pricing).
 
 Yes! We have a live version of Sleuth that our development team uses, available for the entire world to see. See how their code stacks up to yours, [right here](https://app.sleuth.io/sleuth/sleuth?report_days=14)! 
 
+## Colophon
+
+You are viewing **v3 Development** version of Sleuth Documentation. You can view previous and development versions by clicking **Production** in the nav menu. 
+
+### Change Log
+
+| Description of Change | Page | Date |
+| :--- | :--- | :--- |
+| Added animated Sleuth logo | About | June 10, 2020 |
+| Updated copy on About the Integration | Slack | June 10, 2020 |
+| Updated copy on About the Integration | GitLab | June 9, 2020 |
+| Added table of integrations | About Integrations... | June 8, 2020 |
+
+![](../.gitbook/assets/sleuth_gif_v1_3.gif)
+
 
 
