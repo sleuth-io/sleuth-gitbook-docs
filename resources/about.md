@@ -24,14 +24,11 @@ Yes! We have a live version of Sleuth that our development team uses, available 
 
 You are viewing **v3 Development** version of Sleuth Documentation. You can view previous and development versions by clicking **Production** in the nav menu. 
 
-### Change Log
+## Change Log
 
-| Description of Change | Page | Date |
-| :--- | :--- | :--- |
-| Added animated Sleuth logo | About | June 10, 2020 |
-| Updated copy on About the Integration | Slack | June 10, 2020 |
-| Updated copy on About the Integration | GitLab | June 9, 2020 |
-| Added table of integrations | About Integrations... | June 8, 2020 |
+To view and read about the latest changes to the Sleuth application, [visit our change log](https://changelog.sleuth.io). 
+
+
 
 ![](../.gitbook/assets/sleuth_gif_v1_3.gif)
 
