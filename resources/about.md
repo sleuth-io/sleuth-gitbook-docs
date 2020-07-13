@@ -31,5 +31,11 @@ Of course, we also have a **Free** tier. [Sign up now](https://app.sleuth.io/acc
 
 ## I spotted an error. How can I help? 
 
-Click on the **Edit on GitHub** link on the right side of the page that contains the error \(even this one!\). Make the change\(s\), then submit a pull request.  Thank you in advance for helping out! 
+Click on the **Edit on GitHub** link on the right side of the page that contains the error \(even this one!\). Make the change\(s\), then submit a pull request.  Thank you in advance for helping out!  
+
+## Change Log
+
+To view the latest changes to the [Sleuth application](https://app.sleuth.io), go to our [change log](https://changelog.sleuth.io/). 
+
+![](../.gitbook/assets/sleuth_gif_v1_3.gif)
 
