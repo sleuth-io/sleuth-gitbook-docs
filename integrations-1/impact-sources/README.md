@@ -7,6 +7,6 @@
 | [Datadog](metrics/datadog.md) | Metrics |  |
 | [Honeybadger](errors/honeybadger.md) | Errors |  |
 | [Rollbar](errors/rollbar.md) | Errors | \_\_ |
-| [Sentry](errors/sentry.md) | Errors |   |
+| [Sentry](errors/sentry.md) | Errors |  |
 | [SignalFx](metrics/signalfx.md) | Metrics |  |
 
