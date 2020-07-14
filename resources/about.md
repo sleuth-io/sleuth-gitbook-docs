@@ -35,7 +35,7 @@ Click on the **Edit on GitHub** link on the right side of the page that contains
 
 ## Change Log
 
-To view the latest changes to the [Sleuth application](https://app.sleuth.io), go to our [change log](https://changelog.sleuth.io/). 
+To view the latest changes to the [Sleuth application](https://app.sleuth.io), go to our [change log](https://changelog.sleuth.io/) and click **Subscribe to Updates** at the top of the page. 
 
 ![](../.gitbook/assets/sleuth_gif_v1_3.gif)
 
