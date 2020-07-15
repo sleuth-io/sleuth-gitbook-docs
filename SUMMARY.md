@@ -15,7 +15,13 @@
 ## Settings
 
 * [Account Settings](settings/untitled-1.md)
-* [Project Settings](settings/project-settings.md)
+* [Project Settings](settings/project-settings/README.md)
+  * [Details](settings/project-settings/details.md)
+  * [Slack Notifications](settings/project-settings/slack-notifications.md)
+  * [Environments](settings/project-settings/environments.md)
+  * [Code Deployments](settings/project-settings/code-deployments.md)
+  * [Feature Flags](settings/project-settings/feature-flags.md)
+  * [Impact](settings/project-settings/impact.md)
 * [Organization Settings](settings/organization-settings.md)
 
 ## Integrations <a id="integrations-1"></a>
