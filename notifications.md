@@ -10,7 +10,7 @@ In addition to the available [Chat Ops](integrations-1/chat-ops/) integrations, 
 
 Before you set up project-level Slack notifications, the [Slack integration](integrations-1/chat-ops/slack.md#about-the-integration) must first be made the Sleuth organization level. Once that's done, you can configure how those notifications are sent and who receives them. 
 
-#### To set up Slack change notifications for the project
+#### Setting up project-level Slack notifications
 
 1. Select a project in the sidebar, then click **Project Settings**. 
 2. Click **Slack Notifications**. 
@@ -19,7 +19,7 @@ Before you set up project-level Slack notifications, the [Slack integration](int
 
 At this point you can notify users in your Slack organization that a notifications channel for this project has been set up and that they should join it to receive any and all change notifications that occur in that project. 
 
-#### To set up custom Slack notifications for yourself 
+#### Setting up personal Slack notifications
 
 In the previous section you created project-level Slack notifications. Team members will only receive change notifications if they join the corresponding Slack channel. However, you might want customized notifications sent directly to yourself. You can do this by configuring your user-level Slack notifications preferences: 
 
