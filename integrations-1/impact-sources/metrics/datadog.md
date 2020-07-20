@@ -30,9 +30,9 @@ The Datadog API Key and Application Key can be found under **Integrations** &gt;
 
 ## Configuring the integration
 
-* Click **Add impact** to select the Sleuth project that will be processing your application metrics. All projects within the organization will be displayed in the dropdown. 
+* Click **Add metric** and select a Sleuth project that will collect the metrics Datadog generates. All projects within your organization will be displayed in the dropdown. 
 
-![Impact entry dialog for Datadog](../../../.gitbook/assets/sentry-impact-source-entry.png)
+![](../../../.gitbook/assets/datadog-enabled-metric-pick.png)
 
 {% hint style="info" %}
 Integrations are made at the Sleuth organization level, and are available for all projects within that organization. Individual settings for an integration are made at the project level.  
