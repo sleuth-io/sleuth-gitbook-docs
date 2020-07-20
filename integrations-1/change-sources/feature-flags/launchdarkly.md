@@ -69,7 +69,7 @@ With _Include in Project Dashboard_ checked, all the deploys for this change sou
 #### If you wish to dissolve the **LaunchDarkly** integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Change Sources**. 
-2. In the LaunchDarkly integration card, click **disable**.
+2. In the LaunchDarkly integration card, click **disable**. The message **LaunchDarkly disabled** is displayed in the LaunchDarkly integration card once the integration is dissolved.
 
 The LaunchDarkly integration is disconnected and no longer available to any projects within that organization. 
 

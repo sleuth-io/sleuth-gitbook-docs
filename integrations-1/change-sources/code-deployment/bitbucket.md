@@ -58,7 +58,7 @@ With _Include in Project Dashboard_ checked, all the deploys for this change sou
 #### If you wish to dissolve the Bitbucket integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Change Sources**. 
-2. In the Bitbucket integration card, click **disable**.
+2. In the Bitbucket integration card, click **disable**. The message **Bitbucket disabled** is displayed in the Bitbucket integration card once the integration is dissolved.
 
 The Bitbucket integration is disconnected and no longer available to any projects within that organization. 
 

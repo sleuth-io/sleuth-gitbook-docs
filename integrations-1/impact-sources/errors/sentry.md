@@ -26,9 +26,7 @@ The Sentry Auth Token can be found in Sentry, under **Settings** &gt; **Account 
 
 ![Sentry auth token entry field in Sleuth](../../../.gitbook/assets/sentry-auth-token-enter-dialog.png)
 
-* Once the Sentry integration is successful, you will see the message, **Sentry is connected** displayed. 
-
-![Successful integration with Sentry!](../../../.gitbook/assets/sentry-enable-success.png)
+* Once the Sentry integration is successful, you will see **Sentry enabled** displayed in the integration card. 
 
 ## Configuring the integration
 
@@ -55,7 +53,7 @@ That’s it—Sleuth will start displaying Sentry error metrics in your deploys.
 #### To dissolve the **Sentry** integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Error Trackers**. 
-2. In the Slack integration card, click **disable**.
+2. In the Sentry integration card, click **disable**. The message **Sentry disabled** is displayed in the Sentry integration card once the integration is dissolved. 
 
 The Sentry integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Sentry integration will be lost.
 

@@ -83,7 +83,7 @@ The selected Slack channel will start receiving deployment notifications similar
 #### If you wish to dissolve the **Slack** integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Chat Ops**. 
-2. In the Slack integration card, click **disable**.
+2. In the Slack integration card, click **disable**. The message **Slack disabled** is displayed in the Slack integration card once the integration is dissolved.
 
 The Slack integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Slack integration will be lost. 
 

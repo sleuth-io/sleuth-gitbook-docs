@@ -22,7 +22,7 @@ The Rollbar Auth Token can be found in Rollbar, under **Settings** &gt; **{Proje
 
 ## Configuring the integration
 
-* Once the Rollbar integration is successful, you will see the message **Rollbar enabled** in the **Errors** integration card. 
+* Once the Rollbar integration is successful, you will see the message **Rollbar enabled** in the integration card. 
 * Click **Add impact** to select the Sleuth project that will be processing your application errors. All projects within the organization will be displayed in the dropdown. 
 
 {% hint style="info" %}
@@ -40,7 +40,7 @@ Click **disconnect** to dissolve the Sleuth-Rollbar integration. You will need t
 #### To dissolve the Rollbar integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Error Trackers**. 
-2. In the Rollbar integration card, click **disable**.
+2. In the Rollbar integration card, click **disable**. The message **Rollbar disabled** is displayed in the Rollbar integration card once the integration is dissolved.
 
 The Rollbar integration is disconnected and no longer available to any projects within that organization.  Other error trackers that may be connected to your organization are not affected. 
 

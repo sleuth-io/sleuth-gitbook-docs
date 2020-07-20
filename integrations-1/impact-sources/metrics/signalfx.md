@@ -19,7 +19,7 @@ A **realm** is a self-contained deployment in which your SignalFx organization i
 {% endhint %}
 
 * Press **Save**. 
-* Once the SignalFx integration is successful, you will see the message **SignalFx enabled** displayed.  ![](../../../.gitbook/assets/signalfx-integration-enabled-dropdown.png) 
+* Once the SignalFx integration is successful, you will see **SignalFx enabled** displayed in the integration card \(as shown below\).  ![](../../../.gitbook/assets/signalfx-integration-enabled-dropdown.png) 
 
 ## Configuring the integration
 
@@ -36,7 +36,7 @@ That’s it—Sleuth will start displaying SignalFx impact data in your deploys.
 #### To dissolve the SignalFx integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Metric Trackers**. 
-2. In the SignalFx integration card, click **disable**.
+2. In the SignalFx integration card, click **disable**. The message **SignalFx disabled** is displayed in the SignalFx integration card once the integration is dissolved.
 
 The SignalFx integration is disconnected and no longer available. Any project-level modifications you made to the SignalFx integration will also be lost.
 

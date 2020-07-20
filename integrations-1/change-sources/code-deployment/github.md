@@ -67,7 +67,7 @@ With _Include in Project Dashboard_ checked, all the deploys for this change sou
 #### If you wish to dissolve the GitHub integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Change Sources**. 
-2. In the GitHub integration card, click **disable**.
+2. In the GitHub integration card, click **disable**. The message **GitHub disabled** is displayed in the GitHub integration card once the integration is dissolved.
 
 The GitHub integration is disconnected and no longer available to any projects within that organization. 
 

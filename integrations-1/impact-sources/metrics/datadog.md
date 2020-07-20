@@ -24,9 +24,9 @@ The Datadog API Key and Application Key can be found under **Integrations** &gt;
 
 ![API and Application Key entry in Sleuth](../../../.gitbook/assets/datadog-integration-api-key.png)
 
-* Once the Datadog integration is successful, you will see the message **Datadog is connected** displayed \(as shown below\). 
+* Once the Datadog integration is successful, you will see **Datadog enabled** displayed in the integration card \(as shown below\). 
 
-![](../../../.gitbook/assets/datadog-integration.png)
+![](../../../.gitbook/assets/datadog-enabled.png)
 
 ## Configuring the integration
 

@@ -31,7 +31,7 @@ That's it! Sleuth will now start including error information from Honeybadger in
 #### If you wish to dissolve the Honeybadger integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Error Trackers**. 
-2. In the Honeybadger integration card, click **disable**.
+2. In the Honeybadger integration card, click **disable**. The message **Honeybadger disabled** is displayed in the Honeybadger integration card once the integration is dissolved.
 
 The Honeybadger integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Honeybadger integration will be lost.
 

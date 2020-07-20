@@ -47,7 +47,7 @@ You can also change the default issue tracker at any time.
 #### If you wish to dissolve the Jira integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Issue Trackers**. 
-2. Click **disable**.
+2. Click **disable**. The message **Jira disabled** is displayed in the Jira integration card once the integration is dissolved.
 
 The Jira integration is disconnected and no longer available to any projects within that organization. Any projects that used the Jira integration will need a new default issue tracker selected. 
 

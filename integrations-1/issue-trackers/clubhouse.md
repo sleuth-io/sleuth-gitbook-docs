@@ -53,7 +53,7 @@ You can also change the default issue tracker at any time.
 #### If you wish to dissolve the Jira integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Issue Trackers**. 
-2. In the Clubhouse integration card, click **disable**.
+2. In the Clubhouse integration card, click **disable**. The message **Clubhouse disabled** is displayed in the Clubhouse integration card once the integration is dissolved.
 
 The Clubhouse integration is disconnected and no longer available to any projects within that organization. You will need to select a new default issue tracker for any projects that used the Clubhouse integration. Simply follow the instructions in the section above: **To set a new default issue tracker**. 
 

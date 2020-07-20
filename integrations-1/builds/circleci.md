@@ -39,7 +39,7 @@ Now that the CircleCI integration is configured, you will begin seeing informati
 #### If you wish to dissolve the CirclCI integration for the organization: 
 
 1. Click on **Integrations** in the left sidebar, then on **Builds**. 
-2. In the CircleCI integration card, click **disable**.
+2. In the CircleCI integration card, click **disable**. The message **CircleCI disabled** is displayed in the CircleCI integration card once the integration is dissolved.
 
 The CircleCI integration is disconnected and no longer available to any projects within that organization.
 
