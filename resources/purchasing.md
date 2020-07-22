@@ -15,10 +15,10 @@ Contact us at [support@sleuth.io](mailto:support@sleuth.io) to request an extens
 | Edition | Description |
 | :--- | :--- |
 | **Free** | For one team member and one project; up to 50 deploys a month |
-| **Standard** | Monthly billing for up to 50 deploys a month; additional deploys are US$1 per deploy. |
+| **Growth** | Monthly billing for up to 50 deploys a month; additional deploys are US$1 per deploy. |
 | **Enterprise** | Contact us for pricing to meet your team’s needs. Includes annual and user-based pricing options. |
 
-For detailed pricing information, visit our [Pricing page](https://www.sleuth.io/pricing). 
+For more detailed pricing information, visit our [Pricing page](https://www.sleuth.io/pricing). 
 
 ## **How do I pick my plan?**
 
