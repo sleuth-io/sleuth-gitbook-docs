@@ -1,6 +1,5 @@
 # Sleuth API
 
-  
 ‌The Sleuth REST API provides methods that enables users to:‌
 
 * Manually register their deploys

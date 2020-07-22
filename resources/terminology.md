@@ -1,8 +1,8 @@
 ---
 description: >-
   Sleuth uses terms that you are probably already familiar with as a developer.
-  Just to be sure we're all on the same page, we've compiled a list of some
-  common terms here.
+  Just to be sure we're all on the same page, below is a list of some common
+  terms.
 ---
 
 # Terminology
@@ -15,7 +15,7 @@ Sleuth can help you track the health and status of your deploys by providing a s
 
 ![The Sleuth Information Architecture](../.gitbook/assets/sleuth_ia_graphic.png)
 
-In Sleuth you create a **Project** container, which houses all the necessary **Environments** your team might need to create, develop and test your applications. These Enviroments might include production, staging, development, and could even account for different deployment strategies such as canary, blue/green, etc. 
+In Sleuth you create a **Project** container, which houses all the necessary **Environments** your team might need to create, develop and test your applications. These Enviroments might include production, staging, development, and could even account for different deployment strategies such as canary, blue/green, rolling, etc. 
 
 Once you've created and configured the various Environments within your Project, you can start adding connections to your **Change Sources** and **Impact Sources** \(see [Integrations](../integrations-1/about-integrations.md) for more information on connecting Change Sources and Impact Sources\). 
 
@@ -23,7 +23,7 @@ Sleuth tracks Change Sources, such as **Code Deployments**, **Feature Flags**, a
 
 ## Dashboard
 
-Combining Impact Source information with Change Source data is what drives the information you see on the Sleuth Dashboard. 
+Combining Impact Source information with Change Source data is what drives the information you see on the Sleuth [Dashboard](../dashboard.md). 
 
 You can instantly see the impact of your deploys on your entire project environment over a period of time by viewing the Trend Graph; for detailed information on individual deploys you can view a deploy card \(see below\). 
 
@@ -39,15 +39,18 @@ By viewing a deploy card, you can:
 * see who authored the deploy and how many PRs/commits/issues/files were in the deploy; 
 * instantly view the pull request in whichever repository it resides in \([GitHub](../integrations-1/change-sources/code-deployment/github.md) or [Bitbucket](../integrations-1/change-sources/code-deployment/bitbucket.md), for example\);
 * know when the deploy occurred; 
-* get an objective, historical assessment of your project's health __\(_Unhealthy_, _Ailing_, _Healthy_, _Improved_\); and
+* get an objective, historical assessment of your project's health __\(_Unhealthy_, _Ailing_, _Healthy_, _Improved_\); 
+* see which environment and project the deploy occurred in; 
+* see all Slack reaction emojis to the deploy event; 
 * know how large or small of an impact the deploy had on your project overall. 
 
 ![A Sleuth deploy card showing detailed information about a single deploy](../.gitbook/assets/deploy-tracking.png)
 
 To get more information about a deploy, you can:
 
-* Click on the card title to view all the PRs, commits, issues, files, impact and authors of the deploy; or
-* Click on any of the PRs that comprised the deploy to view the deployed code in its corresponding repo.
+* Click on the card title to view detailed information on the timeline, pull requests, commits, issues, files, builds, and authors; or
+* Click on any of the impact, pull requests or commit SHAs or links, which takes you to the correspoding tool's website, such as Sentry, Rollbar, GitHub, etc. 
+* Click on the related code link to view the deploy information for a change caused by a feature flag change source. 
 
 ## Size
 
@@ -108,17 +111,11 @@ The score of an author is the sum of several categories of scoring:
 * **Impact**: 2 points for each deploy rated _Healthy_, 10 for each deploy rated _Improved_.
 * **Reaction**: ½ point for each reaction to the author's deploys, rounded up. 
 
-## Size
-
-The Size graph displays the overall size of the deploys being committed to the repo in your project. This is a quantitative way to gauge how your team is performing. Although size on its own is not a pure indication of the quality of the code your team is committing, it can help you and your team realize the goal of deploying smaller and faster. Quality still matters, of course, but maintaining smaller pieces of code and deploying more often makes it easier to scale things back if your application crashes. 
-
-![Size graph on the Dashboard](../.gitbook/assets/screen-shot-2020-04-29-at-2.19.19-pm.png)
-
 ## View Compare
 
-The View Compare function provides a link to the right of the commit hash that opens up the corresponding code repo in Bitbucker, GitHub or GitLab where you can view the changes between differente branches. 
+The View Compare function provides a link to the right of the SHA that opens up the corresponding code repo \(i.e., Bitbucket or GitHub\), where you can view the changes between different branches. 
 
-Since the interfaces vary on the various code repository services, consult the documentation for the corresponding service for help on using the compare function. 
+Since the interfaces vary, consult the documentation for the corresponding code hosting service for help on using the compare function. 
 
-![](../.gitbook/assets/view-compare-arrow.png)
+![](../.gitbook/assets/screen-shot-2020-07-21-at-10.45.47-pm.png)
 
