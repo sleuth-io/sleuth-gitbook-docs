@@ -1,6 +1,6 @@
 # Notifications
 
-In addition to the available [Chat Ops](integrations-1/chat-ops/) integrations, Sleuth can notify you and your team when something happens with your source of change, including sending targeted messages for your entire team or just yourself. You can notify all team members on every deploy or just yourself once a week. You can also 
+In addition to the available [Chat Ops](integrations-1/chat-ops/) integrations, Sleuth can send emails or Slack notifications when something of significance happens, including messages for your entire team, yourself, and/or to commit and PR authors. 
 
 ### Setting up Slack notifications
 
@@ -21,7 +21,7 @@ In the previous section you created a project-level Slack notification. Team mem
 
 1. Select your username in the bottom of the sidebar, then click **Manage Account**. 
 2. Click **Notifications**. 
-3. Any [email notifications]() you've already setup will be displayed here. Enable the **Slack notifications** toggle. 
+3. Any [email notifications](notifications.md#setting-up-email-notifications) you've already setup will be displayed here. Enable the **Slack notifications** toggle. 
 4. You can enable or disable **Deployed code** and/or **Impact of your Code**:
    * **Deployed code**: Selecting **All** means you will receive a Slack notification every time code in which you are the author is deployed.  Selecting **Exclude my deployments** notifies you of all deployments except those in which you're the author. This option is great if you're up to speed on your own code but want to keep tabs on how the rest of your team's deployments are doing. 
    * **Impact of your Code**: Selecting **All** means you will always receive a Slack notification about the impact of your code on the rate of production errors.  Selecting **Exclude healthy** sends a notification only if a deployment occurs in which the impact of your code on productions errors is anything except _Healthy;_ this includes _Unhealthy_, _Ailing_, or _Improved_.   ![](.gitbook/assets/notifications-slack-notifications-setup.png) 
@@ -38,8 +38,19 @@ Email notifications are sent at the frequency you select, and can be configured 
 
 #### To set up at the change source level
 
-1. Select a project in the sidebar. The project's dashboard is displayed. 
-2. Select a change source in the [_Change sources_ section](dashboard.md) and click on its title link. The dashboard for the change source is displayed.   ![](.gitbook/assets/change-source.png) ![](.gitbook/assets/screen-shot-2020-06-17-at-4.35.45-pm.png)  
+1. Select a **project** in the sidebar. The project's dashboard is displayed. 
+2. Select a **change source** in the [_Change sources_ section](dashboard.md) and click on its title link. The dashboard for the change source is displayed.   ![](.gitbook/assets/change-source.png) ![](.gitbook/assets/screen-shot-2020-06-17-at-4.35.45-pm.png)  
 3. Click **My Notifications** in the upper-right corner of the dashboard.   ![](.gitbook/assets/slack-my-notifications.png)
 4. Select a notification frequency in the dropdown. More than one can be selected. 
+
+Add **noreply@email.sleuth.io** to your email provider's or your email application's spam filter whitelist to prevent the notification email from getting caught up in spam filters. 
+
+The notification email provides a digest of the following activity during the selected timeframe: 
+
+* Number of deployments made from each project in your organization
+* Number of pull requests
+* Number of commits
+* Number of issues
+* Number of changed files
+* Number of unique authors 
 
