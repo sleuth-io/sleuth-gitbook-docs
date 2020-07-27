@@ -18,6 +18,13 @@ Admin users in Sleuth are able to make changes to the organization that affects 
 
 ## Members
 
+Give members different roles to control what parts of Sleuth they can see and change
+
+* **Owner** - The organization owner that cannot be removed.
+* **Administrator** - Can do anything.
+* **Developer** - Can add integrations, deployments, but not users.
+* **Observer** - Can view deployment information but can't change anything.
+
 ![](../.gitbook/assets/org-members.png)
 
 ## Billing
