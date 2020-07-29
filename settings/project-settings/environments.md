@@ -1,6 +1,12 @@
+---
+description: >-
+  Organize project settings and configuration states by packaging them into
+  environments.
+---
+
 # Environments
 
-Organize project settings and configuration states by packaging them into **environments**. Sleuth provides support for environments in ways that are already familliar to developers. Environment modifications are made at the Sleuth [project](../../projects.md) level, and contain all the settings and configuration states for each environment, such as _staging, testing,_ and _production_. You can easily integrate with your existing DevOps tools to intelligently organize environmental attributes.
+ Sleuth provides support for environments in ways that are already familliar to developers. Environment modifications are made at the Sleuth [project](../../projects.md) level, and contain all the settings and configuration states for each environment, such as _staging, testing,_ and _production_. You can easily integrate with your existing DevOps tools to intelligently organize environmental attributes.
 
 Changes made to settings and states apply only to the selected environment. Create as many environments as your project needs. You can easily switch between environments using the environment selector underneath the project title in the [Dashboard](../../dashboard/). 
 
