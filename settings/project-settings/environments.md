@@ -6,6 +6,10 @@ description: >-
 
 # Environments
 
+{% hint style="info" %}
+Draft in progress
+{% endhint %}
+
 Sleuth provides support for environments in ways that are already familiar to developers. Environment modifications are made at the Sleuth [project](../../projects.md) level, and contain all the settings and configuration states for each environment, such as _staging, testing,_ and _production_. You can easily integrate with your existing DevOps tools to intelligently organize environmental attributes.
 
 Changes made to settings and states apply only to the selected environment. Create as many environments as your project needs. You can easily switch between environments using the environment selector underneath the project title in the [Dashboard](../../dashboard/). 
@@ -16,6 +20,7 @@ If using [manual deployments](../../resources/api-reference.md#manual-deploy-reg
 
 * A project will always have at least one environment by default called **Production**.
 * Environments map to a single branch by default.
+* Sleuth attempts to automatically associate environment names. This is automatic if the names match; otherwise, you can manually map your Sleuth environments to any of your connected tools' environments. 
 
 #### To create a new environment: 
 
