@@ -153,11 +153,13 @@ Success.
 
 {% api-method method="post" host="https://app.sleuth.io" path="api/1/deployments/sleuth/production-app/register\_deploy" %}
 {% api-method-summary %}
-Environment Registration
+Environment Deploy Registration
 {% endapi-method-summary %}
 
 {% api-method-description %}
-  
+If there is one Environment defined and the parameter isn’t provided we will register the deploy against that one environment.   
+If there are multiple Environments defined and the parameter isn’t provided, we will register the deploy against the “default” environment \(there can only be one “default” environment\).   
+If the `environment` is provided and it matches a configured Environment, we will register the deploy against that environment.  
 {% endapi-method-description %}
 
 {% api-method-spec %}
