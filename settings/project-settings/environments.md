@@ -14,7 +14,14 @@ Using environments means that every code deployment you create is represented in
 
 If using [manual deployments](../../resources/api-reference.md#manual-deploy-registration), you can specify the environment on the HTTP POST as the 'environment' field or let it default to the project's default environment. Selecting a default environment ensures it’s displayed first when you visit the Dashboard. The selected default environment settings are also applied to any additional environments that are created.
 
+* A project will always have at least one environment by default called **Production**.
+* Environments map to a single branch by default.
+
 #### To create a new environment: 
 
 #### To edit environment parameters: 
+
+### Migrating from legacy Sleuth accounts
+
+Sleuth organizations created before environment support was made available should 
 
