@@ -9,7 +9,6 @@
   * [Sidebar](dashboard/sidebar.md)
   * [Size/Leaderboard](dashboard/size-leaderboard.md)
   * [Trend graph](dashboard/trend-graph.md)
-* [Environments](environments.md)
 * [Projects](projects.md)
 * [Notifications](notifications.md)
 
@@ -19,7 +18,7 @@
 * [Project Settings](settings/project-settings/README.md)
   * [Details](settings/project-settings/details.md)
   * [Slack Notifications](settings/project-settings/slack-notifications.md)
-  * [Environments](settings/project-settings/environments.md)
+  * [Environments](settings/project-settings/environments-1.md)
   * [Code Deployments](settings/project-settings/code-deployments.md)
   * [Feature Flags](settings/project-settings/feature-flags.md)
   * [Impact](settings/project-settings/impact.md)
