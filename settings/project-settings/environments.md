@@ -8,7 +8,7 @@ Using environments means that every code deployment you create is represented in
 
 If using [manual deployments](../../resources/api-reference.md#manual-deploy-registration), you can specify the environment on the HTTP POST as the 'environment' field or let it default to the project's default environment. Selecting a default environment ensures it’s displayed first when you visit the Dashboard. The selected default environment settings are also applied to any additional environments that are created.
 
-### To create a new environment: 
+#### To create a new environment: 
 
-### To edit environment parameters: 
+#### To edit environment parameters: 
 
