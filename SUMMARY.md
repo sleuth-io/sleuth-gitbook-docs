@@ -10,6 +10,7 @@
   * [Size/Leaderboard](dashboard/size-leaderboard.md)
   * [Trend graph](dashboard/trend-graph.md)
 * [Projects](projects.md)
+* [Environments](environments.md)
 * [Notifications](notifications.md)
 
 ## Settings
