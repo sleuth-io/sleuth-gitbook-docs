@@ -26,7 +26,7 @@ If using [manual deployments](../../resources/api-reference.md#manual-deploy-reg
 
 #### To edit environment parameters: 
 
-### Migrating from legacy Sleuth accounts
+### Migrating from legacy Sleuth projects
 
-Sleuth organizations created before environment support was made available should 
+Don't worry if you've been modeling environments by creating separate projects in Sleuth. The process for migrating to our new [IA](../../resources/terminology.md#information-architecture-ia) \(Information Architecture\) couldn't be simpler.  
 
