@@ -9,8 +9,8 @@
   * [Sidebar](dashboard/sidebar.md)
   * [Size/Leaderboard](dashboard/size-leaderboard.md)
   * [Trend graph](dashboard/trend-graph.md)
-* [Projects](projects.md)
 * [Environments](environments.md)
+* [Projects](projects.md)
 * [Notifications](notifications.md)
 
 ## Settings
