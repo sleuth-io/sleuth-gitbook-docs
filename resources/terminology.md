@@ -15,9 +15,9 @@ Sleuth can help you track the health and status of your deploys by providing a s
 
 ![The Sleuth Information Architecture](../.gitbook/assets/sleuth_ia_graphic.png)
 
-In Sleuth you create a **Project** container, which houses all the necessary **Environments** your team might need to create, develop and test your applications. These Enviroments might include production, staging, development, and could even account for different deployment strategies such as canary, blue/green, rolling, etc. 
+In Sleuth you create a **Project** container, which houses all the necessary **environments** your team might need to create, develop and test your applications. These environments might include production, staging, or development, and could even account for different deployment strategies such as canary, blue/green, rolling deployments, etc. 
 
-Once you've created and configured the various Environments within your Project, you can start adding connections to your **Change Sources** and **Impact Sources** \(see [Integrations](../integrations-1/about-integrations.md) for more information on connecting Change Sources and Impact Sources\). 
+Once you've created and configured the various environments within your project, you can start adding connections to your **Change Sources** and **Impact Sources** \(see [Integrations](../integrations-1/about-integrations.md) for more information on connecting Change Sources and Impact Sources\). 
 
 Sleuth tracks Change Sources, such as **Code Deployments**, **Feature Flags**, and **Infrastructure**, and constantly analyzes the information they contain to capture the state of your code before, during, and after deploys. Additionally, Sleuth intakes information provided by various Impact Sources, such as **Error Rates**, **Uptime**, and **Other SLIs**. 
 
