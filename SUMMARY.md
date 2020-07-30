@@ -23,7 +23,7 @@
   * [Feature Flags](settings/project-settings/feature-flags.md)
   * [Impact](settings/project-settings/impact.md)
 * [Organization Settings](settings/organization-settings.md)
-* [User Administration](settings/user-administration.md)
+* [Permission Controls](settings/user-administration.md)
 
 ## Integrations <a id="integrations-1"></a>
 
