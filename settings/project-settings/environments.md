@@ -22,7 +22,7 @@ If using [manual deployments](../../resources/api-reference.md#manual-deploy-reg
 * Environments map to a single branch by default. You can change this behavior, and map multiple environments to multiple branches. 
 * Sleuth automatically associates environment names. This is automatic if the names match; otherwise, you can manually map your Sleuth environments to any of your connected tools' environments \(e.g., LaunchDarkly environments\). 
 
-### Creating a new environment: 
+### Creating a new environment
 
 {% hint style="info" %}
 When you create a new environment, Sleuth uses settings and mappings from the current default environment. You can set any environment as the default environment by clicking **edit**, then seleting **Set as default**. 
@@ -83,7 +83,13 @@ You must have a [LaunchDarkly integration](../../integrations-1/change-sources/f
 
 ### Editing environment parameters
 
-### Migrating from legacy Sleuth projects
+1. Select the project whose environments you wish to edit in the Project selector.   ![](../../.gitbook/assets/project_selector.png) 
+2. In the sidebar, click **Project Settings**. 
+3. Click the **Environments** tab. 
+4. Find the environment you wish to modify, then click the _edit_ dropdown. 
+5. Select one of the following options:  _**Rename**_: Enter a new name in the _Name_ field. You can also edit or add a _Description_, if you wish, then press **Save**.  _**Set as default**_: This sets the selected environment as the default environment. All new environments created obtain the settings of the default environment. This option is not available in the default environment's _edit_ dropdown.  _**Delete**_: Removes the selected environment from your project. All mappings revert to the default environment. If you are deleting the default environment, a new one is selected. 
+
+### Converting \(migrating?\) projects to environments
 
 Don't worry if you've been modeling environments by creating separate projects in Sleuth. The process for migrating to our new [IA](../../resources/terminology.md#information-architecture-ia) \(Information Architecture\) couldn't be simpler.  
 
