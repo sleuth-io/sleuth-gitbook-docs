@@ -1,31 +1,30 @@
 ---
-description: >-
-  Organize project settings and configuration states by packaging them into
-  environments.
+description: Organize projects and configuration states with environments.
 ---
 
 # Environments
 
-{% hint style="info" %}
-Draft in progress
-{% endhint %}
+Sleuth's environment support lets you define change sources once per project but can then register changes to them across all environments within the project. This Sleuth exclusive feature lets you model your deploys across all of your environments, giving you visibility to how your code behaves across different environment variables.  
 
-Sleuth provides support for environments in ways that are already familiar to developers. Environment modifications are made at the Sleuth [project](../../projects.md) level, and contain all the settings and configuration states for each environment, such as _staging, testing,_ and _production_. You can easily integrate with your existing DevOps tools to intelligently organize environmental attributes.
+Environment modifications are made at the Sleuth [project](../../projects.md) level, and contain all the settings and configuration states for each environment, such as _staging, testing,_ and _production_. You can easily integrate with your existing DevOps tools to intelligently organize environmental attributes. 
 
-Create as many environments as your project needs. You can easily switch between environments using the environment selector underneath the project title in the [Dashboard](../../dashboard/). 
+Using environments means that every code deployment you create is represented in all of your environments. When you register a deploy against the [Sleuth API](../../resources/api-reference.md) you can specify an environment parameter that tells Sleuth which environment is being deployed to. If separate branches are used for your deploys, you can map those branches in the code deployment edit screen. 
 
-Using environments means that every code deployment you create is represented in all of your environments. When you register a deploy against the [Sleuth API](../../resources/api-reference.md) you can specify an environment parameter that tells Sleuth which environment is being deployed to. If separate branches are used for your environment deploys, you can map those branches in the code deployment edit screen. \[screenshot here\]
+![](../../.gitbook/assets/branch_mapping%20%281%29.png)
 
-If using [manual deployments](../../resources/api-reference.md#manual-deploy-registration), you can specify the environment on the HTTP POST as the 'environment' field or let it default to the project's default environment. Selecting a default environment ensures it’s displayed first when you visit the Dashboard. The selected default environment settings are also applied to any additional environments that are created.
-
-* A project will always have at least one environment by default: **Production**.
+* If using [manual deployments](../../resources/api-reference.md#manual-deploy-registration), you can specify the environment on the HTTP POST as the 'environment' field or let it default to the project's default environment.
+* A project always has at least one default environment. 
 * Environments map to a single branch by default. You can change this behavior, and map multiple environments to multiple branches. 
-* Sleuth automatically associates environment names. This is automatic if the names match; otherwise, you can manually map your Sleuth environments to any of your connected tools' environments \(e.g., LaunchDarkly environments\). 
+* If applicable to the integration, Sleuth will try to map environments to Sleuth environments based on their names \(i.e., LaunchDarkly staging to Sleuth staging\). You can manage these mappings in Project Settings. 
 
 ### Creating a new environment
 
 {% hint style="info" %}
-When you create a new environment, Sleuth uses settings and mappings from the current default environment. You can set any environment as the default environment by clicking **edit**, then seleting **Set as default**. 
+You can set any environment as the default environment by clicking **edit**, then seleting **Set as default**. In the Project view, the default environment is displayed first. 
+{% endhint %}
+
+{% hint style="info" %}
+A project will always contain at least one environment, and can contain as many environments as needed. 
 {% endhint %}
 
 1. Select the project you wish to add new environments to in the Project selector.   ![](../../.gitbook/assets/project_selector.png) 
@@ -87,9 +86,13 @@ You must have a [LaunchDarkly integration](../../integrations-1/change-sources/f
 2. In the sidebar, click **Project Settings**. 
 3. Click the **Environments** tab. 
 4. Find the environment you wish to modify, then click the _edit_ dropdown. 
-5. Select one of the following options:  _**Rename**_: Enter a new name in the _Name_ field. You can also edit or add a _Description_, if you wish, then press **Save**.  _**Set as default**_: This sets the selected environment as the default environment. All new environments created obtain the settings of the default environment. This option is not available in the default environment's _edit_ dropdown.  _**Delete**_: Removes the selected environment from your project. All mappings revert to the default environment. If you are deleting the default environment, a new one is selected. 
+5. Select one of the following options:  _**Rename**:_ Enter a new name in the _Name_ field. You can also edit or add a _Description_, if you wish, then press **Save**.  _**Set as default**_: This sets the selected environment as the default environment. All new environments created obtain the settings of the default environment. This option is not available in the default environment's _edit_ dropdown.  _**Delete**_: Removes the selected environment from your project. All mappings revert to the default environment.
 
-### Converting \(migrating?\) projects to environments
+{% hint style="warning" %}
+You cannot delete the default environment. To delete a default environment, choose another environment as the default first, then delete the environment. 
+{% endhint %}
+
+ Converting \(migrating?\) projects to environments
 
 Don't worry if you've been modeling environments by creating separate projects in Sleuth. The process for migrating to our new [IA](../../resources/terminology.md#information-architecture-ia) \(Information Architecture\) couldn't be simpler.  
 

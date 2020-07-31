@@ -6,6 +6,8 @@ description: Configure how Sleuth notifies you and your team about deployments
 
 In addition to the available [Chat Ops](integrations-1/chat-ops/) integrations, Sleuth can notify you and your team when something happens with your source of change, including targeted messages for your entire team or just yourself. 
 
+
+
 ### Setting up Slack notifications
 
 Before you set up project-level Slack notifications, the [Slack integration](integrations-1/chat-ops/slack.md#about-the-integration) must first be made the Sleuth organization level. Once that's done, you can configure how those notifications are sent and who receives them. 
@@ -34,13 +36,17 @@ In the previous section you created project-level Slack notifications. Team memb
 
 ### Setting up email notifications 
 
-Email notifications are sent at the frequency you select, and can be configured individually at the project and change source level. 
+Email notifications are sent at the frequency you select, and can be configured individually at the project, environment, and change source level. 
 
-#### To set up at the project level
+#### To set up at the project and environment level
 
 1. Select a project in the sidebar. 
 2. Click **My Notifications** in the upper-right corner of the Dashboard.   ![](.gitbook/assets/slack-my-notifications.png) 
 3. Select a notification frequency in the dropdown. More than one can be selected.  
+
+{% hint style="info" %}
+Notifications settings are unique for every project/environment combination. If you have five environments in your project, you can specify five different notification settings for each environment. 
+{% endhint %}
 
 #### To set up at the change source level
 
