@@ -4,9 +4,9 @@ description: Configure how Sleuth notifies you and your team about deployments
 
 # Notifications
 
-In addition to the available [Chat Ops](integrations-1/chat-ops/) integrations, Sleuth can notify you and your team when something happens with your source of change, including targeted messages for your entire team or just yourself. 
+In addition to the available [Chat Ops](integrations-1/chat-ops/) integrations, Sleuth can notify you and your team when something important occurs with your source of change, including targeted messages for your entire team or just yourself. 
 
-
+You can setup Slack notifications for granular messages. Additionally, you use email notifications to provide a summary of deploy activity and delivered at a frequency you choose. 
 
 ### Setting up Slack notifications
 
