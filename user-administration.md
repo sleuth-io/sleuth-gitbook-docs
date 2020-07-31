@@ -17,7 +17,7 @@ With these permission controls, you can apply granular rights to users based on 
 
 To check it out, go to **Organization Settings &gt; Members**, then select the cog dropdown next to the user to change their role:
 
- ![](../.gitbook/assets/screen-shot-2020-07-28-at-1.30.56-pm.png) 
+ ![](.gitbook/assets/screen-shot-2020-07-28-at-1.30.56-pm.png) 
 
 
 

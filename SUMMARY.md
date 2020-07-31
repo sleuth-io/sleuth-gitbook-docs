@@ -11,6 +11,8 @@
   * [Trend graph](dashboard/trend-graph.md)
 * [Projects](projects.md)
 * [Notifications](notifications.md)
+* [Tags](tags.md)
+* [Permission Controls](user-administration.md)
 
 ## Settings
 
@@ -23,7 +25,6 @@
   * [Feature Flags](settings/project-settings/feature-flags.md)
   * [Impact](settings/project-settings/impact.md)
 * [Organization Settings](settings/organization-settings.md)
-* [Permission Controls](settings/user-administration.md)
 
 ## Integrations <a id="integrations-1"></a>
 
@@ -44,6 +45,7 @@
   * [Slack](integrations-1/chat-ops/slack.md)
 * [Impact Sources](integrations-1/impact-sources/README.md)
   * [Errors](integrations-1/impact-sources/errors/README.md)
+    * [Bugsnag](integrations-1/impact-sources/errors/bugsnag.md)
     * [Honeybadger](integrations-1/impact-sources/errors/honeybadger.md)
     * [Rollbar](integrations-1/impact-sources/errors/rollbar.md)
     * [Sentry](integrations-1/impact-sources/errors/sentry.md)
