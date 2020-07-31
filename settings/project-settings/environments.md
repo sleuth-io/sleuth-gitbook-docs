@@ -18,11 +18,11 @@ Using environments means that every code deployment you create is represented in
 
 If using [manual deployments](../../resources/api-reference.md#manual-deploy-registration), you can specify the environment on the HTTP POST as the 'environment' field or let it default to the project's default environment. Selecting a default environment ensures it’s displayed first when you visit the Dashboard. The selected default environment settings are also applied to any additional environments that are created.
 
-* A project will always have at least one environment by default called **Production**.
-* Environments map to a single branch by default.
-* Sleuth attempts to automatically associate environment names. This is automatic if the names match; otherwise, you can manually map your Sleuth environments to any of your connected tools' environments. 
+* A project will always have at least one environment by default: **Production**.
+* Environments map to a single branch by default. You can change this behavior, and map multiple environments to multiple branches. 
+* Sleuth automatically associates environment names. This is automatic if the names match; otherwise, you can manually map your Sleuth environments to any of your connected tools' environments \(e.g., LaunchDarkly environments\). 
 
-### To create a new environment: 
+### Creating a new environment: 
 
 {% hint style="info" %}
 When you create a new environment, Sleuth uses settings and mappings from the current default environment. You can set any environment as the default environment by clicking **edit**, then seleting **Set as default**. 
@@ -44,7 +44,7 @@ By default Sleuth maps the _master_ branches to all environments in your project
 
 This behavior can be configured across your project settings, and include Slack notifications, code deployments, feature flags, and impact sources. 
 
-#### To change environment mappings for code deployments: 
+#### To change environment mappings for code deployments
 
 {% hint style="info" %}
 When creating a code deployment, by default it will exist in all environments unless you choose to designate specific branches to environments by turning this feature on.
@@ -57,7 +57,7 @@ When creating a code deployment, by default it will exist in all environments un
 5. In the dropdown next to each of your environments, select the repo to map to each environment. 
 6. Press **Save**.  
 
-#### To change environment mappings for feature flags: 
+#### To change environment mappings for feature flags
 
 {% hint style="info" %}
 Environments in LaunchDarkly map automatically to environments in Sleuth. With the LaunchDarkly integration, Sleuth matches environment names \(i.e., LaunchDarkly Staging environment will be mapped to your Sleuth Staging environment\). You can change these default mappings at any time by following the instructions below.  
@@ -73,7 +73,15 @@ You must have a [LaunchDarkly integration](../../integrations-1/change-sources/f
 4. Sleuth applies default mappings based on environment names; however, you can change the mappings by selecting a different environment in the dropdowns. The mapped Sleuth environment is displayed next to the LaunchDarkly environments.  
 5. Press **Save**.  
 
-### To edit environment parameters: 
+#### To change environment mappings for impact sources
+
+1. Select the project you wish to change impact source mappings in the Project selector.   ![](../../.gitbook/assets/project_selector.png) 
+2. Click the **Impact** tab. All metric and error impact sources are displayed. 
+3. Select the impact source you wish to modify, then click the _edit_ dropdown. The interface might change depending on the type of impact source you're editing \(e.g., Datadog metric, Sentry error, etc.\).
+4. _For Metric Sources, such as Datadog:_ Select the environment you wish to add as a change source in the **Environment** dropdown. Press the **Test query** button to ensure your connection has not been affected. The result of your query will be displayed next to the button \(e.g., _Latest value: +49.879289_ might be displayed for a Cluster Memory metric\).   _For Error Sources, such as Sentry:_ Select the environment you wish to add as a change source in the Environment dropdown. 
+5. Press **Save**.  
+
+### Editing environment parameters
 
 ### Migrating from legacy Sleuth projects
 
