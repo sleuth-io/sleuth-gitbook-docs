@@ -4,7 +4,7 @@ description: >-
   (Role-Based Access Control)
 ---
 
-# Permission Controls
+# Access Control
 
 Sleuth uses a role-based access control \(RBAC\) method to restrict access based on the roles of users within a Sleuth organization. Each organization has an owner, who can then assign roles to members of their organization. These roles  can manage members who can then make changes to the organization's integrations. 
 
@@ -19,7 +19,15 @@ To check it out, go to **Organization Settings &gt; Members**, then select the c
 
  ![](.gitbook/assets/screen-shot-2020-07-28-at-1.30.56-pm.png) 
 
+Invite people in a cwertain role
 
+Change roles
+
+Domain signup enabled \(domain matchin\) we default you to the **Developer** role. Observer is someone who is generally non-technical \(marketing, executive\). 
+
+Only One Owner per ORG; infinite number of all the other ones. No licnesein stuff based on roles. 
+
+Be default everyone will have Admin. Owner is the person who created the Org. Anything in Org Settings only accessible by Admin/Owner.  
 
 
 

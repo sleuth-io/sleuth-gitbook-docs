@@ -12,7 +12,7 @@
 * [Projects](projects.md)
 * [Notifications](notifications.md)
 * [Tags](tags.md)
-* [Permission Controls](user-administration.md)
+* [Access Control](user-administration.md)
 
 ## Settings
 

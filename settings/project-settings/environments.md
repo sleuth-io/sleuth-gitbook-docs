@@ -12,7 +12,7 @@ Draft in progress
 
 Sleuth provides support for environments in ways that are already familiar to developers. Environment modifications are made at the Sleuth [project](../../projects.md) level, and contain all the settings and configuration states for each environment, such as _staging, testing,_ and _production_. You can easily integrate with your existing DevOps tools to intelligently organize environmental attributes.
 
-Changes made to settings and states apply only to the selected environment. Create as many environments as your project needs. You can easily switch between environments using the environment selector underneath the project title in the [Dashboard](../../dashboard/). 
+Create as many environments as your project needs. You can easily switch between environments using the environment selector underneath the project title in the [Dashboard](../../dashboard/). 
 
 Using environments means that every code deployment you create is represented in all of your environments. When you register a deploy against the [Sleuth API](../../resources/api-reference.md) you can specify an environment parameter that tells Sleuth which environment is being deployed to. If separate branches are used for your environment deploys, you can map those branches in the code deployment edit screen. \[screenshot here\]
 
