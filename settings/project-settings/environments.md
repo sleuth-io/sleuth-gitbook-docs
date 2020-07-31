@@ -22,9 +22,58 @@ If using [manual deployments](../../resources/api-reference.md#manual-deploy-reg
 * Environments map to a single branch by default.
 * Sleuth attempts to automatically associate environment names. This is automatic if the names match; otherwise, you can manually map your Sleuth environments to any of your connected tools' environments. 
 
-#### To create a new environment: 
+### To create a new environment: 
 
-#### To edit environment parameters: 
+{% hint style="info" %}
+When you create a new environment, Sleuth uses settings and mappings from the current default environment. You can set any environment as the default environment by clicking **edit**, then seleting **Set as default**. 
+{% endhint %}
+
+1. Select the project you wish to add new environments to in the Project selector.   ![](../../.gitbook/assets/project_selector.png) 
+2. In the sidebar, click **Project Settings**. 
+3. Click the **Environments** tab. 
+4. Click **Add environment**. 
+5. Give your new environment a name and, optionally, a description, then press **Save**. 
+
+{% hint style="success" %}
+Your new environment is displayed in the Environments list. From here you can click **edit** to rename you environment, set it as the default environment, or delete it. 
+{% endhint %}
+
+### Mapping branches to environments
+
+By default Sleuth maps the _master_ branches to all environments in your project. However, you can change this behavior to deploy different repos to other environments. For example, you might wish to deploy your _master_ branch to _production_, which is the default behavior, and deploy your _staging_ branch to your _staging_ environment, and so on. 
+
+This behavior can be configured across your project settings, and include Slack notifications, code deployments, feature flags, and impact sources. 
+
+#### To change environment mappings for code deployments: 
+
+{% hint style="info" %}
+When creating a code deployment, by default it will exist in all environments unless you choose to designate specific branches to environments by turning this feature on.
+{% endhint %}
+
+1. Select the project you wish to change mappings to in the Project selector.   ![](../../.gitbook/assets/project_selector.png) 
+2. Click the **Code Deployments** tab. 
+3. Find the code deployment you wish to change mappings in, then click the _edit_ dropdown and select **edit**. 
+4. In the **Branch** section, enable the _Map separate branches to environments_ checkbox. 
+5. In the dropdown next to each of your environments, select the repo to map to each environment. 
+6. Press **Save**.  
+
+#### To change environment mappings for feature flags: 
+
+{% hint style="info" %}
+Environments in LaunchDarkly map automatically to environments in Sleuth. With the LaunchDarkly integration, Sleuth matches environment names \(i.e., LaunchDarkly Staging environment will be mapped to your Sleuth Staging environment\). You can change these default mappings at any time by following the instructions below.  
+{% endhint %}
+
+{% hint style="warning" %}
+You must have a [LaunchDarkly integration](../../integrations-1/change-sources/feature-flags/launchdarkly.md) in your organization before you can configure feature flag mappings. 
+{% endhint %}
+
+1. Select the project you wish to change feature flag mappings in the Project selector.   ![](../../.gitbook/assets/project_selector.png) 
+2. Click the **Feature Flags** tab. 
+3. Select the LaunchDarkly project that contains the environments you wish to map in the _LaunchDarkly Projec_t dropdown. Sleuth automatically displays the environments found in the selected LaunchDarkly project in the **LaunchDarkly Environment** section. 
+4. Sleuth applies default mappings based on environment names; however, you can change the mappings by selecting a different environment in the dropdowns. The mapped Sleuth environment is displayed next to the LaunchDarkly environments.  
+5. Press **Save**.  
+
+### To edit environment parameters: 
 
 ### Migrating from legacy Sleuth projects
 
