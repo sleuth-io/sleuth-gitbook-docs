@@ -11,6 +11,7 @@ Integrations are made at the organization level. This gives all projects created
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |
 | [AWS](change-sources/infrastructure/aws.md) | Infrastructure | Can be used a change source. _Coming soon._  |
+| [Bugsnag](impact-sources/errors/bugsnag.md) |  |  |
 | [Bitbucket](change-sources/code-deployment/bitbucket.md) | Code Deployment | Can be used a change source.  |
 | [CircleCI](builds/circleci.md) | Builds | _Coming soon._ |
 | [Clubhouse](issue-trackers/clubhouse.md) | Issue Tracker |  |
