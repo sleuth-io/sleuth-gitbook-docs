@@ -1,3 +1,7 @@
+---
+description: Organize projects and configuration states with environments.
+---
+
 # Environments
 
 Sleuth's environment support lets you define change sources once per project but can then register changes to them across all environments within the project. This Sleuth exclusive feature lets you model your deploys across all of your environments, giving you visibility to how your code behaves across different environment variables.  

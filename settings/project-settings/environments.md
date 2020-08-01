@@ -1,7 +1,3 @@
----
-description: Organize projects and configuration states with environments.
----
-
 # Environments
 
 
