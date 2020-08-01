@@ -11,6 +11,7 @@
   * [Trend graph](dashboard/trend-graph.md)
 * [Projects](projects.md)
 * [Notifications](notifications.md)
+* [Environments](environments.md)
 * [Tags](tags.md)
 * [Access Control](user-administration.md)
 
