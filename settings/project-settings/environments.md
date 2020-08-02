@@ -9,7 +9,7 @@ You can set any environment as the default environment by clicking **edit**, the
 {% endhint %}
 
 {% hint style="info" %}
-A project will always contain at least one environment, and can contain as many environments as needed. 
+A project will always contain at least one environment, and can contain as many environments as necessary. 
 {% endhint %}
 
 1. Select the project you wish to add new environments to in the Project selector.   ![](../../.gitbook/assets/project_selector.png) 
