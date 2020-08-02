@@ -1,6 +1,6 @@
 # Environments
 
-
+The **Environments** tab in [Project Settings](./) is where configuration changes are made to the environments contained within your project. 
 
 ### Creating a new environment
 
@@ -77,7 +77,12 @@ You must have a [LaunchDarkly integration](../../integrations-1/change-sources/f
 You cannot delete the default environment. To delete a default environment, choose another environment as the default first, then delete the environment. 
 {% endhint %}
 
- Converting \(migrating?\) projects to environments
+###  Transitioning from projects to environments
 
-Don't worry if you've been modeling environments by creating separate projects in Sleuth. The process for migrating to our new [IA](../../resources/terminology.md#information-architecture-ia) \(Information Architecture\) couldn't be simpler.  
+Don't worry if you've been modeling environments by creating separate projects in Sleuth. The process for transitioning to our updated [IA](../../resources/terminology.md#information-architecture-ia) \(Information Architecture\) couldn't be simpler. In fact, the conversion has been made for you: 
+
+* All current projects in your organization will automatically contain two new environments: **Production** and **Staging**. 
+* The **Production** environment is designated as the _default_ environment. This can be changed at any time in the _Environments_ tab, by selecting the _edit_ dropdown and setting a new default environment.
+* All projects must contain at least one environment, which can be named anything you want \(although **Production** is the default name\), by selecting the _edit_ dropdown and selecting **Rename**. 
+* After setting up your environments, you can map your repos' branches to your environments in the [Code Deployments tab](./#code-deployments). 
 
