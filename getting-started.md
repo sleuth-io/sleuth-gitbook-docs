@@ -47,9 +47,11 @@ Integrations are made at the Sleuth organization level. You can then add as many
 
 ![](.gitbook/assets/invite-team-members.png)
 
-If you're part of an organization that has already set up a Sleuth environment and your email address uses the same domain, integrations might already be connected to your organization. In these cases, you won't need to add the integration yourself. 
+If you're part of an organization that has already set up a Sleuth environment and your email address uses the same domain, integrations might already be connected to your organization. In this case, you won't need to add the integration yourself. 
 
-You can add existing members to your organization or add the email address of someone you'd like to have invited to join your organization. If the invitation's accepted, the user will automatically be added to your organization. 
+You can add existing members to your organization or add the email address of someone you'd like to have invited to join your organization. If the invitation's accepted, the user will automatically be added to your organization. Go to Organization settings for more information on inviting team members. 
+
+You should also configure Sleuth's RBAC \(Role-Based Access Control\) system to control what team members can do with their Sleuth account. For more information, see [Access Control](access-control.md), then head to the [Organization's Members settings](settings/organization.md) to set it all up. 
 {% endtab %}
 
 {% tab title="Step 6" %}
@@ -60,8 +62,16 @@ You can add existing members to your organization or add the email address of so
 * Get release notes sent to specified Slack channels.
 * See an aggregate of what's been deployed today, this week or the entire month.
 * Allow everyone in your organization to understand what code changes you're shipping.
+{% endtab %}
 
-#### 💥 You're ready! 
+{% tab title="Step 7" %}
+Configure settings for your: 
+
+* [Organization](settings/organization.md) 
+* [Project](settings/project/)
+* [Account](settings/account.md)
+
+####  💥 You're ready! 
 
 Start seeing the impact of your changes in [the Sleuth Dashboard](dashboard.md). Happy deploying! 
 {% endtab %}

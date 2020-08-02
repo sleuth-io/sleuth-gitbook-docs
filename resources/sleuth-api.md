@@ -151,3 +151,35 @@ Description for the manual change
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="post" host="https://app.sleuth.io" path="api/1/deployments/sleuth/production-app/register\_deploy" %}
+{% api-method-summary %}
+Environment Deploy Registration
+{% endapi-method-summary %}
+
+{% api-method-description %}
+If there is one environment defined and the parameter isn’t provided, Sleuth will register the deploy against that one environment. For multiple defined environments in which the parameter isn’t provided, Sleuth will register the deploy against the _default_ environment \(there can only be one default environment\). If the `environment` is provided and it matches a configured environment, Sleuth will register the deploy against that environment.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+

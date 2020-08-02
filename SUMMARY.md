@@ -5,6 +5,20 @@
 * [Dashboard](dashboard.md)
 * [Projects](projects.md)
 * [Notifications](notifications.md)
+* [Environment Support](environment-support.md)
+* [Access Control](access-control.md)
+
+## Settings
+
+* [Organization](settings/organization.md)
+* [Project](settings/project/README.md)
+  * [Details](settings/project/details.md)
+  * [Slack Notifications](settings/project/slack-notifications.md)
+  * [Environments](settings/project/environments.md)
+  * [Code Deployments](settings/project/code-deployments.md)
+  * [Feature Flags](settings/project/feature-flags.md)
+  * [Impact](settings/project/impact.md)
+* [Account](settings/account.md)
 
 ## Integrations <a id="integrations-1"></a>
 
