@@ -26,3 +26,5 @@ To edit metric sources, click the _edit_ dropdown in the Actions column then sel
 
 ![](../../.gitbook/assets/edit-metric-impact-source.png)
 
+
+

@@ -157,9 +157,7 @@ Environment Deploy Registration
 {% endapi-method-summary %}
 
 {% api-method-description %}
-If there is one Environment defined and the parameter isn’t provided we will register the deploy against that one environment.   
-If there are multiple Environments defined and the parameter isn’t provided, we will register the deploy against the “default” environment \(there can only be one “default” environment\).   
-If the `environment` is provided and it matches a configured Environment, we will register the deploy against that environment.  
+If there is one environment defined and the parameter isn’t provided, Sleuth will register the deploy against that one environment. For multiple defined environments in which the parameter isn’t provided, Sleuth will register the deploy against the _default_ environment \(there can only be one default environment\). If the `environment` is provided and it matches a configured environment, Sleuth will register the deploy against that environment.  
 {% endapi-method-description %}
 
 {% api-method-spec %}
