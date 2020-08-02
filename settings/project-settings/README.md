@@ -1,26 +1,13 @@
----
-description: >-
-  Manage your Sleuth project details, notifications, environments, code
-  deployments, feature flags, and impact settings
----
-
 # Project Settings
 
-## Environments
+The following settings can be configured for the selected Sleuth project: 
 
-![](../../.gitbook/assets/project-settings-envs.png)
-
-## Code Deployments
-
-![](../../.gitbook/assets/project-settings-code-deployments.png)
-
-## Feature Flags
-
-![](../../.gitbook/assets/project-settings-ff.png)
-
-## Impact
-
-![](../../.gitbook/assets/project-settings-impact.png)
-
-
+| Setting | Description |
+| :--- | :--- |
+| \*\*\*\*[**Details**](details.md)\*\*\*\* | Manage your project's name and description, default issue tracker and build server |
+| \*\*\*\*[**Slack Notifications**](slack-notifications.md)\*\*\*\* | Select the Slack channels that receive notifications based on activity in your Sleuth environments |
+| [**Environments**](environments.md)\*\*\*\* | Manage your Sleuth environments |
+| [**Code Deployments**](code-deployments.md)\*\*\*\* | Manage your code deployments' mapped repos and branches |
+| [**Feature Flags**](feature-flags.md)\*\*\*\* | Manage your feature flags' environment and project mappings |
+| \*\*\*\*[**Impact**](impact.md)\*\*\*\* | Manage your error and metric impact sources |
 
