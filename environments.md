@@ -14,12 +14,14 @@ Model your code as you choose and Sleuth adapts. For example, if you have separa
 
 You can register a deploy via the [Sleuth API](resources/api-reference.md) by specifying an environment parameter, which registers the environment you're deploying to. If you maintain separate code branches for production and staging, you can map those branches to individual environments as well. 
 
+* If you are using only one branch to deploy to multiple environments, you must provide an environment parameter when registering a deploy. Sleuth will deliver it to the correct environment. 
+* If you are using different branches to deploy to different environments, Sleuth allows you to map environments to branches, along with supporting auto-deploy on commit or tag.
 * For [manual deployments](resources/api-reference.md#manual-deploy-registration), you can specify the environment on the [HTTP POST](resources/api-reference.md#environment-deploy-registration) as the 'environment' field or default to the project's default environment.
-* A project must always hae least one default environment. 
+* A project must always have least one default environment. 
 * Environments map to a single branch by default. You can change this behavior, and map multiple environments to multiple branches. 
 * If applicable to the integration, Sleuth will intelligently map environments to Sleuth environments \(i.e., LaunchDarkly staging to Sleuth staging\). 
 
 {% hint style="success" %}
-Edit your project's [environment settings](settings/project-settings/#environments) by going to **Project Settings** &gt; **Environments** in your [project settings](settings/project-settings/). 
+Edit your project's [environment settings](settings/project-settings/#environments) by going to **Project Settings** &gt; **Environments** in [project settings](settings/project-settings/). 
 {% endhint %}
 
