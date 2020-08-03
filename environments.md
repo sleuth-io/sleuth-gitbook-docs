@@ -8,6 +8,8 @@ Sleuth's environment support lets you model your change sources, such as code de
 
 ![A project can contain multiple environments](.gitbook/assets/project-env_hierarchy.png)
 
+Environments are used to test code at various stages of the feature lifecycle in non-production environments before shipping to customers. and can lead to further confidence in the software when in production. Sleuth's environment support allows you to track changes across environments within a project to understand what state each environment is in, and understand when changes are soon to ship to production.
+
 Model your code as you choose and Sleuth adapts. For example, if you have separate _production_ and _staging_ repos, you can create multiple code deployments that map to a master branch. Or, if you choose, you can have separate master and development branches within the same repo and map those branches to their own environment within your project. 
 
 ![](.gitbook/assets/branch_mapping%20%281%29.png)
