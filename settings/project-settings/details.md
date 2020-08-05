@@ -10,11 +10,15 @@ The **Details** tab contains general information about the selected project. The
 
 ![Project selector in the sidebar](../../.gitbook/assets/project_selector.png)
 
-You can change the name of your project in the Details tab, along with an optional descripting for the project. This is helpful if you are on a large team with multiple projects within the organization. 
+You can change the name of your project in the Details tab, along with an optional **Description** for the project. This is helpful if you are on a large team with multiple projects within the organization. 
 
 ![Details tab in Project Settings](../../.gitbook/assets/details.png)
 
-You can also change the default issue tracker for the selected project and, if a [Build](../../integrations-1/builds/) integration has been established, a default build server. Selecting a build server is optional, but at least one [issue tracker](../../integrations-1/issue-trackers/) must be integrated and set as the default. A link to enable an issue tracker is provided if the integration has not been made by the organization the project belongs to. 
+You can also change the default issue tracker for the selected project and, if a [Build](../../integrations-1/builds/) integration has been established, a default build server. Selecting a build server is optional, but at least one default [issue tracker](../../integrations-1/issue-trackers/) or [code deployment](../../integrations-1/change-sources/code-deployment/) must be selected for your project. A link to enable an issue tracker is provided if the integration has not yet been made in the organization.
 
-Press **Save** after making modifications in the Details tab. 
+{% hint style="info" %}
+Only certain members can create an integration for the organization. See [Access Control](../../user-administration.md) for more information. 
+{% endhint %}
+
+* Press **Save** after making any changes in the _Details_ tab. 
 
