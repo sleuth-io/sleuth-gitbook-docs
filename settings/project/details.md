@@ -1,6 +1,6 @@
 # Details
 
-The **Details** tab contains general information about the selected project. The name of selected project is displayed at the top of the sidebar, under **Project**. Select the dropdown to select a different project if you have more than one project. 
+The **Details** tab contains general information about the selected **project**. The name of selected project is displayed at the top of the sidebar, under **Project**. Select the dropdown to select a different project, if you have more than one. 
 
 ![Project selector in the sidebar](../../.gitbook/assets/project_selector.png)
 

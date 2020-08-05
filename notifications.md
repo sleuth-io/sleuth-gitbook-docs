@@ -43,7 +43,9 @@ Email notifications are sent at the frequency you select, and can be configured 
 3. Click **My Notifications** in the upper-right corner of the dashboard.   ![](.gitbook/assets/slack-my-notifications.png)
 4. Select a notification frequency in the dropdown. More than one can be selected. 
 
+{% hint style="info" %}
 Add **noreply@email.sleuth.io** to your email provider's or your email application's spam filter whitelist to prevent the notification email from getting caught up in spam filters. 
+{% endhint %}
 
 The notification email provides a digest of the following activity during the selected timeframe: 
 

@@ -10,7 +10,11 @@
 
 ## Settings
 
-* [Organization](settings/organization.md)
+* [Organization](settings/organization/README.md)
+  * [Details](settings/organization/details.md)
+  * [Signup](settings/organization/signup.md)
+  * [Members](settings/organization/members.md)
+  * [Billing](settings/organization/billing.md)
 * [Project](settings/project/README.md)
   * [Details](settings/project/details.md)
   * [Slack Notifications](settings/project/slack-notifications.md)
@@ -18,7 +22,10 @@
   * [Code Deployments](settings/project/code-deployments.md)
   * [Feature Flags](settings/project/feature-flags.md)
   * [Impact](settings/project/impact.md)
-* [Account](settings/account.md)
+* [Account](settings/account/README.md)
+  * [Account](settings/account/account.md)
+  * [Notifications](settings/account/notifications.md)
+  * [Identities](settings/account/identities.md)
 
 ## Integrations <a id="integrations-1"></a>
 

@@ -51,7 +51,7 @@ If you're part of an organization that has already set up a Sleuth environment a
 
 You can add existing members to your organization or add the email address of someone you'd like to have invited to join your organization. If the invitation's accepted, the user will automatically be added to your organization. Go to Organization settings for more information on inviting team members. 
 
-You should also configure Sleuth's RBAC \(Role-Based Access Control\) system to control what team members can do with their Sleuth account. For more information, see [Access Control](access-control.md), then head to the [Organization's Members settings](settings/organization.md) to set it all up. 
+You should also configure Sleuth's RBAC \(Role-Based Access Control\) system to control what team members can do with their Sleuth account. For more information, see [Access Control](access-control.md), then head to the [Organization's Members settings](settings/organization/) to set it all up. 
 {% endtab %}
 
 {% tab title="Step 6" %}
@@ -67,9 +67,9 @@ You should also configure Sleuth's RBAC \(Role-Based Access Control\) system to 
 {% tab title="Step 7" %}
 Configure settings for your: 
 
-* [Organization](settings/organization.md) 
+* [Organization](settings/organization/) 
 * [Project](settings/project/)
-* [Account](settings/account.md)
+* [Account](settings/account/)
 
 ####  💥 You're ready! 
 
