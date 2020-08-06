@@ -2,7 +2,7 @@
 
 ## How does Sleuth handle security and protect my data?
 
-You can read about how Sleuth manages and secures your data in the [Sleuth Trust Center](https://www.sleuth.io/trust).  
+You can read about how Sleuth secures and manages your data in the [Sleuth Trust Center](https://www.sleuth.io/trust).  
 
 ## How are environments represented in Sleuth?
 
