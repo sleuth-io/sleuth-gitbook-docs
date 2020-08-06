@@ -1,5 +1,9 @@
 # FAQ
 
+## How does Sleuth handle security and protect my data?
+
+You can read about how Sleuth manages and secures your data in the [Sleuth Trust Center](https://www.sleuth.io/trust).  
+
 ## How are environments represented in Sleuth?
 
 Sleuth has full-featured support for **environments**, which are made at the [project](../projects.md) level. You can have as many environments as needed to represent your project and its development states, with _staging_, _testing_, and _production_ being common ones \(you can name them anything you want\). 
