@@ -2,6 +2,10 @@
 
 The **Members** tab allows you to manage the roles of the members of your organization. You can also invite new members to your organization. 
 
+{% hint style="info" %}
+You can quickly access the **Members** section of your organization by clicking **Invite People**![](../../.gitbook/assets/invite-people.png) in the sidebar.  
+{% endhint %}
+
 ![Additional members can be invited here. Heywood Floyd is the Owner of the organization.](../../.gitbook/assets/organization-members.png)
 
 When inviting new members, they will automatically join your organization if their email domain matches the email domain in the [Signup tab](signup.md). 
