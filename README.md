@@ -7,7 +7,7 @@ description: >-
 
 # Signing up
 
-Before you ****get started, you must first [create an account](https://app.sleuth.io/account/signup/). Once that's done, we'll connect to a change source, which is usually your code repo. 
+Before you ****get started, you must first [create an account](https://app.sleuth.io/account/signup/). Once that's done, we'll connect to a change source, which is usually your code repo. You can also add feature flags as a change source. Impact measurements, such as from errors and metrics trackers, can be configured as well. 
 
 ![](.gitbook/assets/signup-sleuth.png)
 
