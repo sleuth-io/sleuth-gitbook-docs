@@ -6,6 +6,7 @@
 * [Projects](projects.md)
 * [Notifications](notifications.md)
 * [Environment Support](environment-support.md)
+* [Tags](tags.md)
 * [Access Control](access-control.md)
 
 ## Settings
