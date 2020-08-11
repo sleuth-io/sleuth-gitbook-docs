@@ -1,5 +1,5 @@
 ---
-description: Automatic tagging for quick deploy history searching
+description: Automatic tagging for quickly searching through your deploy history
 ---
 
 # Tags
