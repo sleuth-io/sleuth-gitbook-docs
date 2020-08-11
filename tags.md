@@ -4,15 +4,13 @@ description: Automatic tagging for quick deploy history searching
 
 # Tags
 
-As you might already know, GitHub tags point to an invidual commit. They're similar to references, but the commit it points to never changes. They're helpful if you want to, say, point to specific release, which is at a specific point in time. 
+Sleuth tags are automatically added to your deploys so that you can quickly search for them later. The tags are added by looking for patterns in the files deployed in your code repositories. For example, if Sleuth finds a **pom.xml** file in your deploy, it automatically adds the tag **\#dependencies** to the deploy. You can then go to the [Dashboard](dashboard/) and search for **dependencies** using the search function. See the table below for more patterns and tags Sleuth automatically applies to your deploys based on pattern matching. 
 
-Sleuth implements tags in a slightly different way. 
+![The \#dependencies tag automatically added to a deploy](.gitbook/assets/sleuth-tags-dependencies.png)
 
-{% hint style="info" %}
-Sleuth tags are not related to GitHub tags. They are completely different implentations. 
-{% endhint %}
+For comparison, GitHub tags point to an invidual commit. They're similar to references, but the commit it points to never changes. They're helpful if you want to, say, point to specific release, which is at a specific point in time. So keep this in mind: **Sleuth tags are not the same as GitHub tags**.  
 
-If tags are not explicitly defined for a deployment, Sleuth detects tags by matching files using patterns either from a _.sleuth/TAGS_ file in your repository, or a set of default patterns:
+If tags are not explicitly defined for a deployment, Sleuth detects tags by matching files using patterns either from the _**.sleuth/TAGS**_  file in your repository ![](.gitbook/assets/sleuth-repo-tags.png), or a set of default patterns:
 
 | Pattern | Tag |
 | :--- | :--- |
@@ -25,11 +23,20 @@ If tags are not explicitly defined for a deployment, Sleuth detects tags by matc
 | \*\*/db/\*\* | \#database |
 | \*tf | \#terraform |
 
+### Searching for tagged deploys
+
 You can search for tags using the search bar in the Sleuth Dashboard. 
 
-{% hint style="warning" %}
-Do **not** use the leading hash \(\#\) when searching for a tag. 
-{% endhint %}
+1. Go to the Dashboard. 
+2. Enter the tag name you're searching for in the search field. **Do not enter the leading hash** \(**\#**\). Results are displayed automatically. Use the dropdowns next to the search field to filter by deploy health and results per page. 
 
-![](.gitbook/assets/tags-searching.png)
+Deploys that contain the tag are displayed. In the example below, deploys that contain the pattern \*\***/migration/\*\***  are displayed in the search results. The tag **\#migration** is displayed in the tag section at the bottom of the deploy card. 
+
+![The \#migration tag is shown at the bottom of the deploy card](.gitbook/assets/tags-searching.png)
+
+### Adding custom tags
+
+In addition to having Sleuth automatically detect patterns and add tags to your deploys, you can add your own patterns that Sleuth can then use to help you search for your previous deploys. This is easily done by editing the _**.sleuth/TAGS**_ in your code repository. 
+
+
 
