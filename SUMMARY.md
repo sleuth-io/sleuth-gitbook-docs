@@ -12,7 +12,7 @@
 * [Projects](projects.md)
 * [Notifications](notifications.md)
 * [Environment Support](environments.md)
-* [Tags](tags.md)
+* [Automatic Tags](tags.md)
 * [Access Control](user-administration.md)
 
 ## Settings
