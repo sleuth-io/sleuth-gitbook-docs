@@ -6,16 +6,20 @@ description: >-
 
 # Access Control
 
-Sleuth uses a role-based access control \(RBAC\) method to restrict access to the Sleuth application. Every organization by default has a single owner, who can then assign roles to  other members. Depending on the given role, members within the organization can handle billing, add new members and assign roles, adjust settings for integrations and deployments, or can simply be read-only viewers of the Dashboard. 
+With RBAC \(role-based access control\), you can control access rights to users based on their roles.
 
-Different roles control what parts of Sleuth your users can see and change: 
+These controls enable the **Owner** to control what members of a Sleuth organization can do and what portions of the control panel they can see and alter. For example, only the Owner or Administrator can access billing information or change the name of or delete a project. 
 
-* **Owner**: Organization owner. **The owner account cannot be deleted.**  
-* **Administrator**: Can do anything. 
-* **Developer**: Can add integrations and deployments, but not users. 
-* **Observer**: Can only view deployment information.
+These are the four different roles a Sleuth user can assume:
 
-To manage your organization's members, go to **Organization Settings &gt; Members**, then select the cog dropdown next to the user to change their role:
+| Role | Privileges |
+| :--- | :--- |
+| **Owner** | The organization owner that cannot be removed. An organization will always have one, and only one, owner. **This account cannot be deleted.**  |
+| **Administrator** | Can do anything. Can do the same thing as an Owner. Multiple Administrators can be created, and Administrators can be removed. |
+| **Developer** | Can add integrations, deployments, but not add, remove, or manage any users. |
+| **Observer** | Can only view deployment information. Observers cannot change anything. |
+
+Login to your Sleuth account \(but only if you're an Owner or Administrator\), then go to _**Organization Settings &gt; Members**_, then select the cog dropdown next to the user to change their role:
 
  ![](.gitbook/assets/screen-shot-2020-07-28-at-1.30.56-pm.png) 
 
