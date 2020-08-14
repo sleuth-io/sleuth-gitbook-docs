@@ -38,5 +38,12 @@ Deploys that contain the tag are displayed. In the example below, deploys that c
 
 In addition to having Sleuth automatically detect patterns and add tags to your deploys, you can add your own patterns that Sleuth can then use to help you search for your previous deploys. This is easily done by editing the _**.sleuth/TAGS**_ in your code repository. 
 
+#### To add your own pattern/tag pair: 
 
+1. Create a _**.sleuth/**_ directory in the root directory of your repo. This repo must be connected as a [code deployment](settings/project-settings/code-deployments.md) in Sleuth. 
+2. Create a file **TAGS** in the _**.sleuth**_ directory. 
+3. Create a matching pattern/tag pair; create additional pairs on new lines.  For example: `/db #database`
+4. Save the file. 
+
+In the example above, a directory with the name `db` would generate a tag `#database` in the Sleuth deploy card, which you can then search for quickly using the Sleuth search \(**do not** include the leading hash when searching\). 
 
