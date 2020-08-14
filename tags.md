@@ -2,7 +2,7 @@
 description: Automatic tagging for quickly searching through your deploy history
 ---
 
-# Tags
+# Automatic Tags
 
 Sleuth tags are automatically added to your deploys so that you can quickly search for them later. The tags are added by looking for patterns in the files deployed in your code repositories. For example, if Sleuth finds a **pom.xml** file in your deploy, it automatically adds the tag **\#dependencies** to the deploy. You can then go to the [Dashboard](dashboard.md) and search for **dependencies** using the search function. See the table below for more patterns and tags Sleuth automatically applies to your deploys based on pattern matching. 
 
@@ -34,7 +34,16 @@ Deploys that contain the tag are displayed. In the example below, deploys that c
 
 ![The \#migration tag is shown at the bottom of the deploy card](.gitbook/assets/tags-searching.png)
 
+### Adding custom tags
 
+In addition to having Sleuth automatically detect patterns and add tags to your deploys, you can add your own patterns that Sleuth can then use to help you search for your previous deploys. This is easily done by editing the _**.sleuth/TAGS**_ in your code repository. 
 
+#### To add your own pattern/tag pair: 
 
+1. Create a _**.sleuth/**_ directory in the root directory of your repo. This repo must be connected as a [code deployment](settings/project/code-deployments.md) in Sleuth. 
+2. Create a file **TAGS** in the _**.sleuth**_ directory. 
+3. Create a matching pattern/tag pair; create additional pairs on new lines.  For example: `/db #database`
+4. Save the file. 
+
+In the example above, a directory with the name `db` would generate a tag `#database` in the Sleuth deploy card, which you can then search for quickly using the Sleuth search \(**do not** include the leading hash when searching\). 
 
