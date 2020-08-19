@@ -2,7 +2,13 @@
 
 ## About the integration
 
-The CircleCI integration provides Sleuth with the ability to track your CircleCI builds and associate them with your corresponding Sleuth deploys. Once configured, the Sleuth CircleCI integration silently monitors your deployment activity, and ties your CircleCI builds with associated deployments you make to your integrated change sources by matching the git SHAs from your code repos.  
+The CircleCI integration provides Sleuth with the ability to track your CircleCI builds and associate them with corresponding Sleuth deploys. Once configured, the Sleuth CircleCI integration silently monitors your deployment activity, and ties your CircleCI builds with associated deployments you make to your integrated change sources by matching the git SHAs from your code repos.  
+
+#### Benefits
+
+|  |  |
+| :--- | :--- |
+|  |  |
 
 ## Setting up the integration
 
