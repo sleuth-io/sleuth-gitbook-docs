@@ -4,9 +4,11 @@
 
 You can read about how Sleuth secures and manages your data in the [Sleuth Trust Center](https://www.sleuth.io/trust).  
 
+Additionally, when you dissolve an integration, Sleuth purges all data, including any API keys/tokens, username/passwords, and any other information it needed to access your integration data.
+
 ## How are environments represented in Sleuth?
 
-Sleuth has full-featured support for **environments**, which are made at the [project](../projects.md) level. You can have as many environments as needed to represent your project and its development states, with _staging_, _testing_, and _production_ being common ones \(you can name them anything you want\). 
+Sleuth has full-featured support for **environments**, which are are created and managed at the [project](../projects.md) level. You can have as many environments as needed to represent your project and its development states, with _staging_, _testing_, and _production_ being common ones \(you can name them anything you want\). 
 
 Check out the [Sleuth Information Architecture](terminology.md#information-architecture-ia) to visualize Sleuth organization hierarchy. 
 
