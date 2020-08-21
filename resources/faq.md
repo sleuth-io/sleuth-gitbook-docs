@@ -1,5 +1,9 @@
 # FAQ
 
+## Does Sleuth handle monorepos? 
+
+Yes. Sleuth treats monorepos like any other repo setup. 
+
 ## How are environments represented in Sleuth?
 
 Currently, the way to represent your environments in Sleuth is to model them as [projects](../projects.md). Create a new project for each environment, such as staging, production, development, etc., and then map change sources, deployments, feature flags, etc., to each environment individually. 
