@@ -17,7 +17,7 @@ To set up the Sleuth Clubhouse integration:
 1. Click **Integrations** in the left sidebar, then click **Issue Trackers**. 
 2. In the _Clubhouse_ tile, click **enable**. 
 3. Enter the _API Token_ of your Clubhouse instance into the corresponding field, then press **Save**. To quickly access your Clubhouse instance to obtain an API token, click **generate**.   ![](../../.gitbook/assets/clubhouse-api-key.png) 
-4. When integration is successful, **Clubhouse is connected** is displayed in the tile.  ![](../../.gitbook/assets/clubhouse-connect-success.png) 
+4. When integration is successful, **Clubhouse enabled** is displayed in the tile.  ![](../../.gitbook/assets/clubhouse-connect-success.png) 
 
 ## Configuring the integration
 

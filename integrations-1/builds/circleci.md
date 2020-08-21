@@ -9,8 +9,9 @@ The CircleCI integration provides Sleuth with the ability to track your CircleCI
 To add the Sleuth CircleCI integration:
 
 1. Click **Integrations** in the sidebar.
-2. Click the **Builds** tab, then click **enable** in the CircleCI card.   ![](../../.gitbook/assets/circleci-connect-card.png) 
+2. Click the **Builds** tab, then click **enable** in the CircleCI card.   ![](../../.gitbook/assets/circleci-disabled.png) 
 3. Enter your CircleCI User API Token, then press **Save**. To quickly obtain your User API Token, make sure you're logged in to your CircleCI account, then click **generate**. You will be taken to the Personal API Tokens section of your CircleCI account. 
+4. On successful integration, you'll see **CircleCI enabled** displayed in the CircleCI tile. You'll  configure the default build server later.  ![](../../.gitbook/assets/circleci-enabled.png) 
 
 {% hint style="info" %}
 [Read the CircleCI documentation](https://circleci.com/docs/2.0/managing-api-tokens/#creating-a-personal-api-token) for more information on generating Personal API Tokens. 

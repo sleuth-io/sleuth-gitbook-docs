@@ -47,7 +47,7 @@ Adding a third-party integration to Slack must be authorized by your Slack App M
 
 ![Adding Slack third-party integrations might require your App Manager&apos;s approval.](../../.gitbook/assets/slack-request-to-install-screen%20%281%29.png)
 
-4. The Slack logo in the Change Source card **will turn green** when the integration is successful. 
+4. Upon a succesful connection to your Sleuth account, the message **Slack enabled \(Connected to workspace** _**&lt;workspace name&gt;**_**\)** is displayed in the tile. 
 
 ![](../../.gitbook/assets/slack-integration-connected.png)
 

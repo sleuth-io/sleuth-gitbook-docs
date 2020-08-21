@@ -24,9 +24,9 @@ You must add Sleuth as an Authorized Application in the corresponding LaunchDark
 For more information, [read the LaunchDarkly documentation](https://docs.launchdarkly.com/integrations/oauth).
 {% endhint %}
 
-3. On successful integration, you'll see _LaunchDarkly is connected as {LaunchDarkly user account}_ displayed in the LaunchDarkly tile. 
+3. On successful integration, you'll see **LaunchDarkly enabled \(Connected as** _**&lt;LaunchDarkly user account&gt;**_**\)** displayed in the LaunchDarkly tile. 
 
-![A successful LaunchDarkly integration!](../../../.gitbook/assets/screen-shot-2020-03-31-at-3.52.19-pm.png)
+![](../../../.gitbook/assets/launchdarkly-enabled.png)
 
 4. That’s it—Sleuth will now track your feature flags as a source of change. Read [**Dashboard**](../../../dashboard.md) for more information on how feature flag issues are communicated within your project’s deploy cards. 
 

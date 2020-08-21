@@ -17,7 +17,7 @@ To set up the Sleuth GitHub integration:
 1. Click **Integrations** in the left sidebar, then click **Change Sources**. 
 2. In the _GitHub_ tile, click **enable**. 
 3. Sign in to your GitHub account. If enabled, enter your 2FA code and click **Verify**. Don't worry, you'll select the GitHub repo to connect to your Sleuth project later.   ![](../../../.gitbook/assets/github-signin.png)  ![](../../../.gitbook/assets/github-2fa.png) 
-4. Upon successful integration, you'll see _GitHub is connected as {GitHub user account}_ displayed in the GitHub tile, and the GitHub logo will turn green. You'll next configure the code deployment to connect your repo to a project. 
+4. Upon successful integration, you'll see **GitHub enabled \(Connected as** _**&lt;GitHub user account&gt;**_**\)** displayed in the GitHub tile. You'll next configure the code deployment to connect your repo to a project.  ![](../../../.gitbook/assets/github-enabled.png) 
 
 ## Configuring the integration
 
