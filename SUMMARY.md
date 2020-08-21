@@ -56,6 +56,7 @@
 * [Issue Trackers](integrations-1/issue-trackers/README.md)
   * [Clubhouse](integrations-1/issue-trackers/clubhouse.md)
   * [Jira](integrations-1/issue-trackers/jira.md)
+  * [Linear](integrations-1/issue-trackers/linear.md)
 * [Manual Changes](integrations-1/manual-changes.md)
 * [Integration Page Template](integrations-1/integration-page-template.md)
 
