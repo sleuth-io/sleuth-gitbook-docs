@@ -42,7 +42,9 @@ Your manual change will be displayed in the Sleuth Dashboard, along with the cor
 
 Check out this video on Sleuth TV for a quick demonstration: 
 
-&lt;iframe width="560" height="315" src="[https://www.youtube.com/embed/ceIcHfUyK8E](https://www.youtube.com/embed/ceIcHfUyK8E)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+```text
+{embed YouTube video: 'https://www.youtube.com/watch?v=9bZkp7q19f0'}
+```
 
 ### Adding a manual change with CLI
 
