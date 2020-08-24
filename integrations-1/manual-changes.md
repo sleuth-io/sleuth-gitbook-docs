@@ -32,19 +32,17 @@ You can quickly and easily add a manual change through the Sleuth [Slack integra
 
 #### To add a manual change through Slack
 
-1. Go to Project Settings. 
-2. Click the Slack Notifications tab. 
-3. Find the channel that's connected to the environment you wish to submit a manual change through \(e.g, **\#testing-team**\).
+1. In the sidebar, click on **Project Settings**. 
+2. Select the **Slack Notifications** tab. 
+3. Find the channel that's connected to the environment you wish to submit a manual change through \(e.g, **\#testing-team** mapped to the _Production_ environment\).
 4. In Slack, select the corresponding channel \(e.g., **\#testing-team**\). 
 5. Type`/change` along with a message and, optionally, a [tag](../tags.md), then **Send message**.  
 
-Your manual change will be displayed in the Sleuth Dashboard, along with the corresponding message and, if you entered one, tag. 
+Your manual change will be displayed in the Sleuth Dashboard, along with the corresponding message and, if you entered one, the entered tag. 
 
-Check out this video on Sleuth TV for a quick demonstration: 
-
-```text
-{embed YouTube video: 'https://www.youtube.com/watch?v=9bZkp7q19f0'}
-```
+{% hint style="info" %}
+You can later [search for the tag](../tags.md#searching-for-tagged-deploys) in the Sleuth Dashboard. 
+{% endhint %}
 
 ### Adding a manual change with CLI
 
