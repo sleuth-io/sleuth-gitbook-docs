@@ -17,3 +17,17 @@ To get more information about a deploy, you can:
 * Click on the card title to view all the PRs, commits, issues, files, impact and authors of the deploy; or
 * Click on any of the PRs that comprised the deploy to view the deployed code in its corresponding repo.
 
+### Previewing deploys
+
+Sleuth lets you see what your next deploy is going to look like by 
+
+It's automatic and the way it works is the following - if you have "auto deploy on each commit", you can't have it, because we simply deploy all the commits you push but if you DON'T have auto deploy enabled, you need to manually submit a deploy with us
+
+let's say you made commits A, B, C, D and you told us you deployed A
+
+your current version is A while B, C and D are yet undeployed
+
+we're taking these three and giving you the "next deploy" preview
+
+so whatever the difference is between the last commit you deployed and the last commit in your repo 
+

@@ -40,6 +40,8 @@ You can quickly and easily add a manual change through the Sleuth [Slack integra
 
 Your manual change will be displayed in the Sleuth Dashboard, along with the corresponding message and, if you entered one, the entered tag. 
 
+{% embed url="https://www.youtube.com/watch?v=ceIcHfUyK8E" caption="Adding a manual change using Slack" %}
+
 {% hint style="info" %}
 You can later [search for the tag](../tags.md#searching-for-tagged-deploys) in the Sleuth Dashboard. 
 {% endhint %}
@@ -48,5 +50,5 @@ You can later [search for the tag](../tags.md#searching-for-tagged-deploys) in t
 
 * To submit a manual change via CLI, read the Sleuth [API Reference](../resources/api-reference.md#manual-change). 
 
-### 
+
 
