@@ -9,6 +9,7 @@
   * [Sidebar](dashboard/sidebar.md)
   * [Size/Leaderboard](dashboard/size-leaderboard.md)
   * [Trend graph](dashboard/trend-graph.md)
+  * [Report date filter](dashboard/report-date-filter.md)
 * [Projects](projects.md)
 * [Notifications](notifications.md)
 * [Environment Support](environments.md)
