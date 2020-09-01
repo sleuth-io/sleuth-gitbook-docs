@@ -26,6 +26,12 @@ Make changes as needed to your code deployment. On this screen, you can:
   * _**Automatically create deploys for every tag:**_ Sleuth creates a deploy when a new tag is pushed to a repo. 
   * _**Automatically create deploys for every push to branch:**_ ****Sleuth creates a deploy every time there is a push to the selected branch. 
 
+Press **Save** after making any changes. 
+
+### Auto tracking delay
+
+If you make any changes and press **Save**, you will be prompted to enter an auto tracking delay value. This 
+
 ### Advanced Settings
 
 Additional configuration options allow you to fine-tune the behavior of Sleuth when it detects deploys via your change sources. 
