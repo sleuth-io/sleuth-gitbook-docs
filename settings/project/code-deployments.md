@@ -30,11 +30,17 @@ Make changes as needed to your code deployment. On this screen, you can:
 
 Additional configuration options allow you to fine-tune the behavior of Sleuth when it detects deploys via your change sources. 
 
-![Advanced settings section of Code Deployments tab](../../.gitbook/assets/advanced-settings-code-deployment.png)
+![](../../.gitbook/assets/advanced-settings.png)
+
+#### Source path prefix
+
+Restricts deployment information to only files matching the entered prefix, primarily useful for monorepos.
 
 #### Deployment locking
 
-Selecting this checkbox allows Sleuth to automatically lock a deployment if there is a pull request made to your deployment branch. Without this enabled, you can still lock a deployment manually in the Slack notification or in the Dashboard of the active project. 
+Selecting this checkbox allows Sleuth to automatically lock a deployment if there is a pull request made to your deployment branch. Without this enabled, you can still lock a deployment manually in the Slack notification or in the Dashboard of the active project by clicking the **Lock** button \(see below\).
+
+ ![](../../.gitbook/assets/lock-icon%20%282%29.png) 
 
 #### Slack notifications
 
