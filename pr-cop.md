@@ -1,2 +1,2 @@
-# PR Cop
+# PR Queue
 
