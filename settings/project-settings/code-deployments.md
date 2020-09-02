@@ -30,7 +30,11 @@ Press **Save** after making any changes.
 
 ### Auto tracking delay
 
-If you make any changes and press **Save**, you will be prompted to enter an auto tracking delay value. This 
+If you make any changes to any code deployment settings and press **Save**, you will be prompted to enter an auto tracking delay value. The default value for this field is **0**. This means Sleuth will begin evaluating the impact of you code as soon as it's deployed, and also generate and send any notifications about your deployment, through the Slack integration and/or email notifications you might have set up. 
+
+Depending on your production environment and how your application deployment pipeline is set up,  impact information and Sleuth-generated notifications might not reflect the real-time deployed state of your application, as Sleuth begins analyzing your deployment immediately. 
+
+
 
 ### Advanced Settings
 
