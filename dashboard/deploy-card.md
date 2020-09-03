@@ -17,3 +17,8 @@ To get more information about a deploy, you can:
 * Click on the card title to view all the PRs, commits, issues, files, impact and authors of the deploy; or
 * Click on any of the PRs that comprised the deploy to view the deployed code in its corresponding repo.
 
+### Deploy card icons
+
+Sleuth uses a variety of icons in the deploy cards to quickly and easily communicate the status of your deploys. You can hover over the icons to get more detailed information. The icons used are as follows: 
+
+* 
