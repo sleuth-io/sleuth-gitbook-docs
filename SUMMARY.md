@@ -6,8 +6,8 @@
 * [Projects](projects.md)
 * [Environments](environment-support.md)
 * [Notifications](notifications.md)
-* [Automatic Tags](tags.md)
-* [Access Control](access-control.md)
+* [Automatic tags](tags.md)
+* [Access control](access-control.md)
 
 ## Settings
 
@@ -30,32 +30,32 @@
 
 ## Integrations <a id="integrations-1"></a>
 
-* [About Integrations...](integrations-1/about-integrations.md)
+* [About...](integrations-1/about-integrations.md)
 * [Builds](integrations-1/builds/README.md)
   * [CircleCI](integrations-1/builds/circleci.md)
-* [Change Sources](integrations-1/change-sources/README.md)
-  * [Code Deployment](integrations-1/change-sources/code-deployment/README.md)
+* [Change sources](integrations-1/change-sources/README.md)
+  * [Code deployments](integrations-1/change-sources/code-deployment/README.md)
     * [Bitbucket](integrations-1/change-sources/code-deployment/bitbucket.md)
     * [GitHub](integrations-1/change-sources/code-deployment/github.md)
-  * [Feature Flags](integrations-1/change-sources/feature-flags/README.md)
+  * [Feature flags](integrations-1/change-sources/feature-flags/README.md)
     * [LaunchDarkly](integrations-1/change-sources/feature-flags/launchdarkly.md)
   * [Infrastructure](integrations-1/change-sources/infrastructure/README.md)
     * [AWS](integrations-1/change-sources/infrastructure/aws.md)
     * [Terraform Cloud](integrations-1/change-sources/infrastructure/terraform-cloud.md)
-* [Chat Ops](integrations-1/chat-ops/README.md)
+* [Chat ops](integrations-1/chat-ops/README.md)
   * [Slack](integrations-1/chat-ops/slack.md)
-* [Impact Sources](integrations-1/impact-sources/README.md)
-  * [Error Trackers](integrations-1/impact-sources/errors/README.md)
+* [Impact sources](integrations-1/impact-sources/README.md)
+  * [Error trackers](integrations-1/impact-sources/errors/README.md)
     * [Honeybadger](integrations-1/impact-sources/errors/honeybadger.md)
     * [Rollbar](integrations-1/impact-sources/errors/rollbar.md)
     * [Sentry](integrations-1/impact-sources/errors/sentry.md)
-  * [Metric Trackers](integrations-1/impact-sources/metrics/README.md)
+  * [Metric trackers](integrations-1/impact-sources/metrics/README.md)
     * [Datadog](integrations-1/impact-sources/metrics/datadog.md)
     * [SignalFx](integrations-1/impact-sources/metrics/signalfx.md)
-* [Issue Trackers](integrations-1/issue-trackers/README.md)
+* [Issue trackers](integrations-1/issue-trackers/README.md)
   * [Clubhouse](integrations-1/issue-trackers/clubhouse.md)
   * [Jira](integrations-1/issue-trackers/jira.md)
-* [Manual Changes](integrations-1/manual-changes.md)
+* [Manual changes](integrations-1/manual-changes.md)
 
 ## Resources
 

@@ -1,4 +1,4 @@
-# Chat Ops
+# Chat ops
 
 **Chat ops** integrations allow Sleuth to broadcast changes about your code to the people that matter most, using your existing messaging tools. Notify large groups or only the individual authors of a deploy. 
 

@@ -1,4 +1,4 @@
-# Code Deployment
+# Code deployments
 
 **Code deployments** contain the code repositories that Sleuth analyzes to provide a meaningful and clear view of the impact your changes make over time. 
 

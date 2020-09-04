@@ -4,7 +4,7 @@ description: >-
   (Role-Based Access Control)
 ---
 
-# Access Control
+# Access control
 
 With RBAC \(role-based access control\), you can control access rights to users based on their roles. These controls enable the **Owner** to control what members of a Sleuth organization can do and what portions of the control panel they can see and alter. For example, only the Owner or Administrator can access billing information or change the name of or delete a project. 
 
