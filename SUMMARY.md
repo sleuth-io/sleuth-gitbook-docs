@@ -4,8 +4,8 @@
 * [Getting started](getting-started.md)
 * [Dashboard](dashboard.md)
 * [Projects](projects.md)
+* [Environments](environment-support.md)
 * [Notifications](notifications.md)
-* [Environment Support](environment-support.md)
 * [Automatic Tags](tags.md)
 * [Access Control](access-control.md)
 

@@ -1,4 +1,4 @@
-# Environment Support
+# Environments
 
 Sleuth's environment support lets you model your change sources, such as code deployments, feature flags, and impact, across multiple environments within a project. This exclusive Sleuth feature provides you with a clear view of how your code behaves across different environments.
 
