@@ -1,6 +1,6 @@
 # About...
 
-Integrations are what enable Sleuth to communicate with the CD/CI tools in your DevOps arsenal. Sleuth is then able collect the information it needs to provide a comprehensive view of your deployments, ensuring that you always know what is happening with your code—commits, PRs, deploys, issues, errors, metrics, feature flags, authors, and so much more—and communicating successful—or failed—deployments through a [chat ops integration](about-integrations.md#chat-ops). 
+Integrations are what enable Sleuth to communicate with the CD/CI tools in your DevOps arsenal. Sleuth is then able to collect the information it needs to provide a comprehensive view of your deployments, ensuring that you always know what is happening with your code—commits, PRs, deploys, issues, errors, metrics, feature flags, authors, and so much more—and communicating successful—or failed—deployments through a [chat ops integration](about-integrations.md#chat-ops). 
 
 Sleuth acts as a control panel so that you can have a single place to monitor your deployed applications, and know instantly when something goes wrong and where you need to go to fix it.
 
