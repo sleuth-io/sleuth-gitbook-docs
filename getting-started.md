@@ -2,7 +2,7 @@
 
 Sleuth is a deployment tracker that helps you move fast without breaking things. It only takes a few minutes to connect Sleuth to a change source and start analyzing the health of your code. 
 
-A change source can be a code deployment on Bitbucket or GitHub, feature flags on LaunchDarkly, or issues on Clubhouse or Jira, with [many other integrations](integrations-1/about-integrations.md) available. 
+A change source can be a code deployment on Bitbucket and GitHub; feature flags on LaunchDarkly; issues on Clubhouse, Jira, and Linear; errors from Honeybadger, Rollbar, and Sentry; metrics from Datadog and SignalFx, with [many other integrations](integrations-1/about-integrations.md) available. 
 
 To get started with Sleuth: 
 
