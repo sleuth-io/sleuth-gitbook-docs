@@ -21,4 +21,12 @@ To get more information about a deploy, you can:
 
 Sleuth uses a variety of icons in the deploy cards to quickly and easily communicate the status of your deploys. You can hover over the icons to get more detailed information. The icons used are as follows: 
 
-* 
+* COMMIT: 'code-commit'
+* PULL\_REQUEST: 'code-merge'
+* ISSUE: 'clipboard-check'
+* BUILD: 'hammer'
+* SUCCESS: 'rocket-launch'
+* SOON: 'atom'
+* REPLACED: 'sync-alt'
+* TOO\_MANY: 'tasks'
+
