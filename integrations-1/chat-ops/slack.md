@@ -31,6 +31,10 @@ Sleuth can also be setup to send **individual Slack messages**. For example, ins
 To receive messages from the Sleuth bot, recipients must be registered both in your code repo \(i.e., GitHub, Bitbucket, etc.\) and also in Sleuth. 
 {% endhint %}
 
+{% hint style="info" %}
+Read the [Sleuth Privacy Policy](https://www.sleuth.io/privacy) for information regarding the collection, use, and disclosure of Personal Information we collect.
+{% endhint %}
+
 ## Setting up the integration
 
 1. Click **Integrations** in the sidebar.
