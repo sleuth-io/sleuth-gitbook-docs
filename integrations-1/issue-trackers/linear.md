@@ -4,7 +4,7 @@
 
 The Linear integration allows Sleuth to use Linear as a deployment issue tracker. When you deploy, Sleuth will automatically connect your Linear issues to the deploys, so you can always find the source of your changes later. 
 
-Integration with Linear is made at the Sleuth organization level. More than one [issue tracker](./) can be integrated with an organization. Although you can have multiple projects within an organization, each project can only configured to use a single issue tracker.  
+Integration with Linear is made at the Sleuth organization level. More than one [issue tracker](./) can be integrated with an organization. Although you can have multiple projects within an organization, each project can only be configured to use a single issue tracker.  
 
 Once Linear is configured as the issue tracker, every time the Linear issue key is included in a deploy's commit message, Sleuth will automatically link that deploy with the corresponding issue in Linear.
 
@@ -14,10 +14,8 @@ To set up the Sleuth Linear integration:
 
 1. Click **Integrations** in the left sidebar, then click **Issue Trackers**. 
 2. In the _Linear_ tile, click **connect**. 
-3. Enter the _API Token_, _Username_, and fully qualified _URL_ of your Linear instance into the corresponding fields, then press **Save**. To quickly access your Linear instance to obtain an API key, click **generate**.   ![](../../.gitbook/assets/jira-api-key-generate.png) =
-4. The message **Linear is enabled** is displayed in the tile.
-
-![Successful integration!](../../.gitbook/assets/screen-shot-2020-06-02-at-3.05.34-pm.png)
+3. Enter the _Personal API Key_ of your Linear instance into the corresponding field, then press **Save**. To quickly access your Linear instance to obtain an API key, click **generate**. You will be taken to the **Personal API keys** section in your Linear dashboard.   ![](../../.gitbook/assets/linear-personal-api-key.png) =  ![](../../.gitbook/assets/linear-api-key-generate.png) 
+4. The message **Linear enabled** is displayed in the tile. ![](../../.gitbook/assets/linear-enabled.png) 
 
 ## Configuring the integration
 
