@@ -30,7 +30,7 @@
 
 ## Integrations <a id="integrations-1"></a>
 
-* [About...](integrations-1/about-integrations.md)
+* [About integrations...](integrations-1/about-integrations.md)
 * [Builds](integrations-1/builds/README.md)
   * [CircleCI](integrations-1/builds/circleci.md)
 * [Change sources](integrations-1/change-sources/README.md)
@@ -56,6 +56,7 @@
 * [Issue trackers](integrations-1/issue-trackers/README.md)
   * [Clubhouse](integrations-1/issue-trackers/clubhouse.md)
   * [Jira](integrations-1/issue-trackers/jira.md)
+  * [Linear](integrations-1/issue-trackers/linear.md)
 * [Manual changes](integrations-1/manual-changes.md)
 
 ## Resources

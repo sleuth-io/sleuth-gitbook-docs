@@ -1,4 +1,4 @@
-# About...
+# About integrations...
 
 Integrations are what enable Sleuth to communicate with the CD/CI tools in your DevOps arsenal. Sleuth is then able to collect the information it needs to provide a comprehensive view of your deployments, ensuring that you always know what is happening with your code—commits, PRs, deploys, issues, errors, metrics, feature flags, authors, and so much more—and communicating successful—or failed—deployments through any [chat ops integrations ](about-integrations.md#chat-ops)you have set up. 
 
@@ -22,6 +22,7 @@ You can even have Sleuth track a [manual change](manual-changes.md), which can b
 | [Honeybadger](impact-sources/errors/honeybadger.md) | Error Tracker |  |
 | [Jira](issue-trackers/jira.md) | Issue Tracker | Automatically associate issues with deploys |
 | [LaunchDarkly](change-sources/feature-flags/launchdarkly.md) | Change Source | Feature flags as a change source |
+| [Linear](issue-trackers/linear.md) | Issue Tracker | Automatically associate issues with deploys |
 | New Relic | Impact Metrics | [Contact us](mailto:support@sleuth.io?subject=Interested%20in%20New%20Relic%20integration) for more information |
 | [Rollbar](impact-sources/errors/rollbar.md) | Error Tracker |  |
 | [Sentry](impact-sources/errors/sentry.md) | Error Tracker |  |
