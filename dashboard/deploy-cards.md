@@ -35,6 +35,6 @@ Sleuth uses a variety of event icons in the deploy cards to quickly and easily c
 | ![](../.gitbook/assets/icon-build.png)  | **Build** | Build submitted via configured build services are displayed. The build name, hot-linked hash and results are displayed, along with build run date and time.  |
 | ![](../.gitbook/assets/icon-success.png)  | **Success** | Your code has been deployed. Can be superseded by a new deploy \(see **Replaced** below\).  |
 | ![](../.gitbook/assets/icon-soon.png)  | **Soon** | Indicates that a future deploy is coming soon.   |
-| ![](../.gitbook/assets/icon-replaced.png)  | **Replaced** | Indicates that the current deploy has been superseded by another deploy.  |
+| ![](../.gitbook/assets/icon-replaced.png)  | **Replaced** | Indicates that the current deploy has been superseded by another deploy. If viewing a deploy card whose last event is not **Success** event, you can navigate to the next or previous deploy by clicking the _Next/Previous_ nav links: ![](../.gitbook/assets/next-prev-nav.png)  |
 | ![](../.gitbook/assets/icon-tasks.png)  | **Too Many** | Shown when there are too many event icons to display. Hovering over this icon will let you know how many icons are currently hidden.  |
 
