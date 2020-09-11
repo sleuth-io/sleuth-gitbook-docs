@@ -15,7 +15,7 @@ For a more detailed walkthrough of the setup process, click through the tabs bel
 
 {% tabs %}
 {% tab title="Step 1" %}
-#### Go to the Sleuth [Dashboard](dashboard.md)
+#### Go to the Sleuth [Dashboard](dashboard/)
 
 ![](.gitbook/assets/screen-shot-2020-04-29-at-2.17.48-pm.png)
 {% endtab %}
@@ -35,7 +35,7 @@ For a more detailed walkthrough of the setup process, click through the tabs bel
 {% tab title="Step 4" %}
 #### Connect integrations
 
-Integrations are what enables Sleuth to gather data from disparate systems and present them to you in a single, easy-to-parse interface—the [Dashboard](dashboard.md). 
+Integrations are what enables Sleuth to gather data from disparate systems and present them to you in a single, easy-to-parse interface—the [Dashboard](dashboard/). 
 
 Integrations are made at the Sleuth organization level. You can then add as many projects as you like within the organization. Once integrations are made to the organization, all projects created under the organization have access to the integrations' connections. Furthermore, any custom settings to an integration can be made for each project. For example, your staging project might send [Slack](integrations-1/chat-ops/slack.md) notifications to one team, your production project to another. 
 
@@ -73,7 +73,7 @@ Configure settings for your:
 
 ####  💥 You're ready! 
 
-Start seeing the impact of your changes in [the Sleuth Dashboard](dashboard.md). Happy deploying! 
+Start seeing the impact of your changes in [the Sleuth Dashboard](dashboard/). Happy deploying! 
 {% endtab %}
 {% endtabs %}
 

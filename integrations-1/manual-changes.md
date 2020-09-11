@@ -24,7 +24,7 @@ A well-formed curl request with your project data pre-populated is displayed \(s
 
 ![curl information in Add Manual Change page](../.gitbook/assets/curl_url_dialog.png)
 
-The manual change will be visible on your [Dashboard](../dashboard.md) and displayed just like any other source of change. Manual changes are not updated nor managed by Sleuth; you'll need to maintain them on your own. 
+The manual change will be visible on your [Dashboard](../dashboard/) and displayed just like any other source of change. Manual changes are not updated nor managed by Sleuth; you'll need to maintain them on your own. 
 
 {% hint style="info" %}
 Manual changes can be also be [submitted via the Sleuth API](../resources/sleuth-api.md#manual-change). 

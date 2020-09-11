@@ -2,7 +2,8 @@
 
 * [Signing up](README.md)
 * [Getting started](getting-started.md)
-* [Dashboard](dashboard.md)
+* [Dashboard](dashboard/README.md)
+  * [Deploy cards](dashboard/deploy-cards.md)
 * [Projects](projects.md)
 * [Environments](environment-support.md)
 * [Notifications](notifications.md)

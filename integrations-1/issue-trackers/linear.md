@@ -26,7 +26,7 @@ After setting up the Linear integration, you must designate which Sleuth project
 1. Click on **Integrations** in the left sidebar, then on **Issue Trackers**. 
 2. Click on the Linear **Set default issue tracker** dropdown \(see screenshot above\).
 3. All projects in the organization are displayed. Select which project you'd like to set Linear as the default issue tracker for. 
-4. Once the default project is chosen, you will be taken to the selected project's [dashboard](../../dashboard.md). 
+4. Once the default project is chosen, you will be taken to the selected project's [dashboard](../../dashboard/). 
 
 #### To change the default issue tracker: 
 

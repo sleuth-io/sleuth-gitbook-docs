@@ -43,7 +43,7 @@ Email notifications are sent at the frequency you select, and can be configured 
 #### To set up at the change source level
 
 1. Select a **project** in the sidebar. The project's dashboard is displayed. 
-2. Select a **change source** in the [_Change sources_ section](dashboard.md) and click on its title link. The dashboard for the change source is displayed.   ![](.gitbook/assets/change-source.png) ![](.gitbook/assets/screen-shot-2020-06-17-at-4.35.45-pm.png)  
+2. Select a **change source** in the [_Change sources_ section](dashboard/) and click on its title link. The dashboard for the change source is displayed.   ![](.gitbook/assets/change-source.png) ![](.gitbook/assets/screen-shot-2020-06-17-at-4.35.45-pm.png)  
 3. Click **My Notifications** in the upper-right corner of the dashboard.   ![](.gitbook/assets/slack-my-notifications.png)
 4. Select a notification frequency in the dropdown. More than one can be selected. 
 

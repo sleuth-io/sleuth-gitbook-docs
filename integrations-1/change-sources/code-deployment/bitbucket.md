@@ -21,7 +21,7 @@ To set up the Sleuth Bitbucket integration:
 
 ## Configuring the integration
 
-You now need to add a Bitbucket repo to a Sleuth project. This source of change is the repo the configured Sleuth project will monitor and report in the [Dashboard](../../../dashboard.md) on each and every deploy you make to that repo, along with any other change sources you have connected to your project. 
+You now need to add a Bitbucket repo to a Sleuth project. This source of change is the repo the configured Sleuth project will monitor and report in the [Dashboard](../../../dashboard/) on each and every deploy you make to that repo, along with any other change sources you have connected to your project. 
 
 To configure the Bitbucket integration: 
 

@@ -4,7 +4,7 @@ Integrations are what enable Sleuth to communicate with the CD/CI tools in your 
 
 Sleuth acts as a control panel so that you can have a single place to monitor your deployed applications, and know instantly when something goes wrong and where you need to go to fix it. 
 
-Sleuth communicates with your tools via the APIs they provide. You will need access to your tools' API keys so that Sleuth can connect to your integrations and obtain the information it needs to build a comprehensive overview of your applications' health. Sleuth surfaces this data via its [Dashboard](../dashboard.md).  
+Sleuth communicates with your tools via the APIs they provide. You will need access to your tools' API keys so that Sleuth can connect to your integrations and obtain the information it needs to build a comprehensive overview of your applications' health. Sleuth surfaces this data via its [Dashboard](../dashboard/).  
 
 You can even have Sleuth track a [manual change](manual-changes.md), which can be anything you can give a name and description to. 
 

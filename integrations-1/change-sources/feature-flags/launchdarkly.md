@@ -28,11 +28,11 @@ For more information, [read the LaunchDarkly documentation](https://docs.launchd
 
 ![](../../../.gitbook/assets/launchdarkly-enabled.png)
 
-4. That’s it—Sleuth will now track your feature flags as a source of change. Read [**Dashboard**](../../../dashboard.md) for more information on how feature flag issues are communicated within your project’s deploy cards. 
+4. That’s it—Sleuth will now track your feature flags as a source of change. Read [**Dashboard**](../../../dashboard/) for more information on how feature flag issues are communicated within your project’s deploy cards. 
 
 ## Configuring the integration
 
-You now need to add a LaunchDarkly project and environment to a Sleuth project as a feature flag change source. This source of change is the project that Sleuth will monitor and report in the [Dashboard](../../../dashboard.md) on each and every deploy you make to that repo, along with additional information from any other connected change sources report t. 
+You now need to add a LaunchDarkly project and environment to a Sleuth project as a feature flag change source. This source of change is the project that Sleuth will monitor and report in the [Dashboard](../../../dashboard/) on each and every deploy you make to that repo, along with additional information from any other connected change sources report t. 
 
 To configure the LaunchDarkly integration: 
 

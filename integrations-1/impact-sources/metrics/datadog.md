@@ -38,7 +38,7 @@ The Datadog API Key and Application Key can be found under **Integrations** &gt;
 Integrations are made at the Sleuth organization level, and are available for all projects within that organization. Individual settings for an integration are made at the project level.  
 {% endhint %}
 
-That’s it—Sleuth will start displaying Datadog metrics in your deploys. Read [**Dashboard**](../../../dashboard.md) for more information on how metrics are communicated in deploy cards. 
+That’s it—Sleuth will start displaying Datadog metrics in your deploys. Read [**Dashboard**](../../../dashboard/) for more information on how metrics are communicated in deploy cards. 
 
 ## Removing the integration
 
