@@ -10,7 +10,7 @@ The deploy cards are a list of your deploys, shown in chronological order. Direc
 * get an objective, historical assessment of your project's health __\(_Unhealthy_, _Ailing_, _Healthy_, _Improved_\); and
 * know how large or small of an impact the deploy had on your project overall. 
 
-![A Sleuth deploy card showing detailed information about a single deploy](../.gitbook/assets/deploy-tracking.png)
+![](../.gitbook/assets/deploy-card-sep-2020.png)
 
 #### **To get more information about a deploy, you can:**
 
