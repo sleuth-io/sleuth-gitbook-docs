@@ -19,7 +19,7 @@ The deploy cards are a list of your deploys, shown in chronological order. Direc
 
 #### Searching deployment history
 
-When searching through your deploy history using the search field, results are displayed as a list of deploy cards. Results are constrained by the selected report days and ending date \(shown below\). For example, if your reporting dates are constrained as a 7 day report ending on a day two months ago, your search results will only display deploy cards that both match the search criteria and the reporting dates. If you change the number of days or end date, you will need to re-enter your search terms. 
+When searching through your deploy history using the search field, results are displayed as a list of deploy cards. Results are constrained by the selected report days and ending date \(shown below\). For example, if your reporting dates are constrained as a 7-day report ending on a day two months ago, your search results will only display deploy cards that both match the search criteria and the reporting dates. If you change the number of days or end date, you will need to re-enter your search terms. 
 
 ![Filter the displayed deploy cards using the day and date pickers](../.gitbook/assets/dashboard-date-range.png)
 
@@ -34,7 +34,7 @@ Sleuth uses a variety of event icons in the deploy cards to quickly and easily c
 | ![](../.gitbook/assets/icon-issue.png)  | **Issue** | Issues submitted via configured issue tracker integrations are displayed. The issue name and number are displayed, along with issue creation date and time.  |
 | ![](../.gitbook/assets/icon-build.png)  | **Build** | Build submitted via configured build services are displayed. The build name, hot-linked hash and results are displayed, along with build run date and time.  |
 | ![](../.gitbook/assets/icon-success.png)  | **Success** | Your code has been deployed. Can be superseded by a new deploy \(see **Replaced** below\).  |
-| ![](../.gitbook/assets/icon-soon.png)  | **Soon** | Indicates that a future deploy is coming soon.   |
+| ![](../.gitbook/assets/icon-soon.png)  | **Soon** | Indicates that a deploy is coming soon. |
 | ![](../.gitbook/assets/icon-replaced.png)  | **Replaced** | Indicates that the current deploy has been superseded by another deploy. If viewing a deploy card whose last event is not **Success** event, you can navigate to the next or previous deploy by clicking the _Next/Previous_ nav links: ![](../.gitbook/assets/next-prev-nav.png)  |
 | ![](../.gitbook/assets/icon-tasks.png)  | **Too Many** | Shown when there are too many event icons to display. Hovering over this icon will let you know how many icons are currently hidden.  |
 
