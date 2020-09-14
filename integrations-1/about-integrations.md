@@ -16,17 +16,16 @@ You can even have Sleuth track a [manual change](manual-changes.md), which can b
 | [Bitbucket](change-sources/code-deployment/bitbucket.md) | Code Deployment | Code deployments as a change source |
 | [CircleCI](builds/circleci.md) | Builds | Track your builds |
 | [Clubhouse](issue-trackers/clubhouse.md) | Issue Tracker | Automatically associate issues with deploys |
-| [Datadog](impact-sources/metrics/datadog.md) | Metric Tracker | \_\_ |
+| [Datadog](impact-sources/metrics/datadog.md) | Metric Tracker | Metrics tracker |
 | [GitHub](change-sources/code-deployment/github.md) | Change Source | Code deployments as a change source |
-| GitLab | Change Source | [Contact us](mailto:support@sleuth.io?subject=Interested%20in%20New%20Relic%20integration) for more information |
-| [Honeybadger](impact-sources/errors/honeybadger.md) | Error Tracker |  |
+| [GitLab](change-sources/code-deployment/gitlab.md) | Change Source | [Contact us](mailto:support@sleuth.io?subject=Interested%20in%20New%20Relic%20integration) for more information |
+| [Honeybadger](impact-sources/errors/honeybadger.md) | Error Tracker | Error tracker |
 | [Jira](issue-trackers/jira.md) | Issue Tracker | Automatically associate issues with deploys |
 | [LaunchDarkly](change-sources/feature-flags/launchdarkly.md) | Change Source | Feature flags as a change source |
 | [Linear](issue-trackers/linear.md) | Issue Tracker | Automatically associate issues with deploys |
-| New Relic | Impact Metrics | [Contact us](mailto:support@sleuth.io?subject=Interested%20in%20New%20Relic%20integration) for more information |
-| [Rollbar](impact-sources/errors/rollbar.md) | Error Tracker |  |
-| [Sentry](impact-sources/errors/sentry.md) | Error Tracker |  |
-| [SignalFx](impact-sources/metrics/signalfx.md) | Metric Tracker |  |
+| [Rollbar](impact-sources/errors/rollbar.md) | Error Tracker | Error tracker |
+| [Sentry](impact-sources/errors/sentry.md) | Error Tracker | Error tracker |
+| [SignalFx](impact-sources/metrics/signalfx.md) | Metric Tracker | Metrics tracker |
 | [Slack](chat-ops/slack.md) | Chat Ops | Notify your entire team or specific individuals |
 | [Terraform Cloud](change-sources/infrastructure/terraform-cloud.md) | Infrastructure | Can be used as a change source. _Coming soon_ |
 
