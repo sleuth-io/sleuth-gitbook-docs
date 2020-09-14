@@ -1,6 +1,6 @@
 # Linear
 
-## About the Integration 
+## About the integration 
 
 The Linear integration allows Sleuth to use Linear as a deployment issue tracker. When you deploy, Sleuth will automatically connect your Linear issues to the deploys, so you can always find the source of your changes later. 
 
