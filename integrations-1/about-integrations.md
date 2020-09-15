@@ -18,7 +18,7 @@ You can even have Sleuth track a [manual change](manual-changes.md), which can b
 | [Clubhouse](issue-trackers/clubhouse.md) | Issue Tracker | Automatically associate issues with deploys |
 | [Datadog](impact-sources/metrics/datadog.md) | Metric Tracker | Metrics tracker |
 | [GitHub](change-sources/code-deployment/github.md) | Change Source | Code deployments as a change source |
-| [GitLab](change-sources/code-deployment/gitlab.md) | Change Source | [Contact us](mailto:support@sleuth.io?subject=Interested%20in%20New%20Relic%20integration) for more information |
+| [GitLab](change-sources/code-deployment/gitlab.md) | Change Source | Code deployments as a change source |
 | [Honeybadger](impact-sources/errors/honeybadger.md) | Error Tracker | Error tracker |
 | [Jira](issue-trackers/jira.md) | Issue Tracker | Automatically associate issues with deploys |
 | [LaunchDarkly](change-sources/feature-flags/launchdarkly.md) | Change Source | Feature flags as a change source |
