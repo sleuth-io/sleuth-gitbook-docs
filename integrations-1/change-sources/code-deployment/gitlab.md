@@ -8,6 +8,10 @@ You can connect as many repositories to a project as you'd like; be sure to name
 
 Check out the [Bitbucket](bitbucket.md), [Clubhouse](../../issue-trackers/clubhouse.md), [GitHub](github.md), [Jira](../../issue-trackers/jira.md), or [Linear](../../issue-trackers/linear.md) integration pages if you'd like to track your issues using those tools instead of or in addition to GitLab.
 
+#### Check out this video by Sleuth CTO Don Brown on how to get started with Sleuth and GitLab
+
+{% embed url="https://www.youtube.com/embed/jV3RkebZJIA" %}
+
 ## Setting up the integration
 
 To set up the GitLab integration: 
