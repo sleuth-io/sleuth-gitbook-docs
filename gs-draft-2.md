@@ -1,12 +1,12 @@
 # GS Draft 2
 
-Getting started with Sleuth will take no more than 10 minutes.Here is a list of things we'll do to get you going: 
+Getting started with **Sleuth** will take no more than 5 minutes. Here is a list of things you need to do to get started: 
 
-* [ ] Create a Sleuth account. 
-* [ ] Create an organization. 
-* [ ] Create a project. 
+* [ ] Create a Sleuth **account**. 
+* [ ] Create an **organization**. 
+* [ ] Create a **project**. 
 * [ ] Set up a **change source**, such as a code deployment in GitHub or feature flags in LaunchDarkly.
-* [ ] Invite others to join your organization. 
+* [ ] Invite others to join your **organization**. 
 
 Once your Sleuth account is up and running, here is how you can take it to the next level: 
 
@@ -18,7 +18,7 @@ Once your Sleuth account is up and running, here is how you can take it to the n
 
 {% page-ref page="integrations-1/impact-sources/" %}
 
-* **Add an issue tracker.** You probably use **Clubhouse**, **Jira**, or **Linear** to keep your development tasks on track. Let Sleuth automatically connect your issues with your deploys for more fruitiful post-mortems. 
+* **Add an issue tracker.** You probably use **Clubhouse**, **Jira**, or **Linear** to keep your development tasks on track. Let Sleuth automatically connect your issues with your deploys to track down the root of a code change or to conduct valuable post-mortems. 
 
 {% page-ref page="integrations-1/issue-trackers/" %}
 
