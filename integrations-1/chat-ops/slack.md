@@ -90,3 +90,7 @@ Receive personal Slack messages \(only Individual\)
 
 Only Deployed Code \(All or Exclude my deployments\) includes Commit or PR
 
+## Slack Commands
+
+You can interact with Sleuth directly from Slack by using custom Sleuth commands.  
+
