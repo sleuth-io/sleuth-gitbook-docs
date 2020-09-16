@@ -11,8 +11,14 @@ Getting started with Sleuth will take no more than 10 minutes.Here is a list of 
 Once your Sleuth account is up and running, here is how you can take it to the next level: 
 
 * **Add a ChatOps integration.** Send and receive team and personal Slack notifications. If you don't use Slack, you can use Sleuth's built-in email notifications. 
+
+{% page-ref page="integrations-1/chat-ops/" %}
+
 * **Add an impact integration.** Sleuth supports popular tools for tracking errors and metrics. **Bugsnag**, **Datadog**, **Honeybadger**, **Rollbar**, **Sentry**, and **SignalFx** are some of the integrations you can make with Sleuth. 
+
+{% page-ref page="integrations-1/impact-sources/" %}
+
 * **Add an issue tracker.** You probably use **Clubhouse**, **Jira**, or **Linear** to keep your development tasks on track. Let Sleuth automatically connect your issues with your deploys for more fruitiful post-mortems. 
 
-**Ready to go? Let's set up your workspace. →**
+{% page-ref page="integrations-1/issue-trackers/" %}
 
