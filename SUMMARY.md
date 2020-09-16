@@ -2,6 +2,7 @@
 
 * [Welcome!](README.md)
 * [Getting started](getting-started.md)
+* [GS Draft 2](gs-draft-2.md)
 * [Dashboard](dashboard/README.md)
   * [Change sources](dashboard/change-sources.md)
   * [Deploy card](dashboard/deploy-card.md)
