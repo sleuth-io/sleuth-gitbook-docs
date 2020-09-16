@@ -1,6 +1,6 @@
 # Getting started
 
-Sleuth is a deployment tracker that helps you move fast without breaking things. It only takes a few minutes to connect Sleuth to a change source and start analyzing the health of your code. 
+Sleuth is a deployment tracker that helps you move fast without breaking things. It will only take you about 5 minutes to get started. To get started, you'll need to create a Sleuth account, connect your code repo, create an organization and project, and then you're on your way. 
 
 A change source can be a code deployment on Bitbucket and GitHub; feature flags on LaunchDarkly; issues on Clubhouse, Jira, and Linear; errors from Honeybadger, Rollbar, and Sentry; metrics from Datadog and SignalFx, with [many other integrations](integrations-1/about-integrations.md) available. 
 
