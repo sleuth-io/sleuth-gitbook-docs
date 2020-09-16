@@ -2,11 +2,11 @@
 
 Getting started with Sleuth will take no more than 10 minutes.Here is a list of things we'll do to get you going: 
 
-* Create a Sleuth **account**.
-* Create an **organization**.
-* Create a **project**. 
-* Set up a **change source**, such as a code deployment in GitHub or feature flags in LaunchDarkly.
-* **Invite others** to join your organization.
+* [ ] Create a Sleuth account. 
+* [ ] Create an organization. 
+* [ ] Create a project. 
+* [ ] Set up a **change source**, such as a code deployment in GitHub or feature flags in LaunchDarkly.
+* [ ] Invite others to join your organization. 
 
 Once your Sleuth account is up and running, here is how you can take it to the next level: 
 
