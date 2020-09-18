@@ -17,6 +17,16 @@ The deploy cards are a list of your deploys, shown in chronological order. Direc
 * Click on the card title to view all the PRs, commits, issues, files, impact and authors of the deploy; or
 * Click on any of the PRs that comprised the deploy to view the deployed code in its corresponding repo.
 
+#### Deleting deploys
+
+You can delete a deploy by clicking the trash can icon in the upper-right corner of a deploy card \(see image below\). This action only deletes the deploy from Sleuth; the underlying data that comprises the deploy card are not affected \(e.g., code repos, feature flags, impact sources, files, etc.\). 
+
+{% hint style="info" %}
+Sleuth updates all data displayed in the dashboard to account for any deleted deploys. For example, your leaderboard rankings are adjusted if you were the author of a deleted deploy. 
+{% endhint %}
+
+![Delete deploy icon in the upper-right corner of a deploy card](../.gitbook/assets/deploy-card-sep-2020-delete.png)
+
 #### Searching deployment history
 
 When searching through your deploy history using the search field, results are displayed as a list of deploy cards. Results are constrained by the selected report days and ending date \(shown below\). For example, if your reporting dates are constrained as a 7-day report ending on a day two months ago, your search results will only display deploy cards that both match the search criteria and the reporting dates. If you change the number of days or end date, you will need to re-enter your search terms. 
