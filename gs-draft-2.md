@@ -2,13 +2,13 @@
 
 Getting started with **Sleuth** will take no more than 5 minutes. Following are some things we'll do to get you going with Sleuth: 
 
-* [ ] Create a Sleuth **account**. 
-* [ ] Create an **organization**. 
-* [ ] Create a **project**. 
-* [ ] Set up a **change source**, such as a code deployment in GitHub or feature flags in LaunchDarkly.
-* [ ] Invite others to join your **organization**. 
+* [ ] **Create a Sleuth account.** You'll need one to get started. You can login with a Google, GitHub or Bitbucket account. 
+* [ ] **Create an** **organization**. A Sleuth organization is how you'll manage your team as well as your integrations, as well as housing your projects. 
+* [ ] **Create a** **project**. You can make as many projects as needed to model your deployments. Each project contains two default environments: Production and Staging. You can change those names or add as many environments as needed. 
+* [ ] **Set up a** **change source**, such as a code deployment in GitHub or Bitbucket, or feature flags in LaunchDarkly.
+* [ ] **Invite others to join your** **organization**. Setup a domain so that invitees with a matching email address automatically join your organization. 
 
-Once your Sleuth account is up and running, here is how you can take it to the next level: 
+#### Take Sleuth to the next level with these additional options: 
 
 * **Add a ChatOps integration.** Send and receive team and personal Slack notifications. If you don't use Slack, you can use Sleuth's built-in email notifications. 
 
