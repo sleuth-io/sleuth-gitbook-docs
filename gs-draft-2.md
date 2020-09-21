@@ -1,6 +1,6 @@
 # GS Draft 2
 
-Getting started with **Sleuth** will take no more than 5 minutes. Here is a list of things you need to do to get started: 
+Getting started with **Sleuth** will take no more than 5 minutes. Following are some things we'll do to get you going with Sleuth: 
 
 * [ ] Create a Sleuth **account**. 
 * [ ] Create an **organization**. 
