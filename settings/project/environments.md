@@ -71,7 +71,7 @@ You must have a [LaunchDarkly integration](../../integrations-1/change-sources/f
 2. In the sidebar, click **Project Settings**. 
 3. Click the **Environments** tab. 
 4. Find the environment you wish to modify, then click the _edit_ dropdown. 
-5. Select one of the following options:  ![](../../.gitbook/assets/env-info-editing.png)  _**Edit**:_ Change the environment name, description, and the color of the lozenge in the environment picker.  _**Set as default**_: This sets the selected environment as the default environment. All new environments created to obtain the settings of the default environment. This option is not available in the default environment's _edit_ dropdown.  _**Delete**_: Removes the selected environment from your project. All mappings revert to the default environment.
+5. Select one of the following options:  ![](../../.gitbook/assets/env-info-editing.png)  _**Edit**:_ Change the environment name, description, and the color of the lozenge in the environment picker.  _**Set as default**_: This sets the selected environment as the default environment. All new environments created to obtain the settings of the default environment. This option is not available in the default environment's _edit_ dropdown.  _**Delete**_: Removes the selected environment from your project. Any mappings that you made revert to the default environment.
 
 ![Changing the environment lozenge color](../../.gitbook/assets/color-picker-envs.gif)
 
