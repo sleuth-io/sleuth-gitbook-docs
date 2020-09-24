@@ -18,7 +18,7 @@
 * [Automatic Tags](tags.md)
 * [Access Control](user-administration.md)
 * [Command Center](command-center.md)
-* [PR Queue](pr-cop.md)
+* [Sleuth PR](pr-cop.md)
 
 ## Settings
 
