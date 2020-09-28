@@ -1,12 +1,14 @@
 # GS Draft 2
 
-Getting started with **Sleuth** will take no more than 5 minutes. Following are some things we'll do to get you going with Sleuth: 
+Getting started with **Sleuth** takes about 5 minutes. The only thing you need is a code repository. Sleuth will instantly provide a health assessment of your code based on its commit history. 
+
+Following are some things we'll do to get you going with Sleuth: 
 
 * [ ] **Create a Sleuth account.** You'll need one to get started. You can create an account via OAuth using your Google, GitHub, or Bitbucket account. 
-* [ ] **Create an** **organization**. A Sleuth organization is how you'll manage your team as well as any integrations. 
-* [ ] **Create a** **project**. You can make as many projects as needed to model your deployments. Each project contains two default environments: _Production_ and _Staging_. Add as many environments as you'd like. 
-* [ ] **Set up a** **change source**, such as a code deployment in GitHub or Bitbucket, or feature flags in LaunchDarkly. Sleuth will instantly analyze your deploy history and show you meaningful, actionable data instantly, 
-* [ ] **Invite others to join your** **organization**. Setup a domain so that invitees with a matching email domain automatically join your organization. 
+* [ ] **Create an** **organization**. A Sleuth organization is how you'll manage your team as well as any integrations you decide to connect \(i.e. Sentry, Rollbar, LaunchDarkly, Honeybadger, etc.\). 
+* [ ] **Create a** **project**. You can make as many projects as needed to model your deployments. Each project contains two default environments: _Production_ and _Staging_. Add as many environments as you'd like, or use only one \(i.e., monorepo\). 
+* [ ] **Set up a** **change source**, such as a code deployment in GitHub or Bitbucket, or feature flags in LaunchDarkly. Sleuth will instantly analyze your commit history and show you meaningful, actionable data instantly.
+* [ ] **Invite others on your team to join your** **organization**. Setup a domain so that invitees with a matching email domain automatically join your organization. 
 
 #### Take Sleuth to the next level with these additional options: 
 
