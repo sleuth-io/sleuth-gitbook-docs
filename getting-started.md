@@ -1,17 +1,30 @@
 # Getting started
 
-Sleuth is a deployment tracker that helps you move fast without breaking things. It will only take you about 5 minutes to get started. To get started, you'll need to create a Sleuth account, connect your code repo, create an organization and project, and then you're on your way. 
+Getting started with **Sleuth** takes about 5 minutes. The only thing you need is a code repository. Sleuth will instantly provide a health assessment of your code based on its commit history. 
 
-A change source can be a code deployment on Bitbucket and GitHub; feature flags on LaunchDarkly; issues on Clubhouse, Jira, and Linear; errors from Honeybadger, Rollbar, and Sentry; metrics from Datadog and SignalFx, with [many other integrations](integrations-1/about-integrations.md) available. 
+The following actions will get you on the path to fast deployment and less errors with Sleuth: 
 
-To get started with Sleuth: 
+* [ ] **Create a Sleuth account.** You'll need one to get started. You can create an account via OAuth using your Google, GitHub, or Bitbucket account. 
+* [ ] **Create an** **organization**. A Sleuth organization is how you'll manage your team as well as any integrations you decide to connect \(i.e. Sentry, Rollbar, LaunchDarkly, Honeybadger, etc.\). 
+* [ ] **Create a** **project**. You can make as many projects as needed to model your deployments. Each project contains two default environments: _Production_ and _Staging_. Add as many environments as you'd like, or use only one \(i.e., monorepo\). 
+* [ ] **Set up a** **change source**, such as a code deployment in GitHub or Bitbucket, or feature flags in LaunchDarkly. Sleuth will instantly analyze your commit history and show you meaningful, actionable data instantly.
+* [ ] **Invite others on your team to join your** **organization**. Setup a domain so that invitees with a matching email domain automatically join your organization. 
 
-* **Create an account.** You can use an email address or connect via SSO thru Google, GitHub or Bitbucket. Read [Signing up](./) for more information. 
-* **Name your project.** You can also add a description, which is optional. 
-* **Add a code deployment.** This can be a repo on [GitHub](integrations-1/change-sources/code-deployment/github.md), feature flags on [LaunchDarkly](integrations-1/change-sources/feature-flags/launchdarkly.md), issues from [Jira](integrations-1/issue-trackers/jira.md), stories from [Clubhouse](integrations-1/issue-trackers/clubhouse.md), or one of the many [other available integrations](integrations-1/about-integrations.md). 
-* **Add an integration.** An integration can be change sources, chat ops, issue trackers, and error and metric trackers. Make sure you have access credentials for any integration you want to connect. Also, be sure to generate any API tokens ahead of time so you can breeze on through the setup process.  
+#### Increase impact fidelity and team communication by adding the following features: 
 
-For a more detailed walkthrough of the setup process, click through the tabs below: 
+* **Add a ChatOps integration.** Send and receive team and personal Slack notifications. If you don't use Slack, you can use Sleuth's built-in email notifications. 
+
+{% page-ref page="integrations-1/chat-ops/" %}
+
+* **Add an impact integration.** Sleuth supports popular tools for tracking errors and metrics. **Bugsnag**, **Datadog**, **Honeybadger**, **Rollbar**, **Sentry**, and **SignalFx** are some of the integrations you can make with Sleuth. 
+
+{% page-ref page="integrations-1/impact-sources/" %}
+
+* **Add an issue tracker.** You probably use **Clubhouse**, **Jira**, or **Linear** to keep your development tasks on track. Let Sleuth automatically connect your issues with your deploys to track down the root of a code change or to conduct valuable post-mortems. 
+
+{% page-ref page="integrations-1/issue-trackers/" %}
+
+For a step-by-step walkthrough of the setup process, click through the tabs below: 
 
 {% tabs %}
 {% tab title="Step 1" %}
