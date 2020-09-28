@@ -7,7 +7,7 @@ In addition to the available [Chat Ops](integrations-1/chat-ops/) integrations, 
 Before you set up project-level Slack notifications, the [Slack integration](integrations-1/chat-ops/slack.md#about-the-integration) must first be made within your Sleuth organization. Once that's done, you can configure who and how those notifications are sent and who receives them. 
 
 {% hint style="info" %}
-You must be the owner or have admin access to an organization to setup an integration. See [Access control](settings/access-control.md) for more information. 
+You must be the owner of or have admin access to an organization to setup an integration. See [Access control](settings/access-control.md) for more information. 
 {% endhint %}
 
 #### Setting up project-level Slack notifications
