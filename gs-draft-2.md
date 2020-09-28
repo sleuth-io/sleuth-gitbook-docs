@@ -10,7 +10,7 @@ Following are some things we'll do to get you going with Sleuth:
 * [ ] **Set up a** **change source**, such as a code deployment in GitHub or Bitbucket, or feature flags in LaunchDarkly. Sleuth will instantly analyze your commit history and show you meaningful, actionable data instantly.
 * [ ] **Invite others on your team to join your** **organization**. Setup a domain so that invitees with a matching email domain automatically join your organization. 
 
-#### Take Sleuth to the next level with these additional options: 
+#### Increase impact fidelity and team communication by adding the following features: 
 
 * **Add a ChatOps integration.** Send and receive team and personal Slack notifications. If you don't use Slack, you can use Sleuth's built-in email notifications. 
 
@@ -23,4 +23,6 @@ Following are some things we'll do to get you going with Sleuth:
 * **Add an issue tracker.** You probably use **Clubhouse**, **Jira**, or **Linear** to keep your development tasks on track. Let Sleuth automatically connect your issues with your deploys to track down the root of a code change or to conduct valuable post-mortems. 
 
 {% page-ref page="integrations-1/issue-trackers/" %}
+
+
 
