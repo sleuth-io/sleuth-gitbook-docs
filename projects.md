@@ -10,7 +10,7 @@ Sleuth will soon have support for environments. Until then, you can create multi
 
 To create a new project:
 
-1. In the [sidebar](dashboard/), click **Create**. 
+1. In the [sidebar](dashboard-1/dashboard.md), click **Create**. 
 2. Click **Create project**.
 3. **Name** your project and, if you'd like, give it a **description**. 
 

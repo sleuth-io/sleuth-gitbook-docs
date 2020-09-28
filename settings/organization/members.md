@@ -17,7 +17,7 @@ When inviting new members, they will automatically join your organization if the
 3. Press **Invite**. 
 
 {% hint style="info" %}
-Before setting a role, read more about Sleuth's RBAC \(role-based access control\) implementation in [Access Control](../../access-control.md). 
+Before setting a role, read more about Sleuth's RBAC \(role-based access control\) implementation in [Access Control](../access-control.md). 
 {% endhint %}
 
 All members of the organization are displayed, along with any invitations that have been sent. You can also revoke the invitation or resend it, if necessary. 

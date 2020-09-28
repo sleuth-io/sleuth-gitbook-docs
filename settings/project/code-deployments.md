@@ -36,7 +36,7 @@ Additional configuration options allow you to fine-tune the behavior of Sleuth w
 
 Restricts deployment information to only files matching the entered path prefix. This feature is especially useful for monorepos. 
 
-In the example below, only files located in the `sleuth/apps/pullrequests` directory will have deploy information displayed in the [Dashboard](../../dashboard/) for the selected project. 
+In the example below, only files located in the `sleuth/apps/pullrequests` directory will have deploy information displayed in the [Dashboard](../../dashboard-1/dashboard.md) for the selected project. 
 
 ![](../../.gitbook/assets/source-path-prefix.png)
 

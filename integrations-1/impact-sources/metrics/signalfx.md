@@ -2,7 +2,7 @@
 
 ## About the integration
 
-SignalFx is an metric monitoring service that helps DevOps teams discover, triage, and prioritize their errors in real-time. With a Sleuth integration, your SignalFx metrics are gathered, analyzed and reported obn directly in the [Dashboard](../../../dashboard/). The [impact](../../../resources/terminology.md#impact) of your deploys are displayed instantly then iterated on over time, giving you not only instant feedback on the impact of your deploys, but also how your deploys affect your code over time. 
+SignalFx is an metric monitoring service that helps DevOps teams discover, triage, and prioritize their errors in real-time. With a Sleuth integration, your SignalFx metrics are gathered, analyzed and reported obn directly in the [Dashboard](../../../dashboard-1/dashboard.md). The [impact](../../../resources/terminology.md#impact) of your deploys are displayed instantly then iterated on over time, giving you not only instant feedback on the impact of your deploys, but also how your deploys affect your code over time. 
 
 Before you start, you should already have a SignalFx account, and your environment setup and running. If not, head over to [SignalFx](https://app.us1.signalfx.com/#/dashboards) to get things started. Once you're done, return to Sleuth so you can complete setup of the integration. 
 
@@ -29,7 +29,7 @@ A **realm** is a self-contained deployment in which your SignalFx organization i
 Integrations are made at the Sleuth organization level, and are available for all projects within that organization. Individual settings for an integration are made at the project level.  
 {% endhint %}
 
-That’s it—Sleuth will start displaying SignalFx impact data in your deploys. Read [**Dashboard**](../../../dashboard/) for more information on how metrics are communicated within deploy cards. 
+That’s it—Sleuth will start displaying SignalFx impact data in your deploys. Read [**Dashboard**](../../../dashboard-1/dashboard.md) for more information on how metrics are communicated within deploy cards. 
 
 ## Removing the integration
 

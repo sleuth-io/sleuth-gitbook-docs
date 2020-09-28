@@ -46,7 +46,7 @@ If you've already setup projects and change sources, you can configure email not
 
 The changes made here in the Notifications tab reflect any changes made in the Dashboard for every project and organization pairing. You can view the notifications you're adjusting in the _**Manage all notifications for:**_ selector at the top of the **Notifications** tab. 
 
-The Email Notifications preferences set here are also reflected in the [Dashboard](../../dashboard/) for the selected project/environment pairing \(see below\). This applies to all notifications preferences made in the same organization. 
+The Email Notifications preferences set here are also reflected in the [Dashboard](../../dashboard-1/dashboard.md) for the selected project/environment pairing \(see below\). This applies to all notifications preferences made in the same organization. 
 
 ![Setting email notifications in the Dashboard](../../.gitbook/assets/slack-my-notifications.png)
 

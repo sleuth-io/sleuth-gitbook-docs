@@ -1,7 +1,7 @@
 # Details
 
 {% hint style="warning" %}
-Only **Owners** and **Administrators** have access to the _Organization Settings_ and _Invite People_ selections in the Organization dropdown. Developers and Observers must request access from an Owner or Administrator. Read [Access Control](../../access-control.md) for more information about RBAC \(role-based access control\) in Sleuth. 
+Only **Owners** and **Administrators** have access to the _Organization Settings_ and _Invite People_ selections in the Organization dropdown. Developers and Observers must request access from an Owner or Administrator. Read [Access Control](../access-control.md) for more information about RBAC \(role-based access control\) in Sleuth. 
 {% endhint %}
 
 The **Details** tab contains general information about the selected **organization**. The name of selected organization is displayed at the top of the sidebar. Select the dropdown to select a different organization, if you belong to more than one. 

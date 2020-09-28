@@ -4,7 +4,7 @@ description: Automatic tagging for quickly searching through your deploy history
 
 # Automatic tags
 
-Sleuth tags are automatically added to your deploys so that you can quickly search for them later. The tags are added by looking for patterns in the files deployed in your code repositories. For example, if Sleuth finds a **pom.xml** file in your deploy, it automatically adds the tag **\#dependencies** to the deploy. You can then go to the [Dashboard](dashboard/) and search for **dependencies** using the search function. See the table below for more patterns and tags Sleuth automatically applies to your deploys based on pattern matching. 
+Sleuth tags are automatically added to your deploys so that you can quickly search for them later. The tags are added by looking for patterns in the files deployed in your code repositories. For example, if Sleuth finds a **pom.xml** file in your deploy, it automatically adds the tag **\#dependencies** to the deploy. You can then go to the [Dashboard](dashboard-1/dashboard.md) and search for **dependencies** using the search function. See the table below for more patterns and tags Sleuth automatically applies to your deploys based on pattern matching. 
 
 ![The \#dependencies tag automatically added to a deploy](.gitbook/assets/sleuth-tags-dependencies.png)
 

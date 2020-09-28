@@ -15,7 +15,7 @@ For a more detailed walkthrough of the setup process, click through the tabs bel
 
 {% tabs %}
 {% tab title="Step 1" %}
-#### Go to the Sleuth [Dashboard](dashboard/)
+#### Go to the Sleuth [Dashboard](dashboard-1/dashboard.md)
 
 ![](.gitbook/assets/screen-shot-2020-04-29-at-2.17.48-pm.png)
 {% endtab %}
@@ -35,7 +35,7 @@ For a more detailed walkthrough of the setup process, click through the tabs bel
 {% tab title="Step 4" %}
 #### Connect integrations
 
-Integrations are what enables Sleuth to gather data from disparate systems and present them to you in a single, easy-to-parse interface—the [Dashboard](dashboard/). 
+Integrations are what enables Sleuth to gather data from disparate systems and present them to you in a single, easy-to-parse interface—the [Dashboard](dashboard-1/dashboard.md). 
 
 Integrations are made at the Sleuth organization level. You can then add as many projects as you like within the organization. Once integrations are made to the organization, all projects created under the organization have access to the integrations' connections. Furthermore, any custom settings to an integration can be made for each project. For example, your staging project might send [Slack](integrations-1/chat-ops/slack.md) notifications to one team, your production project to another. 
 
@@ -51,7 +51,7 @@ If you're part of an organization that has already set up a Sleuth environment a
 
 You can add existing members to your organization or add the email address of someone you'd like to have invited to join your organization. If the invitation's accepted, the user will automatically be added to your organization. Go to Organization settings for more information on inviting team members. 
 
-You should also configure Sleuth's RBAC \(Role-Based Access Control\) system to control what team members can do with their Sleuth account. For more information, see [Access Control](access-control.md), then head to the [Organization's Members settings](settings/organization/) to set it all up. 
+You should also configure Sleuth's RBAC \(Role-Based Access Control\) system to control what team members can do with their Sleuth account. For more information, see [Access Control](settings/access-control.md), then head to the [Organization's Members settings](settings/organization/) to set it all up. 
 {% endtab %}
 
 {% tab title="Step 6" %}
@@ -73,7 +73,7 @@ Configure settings for your:
 
 ####  💥 You're ready! 
 
-Start seeing the impact of your changes in [the Sleuth Dashboard](dashboard/). Happy deploying! 
+Start seeing the impact of your changes in [the Sleuth Dashboard](dashboard-1/dashboard.md). Happy deploying! 
 {% endtab %}
 {% endtabs %}
 

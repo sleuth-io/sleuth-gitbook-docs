@@ -1,6 +1,6 @@
 # Builds
 
-**Builds** allows you to connect your build tools so that Sleuth can track and report build data in the [dashboard](../../dashboard/). 
+**Builds** allows you to connect your build tools so that Sleuth can track and report build data in the [dashboard](../../dashboard-1/dashboard.md). 
 
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |

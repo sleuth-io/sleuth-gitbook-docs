@@ -31,7 +31,7 @@ To configure the CircleCI integration, you will need to set a default build serv
 2. Click the **Set default build server** dropdown.   ![](../../.gitbook/assets/circleci-integration-enabled.png) 
 3. Select a project to set as the default build server. You'll need to add a code deployment to the selected project if you haven't already done so. 
 
-Now that the CircleCI integration is configured, you will begin seeing information displayed in the Builds tab of a [deploy card](../../dashboard/), as shown below. 
+Now that the CircleCI integration is configured, you will begin seeing information displayed in the Builds tab of a [deploy card](../../dashboard-1/dashboard.md), as shown below. 
 
 ![](../../.gitbook/assets/circleci-sha-builds-tab%20%281%29.png)
 

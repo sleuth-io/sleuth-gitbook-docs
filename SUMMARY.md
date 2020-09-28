@@ -2,16 +2,18 @@
 
 * [Signing up](README.md)
 * [Getting started](getting-started.md)
-* [Dashboard](dashboard/README.md)
-  * [Deploy cards](dashboard/deploy-cards.md)
-  * [Size/Leaderboard](dashboard/size-leaderboard.md)
-  * [Deploy previews](dashboard/deploy-previews.md)
-  * [Report date filter](dashboard/report-date-filter.md)
 * [Projects](projects.md)
 * [Environments](environment-support.md)
 * [Notifications](notifications.md)
 * [Automatic tags](tags.md)
-* [Access control](access-control.md)
+
+## Dashboard <a id="dashboard-1"></a>
+
+* [About...](dashboard-1/dashboard.md)
+* [Deploy cards](dashboard-1/deploy-cards.md)
+* [Size/Leaderboard](dashboard-1/size-leaderboard.md)
+* [Deploy previews](dashboard-1/deploy-previews.md)
+* [Report date filter](dashboard-1/report-date-filter.md)
 
 ## Settings
 
@@ -31,10 +33,11 @@
   * [Account](settings/account/account.md)
   * [Notifications](settings/account/notifications.md)
   * [Identities](settings/account/identities.md)
+* [Access control](settings/access-control.md)
 
 ## Integrations <a id="integrations-1"></a>
 
-* [About integrations...](integrations-1/about-integrations.md)
+* [About...](integrations-1/about-integrations.md)
 * [Builds](integrations-1/builds/README.md)
   * [CircleCI](integrations-1/builds/circleci.md)
 * [Change sources](integrations-1/change-sources/README.md)
