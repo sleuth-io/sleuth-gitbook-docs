@@ -35,9 +35,11 @@ For a more detailed walkthrough of the setup process, click through the tabs bel
 {% tab title="Step 4" %}
 #### Connect integrations
 
-Integrations are what enables Sleuth to gather data from disparate systems and present them to you in a single, easy-to-parse interface—the [Dashboard](dashboard-1/dashboard.md). 
+Integrations are what enables Sleuth to gather data from your development tools and present them to you in a single, easy-to-use interface—the [Dashboard](dashboard-1/dashboard.md). 
 
-Integrations are made at the Sleuth organization level. You can then add as many projects as you like within the organization. Once integrations are made to the organization, all projects created under the organization have access to the integrations' connections. Furthermore, any custom settings to an integration can be made for each project. For example, your staging project might send [Slack](integrations-1/chat-ops/slack.md) notifications to one team, your production project to another. 
+Integrations are made at the Sleuth organization level. You can then add as many projects as you need within the organization. Once integrations are made to the organization, all projects created under the organization have access to the integrations' connections. You can also add environments to each project; by default, Sleuth provides a production and staging environment to every new project. You can use as little or as many environments as needed to model your projects. 
+
+Furthermore, any custom settings to an integration can be made for each project. For example, your staging environment might send [Slack](integrations-1/chat-ops/slack.md) notifications to one team, your production environment to another. 
 
 [Learn more](integrations-1/about-integrations.md) about integrations. 
 {% endtab %}
