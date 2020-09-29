@@ -8,7 +8,11 @@ Integrating Bitbucket with Sleuth is simple. If you're connecting to a personal 
 
 You can connect as many code deployments to a project as you'd like; be sure to give them recognizable names in Sleuth. You will also be able to tell Sleuth whether it should [manually register](../../manual-changes.md) each deploy or automatically create deploys [for every push to or tag on branch](../../../resources/terminology.md#deploy-tracking-type), it's completely up to you. This setting can be changed at any time. Additionally, you can configure your target branch to [lock](../../../resources/terminology.md#locking) if it contains unreleased code.
 
-Check out the [GitHub](github.md), [GitLab](), [Jira](../../issue-trackers/jira.md), or [Clubhouse](../../issue-trackers/clubhouse.md) integration pages if you'd like to track your issues using those tools instead of or in addition to Bitbucket.
+Check out the [GitHub](github.md), [GitLab](gitlab.md), [Jira](../../issue-trackers/jira.md), or [Clubhouse](../../issue-trackers/clubhouse.md) integration pages if you'd like to track your issues using those tools instead of or in addition to Bitbucket.
+
+{% hint style="info" %}
+Check out the Sleuth for Bitbucket integration [in the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1223448/sleuth-for-bitbucket?hosting=cloud&tab=overview). 
+{% endhint %}
 
 ## Setting up the integration
 

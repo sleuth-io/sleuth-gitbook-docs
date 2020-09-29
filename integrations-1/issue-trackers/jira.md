@@ -8,6 +8,10 @@ Integration with Jira is made at the Sleuth organization level. More than one [i
 
 Once Jira is configured as the issue tracker, every time the Jira issue key is included in a deploy's commit message, Sleuth will automatically link that deploy with the corresponding issue in Jira.
 
+{% hint style="info" %}
+Check out the Sleuth for Jira integration [in the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1223369/sleuth-for-jira?hosting=cloud&tab=overview). 
+{% endhint %}
+
 ## Setting up the integration
 
 To set up the Sleuth Jira integration:
