@@ -33,6 +33,14 @@ Of course, we also have a **Free** tier. [Sign up now](https://app.sleuth.io/acc
 
 Click on the **Edit on GitHub** link on the right side of the page that contains the error \(even this one!\). Make the change\(s\), then submit a pull request.  Thank you in advance for helping out!  
 
+## Open Source
+
+Sleuth has contributed quite a few of its efforts to the open source community. Below is a list of open source projects that Sleuth has either created or contributed heavily to. 
+
+| Description | URL |
+| :--- | :--- |
+| Sleuth PR automation | [https://pypi.org/project/sleuth-pr/](https://pypi.org/project/sleuth-pr/) |
+
 ## Change Log
 
 To view the latest changes to the [Sleuth application](https://app.sleuth.io), go to our [change log](https://changelog.sleuth.io/) and click **Subscribe to Updates** at the top of the page. 
