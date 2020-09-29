@@ -9,11 +9,12 @@
 
 ## Dashboard <a id="dashboard-1"></a>
 
-* [About...](dashboard-1/dashboard.md)
+* [About the Dashboard...](dashboard-1/dashboard.md)
 * [Deploy cards](dashboard-1/deploy-cards.md)
 * [Size/Leaderboard](dashboard-1/size-leaderboard.md)
 * [Deploy previews](dashboard-1/deploy-previews.md)
 * [Report date filter](dashboard-1/report-date-filter.md)
+* [Search](dashboard-1/search.md)
 
 ## Settings
 
@@ -37,7 +38,7 @@
 
 ## Integrations <a id="integrations-1"></a>
 
-* [About...](integrations-1/about-integrations.md)
+* [About Integrations...](integrations-1/about-integrations.md)
 * [Builds](integrations-1/builds/README.md)
   * [CircleCI](integrations-1/builds/circleci.md)
 * [Change sources](integrations-1/change-sources/README.md)
@@ -72,5 +73,5 @@
 * [Terminology](resources/terminology.md)
 * [FAQ](resources/faq.md)
 * [Purchasing](resources/purchasing.md)
-* [About](resources/about.md)
+* [About Sleuth...](resources/about.md)
 

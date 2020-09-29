@@ -91,3 +91,7 @@ The selected Slack channel will start receiving deployment notifications similar
 
 The Slack integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Slack integration will be lost. 
 
+## Search using Slack
+
+If your organization has a Slack integration, you can [use the Slack app](../../dashboard-1/search.md#searching-with-slack) to search through your deploy history.   
+

@@ -4,7 +4,7 @@ description: >-
   stack, running on Terraform Cloud. Made with TLC in San Francisco.
 ---
 
-# About
+# About Sleuth...
 
 ## Where can I find your Terms & Conditions?
 

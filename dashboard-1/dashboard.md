@@ -2,7 +2,7 @@
 description: 'Get a 30,000-foot view of your DevOps environment on the Dashboard.'
 ---
 
-# About...
+# About the Dashboard...
 
 The **Dashboard** is Sleuth's command central, where all of the data your disparate tools generate are aggregated and presented to you in a clean, easy-to-use interface. 
 
@@ -23,4 +23,5 @@ All the data Sleuth collects about your code deployments is displayed in the Das
 * **Change sources** 🇪 All of the sources of change connected to your project are displayed here. Collectively, all of the change sources combined drive the data shown in the main **trend graph**🇧.
 * \*\*\*\*[**Deploy previews**](deploy-previews.md)\*\*\*\*
 * \*\*\*\*[**Report data filter**](report-date-filter.md)\*\*\*\*
+* \*\*\*\*[**Search**](search.md)\*\*\*\*
 
