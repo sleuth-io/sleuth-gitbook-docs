@@ -82,6 +82,28 @@ The selected Slack channel will start receiving deployment notifications similar
 
 ![Example Slack notification alerting the selected channel that a deploy was made.](../../.gitbook/assets/slack-channel-deploy-message_2.png)
 
+### Personal Slack notifications
+
+Personal Slack notifications means that you'll be notified instantly when your code or changes that you were involved in ship. No more long-polling your build system to see if that code finally made it out to production, or checking your Jira instance to see if the issues have been moved to Done.
+
+![](../../.gitbook/assets/inspect-impact-value-slack.png)
+
+If you've configured Impact for your deploys and Sleuth detects that your change was unhealthy, you'll know moments after deploy. You'll be to see the impact of your changes in real-time, all directly from your Slack client. 
+
+![](../../.gitbook/assets/view-deploy-slack%20%281%29.png)
+
+When you receive a deployment notification in Sleuth, you can: 
+
+* Click **View deploy** to view all detailed information that led up to the deployment. 
+* Click![](../../.gitbook/assets/three-dots-slack.png)to view a dropdown \(see screenshot below\) that displays detailed deployment information, including:
+  * All **authors** involved in the deployment. _Opens the Authors tab in Sleuth_
+  * All the **diffs** \(changes\) that comprised the deployment. _Opens the change compare section of your code repository \(i.e., Bitbucket, GitHub, or GitLab\)_
+  * All the **pull requests** that comprised your deployment. _Opens the Authors tab in Sleuth_
+  * All the **issues** created during the deployment. _Opens the Issues tab in Sleuth_
+  * All the **builds** that ran during the deployment. _Opens the Builds tab in Sleuth_
+
+![Detailed deployment information dropdown in the personal Slack notification](../../.gitbook/assets/view-more-info-slack.png)
+
 ## Removing the integration
 
 #### If you wish to dissolve the **Slack** integration for the organization: 
