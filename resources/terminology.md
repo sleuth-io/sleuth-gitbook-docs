@@ -36,6 +36,12 @@ It's what the Sleuth team uses every day to make **awesome**!✨
 
 Learn more about deploy cards [here](../dashboard-1/deploy-cards.md). 
 
+## Drift
+
+_Drift_ is the difference between two unique environments, measured in the number of commits between them. 
+
+For example, if you just deployed your staging environment to production, drift will be zero since both environments have the same code. As soon as you make a commit to your staging environment after deployment, you can say that the drift between staging and production is now _1 commit_. Sleuth will also display the amount of time between current date and the last commit date. An example drift value between _Production_ and _Staging_ environments could be: _**1 commit and 3 days**_. 
+
 ## Size
 
 Another significant metric assessment Sleuth provides is **Size**. The Size chart shows you how many large versus small deploys you have committed to your repos \(changes can be _Small_, _Medium_, _Large_, or _Gigantic_\). Since the overall goal of solid CI/CD practice is to deploy small and deploy often, the Size chart gives you instant insight into whether you're _continuously deploying_ small, effective changes to your repositories instead of occasional _gigantic_, unstable changes, which could prove problematic if a rollback is necessary when a change proves fatal to your application. 
