@@ -4,10 +4,6 @@
 
 ## Creating a project
 
-{% hint style="info" %}
-Sleuth will soon have support for environments. Until then, you can create multiple projects to house separate environments. For example, you can create a _Super Web App Production_ project and a separate _Super Web App Staging_ project. Integrations made at the organization level will be available to both projects. 
-{% endhint %}
-
 To create a new project:
 
 1. In the [sidebar](dashboard-1/dashboard.md), click **Create**. 
