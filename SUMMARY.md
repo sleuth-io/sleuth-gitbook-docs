@@ -55,6 +55,7 @@
   * [Slack](integrations-1/chat-ops/slack.md)
 * [Impact sources](integrations-1/impact-sources/README.md)
   * [Error trackers](integrations-1/impact-sources/errors/README.md)
+    * [Bugsnag](integrations-1/impact-sources/errors/bugsnag.md)
     * [Honeybadger](integrations-1/impact-sources/errors/honeybadger.md)
     * [Rollbar](integrations-1/impact-sources/errors/rollbar.md)
     * [Sentry](integrations-1/impact-sources/errors/sentry.md)
