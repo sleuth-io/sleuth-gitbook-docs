@@ -7,7 +7,7 @@
 
 ## ‌Authentication‌
 
-The Sleuth REST API requires authentication using the API key from your Sleuth [project](/@sleuth/s/sleuth/~/drafts/-M8WXrzvQ-fp5VsbiE8G/v/v3/projects).
+The Sleuth REST API requires authentication using the API key from your Sleuth [project](https://github.com/sleuth-io/sleuth-gitbook-docs/tree/dac6bb1d50bf6db9b82e70f093d6c196b818030a/@sleuth/s/sleuth/~/drafts/-M8WXrzvQ-fp5VsbiE8G/v/v3/projects/README.md).
 
 ## Errors
 
@@ -21,11 +21,7 @@ Manual Deploy Registration
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Manually register your deploys via the Sleuth API.   
-  
-Note that the organization and deployment slugs are not the semantic name of your organization and deployment as shown in the organization settings, which can contain spaces and capitalized characters. The slugs displayed are the URL of your organization and deployment, with spaces replaced by a hyphen \(-\) and non-alphabetical characters \(e.g., **\(\)@\#$%^**, etc.\) ignored.  
-  
-For example, if you're viewing a deployment called **plugin picker \(dev\)** and your organization is called **Amazing Software**, the URL will display as **https://app.sleuth.io/amazing-software/deployments/plugin-picker-dev**. Thus, the organization slug is **amazing-software**, the deployment slug is **plugin-picker-dev**.
+Manually register your deploys via the Sleuth API.Note that the organization and deployment slugs are not the semantic name of your organization and deployment as shown in the organization settings, which can contain spaces and capitalized characters. The slugs displayed are the URL of your organization and deployment, with spaces replaced by a hyphen \(-\) and non-alphabetical characters \(e.g., **\(\)@\#$%^**, etc.\) ignored.For example, if you're viewing a deployment called **plugin picker \(dev\)** and your organization is called **Amazing Software**, the URL will display as https://app.sleuth.io/amazing-software/deployments/plugin-picker-dev. Thus, the organization slug is **amazing-software**, the deployment slug is **plugin-picker-dev**.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -65,17 +61,17 @@ The git SHA of the deployment, located in the deploy card of the deployment
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 Success
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
-Input date problem, including if SHA doesn't exist or has already been reported. 
+Input date problem, including if SHA doesn't exist or has already been reported.
 {% endapi-method-response-example-description %}
 
-```
+```text
 String of message problem
 ```
 {% endapi-method-response-example %}
@@ -85,7 +81,7 @@ String of message problem
 API key not valid or the deployment is not in the specific organization
 {% endapi-method-response-example-description %}
 
-```
+```text
 String of message problem
 ```
 {% endapi-method-response-example %}
@@ -99,11 +95,7 @@ Manual Change
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Manual changes are those not tracked by source code, feature flags, or any other type of change not supported by Sleuth. They are a free-form entry that includes a name and description. Although the description is optional, the form data in the manual change must contain a name as one of its parameters.  
-  
-Keep in mind that the organization and project slugs are not the semantic name of your organization and project as shown in your organization and project settings, which can contain spaces and capitalized characters. Rather, they're the slugs as displayed in the URL of your organization and project, with spaces  replaced by a hyphen \(-\); non-alphabetical characters \(e.g., \(\)@\#$%^, etc.\) are ignored.  
-  
-For example, if you're viewing a project called **Software Selector** and your organization is called **Amazing Software**, the URL will display as **https://app.sleuth.io/amazing-software/software-selector**. The organization slug is **amazing-software**, the project slug is **software-selector**.
+Manual changes are those not tracked by source code, feature flags, or any other type of change not supported by Sleuth. They are a free-form entry that includes a name and description. Although the description is optional, the form data in the manual change must contain a name as one of its parameters.Keep in mind that the organization and project slugs are not the semantic name of your organization and project as shown in your organization and project settings, which can contain spaces and capitalized characters. Rather, they're the slugs as displayed in the URL of your organization and project, with spaces replaced by a hyphen \(-\); non-alphabetical characters \(e.g., \(\)@\#$%^, etc.\) are ignored.For example, if you're viewing a project called **Software Selector** and your organization is called **Amazing Software**, the URL will display as https://app.sleuth.io/amazing-software/software-selector. The organization slug is **amazing-software**, the project slug is **software-selector**.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -114,7 +106,7 @@ Slug of the organization parent of the affected code deployment
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Project Slug" type="string" required=true %}
-Slug of the project that you're registering a deploy to 
+Slug of the project that you're registering a deploy to
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -143,7 +135,7 @@ Description for the manual change
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -175,7 +167,7 @@ If there is one environment defined and the parameter isn’t provided, Sleuth w
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}

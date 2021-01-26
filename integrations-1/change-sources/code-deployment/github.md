@@ -46,7 +46,7 @@ With this option selected, Sleuth will lock a deployment by adding a status chec
 This lock behavior is equivalent to pressing the **Lock** button on the dashboard. You can read more about locking [here](../../../resources/terminology.md#deployment-locking).   
   
 
-![Lock button on the dashboard](../../../.gitbook/assets/lock-icon%20%281%29.png)
+![Lock button on the dashboard](../../../.gitbook/assets/lock-icon%20%282%29%20%281%29.png)
 
 #### **Notify in Slack** ![](../../../.gitbook/assets/slack_mark_monochrome_black_sm.png) 
 
