@@ -6,6 +6,22 @@
 * Create [manual changes](integrations-1/manual-changes.md)
 * Register [custom impact values](integrations-1/impact-sources/metrics/custom.md)
 
+Sleuth's main public API is built using GraphQL. It's the same API we use internally for developing our applications.
+
+If you're new to GraphQL, Apollo has [resources for beginners](https://blog.apollographql.com/the-basics-of-graphql-in-5-links-9e1dc4cac055). [The official documentation](https://graphql.org/) is another good starting point.
+
+{% hint style="info" %}
+NOTE: the GraphQL API is still under heavy development and is subject to change
+{% endhint %}
+
+Sleuth's GraphQL endpoint is:
+
+```text
+https://app.sleuth.io/graphql
+```
+
+We expose the [GraphiQL](https://github.com/graphql/graphiql) client so you can explore and query the API.
+
 ## ‌Authentication‌
 
 The Sleuth REST API requires authentication using the API key from your Sleuth [project](https://github.com/sleuth-io/sleuth-gitbook-docs/tree/dac6bb1d50bf6db9b82e70f093d6c196b818030a/@sleuth/s/sleuth/~/drafts/-M8WXrzvQ-fp5VsbiE8G/v/v3/projects/README.md).
@@ -21,6 +37,8 @@ The slugs displayed are the URL of your organization and deployment, with spaces
 * Codes in the `2xx` range indicate success
 * Codes in the `4xx` range indicate incorrect or incomplete parameters \(e.g., parameter  omitted, etc.\)
 * Codes in the `5xx` range indicate an error with Sleuth servers
+
+## REST API Details
 
 {% api-method method="post" host="https://app.sleuth.io" path="/api/1/<Organization Slug>/<Deployment Slug>/register\_deploy" %}
 {% api-method-summary %}
