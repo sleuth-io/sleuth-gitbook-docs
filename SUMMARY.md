@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Signing up](README.md)
-* [Getting started](getting-started.md)
+* [Getting started](README.md)
 * [Projects](projects.md)
 * [Environments](environment-support.md)
 * [Notifications](notifications.md)
