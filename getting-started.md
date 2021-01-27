@@ -1,26 +1,25 @@
 # Getting started
 
-Getting started with **Sleuth** takes about 5 minutes. The only thing you need is a code repository. Sleuth will instantly provide a health assessment of your code based on its commit history. 
+Getting started with **Sleuth** takes about 5 minutes. Quickly link your code repository and Sleuth will instantly begin to track your deploys. 
 
 The following actions will get you on the path to fast deployment and less errors with Sleuth: 
 
 * [ ] **Create a Sleuth account.** You'll need one to get started. You can create an account via OAuth using your Google, GitHub, or Bitbucket account. [Signup](https://app.sleuth.io/account/signup/) takes less than 5 minutes!  When you're done, [login to your account](https://app.sleuth.io/accounts/login/). 
-* [ ] **Create an** **organization**. A Sleuth organization is how you'll manage your team as well as any integrations you decide to connect \(i.e. Sentry, Rollbar, LaunchDarkly, Honeybadger, etc.\). 
-* [ ] **Create a** **project**. You can make as many projects as needed to model your deployments. Each project contains two default environments: _Production_ and _Staging_. Add as many environments as you'd like, or use only one \(i.e., monorepo\). 
-* [ ] **Setup a** **change source**, such as a code deployment in GitHub or Bitbucket, or feature flags in LaunchDarkly. Sleuth will instantly analyze your commit history and show you meaningful, actionable data instantly.
-* [ ] **Invite others on your team to join your** **organization**. Setup a domain so that invitees with a matching email domain automatically join your organization. 
+* [ ] **Configure your** **organization**. A Sleuth organization is how you'll manage your team as well as any integrations you decide to connect \(i.e. Sentry, Rollbar, LaunchDarkly, Honeybadger, etc.\). Setup a domain so that invitees with a matching email domain automatically join your organization.
+* [ ] **Configure your** **project**. You can make as many projects as needed to model your deployments. Each project contains two default environments: _Production_ and _Staging_. Add as many environments as you'd like to model your deployment environments. 
+* [ ] **Setup a** **change source**, such as a code deployment in GitHub, Bitbucket, GitLab, or feature flags in LaunchDarkly. Sleuth will instantly analyze your commit history and show you meaningful, actionable data.
 
-#### Increase impact fidelity and team communication by adding the following features: 
+#### Integrate your Slack, Issue tracker and Observability tools to unlock the full Sleuth experience: 
 
-* **Add a ChatOps integration.** Send and receive team and personal Slack notifications. If you don't use Slack, you can use Sleuth's built-in email notifications. 
+* **Add the Slack integration.** Send and receive team and personal Slack notifications and use the rich sleuth slash command to take command of your deploys. If you don't use Slack, you can use Sleuth's built-in email notifications. 
 
 {% page-ref page="integrations-1/chat-ops/" %}
 
-* **Add an impact integration.** Sleuth supports popular tools for tracking errors and metrics. **Bugsnag**, **Datadog**, **Honeybadger**, **Rollbar**, **Sentry**, and **SignalFx** are some of the integrations you can make with Sleuth. 
+* **Verify the health of your deploys by adding an impact integration.** Sleuth supports popular tools for tracking errors and metrics. **Bugsnag**, **Datadog, NewRelic**, **Honeybadger**, **Rollbar**, **Sentry**, and **SignalFx** are some of the sources Sleuth can pull from for deploy verification. 
 
 {% page-ref page="integrations-1/impact-sources/" %}
 
-* **Add an issue tracker.** You probably use **Clubhouse**, **Jira**, or **Linear** to keep your development tasks on track. Let Sleuth automatically connect your issues with your deploys to track down the root of a code change or to conduct valuable post-mortems. 
+* **Link your issues.** You probably use **Jira**, **Linear, Github issues or Clubhouse** to keep your development tasks on track. Let Sleuth automatically connect your issues with your deploys to track down the root of a code change or to conduct valuable post-mortems. 
 
 {% page-ref page="integrations-1/issue-trackers/" %}
 
@@ -28,69 +27,51 @@ For a step-by-step walkthrough of the setup process, click through the tabs belo
 
 {% tabs %}
 {% tab title="Step 1" %}
-#### Go to the Sleuth [Dashboard](dashboard-1/dashboard.md)
+#### Sign up to Sleuth
 
-![](.gitbook/assets/screen-shot-2020-04-29-at-2.17.48-pm.png)
+![](.gitbook/assets/signup-sleuth-2021-01-26-15-11-05.png)
 {% endtab %}
 
 {% tab title="Step 2" %}
-#### Select _**Create**_, then _**Create project**_
+#### Setup your project and connect your source provider
 
-![](.gitbook/assets/create-project.png)
+![](.gitbook/assets/signup-setup-journeys-figma-2021-01-26-15-18-11.png)
 {% endtab %}
 
 {% tab title="Step 3" %}
-#### Add a name and description for your project
+#### Configure your first code deployment
 
-![](.gitbook/assets/create-new-project%20%281%29.png)
+![](.gitbook/assets/signup-setup-journeys-figma-2021-01-26-15-20-40.png)
 {% endtab %}
 
 {% tab title="Step 4" %}
-#### Connect integrations
+#### Connect more integrations to realize the power of Sleuth
 
-Integrations are what enables Sleuth to gather data from your development tools and present them to you in a single, easy-to-use interface—the [Dashboard](dashboard-1/dashboard.md). 
+Gain team deploy notifications, personal message when your changes ship and powerful slash commands to _sleuth_ important information about your deploys by **enabling Slack**
 
-Integrations are made at the Sleuth organization level. You can then add as many projects as you need within the organization. Once integrations are made to the organization, all projects created under the organization have access to the integrations' connections. You can also add environments to each project; by default, Sleuth provides a production and staging environment to every new project. You can use as little or as many environments as needed to model your projects. 
+![](.gitbook/assets/signup-setup-journeys-figma-2021-01-26-15-26-44.png)
 
-Furthermore, any custom settings to an integration can be made for each project. For example, your staging environment might send [Slack](integrations-1/chat-ops/slack.md) notifications to one team, your production environment to another. 
+Verify the health of your deploys by integrating your Observability and setting up deploy Impact 
+
+![](.gitbook/assets/signup-setup-journeys-figma-2021-01-26-15-27-06.png)
 
 [Learn more](integrations-1/about-integrations.md) about integrations. 
 {% endtab %}
 
 {% tab title="Step 5" %}
-#### Invite team members
+#### Take control with your Sleuth Command Center!
 
-![](.gitbook/assets/invite-team-members.png)
-
-If you're part of an organization that has already set up a Sleuth environment and your email address uses the same domain, integrations might already be connected to your organization. In this case, you won't need to add the integration yourself. 
-
-You can add existing members to your organization or add the email address of someone you'd like to have invited to join your organization. If the invitation's accepted, the user will automatically be added to your organization. Go to Organization settings for more information on inviting team members. 
-
-You should also configure Sleuth's RBAC \(Role-Based Access Control\) system to control what team members can do with their Sleuth account. For more information, see [Access Control](settings/access-control.md), then head to the [Organization's Members settings](settings/organization/) to set it all up. 
+![](.gitbook/assets/495d70c5-6fce-4aaa-ad85-b78bf7445c5e%20%281%29.png)
 {% endtab %}
 
 {% tab title="Step 6" %}
-#### Add change sources
+####  💥 You're ready! 
 
-* See commits, issues, pull requests, changed files and authors for every deploy.
-* Get notified when you or others on your team deploy, and know exactly what's changed and how it impacts your code.
-* Get release notes sent to specified Slack channels.
-* See an aggregate of what's been deployed today, this week or the entire month.
-* Allow everyone in your organization to understand what code changes you're shipping.
-{% endtab %}
-
-{% tab title="Step 7" %}
-Configure settings for your: 
+Explore more settings for your: 
 
 * [Organization](settings/organization/) 
 * [Project](settings/project/)
 * [Account](settings/account/)
-
-####  💥 You're ready! 
-
-Start seeing the impact of your changes in [the Sleuth Dashboard](dashboard-1/dashboard.md). Happy deploying! 
 {% endtab %}
 {% endtabs %}
-
-
 
