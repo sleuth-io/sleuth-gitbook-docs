@@ -57,7 +57,7 @@ git rev-parse HEAD
 ```
 
 {% hint style="info" %}
-[Get more detailed information](resources/sleuth-api.md#manual-deploy-registration) on manually registering a deploy via the Sleuth API.
+[Get more detailed information](sleuth-api.md#manual-deploy-registration) on manually registering a deploy via the Sleuth API.
 {% endhint %}
 
 #### Automatic tracking for each push to the configured branch

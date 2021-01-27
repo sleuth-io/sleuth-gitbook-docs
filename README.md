@@ -9,9 +9,8 @@ description: >-
 Getting started with **Sleuth** takes about 5 minutes. Link your code and Sleuth will instantly begin to track and verify your deploys.
 
 * [ ] **Create a Sleuth account.** You'll need one to get started. You can create an account via OAuth using your Google, GitHub, or Bitbucket account. [Signup](https://app.sleuth.io/account/signup/) takes less than 5 minutes!  When you're done, [login to your account](https://app.sleuth.io/accounts/login/). 
-* [ ] **Configure your** **organization**. A Sleuth organization is how you'll manage your team as well as any integrations you decide to connect \(i.e. Sentry, Rollbar, LaunchDarkly, Honeybadger, etc.\). Setup a domain so that invitees with a matching email domain automatically join your organization.
-* [ ] **Configure your** **project**. You can make as many projects as needed to model your deployments. Each project contains two default environments: _Production_ and _Staging_. Add as many environments as you'd like to model your deployment environments. 
-* [ ] **Setup a** **change source**, such as a code deployment in GitHub, Bitbucket, GitLab, or feature flags in LaunchDarkly. Sleuth will instantly analyze your commit history and show you meaningful, actionable data.
+* [ ] **Setup your** **organization and project**. A Sleuth organization is how you'll manage your team as well as any integrations you decide to connect \(i.e. Sentry, Rollbar, LaunchDarkly, Honeybadger, etc.\). Setup a domain so that invitees with a matching email domain automatically join your organization. You can make as many projects as needed to model your deployments. Each project contains two default environments: _Production and Staging_.
+* [ ] **Connect your code**, from a Git repository in GitHub, Bitbucket, GitLab. Sleuth will instantly analyze your commits, pull requests and authors and show you meaningful, actionable data.
 
 #### Integrate your Slack, Issue tracker and Observability tools to unlock the full Sleuth experience: 
 

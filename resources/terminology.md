@@ -80,7 +80,7 @@ When adding a code deployment change source, you can specify when and how Sleuth
 
 ![](../.gitbook/assets/deploy-tracking-type.png)
 
-* **Manually register each deploy**: You must manually notify Sleuth when a commit has been made to your code repo. This can be done via the [Sleuth API](sleuth-api.md#manual-deploy-registration). 
+* **Manually register each deploy**: You must manually notify Sleuth when a commit has been made to your code repo. This can be done via the [Sleuth API](../sleuth-api.md#manual-deploy-registration). 
 * **Automatically create deploys for every tag on branch**: When a commit is tagged, Sleuth will automatically create a deploy. 
 * **Automatically create deploys for every push to branch**: When a commit is pushed, Sleuth will automatically create a deploy. 
 

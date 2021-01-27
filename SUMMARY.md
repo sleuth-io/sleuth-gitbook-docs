@@ -5,35 +5,7 @@
 * [Environments](environment-support.md)
 * [Notifications](notifications.md)
 * [Automatic tags](tags.md)
-
-## Dashboard <a id="dashboard-1"></a>
-
-* [About the Dashboard...](dashboard-1/dashboard.md)
-* [Deploy cards](dashboard-1/deploy-cards.md)
-* [Size/Leaderboard](dashboard-1/size-leaderboard.md)
-* [Deploy previews](dashboard-1/deploy-previews.md)
-* [Report date filter](dashboard-1/report-date-filter.md)
-* [Search](dashboard-1/search.md)
-
-## Settings
-
-* [Organization](settings/organization/README.md)
-  * [Details](settings/organization/details.md)
-  * [Signup](settings/organization/signup.md)
-  * [Members](settings/organization/members.md)
-  * [Billing](settings/organization/billing.md)
-* [Project](settings/project/README.md)
-  * [Details](settings/project/details.md)
-  * [Slack Notifications](settings/project/slack-notifications.md)
-  * [Environments](settings/project/environments.md)
-  * [Code Deployments](settings/project/code-deployments.md)
-  * [Feature Flags](settings/project/feature-flags.md)
-  * [Impact](settings/project/impact.md)
-* [Account](settings/account/README.md)
-  * [Account](settings/account/account.md)
-  * [Notifications](settings/account/notifications.md)
-  * [Identities](settings/account/identities.md)
-* [Access control](settings/access-control.md)
+* [Sleuth API](sleuth-api.md)
 
 ## Integrations <a id="integrations-1"></a>
 
@@ -69,9 +41,37 @@
   * [Linear](integrations-1/issue-trackers/linear.md)
 * [Manual changes](integrations-1/manual-changes.md)
 
+## Dashboard <a id="dashboard-1"></a>
+
+* [About the Dashboard...](dashboard-1/dashboard.md)
+* [Deploy cards](dashboard-1/deploy-cards.md)
+* [Size/Leaderboard](dashboard-1/size-leaderboard.md)
+* [Deploy previews](dashboard-1/deploy-previews.md)
+* [Report date filter](dashboard-1/report-date-filter.md)
+* [Search](dashboard-1/search.md)
+
+## Settings
+
+* [Organization](settings/organization/README.md)
+  * [Details](settings/organization/details.md)
+  * [Signup](settings/organization/signup.md)
+  * [Members](settings/organization/members.md)
+  * [Billing](settings/organization/billing.md)
+* [Project](settings/project/README.md)
+  * [Details](settings/project/details.md)
+  * [Slack Notifications](settings/project/slack-notifications.md)
+  * [Environments](settings/project/environments.md)
+  * [Code Deployments](settings/project/code-deployments.md)
+  * [Feature Flags](settings/project/feature-flags.md)
+  * [Impact](settings/project/impact.md)
+* [Account](settings/account/README.md)
+  * [Account](settings/account/account.md)
+  * [Notifications](settings/account/notifications.md)
+  * [Identities](settings/account/identities.md)
+* [Access control](settings/access-control.md)
+
 ## Resources
 
-* [Sleuth API](resources/sleuth-api.md)
 * [Terminology](resources/terminology.md)
 * [FAQ](resources/faq.md)
 * [Purchasing](resources/purchasing.md)
