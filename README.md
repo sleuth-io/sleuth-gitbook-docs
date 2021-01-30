@@ -16,8 +16,6 @@ Getting started with **Sleuth** takes about 5 minutes. Link your code and Sleuth
 
 * **Add the Slack integration.** Send and receive team and personal Slack notifications and use the rich sleuth slash command to take command of your deploys. If you don't use Slack, you can use Sleuth's built-in email notifications. 
 
-{% page-ref page="integrations-1/chat-ops/" %}
-
 * **Verify the health of your deploys by adding an impact integration.** Sleuth supports popular tools for tracking errors and metrics. **Bugsnag**, **Datadog, NewRelic**, **Honeybadger**, **Rollbar**, **Sentry**, and **SignalFx** are some of the sources Sleuth can pull from for deploy verification. 
 
 {% page-ref page="integrations-1/impact-sources/" %}

@@ -5,7 +5,7 @@ The deploy cards are a list of your deploys, shown in chronological order. Direc
 #### **By viewing a deploy card, you can:** 
 
 * see who authored the deploy and how many PRs/commits/issues/files were in the deploy; 
-* instantly view the pull request in whichever repository it resides in \([GitHub](../integrations-1/change-sources/code-deployment/github.md) or [Bitbucket](../integrations-1/change-sources/code-deployment/bitbucket.md), for example\);
+* instantly view the pull request in whichever repository it resides in \([GitHub](../integrations-1/code-deployment/github.md) or [Bitbucket](../integrations-1/code-deployment/bitbucket.md), for example\);
 * know when the deploy occurred; 
 * get an objective, historical assessment of your project's health __\(_Unhealthy_, _Ailing_, _Healthy_, _Improved_\); and
 * know how large or small of an impact the deploy had on your project overall. 

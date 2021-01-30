@@ -42,9 +42,7 @@ In the example below, only files located in the `sleuth/apps/pullrequests` direc
 
 #### Deployment locking
 
-Selecting this checkbox allows Sleuth to automatically lock a deployment if there is a pull request made to your deployment branch. Without this enabled, you can still lock a deployment manually in the Slack notification or in the Dashboard of the active project by clicking the **Lock** button \(see below\).
-
- ![](../../.gitbook/assets/lock-icon%20%282%29.png) 
+Selecting this checkbox allows Sleuth to automatically lock a deployment if there is a pull request made to your deployment branch. Without this enabled, you can still lock a deployment manually in the Slack notification or in the Dashboard of the active project by clicking the **Lock** button.
 
 #### Slack notifications
 

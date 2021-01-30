@@ -15,7 +15,7 @@ If your organization has a Slack integration, you can setup your personal Slack 
 To configure your Slack notifications: 
 
 1. Press the _Fine tune the notifications_ button in the Slack identities panel.  ![](../../.gitbook/assets/identities-slack-user.png) 
-2. 
+
 ### GitHub
 
 ### Bitbucket

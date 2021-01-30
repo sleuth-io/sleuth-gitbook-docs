@@ -1,10 +1,10 @@
 # Notifications
 
-In addition to the available [Chat Ops](integrations-1/chat-ops/) integrations, Sleuth can send emails or Slack notifications when something of significance happens, including messages for your entire team, yourself, and/or to commit and pull request authors.   
+In addition to the available [Chat Ops]() integrations, Sleuth can send emails or Slack notifications when something of significance happens, including messages for your entire team, yourself, and/or to commit and pull request authors.   
 
 ### Setting up Slack notifications
 
-Before you set up project-level Slack notifications, the [Slack integration](integrations-1/chat-ops/slack.md#about-the-integration) must first be made within your Sleuth organization. Once that's done, you can configure who and how those notifications are sent and who receives them. 
+Before you set up project-level Slack notifications, the [Slack integration](integrations-1/slack.md#about-the-integration) must first be made within your Sleuth organization. Once that's done, you can configure who and how those notifications are sent and who receives them. 
 
 {% hint style="info" %}
 You must be the owner of or have admin access to an organization to setup an integration. See [Access control](settings/access-control.md) for more information. 

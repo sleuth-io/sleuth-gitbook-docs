@@ -10,23 +10,21 @@ Sleuth communicates with your tools via the APIs they provide. You will need acc
 
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |
-| [AWS](change-sources/infrastructure/aws.md) | Infrastructure | Can be used a change source. _Coming soon_ |
-| [Bitbucket](change-sources/code-deployment/bitbucket.md) | Code Deployment | Code deployments as a change source |
+| [Bitbucket](code-deployment/bitbucket.md) | Code Deployment | Code deployments as a change source |
 | [Bugsnag](impact-sources/errors/bugsnag.md) | Error Tracker | Error tracker |
 | [Custom impact](impact-sources/metrics/custom.md) | Metric Tracking | Submit custom metrics |
-| [CircleCI](builds/circleci.md) | Builds | Track your builds |
+| [CircleCI](builds/circleci.md) | CI/CD | Track your builds |
 | [Clubhouse](issue-trackers/clubhouse.md) | Issue Tracker | Automatically associate issues with deploys |
 | [Datadog](impact-sources/metrics/datadog.md) | Metric Tracker | Metrics tracker |
-| [GitHub](change-sources/code-deployment/github.md) | Change Source | Code deployments as a change source |
-| [GitLab](change-sources/code-deployment/gitlab.md) | Change Source | Code deployments as a change source |
+| [GitHub](code-deployment/github.md) | Change Source | Code deployments as a change source |
+| [GitLab](code-deployment/gitlab.md) | Change Source | Code deployments as a change source |
 | [Honeybadger](impact-sources/errors/honeybadger.md) | Error Tracker | Error tracker |
 | [Jira](issue-trackers/jira.md) | Issue Tracker | Automatically associate issues with deploys |
-| [LaunchDarkly](change-sources/feature-flags/launchdarkly.md) | Change Source | Feature flags as a change source |
+| [LaunchDarkly](feature-flags/launchdarkly.md) | Change Source | Feature flags as a change source |
 | [Linear](issue-trackers/linear.md) | Issue Tracker | Automatically associate issues with deploys |
 | [NewRelic](impact-sources/metrics/newrelic.md) | Metric Tracker | Metrics tracker |
 | [Rollbar](impact-sources/errors/rollbar.md) | Error Tracker | Error tracker |
 | [Sentry](impact-sources/errors/sentry.md) | Error Tracker | Error tracker |
 | [SignalFx](impact-sources/metrics/signalfx.md) | Metric Tracker | Metrics tracker |
-| [Slack](chat-ops/slack.md) | Chat Ops | Notify your entire team or specific individuals |
-| [Terraform Cloud](change-sources/infrastructure/terraform-cloud.md) | Infrastructure | Can be used as a change source. _Coming soon_ |
+| [Slack](slack.md) | Chat Ops | Notify your entire team or specific individuals |
 

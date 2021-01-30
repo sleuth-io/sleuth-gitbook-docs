@@ -23,7 +23,7 @@ Sleuth uses your code repos as its main sources of change. By analyzing past beh
 To add a source of change, first make sure you have the necessary permissions.
 
 {% hint style="info" %}
-See [Change Sources](integrations-1/change-sources/) to see which sources of change Sleuth supports.
+See [Change Sources]() to see which sources of change Sleuth supports.
 {% endhint %}
 
 ### Notifying Sleuth when you deploy <a id="telling-us-when-you-deploy"></a>

@@ -48,7 +48,7 @@ Environments in LaunchDarkly map automatically to environments in Sleuth. With t
 {% endhint %}
 
 {% hint style="warning" %}
-You must have a [LaunchDarkly integration](../../integrations-1/change-sources/feature-flags/launchdarkly.md) in your organization before you can configure feature flag mappings. 
+You must have a [LaunchDarkly integration](../../integrations-1/feature-flags/launchdarkly.md) in your organization before you can configure feature flag mappings. 
 {% endhint %}
 
 1. Select the project you wish to change feature flag mappings in the Project selector.   ![](../../.gitbook/assets/project_selector.png) 
@@ -78,13 +78,4 @@ You must have a [LaunchDarkly integration](../../integrations-1/change-sources/f
 {% hint style="warning" %}
 You cannot delete the default environment. To delete a default environment, choose another environment as the default first, then delete the environment. 
 {% endhint %}
-
-###  Transitioning from projects to environments
-
-Don't worry if you've been modeling environments by creating separate projects in Sleuth. The process for transitioning to our updated [IA](../../resources/terminology.md#information-architecture-ia) \(Information Architecture\) couldn't be simpler. In fact, the conversion has been made for you: 
-
-* All current projects in your organization will automatically contain two new environments: **Production** and **Staging**. 
-* The **Production** environment is designated as the _default_ environment. This can be changed at any time in the _Environments_ tab, by selecting the _edit_ dropdown and setting a new default environment.
-* All projects must contain at least one environment, which can be named anything you want \(although **Production** is the default name\), by selecting the _edit_ dropdown and selecting **Rename**. 
-* After setting up your environments, you can map your repos' branches to your environments in the [Code Deployments tab](code-deployments.md). 
 
