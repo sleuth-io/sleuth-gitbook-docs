@@ -1,4 +1,4 @@
-# Notifications
+# Slack & Email Notifications
 
 Sleuth can send emails or Slack notifications when something of significance happens, including messages for your entire team, yourself, and/or to commit and pull request authors.   
 
