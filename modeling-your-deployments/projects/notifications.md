@@ -1,16 +1,16 @@
 # Notifications
 
-In addition to the available [Chat Ops]() integrations, Sleuth can send emails or Slack notifications when something of significance happens, including messages for your entire team, yourself, and/or to commit and pull request authors.   
+Sleuth can send emails or Slack notifications when something of significance happens, including messages for your entire team, yourself, and/or to commit and pull request authors.   
 
-### Setting up Slack notifications
+## Setting up Slack notifications
 
-Before you set up project-level Slack notifications, the [Slack integration](../../integrations-1/slack.md#about-the-integration) must first be made within your Sleuth organization. Once that's done, you can configure who and how those notifications are sent and who receives them. 
+Before you set up project-level Slack notifications, the [Slack integration](../../integrations-1/slack.md#about-the-integration) must first be connected to your Sleuth organization. Once that's done, you can configure who and how those notifications are sent and who receives them. 
 
 {% hint style="info" %}
 You must be the owner of or have admin access to an organization to setup an integration. See [Access control](../../settings/access-control.md) for more information. 
 {% endhint %}
 
-#### Setting up project-level Slack notifications
+### Setting up project-level Slack notifications
 
 1. Select a project in the sidebar, then click **Project Settings**. 
 2. Click **Slack Notifications**. 
@@ -19,7 +19,7 @@ You must be the owner of or have admin access to an organization to setup an int
 
 At this point, you can notify users in your Slack organization that a notifications channel for this project has been set up and that they should join it to receive any and all change notifications that occur in that project. 
 
-#### Setting up personal Slack notifications 
+### Setting up personal Slack notifications 
 
 In the previous section, you created a project-level Slack notification. Team members will only receive change notifications if they join the corresponding Slack channel. However, you might want customized notifications sent directly to yourself. You can do this by configuring your user-level Slack notifications preferences: 
 
@@ -34,21 +34,24 @@ In the previous section, you created a project-level Slack notification. Team me
 Read the [Sleuth Privacy Policy](https://www.sleuth.io/privacy) for information regarding the collection, use, and disclosure of Personal Information we collect.
 {% endhint %}
 
-### Setting up email notifications 
+## Setting up email notifications 
 
 Email notifications are sent at the frequency you select, and can be configured individually at the project and change source level. 
 
-#### To set up at the project level
+### To set up at the project level
 
 1. Select a project in the sidebar. 
-2. Click **My Notifications** in the upper-right corner of the Dashboard.   ![](../../.gitbook/assets/slack-my-notifications.png) 
-3. Select a notification frequency in the dropdown. More than one can be selected.  
+2. Click **My Notifications** in the upper-right corner of the Dashboard.
 
-#### To set up at the change source level
+![](../../.gitbook/assets/sleuth-sleuth-2021-01-31-20-40-31.png)
+
+    3. Select a notification frequency in the dropdown. More than one can be selected.  
+
+### To set up at the code deployment or feature flag level
 
 1. Select a **project** in the sidebar. The project's dashboard is displayed. 
-2. Select a **change source** in the [_Change sources_ section]() and click on its title link. The dashboard for the change source is displayed.   ![](../../.gitbook/assets/change-source.png) ![](../../.gitbook/assets/screen-shot-2020-06-17-at-4.35.45-pm.png)  
-3. Click **My Notifications** in the upper-right corner of the dashboard.   ![](../../.gitbook/assets/slack-my-notifications.png)
+2. Select a **code deployment or feature flag** in the sidebar and click on its title link. The dashboard for the code deployment or feature flag is displayed. 
+3. Click the bell icon for **My Notifications** in the upper-right corner of the dashboard.  
 4. Select a notification frequency in the dropdown. More than one can be selected. 
 
 {% hint style="info" %}
