@@ -2,7 +2,7 @@
 description: Automatic tagging for quickly searching through your deploy history
 ---
 
-# Automatic tags
+# Automatic tagging
 
 Sleuth allows you to setup rules to automatically tag your deploys. Tagging deploys allows you to flag deploys that may require a different level of attention, such as a database migration. Tags are also a quick way to organize and quickly search similar deploys.
 

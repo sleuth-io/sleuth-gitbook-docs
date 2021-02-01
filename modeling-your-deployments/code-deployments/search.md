@@ -1,4 +1,4 @@
-# Search
+# Search everything
 
 Search your entire deployment history using Sleuth's built-in search function. The search field features  search-as-you-type functionality; simply start typing and the previous [deploys](../deploy-cards.md) that contain the entered search terms are displayed. 
 
