@@ -38,13 +38,27 @@ git rev-parse HEAD
 
 ### Approximate - automatic tracking for each push to the configured branch
 
-When this option is selected Sleuth will add a POST-commit hook to your repository.
+When this option is selected Sleuth treat every commit made to your branch as a deploy. 
 
-This will ping Sleuth every time a commit is made. When we detect a commit against your projects branc, Sleuth will register a new deploy.
+{% hint style="info" %}
+Sleuth allows you to specify a delay, in minutes. When this is set Sleuth will only create the deploy after the delay has elapsed. A delay of 0 will create the deploy immediately.
+{% endhint %}
+
+{% hint style="warning" %}
+It's rarely the case that every commit is a deploy. Only true continuous deployment setups deploy every commit.  
+{% endhint %}
 
 ### Approximate - automatic tracking for each tag made against the configured branch
 
-When this option is selected, Sleuth will add a POST-commit hook to your repository.
+When this option is selected Sleuth will treat every tag made on your branch as a deploy.
 
-This will ping Sleuth every time a commit is made. When we detect a tag against your projects branch, Sleuth will register a new deploy.
+{% hint style="info" %}
+Sleuth allows you to specify a delay, in minutes. When this is set Sleuth will only create the deploy after the delay has elapsed. A delay of 0 will create the deploy immediately.
+{% endhint %}
+
+A delay of 0 will create the deploy immediately.
+
+{% hint style="warning" %}
+If you've chosen this option make sure that your CD system is tagging your code only once it's actually been deployed.
+{% endhint %}
 

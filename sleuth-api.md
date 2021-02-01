@@ -24,7 +24,7 @@ We expose the [GraphiQL](https://github.com/graphql/graphiql) client so you can 
 
 ## ‌Authentication‌
 
-The Sleuth REST API requires authentication using the API key from your Sleuth [project](https://github.com/sleuth-io/sleuth-gitbook-docs/tree/dac6bb1d50bf6db9b82e70f093d6c196b818030a/@sleuth/s/sleuth/~/drafts/-M8WXrzvQ-fp5VsbiE8G/v/v3/projects/README.md).
+The Sleuth REST API requires authentication using the API key from your Sleuth [organization](settings/organization/details.md).
 
 ## Organization and Deployment Slugs‌
 
@@ -35,7 +35,7 @@ The slugs displayed are the URL of your organization and deployment, with spaces
 ## Errors
 
 * Codes in the `2xx` range indicate success
-* Codes in the `4xx` range indicate incorrect or incomplete parameters \(e.g., parameter  omitted, etc.\)
+* Codes in the `4xx` range indicate incorrect or incomplete parameters
 * Codes in the `5xx` range indicate an error with Sleuth servers
 
 ## REST API Details
@@ -165,7 +165,47 @@ Description for the manual change
 {% endapi-method-response-example-description %}
 
 ```
+Success
+```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+Returned if the author or date are in the wrong format
+{% endapi-method-response-example-description %}
+
+```
+Invalid date format.  Must be in ISO 8601 format
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+Returned if the API key provided doesn't allow access to the deployment
+{% endapi-method-response-example-description %}
+
+```
+Unauthorized
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+Returned if the project isn't found
+{% endapi-method-response-example-description %}
+
+```
+Project not found
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=422 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Name is required.
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

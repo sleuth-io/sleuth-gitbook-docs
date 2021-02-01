@@ -46,7 +46,7 @@ Integrations are made at the Sleuth organization level, and are available for al
 
 * The Sentry logo in the Change Source card turns to green when the integration is successful. 
 
-That’s it—Sleuth will start displaying Sentry error metrics in your deploys. Read **Dashboard** for more information on how errors are communicated in deploy cards. 
+That's it! Sleuth will now start verifying your deploys health by tracking the error counts from Sentry. Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs. 
 
 ## Removing the integration
 

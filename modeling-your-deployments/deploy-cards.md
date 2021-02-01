@@ -1,6 +1,6 @@
 # Deploys
 
-Deploys are how Sleuth represents the changes that are made from your code deployments, feature flag and manual changes. Deploys are specific to a project, environment and deployment. Deploys aggregate data from the integrations you've connected in Sleuth, these include:
+Deploys are how Sleuth represents the changes that are made from your [code deployments](code-deployments/), [feature flag](feature-flags.md) and [manual changes](manual-changes.md). Deploys are specific to a [project](projects/), [environment](environment-support.md) and deployment. Deploys aggregate information from the integrations you've connected in Sleuth, these include:
 
 * All [code information](../integrations-1/code-deployment/) in a deploy with quick links to external systems to view; pull requests, commits, files and authors
 * Any [issues referenced](../integrations-1/issue-trackers/) in commits, pull requests or branch names 

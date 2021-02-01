@@ -21,7 +21,7 @@ To set up the Sleuth GitHub integration:
 
 ## Configuring the integration
 
-You now need to add a GitHub repo to a Sleuth project. This source of change is the repo the configured Sleuth project will monitor and report in the [Dashboard]() on each and every deploy you make to that repo, along with any other change sources you have connected to your project. 
+You now need to add a [code deployment](../../modeling-your-deployments/code-deployments/) for your GitHub repo to a Sleuth [project](../../modeling-your-deployments/projects/). Once configured and you start [registering deploys](../../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) Sleuth will be tracking deploys for your code changes.
 
 To configure the GitHub integration: 
 

@@ -14,5 +14,5 @@ You can also change the default issue tracker for the selected project and, if a
 Only certain members can create an integration for the organization. See [Access Control](../access-control.md) for more information. 
 {% endhint %}
 
-* Press **Save** after making any changes in the _Details_ tab. 
+Press **Save** after making any changes in the _Details_ tab. 
 

@@ -4,7 +4,7 @@ Sleuth uses your code repositories as its main sources of change. Setting up a c
 
 * Track your deployment's Accelerate DevOps metrics
   * Deploy frequency, change lead time, change failure rate, MTTR and deploy size
-* [Lock deployments](deployment-locking.md) so you can pump the breaks on deploying when needed
+* [Lock deployments](deployment-locking.md) so you can pump the brakes on deploying when needed
 * Slice and dice past deploys with [powerful search](search.md)
 * Highlight [drift between your different deployment environments](environment-drift.md)
 * Sleuth [automatically tag deploys](tags.md) based on the code that's changed

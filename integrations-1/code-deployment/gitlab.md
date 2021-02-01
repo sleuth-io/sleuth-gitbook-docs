@@ -19,9 +19,7 @@ To set up the GitLab integration:
 
 ## Configuring the integration
 
-You now need to add a GitLab repo to a Sleuth project. This source of change is the repo the configured Sleuth project will monitor and report in the [Dashboard]() on each and every deploy you make to that repo, along with any other change sources you have connected to your project. 
-
-To configure the GitLab integration: 
+You now need to add a [code deployment](../../modeling-your-deployments/code-deployments/) for your GitLab repo to a Sleuth [project](../../modeling-your-deployments/projects/). Once configured and you start [registering deploys](../../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) Sleuth will be tracking deploys for your code changes.To configure the GitLab integration: 
 
 1. After step \#4 above, you will be taken back to the GitLab integration tile. On the GitLab tile, click the **Add code deployment** dropdown. 
 2. Select the [Sleuth project](../../modeling-your-deployments/projects/) you wish to add a chance source to from the dropdown list. 

@@ -26,11 +26,11 @@ Custom Impact is always available with your Sleuth project. No additional config
 
 ![](../../../.gitbook/assets/add-metric-impact-source-sleuth-2021-01-26-14-10-42.png)
 
-* Once you've created the Impact Source you will be presented with instructions on how to report an Impact value to Sleuth. You will need to POST your data to a Sleuth REST endpoint that is specific to your metric. The dialog includes the exact URLs and information you will need to submit your data.
+* Once you've created the Impact Source you will be presented with instructions on how to report an Impact value to Sleuth. You will need to POST your data to a Sleuth REST endpoint that is specific to your metric. The dialog includes the exact URLs and information you will need to submit your data. For more details see the [API docs for submitting impact](https://help.sleuth.io/sleuth-api#custom-impact-registration).
 
 ![](../../../.gitbook/assets/project-settings-sleuth-sleuth-2021-01-26-14-13-07.png)
 
-That’s it —Sleuth will start displaying Custom metrics that you submit in your deploys. Read [**Dashboard**]() for more information on how metrics are communicated in deploy cards. 
+That's it! Sleuth will now start verifying your deploys health by tracking the values from your custom metric. Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs.
 
 ## Removing the integration
 

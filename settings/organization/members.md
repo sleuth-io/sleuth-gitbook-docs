@@ -3,7 +3,7 @@
 The **Members** tab allows you to manage the roles of the members of your organization. You can also invite new members to your organization. 
 
 {% hint style="info" %}
-You can quickly access the **Members** section of your organization by clicking **Invite People**![](../../.gitbook/assets/invite-people.png) in the sidebar.  
+You can quickly access the **Members** section of your organization by clicking **Invite People** in the sidebar.  
 {% endhint %}
 
 ![](../../.gitbook/assets/manage-organization-members-sleuth-2021-01-30-11-39-47.png)

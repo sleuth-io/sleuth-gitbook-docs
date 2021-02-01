@@ -24,12 +24,12 @@ Make changes as needed to your feature flags. Here you can:
 
 * Change the **name** of the feature flag change source, which is shown in the _Feature Flags_ section of the sidebar. 
 * Select the LaunchDarkly **project** that contains the feature flags you want to track in Sleuth. 
-* Select the LaunchDarkly **environment** you want to track with this feature flag change source. Only the environments that are contained in the LaunchDarkly project selected above will be displayed. If you enable the _Map separate LaunchDarkly environments to Sleuth environments_ checkbox, you can map multiple LaunchDarkly environments to your Sleuth environments. This feature is only available if you have two or more Sleuth environments \(and two or more LaunchDarkly environments\). 
+* Select the LaunchDarkly **environment** you want to track with this feature flag change source. Only the environments that are contained in the LaunchDarkly project selected above will be displayed. If you enable the _Map separate LaunchDarkly environments to Sleuth environments_ checkbox, you can map multiple LaunchDarkly environments to your Sleuth environment \(see next section\). 
 * Select code deployments shown in the _Used by code deployments_ list to link your feature flag changes to. Deployed code that contain feature flags that have been configured in the LaunchDarkly project and environment\(s\) configured above will be included in the data displayed in the Dashboard. 
 
 ### Mapping feature flag environments to Sleuth environments
 
- To correctly attribute feature flag changes to the right Sleuth environment you must map your LaunchDarkly environments to your Sleuth environments.
+To correctly attribute feature flag changes to the right Sleuth environment you must map your LaunchDarkly environments to your Sleuth environments. This feature is only available if you have two or more Sleuth environments \(and two or more LaunchDarkly environments\).
 
 ![](../../.gitbook/assets/edit-feature-flag-deployment-sleuth-2021-01-31-16-34-49.png)
 
@@ -39,15 +39,15 @@ Additional configuration options allow you to fine-tune the behavior of Sleuth w
 
 ![](../../.gitbook/assets/advanced-settings-feature-flags.png)
 
-#### Slack notifications
+### Slack notifications
 
 Selecting this checkbox lets Sleuth send Slack notification through your Slack integration. You can configure these notifications in the [Slack Notifications tab](slack-notifications.md) of Project Settings. 
 
-#### Collect impact
+### Collect impact
 
-Selecting this checkbox lets Sleuth collect impact information collected through via feature flags and display it in the Dashboard along with your project's other health metrics. The information is collected, analyzed, then displayed in the deploy card of each deployment.
+Selecting this checkbox lets Sleuth associate impact information with feature flags. If unchecked Impact measurements won't be attributed to changes made via feature flags.
 
-#### Include in project display
+### Include in project display
 
 Selecting this checkbox displays the feature flags in the project dashboard, along with the associated stats and graphs in the deploy cards. 
 

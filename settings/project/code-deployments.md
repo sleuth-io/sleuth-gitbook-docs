@@ -37,7 +37,7 @@ Additional configuration options allow you to fine-tune the behavior of Sleuth w
 
 ![](../../.gitbook/assets/advanced-settings.png)
 
-#### Source path prefix
+### Source path prefix
 
 Restricts deployment information to only files matching the entered path prefix. This feature is especially useful for mono-repos. 
 
@@ -45,19 +45,19 @@ In the example below, only files located in the `sleuth/apps/pullrequests` direc
 
 ![](../../.gitbook/assets/source-path-prefix.png)
 
-#### Deployment locking
+### Deployment locking
 
 Selecting this checkbox allows Sleuth to automatically lock a deployment if there is a pull request made to your deployment branch. Without this enabled, you can still lock a deployment manually in the Slack notification or in the Dashboard of the active project by clicking the **Lock** button.
 
-#### Slack notifications
+### Slack notifications
 
 Selecting this checkbox lets Sleuth send Slack notification through your Slack integration. You can configure these notifications in the [Slack Notifications tab](slack-notifications.md) of Project Settings. 
 
-#### Collect impact
+### Collect impact
 
 Selecting this checkbox lets Sleuth collect impact information collected through your [error and metric impact integrations](../../integrations-1/impact-sources/). The information is collected, analyzed, then displayed in the deploy card of each deployment. You will need to configure these integrations in the error and metric impact tools themselves \(i.e., Datadog, Sentry, Rollbar, etc.\). 
 
-#### Include in project display
+### Include in project display
 
 Selecting this checkbox displays the code deployment in the project dashboard, along with the associated stats and graphs in the deploy cards. 
 

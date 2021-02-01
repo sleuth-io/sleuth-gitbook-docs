@@ -27,7 +27,7 @@ A **realm** is a self-contained deployment in which your SignalFx organization i
 Integrations are made at the Sleuth organization level, and are available for all projects within that organization. Individual settings for an integration are made at the project level.  
 {% endhint %}
 
-That’s it—Sleuth will start displaying SignalFx impact data in your deploys. Read [**Dashboard**]() for more information on how metrics are communicated within deploy cards. 
+That's it! Sleuth will now start verifying your deploys health by tracking the values from your SignalFx metric. Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs. 
 
 ## Removing the integration
 

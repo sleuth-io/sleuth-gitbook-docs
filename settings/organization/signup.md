@@ -1,6 +1,6 @@
 # Authentication
 
-The **Authentication** tab makes it easy for new members to access all of the integrations of your organization \(i.e., self-signup\) and to manage what kinds of authentication your team can use to sign into Sleuth. 
+The **Authentication** tab is where administrators can control domain based sign up's and manage what kinds of authentication your team can use to sign into Sleuth. 
 
 ## Domain Based Sign ups
 

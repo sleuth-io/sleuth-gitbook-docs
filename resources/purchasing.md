@@ -2,7 +2,7 @@
 
 ## **Can I trial Sleuth before making a purchase?**
 
-A 30-day, full-featured trial is available. [Signup now](https://app.sleuth.io/account/signup/) to get started!
+A 30-day, full-featured trial is available. [Sign up now](https://app.sleuth.io/account/signup/) to get started!
 
 ## **How do I extend my trial?**
 

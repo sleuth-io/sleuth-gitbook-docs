@@ -36,7 +36,7 @@ The NewRelic User key and account ID can be found under **Preferences** &gt; **A
 Integrations are made at the Sleuth organization level, and are available for all projects within that organization. Individual settings for an integration are made at the project level.  
 {% endhint %}
 
-That’s it—Sleuth will start displaying NewRelic metrics in your deploys. Read **Dashboard** for more information on how metrics are communicated in deploy cards. 
+That's it! Sleuth will now start verifying your deploys health by tracking the values from your NewRelic metric. Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs.
 
 ## Removing the integration
 

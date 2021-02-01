@@ -33,7 +33,7 @@ Integrations are made at the Sleuth organization level, and are available for al
 Click **disconnect** to dissolve the Sleuth-Rollbar integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
 {% endhint %}
 
-* That’s it—Sleuth will start displaying Rollbar error metrics in your deploys. 
+That's it! Sleuth will now start verifying your deploys health by tracking the error counts from Rollbar. Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs.  
 
 ## Removing the integration
 

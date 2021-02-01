@@ -9,16 +9,16 @@ To add a manual change:
 3. Press **Create**. 
 
 {% hint style="info" %}
-A well-formed webhook request with your project data pre-populated is displayed \(see similar image below\).
+A sample webhook with your project data pre-populated is displayed \(see  image below\).
 {% endhint %}
 
 {% hint style="danger" %}
-**Do not share the webhook link with anyone outside of your organization.** The dynamically-generated curl command contains your private Sleuth API key and other private information. 
+**Do not share the webhook link with anyone outside of your organization.** The dynamically-generated command contains your private Sleuth API key and other private information. 
 {% endhint %}
 
 ![curl information in Add Manual Change page](../.gitbook/assets/curl_url_dialog.png)
 
-The manual change will be visible on your project dashboard and displayed just like any other source of change. Manual changes are not updated nor managed by Sleuth; you'll need to maintain them on your own. 
+The manual change will be visible on your project dashboard and displayed just like any other source of change and deploy. Manual changes are not updated nor managed by Sleuth; you'll need to maintain them on your own. 
 
 {% hint style="info" %}
 Manual changes can be also be [submitted via the Sleuth API](../sleuth-api.md#manual-change). 
