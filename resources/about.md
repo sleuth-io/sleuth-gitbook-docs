@@ -6,21 +6,11 @@ description: >-
 
 # About Sleuth...
 
-## Where can I find your Terms & Conditions?
+## Change Log
 
-You can find Sleuth software Terms & Conditions [here](https://www.sleuth.io/terms). 
+To view the latest changes to the [Sleuth application](https://app.sleuth.io), go to our [change log](https://changelog.sleuth.io/) and click **Subscribe to Updates** at the top of the page. 
 
-## What is your privacy policy?
-
-Read the Sleuth Privacy Policy [here](https://www.sleuth.io/privacy). 
-
-## How is Sleuth Documentation created? 
-
-Sleuth Documentation is created and hosted on [Gitbook](www.gitbook.com). 
-
-## How much does Sleuth cost? 
-
-You can find pricing information [here](https://www.sleuth.io/pricing). 
+![](../.gitbook/assets/sleuth_gif_v1_3.gif)
 
 ## Can I see Sleuth in use before signing up? 
 
@@ -30,7 +20,7 @@ Of course, we also have a **Free** tier. [Sign up now](https://app.sleuth.io/acc
 
 ## I spotted an error. How can I help? 
 
-Click on the **Edit on GitHub** link on the right side of the page that contains the error \(even this one!\). Make the change\(s\), then submit a pull request.  Thank you in advance for helping out!  
+Contact us by sending an email to [support@sleuth.io](mailto:support@sleuth.io).  Thank you in advance for helping out!  
 
 ## Open Source 
 
@@ -39,10 +29,4 @@ Sleuth has contributed quite a few of its efforts to the open source community. 
 | Description | URL |
 | :--- | :--- |
 | Sleuth PR automation | [https://pypi.org/project/sleuth-pr/](https://pypi.org/project/sleuth-pr/) |
-
-## Change Log
-
-To view the latest changes to the [Sleuth application](https://app.sleuth.io), go to our [change log](https://changelog.sleuth.io/) and click **Subscribe to Updates** at the top of the page. 
-
-![](../.gitbook/assets/sleuth_gif_v1_3.gif)
 

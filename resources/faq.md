@@ -28,3 +28,11 @@ Yes! Sleuth has chat support. Look in the lower-right hand corner of your Dashbo
 
 Get detailed pricing and purchasing information on the [Purchasing](purchasing.md) page. 
 
+## Where can I find your Terms & Conditions?
+
+You can find Sleuth software Terms & Conditions [here](https://www.sleuth.io/terms). 
+
+## What is your privacy policy?
+
+Read the Sleuth Privacy Policy [here](https://www.sleuth.io/privacy). 
+
