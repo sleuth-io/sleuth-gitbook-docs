@@ -1,4 +1,4 @@
-# Account
+# Account settings
 
 The following settings can be configured for your personal Sleuth account: 
 

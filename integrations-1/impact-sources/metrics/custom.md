@@ -30,7 +30,7 @@ Custom Impact is always available with your Sleuth project. No additional config
 
 ![](../../../.gitbook/assets/project-settings-sleuth-sleuth-2021-01-26-14-13-07.png)
 
-That’s it —Sleuth will start displaying Custom metrics that you submit in your deploys. Read [**Dashboard**](../../../dashboard-1/dashboard.md) for more information on how metrics are communicated in deploy cards. 
+That’s it —Sleuth will start displaying Custom metrics that you submit in your deploys. Read [**Dashboard**]() for more information on how metrics are communicated in deploy cards. 
 
 ## Removing the integration
 

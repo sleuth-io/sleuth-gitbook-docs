@@ -10,21 +10,21 @@ Sleuth communicates with your tools via the APIs they provide. You will need acc
 
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |
-| [Bitbucket](code-deployment/bitbucket.md) | Code Deployment | Code deployments as a change source |
-| [Bugsnag](impact-sources/errors/bugsnag.md) | Error Tracker | Error tracker |
-| [Custom impact](impact-sources/metrics/custom.md) | Metric Tracking | Submit custom metrics |
-| [CircleCI](builds/circleci.md) | CI/CD | Track your builds |
-| [Clubhouse](issue-trackers/clubhouse.md) | Issue Tracker | Automatically associate issues with deploys |
-| [Datadog](impact-sources/metrics/datadog.md) | Metric Tracker | Metrics tracker |
-| [GitHub](code-deployment/github.md) | Change Source | Code deployments as a change source |
-| [GitLab](code-deployment/gitlab.md) | Change Source | Code deployments as a change source |
-| [Honeybadger](impact-sources/errors/honeybadger.md) | Error Tracker | Error tracker |
-| [Jira](issue-trackers/jira.md) | Issue Tracker | Automatically associate issues with deploys |
-| [LaunchDarkly](feature-flags/launchdarkly.md) | Change Source | Feature flags as a change source |
-| [Linear](issue-trackers/linear.md) | Issue Tracker | Automatically associate issues with deploys |
-| [NewRelic](impact-sources/metrics/newrelic.md) | Metric Tracker | Metrics tracker |
-| [Rollbar](impact-sources/errors/rollbar.md) | Error Tracker | Error tracker |
-| [Sentry](impact-sources/errors/sentry.md) | Error Tracker | Error tracker |
-| [SignalFx](impact-sources/metrics/signalfx.md) | Metric Tracker | Metrics tracker |
-| [Slack](slack.md) | Chat Ops | Notify your entire team or specific individuals |
+| [Bitbucket](code-deployment/bitbucket.md) | Code deploys | Code deployments as a change source |
+| [Bugsnag](impact-sources/errors/bugsnag.md) | Impact error tracking | Error tracker |
+| [Custom impact](impact-sources/metrics/custom.md) | Impact metric tracking | Submit custom metrics |
+| [CircleCI](builds/circleci.md) | Deployment CI/CD | Track your builds |
+| [Clubhouse](issue-trackers/clubhouse.md) | Deploy issue tracker | Automatically associate issues with deploys |
+| [Datadog](impact-sources/metrics/datadog.md) | Impact metric tracking | Metrics tracker |
+| [GitHub](code-deployment/github.md) | Code deploys | Code deployments as a change source |
+| [GitLab](code-deployment/gitlab.md) | Code deploys | Code deployments as a change source |
+| [Honeybadger](impact-sources/errors/honeybadger.md) | Impact error tracking | Error tracker |
+| [Jira](issue-trackers/jira.md) | Deploy issue tracker | Automatically associate issues with deploys |
+| [LaunchDarkly](feature-flags/launchdarkly.md) | Feature flag changes | Feature flags as a change source |
+| [Linear](issue-trackers/linear.md) | Deploy issue tracker | Automatically associate issues with deploys |
+| [NewRelic](impact-sources/metrics/newrelic.md) | Impact metric tracking | Metrics tracker |
+| [Rollbar](impact-sources/errors/rollbar.md) | Impact error tracking | Error tracker |
+| [Sentry](impact-sources/errors/sentry.md) | Impact error tracking | Error tracker |
+| [SignalFx](impact-sources/metrics/signalfx.md) | Impact metric tracking | Metrics tracker |
+| [Slack](slack.md) | Notifications and control | Notify your entire team or specific individuals |
 

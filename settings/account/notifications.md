@@ -6,7 +6,7 @@ The **Notifications** tab is where you can make changes to the notifications Sle
 * \*\*\*\*[**Email Notifications**](notifications.md#email-notifications)\*\*\*\*
 
 {% hint style="info" %}
-You must [enable the Slack integration](../../notifications.md#setting-up-slack-notifications) at the organization level before you can make modifications to Slack Notifications. 
+You must [enable the Slack integration](../../modeling-your-deployments/projects/notifications.md#setting-up-slack-notifications) at the organization level before you can make modifications to Slack Notifications. 
 {% endhint %}
 
 ![](../../.gitbook/assets/account-notifications.png)
@@ -46,11 +46,11 @@ Click _**Manage project notifications**_ to manage the Slack notifications gener
 
 ### **Email Notifications**
 
-If you've already setup projects and change sources, you can configure email notifications for them directly from the Dashboard. Read [Notifications](../../notifications.md#setting-up-email-notifications) for more information. 
+If you've already setup projects and change sources, you can configure email notifications for them directly from the Dashboard. Read [Notifications](../../modeling-your-deployments/projects/notifications.md#setting-up-email-notifications) for more information. 
 
 The changes made here in the Notifications tab reflect any changes made in the Dashboard for every project and organization pairing. You can view the notifications you're adjusting in the _**Manage all notifications for:**_ selector at the top of the **Notifications** tab. 
 
-The Email Notifications preferences set here are also reflected in the [Dashboard](../../dashboard-1/dashboard.md) for the selected project/environment pairing \(see below\). This applies to all notifications preferences made in the same organization. 
+The Email Notifications preferences set here are also reflected in the [Dashboard]() for the selected project/environment pairing \(see below\). This applies to all notifications preferences made in the same organization. 
 
 ![](../../.gitbook/assets/sleuth-sleuth-command-center-sleuth-2021-01-30-11-19-26.png)
 

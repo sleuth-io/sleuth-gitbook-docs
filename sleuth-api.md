@@ -3,7 +3,7 @@
 ‌The Sleuth REST API provides methods that enables users to:‌
 
 * Register their deploys
-* Create [manual changes](integrations-1/manual-changes.md)
+* Create [manual changes](modeling-your-deployments/manual-changes.md)
 * Register [custom impact values](integrations-1/impact-sources/metrics/custom.md)
 
 Sleuth's main public API is built using GraphQL. It's the same API we use internally for developing our applications.

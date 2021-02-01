@@ -1,16 +1,18 @@
-# Code Deployments
+# Code deployment settings
 
 The **Code Deployments** tab in [Project Settings](./) is where configuration changes are made to the code deployment change sources in your project. Additionally, you can manage the mapping of your repositories and branches to your environments. 
 
-Code deployments track deploys, which collect the code changes, pull requests, issues, and authors deploying to your environment. Additionally, with code deployments you can: 
-
-* Capture the code reviews in each deploy;
-* Generate a ChatOps notification of a deploy;
-* Preview what changes a deploy will contain.
-
 ![Code Deployments tab in Project Settings](../../.gitbook/assets/code_deployments.png)
 
-### Edit Code Deployments
+## Adding a Code deployment
+
+To add a code deployment, first make sure you have the necessary permissions.
+
+{% hint style="info" %}
+See [Code deployment](../../integrations-1/code-deployment/) to see which source provider Sleuth supports.
+{% endhint %}
+
+## Edit Code Deployments
 
 To edit code deployments, click the _edit_ dropdown in the Actions column then select **Edit** to view the _Edit Code Deployment_ screen \(shown below\).   
   
@@ -19,14 +21,17 @@ To edit code deployments, click the _edit_ dropdown in the Actions column then s
 Make changes as needed to your code deployment. On this screen, you can: 
 
 * Select the code **repository** for your code deployment change source in the Repository dropdown. 
-* Select the **branch** in the repository that you wish to use for the code deployment change source. Only branches in the repo selected above are displayed. Sleuth will, by default, select the _master_ branch. 
+* Select the **branch** in the repository that you wish to use for the code deployment change source. Only branches in the repo selected above are displayed. Sleuth will, by default, select the _master_ branch. If you use different branches to deploy to different environments see the _Mapping branches_ section below. 
 * Change the name of the code deployment, which is shown in the _Code Deployments_ section of the sidebar. 
-* Select how Sleuth will track changes in the _Deploy tracking type_ dropdown. The available options are: 
-  * _**Manually register each deploy:**_ Enables you to use the Sleuth API to manually submit HTTP POST requests. This is especially handy if you have additional processes that must be completed after you deploy, in which case you can notify Sleuth only when all of your post-deploy processes are completed. 
-  * _**Automatically create deploys for every tag:**_ Sleuth creates a deploy when a new tag is pushed to a repo. 
-  * _**Automatically create deploys for every push to branch:**_ ****Sleuth creates a deploy every time there is a push to the selected branch. 
+* Select how Sleuth will track know when you've deployed. See [How to register a deploy](../../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) for more details.
 
-### Advanced Settings
+### Mapping branches to environments
+
+By default Sleuth maps the _master_ branch to all environments in your project. However, you can change this behavior if you used named branches for your other environments. For example, you might wish to deploy your _master_ branch to _production_, which is the default behavior, and deploy your _staging_ branch to your _staging_ environment.
+
+![](../../.gitbook/assets/edit-code-deployment-sleuth-2021-01-31-16-24-55.png)
+
+## Advanced Settings
 
 Additional configuration options allow you to fine-tune the behavior of Sleuth when it detects deploys via your change sources. 
 
@@ -34,9 +39,9 @@ Additional configuration options allow you to fine-tune the behavior of Sleuth w
 
 #### Source path prefix
 
-Restricts deployment information to only files matching the entered path prefix. This feature is especially useful for monorepos. 
+Restricts deployment information to only files matching the entered path prefix. This feature is especially useful for mono-repos. 
 
-In the example below, only files located in the `sleuth/apps/pullrequests` directory will have deploy information displayed in the [Dashboard](../../dashboard-1/dashboard.md) for the selected project. 
+In the example below, only files located in the `sleuth/apps/pullrequests` directory will be included in deploys. 
 
 ![](../../.gitbook/assets/source-path-prefix.png)
 

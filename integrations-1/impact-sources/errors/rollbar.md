@@ -33,7 +33,7 @@ Integrations are made at the Sleuth organization level, and are available for al
 Click **disconnect** to dissolve the Sleuth-Rollbar integration. You will need to re-authorize Sleuth again if you wish to re-establish the integration.
 {% endhint %}
 
-* That’s it—Sleuth will start displaying Rollbar error metrics in your deploys. Read [**Dashboard**](../../../dashboard-1/dashboard.md) for more information on how errors are commun~~i~~cated in deploy cards. 
+* That’s it—Sleuth will start displaying Rollbar error metrics in your deploys. 
 
 ## Removing the integration
 
@@ -43,16 +43,4 @@ Click **disconnect** to dissolve the Sleuth-Rollbar integration. You will need t
 2. In the Rollbar integration card, click **disable**. The message **Rollbar disabled** is displayed in the Rollbar integration card once the integration is dissolved.
 
 The Rollbar integration is disconnected and no longer available to any projects within that organization.  Other error trackers that may be connected to your organization are not affected. 
-
-#### To edit the Rollbar integration for project: 
-
-1. Select the **Project** in the project selector in the sidebar. 
-2. Click on **Project Settings** in the sidebar. 
-3. Click on **Impact**.
-4. Click **edit** on the impact source you wish to delete or edit.  
-5. Edit the _Name_, _Project_, and/or _Environment_ settings, then press **Save**. 
-
-{% hint style="info" %}
-The _Projects_ dropdown is automatically populated with the list of projects in the connected Rollbar account. The _Environment_ field is not validated, but should match the environment values in your Rollbar settings. [Read the Rollbar documentation on Environments](https://docs.rollbar.com/docs/environments) for more information. 
-{% endhint %}
 

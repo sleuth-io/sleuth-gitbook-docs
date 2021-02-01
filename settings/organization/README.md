@@ -1,4 +1,4 @@
-# Organization
+# Organization settings
 
 {% hint style="warning" %}
 Only Owners and Administrators and Billing users can access Organization settings. 

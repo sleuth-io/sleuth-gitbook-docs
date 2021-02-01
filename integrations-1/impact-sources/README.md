@@ -1,4 +1,4 @@
-# Impact sources
+# Impact integrations
 
 **Impact sources** provide Sleuth with key SLIs to provide you with automated verification that your deploys are healthy. Impact can be any metric you are tracking that is a key indicator of your services health.
 

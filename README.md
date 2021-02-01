@@ -8,13 +8,15 @@ description: >-
 
 Getting started with **Sleuth** takes about 5 minutes. Link your code and Sleuth will instantly begin to track and verify your deploys.
 
-* [ ] **Create a Sleuth account.** You'll need one to get started. You can create an account via OAuth using your Google, GitHub, or Bitbucket account. [Signup](https://app.sleuth.io/account/signup/) takes less than 5 minutes!  When you're done, [login to your account](https://app.sleuth.io/accounts/login/). 
-* [ ] **Setup your** **organization and project**. A Sleuth organization is how you'll manage your team as well as any integrations you decide to connect \(i.e. Sentry, Rollbar, LaunchDarkly, Honeybadger, etc.\). Setup a domain so that invitees with a matching email domain automatically join your organization. You can make as many projects as needed to model your deployments. Each project contains two default environments: _Production and Staging_.
+* [ ] **Create a Sleuth account.** You'll need one to get started. You can create an account via OAuth using your Google, GitHub, or Bitbucket account. [Signup](https://app.sleuth.io/account/signup/) is instant and setup takes less than 5 minutes! 
+* [ ] **Setup your** **organization and project**. A Sleuth organization is how you'll manage your team as well as any integrations you decide to connect. You can make as many projects as needed to model your deployments, but Sleuth creates one for you by default. Each project contains two default environments: _Production and Staging_.
 * [ ] **Connect your code**, from a Git repository in GitHub, Bitbucket, GitLab. Sleuth will instantly analyze your commits, pull requests and authors and show you meaningful, actionable data.
 
 #### Integrate your Slack, Issue tracker and Observability tools to unlock the full Sleuth experience: 
 
 * **Add the Slack integration.** Send and receive team and personal Slack notifications and use the rich sleuth slash command to take command of your deploys. If you don't use Slack, you can use Sleuth's built-in email notifications. 
+
+{% page-ref page="integrations-1/slack.md" %}
 
 * **Verify the health of your deploys by adding an impact integration.** Sleuth supports popular tools for tracking errors and metrics. **Bugsnag**, **Datadog, NewRelic**, **Honeybadger**, **Rollbar**, **Sentry**, and **SignalFx** are some of the sources Sleuth can pull from for deploy verification. 
 

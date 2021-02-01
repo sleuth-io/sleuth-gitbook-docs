@@ -1,6 +1,6 @@
-# Code deployments
+# Code integrations
 
-**Code deployments** integrations give Sleuth access to your code repositories. Sleuth analyzes your pull requests, commits, files and authors to provide a meaningful and clear view of the changes you make in code when you deploy. . 
+**Code** integrations give Sleuth access to your code repositories. Sleuth analyzes your pull requests, commits, files and authors to provide a meaningful and clear view of the changes you make in code when you deploy.
 
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |

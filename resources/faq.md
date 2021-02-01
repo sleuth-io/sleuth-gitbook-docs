@@ -8,9 +8,9 @@ Additionally, when you dissolve an integration, Sleuth purges all data, includin
 
 ## How are environments represented in Sleuth?
 
-Sleuth has full-featured support for **environments**, which are are created and managed at the [project](../projects.md) level. You can have as many environments as needed to represent your project and its development states, with _staging_, _testing_, and _production_ being common ones \(you can name them anything you want\). 
+Sleuth has full-featured support for **environments**, which are are created and managed at the [project](../modeling-your-deployments/projects/) level. You can have as many environments as needed to represent your project and its development states, with _staging_, _testing_, and _production_ being common ones \(you can name them anything you want\). 
 
-Check out the [Sleuth Information Architecture](terminology.md#information-architecture-ia) to visualize Sleuth organization hierarchy. 
+Check out the [Sleuth Information Architecture]() to visualize Sleuth organization hierarchy. 
 
 ## How do I connect to my organization? 
 
@@ -20,7 +20,7 @@ If your email address domains match, you will automatically connect to the organ
 
 ## Can I get chat support? 
 
-Yes! Sleuth uses Tawk.to for chat support. Look in the lower-right hand corner of your [Dashboard](../dashboard-1/dashboard.md) and click on the Tawk.to icon to get instant chat support \(available Monday thru Friday, 8 am to 5 pm PST\).  
+Yes! Sleuth uses Tawk.to for chat support. Look in the lower-right hand corner of your [Dashboard]() and click on the Tawk.to icon to get instant chat support \(available Monday thru Friday, 8 am to 5 pm PST\).  
 
 ![Tawk.to chat widget on the Dashboard](../.gitbook/assets/tawk-to-icon.png)
 

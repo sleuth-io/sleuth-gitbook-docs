@@ -1,10 +1,10 @@
-# Slack
+# Slack integration
 
 ## About the integration ![](../.gitbook/assets/slack_mark_monochrome_black_sm.png) 
 
 Keep your teams and other principals informed throughout the entire CI/CD lifecycle by using Slack as your main communication channel. No more bloated distribution lists, and bombarding your team with a barrage of emails. Use Slack's powerful communications features to keep development teams informed about your code deploys, and your entire organization up to date on progress.
 
-Agile teams will spend most of their time viewing the [Dashboard](../dashboard-1/dashboard.md) to get the granular detail they need to stay informed on the status of deploys, impact, magnitude, and the breadth and scope of information Sleuth provides. Other members of your organization, however, might only want a quick update on your team's progress without getting into the weeds. Slack messages provide just that—automated, easily-digestable messages where they can view: 
+Agile teams will spend most of their time viewing the Dashboard to get the granular detail they need to stay informed on the status of deploys, impact, magnitude, and the breadth and scope of information Sleuth provides. Other members of your organization, however, might only want a quick update on your team's progress without getting into the weeds. Slack messages provide just that—automated, easily-digestable messages where they can view: 
 
 * when your deploy occurred; 
 * what was deployed; 
@@ -56,7 +56,7 @@ Adding a third-party integration to Slack must be authorized by your Slack App M
 ![](../.gitbook/assets/slack-integration-connected.png)
 
 {% hint style="info" %}
-The Slack integration is done at the [organization](../resources/terminology.md#information-architecture-ia) level. Since multiple [projects](../projects.md) can exist within an organization, you'll want to go in to each project and configure notifications individually. This is especially important for individual Slack notifications, such as notifying the author of a commit and/or the person responsible for initiating deploying. 
+The Slack integration is done at the [organization]() level. Since multiple [projects](../modeling-your-deployments/projects/) can exist within an organization, you'll want to go in to each project and configure notifications individually. This is especially important for individual Slack notifications, such as notifying the author of a commit and/or the person responsible for initiating deploying. 
 {% endhint %}
 
 ## Configuring the integration
@@ -112,8 +112,4 @@ When you receive a deployment notification in Sleuth, you can:
 2. In the Slack integration card, click **disable**. The message **Slack disabled** is displayed in the Slack integration card once the integration is dissolved.
 
 The Slack integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Slack integration will be lost. 
-
-## Search using Slack
-
-If your organization has a Slack integration, you can [use the Slack app](../dashboard-1/search.md#searching-with-slack) to search through your deploy history.   
 

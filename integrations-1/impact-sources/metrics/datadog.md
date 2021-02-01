@@ -2,7 +2,7 @@
 
 ## About the integration
 
-Datadog is an metric monitoring service that helps DevOps teams discover, triage, and prioritize their errors in real-time. Before you start, you should already have a Datadog account and your environment setup and running. If not, head over to Datadog to get things started. Once you're done, return to Sleuth so you can complete setup of the integration. 
+Datadog is an metric monitoring service that helps DevOps teams discover, triage, and prioritize their observability data in real-time. Before you start, you should already have a Datadog account and your environment setup and running. If not, head over to Datadog to get things started. Once you're done, return to Sleuth so you can complete setup of the integration. 
 
 ## Setting up the integration
 
@@ -38,7 +38,7 @@ The Datadog API Key and Application Key can be found under **Integrations** &gt;
 Integrations are made at the Sleuth organization level, and are available for all projects within that organization. Individual settings for an integration are made at the project level.  
 {% endhint %}
 
-That’s it—Sleuth will start displaying Datadog metrics in your deploys. Read [**Dashboard**](../../../dashboard-1/dashboard.md) for more information on how metrics are communicated in deploy cards. 
+That’s it—Sleuth will start displaying Datadog metrics in your deploys. Read **Dashboard** for more information on how metrics are communicated in deploy cards. 
 
 ## Removing the integration
 

@@ -1,4 +1,4 @@
-# Slack Notifications
+# Slack settings
 
 The Slack Notifications tab is where you can configure which Slack channels receive change notifications when a deploy occurs in a specific environment. 
 
