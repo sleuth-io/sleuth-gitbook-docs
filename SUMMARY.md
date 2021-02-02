@@ -15,6 +15,10 @@
   * [Feature flags](modeling-your-deployments/feature-flags.md)
   * [Manual changes](modeling-your-deployments/manual-changes.md)
   * [Deploys](modeling-your-deployments/deploy-cards.md)
+* [Auto-verify your deploys](auto-verify-your-deploys/README.md)
+  * [Anomaly detection](auto-verify-your-deploys/anomaly-detection.md)
+  * [Error impact](auto-verify-your-deploys/error-impact.md)
+  * [Metric impact](auto-verify-your-deploys/metric-impact.md)
 * [Sleuth API](sleuth-api.md)
 
 ## Integrations <a id="integrations-1"></a>
