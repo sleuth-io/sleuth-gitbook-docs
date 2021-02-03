@@ -43,7 +43,7 @@ Email notifications are sent at the frequency you select, and can be configured 
 1. Select a project in the sidebar. 
 2. Click **My Notifications** in the upper-right corner of the Dashboard.
 
-![](../../.gitbook/assets/sleuth-sleuth-2021-01-31-20-40-31.png)
+![](../../.gitbook/assets/sleuth-sleuth-2021-01-31-20-40-31%20%282%29.png)
 
     3. Select a notification frequency in the dropdown. More than one can be selected.  
 

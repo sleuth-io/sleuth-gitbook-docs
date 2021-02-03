@@ -20,7 +20,7 @@
   * [Error impact](auto-verify-your-deploys/error-impact.md)
   * [Metric impact](auto-verify-your-deploys/metric-impact.md)
 * [Sleuth API](sleuth-api.md)
-* [Sleuth Actions (beta)](actions/README.md)
+* [Sleuth Actions \(beta\)](actions/README.md)
   * [Cookbook](actions/cookbook.md)
 
 ## Integrations <a id="integrations-1"></a>

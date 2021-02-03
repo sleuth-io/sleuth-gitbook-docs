@@ -64,7 +64,7 @@ Verify the health of your deploys by integrating your Observability and setting 
 {% tab title="Step 5 - Done!" %}
 #### Take control with your Sleuth Command Center!
 
-![](.gitbook/assets/495d70c5-6fce-4aaa-ad85-b78bf7445c5e%20%281%29.png)
+![](.gitbook/assets/601240104dc959013a33895d_sleuth-project-dashboard-view%20%281%29.png)
 {% endtab %}
 {% endtabs %}
 
