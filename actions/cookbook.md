@@ -68,13 +68,12 @@ When code is deployed to staging for at least 4 hours and is still healthy, then
 
 ### Separate approval workflow for third-party PRs (coming soon)
 Pull/merge request merges, from non-trusted developers, aren't autopromoted from staging to production,
-but instead send a Slack message to the <code>#deploy-requests</code> channel for someone to promote it for them.
+but instead send a Slack message to the `#deploy-requests` channel for someone to promote it for them.
 
-Note that the slack message is markdown and created with the <a href="https://jinja.palletsprojects.com/en/2.11.x/">Jinja</a>
-template language.
+Note that the slack message is markdown and created with the [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) template language.
 
-{% raw %}
-    staging-to-prod-third-party:
+
+    {% raw %}staging-to-prod-third-party:
       conditions:
         - environment='Staging'
         - pr_authors!='teamlead1' AND pr_authors!='srdev1'
@@ -86,8 +85,7 @@ template language.
               A {{deployment_name}} is awaiting approval:
               {% for pr in prs %}
               * <{{pr.url}}|{{pr.title}}> - by {{ pr.author}}
-              {% end %}
-{% endraw %}
+              {% end %}{% endraw %}
 
 ## Deployment notifications
 
