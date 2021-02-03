@@ -22,6 +22,7 @@
 * [Sleuth API](sleuth-api.md)
 * [Sleuth Actions \(beta\)](actions/README.md)
   * [Cookbook](actions/cookbook.md)
+  * [Webhooks](actions/webhook.md)
 
 ## Integrations <a id="integrations-1"></a>
 
