@@ -35,7 +35,7 @@ The webhook will contain two headers you can use to safely validate the message:
 * `X-SLEUTH-SIGNATURE` - The signature of the timestamp and request body, signed with the API key
 
 The signature follows the format Slack uses to validate their webhooks. For more information how it works and how to 
-validate the signature, see (the Slack docs)[https://api.slack.com/authentication/verifying-requests-from-slack]
+validate the signature, see [the Slack docs](https://api.slack.com/authentication/verifying-requests-from-slack)
 
 The only difference is Sleuth uses the API key from your Sleuth [organization](../settings/organization/details.md) as 
 the signing key.
