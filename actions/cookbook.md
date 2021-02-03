@@ -94,7 +94,6 @@ When a deployment to production is determined by Sleuth to be unhealthy, notify 
 deployment, usually commit and pull request authors. Send them a personal slack notification with a custom message
 containing links to key dashboards, logging systems, runbooks, and whatever other resources they need to resolve the
 incident.
-{% raw %}
 
     author-unhealthy:
       conditions:
@@ -107,14 +106,11 @@ incident.
               * &lt;https://mylogs.com/dashboard/production_logs?sha={{deploy_revision}}|Prod logs for this deploy>
               * &lt;https://statuspage.com/myorg/create_incident|Update status page>
 
-{% endraw %}
-
 ### Notify the project lead on certain deploys (coming soon)
 
 Sleuth can tag deploys, either based on file paths matched from the contents of the deploy, or via tags passed
 explicitly when registering the deploy. In this rule, when production deployment is created and the deploy is tagged
 with `api_change` or `database_migration`, notify the team lead with a personal slack message.
-{% raw %}
 
     notify-sara:
       conditions:
@@ -126,13 +122,10 @@ with `api_change` or `database_migration`, notify the team lead with a personal 
             message: |
               An important <{{deploy_url}}|deployment> went out tagged with {{deploy_tags}}.
 
-{% endraw %}
-
 ### Notify key issues on certain deploys (coming soon)
 
 When a blocker issue is resolved with a deployment to production, add a comment on the issue to notify any watchers
 of that issue that it has been fixed.
-{% raw %}
 
     notify-important-issues:
       conditions:
@@ -141,13 +134,10 @@ of that issue that it has been fixed.
       actions:
         - notify_mentioned_issues
 
-{% endraw %}
-
 ### Notify support team on bugs and new features that impact them (coming soon)
 
-When code is deployed to production, find any issues that are either bugs or labeled with <code>support</code>,
-and send them to the Slack <code>#support</code> channel to notify the support team so that they can update the customer.
-{% raw %}
+When code is deployed to production, find any issues that are either bugs or labeled with `support`,
+and send them to the Slack `#support` channel to notify the support team so that they can update the customer.
 
     notify-support:
       conditions:
@@ -162,9 +152,8 @@ and send them to the Slack <code>#support</code> channel to notify the support t
               * <{{issue.url}}|{{issue.key}} - {{issue.title}}>
               {% end %}
 
-{% endraw %}
-
 ### Notify in Slack when drift is too high
+
 When a deploy hits staging, and staging is more than 10 deploys different than production, send a Slack
 channel notification to `#dev` warning them that they need to promote to production soon.
 
@@ -182,8 +171,7 @@ channel notification to `#dev` warning them that they need to promote to product
 
 ### Transition issues on deploy (coming soon)
     
-When code is deployed to production, find any referenced issues and transition them into the <code>Deployed</code> state.
-{% raw %}
+When code is deployed to production, find any referenced issues and transition them into the `Deployed` state.
 
     transition-issues-on-deploys:
       conditions:
@@ -196,13 +184,10 @@ When code is deployed to production, find any referenced issues and transition t
             comment: |
               This issue has been deployed by {{deploy_author_name}} in <{{deploy_url}}|{{deploy_name}}>
 
-{% endraw %}
-
 ### Create revert PR when unhealthy (coming soon)
 
 When a deployment to production is unhealthy, create a pull/merge request that reverts the deployment. Send a personal
 Slack message to the authors of the deployment with a link to the revert PR so that they can quickly fix the deployment.
-{% raw %}
 
     revert-pr-on-unhealthy:
       conditions:
@@ -213,13 +198,10 @@ Slack message to the authors of the deployment with a link to the revert PR so t
         - notify_deploy_authors: |
             Your code was <{{deploy_url}}|deployed> and is unhealthy, and a PR was created to revert {{pr_url}}
 
-{% endraw %}
-
 ### Create backport PR on deploy (coming soon)
 
 When a deployment goes to production, create a pull/merge request that backports the changes to staging. Useful if hot fixes were
 applied directly to the production branch and need to be backported to the staging branch.
-{% raw %}
 
     backport-pr:
       conditions:
@@ -233,10 +215,9 @@ applied directly to the production branch and need to be backported to the stagi
         - notify_deployer: |
             Your code was <{{deploy_url}}|deployed> and here is the backport PR: <{{backport_pr_url}}>
 
-{% endraw %}
-
 ### Slow rollout of feature flags after delivery (coming soon)
-When code is shipped to production, and it comes from a pull/merge request that has the <code>auto-flag-rollout</code> label,
+
+When code is shipped to production, and it comes from a pull/merge request that has the `auto-flag-rollout` label,
 and is healthy, then gradually enable related feature flags over a period of time.
 
     feature-flag-rollout:
