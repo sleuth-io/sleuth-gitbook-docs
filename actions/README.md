@@ -35,7 +35,5 @@ and then "Actions".
 
 ### Cookbook
 
-For more ideas on what tasks can be automated, see 
-
-{% page-ref page="cookbook.md" %}
+For more ideas on what tasks can be automated, see [our cookbook](cookbook.md)
 
