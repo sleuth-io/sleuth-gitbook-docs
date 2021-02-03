@@ -72,8 +72,8 @@ but instead send a Slack message to the <code>#deploy-requests</code> channel fo
 
 Note that the slack message is markdown and created with the <a href="https://jinja.palletsprojects.com/en/2.11.x/">Jinja</a>
 template language.
-{% raw %}
 
+{% raw %}
     staging-to-prod-third-party:
       conditions:
         - environment='Staging'
@@ -86,8 +86,7 @@ template language.
               A {{deployment_name}} is awaiting approval:
               {% for pr in prs %}
               * <{{pr.url}}|{{pr.title}}> - by {{ pr.author}}
-              {% end %}{% endverbatim %}
-
+              {% end %}
 {% endraw %}
 
 ## Deployment notifications
