@@ -24,10 +24,7 @@ rules:
             Build promoted automatically on a healthy staging deploy
 ```
 
-A rule can be named whatever you want, `stage-to-prod` in this example, and can have a description to display in the 
-Sleuth interface. The actions used here automatically approve a pending build and then send a notification to the Slack
-deployment message thread. Another common action is [webhook](webhook.md), used to notify 
-external systems
+A rule can be named whatever you want, `stage-to-prod` in this example, and can have a description to display in the Sleuth interface. The actions used here automatically approve a pending build and then send a notification to the Slack deployment message thread. Another common action is [webhook](webhook.md), used to notify external systems.
 
 For more information, including what condition variables and actions are available, within Sleuth, click on "Help" and then "Actions".
 
