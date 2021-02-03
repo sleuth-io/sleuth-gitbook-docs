@@ -31,7 +31,7 @@ quick-fixes:
     - auto_approve_build: 'test-and-deploy'
 ```
 
-### Slack approvals-based promotion&lt;/h3&gt;
+### Slack approvals-based promotion
 
 The first rule responds to the staging deployment message in Slack to let people know how to promote. The second rule fires the number of :+1: reactions is 3 or more and there are no :-1: veto votes. If successful, the deploy is promoted to production.
 
@@ -171,6 +171,17 @@ drift-too-high:
         message: |
           Drift to production too high
 ```
+
+
+### Notify an internal app when code is deployed
+
+When a deploy hits production, send a webhook to an internal system. See [webhook](webhook.md) for more information.
+
+    notify-internal-app:
+      conditions:
+        - environment='Production'
+      actions:
+        - webhook: https://myapp.example.com/deployment/production
 
 ## Deployment miscellaneous
 
