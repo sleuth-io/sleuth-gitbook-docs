@@ -1,4 +1,4 @@
-# Notifications
+# Notifications settings
 
 The **Notifications** tab is where you can make changes to the notifications Sleuth generates. There are two types of notifications that Sleuth sends to keep you up to date on your organization's deployment activity: 
 
@@ -30,6 +30,10 @@ Here you can manage the frequency of Slack notifications, as well as the trigger
 
 {% hint style="info" %}
 You can also access Slack notification settings from the _My notifications_ dropdown in the Dashboard. Click **the bell icon** then select **Manage Slack settings**. 
+{% endhint %}
+
+{% hint style="warning" %}
+To receive messages from the Sleuth bot, recipients must have linked their source account \(i.e., GitHub, Bitbucket, etc.\) and their Slack account to their Sleuth account. 
 {% endhint %}
 
 To enable personal Slack notifications: 

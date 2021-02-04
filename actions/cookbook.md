@@ -172,16 +172,17 @@ drift-too-high:
           Drift to production too high
 ```
 
-
 ### Notify an internal app when code is deployed
 
 When a deploy hits production, send a webhook to an internal system. See [webhook](webhook.md) for more information.
 
-    notify-internal-app:
-      conditions:
-        - environment='Production'
-      actions:
-        - webhook: https://myapp.example.com/deployment/production
+```text
+notify-internal-app:
+  conditions:
+    - environment='Production'
+  actions:
+    - webhook: https://myapp.example.com/deployment/production
+```
 
 ## Deployment miscellaneous
 

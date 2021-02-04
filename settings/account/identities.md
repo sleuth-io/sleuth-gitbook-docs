@@ -1,4 +1,4 @@
-# Identities
+# Identities settings
 
 The **Identities** tab is where user-level modifications to integrations are made, if required by the integration for proper functionality. 
 
