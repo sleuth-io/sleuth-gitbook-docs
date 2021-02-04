@@ -2,7 +2,7 @@
 description: How to represent your existing deployments in Sleuth
 ---
 
-# Modeling your deployments
+# Deployment tracking
 
 Sleuth is designed to allow you to get up and running quickly with all of your existing dev, observability and CI/CD tools. Our light-weight [integrations](../integrations-1/about-integrations.md) allow you to model your existing deployments in Sleuth without having to change your flow or install any invasive libraries.
 

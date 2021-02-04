@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Getting started](README.md)
-* [Modeling your deployments](modeling-your-deployments/README.md)
+* [Deployment tracking](modeling-your-deployments/README.md)
   * [Projects](modeling-your-deployments/projects/README.md)
     * [Slack & Email Notifications](modeling-your-deployments/projects/notifications.md)
   * [Environments](modeling-your-deployments/environment-support.md)
@@ -24,10 +24,10 @@
   * [Personal notifications](slack-mission-control/personal-notifications.md)
   * [Search Sleuth in Slack](slack-mission-control/search-sleuth-in-slack.md)
   * [Developer standup](slack-mission-control/developer-standup.md)
-* [Sleuth API](sleuth-api.md)
 * [Sleuth Actions \(beta\)](actions/README.md)
   * [Cookbook](actions/cookbook.md)
   * [Webhooks](actions/webhook.md)
+* [Sleuth API](sleuth-api.md)
 
 ## Integrations <a id="integrations-1"></a>
 
