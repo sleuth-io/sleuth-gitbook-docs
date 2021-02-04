@@ -4,7 +4,7 @@ description: >-
   the health of your deploys
 ---
 
-# Auto-verify your deploys
+# Auto-verify deploys
 
 Once a deploy has shipped how does your team know if the change was good or bad? How long does it take for your team to discover this? Minutes, hours, days or weeks?
 
