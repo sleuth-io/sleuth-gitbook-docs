@@ -1,8 +1,8 @@
 # About Integrations...
 
-Integrations are what enable Sleuth to communicate with the tools in your DevOps arsenal. Sleuth is able to collect the information it needs to provide a comprehensive view of your deployments, ensuring that you always know what is happening with your code—commits, PRs, deploys, issues, errors, metrics, feature flags, authors, and so much more—and communicating successful—or failed—deployments through any [chat ops integrations ](about-integrations.md#chat-ops)you have set up. 
+Sleuth works with the tools you already have in place. Every integration has been designed to setup in Sleuth in under 5 minutes. Our **webhook** approach to [deploy registration](../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) means we support **every** possible way you deploy your code.
 
-Sleuth acts as a mission control so that you can have a single place to monitor your deployed applications, and know instantly when something goes wrong and where you need to go to fix it. 
+Integrations are what enable Sleuth to communicate with the tools in your DevOps arsenal. Sleuth is able to collect the information it needs to provide a comprehensive view of your deployments, ensuring that you always know what is happening with your code—commits, PRs, deploys, issues, errors, metrics, feature flags, authors, and so much more—and communicating successful—or failed—deployments through any [chat ops integrations ](about-integrations.md#chat-ops)you have set up. 
 
 Sleuth communicates with your tools via the APIs they provide. You will need access to your tools' API keys so that Sleuth can connect to your integrations and obtain the information it needs to build a comprehensive overview of your applications' health. 
 
