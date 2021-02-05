@@ -10,3 +10,7 @@ And you'll see a dialog that when submitted, reports your standup to the channel
 
 ![](../.gitbook/assets/slack-or-dev-or-sleuth-2021-02-04-13-19-47.png)
 
+{% embed url="https://www.youtube.com/embed/mHHC6vNgULw" %}
+
+
+
