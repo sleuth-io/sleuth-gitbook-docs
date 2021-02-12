@@ -12,5 +12,17 @@ Even better, if your team is using [auto-deploy verification](../auto-verify-you
 
 Personal notifications aren't just for Developers. Sleuth will alert anyone involved in the [issues](../integrations-1/issue-trackers/) deployed as well. If you are PM or Designer that's trying to understand when work is really hitting your customers, Sleuth is your best friend.
 
+## Slack deploy summaries
+
+Sleuth provides individuals a daily, weekly, bi-weekly or monthly summary of what was deployed, delivered right to you via Slack!
+
+These can be configured via the [project](../modeling-your-deployments/projects/) or [deployment](../modeling-your-deployments/code-deployments/) dashboards.
+
+![](../.gitbook/assets/sleuth-sleuth-command-center-sleuth-2021-02-12-13-24-06.png)
+
+Once enabled you'll receive the same rich deploy Slack notifications you've come to expect from Sleuth delivered right to you.
+
+![](../.gitbook/assets/slack-or-sleuth-dev-or-sleuth-2021-02-12-13-18-56.png)
+
 {% page-ref page="../settings/account/notifications.md" %}
 
