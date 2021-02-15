@@ -27,6 +27,7 @@
   * [Team notifications](slack-mission-control/team-notifications.md)
   * [Personal notifications](slack-mission-control/personal-notifications.md)
   * [Search Sleuth in Slack](slack-mission-control/search-sleuth-in-slack.md)
+  * [Project/Deployment history](slack-mission-control/project-deployment-history.md)
   * [Developer standup](slack-mission-control/developer-standup.md)
 * [Sleuth API](sleuth-api.md)
 
