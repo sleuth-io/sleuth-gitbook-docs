@@ -62,6 +62,10 @@ Slug of the code deployment
 {% endapi-method-path-parameters %}
 
 {% api-method-form-data-parameters %}
+{% api-method-parameter name="tags" type="string" required=false %}
+A comma-delimited list of tags. Defaults to tags calculated by matching paths defined in your .sleuth/TAGS file
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="environment" type="string" required=false %}
 String defining the environment to register the deploy against. If not provided Sleuth will use the default environment of the Project
 {% endapi-method-parameter %}
@@ -140,6 +144,10 @@ Slug of the project that you're registering a deploy to
 {% endapi-method-path-parameters %}
 
 {% api-method-form-data-parameters %}
+{% api-method-parameter name="tags" type="string" required=false %}
+A comma-delimited list of tag
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="api\_key" type="string" required=true %}
 Located in the _Organization Settings &gt; Details &gt; Api Key_ field
 {% endapi-method-parameter %}
