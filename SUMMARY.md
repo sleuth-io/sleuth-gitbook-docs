@@ -47,6 +47,7 @@
     * [Rollbar](integrations-1/impact-sources/errors/rollbar.md)
     * [Sentry](integrations-1/impact-sources/errors/sentry.md)
   * [Metric trackers](integrations-1/impact-sources/metrics/README.md)
+    * [AWS CloudWatch](integrations-1/impact-sources/metrics/aws-cloudwatch.md)
     * [Custom](integrations-1/impact-sources/metrics/custom.md)
     * [Datadog](integrations-1/impact-sources/metrics/datadog.md)
     * [NewRelic](integrations-1/impact-sources/metrics/newrelic.md)
