@@ -6,7 +6,7 @@
 Health verification is different from alerting! Alerting is for when your system is in strife and the on-call must be contacted. Impact lets you know when a metrics has changed in a significant way. For example, a new code change cause 5% more memory to be used. This may not breach an alerting level but it is something the developer who made the change should know and choose to accept or to fix.
 {% endhint %}
 
-Metrics trackers such as [Datadog](../integrations-1/impact-sources/metrics/datadog.md), [NewRelic](../integrations-1/impact-sources/metrics/newrelic.md) and [SignalFx](../integrations-1/impact-sources/metrics/signalfx.md) allow users to specify a query, specific to the provider, that allows you us retrieve complex data and transforms from the system. When [creating a Metric impact](../settings/project/impact.md) in Sleuth we will ask for a query that defines the value we will track:
+Metrics trackers such as [AWS CloudWatch](../integrations-1/impact-sources/metrics/aws-cloudwatch.md), [Datadog](../integrations-1/impact-sources/metrics/datadog.md), [NewRelic](../integrations-1/impact-sources/metrics/newrelic.md) and [SignalFx](../integrations-1/impact-sources/metrics/signalfx.md) allow users to specify a query, specific to the provider, that allows you us retrieve complex data and transforms from the system. When [creating a Metric impact](../settings/project/impact.md) in Sleuth we will ask for a query that defines the value we will track:
 
 ![](../.gitbook/assets/add-metric-impact-source-sleuth-2021-02-01-17-15-21.png)
 
