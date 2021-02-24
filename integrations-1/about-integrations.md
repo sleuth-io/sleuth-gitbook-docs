@@ -10,6 +10,7 @@ Sleuth communicates with your tools via the APIs they provide. You will need acc
 
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |
+| [AWS CloudWatch](impact-sources/metrics/aws-cloudwatch.md) | Impact metric tracking | Metrics tracker |
 | [Bitbucket](code-deployment/bitbucket.md) | Code deploys | Code deployments as a change source |
 | [Bugsnag](impact-sources/errors/bugsnag.md) | Impact error tracking | Error tracker |
 | [Custom impact](impact-sources/metrics/custom.md) | Impact metric tracking | Submit custom metrics |

@@ -4,6 +4,7 @@
 
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |
+| [AWS CloudWatch](metrics/aws-cloudwatch.md) | Metrics |  |
 | [Bugsnag](errors/bugsnag.md) | Errors |  |
 | [Custom Metrics](metrics/custom.md) | Metrics |  |
 | [Datadog](metrics/datadog.md) | Metrics |  |
