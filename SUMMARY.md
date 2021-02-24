@@ -23,6 +23,7 @@
 * [Deploy workflows \(beta\)](actions/README.md)
   * [Cookbook](actions/cookbook.md)
   * [Webhooks](actions/webhook.md)
+  * [Trigger builds](actions/trigger_build.md)
 * [Slack mission control](slack-mission-control/README.md)
   * [Team notifications](slack-mission-control/team-notifications.md)
   * [Personal notifications](slack-mission-control/personal-notifications.md)
