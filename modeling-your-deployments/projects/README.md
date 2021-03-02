@@ -12,7 +12,7 @@ A project gives you a high-level view of all the changes and deploys happening w
 * Configure Slack or Email deploy [notifications for your team or individuals](notifications.md)
 * Know the health and Impact of your deploys via your key SLIs
 
-![Your project command center](../../.gitbook/assets/601240104dc959013a33895d_sleuth-project-dashboard-view.png)
+![Your project command center](../../.gitbook/assets/601240104dc959013a33895d_sleuth-project-dashboard-view%20%282%29%20%282%29%20%281%29%20%283%29.png)
 
 {% page-ref page="../../settings/project/" %}
 

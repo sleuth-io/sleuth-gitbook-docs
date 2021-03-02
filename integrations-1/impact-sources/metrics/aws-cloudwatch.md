@@ -14,7 +14,7 @@ To add the Sleuth CloudWatch integration:
 * Press **Save**. 
 
 {% hint style="info" %}
-The AWS Secret and Access key can be added to an AWS user. The user only requires the permissions: CloudWatch: List, Read and CloudWatch Logs: List, Read.
+The AWS Secret and Access key can be added to an AWS user. The user only requires the permissions: CloudWatch: List, Read.
 
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/id\_users\_create.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
 {% endhint %}
