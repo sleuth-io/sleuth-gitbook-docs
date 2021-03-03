@@ -46,3 +46,32 @@ That's it! Sleuth will now start verifying your deploys health by tracking the v
 
 The AWS CloudWatch integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the AWS CloudWatch integration will be lost.
 
+
+
+### Adding Impact
+
+1. Click +Add under IMPACT SOURCES in left sidebar
+2. Select CloudWatch from dropdown and click "Enable and add"
+
+Query defines which metric the impact will track. There are 2 ways to specify your metric query:
+
+* **If you are familiar with AWS** you can write the query parameters in the prefilled format
+
+![](../../../.gitbook/assets/screenshot-2021-03-03-at-18.41.12.png)
+
+* **Find query through CloudWatch UI**
+
+1. Log in to AWS CloudWatch management console
+2. Click on **Metrics** in left sidebar
+3. Click through metric groups cards and select the metric you want your impact to track
+
+![](../../../.gitbook/assets/image%20%285%29.png)
+
+   ****4. Make sure **only 1 metric** is graphed, click **Source** and **copy-paste** the JSON to Sleuth
+
+![](../../../.gitbook/assets/image.png)
+
+
+
+\*\*\*\*
+
