@@ -55,11 +55,13 @@ The AWS CloudWatch integration is disconnected and no longer available to any pr
 
 Query defines which metric the impact will track. There are 2 ways to specify your metric query:
 
-* **If you are familiar with AWS** you can write the query parameters in the prefilled format
+#### **If you are familiar with AWS**
+
+you can write the query parameters in the prefilled format
 
 ![](../../../.gitbook/assets/screenshot-2021-03-03-at-18.41.12.png)
 
-* **Find query through CloudWatch UI**
+#### **Find query through CloudWatch UI**
 
 1. Log in to AWS CloudWatch management console
 2. Click on **Metrics** in left sidebar
