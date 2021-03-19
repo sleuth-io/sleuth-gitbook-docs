@@ -28,4 +28,5 @@ Sleuth communicates with your tools via the APIs they provide. You will need acc
 | [Sentry](impact-sources/errors/sentry.md) | Impact error tracking | Error tracker |
 | [SignalFx](impact-sources/metrics/signalfx.md) | Impact metric tracking | Metrics tracker |
 | [Slack](slack.md) | Notifications and control | Notify your entire team or specific individuals |
+| [Terraform Cloud](https://www.terraform.io/cloud) | Code deploys | Automatically register a deploy via a Webhook |
 

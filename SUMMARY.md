@@ -39,6 +39,7 @@
   * [Bitbucket](integrations-1/code-deployment/bitbucket.md)
   * [GitHub](integrations-1/code-deployment/github.md)
   * [GitLab](integrations-1/code-deployment/gitlab.md)
+  * [Terraform Cloud](integrations-1/code-deployment/terraform-cloud.md)
 * [Feature flag integrations](integrations-1/feature-flags/README.md)
   * [LaunchDarkly](integrations-1/feature-flags/launchdarkly.md)
 * [Impact integrations](integrations-1/impact-sources/README.md)
