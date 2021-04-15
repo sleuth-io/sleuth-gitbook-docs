@@ -12,5 +12,5 @@ With your organization dashboard you can:
 * See the overall [health](../auto-verify-your-deploys/) of your organizations deploys 
 * Get a snapshot view into exactly what's been changing across your [projects](projects/)
 
-Your organization dashboard can be accessed vial the options in the top right Organization switcher by choosing the "Organization dashboard" link from the menu.
+Your organization dashboard can be accessed via the options in the top right Organization switcher by choosing the "Organization dashboard" link from the menu.
 
