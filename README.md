@@ -10,7 +10,7 @@ description: >-
 
 Sleuth is deployment mission control for developers.
 
-![Sleuth&apos;s command center, see your deploys in 5 minutes or less!](.gitbook/assets/601240104dc959013a33895d_sleuth-project-dashboard-view%20%282%29.png)
+![Sleuth&apos;s command center, see your deploys in 5 minutes or less!](.gitbook/assets/shadow_screenshot%20%282%29.png)
 
 ## Setup [deployment tracking](modeling-your-deployments/) in 5 minutes
 
@@ -57,7 +57,7 @@ Verify the health of your deploys by integrating your Observability and setting 
 {% tab title="Step 5 - Done!" %}
 #### Take control with your Sleuth Command Center!
 
-![](.gitbook/assets/601240104dc959013a33895d_sleuth-project-dashboard-view%20%282%29%20%282%29%20%281%29%20%283%29%20%282%29.png)
+![](.gitbook/assets/shadow_screenshot%20%281%29.png)
 {% endtab %}
 {% endtabs %}
 
