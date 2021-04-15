@@ -2,6 +2,7 @@
 
 * [Getting started](README.md)
 * [Deployment tracking](modeling-your-deployments/README.md)
+  * [Organization](modeling-your-deployments/organization.md)
   * [Projects](modeling-your-deployments/projects/README.md)
     * [Issue trackers](modeling-your-deployments/projects/issue-trackers.md)
     * [Slack & Email Notifications](modeling-your-deployments/projects/notifications.md)
