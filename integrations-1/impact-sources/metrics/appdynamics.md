@@ -6,7 +6,7 @@ AppDynamics is a Business Observability Platform gives you a powerful view into 
 
 ## Setting up the integration
 
-To add the Sleuth CloudWatch integration:
+To add the Sleuth AppDynamics integration:
 
 * Click **Integrations** in the sidebar.
 * Click the _Metric Trackers_ tab, then **enable** in the AppDynamics card.
@@ -27,7 +27,8 @@ To add the Sleuth CloudWatch integration:
 Integrations are made at the Sleuth organization level, and are available for all projects within that organization. Individual settings for an integration are made at the project level.  
 {% endhint %}
 
-That's it! Sleuth will now start verifying your deploys health by tracking the values from your CloudWatch metric. Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs.
+That's it! Sleuth will now start verifying your deploys health by tracking the values from your AppDynamics metric. 
+Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs.
 
 ## Removing the integration
 
@@ -36,7 +37,8 @@ That's it! Sleuth will now start verifying your deploys health by tracking the v
 1. Click on **Integrations** in the left sidebar, then on **Metric Trackers**. 
 2. In the AppDynamics integration card, click **disable**.
 
-TheAppDynamics integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the AppDynamics integration will be lost.
+The AppDynamics integration is disconnected and no longer available to any projects within that organization. Any 
+project-level modifications you made to the AppDynamics integration will be lost.
 
 
 
