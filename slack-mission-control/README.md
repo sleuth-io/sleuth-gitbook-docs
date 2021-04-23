@@ -2,7 +2,7 @@
 
 Slack is where developers live, Sleuth understands this and provides a deep Slack integration so you can get the right notifications and get your deploy-related work done without having to leave Slack.
 
-![Team notifications on Deploy](../.gitbook/assets/slack-or-deploys-or-sleuth-2021-02-04-11-01-28%20%281%29%20%281%29.png)
+![Team notifications on Deploy](../.gitbook/assets/slack-or-deploys-or-sleuth-2021-02-04-11-01-28%20%281%29%20%281%29%20%281%29.png)
 
 Sleuth's [Slack integration](../integrations-1/slack.md) is your mission control for all your deploy needs, providing:
 

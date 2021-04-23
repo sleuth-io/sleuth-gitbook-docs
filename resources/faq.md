@@ -2,9 +2,17 @@
 
 ## How does Sleuth handle security and protect my data?
 
-You can read about how Sleuth secures and manages your data in the [Sleuth Trust Center](https://www.sleuth.io/trust).  
+Sleuth is SOC2 Type 2 certified. You can read about how Sleuth secures and manages your data in the [Sleuth Trust Center](https://www.sleuth.io/trust). 
 
 Additionally, when you dissolve an integration, Sleuth purges all data, including any API keys/tokens, username/passwords, and any other information it needed to access your integration data.
+
+## How can I allow Sleuth to connect to resources behind my firewall?
+
+Sleuth connects to many different systems to provide your full deployment picture. Some of these systems such as Github Enterprise, Jira and others may live behind a corporate firewall. Sleuth maintains three \(for AZ redundancy\) NAT gateways which all outbound traffic will originate from. To allow Sleuth to connect to your protected resources you will want to allow these IP addresses through your firewall:
+
+* 52.42.95.252
+* 44.225.94.110
+* 54.148.48.201
 
 ## How are environments represented in Sleuth?
 
