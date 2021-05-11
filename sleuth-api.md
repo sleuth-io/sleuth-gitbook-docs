@@ -62,6 +62,10 @@ Slug of the code deployment
 {% endapi-method-path-parameters %}
 
 {% api-method-form-data-parameters %}
+{% api-method-parameter name="ignore\_if\_duplicate" type="string" required=false %}
+If the value is provided and set to "true" Sleuth won't return a 400 if we see a SHA that has already been registered
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="tags" type="string" required=false %}
 A comma-delimited list of tags. Defaults to tags calculated by matching paths defined in your .sleuth/TAGS file
 {% endapi-method-parameter %}
