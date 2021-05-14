@@ -6,13 +6,13 @@ description: >-
 
 # Getting started
 
-## Trust your deploys. Always be shipping.
+## Sleuth is a deployment-based metrics tracker.
 
-Sleuth is deployment mission control for developers.
+Sleuth tracks Accelerate metrics by way of tracking deployments, making it a useful tool for both developers and managers alike.
 
 ![Sleuth&apos;s command center, see your deploys in 5 minutes or less!](.gitbook/assets/shadow_screenshot%20%282%29%20%282%29.png)
 
-## Setup [deployment tracking](modeling-your-deployments/) in 5 minutes
+## Setup [deployment & metrics tracking](modeling-your-deployments/) in 5 minutes
 
 Getting started with **Sleuth** takes about 5 minutes. Link your code and Sleuth will instantly begin to track  your deploys.
 
