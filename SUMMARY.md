@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting started](README.md)
+* [Accelerate metrics](accelerate-metrics.md)
 * [Deployment tracking](modeling-your-deployments/README.md)
   * [Organization](modeling-your-deployments/organization.md)
   * [Projects](modeling-your-deployments/projects/README.md)
