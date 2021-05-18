@@ -28,6 +28,7 @@
   * [Webhooks](actions/webhook.md)
   * [Trigger builds](actions/trigger_build.md)
 * [Slack mission control](slack-mission-control/README.md)
+  * [Approvals](slack-mission-control/approvals.md)
   * [Team notifications](slack-mission-control/team-notifications.md)
   * [Personal notifications](slack-mission-control/personal-notifications.md)
   * [Search Sleuth in Slack](slack-mission-control/search-sleuth-in-slack.md)
