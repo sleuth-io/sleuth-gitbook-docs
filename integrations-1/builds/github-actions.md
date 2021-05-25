@@ -8,8 +8,6 @@ The Github Actions integration provides Sleuth with the ability to track your Gi
 
 Github Actions integration reuses the same credentials used to connect [Github Code Deployment integration](../code-deployment/github.md).
 
-
-
 ## Configuring the integration
 
 To configure the Github Actions integration, you will need to set a default build server: 
