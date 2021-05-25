@@ -24,6 +24,10 @@ Specify a name for your approval, select the _Staging_ environment \(because we 
 
 Under _Action_, select the action that should be executed once the approval is successfully approved. In our case, we want to approve an existing preconfigured CircleCI build that will promote that same code to _Production_.
 
+The most powerful way to use approvals is to have an action that triggers a CI/CD build. In this way you can use Sleuth to define your deployment workflow. See our documentation on how to configure build triggers for more details.
+
+{% page-ref page="../actions/trigger\_build/" %}
+
 Once you're happy with the configuration, move to the final step by clicking _Next_ again.
 
 ![](../.gitbook/assets/step3.png)
