@@ -4,5 +4,7 @@
 
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |
+| [Bitbucket Pipelines](bitbucket-pipelines.md) | CI/CD |  |
 | [CircleCI](circleci.md) | CI/CD |  |
+| [Github Actions](github-actions.md) | CI/CD |  |
 
