@@ -9,6 +9,7 @@ The `trigger_build` action is best used in concert with Sleuth's [Slack based Ap
 | ​[Bitbucket Pipelines](trigger-build-bb-pipelines.md)​ |
 | ​[CircleCI](trigger-build-circleci.md)​ |
 | ​[Github Actions](trigger-build-gh-actions.md)​ |
+| [Jenkins](jenkins.md) |
 
 
 
