@@ -20,11 +20,8 @@ tracking deploys for your code changes.
 To configure the custom Git integration: 
 
 1. Start the process for creating a new code deployment (see [instructions](../../settings/project/code-deployments.md))
-2. If this is your first repository, select **Custom** in the repository type dropdown list. If instead you were taken
-   to the repository selector page, click on the **connect** link in the right sidebar, and then select **Custom** 
-   in the repository type dropdown list.
+2. If this is your first repository, select **Custom** in the repository type dropdown list. If instead you were taken to the repository selector page, click on the **connect** link in the right sidebar, and then select **Custom** in the repository type dropdown list.
 3. Enter the code deployment name and click **create** to create the code deployment source.
-4. Finally, click on the link in the "Waiting for new deploy" instructions to see how to use the [Sleuth CLI client](https://github.com/sleuth-io/sleuth-client) 
-   or API directly to register deploys.
+4. Finally, click on the link in the "Waiting for new deploy" instructions to see how to use the [Sleuth CLI client](https://github.com/sleuth-io/sleuth-client) or API directly to register deploys.
 
 
