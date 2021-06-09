@@ -4,6 +4,7 @@
 
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |
+| [AppDynamics](metrics/appdynamics.md) | Metrics |  |
 | [AWS CloudWatch](metrics/aws-cloudwatch.md) | Metrics |  |
 | [Bugsnag](errors/bugsnag.md) | Errors |  |
 | [Custom Metrics](metrics/custom.md) | Metrics |  |
