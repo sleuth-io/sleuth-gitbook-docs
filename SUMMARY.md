@@ -10,6 +10,7 @@
   * [Environments](modeling-your-deployments/environment-support.md)
   * [Code deployments](modeling-your-deployments/code-deployments/README.md)
     * [How to register a deploy](modeling-your-deployments/code-deployments/how-to-register-a-deploy.md)
+    * [Rollbacks](modeling-your-deployments/code-deployments/rollbacks.md)
     * [Automatic tagging](modeling-your-deployments/code-deployments/tags.md)
     * [Deployment locking](modeling-your-deployments/code-deployments/deployment-locking.md)
     * [Environment drift](modeling-your-deployments/code-deployments/environment-drift.md)
