@@ -15,8 +15,8 @@ These are the four different roles a Sleuth user can assume:
 | **Owner** | The organization owner that cannot be removed. An organization will always have one, and only one, owner. **This account cannot be deleted.**  |
 | **Administrator** | Can do anything. Can do the same thing as an Owner. Multiple Administrators can be created, and Administrators can be removed. |
 | **Developer** | Can add integrations, deployments, but not add, remove, or manage any users. |
-| **Observer** | Can only view deployment information. Observers cannot change anything. **You are not billed for Observers.** |
-| **Billing** | Can manage an organizations billing and will receive invoice emails. Has the same privileges as **Observer. You are not billed for Billing users.** |
+| **Observer** | Can only view deployment information. Observers cannot change anything. |
+| **Billing** | Can manage an organizations billing and will receive invoice emails. **You are not billed for Billing users.** |
 
 Login to your Sleuth account \(but only if you're an Owner or Administrator\), then go to _**Organization Settings &gt; Members**_, then select the cog dropdown next to the user to change their role:
 

@@ -15,7 +15,7 @@ Contact us at [support@sleuth.io](mailto:support@sleuth.io) to request an extens
 | Edition | Description |
 | :--- | :--- |
 | **Free** | For three team members, one project and two environments |
-| **Standard** | Unlimited projects,  Monthly billing at $10/user, unlimited free Observers |
+| **Standard** | Unlimited projects,  Monthly billing at $24/user, Annual billing at $20/user |
 | **Enterprise** | Contact us for pricing to meet your team’s needs. Includes annual and user-based pricing options. |
 
 For more detailed pricing information, visit our [Pricing page](https://www.sleuth.io/pricing). 
