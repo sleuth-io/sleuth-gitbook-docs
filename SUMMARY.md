@@ -80,7 +80,9 @@
 
 * [Organization settings](settings/organization/README.md)
   * [Details](settings/organization/details.md)
-  * [Authentication](settings/organization/signup.md)
+  * [Authentication](settings/organization/signup/README.md)
+    * [SAML 2.0 Setup](settings/organization/signup/saml/README.md)
+      * [Okta configuration](settings/organization/signup/saml/okta-configuration.md)
   * [Members](settings/organization/members.md)
   * [Billing](settings/organization/billing.md)
 * [Project settings](settings/project/README.md)

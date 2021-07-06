@@ -9,7 +9,7 @@ The following settings can be configured for the Sleuth organization:
 | Setting | Description |
 | :--- | :--- |
 | \*\*\*\*[**Details**](details.md)\*\*\*\* | General information about the organization |
-| \*\*\*\*[**Authentication**](signup.md)\*\*\*\* | Set the email domain for auto-joining by new members |
+| \*\*\*\*[**Authentication**](signup/)\*\*\*\* | Set the email domain for auto-joining by new members |
 | \*\*\*\*[**Members**](members.md)\*\*\*\* | Manage invitations and member roles for your organization |
 | \*\*\*\*[**Billing**](billing.md)\*\*\*\* | Choose a new Sleuth plan for your organization |
 
