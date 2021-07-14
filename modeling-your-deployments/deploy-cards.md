@@ -12,7 +12,7 @@ Deploys are how Sleuth represents the changes that are made from your [code depl
 * A timeline of all the deploy events
 * The Impact attributed to the change and the Sleuth, auto-determined, health of the deploy
 
-![](../.gitbook/assets/6012410be32332b704af82d5_deploy-details-view.png)
+![](../.gitbook/assets/sleuth-sleuth-e0e7270-2021-07-13-16-56-46.png)
 
 ## Deploy card timeline icons
 

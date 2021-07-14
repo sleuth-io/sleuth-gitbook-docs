@@ -2,7 +2,7 @@
 
 **Projects** are the main container that Sleuth uses to organize your deployments. For example, a project can correlate to a product that your company offers, a collection of micro services or any collection of [deployments](../code-deployments/), [environments](../environment-support.md) and impact that models how you work.
 
-A project gives you a high-level view of all the changes and deploys happening within. With your project you can:
+A project gives you a high-level view your Accelerate \(DORA\) metrics and of all the changes and deploys happening within. With your project you can:
 
 * See, at a glance, if it's safe to deploy your next change
 * Track your Project's Accelerate DevOps metrics
@@ -12,7 +12,9 @@ A project gives you a high-level view of all the changes and deploys happening w
 * Configure Slack or Email deploy [notifications for your team or individuals](notifications.md)
 * Know the health and Impact of your deploys via your key SLIs
 
-![Your project command center](../../.gitbook/assets/shadow_screenshot%20%282%29%20%282%29.png)
+![Your metrics and the insights to improve](../../.gitbook/assets/sleuth-sleuth-sleuth-2021-07-13-14-44-27%20%282%29.png)
+
+![Your project status command center](../../.gitbook/assets/sleuth-sleuth-2021-07-13-16-49-28.png)
 
 {% page-ref page="../../settings/project/" %}
 

@@ -1,7 +1,11 @@
 # Table of contents
 
 * [Getting started](README.md)
-* [Accelerate metrics](accelerate-metrics.md)
+* [Accelerate metrics](accelerate-metrics/README.md)
+  * [Change lead time](accelerate-metrics/change-lead-time.md)
+  * [Deploy frequency](accelerate-metrics/deploy-frequency.md)
+  * [Change failure rate](accelerate-metrics/change-failure-rate.md)
+  * [MTTR](accelerate-metrics/mttr.md)
 * [Deployment tracking](modeling-your-deployments/README.md)
   * [Organization](modeling-your-deployments/organization.md)
   * [Projects](modeling-your-deployments/projects/README.md)

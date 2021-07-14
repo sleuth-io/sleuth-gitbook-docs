@@ -15,5 +15,5 @@ Sleuth automatically detects rollbacks. Sleuth looks at the revision being deplo
 
 ![](../../.gitbook/assets/sleuth-sleuth-f976d31-2021-06-24-15-13-10.png)
 
-Rollbacks, by default, are counted as a failure when determining your [Change failure rate](../../accelerate-metrics.md#change-failure-rate-and-mttr). 
+Rollbacks, by default, are counted as a failure when determining your [Change failure rate](../../accelerate-metrics/#change-failure-rate-and-mttr). 
 
