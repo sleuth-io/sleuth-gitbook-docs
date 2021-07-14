@@ -1,6 +1,6 @@
 # MTTR
 
-![](../.gitbook/assets/screen-shot-2021-07-13-at-4.27.13-pm.png)
+![](../.gitbook/assets/screen-shot-2021-07-14-at-11.11.56-am.png)
 
 **Mean time to recovery or MTTR** is defined in Sleuth as the time a project spends in a failure state. 
 

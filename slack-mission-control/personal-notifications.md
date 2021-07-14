@@ -24,5 +24,3 @@ Once enabled you'll receive the same rich deploy Slack notifications you've come
 
 ![](../.gitbook/assets/slack-or-sleuth-dev-or-sleuth-2021-02-12-13-18-56.png)
 
-{% page-ref page="../settings/account/notifications.md" %}
-

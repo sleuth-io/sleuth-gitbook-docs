@@ -8,5 +8,3 @@ Sleuth allows a simple mapping between [LaunchDarkly environments](https://docs.
 
 Feature flag changes also trigger automatic health verification when you've setup Impact Sources.
 
-{% page-ref page="../settings/project/feature-flags.md" %}
-

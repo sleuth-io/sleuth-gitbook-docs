@@ -12,5 +12,3 @@ Sleuth is flexible and allows you to map your Environments to your code in the w
 
 ![](../.gitbook/assets/branch_mapping%20%281%29%20%281%29.png)
 
-{% page-ref page="../settings/project/environments.md" %}
-

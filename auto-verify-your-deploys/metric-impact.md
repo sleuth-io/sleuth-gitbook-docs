@@ -12,5 +12,3 @@ Metrics trackers such as [AWS CloudWatch](../integrations-1/impact-sources/metri
 
 You will need to be familiar with your metrics providers query language to configure a metric impact in Sleuth. Sleuth allows you to test your query to make sure we'll get the right values for your metric.
 
-{% page-ref page="../integrations-1/impact-sources/metrics/" %}
-

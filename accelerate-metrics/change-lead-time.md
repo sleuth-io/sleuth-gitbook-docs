@@ -15,17 +15,17 @@ The Sleuth project metrics dashboard shows the average lead time for all deploys
 * Review time - the time spent from first review to the pull request being merged
 * Deploying - the time spent from pull request merge to deployment
 
-In addition to the averages you find on the metrics dashboard you can always see exactly where time was spent for each deploy via the deploy details view.
+In addition to the averages found on the metrics dashboard you can always see exactly where time was spent for each deploy via its detailed view.
 
 ![](../.gitbook/assets/sleuth-sleuth-d742c80-2021-07-13-15-28-10.png)
 
-For a more detailed breakdown, from issue creation to deploy verification you can always consult the [timeline](https://help.sleuth.io/modeling-your-deployments/deploy-cards#deploy-card-timeline-icons) for each deploy.
+For a more detailed timeline, including events from issue creation to deploy verification, you can always consult the [timeline](https://help.sleuth.io/modeling-your-deployments/deploy-cards#deploy-card-timeline-icons) for each deploy.
 
 ## Feature flags and change lead time
 
-Sleuth [supports feature flags](../modeling-your-deployments/feature-flags.md) as a first class form of change. That said, feature flags are an instantaneous change to your running deployments. Therefore feature flags don't really have a lead time or breakdown. Sleuth excludes feature flag changes from the lead time graph and associated deploy list. 
+Sleuth [supports feature flags](../modeling-your-deployments/feature-flags.md) as a first class form of change. That said, feature flags are an instantaneous change to your running deployments. Therefore feature flags don't have a lead time or breakdown. Sleuth excludes feature flag changes from the lead time graph and associated deploy list. 
 
 ## Setting up change lead time
 
-Sleuth uses our [code integrations](https://help.sleuth.io/integrations-1/code-deployment) \(Github, Bitbucket, Gitlab, etc\) coupled with our [deployment tracking](../modeling-your-deployments/) to build a complete picture of your team's lead time, the time from first commit to deploy. Once you've connected our code to Sleuth and setup your first [Code Deployment](../modeling-your-deployments/code-deployments/) Sleuth will automatically track your change lead time for each deploy.
+Sleuth uses our [code integrations](https://help.sleuth.io/integrations-1/code-deployment) \(Github, Bitbucket, Gitlab, etc\) coupled with our [deployment tracking](../modeling-your-deployments/) to build a complete picture of your team's lead time, the time from first commit to deploy. Once you've connected your code to Sleuth and setup your first [Code Deployment](../modeling-your-deployments/code-deployments/) Sleuth automatically tracks your change lead time for each deploy.
 

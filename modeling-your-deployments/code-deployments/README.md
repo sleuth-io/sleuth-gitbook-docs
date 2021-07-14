@@ -13,9 +13,3 @@ Sleuth uses your code repositories as its main sources of change. Setting up a c
 
 ![](../../.gitbook/assets/sleuth-sleuth-sleuth-2021-07-13-16-54-07.png)
 
-{% page-ref page="how-to-register-a-deploy.md" %}
-
-{% page-ref page="../../integrations-1/code-deployment/" %}
-
-{% page-ref page="../../settings/project/code-deployments.md" %}
-

@@ -15,5 +15,3 @@ Project level team Slack notifications provide the context your team needs to ke
 
 Team notifications are flexible and Sleuth allows you to configure a different channel for each Sleuth [environment](../modeling-your-deployments/environment-support.md).
 
-{% page-ref page="../settings/project/slack-notifications.md" %}
-

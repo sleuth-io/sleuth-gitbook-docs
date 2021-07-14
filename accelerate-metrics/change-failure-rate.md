@@ -1,8 +1,8 @@
 # Change failure rate
 
-![](../.gitbook/assets/screen-shot-2021-07-13-at-4.06.14-pm.png)
+![](../.gitbook/assets/screen-shot-2021-07-14-at-11.10.15-am.png)
 
-What a team defines as **change failure** is very specific to the team. It can be as broad as a change that causes a hard-down incident or as fine as deviation from norm of a business metric. Sleuth allows teams to flexibly define what failure means to them by defining change failure via [deploy verification](../auto-verify-your-deploys/) and impact tracking.
+What a team defines as **change failure** is very specific to the team. It can be as broad as a change causing a hard-down incident or as fine as a business metric deviating from its norm. Sleuth allows teams to flexibly define what failure means to them via [deploy verification](../auto-verify-your-deploys/) and impact tracking.
 
 ## Change failure breakdowns
 
@@ -25,7 +25,7 @@ Every deployment, feature flags included, has an advanced setting that allows yo
 
 Sleuth's change failure is calculated at the [Project](../modeling-your-deployments/projects/) level. By default Sleuth considers any deploys marked as `Unhealthy` as a failure. You can change the failure level in your project settings. If your team would only like to count Incidents as failure then set the failure level to `Incident`.
 
-Sleuth's [deploy verification](../auto-verify-your-deploys/) allows you to integrate error trackers, such as Sentry and Rollbar, metrics trackers, like AWS CloudWatch and Datadog and incident trackers, like Statuspage and Pagerduty _\(coming soon\)_. When Sleuth auto-verifies a deploy as Unhealthy that deploy is considered a failure. Setting a deploy to Unhealthy manually will also be considered a failure. Sleuth also supports code deploy [rollbacks](../modeling-your-deployments/code-deployments/rollbacks.md). Rollbacks also count as change failure. 
+Sleuth's [deploy verification](../auto-verify-your-deploys/) allows you to integrate error trackers, such as Sentry and Rollbar, metrics trackers, like AWS CloudWatch and Datadog and incident trackers, like Statuspage and Pagerduty _\(coming soon\)_. When Sleuth auto-verifies a deploy as `Unhealthy` that deploy is considered a failure. Setting a deploy to `Unhealthy` manually will also be considered a failure. Sleuth also supports code deploy [rollbacks](../modeling-your-deployments/code-deployments/rollbacks.md). `Rolled back` deploys also count as change failure. 
 
 {% hint style="info" %}
 When configuring change failure rate you'll want to determine what failure means to your team. Sleuth is flexible and supports most definitions your team can conceive of. But keep in mind the data you get out about failure is only as good as that that you put in.

@@ -16,5 +16,3 @@ A project gives you a high-level view your Accelerate \(DORA\) metrics and of al
 
 ![Your project status command center](../../.gitbook/assets/sleuth-sleuth-2021-07-13-16-49-28.png)
 
-{% page-ref page="../../settings/project/" %}
-

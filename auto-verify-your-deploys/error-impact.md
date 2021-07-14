@@ -8,7 +8,5 @@ Sleuth supports the existing tools you already use such as [Sentry](../integrati
 
 Error rates are displayed on the health graphs throughout the application. 
 
-{% page-ref page="../integrations-1/impact-sources/errors/" %}
-
 
 

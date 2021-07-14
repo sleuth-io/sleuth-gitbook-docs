@@ -8,7 +8,7 @@ description: >-
 
 ![](../.gitbook/assets/sleuth-sleuth-sleuth-2021-07-13-14-48-35.png)
 
-Sleuth metrics provide a dedicated dashboard, detailed breakdowns, industry standard rankings, actionable insights and the tools your developers need to improve. Sleuth will accelerate your team's development and deployments today!
+The larger your team grows and the faster your teams move, the harder it is for engineering leaders to find _trust but verify_ moments. Sleuth metrics provide a dedicated dashboard, detailed breakdowns, industry standard rankings, actionable insights and the tools your developers need to improve. Sleuth will accelerate your team's development and deployments today!
 
 If you’re an engineering lead, Sleuth will make sure you have the insights you need to know how your team is performing, where they may be encountering bottlenecks and how to remove them.
 
