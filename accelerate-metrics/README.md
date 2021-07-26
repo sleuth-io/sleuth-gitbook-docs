@@ -6,7 +6,7 @@ description: >-
 
 # Accelerate metrics
 
-![](../.gitbook/assets/sleuth-sleuth-sleuth-2021-07-13-14-48-35.png)
+![](../.gitbook/assets/725aa425-b833-478e-8908-af92af13e8f8.png)
 
 The larger your team grows and the faster your teams move, the harder it is for engineering leaders to find _trust but verify_ moments. Sleuth metrics provide a dedicated dashboard, detailed breakdowns, industry standard rankings, actionable insights and the tools your developers need to improve. Sleuth will accelerate your team's development and deployments today!
 

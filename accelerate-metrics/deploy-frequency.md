@@ -1,6 +1,6 @@
 # Deploy frequency
 
-![](../.gitbook/assets/screen-shot-2021-07-14-at-11.08.26-am.png)
+![](../.gitbook/assets/60f24adafb2736b233e3ca91_metrics-graphic-2-1-.svg)
 
 Sleuth shows you the **deploy frequency** for all [code deployments](https://app.gitbook.com/@sleuth/s/sleuth/~/drafts/-MeWnutYNH4HzDA3uu11/modeling-your-deployments/code-deployments) and [feature flags](https://app.gitbook.com/@sleuth/s/sleuth/~/drafts/-MeWnutYNH4HzDA3uu11/modeling-your-deployments/feature-flags) you've setup within a [project](https://app.gitbook.com/@sleuth/s/sleuth/~/drafts/-MeWnutYNH4HzDA3uu11/modeling-your-deployments/projects) and [environment](https://app.gitbook.com/@sleuth/s/sleuth/~/drafts/-MeWnutYNH4HzDA3uu11/modeling-your-deployments/environment-support). Sleuth allows you to see your deploy frequency for each [environment](https://app.gitbook.com/@sleuth/s/sleuth/~/drafts/-MeWnutYNH4HzDA3uu11/modeling-your-deployments/environment-support) you maintain.‌
 

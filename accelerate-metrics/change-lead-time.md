@@ -1,6 +1,6 @@
 # Change lead time
 
-![](../.gitbook/assets/site-design-updates-figma-2021-07-13-15-16-23.png)
+![](../.gitbook/assets/60f24adbbf9eee0ba3d16960_metrics-graphic-1-.svg)
 
 Sleuth tracks **change lead time**, defined as the time from your first commit to deploy, for all your [code deployments](https://app.gitbook.com/@sleuth/s/sleuth/~/drafts/-MeWnutYNH4HzDA3uu11/modeling-your-deployments/code-deployments) and for each configured [environment](https://app.gitbook.com/@sleuth/s/sleuth/~/drafts/-MeWnutYNH4HzDA3uu11/modeling-your-deployments/environment-support). Because Sleuth tracks deployments and not just pull requests or branches we can provide an accurate change lead time that includes all the commits and pull requests that went into a deploy.‌
 

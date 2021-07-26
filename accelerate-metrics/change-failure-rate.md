@@ -1,6 +1,6 @@
 # Change failure rate
 
-![](../.gitbook/assets/screen-shot-2021-07-14-at-11.10.15-am.png)
+![](../.gitbook/assets/60f24ada08217842ecef250b_metrics-graphic-3-.svg)
 
 What a team defines as **change failure** is very specific to the team. It can be as broad as a change causing a hard-down incident or as fine as a business metric deviating from its norm. Sleuth allows teams to flexibly define what failure means to them via [deploy verification](../auto-verify-your-deploys/) and impact tracking.
 
