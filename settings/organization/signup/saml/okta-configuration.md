@@ -17,7 +17,8 @@
    4. Paste Sleuth's **SAML Entity ID** value to "_SP Issuer"_ field
    5. Click "_Browse"_  next to "_Signature Certificate"_ and upload **Sleuth x509 certificate**
 6. Continue clicking through Okta set up until finished
-7. Upon wizard completion, you are ready to import Okta metadata into Sleuth. On the application "_Sign On_" tab right-click on "_Identity Provider metadata"_  and select "Copy Link Address" and use this as **point Sleuth to metadata file URL** _****_in the next step of setting up SAML integration: [Entering Identity Provider Metadata](./#entering-identity-provider-metadata)
+7. Upon wizard completion, you need to set **Default Relay State** in order to enable **IdP initiated login**. Click _Edit_ and enter the default relay state. You can find the value you need to enter back in Sleuth SAML configuration page under **Sleuth Service Provider data** section: **Default Relay State** 
+8. Now you are ready to import Okta metadata into Sleuth. On the application "_Sign On_" tab right-click on "_Identity Provider metadata"_  and select "Copy Link Address" and use this as **point Sleuth to metadata file URL** _****_in the next step of setting up SAML integration: [Entering Identity Provider Metadata](./#entering-identity-provider-metadata)
 
-![](../../../../.gitbook/assets/screenshot-2021-06-29-at-14.49.18.png)
+![](../../../../.gitbook/assets/screenshot-2021-08-11-at-10.20.18%20%281%29.png)
 
