@@ -59,7 +59,7 @@ Query defines which metric the impact will track. There are 2 ways to specify yo
 
 you can write the query parameters in the prefilled format
 
-![](../../../.gitbook/assets/screenshot-2021-03-03-at-18.41.12.png)
+![](../../../.gitbook/assets/screenshot-2021-08-10-at-16.51.33.png)
 
 #### **Find query through CloudWatch UI**
 
