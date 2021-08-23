@@ -4,6 +4,7 @@
 
 | Integration | Type | Additional info... |
 | :--- | :--- | :--- |
+| [Azure DevOps](azure-devops.md) | Code Deployment | Can be used a change source. |
 | [Bitbucket](bitbucket.md) | Code Deployment | Can be used a change source. |
 | [GitHub](github.md) | Code Deployment | Can be used as a change source. |
 | [GitLab](gitlab.md) | Code Deployment | Can be used as a change source. |
