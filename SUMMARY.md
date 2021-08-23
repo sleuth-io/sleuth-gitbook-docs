@@ -49,6 +49,7 @@
 
 * [About Integrations...](integrations-1/about-integrations.md)
 * [Code integrations](integrations-1/code-deployment/README.md)
+  * [Azure DevOps](integrations-1/code-deployment/azure-devops.md)
   * [Bitbucket](integrations-1/code-deployment/bitbucket.md)
   * [GitHub](integrations-1/code-deployment/github.md)
   * [GitLab](integrations-1/code-deployment/gitlab.md)
