@@ -80,6 +80,8 @@
   * [Clubhouse](integrations-1/issue-trackers/clubhouse.md)
   * [Jira](integrations-1/issue-trackers/jira.md)
   * [Linear](integrations-1/issue-trackers/linear.md)
+* [Incident tracker integrations](integrations-1/incident-tracker-integrations/README.md)
+  * [FireHydrant](integrations-1/incident-tracker-integrations/firehydrant.md)
 
 ## Settings
 
