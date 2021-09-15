@@ -1,6 +1,6 @@
 # LaunchDarkly
 
-## About the integration ![](../../.gitbook/assets/launchdarkly-logo.png) 
+## About the integration ![](../../.gitbook/assets/launchdarkly_rgb_mark-black.png) 
 
 Feature flags are an integral part of agile software development, and an important variable in deploying a successful CI/CD pipeline. Making high-impact changes with minimal risk and maximum control of your applications helps deliver quality software to your customers. 
 
