@@ -2,7 +2,7 @@
 
 ## About the integration ![](../../.gitbook/assets/firehydrant-logo.png)
 
-FireHydrant takes care of alert handoff, automatiny incident declaration and management process. Integrating FireHydrant with Sleuth is simple using dedicated bot user.
+FireHydrant takes care of alert handoff, automating incident declaration, and management process. Integrating FireHydrant with Sleuth is simple using a dedicated bot user.
 
 ## Setting up the integration
 
@@ -22,7 +22,7 @@ To add the Sleuth FireHydrant integration:
 * Configure impact source by mapping incidents FireHydrant's environment and service to Sleuth environment.
 
 {% hint style="info" %}
-Integrations are made at the Sleuth organization level, and are available for all projects within that organization. Individual settings for an integration are made at the project level.  
+Integrations are made at the Sleuth organization level and are available for all projects within that organization. Individual settings for integration are made at the project level.  
 {% endhint %}
 
 * That's it! Sleuth will now start tracking incidents declared in FireHydrant.
