@@ -33,6 +33,22 @@ rules:
         - auto_approve_build: 'test-and-deploy'
 ```
 
+### Auto-approve a specific job
+
+When you want to auto-approve a specific job in your build, because you have several approvals in your workflow.
+
+```text
+rules: 
+  - dev-to-staging:
+      conditions:
+        - environment='Staging'
+      actions:
+        - auto_approve_build:
+            build: 'test-and-deploy'
+            job: 'approve-to-staging'
+```
+
+
 ### Slack approvals-based promotion
 
 The first rule responds to the staging deployment message in Slack to let people know how to promote. The second rule fires the number of :+1: reactions is 3 or more and there are no :-1: veto votes. If successful, the deploy is promoted to production.
