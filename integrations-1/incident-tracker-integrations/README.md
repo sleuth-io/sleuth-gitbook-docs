@@ -4,5 +4,6 @@
 
 | Integration | Additional info... |
 | :--- | :--- |
+| [PagerDuty](pagerduty.md) |  |
 | [FireHydrant](firehydrant.md) | \_\_ |
 

@@ -9,7 +9,7 @@ FireHydrant takes care of alert handoff, automating incident declaration, and ma
 To add the Sleuth FireHydrant integration:
 
 * Click **Integrations** in the sidebar.
-* Click the _Incident Trackers_ tab, then **enable** in the FireHydrant card.
+* Click the _Incidents_ tab, then **add** in the FireHydrant card.
 * Enter your Bot API token 
 * Press **Save**. 
 
