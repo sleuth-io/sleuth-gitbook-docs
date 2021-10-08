@@ -14,4 +14,12 @@
 | [Rollbar](errors/rollbar.md) | Errors | \_\_ |
 | [Sentry](errors/sentry.md) | Errors |  |
 | [SignalFx](metrics/signalfx.md) | Metrics |  |
+| [Azure Pipelines](build-trackers/azure-pipelines.md) | Builds |  |
+| [Bitbucket Pipelines](build-trackers/bitbucket-pipelines.md) | Builds |  |
+| [CircleCI](build-trackers/circleci.md) | Builds |  |
+| [GitHub Actions](build-trackers/github-actions.md) | Builds |  |
+| [GitLab CI/CD](build-trackers/gitlab-ci-cd.md) | Builds |  |
+| [Jenkins](build-trackers/jenkins.md) | Builds |  |
+
+
 
