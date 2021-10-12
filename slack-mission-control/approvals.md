@@ -18,15 +18,17 @@ This will open the approval creation wizard and guide you through the process.
 
 Read the introduction and move to the second step by clicking _Next_.
 
-![](../.gitbook/assets/step2%20%281%29.png)
+![](<../.gitbook/assets/step2 (1).png>)
 
-Specify a name for your approval, select the _Staging_ environment \(because we want approvals to show up after we deploy to _Staging_\) and define various aspects of the approval dialog, such as the Slack channel to display it in.
+Specify a name for your approval, select the _Staging_ environment (because we want approvals to show up after we deploy to _Staging_) and define various aspects of the approval dialog, such as the Slack channel to display it in.
 
 Under _Action_, select the action that should be executed once the approval is successfully approved. In our case, we want to approve an existing preconfigured CircleCI build that will promote that same code to _Production_.
 
 The most powerful way to use approvals is to have an action that triggers a CI/CD build. In this way you can use Sleuth to define your deployment workflow. See our documentation on how to configure build triggers for more details.
 
-{% page-ref page="../actions/trigger\_build/" %}
+{% content-ref url="../actions/trigger_build/" %}
+[trigger_build](../actions/trigger_build/)
+{% endcontent-ref %}
 
 Once you're happy with the configuration, move to the final step by clicking _Next_ again.
 
@@ -44,7 +46,7 @@ Once a member of your team clicks _Approve_ or _Reject_, their vote will be reco
 
 ![](../.gitbook/assets/approval-after.png)
 
-If the approval is successful, the configured action\(s\) are automatically executed in the background - in this case that means our CircleCI build is approved.
+If the approval is successful, the configured action(s) are automatically executed in the background - in this case that means our CircleCI build is approved.
 
 ## Inspecting approval logs
 
@@ -53,4 +55,3 @@ Sleuth keeps track of your approvals to provide additional visibility. If you ev
 ![](../.gitbook/assets/approval-tab.png)
 
 Here, you can see which approvals were triggered by the deploy, how your team members voted on them  and what actions were triggered as a result.
-

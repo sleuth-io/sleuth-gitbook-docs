@@ -6,7 +6,7 @@ The **Impact** tab in [Project Settings](./) is where configuration changes are 
 
 ## Edit Error Impact Source
 
-To edit error impact sources, click the _edit_ dropdown in the Actions column then select **Edit** to view the _Edit Error Impact_ _Source_ screen.
+To edit error impact sources, click the _edit_ dropdown in the Actions column then select **Edit **to view the _Edit Error Impact_ _Source_ screen.
 
 {% hint style="info" %}
 Error Impact's only apply to the specified Environment. If you have an Error impact that applies to more than one Environment you must create a second one that maps to that Environment.
@@ -16,11 +16,10 @@ Error Impact's only apply to the specified Environment. If you have an Error imp
 
 ## Edit Metric Source
 
-To edit metric sources, click the _edit_ dropdown in the Actions column then select **Edit** to view the _Edit Metric_ _Source_ screen.
+To edit metric sources, click the _edit_ dropdown in the Actions column then select **Edit **to view the _Edit Metric_ _Source_ screen.
 
 {% hint style="info" %}
 Metric Impact's only apply to the specified Environment. If you have an Metric impact that applies to more than one Environment you must create a second one that maps to that Environment.
 {% endhint %}
 
 ![](../../.gitbook/assets/edit-metric-impact-source.png)
-

@@ -14,8 +14,8 @@ See [Code deployment](../../integrations-1/code-deployment/) to see which source
 
 ## Edit Code Deployments
 
-To edit code deployments, click the _edit_ dropdown in the Actions column then select **Edit** to view the _Edit Code Deployment_ screen \(shown below\).   
-  
+To edit code deployments, click the _edit_ dropdown in the Actions column then select **Edit **to view the _Edit Code Deployment_ screen (shown below). \
+\
  ![](../../.gitbook/assets/edit-code-deployment-adv-settings.png) 
 
 Make changes as needed to your code deployment. On this screen, you can: 
@@ -55,9 +55,8 @@ Selecting this checkbox lets Sleuth send Slack notification through your Slack i
 
 ### Collect impact
 
-Selecting this checkbox lets Sleuth collect impact information collected through your [error and metric impact integrations](../../integrations-1/impact-sources/). The information is collected, analyzed, then displayed in the deploy card of each deployment. You will need to configure these integrations in the error and metric impact tools themselves \(i.e., Datadog, Sentry, Rollbar, etc.\). 
+Selecting this checkbox lets Sleuth collect impact information collected through your [error and metric impact integrations](../../integrations-1/impact-sources/). The information is collected, analyzed, then displayed in the deploy card of each deployment. You will need to configure these integrations in the error and metric impact tools themselves (i.e., Datadog, Sentry, Rollbar, etc.). 
 
 ### Include in project display
 
 Selecting this checkbox displays the code deployment in the project dashboard, along with the associated stats and graphs in the deploy cards. 
-

@@ -17,7 +17,7 @@ To add the Sleuth Sentry integration:
 * Enter the Sentry Auth Token, then press **Save**. 
 
 {% hint style="info" %}
-The Sentry Auth Token can be found in Sentry, under **Settings** &gt; **Account Details** &gt; **API** &gt; **Auth Token**, as shown below. 
+The Sentry Auth Token can be found in Sentry, under **Settings **>** Account Details **>** API **>** Auth Token**, as shown below. 
 {% endhint %}
 
  
@@ -30,11 +30,11 @@ The Sentry Auth Token can be found in Sentry, under **Settings** &gt; **Account 
 
 ## Configuring the integration
 
-* Click **Add impact** to select the Sleuth project that will be processing your application errors. All projects within the organization will be displayed in the dropdown. 
+* Click **Add impact **to select the Sleuth project that will be processing your application errors. All projects within the organization will be displayed in the dropdown. 
 
 {% hint style="warning" %}
-Sleuth will not auto-populate the **Environment** field dropdown due to the way the Sentry API handles environment data. Check your Sentry project first before populating this field. Environments are created when a deployed application monitored by Sentry sends environment data \(e.g., in Javascript, the application could send`environment: 'staging'`\) back to Sentry by tagging issues via your SDK.   
-  
+Sleuth will not auto-populate the **Environment** field dropdown due to the way the Sentry API handles environment data. Check your Sentry project first before populating this field. Environments are created when a deployed application monitored by Sentry sends environment data (e.g., in Javascript, the application could send`environment: 'staging'`) back to Sentry by tagging issues via your SDK. \
+\
 For more information,[ read more](https://docs.sentry.io/enriching-error-data/environments/?platform=browser#how-to-send-environment-data) about how Sentry receives environment data. 
 {% endhint %}
 
@@ -56,4 +56,3 @@ That's it! Sleuth will now start verifying your deploys health by tracking the e
 2. In the Sentry integration card, click **disable**. The message **Sentry disabled** is displayed in the Sentry integration card once the integration is dissolved. 
 
 The Sentry integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Sentry integration will be lost.
-

@@ -8,7 +8,7 @@
 
 Sleuth's main public API is built using GraphQL. It's the same API we use internally for developing our applications.
 
-If you're new to GraphQL, Apollo has [resources for beginners](https://blog.apollographql.com/the-basics-of-graphql-in-5-links-9e1dc4cac055). [The official documentation](https://graphql.org/) is another good starting point.
+If you're new to GraphQL, Apollo has [resources for beginners](https://blog.apollographql.com/the-basics-of-graphql-in-5-links-9e1dc4cac055). [The official documentation](https://graphql.org) is another good starting point.
 
 {% hint style="info" %}
 NOTE: the GraphQL API is still under heavy development and is subject to change
@@ -16,7 +16,7 @@ NOTE: the GraphQL API is still under heavy development and is subject to change
 
 Sleuth's GraphQL endpoint is:
 
-```text
+```
 https://app.sleuth.io/graphql
 ```
 
@@ -30,7 +30,7 @@ The Sleuth REST API requires authentication using the API key from your Sleuth [
 
 Note that the organization and deployment slugs are not the semantic name of your organization and deployment as shown in the organization settings, which can contain spaces and capitalized characters.
 
-The slugs displayed are the URL of your organization and deployment, with spaces replaced by a hyphen \(-\) and non-alphabetical characters \(e.g., \(\)@\#$%^, etc.\) ignored.For example, if you're viewing a deployment called plugin picker \(dev\) and your organization is called Amazing Software, the URL will display as [https://app.sleuth.io/amazing-software/deployments/plugin-picker-dev](https://app.sleuth.io/amazing-software/deployments/plugin-picker-dev). Thus, the organization slug is amazing-software, the deployment slug is plugin-picker-dev.
+The slugs displayed are the URL of your organization and deployment, with spaces replaced by a hyphen (-) and non-alphabetical characters (e.g., ()@#$%^, etc.) ignored.For example, if you're viewing a deployment called plugin picker (dev) and your organization is called Amazing Software, the URL will display as [https://app.sleuth.io/amazing-software/deployments/plugin-picker-dev](https://app.sleuth.io/amazing-software/deployments/plugin-picker-dev). Thus, the organization slug is amazing-software, the deployment slug is plugin-picker-dev.
 
 ## Errors
 
@@ -40,273 +40,188 @@ The slugs displayed are the URL of your organization and deployment, with spaces
 
 ## REST API Details
 
-{% api-method method="post" host="https://app.sleuth.io" path="/api/1/<Organization Slug>/<Deployment Slug>/register\_deploy" %}
-{% api-method-summary %}
-Deploy Registration
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://app.sleuth.io" path="/api/1/<Organization Slug>/<Deployment Slug>/register_deploy" method="post" summary="Deploy Registration" %}
+{% swagger-description %}
 Register your deploys via the Sleuth API. 
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="Organization Slug" type="string" required=true %}
+{% swagger-parameter in="path" name="Organization Slug" type="string" %}
 Slug of the organization parent of the affected code deployment
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="Deployment Slug" type="string" required=true %}
+{% swagger-parameter in="path" name="Deployment Slug" type="string" %}
 Slug of the code deployment
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endswagger-parameter %}
 
-{% api-method-form-data-parameters %}
-{% api-method-parameter name="ignore\_if\_duplicate" type="string" required=false %}
+{% swagger-parameter in="body" name="ignore_if_duplicate" type="string" %}
 If the value is provided and set to "true" Sleuth won't return a 400 if we see a SHA that has already been registered
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="tags" type="string" required=false %}
+{% swagger-parameter in="body" name="tags" type="string" %}
 A comma-delimited list of tags. Defaults to tags calculated by matching paths defined in your .sleuth/TAGS file
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="environment" type="string" required=false %}
+{% swagger-parameter in="body" name="environment" type="string" %}
 String defining the environment to register the deploy against. If not provided Sleuth will use the default environment of the Project
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="email" type="string" required=false %}
+{% swagger-parameter in="body" name="email" type="string" %}
 Email address of author
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="date" type="string" required=false %}
+{% swagger-parameter in="body" name="date" type="string" %}
 ISO 8601 deployment date string
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="api\_key" type="string" required=true %}
-Located in the _Organization Settings &gt; Details &gt; Api Key_ field
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="api_key" type="string" %}
+Located in the 
 
-{% api-method-parameter name="sha" type="string" required=true %}
+_Organization Settings > Details > Api Key_
+
+ field
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="sha" type="string" %}
 The git SHA of the deployment, located in the deploy card of the deployment
-{% endapi-method-parameter %}
-{% endapi-method-form-data-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="200" description="" %}
+```
 Success
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Input date problem, including if SHA doesn't exist or has already been reported.
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="400" description="Input date problem, including if SHA doesn't exist or has already been reported." %}
+```
 String of message problem
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=401 %}
-{% api-method-response-example-description %}
-API key not valid or the deployment is not in the specific organization
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="401" description="API key not valid or the deployment is not in the specific organization" %}
+```
 String of message problem
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="post" host="https://app.sleuth.io" path="/api/1/deployments/<Organization Slug>/<Project Slug>/register\_manual\_deploy" %}
-{% api-method-summary %}
-Manual Change
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://app.sleuth.io" path="/api/1/deployments/<Organization Slug>/<Project Slug>/register_manual_deploy" method="post" summary="Manual Change" %}
+{% swagger-description %}
 Manual changes are those not tracked by source code, feature flags, or any other type of change not supported by Sleuth. They are a free-form entry that includes a name and description. Although the description is optional, the form data in the manual change must contain a name as one of its parameters.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="Organization Slug" type="string" required=true %}
+{% swagger-parameter in="path" name="Organization Slug" type="string" %}
 Slug of the organization parent of the affected code deployment
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="Project Slug" type="string" required=true %}
+{% swagger-parameter in="path" name="Project Slug" type="string" %}
 Slug of the project that you're registering a deploy to
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endswagger-parameter %}
 
-{% api-method-form-data-parameters %}
-{% api-method-parameter name="tags" type="string" required=false %}
+{% swagger-parameter in="body" name="tags" type="string" %}
 A comma-delimited list of tag
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="api\_key" type="string" required=true %}
-Located in the _Organization Settings &gt; Details &gt; Api Key_ field
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="api_key" type="string" %}
+Located in the 
 
-{% api-method-parameter name="email" type="string" required=false %}
+_Organization Settings > Details > Api Key_
+
+ field
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="email" type="string" %}
 Email address of the user associated with the project receiving the manual change
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="name" type="string" required=true %}
+{% swagger-parameter in="body" name="name" type="string" %}
 Title for the manual change
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="description" type="string" required=false %}
+{% swagger-parameter in="body" name="description" type="string" %}
 Description for the manual change
-{% endapi-method-parameter %}
-{% endapi-method-form-data-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
 Success
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Returned if the author or date are in the wrong format
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="400" description="Returned if the author or date are in the wrong format" %}
 ```
 Invalid date format.  Must be in ISO 8601 format
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=401 %}
-{% api-method-response-example-description %}
-Returned if the API key provided doesn't allow access to the deployment
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="401" description="Returned if the API key provided doesn't allow access to the deployment" %}
 ```
 Unauthorized
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Returned if the project isn't found
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Returned if the project isn't found" %}
 ```
 Project not found
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=422 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="422" description="" %}
 ```
 Name is required.
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="post" host="https://app.sleuth.io" path="/api/1/impact/<Impact ID>/register\_impact" %}
-{% api-method-summary %}
-Custom Impact Registration
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://app.sleuth.io" path="/api/1/impact/<Impact ID>/register_impact" method="post" summary="Custom Impact Registration" %}
+{% swagger-description %}
 You can submit custom impact values to Sleuth. Sleuth will perform its anomaly detection on these values and they will inform the health of your deploys. Values can represent any metric that matters to you and must be represented via a float.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="Impact ID" type="integer" required=false %}
+{% swagger-parameter in="path" name="Impact ID" type="integer" %}
 Uniquely identifies the Impact Source to register a value against
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endswagger-parameter %}
 
-{% api-method-form-data-parameters %}
-{% api-method-parameter name="api\_key" type="string" required=true %}
-Located in the _Organization Settings -&gt; Details -&gt; API Key field_
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="api_key" type="string" %}
+Located in the 
 
-{% api-method-parameter name="date" type="string" required=false %}
+_Organization Settings -> Details -> API Key field_
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="date" type="string" %}
 ISO 8601 date that indicates when the Impact value was collection. If not provided the date defaults to now
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="value" type="number" required=true %}
+{% swagger-parameter in="body" name="value" type="number" %}
 Float value that is the metric Sleuth will collect
-{% endapi-method-parameter %}
-{% endapi-method-form-data-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
 Success
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Returned if the value or date are malformed
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="400" description="Returned if the value or date are malformed" %}
 ```
 Bad Request - impact value must be a number
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=401 %}
-{% api-method-response-example-description %}
-Returned if the API key provided doesn't allow you to access the Impact source
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="401" description="Returned if the API key provided doesn't allow you to access the Impact source" %}
 ```
 Unauthorized
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Returned if the Impact ID doesn't exist
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Returned if the Impact ID doesn't exist" %}
 ```
 MetricImpactSource <Impact ID> Not Found
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=429 %}
-{% api-method-response-example-description %}
-Returned if your requests are more frequent than one every 120 seconds. A \`Retry-After\` header is provided with the number of seconds you should wait until you try again
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="429" description="Returned if your requests are more frequent than one every 120 seconds. A `Retry-After` header is provided with the number of seconds you should wait until you try again" %}
 ```
 You may only register a custom metric once every 120 seconds
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

@@ -14,7 +14,8 @@ You must be the owner of or have admin access to an organization to setup an int
 
 1. Select a project in the sidebar, then click **Project Settings**. 
 2. Click **Slack Notifications**. 
-3. In the _Slack channel_ dropdown, start typing the name of the Slack channel that will receive change notifications. If the channel is private, you will need to invite the _Sleuth bot_ to the channel first.  ![](../../.gitbook/assets/slack-config-channels.png) 
+3. In the _Slack channel_ dropdown, start typing the name of the Slack channel that will receive change notifications. If the channel is private, you will need to invite the _Sleuth bot_ to the channel first. \
+   ![](../../.gitbook/assets/slack-config-channels.png) 
 4. Click **Save**. 
 
 At this point, you can notify users in your Slack organization that a notifications channel for this project has been set up and that they should join it to receive any and all change notifications that occur in that project. 
@@ -27,8 +28,11 @@ In the previous section, you created a project-level Slack notification. Team me
 2. Click **Notifications**. 
 3. Any [email notifications](notifications.md#setting-up-email-notifications) you've already set up will be displayed here. Enable the **Slack notifications** toggle.  sends a notification only if a deployment occurs in which the impact of your code on production errors is anything except 
 4. You can enable or disable **Deployed code** and/or **Impact of your Code**:
-   * **Deployed code**: Selecting **All** means you will receive a Slack notification every time code in which you are the author is deployed.  Selecting **Exclude my deployments** notifies you of all deployments except those in which you're the author. This option is great if you're up to speed on your own code but want to keep tabs on how the rest of your team's deployments are doing. 
-   * **Impact of your Code**: Selecting **All** means you will always receive a Slack notification about the impact of your code on the rate of production errors.  Selecting **Exclude healthy** will only notify you when a deployment is not fully healthy_;_ this includes any that are marked as _Unhealthy_, _Ailing_, or _Improved_.   ![](../../.gitbook/assets/notifications-slack-notifications-setup.png) 
+   * **Deployed code**: Selecting **All** means you will receive a Slack notification every time code in which you are the author is deployed. \
+     Selecting **Exclude my deployments** notifies you of all deployments except those in which you're the author. This option is great if you're up to speed on your own code but want to keep tabs on how the rest of your team's deployments are doing. 
+   * **Impact of your Code**: Selecting **All** means you will always receive a Slack notification about the impact of your code on the rate of production errors. \
+     Selecting **Exclude healthy **will only notify you when a deployment is not fully healthy_; _this includes any that are marked as _Unhealthy_, _Ailing_, or _Improved_. \
+      ![](../../.gitbook/assets/notifications-slack-notifications-setup.png) 
 
 {% hint style="info" %}
 Read the [Sleuth Privacy Policy](https://www.sleuth.io/privacy) for information regarding the collection, use, and disclosure of Personal Information we collect.
@@ -43,15 +47,17 @@ Email notifications are sent at the frequency you select, and can be configured 
 1. Select a project in the sidebar. 
 2. Click **My Notifications** in the upper-right corner of the Dashboard.
 
-![](../../.gitbook/assets/sleuth-sleuth-command-center-sleuth-2021-02-12-13-24-06%20%281%29%20%281%29%20%281%29.png)
+![](<../../.gitbook/assets/sleuth-sleuth-command-center-sleuth-2021-02-12-13-24-06 (1) (1).png>)
 
-    3. Select a notification frequency in the dropdown. More than one can be selected.  
+    3\. Select a notification frequency in the dropdown. More than one can be selected.  
 
 ### To set up at the code deployment or feature flag level
 
 1. Select a **project** in the sidebar. The project's dashboard is displayed. 
-2. Select a **code deployment or feature flag** in the sidebar and click on its title link. The dashboard for the code deployment or feature flag is displayed. 
-3. Click the bell icon for **My Notifications** in the upper-right corner of the dashboard.  
+2. Select a **code deployment or feature flag** in the sidebar and click on its title link. The dashboard for the code deployment or feature flag is displayed.\
+
+3. Click the bell icon for **My Notifications** in the upper-right corner of the dashboard. \
+
 4. Select a notification frequency in the dropdown. More than one can be selected. 
 
 {% hint style="info" %}
@@ -66,4 +72,3 @@ The notification email provides a digest of the following activity during the se
 * Number of issues
 * Number of changed files
 * Number of unique authors 
-

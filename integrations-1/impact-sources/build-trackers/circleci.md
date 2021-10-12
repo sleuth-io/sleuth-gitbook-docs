@@ -2,7 +2,7 @@
 
 ## About the integration
 
-CircleCI is a modern continuous integration and continuous delivery \(CI/CD\) platform. It allows you to build, test, and deploy your application using automated jobs that are triggered manually or as a consequence of various interactions with connected code repository.
+CircleCI is a modern continuous integration and continuous delivery (CI/CD) platform. It allows you to build, test, and deploy your application using automated jobs that are triggered manually or as a consequence of various interactions with connected code repository.
 
 It is assumed you already have an active CircleCI account and a repository with a working CircleCI configuration.
 
@@ -14,7 +14,7 @@ You should also add at least one [Code deployment](../../../modeling-your-deploy
 
 ## Configuring the integration
 
-Once the integration is successful, find the **Impact sources** section in the sidebar and click the **+ Add** link nested under that section.
+Once the integration is successful, find the **Impact sources** section in the sidebar and click the **+ Add **link nested under that section.
 
 ![](../../../.gitbook/assets/impact-sidebar.png)
 
@@ -31,4 +31,3 @@ That's it! Sleuth will now start verifying your deploys health by tracking wheth
 ## Removing the integration
 
 Refer to the [general instructions on removing CircleCI integration](../../builds/circleci.md).
-

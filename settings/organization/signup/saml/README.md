@@ -1,13 +1,13 @@
 # SAML 2.0 Setup
 
-To set up SAML integration you will need admin privileges in Sleuth and in your Identity Provider \(IdP\) system that supports SAML 2.0. Regardless of the specific IdP, the general setup process is roughly the same:
+To set up SAML integration you will need admin privileges in Sleuth and in your Identity Provider (IdP) system that supports SAML 2.0. Regardless of the specific IdP, the general setup process is roughly the same:
 
-1. Gather Sleuth Service Provider \(SP\) Metadata: this is the information you will need in order for your IdP to identify Sleuth as a trusted service provider.
+1. Gather Sleuth Service Provider (SP) Metadata: this is the information you will need in order for your IdP to identify Sleuth as a trusted service provider.
 2. Establish Sleuth as a trusted SP in your IdP: this step requires administrator privileges in your IdP
 3. Entering IdP metadata to Sleuth: finalize communication configuration between Sleuth and IdP
 4. Enable SAML login for users
 
-To begin SAML configuration navigate to the Authentication tab under Organization settings and click "_Configure SAML Authentication"_  
+To begin SAML configuration navigate to the Authentication tab under Organization settings and click "_Configure SAML Authentication" _ 
 
 ## Gathering Sleuth Service Provider Metadata
 
@@ -41,7 +41,7 @@ Sleuth defaults all of the advanced configuration to the most commonly used valu
 
 
 
-![](../../../../.gitbook/assets/idp-metadata%20%281%29.png)
+![](<../../../../.gitbook/assets/idp-metadata (1).png>)
 
 Click "_Test Metadata and Save_" to finish creating the configuration.
 
@@ -52,4 +52,3 @@ Once you saved the configuration you will need to successfully log in using SAML
 1. Log out of Sleuth
 2. On the login page: enter your email and click "_Continue_"
 3. Clicking on "SAML" will start the login process via your IdP
-

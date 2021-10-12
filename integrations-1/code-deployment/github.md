@@ -2,7 +2,7 @@
 
 ## About the integration ![](../../.gitbook/assets/github-mark-120px-plus.png)
 
-Integrating GitHub with Sleuth is simple. If you're setting connecting to a personal GitHub repo, you just need your credentials. If you're part of a GitHub organization and aren't the owner, you will need permission to allow Sleuth to connect to the repo \(after you connect you'll be able to select individual private or public repositories\).
+Integrating GitHub with Sleuth is simple. If you're setting connecting to a personal GitHub repo, you just need your credentials. If you're part of a GitHub organization and aren't the owner, you will need permission to allow Sleuth to connect to the repo (after you connect you'll be able to select individual private or public repositories).
 
 If you are using GitHub issues to track issues, Sleuth will automatically discover your referenced issues once the integration is configured. You can still use other [issue tracker integrations](../issue-trackers/) if you don't use GitHub issues.
 
@@ -16,8 +16,10 @@ To set up the Sleuth GitHub integration:
 
 1. Click **Integrations** in the left sidebar, then click **Change Sources**. 
 2. In the _GitHub_ tile, click **enable**. 
-3. Sign in to your GitHub account. If enabled, enter your 2FA code and click **Verify**. Don't worry, you'll select the GitHub repo to connect to your Sleuth project later.   ![](../../.gitbook/assets/github-signin.png)  ![](../../.gitbook/assets/github-2fa.png) 
-4. Upon successful integration, you'll see **GitHub enabled \(Connected as** _**&lt;GitHub user account&gt;**_**\)** displayed in the GitHub tile. You'll next configure the code deployment to connect your repo to a project.  ![](../../.gitbook/assets/github-enabled.png) 
+3. Sign in to your GitHub account. If enabled, enter your 2FA code and click **Verify**. Don't worry, you'll select the GitHub repo to connect to your Sleuth project later. \
+    ![](../../.gitbook/assets/github-signin.png)  ![](../../.gitbook/assets/github-2fa.png) 
+4. Upon successful integration, you'll see **GitHub enabled (Connected as **_**\<GitHub user account>**_**) **displayed in the GitHub tile. You'll next configure the code deployment to connect your repo to a project.\
+    ![](../../.gitbook/assets/github-enabled.png) 
 
 ## Configuring the integration
 
@@ -25,9 +27,11 @@ You now need to add a [code deployment](../../modeling-your-deployments/code-dep
 
 To configure the GitHub integration: 
 
-1. After step \#4 above, you will be taken back to the GitHub integration tile. On the GitHub tile, click the **Add code deployment** dropdown.   ![](../../.gitbook/assets/github-add-code-deployment.png) 
-2. Select the [Sleuth project](../../modeling-your-deployments/projects/) you wish to add a chance source to from the dropdown list.   ![](../../.gitbook/assets/github-add-code-deployment-withdropdown.png) 
-3. Follow the instructions for [setting up a new code deployment __](../../settings/project/code-deployments.md)\_\_
+1. After step #4 above, you will be taken back to the GitHub integration tile. On the GitHub tile, click the **Add code deployment** dropdown. \
+    ![](../../.gitbook/assets/github-add-code-deployment.png) 
+2. Select the [Sleuth project](../../modeling-your-deployments/projects/) you wish to add a chance source to from the dropdown list. \
+    ![](../../.gitbook/assets/github-add-code-deployment-withdropdown.png) 
+3. Follow the instructions for [setting up a new code deployment_ _](../../settings/project/code-deployments.md)__
 
 ## Removing the integration
 
@@ -37,4 +41,3 @@ To configure the GitHub integration:
 2. In the GitHub integration card, click **disable**. The message **GitHub disabled** is displayed in the GitHub integration card once the integration is dissolved.
 
 The GitHub integration is disconnected and no longer available to any projects within that organization. 
-

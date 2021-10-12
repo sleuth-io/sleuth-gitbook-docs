@@ -28,7 +28,7 @@
   * [Anomaly detection](auto-verify-your-deploys/anomaly-detection.md)
   * [Error impact](auto-verify-your-deploys/error-impact.md)
   * [Metric impact](auto-verify-your-deploys/metric-impact.md)
-* [Deploy workflows \(beta\)](actions/README.md)
+* [Deploy workflows (beta)](actions/README.md)
   * [Cookbook](actions/cookbook.md)
   * [Webhooks](actions/webhook.md)
   * [Trigger builds](actions/trigger_build/README.md)
@@ -45,7 +45,7 @@
   * [Developer standup](slack-mission-control/developer-standup.md)
 * [Sleuth API](sleuth-api.md)
 
-## Integrations <a id="integrations-1"></a>
+## Integrations <a href="integrations-1" id="integrations-1"></a>
 
 * [About Integrations...](integrations-1/about-integrations.md)
 * [Code integrations](integrations-1/code-deployment/README.md)
@@ -70,7 +70,7 @@
     * [Datadog](integrations-1/impact-sources/metrics/datadog.md)
     * [NewRelic](integrations-1/impact-sources/metrics/newrelic.md)
     * [SignalFx](integrations-1/impact-sources/metrics/signalfx.md)
-  * [Build trackers](integrations-1/impact-sources/build-trackers/README.md)
+  * [CI/CD builds](integrations-1/impact-sources/build-trackers/README.md)
     * [Azure Pipelines](integrations-1/impact-sources/build-trackers/azure-pipelines.md)
     * [Bitbucket Pipelines](integrations-1/impact-sources/build-trackers/bitbucket-pipelines.md)
     * [CircleCI](integrations-1/impact-sources/build-trackers/circleci.md)
@@ -119,4 +119,3 @@
 * [Sleuth TV](resources/sleuth-tv.md)
 * [Purchasing](resources/purchasing.md)
 * [About Sleuth...](resources/about.md)
-

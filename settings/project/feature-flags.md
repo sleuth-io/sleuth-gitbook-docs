@@ -16,20 +16,20 @@ You must have a [LaunchDarkly integration](../../integrations-1/feature-flags/la
 
 ## Edit Feature Flag
 
-To edit feature flag change sources, click the _edit_ dropdown in the Actions column then select **Edit** to view the _Edit Feature Flag_ screen \(shown below\).
+To edit feature flag change sources, click the _edit_ dropdown in the Actions column then select **Edit **to view the _Edit Feature Flag_ screen (shown below).
 
-![](../../.gitbook/assets/feature-flag-change-source.png)   
-  
+![](../../.gitbook/assets/feature-flag-change-source.png) \
+\
 Make changes as needed to your feature flags. Here you can: 
 
 * Change the **name** of the feature flag change source, which is shown in the _Feature Flags_ section of the sidebar. 
 * Select the LaunchDarkly **project** that contains the feature flags you want to track in Sleuth. 
-* Select the LaunchDarkly **environment** you want to track with this feature flag change source. Only the environments that are contained in the LaunchDarkly project selected above will be displayed. If you enable the _Map separate LaunchDarkly environments to Sleuth environments_ checkbox, you can map multiple LaunchDarkly environments to your Sleuth environment \(see next section\). 
-* Select code deployments shown in the _Used by code deployments_ list to link your feature flag changes to. Deployed code that contain feature flags that have been configured in the LaunchDarkly project and environment\(s\) configured above will be included in the data displayed in the Dashboard. 
+* Select the LaunchDarkly **environment** you want to track with this feature flag change source. Only the environments that are contained in the LaunchDarkly project selected above will be displayed. If you enable the _Map separate LaunchDarkly environments to Sleuth environments _checkbox, you can map multiple LaunchDarkly environments to your Sleuth environment (see next section). 
+* Select code deployments shown in the _Used by code deployments _list to link your feature flag changes to. Deployed code that contain feature flags that have been configured in the LaunchDarkly project and environment(s) configured above will be included in the data displayed in the Dashboard. 
 
 ### Mapping feature flag environments to Sleuth environments
 
-To correctly attribute feature flag changes to the right Sleuth environment you must map your LaunchDarkly environments to your Sleuth environments. This feature is only available if you have two or more Sleuth environments \(and two or more LaunchDarkly environments\).
+To correctly attribute feature flag changes to the right Sleuth environment you must map your LaunchDarkly environments to your Sleuth environments. This feature is only available if you have two or more Sleuth environments (and two or more LaunchDarkly environments).
 
 ![](../../.gitbook/assets/edit-feature-flag-deployment-sleuth-2021-01-31-16-34-49.png)
 
@@ -50,6 +50,4 @@ Selecting this checkbox lets Sleuth associate impact information with feature fl
 ### Include in project display
 
 Selecting this checkbox displays the feature flags in the project dashboard, along with the associated stats and graphs in the deploy cards. 
-
-
 

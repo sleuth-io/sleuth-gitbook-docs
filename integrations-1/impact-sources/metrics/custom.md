@@ -10,11 +10,11 @@ Some teams track metrics that impact the health of their deploys outside of trad
 
 ## Setting up the integration
 
-Custom Impact is always available with your Sleuth project. No additional configuration is needed. See '[Configuring the integration](https://app.gitbook.com/@sleuth/s/sleuth/~/drafts/-MS-YGXPuGnJwPuVAHp1/integrations-1/impact-sources/metrics/custom#configuring-the-integration)' below for how to use a Custom Impact.
+Custom Impact is always available with your Sleuth project. No additional configuration is needed. See '[Configuring the integration](https://app.gitbook.com/@sleuth/s/sleuth/\~/drafts/-MS-YGXPuGnJwPuVAHp1/integrations-1/impact-sources/metrics/custom#configuring-the-integration)' below for how to use a Custom Impact.
 
 ## Configuring the integration
 
-* From your Project Settings --&gt; Impact - click **Add impact source** and select a Sleuth project that will collect the metrics Datadog generates. All projects within your organization will be displayed in the dropdown. 
+* From your Project Settings --> Impact - click **Add impact source **and select a Sleuth project that will collect the metrics Datadog generates. All projects within your organization will be displayed in the dropdown. 
 
 ![](../../../.gitbook/assets/screen-shot-2021-01-26-at-2.04.15-pm.png)
 
@@ -36,6 +36,5 @@ That's it! Sleuth will now start verifying your deploys health by tracking the v
 
 #### To remove the custom metric
 
-1. Click on your **Project Settings --&gt; Impact**
+1. Click on your **Project Settings --> Impact**
 2. Choose the metric you'd like to remove and choose delete from the cog.
-

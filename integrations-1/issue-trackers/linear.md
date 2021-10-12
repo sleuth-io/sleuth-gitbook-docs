@@ -14,17 +14,20 @@ Once Linear is configured as an issue tracker, every time the Linear issue key i
 
 1. Click **Integrations** in the left sidebar, then click **Issue Trackers**. 
 2. In the _Linear_ tile, click **connect**. 
-3. Enter the _Personal API Key_ of your Linear instance into the corresponding field, then press **Save**. To quickly access your Linear instance to obtain an API key, click **generate**. You will be taken to the **Personal API keys** section in your Linear dashboard.   ![](../../.gitbook/assets/linear-personal-api-key.png) =  ![](../../.gitbook/assets/linear-api-key-generate.png) 
-4. The message **Linear enabled** is displayed in the tile. Note the _Set default issue tracker_ dropdown; you will be setting the default issue tracker in the next section.  ![](../../.gitbook/assets/linear-enabled.png) 
+3. Enter the _Personal API Key_ of your Linear instance into the corresponding field, then press **Save**. To quickly access your Linear instance to obtain an API key, click **generate**. You will be taken to the **Personal API keys** section in your Linear dashboard. \
+    ![](../../.gitbook/assets/linear-personal-api-key.png) =\
+    ![](../../.gitbook/assets/linear-api-key-generate.png) 
+4. The message **Linear enabled** is displayed in the tile. Note the _Set default issue tracker_ dropdown; you will be setting the default issue tracker in the next section. \
+   ![](../../.gitbook/assets/linear-enabled.png) 
 
 ## Configuring the integration
 
-After setting up the Linear integration, you must designate which Sleuth project to use as the default issue tracker. If you are configuring the integration immediately after setting it up, you can go directly to step \#2 in **To set the default issue tracker** below. 
+After setting up the Linear integration, you must designate which Sleuth project to use as the default issue tracker. If you are configuring the integration immediately after setting it up, you can go directly to step #2 in **To set the default issue tracker** below. 
 
 ### To set the default issue tracker
 
 1. Click on **Integrations** in the left sidebar, then on **Issue Trackers**. 
-2. Click on the Linear **Set default issue tracker** dropdown \(see screenshot above\).
+2. Click on the Linear **Set default issue tracker** dropdown (see screenshot above).
 3. All projects in the organization are displayed. Select which project you'd like to set Linear as the default issue tracker for. 
 
 ### To change the default issue tracker
@@ -49,4 +52,3 @@ The Linear integration is disconnected and no longer available to any projects w
 3. Press **Save**.
 
 The Linear integration is disconnected and no longer available to any projects within that organization. You will need to select a new default issue tracker for any projects that used the Linear integration. Simply follow the instructions in the section above: **To set a new default issue tracker**. 
-

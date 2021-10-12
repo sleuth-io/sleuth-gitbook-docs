@@ -14,7 +14,7 @@ You should also add at least one [Code deployment](../../../modeling-your-deploy
 
 ## Configuring the integration
 
-Once the integration is successful, find the **Impact sources** section in the sidebar and click the **+ Add** link nested under that section.
+Once the integration is successful, find the **Impact sources** section in the sidebar and click the **+ Add **link nested under that section.
 
 ![](../../../.gitbook/assets/impact-sidebar.png)
 
@@ -31,4 +31,3 @@ That's it! Sleuth will now start verifying your deploys health by tracking wheth
 ## Removing the integration
 
 Refer to the [general instructions on adding Azure DevOps as a code integration](../../code-deployment/azure-devops.md).
-

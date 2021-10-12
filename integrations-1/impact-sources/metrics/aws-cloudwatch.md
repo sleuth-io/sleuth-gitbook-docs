@@ -16,18 +16,18 @@ To add the Sleuth CloudWatch integration:
 {% hint style="info" %}
 The AWS Secret and Access key can be added to an AWS user. The user only requires the permissions: CloudWatch: List, Read.
 
-[https://docs.aws.amazon.com/IAM/latest/UserGuide/id\_users\_create.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
+[https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
 {% endhint %}
 
 ![](../../../.gitbook/assets/integrations-sleuth-2021-02-23-17-27-02.png)
 
-* Once the AWS CloudWatch integration is enabled, you will see **CloudWatch enabled** displayed in the integration card \(as shown below\). 
+* Once the AWS CloudWatch integration is enabled, you will see **CloudWatch enabled** displayed in the integration card (as shown below). 
 
 ![](../../../.gitbook/assets/integrations-sleuth-2021-02-23-17-28-14.png)
 
 ## Configuring the integration
 
-* Click **Add metric** and select a Sleuth project that will collect the metrics CloudWatch generates. All projects within your organization will be displayed in the dropdown. 
+* Click **Add metric **and select a Sleuth project that will collect the metrics CloudWatch generates. All projects within your organization will be displayed in the dropdown. 
 
 ![](../../../.gitbook/assets/integrations-sleuth-2021-02-23-17-29-35.png)
 
@@ -64,16 +64,15 @@ you can write the query parameters in the prefilled format
 #### **Find query through CloudWatch UI**
 
 1. Log in to AWS CloudWatch management console
-2. Click on **Metrics** in left sidebar
+2. Click on **Metrics **in left sidebar
 3. Click through metric groups cards and select the metric you want your impact to track
 
-![](../../../.gitbook/assets/image%20%285%29%20%281%29.png)
+![](<../../../.gitbook/assets/image (5).png>)
 
-   ****4. Make sure **only 1 metric** is graphed, click **Source** and **copy-paste** the JSON to Sleuth
+**   **4. Make sure** only 1 metric **is graphed, click **Source **and **copy-paste **the JSON to Sleuth
 
 ![](../../../.gitbook/assets/image.png)
 
 
 
-\*\*\*\*
-
+****

@@ -15,7 +15,7 @@ To add the Sleuth Datadog integration:
 * Press **Save**. 
 
 {% hint style="info" %}
-The Datadog API Key and Application Key can be found under **Integrations** &gt; **API**, as shown below. Or, you can click on the **generate** link, which will take you directly to the APIs page in your Datadog console, where you can then generate the keys Sleuth needs to complete the integration.  
+The Datadog API Key and Application Key can be found under **Integrations **>** API**, as shown below. Or, you can click on the **generate** link, which will take you directly to the APIs page in your Datadog console, where you can then generate the keys Sleuth needs to complete the integration.  
 {% endhint %}
 
  
@@ -24,13 +24,13 @@ The Datadog API Key and Application Key can be found under **Integrations** &gt;
 
 ![API and Application Key entry in Sleuth](../../../.gitbook/assets/datadog-integration-api-key.png)
 
-* Once the Datadog integration is successful, you will see **Datadog enabled** displayed in the integration card \(as shown below\). 
+* Once the Datadog integration is successful, you will see **Datadog enabled** displayed in the integration card (as shown below). 
 
 ![](../../../.gitbook/assets/datadog-enabled.png)
 
 ## Configuring the integration
 
-* Click **Add metric** and select a Sleuth project that will collect the metrics Datadog generates. All projects within your organization will be displayed in the dropdown. 
+* Click **Add metric **and select a Sleuth project that will collect the metrics Datadog generates. All projects within your organization will be displayed in the dropdown. 
 
 ![](../../../.gitbook/assets/datadog-enabled-metric-pick.png)
 
@@ -48,4 +48,3 @@ That's it! Sleuth will now start verifying your deploys health by tracking the v
 2. In the Datadog integration card, click **disable**.
 
 The Datadog integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Datadog integration will be lost.
-

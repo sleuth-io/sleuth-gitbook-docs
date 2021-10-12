@@ -9,7 +9,7 @@ Slack integration is setup and configured in a Sleuth organization. When a chann
 ## Setting up the integration
 
 1. Click **Integrations** in the sidebar.
-2. In the **Chat Ops** &gt; **Slack** card, click **enable**. 
+2. In the **Chat Ops** > **Slack** card, click **enable**. 
 3. Click **Allow** to make the integration. 
 
 {% hint style="info" %}
@@ -20,9 +20,9 @@ You must add Sleuth as an Authorized Application in Slack. For more information,
 Adding a third-party integration to Slack must be authorized by your Slack App Manager. Slack allows you to message the App Manager directly from the _Request to install_ dialog, as shown below. Once authorization is granted, you can proceed with the integration.
 {% endhint %}
 
-![Adding Slack third-party integrations might require your App Manager&apos;s approval.](../.gitbook/assets/slack-request-to-install-screen%20%281%29.png)
+![Adding Slack third-party integrations might require your App Manager's approval.](<../.gitbook/assets/slack-request-to-install-screen (1).png>)
 
-4. Upon a succesful connection to your Sleuth account, the message **Slack enabled \(Connected to workspace** _**&lt;workspace name&gt;**_**\)** is displayed in the tile. 
+4\. Upon a succesful connection to your Sleuth account, the message **Slack enabled (Connected to workspace **_**\<workspace name>**_**)** is displayed in the tile. 
 
 ![](../.gitbook/assets/slack-integration-connected.png)
 
@@ -34,11 +34,15 @@ The Slack integration is done at the organization level. Since multiple [project
 
 To setup team notifications for a project see
 
-{% page-ref page="../settings/project/slack-notifications.md" %}
+{% content-ref url="../settings/project/slack-notifications.md" %}
+[slack-notifications.md](../settings/project/slack-notifications.md)
+{% endcontent-ref %}
 
 To setup personal notifications for yourself see
 
-{% page-ref page="../settings/account/notifications.md" %}
+{% content-ref url="../settings/account/notifications.md" %}
+[notifications.md](../settings/account/notifications.md)
+{% endcontent-ref %}
 
 ## Removing the integration
 
@@ -48,4 +52,3 @@ To setup personal notifications for yourself see
 2. In the Slack integration card, click **disable**. The message **Slack disabled** is displayed in the Slack integration card once the integration is dissolved.
 
 The Slack integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Slack integration will be lost. 
-

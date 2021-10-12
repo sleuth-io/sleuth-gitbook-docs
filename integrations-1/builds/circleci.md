@@ -9,9 +9,11 @@ The CircleCI integration provides Sleuth with the ability to track your CircleCI
 To add the Sleuth CircleCI integration:
 
 1. Click **Integrations** in the sidebar.
-2. Click the **Builds** tab, then click **enable** in the CircleCI card.   ![](../../.gitbook/assets/circleci-disabled.png) 
+2. Click the** Builds** tab, then click **enable** in the CircleCI card. \
+    ![](../../.gitbook/assets/circleci-disabled.png) 
 3. Enter your CircleCI User API Token, then press **Save**. To quickly obtain your User API Token, make sure you're logged in to your CircleCI account, then click **generate**. You will be taken to the Personal API Tokens section of your CircleCI account. 
-4. On successful integration, you'll see **CircleCI enabled** displayed in the CircleCI tile. You'll  configure the default build server later.  ![](../../.gitbook/assets/circleci-enabled.png) 
+4. On successful integration, you'll see **CircleCI enabled** displayed in the CircleCI tile. You'll  configure the default build server later. \
+   ![](../../.gitbook/assets/circleci-enabled.png) 
 
 {% hint style="info" %}
 [Read the CircleCI documentation](https://circleci.com/docs/2.0/managing-api-tokens/#creating-a-personal-api-token) for more information on generating Personal API Tokens. 
@@ -28,7 +30,8 @@ The Sleuth CircleCI integration configuration simply consists of pointing the Ci
 To configure the CircleCI integration, you will need to set a default build server: 
 
 1. Click **Integrations** in the sidebar, then click the **Builds** tab. 
-2. Click the **Set default build server** dropdown.   ![](../../.gitbook/assets/circleci-integration-enabled.png) 
+2. Click the **Set default build server** dropdown. \
+    ![](../../.gitbook/assets/circleci-integration-enabled.png) 
 3. Select a project to set as the default build server. You'll need to add a code deployment to the selected project if you haven't already done so. 
 
 Now that the CircleCI integration is configured, you will begin seeing information displayed in the Builds tab of a [deploy](../../modeling-your-deployments/deploy-cards.md), as shown below. 
@@ -43,4 +46,3 @@ Now that the CircleCI integration is configured, you will begin seeing informati
 2. In the CircleCI integration card, click **disable**. The message **CircleCI disabled** is displayed in the CircleCI integration card once the integration is dissolved.
 
 The CircleCI integration is disconnected and no longer available to any projects within that organization.
-

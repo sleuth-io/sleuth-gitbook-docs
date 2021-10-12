@@ -18,9 +18,8 @@ Sleuth provides individuals a daily, weekly, bi-weekly or monthly summary of wha
 
 These can be configured via the [project](../modeling-your-deployments/projects/) or [deployment](../modeling-your-deployments/code-deployments/) dashboards.
 
-![](../.gitbook/assets/sleuth-sleuth-command-center-sleuth-2021-02-12-13-24-06%20%281%29%20%281%29.png)
+![](<../.gitbook/assets/sleuth-sleuth-command-center-sleuth-2021-02-12-13-24-06 (1) (1) (1).png>)
 
 Once enabled you'll receive the same rich deploy Slack notifications you've come to expect from Sleuth delivered right to you.
 
 ![](../.gitbook/assets/slack-or-sleuth-dev-or-sleuth-2021-02-12-13-18-56.png)
-

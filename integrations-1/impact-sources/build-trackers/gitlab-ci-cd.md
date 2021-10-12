@@ -4,7 +4,7 @@
 
 GitLab CI/CD is the continuous integration tool provided by GitLab. It allows you to build, test, deploy, and monitor your application using automated jobs that are triggered manually or as a consequence of various interactions with your GitLab repository.
 
-It is assumed you already have an active GitLab account and a repository with a working GitLab CI/CD configuration. \([Create a GitLab account](https://gitlab.com/users/sign_up) if you don't have one.\) 
+It is assumed you already have an active GitLab account and a repository with a working GitLab CI/CD configuration. ([Create a GitLab account](https://gitlab.com/users/sign_up) if you don't have one.) 
 
 ## Setting up the integration
 
@@ -14,7 +14,7 @@ You should also add at least one [Code deployment](../../../modeling-your-deploy
 
 ## Configuring the integration
 
-Once the integration is successful, find the **Impact sources** section in the sidebar and click the **+ Add** link nested under that section.
+Once the integration is successful, find the **Impact sources** section in the sidebar and click the **+ Add **link nested under that section.
 
 ![](../../../.gitbook/assets/impact-sidebar.png)
 
@@ -31,4 +31,3 @@ That's it! Sleuth will now start verifying your deploys health by tracking wheth
 ## Removing the integration
 
 Refer to the [general instructions on removing GitLab as a code integration](../../code-deployment/gitlab.md#removing-the-integration).
-
