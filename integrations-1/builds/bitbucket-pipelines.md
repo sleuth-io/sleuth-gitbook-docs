@@ -8,7 +8,7 @@ The Bitbucket pipelines integration provides Sleuth with the ability to track yo
 
 To set up the Sleuth Bitbucket Pipelines integration: 
 
-1. Click **Integrations** in the left sidebar, then click **Builds**. 
+1. Click **Integrations** in the left sidebar, then click **CI/CD**. 
 2. In the _Bitbucket_ tile, click **enable**. 
 3. You must grant Sleuth access to your Bitbucket account by clicking **Grant access** in the confirmation dialog.\
     ![](../../.gitbook/assets/screenshot-2021-05-25-at-10.22.04.png) 
