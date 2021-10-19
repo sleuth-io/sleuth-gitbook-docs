@@ -40,7 +40,7 @@ The slugs displayed are the URL of your organization and deployment, with spaces
 
 ## REST API Details
 
-{% swagger baseUrl="https://app.sleuth.io" path="/api/1/<Organization Slug>/<Deployment Slug>/register_deploy" method="post" summary="Deploy Registration" %}
+{% swagger baseUrl="https://app.sleuth.io" path="/api/1/deployments/<Organization Slug>/<Deployment Slug>/register_deploy" method="post" summary="Deploy Registration" %}
 {% swagger-description %}
 Register your deploys via the Sleuth API. 
 {% endswagger-description %}
