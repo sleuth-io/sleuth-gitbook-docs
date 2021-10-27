@@ -2,40 +2,39 @@
 
 Sleuth works with the tools you already have in place. Every integration has been designed to setup in Sleuth in under 5 minutes. Our **webhook** approach to [deploy registration](../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) means we support **every** possible way you deploy your code.
 
-Integrations are what enable Sleuth to communicate with the tools in your DevOps arsenal. Sleuth is able to collect the information it needs to provide a comprehensive view of your deployments, ensuring that you always know what is happening with your code—commits, PRs, deploys, issues, errors, metrics, feature flags, authors, and so much more—and communicating successful—or failed—deployments through any [chat ops integrations ](about-integrations.md#chat-ops)you have set up. 
+Integrations are what enable Sleuth to communicate with the tools in your DevOps arsenal. Sleuth is able to collect the information it needs to provide a comprehensive view of your deployments, ensuring that you always know what is happening with your code—commits, PRs, deploys, issues, errors, metrics, feature flags, authors, and so much more—and communicating successful—or failed—deployments through any [chat ops integrations ](about-integrations.md#chat-ops)you have set up.&#x20;
 
-Sleuth communicates with your tools via the APIs they provide. You will need access to your tools' API keys so that Sleuth can connect to your integrations and obtain the information it needs to build a comprehensive overview of your applications' health. 
+Sleuth communicates with your tools via the APIs they provide. You will need access to your tools' API keys so that Sleuth can connect to your integrations and obtain the information it needs to build a comprehensive overview of your applications' health.&#x20;
 
 ### Sleuth Integrations
 
-| Integration | Type | Additional info... |
-| :--- | :--- | :--- |
-| [AppDynamics](impact-sources/metrics/appdynamics.md) | Impact metric tracking | Metrics tracker |
-| [AWS CloudWatch](impact-sources/metrics/aws-cloudwatch.md) | Impact metric tracking | Metrics tracker |
-| [Azure DevOps](code-deployment/azure-devops.md) | Code deploys and issue tracker | Code deployments and issue tracking |
-| [Azure Pipelines](code-deployment/azure-devops.md) | Deployment CI/CD | Track and trigger your deploys and builds |
-| [Bitbucket](code-deployment/bitbucket.md) | Code deploys and issue tracker | Code deployments and issue tracking |
-| [Bitbucket Pipelines](builds/bitbucket-pipelines.md) | Deployment CI/CD | Track and trigger your deploys and builds |
-| [Bugsnag](impact-sources/errors/bugsnag.md) | Impact error tracking | Error tracker |
-| [Custom impact](impact-sources/metrics/custom.md) | Impact metric tracking | Submit custom metrics |
-| [CircleCI](builds/circleci.md) | Deployment CI/CD | Track and trigger your deploys and builds |
-| [Clubhouse](issue-trackers/clubhouse.md) | Deploy issue tracker | Automatically associate issues with deploys |
-| [Custom Git](https://github.com/sleuth-io/sleuth-gitbook-docs/tree/8c6f655818b14806b9a76252e4224c2ef29d58f6/integrations-1/code-deployment/custom.md) | Code deploys | Code deployments |
-| [Datadog](impact-sources/metrics/datadog.md) | Impact metric tracking | Metrics tracker |
-| [GitHub](code-deployment/github.md) | Code deploys and issue tracker | Code deployments and issue tracking |
-| [GitLab](code-deployment/gitlab.md) | Code deploys and issue tracker | Code deployments and issue tracking |
-| [Gitlab CI/CD Pipelines](code-deployment/gitlab.md) | Deployment CI/CD | Track and trigger your deploys and builds |
-| [FireHydrant](incident-tracker-integrations/firehydrant.md) | Incident impact | Track failure rate and MTTR with incidents |
-| [Honeybadger](impact-sources/errors/honeybadger.md) | Impact error tracking | Error tracker |
-| [Jenkins](builds/jenkins.md) | Deployment CI/CD | Track and trigger your deploys and builds |
-| [Jira](issue-trackers/jira.md) | Deploy issue tracker | Automatically associate issues with deploys |
-| [LaunchDarkly](feature-flags/launchdarkly.md) | Feature flag changes | Feature flags as a change source |
-| [Linear](issue-trackers/linear.md) | Deploy issue tracker | Automatically associate issues with deploys |
-| [NewRelic](impact-sources/metrics/newrelic.md) | Impact metric tracking | Metrics tracker |
-| [PagerDuty](incident-tracker-integrations/pagerduty.md) | Incident impact | Track failure rate and MTTR with incidents |
-| [Rollbar](impact-sources/errors/rollbar.md) | Impact error tracking | Error tracker |
-| [Sentry](impact-sources/errors/sentry.md) | Impact error tracking | Error tracker |
-| [SignalFx](impact-sources/metrics/signalfx.md) | Impact metric tracking | Metrics tracker |
-| [Slack](slack.md) | Notifications and control | Notify your entire team or specific individuals |
-| [Terraform Cloud](https://www.terraform.io/cloud) | Code deploys | Automatically register a deploy via a Webhook |
-
+| Integration                                                                                                                                           | Type                           | Additional info...                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ | ----------------------------------------------- |
+| [AppDynamics](impact-sources/metrics/appdynamics.md)                                                                                                  | Impact metric tracking         | Metrics tracker                                 |
+| [AWS CloudWatch](impact-sources/metrics/aws-cloudwatch.md)                                                                                            | Impact metric tracking         | Metrics tracker                                 |
+| [Azure DevOps](code-deployment/azure-devops.md)                                                                                                       | Code deploys and issue tracker | Code deployments and issue tracking             |
+| [Azure Pipelines](code-deployment/azure-devops.md)                                                                                                    | Deployment CI/CD               | Track and trigger your deploys and builds       |
+| [Bitbucket](code-deployment/bitbucket.md)                                                                                                             | Code deploys and issue tracker | Code deployments and issue tracking             |
+| [Bitbucket Pipelines](builds/bitbucket-pipelines.md)                                                                                                  | Deployment CI/CD               | Track and trigger your deploys and builds       |
+| [Bugsnag](impact-sources/errors/bugsnag.md)                                                                                                           | Impact error tracking          | Error tracker                                   |
+| [Custom impact](impact-sources/metrics/custom.md)                                                                                                     | Impact metric tracking         | Submit custom metrics                           |
+| [CircleCI](builds/circleci.md)                                                                                                                        | Deployment CI/CD               | Track and trigger your deploys and builds       |
+| [Custom Git](https://github.com/sleuth-io/sleuth-gitbook-docs/tree/8c6f655818b14806b9a76252e4224c2ef29d58f6/integrations-1/code-deployment/custom.md) | Code deploys                   | Code deployments                                |
+| [Datadog](impact-sources/metrics/datadog.md)                                                                                                          | Impact metric tracking         | Metrics tracker                                 |
+| [GitHub](code-deployment/github.md)                                                                                                                   | Code deploys and issue tracker | Code deployments and issue tracking             |
+| [GitLab](code-deployment/gitlab.md)                                                                                                                   | Code deploys and issue tracker | Code deployments and issue tracking             |
+| [Gitlab CI/CD Pipelines](code-deployment/gitlab.md)                                                                                                   | Deployment CI/CD               | Track and trigger your deploys and builds       |
+| [FireHydrant](incident-tracker-integrations/firehydrant.md)                                                                                           | Incident impact                | Track failure rate and MTTR with incidents      |
+| [Honeybadger](impact-sources/errors/honeybadger.md)                                                                                                   | Impact error tracking          | Error tracker                                   |
+| [Jenkins](builds/jenkins.md)                                                                                                                          | Deployment CI/CD               | Track and trigger your deploys and builds       |
+| [Jira](issue-trackers/jira.md)                                                                                                                        | Deploy issue tracker           | Automatically associate issues with deploys     |
+| [LaunchDarkly](feature-flags/launchdarkly.md)                                                                                                         | Feature flag changes           | Feature flags as a change source                |
+| [Linear](issue-trackers/linear.md)                                                                                                                    | Deploy issue tracker           | Automatically associate issues with deploys     |
+| [NewRelic](impact-sources/metrics/newrelic.md)                                                                                                        | Impact metric tracking         | Metrics tracker                                 |
+| [PagerDuty](incident-tracker-integrations/pagerduty.md)                                                                                               | Incident impact                | Track failure rate and MTTR with incidents      |
+| [Rollbar](impact-sources/errors/rollbar.md)                                                                                                           | Impact error tracking          | Error tracker                                   |
+| [Sentry](impact-sources/errors/sentry.md)                                                                                                             | Impact error tracking          | Error tracker                                   |
+| [Shortcut](issue-trackers/clubhouse.md)                                                                                                               | Deploy issue tracker           | Automatically associate issues with deploys     |
+| [SignalFx](impact-sources/metrics/signalfx.md)                                                                                                        | Impact metric tracking         | Metrics tracker                                 |
+| [Slack](slack.md)                                                                                                                                     | Notifications and control      | Notify your entire team or specific individuals |
+| [Terraform Cloud](https://www.terraform.io/cloud)                                                                                                     | Code deploys                   | Automatically register a deploy via a Webhook   |
