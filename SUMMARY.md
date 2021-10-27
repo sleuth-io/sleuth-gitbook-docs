@@ -86,7 +86,7 @@
   * [GitLab CI/CD Pipelines](integrations-1/builds/gitlab-ci-cd-pipelines.md)
   * [Jenkins](integrations-1/builds/jenkins.md)
 * [Issue tracker integrations](integrations-1/issue-trackers/README.md)
-  * [Shortcut](integrations-1/issue-trackers/clubhouse.md)
+  * [Shortcut](integrations-1/issue-trackers/shortcut.md)
   * [Jira](integrations-1/issue-trackers/jira.md)
   * [Linear](integrations-1/issue-trackers/linear.md)
 * [Incident tracker integrations](integrations-1/incident-tracker-integrations/README.md)
