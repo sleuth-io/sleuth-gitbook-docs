@@ -92,6 +92,7 @@
 * [Incident tracker integrations](integrations-1/incident-tracker-integrations/README.md)
   * [PagerDuty](integrations-1/incident-tracker-integrations/pagerduty.md)
   * [FireHydrant](integrations-1/incident-tracker-integrations/firehydrant.md)
+  * [Custom](integrations-1/incident-tracker-integrations/custom.md)
 
 ## Settings
 
