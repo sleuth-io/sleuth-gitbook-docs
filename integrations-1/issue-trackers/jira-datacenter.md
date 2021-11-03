@@ -1,4 +1,4 @@
-# Jira Data Center / Server
+# Jira Data Center/Server
 
 ## About the integration ![](<../../.gitbook/assets/jira-software-2x-blue (1).png>) 
 
