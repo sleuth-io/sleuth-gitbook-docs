@@ -6,15 +6,15 @@ description: User provided impact
 
 ## About the integration
 
-Some teams track metrics that impact the health of their deploys outside of traditional Observability tools. Custom impact sources allow you to submit these values to Sleuth and still take advantage of the anomaly detection and deploy verification that Sleuth offers. Examples of some possible custom metrics are: number of user sign-ups, the pass/fail result of an environments smoke testing, etc. 
+Some teams track metrics that impact the health of their deploys outside of traditional Observability tools. Custom impact sources allow you to submit these values to Sleuth and still take advantage of the anomaly detection and deploy verification that Sleuth offers. Examples of some possible custom metrics are: number of user sign-ups, the pass/fail result of an environments smoke testing, etc.
 
 ## Setting up the integration
 
-Custom Impact is always available with your Sleuth project. No additional configuration is needed. See '[Configuring the integration](https://app.gitbook.com/@sleuth/s/sleuth/\~/drafts/-MS-YGXPuGnJwPuVAHp1/integrations-1/impact-sources/metrics/custom#configuring-the-integration)' below for how to use a Custom Impact.
+Custom Impact is always available with your Sleuth project. No additional configuration is needed. See '[Configuring the integration](custom.md)' below for how to use a Custom Impact.
 
 ## Configuring the integration
 
-* From your Project Settings --> Impact - click **Add impact source **and select a Sleuth project that will collect the metrics Datadog generates. All projects within your organization will be displayed in the dropdown. 
+* From your Project Settings --> Impact - click \*\*Add impact source \*\*and select a Sleuth project that will collect the metrics Datadog generates. All projects within your organization will be displayed in the dropdown.
 
 ![](../../../.gitbook/assets/screen-shot-2021-01-26-at-2.04.15-pm.png)
 
