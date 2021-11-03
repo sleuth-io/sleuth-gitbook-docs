@@ -91,6 +91,7 @@
   * [Linear](integrations-1/issue-trackers/linear.md)
 * [Incident tracker integrations](integrations-1/incident-tracker-integrations/README.md)
   * [PagerDuty](integrations-1/incident-tracker-integrations/pagerduty.md)
+  * [Statuspage](integrations-1/incident-tracker-integrations/statuspage.md)
   * [FireHydrant](integrations-1/incident-tracker-integrations/firehydrant.md)
   * [Custom](integrations-1/incident-tracker-integrations/custom.md)
 
