@@ -2,9 +2,9 @@
 
 Sleuth works with the tools you already have in place. Every integration has been designed to setup in Sleuth in under 5 minutes. Our **webhook** approach to [deploy registration](../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) means we support **every** possible way you deploy your code.
 
-Integrations are what enable Sleuth to communicate with the tools in your DevOps arsenal. Sleuth is able to collect the information it needs to provide a comprehensive view of your deployments, ensuring that you always know what is happening with your code—commits, PRs, deploys, issues, errors, metrics, feature flags, authors, and so much more—and communicating successful—or failed—deployments through any [chat ops integrations ](about-integrations.md#chat-ops)you have set up.&#x20;
+Integrations are what enable Sleuth to communicate with the tools in your DevOps arsenal. Sleuth is able to collect the information it needs to provide a comprehensive view of your deployments, ensuring that you always know what is happening with your code—commits, PRs, deploys, issues, errors, metrics, feature flags, authors, and so much more—and communicating successful—or failed—deployments through any [chat ops integrations ](about-integrations.md#chat-ops)you have set up.
 
-Sleuth communicates with your tools via the APIs they provide. You will need access to your tools' API keys so that Sleuth can connect to your integrations and obtain the information it needs to build a comprehensive overview of your applications' health.&#x20;
+Sleuth communicates with your tools via the APIs they provide. You will need access to your tools' API keys so that Sleuth can connect to your integrations and obtain the information it needs to build a comprehensive overview of your applications' health.
 
 ### Sleuth Integrations
 
@@ -28,7 +28,8 @@ Sleuth communicates with your tools via the APIs they provide. You will need acc
 | [FireHydrant](incident-tracker-integrations/firehydrant.md)                                                                                           | Incident impact                | Track failure rate and MTTR with incidents      |
 | [Honeybadger](impact-sources/errors/honeybadger.md)                                                                                                   | Impact error tracking          | Error tracker                                   |
 | [Jenkins](builds/jenkins.md)                                                                                                                          | Deployment CI/CD               | Track and trigger your deploys and builds       |
-| [Jira](issue-trackers/jira.md)                                                                                                                        | Deploy issue tracker           | Automatically associate issues with deploys     |
+| [Jira (Cloud/Data Center)](issue-trackers/jira.md)                                                                                                    | Deploy issue tracker           | Automatically associate issues with deploys     |
+| [Jira (Clud/Data Center)](incident-tracker-integrations/jira-cloud-data-center.md)                                                                    | Incident impact                | Track failure rate and MTTR with incidents      |
 | [LaunchDarkly](feature-flags/launchdarkly.md)                                                                                                         | Feature flag changes           | Feature flags as a change source                |
 | [Linear](issue-trackers/linear.md)                                                                                                                    | Deploy issue tracker           | Automatically associate issues with deploys     |
 | [NewRelic](impact-sources/metrics/newrelic.md)                                                                                                        | Impact metric tracking         | Metrics tracker                                 |
