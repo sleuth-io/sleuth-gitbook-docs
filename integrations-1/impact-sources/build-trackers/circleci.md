@@ -14,7 +14,7 @@ You should also add at least one [Code deployment](../../../modeling-your-deploy
 
 ## Configuring the integration
 
-Once the integration is successful, find the **Impact sources** section in the sidebar and click the **+ Add **link nested under that section.
+Once the integration is successful, find the **Impact sources** section in the sidebar and click the **+ Add** link nested under that section.
 
 ![](../../../.gitbook/assets/impact-sidebar.png)
 

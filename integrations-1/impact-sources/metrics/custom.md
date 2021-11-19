@@ -14,7 +14,7 @@ Custom Impact is always available with your Sleuth project. No additional config
 
 ## Configuring the integration
 
-* From your Project Settings --> Impact - click \*\*Add impact source \*\*and select a Sleuth project that will collect the metrics Datadog generates. All projects within your organization will be displayed in the dropdown.
+* From your Project Settings --> Impact - click **Add impact source** and select a Sleuth project that will collect the metrics Datadog generates. All projects within your organization will be displayed in the dropdown.
 
 ![](../../../.gitbook/assets/screen-shot-2021-01-26-at-2.04.15-pm.png)
 

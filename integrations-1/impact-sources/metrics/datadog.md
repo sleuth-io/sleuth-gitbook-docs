@@ -28,7 +28,7 @@ The Datadog API Key and Application Key can be found under **Integrations > API*
 
 ## Configuring the integration
 
-* Click \*\*Add metric \*\*and select a Sleuth project that will collect the metrics Datadog generates. All projects within your organization will be displayed in the dropdown.
+* Click **Add metric** and select a Sleuth project that will collect the metrics Datadog generates. All projects within your organization will be displayed in the dropdown.
 
 ![](../../../.gitbook/assets/datadog-enabled-metric-pick.png)
 

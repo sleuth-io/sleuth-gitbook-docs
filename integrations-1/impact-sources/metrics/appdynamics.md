@@ -11,15 +11,15 @@ To add the Sleuth AppDynamics integration:
 * Click **Integrations** in the sidebar.
 * Click the _Metric Trackers_ tab, then **enable** in the AppDynamics card.
 * Follow linked instructions on creating AppDynamics OAuth client
-* Enter your AppDynamics tenant name, API Client name and secret in the corresponding fields. 
-* Press **Save**. 
-* Once the AppDynamics integration is enabled, you will see **AppDynamics enabled** displayed in the integration card \(as shown below\). 
+* Enter your AppDynamics tenant name, API Client name and secret in the corresponding fields.
+* Press **Save**.
+* Once the AppDynamics integration is enabled, you will see **AppDynamics enabled** displayed in the integration card (as shown below).
 
-![](../../../.gitbook/assets/image%20%286%29.png)
+![](<../../../.gitbook/assets/image (6).png>)
 
 ## Configuring the integration
 
-* Click **Add metric** and select a Sleuth project that will collect the metrics AppDynamics generates. All projects within your organization will be displayed in the dropdown. 
+* Click **Add metric** and select a Sleuth project that will collect the metrics AppDynamics generates. All projects within your organization will be displayed in the dropdown.
 
 ![](../../../.gitbook/assets/screenshot-2021-04-12-at-14.24.43.png)
 
@@ -33,7 +33,7 @@ That's it! Sleuth will now start verifying your deploys health by tracking the v
 
 #### To dissolve the AppDynamics integration for the organization:
 
-1. Click on **Integrations** in the left sidebar, then on **Metric Trackers**. 
+1. Click on **Integrations** in the left sidebar, then on **Metric Trackers**.
 2. In the AppDynamics integration card, click **disable**.
 
 The AppDynamics integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the AppDynamics integration will be lost.
@@ -42,17 +42,12 @@ The AppDynamics integration is disconnected and no longer available to any proje
 
 1. Click +Add under IMPACT SOURCES in left sidebar
 2. Select AppDynamics from dropdown and click "Enable and add"
-3. Copy and paste the desired AppDynamics metric **REST URL** from AppDynamics controller UI
+3.  Copy and paste the desired AppDynamics metric **REST URL** from AppDynamics controller UI
 
-   Open _Applications_ dashboard \_\_and select **Metric Browser** from left hand navigation menu
+    Open _Applications_ dashboard \_\_and select **Metric Browser** from left hand navigation menu
 
-![](../../../.gitbook/assets/image%20%281%29.png)
+![](<../../../.gitbook/assets/image (1).png>)
 
-```text
-       Select desired metric, right click and press **Copy REST URL**
-```
+4\.    Select desired metric, right-click and press **Copy REST URL**
 
-![](../../../.gitbook/assets/image%20%287%29.png)
-
-\*\*\*\*
-
+![](<../../../.gitbook/assets/image (7).png>)
