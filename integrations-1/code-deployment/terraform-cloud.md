@@ -2,6 +2,11 @@
 
 Sleuth doesn't yet have full integration with Terraform Cloud. However, you can use the Terraform Cloud [webhook notifications](https://www.terraform.io/docs/cloud/workspaces/notifications.html) to automatically register a deploy in Sleuth.
 
+{% hint style="info" %}
+If instead, you'd like to manage your Sleuth configuration with Terraform, try our [terraform provider]
+(https://registry.terraform.io/providers/sleuth-io/sleuth/latest).
+{% endhint %}
+
 ## Configure automatic deploy registration in Terraform Cloud
 
 Follow the Terraform documentation to create a [webhook notification](https://www.terraform.io/docs/cloud/workspaces/notifications.html) for your workspace. You will encounter a screen like this:

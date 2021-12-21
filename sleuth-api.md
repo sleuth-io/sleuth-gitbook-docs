@@ -22,6 +22,11 @@ https://app.sleuth.io/graphql
 
 We expose the [GraphiQL](https://github.com/graphql/graphiql) client so you can explore and query the API.
 
+{% hint style="info" %}
+Instead of using the API directly to provision Sleuth resources, you can use Terraform and our [terraform provider]
+(https://registry.terraform.io/providers/sleuth-io/sleuth/latest).
+{% endhint %}
+
 ## ‌Authentication‌
 
 The Sleuth REST API requires authentication using the API key from your Sleuth [organization](settings/organization/details.md).
