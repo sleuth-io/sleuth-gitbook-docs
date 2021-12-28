@@ -6,7 +6,7 @@ The Jira incident integration allows Sleuth to use Jira (Cloud and Datacenter) a
 
 ## Setting up the integration
 
-Follow instructions for [Jira Cloud](../issue-trackers/jira.md#setting-up-the-integration) or [Jira Datacenter](../issue-trackers/jira-datacenter.md#setting-up-the-integration) to establish the integration. Note that if you already added the integration to track your issues, you do **not **need to create another integration - Sleuth will use already existing one to also track incidents.
+Follow instructions for [Jira Cloud](../issue-trackers/jira.md#setting-up-the-integration) or [Jira Datacenter](../issue-trackers/jira-datacenter.md#setting-up-the-integration) to establish the integration. Note that if you already added the integration to track your issues, you do **not** need to create another integration - Sleuth will use already existing one to also track incidents.
 
 
 

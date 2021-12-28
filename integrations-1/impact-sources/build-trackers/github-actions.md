@@ -14,7 +14,7 @@ You should also add at least one [Code deployment](../../../modeling-your-deploy
 
 ## Configuring the integration
 
-Once the integration is successful, find the **Impact sources** section in the sidebar and click the **+ Add **link nested under that section.
+Once the integration is successful, find the **Impact sources** section in the sidebar and click the **+ Add** link nested under that section.
 
 ![](../../../.gitbook/assets/impact-sidebar.png)
 
@@ -26,7 +26,7 @@ Give this build tracking instance a **name** and select which **build** or job i
 
 ![](../../../.gitbook/assets/gh-actions-impact-form.png)
 
-That's it! Sleuth will now start verifying your deploys health by tracking whether the selected build/job is passing or failing. Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs. 
+That's it! Sleuth will now start verifying your deploys health by tracking whether the selected build/job is passing or failing. Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs.
 
 ## Removing the integration
 
