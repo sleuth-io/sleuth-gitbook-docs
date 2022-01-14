@@ -45,7 +45,7 @@
   * [Developer standup](slack-mission-control/developer-standup.md)
 * [Sleuth API](sleuth-api.md)
 
-## Integrations <a href="integrations-1" id="integrations-1"></a>
+## Integrations <a href="#integrations-1" id="integrations-1"></a>
 
 * [About Integrations...](integrations-1/about-integrations.md)
 * [Code integrations](integrations-1/code-deployment/README.md)
@@ -93,6 +93,7 @@
 * [Incident tracker integrations](integrations-1/incident-tracker-integrations/README.md)
   * [PagerDuty](integrations-1/incident-tracker-integrations/pagerduty.md)
   * [Statuspage](integrations-1/incident-tracker-integrations/statuspage.md)
+  * [Opsgenie](integrations-1/incident-tracker-integrations/opsgenie.md)
   * [Jira (Cloud/Data Center)](integrations-1/incident-tracker-integrations/jira-cloud-data-center.md)
   * [FireHydrant](integrations-1/incident-tracker-integrations/firehydrant.md)
   * [Custom](integrations-1/incident-tracker-integrations/custom.md)
