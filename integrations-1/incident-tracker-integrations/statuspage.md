@@ -20,6 +20,7 @@ To add the Sleuth Statuspage integration:
 ![](<../../.gitbook/assets/Screenshot 2021-11-02 at 15.01.46.png>)
 
 * Configure impact source by mapping incidents Statuspage's page and component to Sleuth environment.
+* Under advanced settings, you can control the historic data population. If checked Sleuth will populate all incidents that happened in the last 30 days and recalculate the project's Failure Rate and MTTR metrics.
 
 {% hint style="info" %}
 Integrations are made at the Sleuth organization level and are available for all projects within that organization. Individual settings for integration are made at the project level.

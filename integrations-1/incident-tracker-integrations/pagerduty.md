@@ -19,6 +19,7 @@ To add the Sleuth PagerDuty integration:
 
 * Click **Add incident source** and select a Sleuth project that will track PagerDuty incidents. All projects within your organization will be displayed in the dropdown.
 * Configure impact source by selecting desired PagerDuty services and urgencies to track with Sleuth.
+* Under advanced settings, you can control the historic data population. If checked Sleuth will populate all incidents that happened in the last 30 days and recalculate the project's Failure Rate and MTTR metrics.
 
 {% hint style="info" %}
 Integrations are made at the Sleuth organization level and are available for all projects within that organization. Individual settings for integration are made at the project level.

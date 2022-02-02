@@ -23,6 +23,7 @@ To add the Sleuth Opsgenie integration:
 * Configure impact source first by marking if Sleuth should track Opsgenie alerts or incidents.
 * If impact source will be tracking incidents  (did not enable the option to track alerts), you can filter incidents by affected service.
 * Configure minimum priority threshold. Any alert or incident that will have equal or higher priority will be considered a failure in Sleuth.
+* Under advanced settings, you can control the historic data population. If checked Sleuth will populate all incidents that happened in the last 30 days and recalculate the project's Failure Rate and MTTR metrics.
 
 {% hint style="info" %}
 Integrations are made at the Sleuth organization level and are available for all projects within that organization. Individual settings for integration are made at the project level.
