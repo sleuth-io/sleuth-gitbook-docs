@@ -91,6 +91,18 @@ field
 The git SHA of the deployment, located in the deploy card of the deployment
 {% endswagger-parameter %}
 
+{% swagger-parameter in="body" name="links" type="string" %}
+A key/value pair which is the link name and the link itself of the form:
+
+
+
+mylink=http://my.link
+
+
+
+If you need to send multiple then send a JSON body POST and this is a dictionary of values.
+{% endswagger-parameter %}
+
 {% swagger-response status="200" description="" %}
 ```
 Success

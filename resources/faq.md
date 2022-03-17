@@ -4,7 +4,13 @@
 
 Sleuth is SOC2 Type 2 certified. You can read about how Sleuth secures and manages your data in the [Sleuth Trust Center](https://www.sleuth.io/trust).
 
-Additionally, when you dissolve an integration, Sleuth purges all data, including any API keys/tokens, username/passwords, and any other information it needed to access your integration data.
+Additionally, when you disconnect an integration, Sleuth purges all data, including any API keys/tokens, username/passwords, and any other information it needed to access your integration data.
+
+## How does Sleuth calculate MTTR?
+
+Sleuth calculates MTTR for a specific Project/Environment pairing based on the Impact that have been configured for the Project. You can have as many Impact sources as you like.&#x20;
+
+When Sleuth detects that an Impact source is failing, e.g. an incident in PagerDuty or an elevated metric in Datadog, we create a failure period that tracks its details and the start and end period. When calculating the MTTR for a date range we take all the failure periods that happened in that range and produce the average. For example, if you have three incidents that happened in the date period you're inspecting, one lasting 1 hour, one lasting 2 hours and one lasting 3 hours. We will calculate MTTR as 2 hours, (1 + 2 + 3) / 3.
 
 ## How can I allow Sleuth to connect to resources behind my firewall?
 
