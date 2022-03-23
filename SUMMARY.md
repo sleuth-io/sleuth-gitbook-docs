@@ -96,6 +96,7 @@
   * [Linear](integrations-1/issue-trackers/linear.md)
   * [Shortcut](integrations-1/issue-trackers/shortcut.md)
 * [Incident tracker integrations](integrations-1/incident-tracker-integrations/README.md)
+  * [Blameless](integrations-1/incident-tracker-integrations/blameless.md)
   * [PagerDuty](integrations-1/incident-tracker-integrations/pagerduty.md)
   * [Statuspage](integrations-1/incident-tracker-integrations/statuspage.md)
   * [Opsgenie](integrations-1/incident-tracker-integrations/opsgenie.md)
