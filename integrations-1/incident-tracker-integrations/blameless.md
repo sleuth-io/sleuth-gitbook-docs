@@ -10,8 +10,8 @@ To add the Sleuth Blameless integration:
 
 * Click **Integrations** in the sidebar.
 * Click the _Incidents_ tab, then **add** in the _Blameless_ card.
-* Enter your customer name (the name of the instance you were provided with)
-* Client ID and Client secret (you can get information how to obtain on their[ website](https://docs.blameless.com/api/authentication#prerequisites))
+* Enter a fully qualified URL to your Blameless instance
+* Enter your OAuth Client ID and Client secret (in order to obtain those please reach out to your Customer Success Manager (CSM) \[[1](https://docs.blameless.com/api/authentication/#prerequisites)])
 * Press **Save**.
 
 ## Configuring the integration
