@@ -98,6 +98,7 @@
 * [Incident tracker integrations](integrations-1/incident-tracker-integrations/README.md)
   * [Blameless](integrations-1/incident-tracker-integrations/blameless.md)
   * [PagerDuty](integrations-1/incident-tracker-integrations/pagerduty.md)
+  * [Datadog](integrations-1/incident-tracker-integrations/datadog.md)
   * [Statuspage](integrations-1/incident-tracker-integrations/statuspage.md)
   * [Opsgenie](integrations-1/incident-tracker-integrations/opsgenie.md)
   * [Jira (Cloud/Data Center)](integrations-1/incident-tracker-integrations/jira-cloud-data-center.md)
