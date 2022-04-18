@@ -1,6 +1,6 @@
 # FireHydrant
 
-## About the integration ![](../../.gitbook/assets/firehydrant-logo.png)
+## About the integration <img src="../../.gitbook/assets/firehydrant-logo.png" alt="" data-size="line">
 
 FireHydrant takes care of alert handoff, automating incident declaration, and management process. Integrating FireHydrant with Sleuth is simple using a dedicated bot user.
 

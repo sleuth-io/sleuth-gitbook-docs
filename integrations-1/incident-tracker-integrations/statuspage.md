@@ -1,6 +1,6 @@
 # Statuspage
 
-## About the integration ![](../../.gitbook/assets/statuspage\_logo.svg)
+## About the integration <img src="../../.gitbook/assets/statuspage_logo.svg" alt="" data-size="line">
 
 Statuspage can easily communicate real-time status to your users. Integrating Statuspage with Sleuth is simple using an API token.
 

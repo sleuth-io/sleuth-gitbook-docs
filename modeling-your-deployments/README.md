@@ -8,7 +8,7 @@ Sleuth is designed to allow you to get up and running quickly with all of your e
 
 ## How Sleuth models your deployments
 
-![](../.gitbook/assets/sleuth_ia_graphic%20%281%29%20%281%29.png)
+![](<../.gitbook/assets/sleuth\_ia\_graphic (1).png>)
 
 ### Projects
 
@@ -28,7 +28,7 @@ Sleuth creates a project for you out-of-the-box. Just name your project in the s
 Sleuth allows you to model your existing deployment Environments. Environments are defined and shared under a Project. Examples of how you might use an Environment are:
 
 * To represent your staging and production deploys
-* To represent each percentage of a Canary rollout \(10%, 25%, etc\)
+* To represent each percentage of a Canary rollout (10%, 25%, etc)
 * To represent QA deployments or production deployments across different regions
 
 {% hint style="info" %}
@@ -37,11 +37,11 @@ Sleuth creates a Staging and Production environment for every Project by default
 
 ### Code deployments
 
-The heart of most software change in an organization is driven via code. A Code deployment in Sleuth directly maps to a Git repository in your source control system \(e.g. GitHub, Bitbucket, GitLab\). You may define any number of Code deployments under a Project so Sleuth can track your code deploys. Examples of code deployments include:
+The heart of most software change in an organization is driven via code. A Code deployment in Sleuth directly maps to a Git repository in your source control system (e.g. GitHub, Bitbucket, GitLab). You may define any number of Code deployments under a Project so Sleuth can track your code deploys. Examples of code deployments include:
 
 * The code used to deploy your main monolith application
 * The code used to store and deploy your Terraform infrastructure
-* The mono-repo code used to deploy many micro-services \(you can create a deployment per service in your mono-repo\)
+* The mono-repo code used to deploy many micro-services (you can create a deployment per service in your mono-repo)
 
 ### Feature flags
 
@@ -49,7 +49,7 @@ Many teams use Feature flags to activate new code paths or features for their cu
 
 ### Manual changes
 
-Manual changes let you enter anything that you want tracked in Sleuth that isn't covered by code, feature flags, or another type of change that Sleuth [currently supports](../integrations-1/about-integrations.md). They are a free-form entry that can have any name or description you'd like. Examples include: 
+Manual changes let you enter anything that you want tracked in Sleuth that isn't covered by code, feature flags, or another type of change that Sleuth [currently supports](../integrations-1/about-integrations.md). They are a free-form entry that can have any name or description you'd like. Examples include:
 
 * A manual resource scaling event
 * The restart of a service
@@ -58,4 +58,3 @@ Manual changes let you enter anything that you want tracked in Sleuth that isn't
 ### Deploys
 
 Deploys are how Sleuth represents the changes that are made from your code deployments, feature flag and manual changes. Deploys are specific to a project, environment and deployment but are visible and searchable at the project level. Deploys can progress through your different environments and Sleuth will show you which a deploy has passed through. Deploys collect all the relevant data that went into making your change and, when deploy verification is enabled via Impact tracking, shows the impact your change has made on the health of your service.
-

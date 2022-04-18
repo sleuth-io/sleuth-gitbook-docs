@@ -1,6 +1,6 @@
 # PagerDuty
 
-## About the integration ![](../../.gitbook/assets/pagerduty-logo.png)
+## About the integration <img src="../../.gitbook/assets/pagerduty-logo.png" alt="" data-size="line">
 
 PagerDuty centralizes, simplifies, and automates your incident response process to help you resolve issues quickly and efficiently. Integrating PagerDuty with Sleuth is simple using OAuth2.
 
@@ -13,7 +13,7 @@ To add the Sleuth PagerDuty integration:
 * Select the PagerDuty account you want to use
 * Upon successful integration, you'll see **PagerDuty enabled (Connected as \_\<PagerDuty user account>)**displayed in the PagerDuty tile. You'll next configure the impact sources.
 
-![](<../../.gitbook/assets/screenshot-2021-10-05-at-15.10.07 (1) (1).png>)
+![](<../../.gitbook/assets/screenshot-2021-10-05-at-15.10.07 (1).png>)
 
 ## Configuring the integration
 

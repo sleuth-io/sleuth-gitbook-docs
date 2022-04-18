@@ -4,13 +4,13 @@ Sleuth's Slack integration provides you a [mission control for your deploys](../
 
 Before you start, you should already have a Slack account. Additionally, you should create channels that you plan to use for notifications in Slack before setting up the integration. Sleuth will ask for the Slack channel where it should send its notifications. You can create as many channels necessary to target notifications for individual environments.
 
-Slack integration is setup and configured in a Sleuth organization. When a channel is [configured with a Sleuth project](../settings/project/slack-notifications.md), anyone who follows that Slack channel will receive all messages sent to that channel. Sleuth can also be setup to send [personal Slack notifications](../slack-mission-control/personal-notifications.md). 
+Slack integration is setup and configured in a Sleuth organization. When a channel is [configured with a Sleuth project](../settings/project/slack-notifications.md), anyone who follows that Slack channel will receive all messages sent to that channel. Sleuth can also be setup to send [personal Slack notifications](../slack-mission-control/personal-notifications.md).
 
 ## Setting up the integration
 
 1. Click **Integrations** in the sidebar.
-2. In the **Chat Ops** > **Slack** card, click **enable**. 
-3. Click **Allow** to make the integration. 
+2. In the **Chat Ops** > **Slack** card, click **enable**.
+3. Click **Allow** to make the integration.
 
 {% hint style="info" %}
 You must add Sleuth as an Authorized Application in Slack. For more information, [read the Slack documentation](https://api.slack.com).
@@ -20,14 +20,14 @@ You must add Sleuth as an Authorized Application in Slack. For more information,
 Adding a third-party integration to Slack must be authorized by your Slack App Manager. Slack allows you to message the App Manager directly from the _Request to install_ dialog, as shown below. Once authorization is granted, you can proceed with the integration.
 {% endhint %}
 
-![Adding Slack third-party integrations might require your App Manager's approval.](<../.gitbook/assets/slack-request-to-install-screen (1).png>)
+![Adding Slack third-party integrations might require your App Manager's approval.](../.gitbook/assets/slack-request-to-install-screen.png)
 
-4\. Upon a succesful connection to your Sleuth account, the message **Slack enabled (Connected to workspace **_**\<workspace name>**_**)** is displayed in the tile. 
+4\. Upon a succesful connection to your Sleuth account, the message **Slack enabled (Connected to workspace \_\<workspace name>**\_**)** is displayed in the tile.
 
 ![](../.gitbook/assets/slack-integration-connected.png)
 
 {% hint style="info" %}
-The Slack integration is done at the organization level. Since multiple [projects](../modeling-your-deployments/projects/) can exist within an organization, you'll want to go in to each [project and configure notifications](../settings/project/slack-notifications.md) individually. 
+The Slack integration is done at the organization level. Since multiple [projects](../modeling-your-deployments/projects/) can exist within an organization, you'll want to go in to each [project and configure notifications](../settings/project/slack-notifications.md) individually.
 {% endhint %}
 
 ## Configuring the integration
@@ -46,9 +46,9 @@ To setup personal notifications for yourself see
 
 ## Removing the integration
 
-#### If you wish to dissolve the **Slack** integration for the organization: 
+#### If you wish to dissolve the **Slack** integration for the organization:
 
-1. Click on **Integrations** in the left sidebar, then on **Chat Ops**. 
+1. Click on **Integrations** in the left sidebar, then on **Chat Ops**.
 2. In the Slack integration card, click **disable**. The message **Slack disabled** is displayed in the Slack integration card once the integration is dissolved.
 
-The Slack integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Slack integration will be lost. 
+The Slack integration is disconnected and no longer available to any projects within that organization. Any project-level modifications you made to the Slack integration will be lost.

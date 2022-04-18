@@ -12,6 +12,6 @@ A project gives you a high-level view your Accelerate (DORA) metrics and of all 
 * Configure Slack or Email deploy [notifications for your team or individuals](notifications.md)
 * Know the health and Impact of your deploys via your key SLIs
 
-![Your metrics and the insights to improve](<../../.gitbook/assets/sleuth-sleuth-sleuth-2021-07-13-14-44-27 (2) (2).png>)
+![Your metrics and the insights to improve](<../../.gitbook/assets/sleuth-sleuth-sleuth-2021-07-13-14-44-27 (1) (2).png>)
 
 ![Your project status command center](../../.gitbook/assets/sleuth-sleuth-2021-07-13-16-49-28.png)

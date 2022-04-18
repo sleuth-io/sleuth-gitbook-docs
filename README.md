@@ -11,7 +11,7 @@ description: >-
 
 You can't improve what you don't measure. Sleuth lets you do both!
 
-![](<.gitbook/assets/725aa425-b833-478e-8908-af92af13e8f8 (1).png>)
+![](<.gitbook/assets/725aa425-b833-478e-8908-af92af13e8f8 (1) (1).png>)
 
 ## Setup [deployment & metrics tracking](modeling-your-deployments/) in 5 minutes
 
@@ -58,6 +58,6 @@ Verify the health of your deploys by integrating your Observability and setting 
 {% tab title="Step 5 - Done!" %}
 **Accelerate your team today!**
 
-![](<.gitbook/assets/sleuth-sleuth-sleuth-2021-07-13-14-44-27 (2) (1).png>)
+![](<.gitbook/assets/sleuth-sleuth-sleuth-2021-07-13-14-44-27 (1) (1).png>)
 {% endtab %}
 {% endtabs %}

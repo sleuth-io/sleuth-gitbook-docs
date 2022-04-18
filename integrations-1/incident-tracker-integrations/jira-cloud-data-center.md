@@ -1,6 +1,6 @@
 # Jira (Cloud/Data Center)
 
-## About the integration ![](<../../.gitbook/assets/jira-software-2x-blue (1).png>)
+## About the integration <img src="../../.gitbook/assets/jira-software-2x-blue (1).png" alt="" data-size="line">
 
 The Jira incident integration allows Sleuth to use Jira (Cloud and Datacenter) as a source for incidents.
 
