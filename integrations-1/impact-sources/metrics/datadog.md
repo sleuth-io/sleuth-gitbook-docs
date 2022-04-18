@@ -2,7 +2,7 @@
 
 ## About the integration
 
-Datadog is an metric monitoring service that helps DevOps teams discover, triage, and prioritize their observability data in real-time. Before you start, you should already have a Datadog account and your environment setup and running. If not, head over to Datadog to get things started. Once you're done, return to Sleuth so you can complete setup of the integration.
+Datadog is a metric monitoring service that helps DevOps teams discover, triage, and prioritize their observability data in real-time. Before you start, you should already have a Datadog account and your environment setup and running. If not, head over to Datadog to get things started. Once you're done, return to Sleuth so you can complete setup of the integration.
 
 ## Setting up the integration
 
@@ -10,7 +10,7 @@ To add the Sleuth Datadog integration:
 
 * Click **Integrations** in the sidebar.
 * Click the _Metric Trackers_ tab, then **enable** in the Datadog card.
-* Enter your Datadog API Key and Application Key in the corresponding fields. You need to create both of these seperatly. Generate API key [here](https://app.datadoghq.com/organization-settings/api-keys) and generate an Application key [here](https://app.datadoghq.com/organization-settings/application-keys).
+* Enter your Datadog API Key and Application Key in the corresponding fields. You need to create both of these separately. Generate API key [here](https://app.datadoghq.com/organization-settings/api-keys) and generate an Application key [here](https://app.datadoghq.com/organization-settings/application-keys).
 * If your Datadog servers' are in the EU, enable the _My Datadog servers are in the EU_ checkbox. Leave this unchecked if you are unsure.
 * Press **Save**.
 

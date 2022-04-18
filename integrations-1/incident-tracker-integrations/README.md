@@ -6,6 +6,7 @@
 | ---------------------------------------------------- | ------------------ |
 | [Blameless](blameless.md)                            |                    |
 | [PagerDuty](pagerduty.md)                            |                    |
+| [Datadog](datadog.md)                                |                    |
 | [Statuspage](statuspage.md)                          |                    |
 | [Opsgenie](opsgenie.md)                              |                    |
 | [Jira (Coud/Data Center)](jira-cloud-data-center.md) |                    |
