@@ -9,10 +9,15 @@ The Buildkite integration provides Sleuth with the ability to track your Buildki
 To add the Sleuth Buildkite integration:
 
 1. Click **Integrations** in the sidebar.
-2. Click the** CI/CD** tab, then click **enable** in the Buildkite card. \
-    ![](../../.gitbook/assets/buildkite-disabled.png) 
-3. Enter your Buildkite User API Token, then press **Save**. To quickly obtain your User API Token, make sure you're logged in to your Buildkite account, then click **generate**. You will be taken to the Personal API Tokens section of your Buildkite account. 
-4. On successful integration, you'll see a new connection you can remove or inspect. You'll  configure 
+2. Click the** CI/CD** tab, then click **add** in the Buildkite card. \
+    ![](../../.gitbook/assets/buildkite-disabled.png)
+3. Enter your Buildkite User API token if you have one. \
+    ![](../../.gitbook/assets/buildkite-api-token-entry.png) \
+    If not, click on **generate** and create one: \
+    ![](../../.gitbook/assets/buildkite-user-api-token-generate.png) \
+    Make sure to select the requested scopes, then copy the new token into the Sleuth dialog.
+5. Press **Save**
+6. On successful integration, you'll see a new connection you can remove or inspect. You'll configure 
    the default build server later. \
    ![](../../.gitbook/assets/buildkite-enabled.png)
 
@@ -21,10 +26,6 @@ You can create multiple connections and choose which connection is relevant for 
 {% hint style="info" %}
 [Read the Buildkite documentation](https://buildkite.com/docs/apis/managing-api-tokens) for more information on generating Personal API Tokens. 
 {% endhint %}
-
-![Sleuth Buildkite Personal API Token entry dialog](../../.gitbook/assets/buildkite-api-token-entry.png)
-
-![Generate a new Buildkite Personal API Token in your Buildkite User settings](../../.gitbook/assets/buildkite-user-api-token-generate.png)
 
 ## Configuring the integration
 
