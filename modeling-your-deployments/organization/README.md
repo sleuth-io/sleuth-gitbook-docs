@@ -4,7 +4,7 @@ An **Organization** is the top level container that Sleuth uses to organize your
 
 However, for managers or executives looking for the 50-foot view of their Organization's engineering efficiency Sleuth offers multiple ways to slice and dice your performance. &#x20;
 
-![Organization Trends](<../../.gitbook/assets/Trends - Sleuth 2022-03-02 16-39-40.png>)
+![Organization Trends](<../../.gitbook/assets/Trends - Sleuth 2022-03-02 16-39-40 (1).png>)
 
 With your organization dashboards you can:
 

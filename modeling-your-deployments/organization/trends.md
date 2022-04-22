@@ -2,7 +2,7 @@
 
 Sleuth's Organization Trends dashboard allows you spot how your initiatives (projects or labels) are trending over time.
 
-![](<../../.gitbook/assets/Trends - Sleuth 2022-03-02 16-39-40 (1).png>)
+![](<../../.gitbook/assets/Trends - Sleuth 2022-03-02 16-39-40.png>)
 
 You can use the date filter to see trends over the last two weeks, month, quarter or any custom date range you desire.&#x20;
 
