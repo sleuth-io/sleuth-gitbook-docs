@@ -144,7 +144,7 @@ rules:
         - tags='api_change' or tags='database_migration'
       actions:
         - slack_personal_message:
-            user: sara@example.com
+            email: sara@example.com
             message: |
               An important <{{deploy_url}}|deployment> went out tagged with {{deploy_tags}}.
 ```
