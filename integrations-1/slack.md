@@ -20,7 +20,7 @@ You must add Sleuth as an Authorized Application in Slack. For more information,
 Adding a third-party integration to Slack must be authorized by your Slack App Manager. Slack allows you to message the App Manager directly from the _Request to install_ dialog, as shown below. Once authorization is granted, you can proceed with the integration.
 {% endhint %}
 
-![Adding Slack third-party integrations might require your App Manager's approval.](<../.gitbook/assets/slack-request-to-install-screen (1).png>)
+![Adding Slack third-party integrations might require your App Manager's approval.](../.gitbook/assets/slack-request-to-install-screen.png)
 
 4\. Upon a succesful connection to your Sleuth account, the message **Slack enabled (Connected to workspace \_\<workspace name>**\_**)** is displayed in the tile.
 

@@ -48,7 +48,8 @@
   * [Search Sleuth in Slack](slack-mission-control/search-sleuth-in-slack.md)
   * [Project/Deployment history](slack-mission-control/project-deployment-history.md)
   * [Developer standup](slack-mission-control/developer-standup.md)
-* [Sleuth API](sleuth-api.md)
+* [Sleuth API](sleuth-api/README.md)
+  * [Deprecation information](sleuth-api/deprecation-information.md)
 
 ## Integrations <a href="#integrations-1" id="integrations-1"></a>
 

@@ -3,8 +3,8 @@
 ‌The Sleuth REST API provides methods that enables users to:‌
 
 * Register their deploys
-* Create [manual changes](modeling-your-deployments/manual-changes.md)
-* Register [custom impact values](integrations-1/impact-sources/metrics/custom.md)
+* Create [manual changes](../modeling-your-deployments/manual-changes.md)
+* Register [custom impact values](../integrations-1/impact-sources/metrics/custom.md)
 
 Sleuth's main public API is built using GraphQL. It's the same API we use internally for developing our applications.
 
@@ -24,11 +24,11 @@ We expose the [GraphiQL](https://github.com/graphql/graphiql) client so you can 
 
 ## ‌Authentication‌
 
-The Sleuth REST API requires authentication using the API key from your Sleuth [organization](settings/organization/details.md).
+The Sleuth REST API requires authentication using the API key from your Sleuth [organization](../settings/organization/details.md).
 
 ## Provisioning Sleuth with Terraform
 
-For Organizations with many [Projects](modeling-your-deployments/projects/), [Code Deployments](modeling-your-deployments/code-deployments/) and [Impact Sources](integrations-1/impact-sources/) configuring Sleuth via the UI can be cumbersome. The Sleuth API can be used to provision resources directly. However, many teams already rely on [Terraform](https://www.terraform.io) to provision their infrastructure and other resources.&#x20;
+For Organizations with many [Projects](../modeling-your-deployments/projects/), [Code Deployments](../modeling-your-deployments/code-deployments/) and [Impact Sources](../integrations-1/impact-sources/) configuring Sleuth via the UI can be cumbersome. The Sleuth API can be used to provision resources directly. However, many teams already rely on [Terraform](https://www.terraform.io/) to provision their infrastructure and other resources.&#x20;
 
 Instead of using the API directly to provision Sleuth resources, you can use Terraform and our [terraform provider](https://registry.terraform.io/providers/sleuth-io/sleuth/latest).
 

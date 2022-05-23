@@ -18,7 +18,7 @@ Custom Incident Impact is always available with your Sleuth project. No addition
 
 * Once you've created the Impact Source you will be presented list of your impact sources. Click the actions dropdown on your created custom incident source and click "Show register details"
 
-![](<../../.gitbook/assets/Screenshot 2021-10-29 at 13.43.50 (1) (1) (1).png>)
+![](<../../.gitbook/assets/Screenshot 2021-10-29 at 13.43.50 (1) (1).png>)
 
 * A modal with instructions on how to report an Impact value to Sleuth will open. You will need to POST your data to a Sleuth REST endpoint that is specific to your metric. The dialog includes the exact URLs and information you will need to submit your data.
 

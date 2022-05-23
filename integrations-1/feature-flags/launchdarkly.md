@@ -21,7 +21,7 @@ To add the LaunchDarkly integration:
 
 3\. On successful integration, you'll see **LaunchDarkly enabled (Connected as \_\<LaunchDarkly user account>**\_\*\*) \*\*displayed in the LaunchDarkly tile.
 
-![](<../../.gitbook/assets/integrations-sleuth-2021-01-31-17-09-46 (1).png>)
+![](../../.gitbook/assets/integrations-sleuth-2021-01-31-17-09-46.png)
 
 4\. Once enabled you can now add a Feature flags to your existing projects. See [how to create feature flags](../../settings/project/feature-flags.md) for more details.
 
