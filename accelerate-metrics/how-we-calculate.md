@@ -19,8 +19,8 @@ Change lead time is defined as the time from first commit to deploy. Sleuth allo
 Sleuth further breaks down change lead time into four categories:
 
 1. Coding - the amount of time between first commit and a pull request being opened
-2. Review lag - the amount of time between a pull request being opened and the first approval
-3. Review - the amount of time between first approval and the pull request being merged
+2. Review lag - the amount of time between a pull request being opened and the first review
+3. Review - the amount of time between first review and the pull request being merged
 4. Deploying - the amount of time between the pull request being merged and [Sleuth discovering you've deployed](../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md)
 
 {% hint style="info" %}
