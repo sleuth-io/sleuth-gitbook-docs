@@ -8,16 +8,16 @@ This page lists all the fields in our GQL API that have been marked as deprecate
 
 We will try to keep all these fields available for at least 3 months after they've been tagged deprecated. You're highly encouraged to update any code still using them to avoid issues once the deprecation period runs out and the fields are removed.
 
+## 2022-06-07
+
+* Field `impactHistory` was deprecated from object type `Environment`. Use field `healthEvents` instead.
+* Field `impactHistory` was deprecated from object type `ChangeModelType`. Use field `healthEvents` instead.
+
 ## 2022-05-23
 
-Field `health` on `ChangeType` has been marked as deprecated.
-
-To get detailed information on specific deploy health, you can use the `healthTimeBreakdown` field on that same object.
-
-To get the health state of an environment, you can use the `currentHealth` field on `Environment` objects.
+* Field `health` was deprecated from object type `ChangeType`. Use field `currentHealth` on type `Environment` instead.
 
 ## 2022-04-26
 
-Mutation fields `create_nr_integration` and `create_dd_integration` have been marked as deprecated.
-
-This was just a rename, those same fields are now available as `create_newrelic_integration` and `create_datadog_integration`.
+* Mutation `create_nr_integration` was deprecated. Use mutation `create_newrelic_integration` instead.
+* Mutation `create_dd_integration` was deprecated. Use mutation `create_datadog_integration` instead.
