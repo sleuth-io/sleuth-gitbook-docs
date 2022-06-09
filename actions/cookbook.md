@@ -125,11 +125,13 @@ rules:
         - environment='Production'
         - health='Unhealthy'
       actions:
-        - notify_deploy_authors: |
+        - slack_personal_message: 
+            group: authors
+            meessage: |
             Your code was <{{deploy_url}}|deployed> and is unhealthy. Check these links:
-              * &lt;https://datadog.com/dashboard/important-things|Important things graphs>
-              * &lt;https://mylogs.com/dashboard/production_logs?sha={{deploy_revision}}|Prod logs for this deploy>
-              * &lt;https://statuspage.com/myorg/create_incident|Update status page>
+              * <https://datadog.com/dashboard/important-things|Important things graphs>
+              * <https://mylogs.com/dashboard/production_logs?sha={{revision}}|Prod logs for this deploy>
+              * <https://statuspage.com/myorg/create_incident|Update status page>
 ```
 
 ### Notify the project lead on certain deploys (coming soon)
