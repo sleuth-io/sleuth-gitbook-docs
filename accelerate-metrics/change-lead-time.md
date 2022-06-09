@@ -10,8 +10,8 @@ For instance, let's say that you deploy every merged pull request to your stagin
 
 The Sleuth project metrics dashboard shows the average lead time for all deploys in the period. We also provide a detailed breakdown of how much your team, on average, is spending:
 
-* Coding - the time spend from first commit to when a pull request is opened
-* Review lag time - the time spend between a pull request being opened and the first review
+* Coding - the time spent from first commit to when a pull request is opened
+* Review lag time - the time spent between a pull request being opened and the first review
 * Review time - the time spent from first review to the pull request being merged
 * Deploying - the time spent from pull request merge to deployment
 
