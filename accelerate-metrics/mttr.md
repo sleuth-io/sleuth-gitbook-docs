@@ -25,4 +25,4 @@ Every deployment, feature flags included, has an advanced setting that allows yo
 
 ## Setting up MTTR
 
-Because MTTR is closely tied to change failure please see [setting up change failure rate](change-failure-rate.md#setting-up-change-failure) to configure MTTR.
+Because MTTR is closely tied to change failure please see the [setting up change failure rate](change-failure-rate.md#setting-up-change-failure) to configure MTTR.
