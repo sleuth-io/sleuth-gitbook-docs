@@ -114,7 +114,7 @@ rules:
 
 ## Deployment notifications
 
-### Custom message to author when deploy is unhealthy (coming soon)
+### Custom message to author when deploy is unhealthy&#x20;
 
 When a deployment to production is determined by Sleuth to be unhealthy, notify any author involved in the deployment, usually commit and pull request authors. Send them a personal slack notification with a custom message containing links to key dashboards, logging systems, runbooks, and whatever other resources they need to resolve the incident.
 
