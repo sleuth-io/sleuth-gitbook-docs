@@ -8,7 +8,7 @@ What a team defines as **change failure** is very specific to the team. It can b
 
 The Sleuth project metrics dashboard shows the total number of deploys that were deemed a failure in the period. We also provide a detailed breakdown of deploys by the type of failure. Failure types currently supported in Sleuth are:
 
-* Incidents - any deploy with a status of `Incident` - _Sleuth provides integrations with PagerDuty, Statuspage, and many more, and we're continuously adding new integrations per customer demand. See_ [_Integrations_](broken-reference) _for an up-to-date list of currently those we currently support._&#x20;
+* Incidents - any deploy with a status of `Incident` - _Sleuth provides integrations with PagerDuty, Statuspage, and many more, and we're continuously adding new integrations per customer demand. See_ [_Integrations_](broken-reference) _for an up-to-date list of those we currently support._&#x20;
 * Rolled back - any code deploys that were [detected to be rolled back](../modeling-your-deployments/code-deployments/rollbacks.md)
 * Unhealthy - any configured [impact sources](../integrations-1/impact-sources/) and [deploy verification](../auto-verify-your-deploys/) that has determined a deploy is `Unhealthy`
 * Ailing - any configured [impact sources](../integrations-1/impact-sources/) and [deploy verification](../auto-verify-your-deploys/) that has determined a deploy is `Ailing`

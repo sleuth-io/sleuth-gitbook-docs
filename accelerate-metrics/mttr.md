@@ -10,7 +10,7 @@ For instance, let's say you make a deploy that adds 25% to your database CPU. As
 
 The Sleuth project metrics dashboard shows the total time spent in a failure state in the period. We also provide a detailed breakdown of the time spent in each type of failure. Failure types currently supported in Sleuth are:
 
-* Incidents - any deploy with a status of `Incident` - _integrations with PagerDuty, Statuspage and more are coming soon to automate the discovery of incidents_
+* Incidents - any deploy with a status of `Incident` - _Sleuth provides integrations with PagerDuty, Statuspage, and many more, and we're continuously adding new integrations per customer demand. See_ [_Integrations_](broken-reference) _for an up-to-date list of those we currently support._&#x20;
 * Rolled back - any code deploys that were [detected to be rolled back](../modeling-your-deployments/code-deployments/rollbacks.md)
 * Unhealthy - any configured [impact sources](../integrations-1/impact-sources/) and [deploy verification](../auto-verify-your-deploys/) that has determined a deploy is `Unhealthy`
 * Ailing - any configured [impact sources](../integrations-1/impact-sources/) and [deploy verification](../auto-verify-your-deploys/) that has determined a deploy is `Ailing`
