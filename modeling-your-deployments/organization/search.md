@@ -1,6 +1,6 @@
 # Search
 
-No good sleuth should be without an amazing magnifying glass. Sleuth's search is now the most powerful tool in your kit, allowing you to instantly find the cause of any bad deploys.
+No good sleuth should be without an amazing magnifying glass. Sleuth's search is one the most powerful tools in your kit, allowing you to instantly find the cause of any bad deploys.
 
 ![](../../.gitbook/assets/sleuth-sleuth-2021-04-05-16-16-04.png)
 
