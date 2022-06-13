@@ -43,3 +43,7 @@ That's it! Sleuth will now start verifying your deploys health by tracking the e
 2. In the Rollbar integration card, click **disable**. The message **Rollbar disabled** is displayed in the Rollbar integration card once the integration is dissolved.
 
 The Rollbar integration is disconnected and no longer available to any projects within that organization. Other error trackers that may be connected to your organization are not affected.
+
+
+
+When Rollbar is configured, Sleuth creates project access tokens for the user's projects. Please note that Rollbar's API does not currently offer a way to remove project access tokens. After removing the integration, the project access tokens will still show in Rollbar and will need to be removed manually.&#x20;
