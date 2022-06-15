@@ -12,17 +12,17 @@ Follow the Terraform documentation to create a [webhook notification](https://ww
 
 ![](../../.gitbook/assets/app-celery-deploys-prod-or-sleuth-io-or-terraform-cloud-2021-03-19-14-45-20.png)
 
-**Name: **give your webhook a descriptive such as "_Sleuth deploy registration_**"**
+**Name: give your webhook a descriptive such as "**_**Sleuth deploy registration**_**"**
 
-**Webhook URL:** this URL should be the Sleuth registration URL for your code deployment. You can easily find this information via the link "Get setup instructions" in your code deployment dashboard. 
+**Webhook URL:** this URL should be the Sleuth registration URL for your code deployment. You can easily find this information via the link "Get setup instructions" in your code deployment dashboard.
 
 {% hint style="warning" %}
 You must include your `api_key` and `environment` in the parameters of your registration URL. Since Terraform Cloud controls the contents of the webhook you can only tell Sleuth about these parameters by including them in the URL.
 
-Your URL will look something like: https://app.sleuth.io/api/1/deployments/sleuth/terraform/register_deploy?api_key=456ee3322eeedoow\&environment=Staging
+Your URL will look something like: https://app.sleuth.io/api/1/deployments/sleuth/terraform/register\_deploy?api\_key=456ee3322eeedoow\&environment=Staging
 {% endhint %}
 
-**Triggers: **Sleuth only respects the **Completed** trigger. You can send the others but they'll be ignored
+**Triggers:** Sleuth only respects the **Completed** trigger. You can send the others but they'll be ignored
 
 Save the webhook and now every time your Terraform plan completes it will automatically register the repositories latest change with Sleuth.
 
