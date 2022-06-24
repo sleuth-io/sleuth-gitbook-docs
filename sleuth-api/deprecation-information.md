@@ -8,6 +8,24 @@ This page lists all the fields in our GQL API that have been marked as deprecate
 
 We will try to keep all these fields available for at least 3 months after they've been tagged deprecated. You're highly encouraged to update any code still using them to avoid issues once the deprecation period runs out and the fields are removed.
 
+## 2022-06-24
+
+* Enum `OrderField` 's option `health` is deprecated. Use option `health_time` instead.
+* Field `orgChanges` has the following arguments deprecated:&#x20;
+  * `healths`, use `health_times` instead
+  * `start_date`, use `start` instead
+  * `end_date`, use `end` instead
+* For the following fields the  arguments `start_date` and `end_date` are deprecated, use `start` and `end` instead:
+  * `ProjectType.metricMTTR`&#x20;
+  * `ProjectType.metricFrequency`
+  * `ProjectType.metricLeadTime`
+  * `ProjectType.metricFailureRate`&#x20;
+  * `ProjectType.metricRecap`
+  * `ProjectType.metricSlowestPrs`
+  * `ProjectType.metricBiggestDeploys`
+  * `ProjectType.metricTopUnhealthyDeploys`
+  * `ProjectType.insights`
+
 ## 2022-06-07
 
 * Field `impactHistory` was deprecated from object type `Environment`. Use field `healthEvents` instead.
