@@ -6,13 +6,13 @@ The **Details** tab contains general information about the selected **project**.
 
 You can change the name of your project in the Details tab, along with an optional **Description** for the project. This is helpful if you are on a large team with multiple projects within the organization.
 
-![Details tab in Project Settings](../../.gitbook/assets/details.png)
+![](<../../.gitbook/assets/Project Settings - sleuth - Sleuth 2022-06-24 16-33-41.png>)
 
 You can also change the default issue tracker for the selected project and, if a [Build](../../integrations-1/builds/) integration has been established, a default build server. Selecting a build server is optional, but at least one default [issue tracker](../../integrations-1/issue-trackers/) or [code deployment](../../integrations-1/code-deployment/) must be selected for your project. A link to enable an issue tracker is provided if the integration has not yet been made in the organization.
 
 ### Advanced settings
 
-![](../../.gitbook/assets/project-advanced.png)
+![](<../../.gitbook/assets/Project Settings - sleuth - Sleuth 2022-06-24 16-29-57.png>)
 
 #### Change failure rate boundary
 
@@ -45,3 +45,7 @@ Only certain members can create an integration for the organization. See [Access
 {% endhint %}
 
 Press **Save** after making any changes in the _Details_ tab.
+
+#### Rollback detection
+
+This setting allows you to disable [rollback detection](../../modeling-your-deployments/code-deployments/rollbacks.md). There are some scenarios where you don't want Sleuth to detect rollbacks or include them as change failures.&#x20;

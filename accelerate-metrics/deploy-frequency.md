@@ -14,12 +14,12 @@ The Sleuth project metrics dashboard shows the total number of deploys and the f
 * Gigantic - usually 4 or more pull requests or 30 or more commits or many thousands of lines of code changed
 
 {% hint style="info" %}
-Because batch size is a weighted blend of pull requests, commits and code changes you can find that an especially large amount of change in any of those elements can cause a deploy to be classified as Large or Gigantic.
+Because batch size is a weighted blend of pull requests, commits and code changes, you may find that an especially large amount of change in any of those elements can cause a deploy to be classified as Large or Gigantic.
 {% endhint %}
 
 ## Feature flags and frequency
 
-Sleuth [supports feature flags](../modeling-your-deployments/feature-flags.md) as a first class form of change. That said, we find that teams want to understand the distinction between their code deploy frequency and their flag change frequency. The Sleuth metrics dashboard shows the two frequencies as separate graph lines and allows you to toggle on or the other on and off. To see totals for flag frequency you can hover over a data point.
+Sleuth [supports feature flags](../modeling-your-deployments/feature-flags.md) as a first class form of change. That said, we find that teams want to understand the distinction between their code deploy frequency and their flag change frequency. The Sleuth metrics dashboard shows the two frequencies as separate graph lines and allows you to toggle one or the other on and off. To see totals for flag frequency you can hover over a data point.
 
 ## Setting up deploy frequency
 
@@ -28,5 +28,5 @@ Sleuth uses our [code integrations](https://help.sleuth.io/integrations-1/code-d
 Sleuth uses our [LaunchDarkly integration](../integrations-1/feature-flags/launchdarkly.md) to track feature flag changes. Once setup, we'll automatically start tracking your flag frequency across each of your defined [Environments](../modeling-your-deployments/environment-support.md).
 
 {% hint style="info" %}
-For the most accurate metrics we recommend using a [webhook to register](https://help.sleuth.io/modeling-your-deployments/code-deployments/how-to-register-a-deploy#precise-deploy-registration-via-a-webhook) your deploys. Initially Sleuth is configured to count a pull request merge as a deploy until we've received your first webhook.
+For the most accurate metrics we recommend using a [webhook to register](https://help.sleuth.io/modeling-your-deployments/code-deployments/how-to-register-a-deploy#precise-deploy-registration-via-a-webhook) your deploys. Initially, Sleuth is configured to count a pull request merge as a deploy until we've received your first webhook.
 {% endhint %}
