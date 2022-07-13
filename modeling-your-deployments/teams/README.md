@@ -11,12 +11,12 @@ But team-based views are about more than just understanding each team’s relati
 With Teams, Sleuth user can:
 
 * [Define teams and sub-teams](../../settings/organization/teams.md) in Sleuth
-* Automatically maintain Sleuth teams using [GitHub Team Sync](../../settings/organization/teams.md)
+* Automatically maintain Sleuth teams using [GitHub Team Sync](../../settings/organization/teams.md) (Enterprise-only)
 * Track teams across projects with Team-centric DORA metrics dashboards
 * Subscribe to [Team-centric email digests](../../notifications.md)
 * Filter [Filter project-level DORA metrics dashboards](../projects/) by contributing teams
 * View [team-level trends](../organization/trends.md) over time
-* [Compare teams](../organization/compare.md) with other teams, projects, or labels
+* [Compare teams](../organization/compare.md) with other teams, projects, or labels (Enterprise-only)
 * [Search by team](../organization/search.md)
 
 ![](<../../.gitbook/assets/image (20).png>)
