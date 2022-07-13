@@ -4,10 +4,10 @@ Sleuth does not require users to explicitly associate Teams with Projects. Rathe
 
 ![](<../../.gitbook/assets/Sleuth Data Model for Teams (1).jpg>)
 
-As such, Sleuth can present powerful DORA metric "intersections" that show each Team's relative contribution to the DORA metrics for the Projects they're working on. This is evident in views such as the **Projects contributed to** panel below, which shows the DORA metrics at the specific intersection of this Team and those Projects.   &#x20;
+As such, Sleuth can present powerful DORA metric "intersections" that show each Team's relative contribution to the DORA metrics for the Projects they're working on. This is evident in views such as the **Projects contributed to** panel below, which shows the DORA metrics at the specific intersection of this Team and those Projects.  &#x20;
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (15).png>)
 
 Similarly, from within the Project-level Metrics dashboard, Sleuth presents a view into **Contributing teams** and their relative impacts on that Project's metrics.&#x20;
 
-![](<../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (26).png>)

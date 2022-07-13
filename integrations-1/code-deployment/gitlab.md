@@ -25,7 +25,7 @@ GitLab can be configured in read-only mode, making use of a read-only token from
 1. In the GitLab dialog, click on **Advanced settings** and check **Read-only** checkbox.
 2. Continue to add a new code deployment as usual.
 3. Now, you'll need to manually configure the GitLab webhook so that Sleuth is notified about key events. Visit the code deployment page, click on the cog at the top right and select **Get webhook instructions**\
-   ![](<../../.gitbook/assets/image (12) (1).png>)\
+   ![](<../../.gitbook/assets/image (12) (1) (1).png>)\
 
 4. Copy the webhook URL, secret, and note the events for later
 5. Visit your GitLab repository settings and click on **Webhooks**

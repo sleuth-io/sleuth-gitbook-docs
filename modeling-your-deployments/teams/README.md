@@ -19,7 +19,7 @@ With Teams, Sleuth user can:
 * [Compare teams](../organization/compare.md) with other teams, projects, or labels
 * [Search by team](../organization/search.md)
 
-![](<../../.gitbook/assets/image (23).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 Teams are managed and maintained from within Organization Settings. For information on how to set up and maintain your teams, sub-teams, and team members in Sleuth, refer to [Managing Teams](../../settings/organization/teams.md).&#x20;
 
