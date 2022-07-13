@@ -1,10 +1,10 @@
-# Team notifications
+# Project notifications
 
 When your team is deploying frequently keeping everyone in the loop about what's changing is crucial.
 
 ![](<../.gitbook/assets/slack-or-deploys-or-sleuth-2021-02-04-11-01-28 (1) (1) (1) (1) (1).png>)
 
-Project level team Slack notifications provide the context your team needs to keep the code flowing —automated, easily-digestable messages for:
+Project-level team Slack notifications provide the context your teams need to keep the code flowing —automated, easily-digestable messages for:
 
 * when your deploy occurred
 * what was deployed

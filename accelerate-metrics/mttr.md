@@ -1,14 +1,14 @@
 # MTTR
 
-![](../.gitbook/assets/60f24adb5126655709ee5a9c\_metrics-graphic-4-.svg)
+![](<../.gitbook/assets/image (20).png>)
 
 **Mean time to recovery or MTTR** is defined in Sleuth as the time a project spends in a failure state.
 
-For instance, let's say you make a deploy that adds 25% to your database CPU. Assume that Sleuth is tracking this impact and determines that the deploy is Unhealthy. You team has setup [slack notifications](../modeling-your-deployments/projects/notifications.md) in Sleuth, and as a result your mean time to discovery or MTTD is basically zero. Your team jumps into action and initiates a rollback which takes 25 minutes to complete. Once your rollback is deployed, Sleuth sees that your database CPU has gone back down to normal and auto-verifies the deploy as Healthy. Your **MTTR** in this scenario would be **25 minutes**, the amount of time it took for your team to return your project to a healthy state.
+For instance, let's say you make a deploy that adds 25% to your database CPU. Assume that Sleuth is tracking this impact and determines that the deploy is Unhealthy. You team has setup [slack notifications](../notifications.md) in Sleuth, and as a result your mean time to discovery or MTTD is basically zero. Your team jumps into action and initiates a rollback which takes 25 minutes to complete. Once your rollback is deployed, Sleuth sees that your database CPU has gone back down to normal and auto-verifies the deploy as Healthy. Your **MTTR** in this scenario would be **25 minutes**, the amount of time it took for your team to return your project to a healthy state.
 
 ## MTTR breakdowns
 
-The Sleuth project metrics dashboard shows the total time spent in a failure state in the period. We also provide a detailed breakdown of the time spent in each type of failure. Failure types currently supported in Sleuth are:
+The Sleuth project and team metrics dashboards show the total time spent in a failure state in the period. We also provide a detailed breakdown of the time spent in each type of failure. Failure types currently supported in Sleuth are:
 
 * Incidents - any deploy with a status of `Incident` - _Sleuth provides integrations with PagerDuty, Statuspage, and many more, and we're continuously adding new integrations per customer demand. See_ [_Integrations_](broken-reference) _for an up-to-date list of those we currently support._&#x20;
 * Rolled back - any code deploys that were [detected to be rolled back](../modeling-your-deployments/code-deployments/rollbacks.md)

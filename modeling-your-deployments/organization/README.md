@@ -1,16 +1,11 @@
 # Organization
 
-An **Organization** is the top level container that Sleuth uses to organize your [Project's](../projects/). Most of your team will spend their time in the project and deployment level dashboards.
+An **Organization** is the top level container that Sleuth uses to organize your [Projects](../projects/). Most Sleuth users will spend the majority of their time in the project-level, deployment-level, and team-level dashboards. However, for managers or executives looking for the 50-foot view of their Organization's engineering efficiency, Sleuth offers multiple ways to slice and dice your organization-wide performance. &#x20;
 
-However, for managers or executives looking for the 50-foot view of their Organization's engineering efficiency Sleuth offers multiple ways to slice and dice your performance. &#x20;
+![](<../../.gitbook/assets/image (19).png>)
 
-![Organization Trends](<../../.gitbook/assets/Trends - Sleuth 2022-03-02 16-39-40.png>)
-
-With your organization dashboards you can:
-
-* See DORA metric [Trends](trends.md) across any combination of [projects](../projects/) or [labels](labels.md)
-* [Compare](compare.md) and contrast DORA metrics across any combination of [projects](../projects/) or [labels](labels.md)
-* See the overall [Status](status.md) of your organizations [projects](../projects/) at a glance
-* Get a snapshot view into exactly what's been changing across your [projects](../projects/)
-* [Search](search.md) for any deploy across all of your organization's [projects](../projects/), [environments](../environment-support.md) via any dimension (issue key, pull request titles, author and more)
+* [Compare](compare.md) and contrast DORA metrics across any combination of [projects](../projects/), [labels](labels.md), or [teams](../teams/)
+* See the overall [Status](status.md) of your organizations [projects](../projects/) or [teams](../teams/) at a glance
+* Get a snapshot view into exactly what's been changing across your [projects](../projects/) and [teams](../teams/)
+* [Search](search.md) for any deploy across all of your organization's [projects](../projects/), [environments](../environment-support.md), and [teams](../teams/) via any dimension (issue key, pull request titles, author and more)
 

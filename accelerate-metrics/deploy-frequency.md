@@ -1,12 +1,10 @@
 # Deploy frequency
 
-![](../.gitbook/assets/60f24adafb2736b233e3ca91\_metrics-graphic-2-1-.svg)
+![](<../.gitbook/assets/image (17).png>)
 
-Sleuth shows you the **deploy frequency** for all [code deployments](../modeling-your-deployments/code-deployments/) and [feature flags](../modeling-your-deployments/feature-flags.md) you've setup within a [project](../modeling-your-deployments/projects/) and [environment](../modeling-your-deployments/environment-support.md). Sleuth allows you to see your deploy frequency for each [environment](../modeling-your-deployments/environment-support.md) you maintain.‌
+Sleuth shows you the **deploy frequency** for all [code deployments](../modeling-your-deployments/code-deployments/) and [feature flags](../modeling-your-deployments/feature-flags.md) you've setup within a [project](../modeling-your-deployments/projects/) and [environment](../modeling-your-deployments/environment-support.md). Sleuth allows you to see your deploy frequency for each [environment](../modeling-your-deployments/environment-support.md) you maintain and to view that frequency for each of your contributing [teams](../modeling-your-deployments/teams/).‌Batch size breakdowns
 
-## Batch size breakdowns
-
-The Sleuth project metrics dashboard shows the total number of deploys and the frequency, deploys per day, in the period. We provide a detailed breakdown of the batch size of each deploy as a percentage of the total and broken down per day. Batch size is defined as a blend of the number of pull requests, the number of commits and the amount of code changed, weighted in that order. Batch sizes are defined as:
+Sleuth's project and team metrics dashboards show the total number of deploys and the frequency, deploys per day, in the period. We provide a detailed breakdown of the batch size of each deploy as a percentage of the total and broken down per day. Batch size is defined as a blend of the number of pull requests, the number of commits and the amount of code changed, weighted in that order. Batch sizes are defined as:
 
 * Small - usually 1 pull request, 1 - 10 commits and a few hundred lines of code changed
 * Medium - usually 1 - 2 pull requests, 10 - 30 commits and many hundreds of lines of code changed

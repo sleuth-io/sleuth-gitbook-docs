@@ -37,7 +37,7 @@ Sleuth creates a Staging and Production environment for every Project by default
 
 ### Code deployments
 
-The heart of most software change in an organization is driven via code. A Code deployment in Sleuth directly maps to a Git repository in your source control system (e.g. GitHub, Bitbucket, GitLab). You may define any number of Code deployments under a Project so Sleuth can track your code deploys. Examples of code deployments include:
+The heart of most software change in an organization is driven via code. A Code deployment in Sleuth (not to be confused with a [Deploy](./#deploys) in Sleuth) represents a direct mapping to a Git repository in your source control system (e.g. GitHub, Bitbucket, GitLab). You may define any number of Code deployments under a Project so Sleuth can track your code deploys. Examples of code deployments include:
 
 * The code used to deploy your main monolith application
 * The code used to store and deploy your Terraform infrastructure
@@ -57,4 +57,4 @@ Manual changes let you enter anything that you want tracked in Sleuth that isn't
 
 ### Deploys
 
-Deploys are how Sleuth represents the changes that are made from your code deployments, feature flag and manual changes. Deploys are specific to a project, environment and deployment but are visible and searchable at the project level. Deploys can progress through your different environments and Sleuth will show you which a deploy has passed through. Deploys collect all the relevant data that went into making your change and, when deploy verification is enabled via Impact tracking, shows the impact your change has made on the health of your service.
+Deploys are how Sleuth represents the changes that are made from your code deployments, feature flag and manual changes. Deploys are specific to a project, environment and change source (i.e. a Code deployment, a Feature flag, or a Manual Change) but are visible and searchable at the project and team levels. Deploys can progress through your different environments and Sleuth will show you which environments a deploy has passed through. Deploys collect all the relevant data that went into making your change and, when deploy verification is enabled via Impact tracking, shows the impact your change has made on the health of your service.

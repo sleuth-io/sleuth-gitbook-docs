@@ -2,16 +2,16 @@
 
 No good sleuth should be without an amazing magnifying glass. Sleuth's search is one the most powerful tools in your kit, allowing you to instantly find the cause of any bad deploys.
 
-![](../../.gitbook/assets/sleuth-sleuth-2021-04-05-16-16-04.png)
+![](<../../.gitbook/assets/image (10).png>)
 
-Search in Sleuth allows you to search across all of your [Projects](../projects/), [Deployments](../code-deployments/) and [Environments](../environment-support.md). Use Sleuth search to:
+Search in Sleuth allows you to search across all of your [Projects](../projects/), [Deployments](../code-deployments/), [Environments](../environment-support.md), and [Teams](../../settings/organization/teams.md). Use Sleuth search to:
 
 * Quickly discover the root cause of a bug or incident: filter by date and environment to quickly bisect and see where the bad change was introduced
 * See when a pull request, commit or issue was deployed to your various environments: filter by pull request id, issue key or commit hash or description
 * See which environments are missing a change: filter by the change description and see which environments it's been deployed in
 * See what kind of changes are causing your service to be unhealthy: filter by all unhealthy deploys
 * Find all the migrations you've made: filter by the migration tag
-* Find all the changes made by a specific team member: filter by the author of the change
+* Find all the changes made by a specific team or team member: filter by the team or the specific author of the change
 * Find all the deploys that might have been just a little too large: filter by the size of the deploy
 * And much more, slice and dice your deploys, your way
 
@@ -20,7 +20,8 @@ Search in Sleuth allows you to search across all of your [Projects](../projects/
 | Filter       | Description                                                                                                                                                             |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Date         | Limits your search between a date range                                                                                                                                 |
-| Project      | Limits your search to a specific set of projects                                                                                                                        |
+| Project      | Limits your search to a specific set of Projects                                                                                                                        |
+| Team         | Limits your search to a specific set of Teams                                                                                                                           |
 | Deployment   | Limits your search to a specific set of deployments                                                                                                                     |
 | Environment  | Limits your search to a specific set of environments                                                                                                                    |
 | Author       | Limits your search to users that have participated in a Deploys commits, issue, pull request or was the instigator of the deploy                                        |

@@ -15,7 +15,7 @@ To set up the GitLab integration:
 1. Click **Integrations** in the left sidebar, then click **Change Sources**.
 2. In the _GitLab_ tile, click **enable**.
 3. You must grant Sleuth access to your GitLab account. Don't worry, you'll select the GitLab repo to connect to your Sleuth project later.\
-   ![](<../../.gitbook/assets/image (8).png>)
+   ![](<../../.gitbook/assets/image (8) (2).png>)
 4. On successful integration, _GitLab enabled_ will be displayed in the GitLab tile. You'll next configure the code deployment to connect your repo to a project.
 
 ### Read-only mode
@@ -25,12 +25,12 @@ GitLab can be configured in read-only mode, making use of a read-only token from
 1. In the GitLab dialog, click on **Advanced settings** and check **Read-only** checkbox.
 2. Continue to add a new code deployment as usual.
 3. Now, you'll need to manually configure the GitLab webhook so that Sleuth is notified about key events. Visit the code deployment page, click on the cog at the top right and select **Get webhook instructions**\
-   ![](<../../.gitbook/assets/image (12).png>)\
+   ![](<../../.gitbook/assets/image (12) (1).png>)\
 
 4. Copy the webhook URL, secret, and note the events for later
 5. Visit your GitLab repository settings and click on **Webhooks**
 6. Create a new webhook, using the URL and secret from the earlier dialog, and check the events that match with the requested list\
-   ![](<../../.gitbook/assets/image (11).png>)
+   ![](<../../.gitbook/assets/image (11) (1).png>)
 7. Save the new webhook and now Sleuth should receive the required GitLab events.
 
 Steps 3 through 7 need to be done for each GitLab repository

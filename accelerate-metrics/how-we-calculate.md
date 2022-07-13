@@ -47,5 +47,6 @@ When Sleuth detects that an Impact source is failing, e.g. an incident in PagerD
 
 For example, if you have three incidents that happened in the date period you're inspecting, one lasting 1 hour, one lasting 2 hours and one lasting 3 hours. Your MTTR will be: (1 + 2 + 3) / 3 = 2 hours.
 
+## Team-level Metrics
 
-
+For a detailed discussion on how all of this applies Team-level metrics, refer to [How Sleuth Calculates Team-level Metrics](../modeling-your-deployments/teams/how-sleuth-calculates-team-level-metrics.md).

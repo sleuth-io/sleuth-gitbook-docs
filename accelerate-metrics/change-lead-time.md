@@ -1,6 +1,6 @@
 # Change lead time
 
-![](../.gitbook/assets/60f24adbbf9eee0ba3d16960\_metrics-graphic-1-.svg)
+![](<../.gitbook/assets/image (8).png>)
 
 Sleuth tracks **change lead time**, defined as the time from your first commit to deploy, for all your [code deployments](../modeling-your-deployments/code-deployments/) and for each configured [environment](../modeling-your-deployments/environment-support.md). Because Sleuth tracks deployments and not just pull requests or branches we can provide an accurate change lead time that includes all the commits and pull requests that went into a deploy.‌
 
@@ -8,14 +8,14 @@ For instance, let's say that you deploy every merged pull request to your stagin
 
 ## Lead time breakdowns
 
-The Sleuth project metrics dashboard shows the average lead time for all deploys in the period. We also provide a detailed breakdown of how much your team, on average, is spending:
+Sleuth project and team metrics dashboards show the average lead time for all deploys in the period. We also provide a detailed breakdown of how much your teams, on average, are spending:
 
 * Coding - the time spent from first commit to when a pull request is opened
 * Review lag time - the time spent between a pull request being opened and the first review
 * Review time - the time spent from first review to the pull request being merged
 * Deploying - the time spent from pull request merge to deployment
 
-In addition to the averages found on the metrics dashboard you can always see exactly where time was spent for each deploy via its detailed view.
+In addition to the averages found on the metrics dashboards you can always see exactly where time was spent for each deploy via its detailed view.
 
 ![](../.gitbook/assets/sleuth-sleuth-d742c80-2021-07-13-15-28-10.png)
 
