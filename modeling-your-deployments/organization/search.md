@@ -4,7 +4,7 @@ No good sleuth should be without an amazing magnifying glass. Sleuth's search is
 
 ![](<../../.gitbook/assets/image (10).png>)
 
-Search in Sleuth allows you to search across all of your [Projects](../projects/), [Deployments](../code-deployments/), [Environments](../environment-support.md), and [Teams](../../settings/organization/teams.md). Use Sleuth search to:
+Search in Sleuth allows you to search across all of your [Projects](../projects/), [Deployments](../code-deployments/), [Environments](../environment-support.md), and [Teams](../../settings/organization/team-settings.md). Use Sleuth search to:
 
 * Quickly discover the root cause of a bug or incident: filter by date and environment to quickly bisect and see where the bad change was introduced
 * See when a pull request, commit or issue was deployed to your various environments: filter by pull request id, issue key or commit hash or description

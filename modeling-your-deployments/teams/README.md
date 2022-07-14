@@ -10,8 +10,8 @@ But team-based views are about more than just understanding each team’s relati
 
 With Teams, Sleuth user can:
 
-* [Define teams and sub-teams](../../settings/organization/teams.md) in Sleuth
-* Automatically maintain Sleuth teams using [GitHub Team Sync](../../settings/organization/teams.md#manage-teams-using-github-team-sync) (Enterprise-only)
+* [Define teams and sub-teams](../../settings/organization/team-settings.md) in Sleuth
+* Automatically maintain Sleuth teams using [GitHub Team Sync](../../settings/organization/team-settings.md#manage-teams-using-github-team-sync) (Enterprise-only)
 * Track teams across projects with Team-centric DORA metrics dashboards
 * Subscribe to [Team-centric email digests](../../notifications.md#to-set-up-at-the-team-level)
 * Filter [Filter project-level DORA metrics dashboards](../projects/) by contributing teams
@@ -21,6 +21,6 @@ With Teams, Sleuth user can:
 
 ![](<../../.gitbook/assets/image (20).png>)
 
-Teams are managed and maintained from within Organization Settings. For information on how to set up and maintain your teams, sub-teams, and team members in Sleuth, refer to [Managing Teams](../../settings/organization/teams.md).&#x20;
+Teams are managed and maintained from within Organization Settings. For information on how to set up and maintain your teams, sub-teams, and team members in Sleuth, refer to [Managing Teams](../../settings/organization/team-settings.md).&#x20;
 
 Sleuth also allows users to subscribe to Team-centric digest emails. For more information on notifications, refer to [Slack and Email Notifications](../../notifications.md).&#x20;

@@ -1,6 +1,6 @@
-# Teams
+# Team Settings
 
-The **Teams** tab allows you to optionally define Teams, Sub-Teams, and Team membership. From this tab you can [manage teams manually](teams.md#undefined), or if your Teams are already represented in GitHub, then Sleuth can manage your teams automatically using [GitHub Team Sync](teams.md#manage-teams-manually-1).&#x20;
+The **Teams** tab allows you to optionally define Teams, Sub-Teams, and Team membership. From this tab you can [manage teams manually](team-settings.md#undefined), or if your Teams are already represented in GitHub, then Sleuth can manage your teams automatically using [GitHub Team Sync](team-settings.md#manage-teams-manually-1).&#x20;
 
 For more information on how Teams fit into Sleuth's Deployment tracking data model and why you might want to utilize them in your DORA journey, refer to [Teams](../../modeling-your-deployments/teams/).&#x20;
 

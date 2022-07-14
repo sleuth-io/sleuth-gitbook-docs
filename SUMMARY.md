@@ -118,7 +118,7 @@
     * [SAML 2.0 Setup](settings/organization/signup/saml/README.md)
       * [Okta configuration](settings/organization/signup/saml/okta-configuration.md)
   * [Members](settings/organization/members.md)
-  * [Teams](settings/organization/teams.md)
+  * [Team Settings](settings/organization/team-settings.md)
   * [Billing](settings/organization/billing.md)
 * [Project settings](settings/project/README.md)
   * [Details](settings/project/details.md)
