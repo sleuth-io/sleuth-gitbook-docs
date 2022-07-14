@@ -15,7 +15,7 @@ A few important things to note about Sleuth Teams:
 
 To manually add Teams, Sub-Teams, and associated team Members, perform the following steps.
 
-* From the **Teams** tab under **Organization Settings**, click _**Add Team**_
+* From the **Team Settings** tab under **Organization Settings**, click _**Add Team**_
 * Enter a **Team name** and leave the **Parent team** field empty.
 * Click **Save**
 * In the following screen, select **** the Sleuth **Members** you'd like to associate with this Team. This screen presents only existing Sleuth users, so if you can't find the user you're looking for, invite them to Sleuth using the [**Members**](members.md) tab
