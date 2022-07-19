@@ -109,6 +109,7 @@
   * [Opsgenie](integrations-1/incident-tracker-integrations/opsgenie.md)
   * [Jira (Cloud/Data Center)](integrations-1/incident-tracker-integrations/jira-cloud-data-center.md)
   * [FireHydrant](integrations-1/incident-tracker-integrations/firehydrant.md)
+  * [ServiceNow](integrations-1/incident-tracker-integrations/servicenow.md)
   * [Custom](integrations-1/incident-tracker-integrations/custom.md)
 
 ## Settings

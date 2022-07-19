@@ -1,6 +1,6 @@
 # Change lead time
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (2).png>)
 
 Sleuth tracks **change lead time**, defined as the time from your first commit to deploy, for all your [code deployments](../modeling-your-deployments/code-deployments/) and for each configured [environment](../modeling-your-deployments/environment-support.md). Because Sleuth tracks deployments and not just pull requests or branches we can provide an accurate change lead time that includes all the commits and pull requests that went into a deploy.‌
 

@@ -21,7 +21,7 @@ To manually add Teams, Sub-Teams, and associated team Members, perform the follo
 * In the following screen, select **** the Sleuth **Members** you'd like to associate with this Team. This screen presents only existing Sleuth users, so if you can't find the user you're looking for, invite them to Sleuth using the [**Members**](members.md) tab
 * To add a Sub-Team to this Team, repeat the prior steps, but select the first team as the **Parent team** for your sub-team. Sleuth will present your Teams and Sub-Teams in a collapsible/expansible tree structure.&#x20;
 
-![](<../../.gitbook/assets/image (24) (1).png>)
+![](<../../.gitbook/assets/image (24) (1) (1).png>)
 
 ## Manage Teams using GitHub team Sync
 

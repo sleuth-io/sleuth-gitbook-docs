@@ -1,6 +1,6 @@
 # Change failure rate
 
-![What you define as a change failure can vary from project to project. It can be as broad as a change causing a hard-down incident or as fine as a business metric deviating from its norm. Sleuth allows users to flexibly define what failure means to their projects via deploy verification and impact tracking.](<../.gitbook/assets/image (22).png>)
+![What you define as a change failure can vary from project to project. It can be as broad as a change causing a hard-down incident or as fine as a business metric deviating from its norm. Sleuth allows users to flexibly define what failure means to their projects via deploy verification and impact tracking.](<../.gitbook/assets/image (22) (1).png>)
 
 ## Change failure breakdowns
 
