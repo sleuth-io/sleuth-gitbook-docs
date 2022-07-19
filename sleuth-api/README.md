@@ -22,6 +22,10 @@ https://app.sleuth.io/graphql
 
 We expose the [GraphiQL](https://github.com/graphql/graphiql) client so you can explore and query the API.
 
+{% hint style="info" %}
+See [GraphQL examples](graphql-examples.md) to see how to authenticate your requests using Sleuth API Key.
+{% endhint %}
+
 ## ‌Authentication‌
 
 The Sleuth REST API requires authentication using the API key from your Sleuth [organization](../settings/organization/details.md).

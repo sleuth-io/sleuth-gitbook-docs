@@ -52,6 +52,7 @@
   * [Developer standup](slack-mission-control/developer-standup.md)
 * [Sleuth API](sleuth-api/README.md)
   * [Deprecation information](sleuth-api/deprecation-information.md)
+  * [GraphQL examples](sleuth-api/graphql-examples.md)
 
 ## Integrations <a href="#integrations-1" id="integrations-1"></a>
 
