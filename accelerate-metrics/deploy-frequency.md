@@ -1,6 +1,6 @@
 # Deploy frequency
 
-![](<../.gitbook/assets/image (17) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1).png>)
 
 Sleuth shows you the **deploy frequency** for all [code deployments](../modeling-your-deployments/code-deployments/) and [feature flags](../modeling-your-deployments/feature-flags.md) you've setup within a [project](../modeling-your-deployments/projects/) and [environment](../modeling-your-deployments/environment-support.md). Sleuth allows you to see your deploy frequency for each [environment](../modeling-your-deployments/environment-support.md) you maintain and to view that frequency for each of your contributing [teams](../modeling-your-deployments/teams/).‌Batch size breakdowns
 
