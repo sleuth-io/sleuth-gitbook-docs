@@ -12,32 +12,34 @@ Check out the Sleuth app in the [GitHub marketplace](https://github.com/marketpl
 
 ## Setting up the integration
 
-To set up the Sleuth GitHub integration: 
+To set up the Sleuth GitHub integration:
 
-1. Click **Integrations** in the left sidebar, then click **Change Sources**. 
-2. In the _GitHub_ tile, click **enable**. 
-3. Sign in to your GitHub account. If enabled, enter your 2FA code and click **Verify**. Don't worry, you'll select the GitHub repo to connect to your Sleuth project later. \
-    ![](../../.gitbook/assets/github-signin.png)  ![](../../.gitbook/assets/github-2fa.png) 
-4. Upon successful integration, you'll see **GitHub enabled (Connected as **_**\<GitHub user account>**_**) **displayed in the GitHub tile. You'll next configure the code deployment to connect your repo to a project.\
-    ![](../../.gitbook/assets/github-enabled.png) 
+1. Click **Integrations** in the left sidebar.
+2. Select **Code** from the drop down located in the top right.
+3. In the _GitHub_ tile, click **Enable**.
+4. Select **Code** from the drop down located in the top right.&#x20;
+5. Select either **All repositories** or **Only select repositories**. Note that if you choose **Only select repositories**, Sleuth will only be able to see the repos you select.![](../../.gitbook/assets/image.png)
+6. Click **Install & Authorize**.
+7. Upon successful integration, you'll see **GitHub enabled (Connected as \_\<GitHub user account>**\_\*\*) \*\*displayed in the GitHub tile. You'll next configure the code deployment to connect your repo to a project.\
+   ![](../../.gitbook/assets/github-enabled.png)
 
 ## Configuring the integration
 
 You now need to add a [code deployment](../../modeling-your-deployments/code-deployments/) for your GitHub repo to a Sleuth [project](../../modeling-your-deployments/projects/). Once configured and you start [registering deploys](../../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) Sleuth will be tracking deploys for your code changes.
 
-To configure the GitHub integration: 
+To configure the GitHub integration:
 
-1. After step #4 above, you will be taken back to the GitHub integration tile. On the GitHub tile, click the **Add code deployment** dropdown. \
-    ![](../../.gitbook/assets/github-add-code-deployment.png) 
-2. Select the [Sleuth project](../../modeling-your-deployments/projects/) you wish to add a chance source to from the dropdown list. \
-    ![](../../.gitbook/assets/github-add-code-deployment-withdropdown.png) 
-3. Follow the instructions for [setting up a new code deployment_ _](../../settings/project/code-deployments.md)__
+1. After step #4 above, you will be taken back to the GitHub integration tile. On the GitHub tile, click the **Add code deployment** dropdown.\
+   ![](../../.gitbook/assets/github-add-code-deployment.png)
+2. Select the [Sleuth project](../../modeling-your-deployments/projects/) you wish to add a chance source to from the dropdown list.\
+   ![](../../.gitbook/assets/github-add-code-deployment-withdropdown.png)
+3. Follow the instructions for [setting up a new code deployment\_ \_](../../settings/project/code-deployments.md)\_\_
 
 ## Removing the integration
 
-#### If you wish to dissolve the GitHub integration for the organization: 
+#### If you wish to dissolve the GitHub integration for the organization:
 
-1. Click on **Integrations** in the left sidebar, then on **Change Sources**. 
+1. Click on **Integrations** in the left sidebar, then on **Change Sources**.
 2. In the GitHub integration card, click **disable**. The message **GitHub disabled** is displayed in the GitHub integration card once the integration is dissolved.
 
-The GitHub integration is disconnected and no longer available to any projects within that organization. 
+The GitHub integration is disconnected and no longer available to any projects within that organization.
