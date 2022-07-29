@@ -18,6 +18,13 @@ To set up the GitLab integration:
    ![](<../../.gitbook/assets/image (8) (3).png>)
 4. On successful integration, _GitLab enabled_ will be displayed in the GitLab tile. You'll next configure the code deployment to connect your repo to a project.
 
+### Custom HTTP headers
+
+If you using GitLab on-premise behind Cloudflare access or similar, Sleuth might need to include some HTTP headers in order to reach your instance. In order to set Sleuth to send any custom HTTP headers when making requests:
+
+1. In the GitLab dialog, click on the **Advanced setting**
+2. Enter comma separated list of custom headers you want Sleuth to include
+
 ### Read-only mode
 
 GitLab can be configured in read-only mode, making use of a read-only token from GitLab. Several Sleuth features such as deployment locking and some Sleuth Action automations may be disabled, but if your security team requires integrations to be read-only, this may be necessary.

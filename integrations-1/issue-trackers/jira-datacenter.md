@@ -20,9 +20,19 @@ To set up the Sleuth Jira Data Center integration:
 2. In the _Jira Data Center_ tile, click **enable**.
 3.  Enter the URL of your Jira instance. If you want to authenticate via a Personal Access Token, enter that or if you want to authenticate with a username and password, enter those into the corresponding fields, then press **Save**.&#x20;
 
-    ![](<../../.gitbook/assets/image (8) (2) (1).png>)\
+    ![](<../../.gitbook/assets/image (8) (2) (1).png>)
 
-4. The message **Jira enabled** is displayed in the tile.
+
+
+### Custom HTTP headers
+
+If you using Jira Date Center on-premise behind Cloudflare access or similar, Sleuth might need to include some HTTP headers in order to reach your instance. In order to set Sleuth to send any custom HTTP headers when making requests:
+
+1. In the Jira Data Center dialog, click on the **Advanced setting**
+2. Enter comma separated list of custom headers you want Sleuth to include
+
+\
+The message **Jira enabled** is displayed in the tile.
 
 ![Successful integration!](../../.gitbook/assets/screen-shot-2020-06-02-at-3.05.34-pm.png)
 

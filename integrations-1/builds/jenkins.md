@@ -15,6 +15,13 @@ To add the Sleuth Jenkins integration:
 4. On successful integration, you'll see new **Jenkins connection** displayed in the Jenkins tile. You'll configure the default build server later.\
    ![](<../../.gitbook/assets/screenshot-2021-05-27-at-15.40.00 (1).png>)
 
+### Custom HTTP headers
+
+If you using Jenkins on-premise behind Cloudflare access or similar, Sleuth might need to include some HTTP headers in order to reach your instance. In order to set Sleuth to send any custom HTTP headers when making requests:
+
+1. In the Jenkins dialog, click on the **Advanced setting**
+2. Enter comma separated list of custom headers you want Sleuth to include
+
 ## Configuring the integration
 
 To configure the Jenkins integration, you will need to set a default build server:
