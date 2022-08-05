@@ -78,6 +78,7 @@ For some teams 30 days of past data won't be enough to meet their needs. If you 
    1. You **MUST** register old deploys in Sleuth from oldest to newest. If you don't Sleuth's rollback detection may get confused, skewing your Change Failure rate
    2. You will need to provide the Sleuth REST call with the git commit SHA, the Environment the deploy occurred in and the date the deploy occurred
    3. You will need to wait about 1 minute between each call to the Sleuth so Sleuth has enough time to sequentially process the new data
+5. Once you're satisfied with how the older data looks inside of your code deployment you can edit the code deployment to have the Tracking type that you'd like moving forward.
 
 {% hint style="info" %}
 If you run into trouble initializing the data you can always delete the deployment, re-create it and try populating again.
