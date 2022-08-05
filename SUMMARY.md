@@ -18,6 +18,7 @@
     * [Issue trackers](modeling-your-deployments/projects/issue-trackers.md)
   * [Environments](modeling-your-deployments/environment-support.md)
   * [Code deployments](modeling-your-deployments/code-deployments/README.md)
+    * [Creating a deployment](modeling-your-deployments/code-deployments/creating-a-deployment.md)
     * [How to register a deploy](modeling-your-deployments/code-deployments/how-to-register-a-deploy.md)
     * [Rollbacks](modeling-your-deployments/code-deployments/rollbacks.md)
     * [Automatic tagging](modeling-your-deployments/code-deployments/tags.md)

@@ -14,6 +14,10 @@ Sleuth connects to many different systems to provide your full deployment pictur
 * 44.225.94.110
 * 54.148.48.201
 
+## Can I initialize a code deployment with more than 30 days worth of past deploys?
+
+Yes, Sleuth allows you to manually import past data into a code deployment. Most teams don't need more than the 30 day baseline Sleuth provides out-of-the-box. However, if your team does you can follow these instructions for how to [include as much past data as you'd like](../modeling-your-deployments/code-deployments/creating-a-deployment.md#manually-initializing-a-deployment-with-as-much-past-data-as-you-want).
+
 ## Which browsers are officially supported?
 
 Sleuth officially supports up-to-date versions of all evergreen browsers (Chrome, Firefox, Edge and Opera). We also do our best to make sure everything works in latest Safari.

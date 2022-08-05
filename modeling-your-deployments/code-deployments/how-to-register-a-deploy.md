@@ -2,7 +2,7 @@
 
 ## Notifying Sleuth when you deploy
 
-How does Sleuth know when you have deployed? There are three different ways Sleuth can be notified:
+How does Sleuth know when you have deployed? There are five different ways Sleuth can be notified:
 
 * [Precise (CI/CD) – automatically detect deploys from completed CI/CD builds](how-to-register-a-deploy.md#precise-deploy-detection-from-completed-builds)
 * [Precise (webhook) – send Sleuth a webhook so we know exactly when you've deployed](how-to-register-a-deploy.md#precise-deploy-registration-via-a-webhook)

@@ -58,6 +58,6 @@ Verify the health of your deploys by integrating your Observability and setting 
 {% tab title="Step 5 - Done!" %}
 **Accelerate your team today!**
 
-![](<.gitbook/assets/sleuth-sleuth-sleuth-2021-07-13-14-44-27 (1) (1) (1) (1).png>)
+![](<.gitbook/assets/Sleuth hero.png>)
 {% endtab %}
 {% endtabs %}
