@@ -19,7 +19,7 @@ Getting started with **Sleuth** takes about 5 minutes. Link your code and Sleuth
 
 * [ ] **Create a Sleuth account.** You'll need one to get started. You can create an account via OAuth using your Google, GitHub, or Bitbucket account. [Signup](https://app.sleuth.io/account/signup/) is instant and setup takes less than 5 minutes!
 * [ ] **Setup your** **organization and project**. You can make as many projects as needed to model your deployments, but Sleuth creates one for you by default. Each project contains two default environments: _Production and Staging_.
-* [ ] **Connect your code**, from a Git repository in GitHub, Bitbucket, GitLab. Sleuth will instantly analyze your commits, pull requests and authors and show you meaningful, actionable data. Showing your teams last 30 days of deploy frequency and change lead time.
+* [ ] **Connect your code**. GitHub, Bitbucket, and GitLab are supported. Sleuth will instantly analyze your commits, pull requests and authors, calculate your team's last 30 days of deploy frequency and change lead time, and highlight meaningful, actionable data.
 * [ ] **Setup a webhook to let us know when you deploy**. Sleuth works with your tools and **every deployment system**. Our light-weight, [webhook-based deploy registrations](modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) means you're up and running in moments with your existing tooling.
 
 {% tabs %}
