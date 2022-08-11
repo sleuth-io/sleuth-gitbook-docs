@@ -189,13 +189,13 @@ Unauthorized
 ```
 {% endswagger-response %}
 
-{% swagger-response status="404" description="Returned if the project isn" %}
+{% swagger-response status="404" description="Returned if the project does not exist" %}
 ```
 Project not found
 ```
 {% endswagger-response %}
 
-{% swagger-response status="422" description="" %}
+{% swagger-response status="422" description="Returned if name is not provided" %}
 ```
 Name is required.
 ```
