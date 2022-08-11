@@ -163,7 +163,7 @@ Email address of the user associated with the project receiving the manual chang
 String defining the environment to register the change against
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="name" type="string" required="false" %}
+{% swagger-parameter in="body" name="name" type="string" required="true" %}
 Title for the manual change
 {% endswagger-parameter %}
 
