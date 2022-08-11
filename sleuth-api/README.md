@@ -139,10 +139,6 @@ Slug of the organization parent of the affected code deployment
 Slug of the project that you're registering a deploy to
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="tags" type="string" required="false" %}
-A comma-delimited list of tag
-{% endswagger-parameter %}
-
 {% swagger-parameter in="body" name="api_key" type="string" required="false" %}
 Located in the
 
@@ -151,16 +147,28 @@ _Organization Settings > Details > Api Key_
 field
 {% endswagger-parameter %}
 
+{% swagger-parameter in="body" name="author" type="string" required="false" %}
+Email address of author
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="description" type="string" required="false" %}
+Description for the manual change
+{% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="email" type="string" required="false" %}
 Email address of the user associated with the project receiving the manual change
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="environment" type="string" required="false" %}
+String defining the environment to register the change against
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="name" type="string" required="false" %}
 Title for the manual change
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="description" type="string" required="false" %}
-Description for the manual change
+{% swagger-parameter in="body" name="tags" type="string" required="false" %}
+A comma-delimited list of tag
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="" %}
