@@ -30,6 +30,15 @@ Sleuth is only able to do auto deploy detection from CI/CD builds for our suppor
 Keep in mind that even without a supported provider you can still achieve precise tracking using our webhook registration.
 {% endhint %}
 
+#### Build mapping caveats
+
+There are several edge cases where using CI/CD mapping won't be an option:
+* The GitHub Actions workflow uses the matrix feature
+* The code repository is in GitHub or Bitbucket and the CI/CD system is on Azure
+* The branch mapped to the target environment in Sleuth is a prefixed branch
+
+When build mapping is not an option, the fallback is to register deploys with a webhook.
+
 ### Precise deploy registration via a webhook
 
 Ping Sleuth with a Git commit SHA or a tag to tell Sleuth you've deployed by making a `POST` request. You'll need to provide theses values when making the call:
