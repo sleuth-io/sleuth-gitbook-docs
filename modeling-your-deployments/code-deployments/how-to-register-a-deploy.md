@@ -33,6 +33,7 @@ Keep in mind that even without a supported provider you can still achieve precis
 #### Build mapping caveats
 
 There are several edge cases where using CI/CD mapping won't be an option:
+
 * The GitHub Actions workflow uses the matrix feature
 * The code repository is in GitHub or Bitbucket and the CI/CD system is on Azure
 * The branch mapped to the target environment in Sleuth is a prefixed branch
