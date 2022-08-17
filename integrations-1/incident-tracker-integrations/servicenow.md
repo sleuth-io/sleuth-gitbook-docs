@@ -58,4 +58,4 @@ Once you've configured a ServiceNow Impact Source, you should see that Impact So
 
 You'll also find a chart listing all ServiceNow incidents from the last 14 days (and their health status) within the Impact Source record itself:
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (16).png>)

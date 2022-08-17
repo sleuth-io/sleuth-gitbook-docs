@@ -8,4 +8,4 @@ Sleuth is your, well ... sleuth, for all your deploy questions. Just ask Sleuth 
 /sleuth billing
 ```
 
-![Quickly search for your deploys right from Slack](<../.gitbook/assets/slack-or-deploys-or-sleuth-2021-02-04-13-11-16 (1).png>)
+![Quickly search for your deploys right from Slack](<../.gitbook/assets/slack-or-deploys-or-sleuth-2021-02-04-13-11-16 (1) (1).png>)
