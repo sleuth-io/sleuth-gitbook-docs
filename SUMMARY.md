@@ -140,6 +140,5 @@
 
 * [FAQ](resources/faq.md)
 * [Sleuth TV](resources/sleuth-tv.md)
-* [Page Slug Test](resources/page-slug-test.md)
 * [Purchasing](resources/purchasing.md)
 * [About Sleuth...](resources/about.md)
