@@ -2,14 +2,14 @@
 
 The **Team Settings** tab allows you to optionally define Teams, Sub-Teams, and Team membership. From this tab you can [manage teams manually](team-settings.md#undefined), or if your Teams are already represented in GitHub, then Sleuth can manage your teams automatically using [GitHub Team Sync](team-settings.md#manage-teams-manually-1).&#x20;
 
-For more information on how Teams fit into Sleuth's Deployment tracking data model and why you might want to utilize them in your DORA journey, refer to [Teams](../../modeling-your-deployments/teams/).&#x20;
+For more information on how Teams fit into Sleuth's Deployment tracking data model and why you might want to utilize them in your DORA journey, refer to [Teams](../../modeling-your-deployments/teams.md).&#x20;
 
 A few important things to note about Sleuth Teams:
 
 * All team members in Sleuth must be licensed Contributors (or above). Standard plans include up to 50 Contributors, while Enterprise plans provide unlimited Contributors.
 * One Member can belong to multiple Teams
 * One Team can contribute to multiple Projects, and multiple Teams can contribute to the same Project (e.g. a platform team contributing to multiple Projects, or multiple micro-services Teams contributing to the same Project)
-* Sleuth does not require users to explicitly associate Teams with Projects. Rather, Sleuth attributes Project-level metrics with Teams by looking for Team involvement in your underlying Deploys across Projects. Since Team's DORA metrics are calculated as an aggregation of all teams members' contributions to deploys, if a team member moves teams, then their “contributions” move with them. For more information on how Sleuth calculates Team-level metrics, refer to [How Sleuth Calculates Team-level Metrics](../../modeling-your-deployments/teams/how-sleuth-calculates-team-level-metrics.md).&#x20;
+* Sleuth does not require users to explicitly associate Teams with Projects. Rather, Sleuth attributes Project-level metrics with Teams by looking for Team involvement in your underlying Deploys across Projects. Since Team's DORA metrics are calculated as an aggregation of all teams members' contributions to deploys, if a team member moves teams, then their “contributions” move with them. For more information on how Sleuth calculates Team-level metrics, refer to [How Sleuth Calculates Team-level Metrics](broken-reference).&#x20;
 
 ## Manage Teams Manually
 

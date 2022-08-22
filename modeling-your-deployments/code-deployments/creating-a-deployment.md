@@ -12,7 +12,7 @@ The 3 steps to create a code deployment are:
 
 ### Step 1: Enabling Integrations
 
-Sleuth supports most [code repository providers](../../integrations-1/code-deployment/). Choose, your code provider and Sleuth will walk you through connecting to your system either via App, OAuth or API key, depending on the provider.
+Sleuth supports most [code repository providers](../../integrations-1/code-deployment/). Choose your code provider and Sleuth will walk you through connecting to your system either via App, OAuth or API key, depending on the provider.
 
 ![](<../../.gitbook/assets/Project Setup Step 1.png>)
 
@@ -44,7 +44,7 @@ In this example Sleuth would look for changes on any branch that matches the pre
 
 It's not uncommon for teams to maintain multiple deployable units of code in one large repository , this style of repository structure is called a [Monorepo](https://en.wikipedia.org/wiki/Monorepo). Sleuth supports Monorepo's for code deployments.&#x20;
 
-The way to setup a Monorepo in Sleuth is to add one code deployment for each deployable unit of code within your Monorepo. When configuring the code deployment you will open the `Advanced` settings and use the `Source path prefix (include)` and the `Source path prefix (exclude)`fields to tell Sleuth which parts of the repository to include or exclude. Once configured Sleuth will only register deploys that had changes made within the patterns defined.
+The way to set up a Monorepo in Sleuth is to add one code deployment for each deployable unit of code within your Monorepo. When configuring the code deployment you will open the `Advanced` settings and use the `Source path prefix (include)` and the `Source path prefix (exclude)`fields to tell Sleuth which parts of the repository to include or exclude. Once configured Sleuth will only register deploys that had changes made within the patterns defined.
 
 ![](<../../.gitbook/assets/Code deployment setup - Step 1 - Sleuth 2022-08-05 13-24-06.png>)
 
@@ -68,7 +68,7 @@ For instance, if you have connected up CircleCI and mapped your deploy jobs to S
 Initializing more than 30 days worth of data is not a common thing teams require. It's a manual process and will take more effort on your part. If you do need to do so please make sure to follow the directions throughly.
 {% endhint %}
 
-For some teams 30 days of past data won't be enough to meet their needs. If you want to manually  import past data into Sleuth it is possible but you must follow these steps, in the right order:
+For some teams 30 days of past data won't be enough to meet their needs. If you want to manually import past data into Sleuth it is possible but you must follow these steps, in the right order:
 
 1. Create your code deployment
 2. When selecting the tracking type choose `Webhook`
@@ -77,7 +77,7 @@ For some teams 30 days of past data won't be enough to meet their needs. If you 
 4. Once the deployment has been created you will then need to manually register the past deploy SHA's with Sleuth's [#deploy-registration](../../sleuth-api/#deploy-registration "mention") REST endpoint
    1. You **MUST** register old deploys in Sleuth from oldest to newest. If you don't Sleuth's rollback detection may get confused, skewing your Change Failure rate
    2. You will need to provide the Sleuth REST call with the git commit SHA, the Environment the deploy occurred in and the date the deploy occurred
-   3. You will need to wait about 1 minute between each call to the Sleuth so Sleuth has enough time to sequentially process the new data
+   3. You will need to wait about 1 minute between each call to the Sleuth API so Sleuth has enough time to sequentially process the new data
 5. Once you're satisfied with how the older data looks inside of your code deployment you can edit the code deployment to have the Tracking type that you'd like moving forward.
 
 {% hint style="info" %}

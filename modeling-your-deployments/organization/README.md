@@ -4,8 +4,8 @@ An **Organization** is the top level container that Sleuth uses to organize your
 
 ![](<../../.gitbook/assets/image (19) (1).png>)
 
-* [Compare](compare.md) and contrast DORA metrics across any combination of [projects](../projects/), [labels](labels.md), or [teams](../teams/)
-* See the overall [Status](status.md) of your organizations [projects](../projects/) or [teams](../teams/) at a glance
-* Get a snapshot view into exactly what's been changing across your [projects](../projects/) and [teams](../teams/)
-* [Search](search.md) for any deploy across all of your organization's [projects](../projects/), [environments](../environment-support.md), and [teams](../teams/) via any dimension (issue key, pull request titles, author and more)
+* [Compare](compare.md) and contrast DORA metrics across any combination of [projects](../projects/), [labels](labels.md), or [teams](../teams.md)
+* See the overall [Status](status.md) of your organizations [projects](../projects/) or [teams](../teams.md) at a glance
+* Get a snapshot view into exactly what's been changing across your [projects](../projects/) and [teams](../teams.md)
+* [Search](search.md) for any deploy across all of your organization's [projects](../projects/), [environments](../environment-support.md), and [teams](../teams.md) via any dimension (issue key, pull request titles, author and more)
 

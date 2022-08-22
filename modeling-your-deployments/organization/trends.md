@@ -1,6 +1,6 @@
 # Trends
 
-Sleuth's Organization Trends dashboard allows you spot how your initiatives (projects, labels, or teams) are trending over time.
+Sleuth's **Trends** dashboard allows you spot how your initiatives (projects, labels, or teams) are trending over time.
 
 ![](<../../.gitbook/assets/image (25).png>)
 
@@ -8,8 +8,12 @@ You can use the date filter to see trends over the last two weeks, month, quarte
 
 Each of the four DORA metrics can be drilled into to see how each metric has broken down. If your MTTR is trending up over the period use the drill-downs to discover if it's an increase in Incidents, Rollbacks or some other cause.
 
-Using the Trends dashboard coupled with [Labels](labels.md) and [Teams](../teams/) allows you to see trends across any taxonomy within your Organization.
+Using the Trends dashboard coupled with [Labels](labels.md) and [Teams](../teams.md) allows you to see trends across any taxonomy within your Organization.
 
 {% hint style="info" %}
 Trends for all projects is available on all plans. Filtering by specific projects, labels, or teams requires being on an Enterprise plan.
 {% endhint %}
+
+## Further Reading
+
+For additional information on how Sleuth calculates and "percent change" for the Trends dashboard and for other dashboards and views, see [Interpreting "Percent Change" in Sleuth](../../accelerate-metrics/how-we-calculate.md#interpreting-percent-change).

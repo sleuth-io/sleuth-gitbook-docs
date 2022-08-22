@@ -6,7 +6,7 @@ A project gives you a high-level view your Accelerate (DORA) metrics and of all 
 
 * See, at a glance, if it's safe to deploy your next change
 * Track your Project's DORA metrics (deploy frequency, change lead time, change failure rate, MTTR and deploy size)
-* Filter Project-level DORA metrics by specific Code deployments, environments, and contributing [Teams](../teams/)
+* Filter Project-level DORA metrics by specific Code deployments, environments, and contributing [Teams](../teams.md)
 * Know the latest change made to each deployment and it's drift from your other environments
 * Slice and dice your past deploys via a [powerful search](../code-deployments/search.md)
 * Configure Slack or Email deploy [notifications for your team or individuals](../../notifications.md)
@@ -15,3 +15,7 @@ A project gives you a high-level view your Accelerate (DORA) metrics and of all 
 ![Your metrics and the insights to improve](<../../.gitbook/assets/image (14) (1) (1).png>)
 
 ![Your project status command center](../../.gitbook/assets/sleuth-sleuth-2021-07-13-16-49-28.png)
+
+## Further Reading
+
+For additional information on how Sleuth calculates and presents "percent change" for the Project Metrics dashboard for other dashboards and views, see [Interpreting "Percent Change" in Sleuth](../../accelerate-metrics/how-we-calculate.md#interpreting-percent-change).

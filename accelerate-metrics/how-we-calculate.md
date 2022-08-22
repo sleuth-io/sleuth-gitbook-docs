@@ -1,52 +1,49 @@
-# How we calculate
+# Interpreting Metrics in Sleuth
 
-In order to trust and effectively improve your DORA metrics, it's helpful to understand exactly how Sleuth calculates each of the four DORA metrics.
+In order to trust and effectively improve your DORA metrics, it's helpful to understand exactly how Sleuth calculates and presents each of the four DORA metrics throughout its various dashboards and views.
 
-## Frequency
+This article expands on the descriptions of the four core DORA metric calculations already described on the preceding pages, and we highly recommend familiarizing yourself with these before reading on:
 
-Sleuth shows you the **deploy frequency** for all [code deployments](../modeling-your-deployments/code-deployments/) and [feature flags](../modeling-your-deployments/feature-flags.md) you've setup within a [project](../modeling-your-deployments/projects/) and [environment](../modeling-your-deployments/environment-support.md). Sleuth allows you to see your deploy frequency for each [environment](../modeling-your-deployments/environment-support.md) you maintain.‌
+* [Deploy Frequency](deploy-frequency.md) (and included discussion of [Batch size breakdown](deploy-frequency.md#batch-size-breakdowns))
+* [Change lead time](how-we-calculate.md#change-lead-time)
+* [Change failure rate](how-we-calculate.md#change-failure-rate)
+* [MTTR](mttr.md)
 
-Once you've [configured your deployment to let Sleuth know when you deploy](../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md), Sleuth will use those events to determine your frequency. Sleuth will show you your Flag change frequency but doesn't bake that into the overall frequency DORA metric.
+Parts of this article also assume a basic familiarity with Sleuth's [Project Metrics](../modeling-your-deployments/projects/), [Team Metrics](../modeling-your-deployments/teams.md), and [Trends](../modeling-your-deployments/organization/trends.md) dashboards.
 
-The deploys per day statistic is calculated by taking the total number of deploys divided by the total number of days in the period, weekends included.
+## Interpreting "Percent Change" in Sleuth
 
-You can read about how Sleuth calculates the Frequency sub-metric of batch size [here](https://help.sleuth.io/accelerate-metrics/deploy-frequency#batch-size-breakdowns).
+### Percent Change for Project Metrics and Team Metrics&#x20;
 
-## Change lead time
+In both the [**Project Metrics**](../modeling-your-deployments/projects/) and [**Team Metrics**](../modeling-your-deployments/teams.md) dashboards, Sleuth provides the ability to filter by a specific target date range. Sleuth then displays 2 lines within each of the four DORA charts, one for the currently selected period and a second for the prior period of the same length. This overlay is great for comparing and zooming-in on specific points in time, however, what's often more important is understanding how the current period compares _overall_ against the prior period.&#x20;
 
-Change lead time is defined as the time from first commit to deploy. Sleuth allows you to see your change lead time for each [environment](../modeling-your-deployments/environment-support.md) you maintain.‌&#x20;
+In addition to plotting the currently selected period and the prior period as two distinct timelines on each graph, Sleuth also displays an overall "percent change" at the top of each graph to help you see at-a-glance how the _average_ for the selected period compares to the _average_ of the prior period.
 
-Sleuth further breaks down change lead time into four categories:
+![Percent change is displayed from prior period to current period](<../.gitbook/assets/image (8).png>)
 
-1. Coding - the amount of time between first commit and a pull request being opened
-2. Review lag - the amount of time between a pull request being opened and the first review
-3. Review - the amount of time between first review and the pull request being merged
-4. Deploying - the amount of time between the pull request being merged and [Sleuth discovering you've deployed](../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md)
+On both the [**Project Metrics**](../modeling-your-deployments/projects/) and [**Team Metrics**](../modeling-your-deployments/teams.md) dashboards, percent change is calculated as follows:
 
-{% hint style="info" %}
-On Sleuth dashboards the change lead time and breakdowns are the averages for each deploy across the period.&#x20;
+* First, Sleuth calculates the net difference between the two periods by subtracting the average for the prior period from the average for the currently selected period.
+* Then, Sleuth calculates the percent change by dividing this net difference by the average for the prior period and multiplying that result by 100
 
-On the deploy view the change lead time and breakdowns are the averages for each pull request that was deployed.
+### Percent Change for the Trends dashboard
 
-You can view the individual change lead time and breakdowns for an individual pull request by viewing the_`PRs`_tab on the deploy view.
-{% endhint %}
+The [**Trends**](../modeling-your-deployments/organization/trends.md) **** dashboard also displays percent change for each of the four DORA metrics, but the calculation for percent change here differs slightly from the Project Metrics and Team Metrics dashboards in that the Trends dashboard display only one period of time (i.e. has no concept of a "prior period" in tis comparison.&#x20;
 
-## Change failure rate
+![Percent change is displayed on the Trends dashboard](<../.gitbook/assets/image (6).png>)
 
-Change failure rate is defined for each project and environment. The failure conditions are determined by the [Impact integrations](../integrations-1/impact-sources/) you've setup. See [how to define failure](change-failure-rate.md) for more information.
+For the Trends dashboard, Sleuth calculates percent change by splitting the selected period into two equal halves and calculating the average for each half. From there, the calculation of percent change is similar to the one described for the Project Metrics and Team Metrics dashboards above.&#x20;
 
-Sleuth calculates failure rate by dividing the number of deploys that were within [your change failure sensitivity](https://help.sleuth.io/settings/project/details#advanced-settings) by the total number of deploys in the period.
+## Interpreting Team-level Metrics
 
-For example, if you've setup the [PagerDuty integration](../integrations-1/incident-tracker-integrations/pagerduty.md#about-the-integration) as an impact source and your team has one incident during the report period that spanned two deploys and you made a total of 20 deploys in that period, your change failure rate will be: 2 / 20 = 10%.
+Sleuth does not require users to explicitly associate Teams with Projects. Rather, when calculating Team-level metrics, Sleuth automatically infers which Teams are contributing to which Projects by searching for Team Members within Deploys (and in the case of Code Change Deploys, by searching within the underlying PRs, Branches, Builds, and Issues included in those Deploys). If any Team Member is included as an author on a PR, Branch, or Build within a Deploy, as an owner of an linked Issues listed in the Deploy, or as the initiator of the Deploy itself, then Sleuth will include the entirety of that Deploy in its calculation of Team level-metrics for all Teams to which that Team Member belongs.
 
-## MTTR (mean time to recovery)
+![Sleuth detects team members directly within change sources ](<../.gitbook/assets/Sleuth Data Model for Teams 2.jpg>)
 
-Sleuth calculates MTTR for a specific project and environment pairing based on the Impact that has been configured for the Project. See [how to define failure](change-failure-rate.md) for more information.
+As such, Sleuth can present powerful DORA metric "intersections" that show each Team's relative contribution to the DORA metrics for the Projects they're working on. This is evident in views such [Team Metrics](../modeling-your-deployments/teams.md) dashboard's **Projects contributed to** panel below, which shows the DORA metrics at the specific intersection of _this Team_ and _those Projects_.  &#x20;
 
-When Sleuth detects that an Impact source is failing, e.g. an incident in PagerDuty or an elevated metric in Datadog, it creates a failure period that tracks the details of that failure along with its start and end period. When calculating the MTTR for a date range, Sleuth accounts for all of the failure periods that occurred in that range and produces the average.&#x20;
+![The Team Metrics dashboard shows DORA metrics for the specific intersections between the selected team and the specific projects to which they're contributing](<../.gitbook/assets/image (15).png>)
 
-For example, if you have three incidents that happened in the date period you're inspecting, one lasting 1 hour, one lasting 2 hours and one lasting 3 hours. Your MTTR will be: (1 + 2 + 3) / 3 = 2 hours.
+Similarly, from within the [Project Metrics](../modeling-your-deployments/projects/) dashboard, Sleuth presents a view into **Contributing teams** and their relative impacts on that Project's metrics.&#x20;
 
-## Team-level Metrics
-
-For a detailed discussion on how all of this applies Team-level metrics, refer to [How Sleuth Calculates Team-level Metrics](../modeling-your-deployments/teams/how-sleuth-calculates-team-level-metrics.md).
+![The Project Metrics dashboard shows DORA metrics for each team's specific contributions to the project ](<../.gitbook/assets/image (26).png>)
