@@ -12,8 +12,8 @@ Integrating GitLab with Sleuth is simple. If you're connecting to a personal Git
 
 To set up the GitLab integration:
 
-1. Click **Integrations** in the left sidebar, then click **Change Sources**.
-2. In the _GitLab_ tile, click **enable**.
+1. Click **Integrations** in the left sidebar, then select **Code** in the dropdown at the top-right to filter the view.
+2. In the _GitLab_ tile, click **Enable**.
 3. You must grant Sleuth access to your GitLab account. Don't worry, you'll select the GitLab repo to connect to your Sleuth project later.\
    ![](<../../.gitbook/assets/image (10) (2).png>)
 4. On successful integration, _GitLab enabled_ will be displayed in the GitLab tile. You'll next configure the code deployment to connect your repo to a project.
