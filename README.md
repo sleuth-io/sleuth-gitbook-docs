@@ -11,7 +11,7 @@ description: >-
 
 You can't improve what you don't measure. Sleuth lets you do both!
 
-![](<.gitbook/assets/image (15) (1).png>)
+![](<.gitbook/assets/Sleuth hero.png>)
 
 ## Setup [deployment & metrics tracking](modeling-your-deployments/) in 5 minutes
 
@@ -58,6 +58,6 @@ Verify the health of your deploys by integrating your Observability and setting 
 {% tab title="Step 5 - Done!" %}
 **Accelerate your team today!**
 
-![](<.gitbook/assets/Sleuth hero.png>)
+![](<.gitbook/assets/image (15) (1).png>)
 {% endtab %}
 {% endtabs %}

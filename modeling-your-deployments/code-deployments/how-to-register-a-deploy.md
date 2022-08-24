@@ -4,7 +4,7 @@
 
 How does Sleuth know when you have deployed? There are five different ways Sleuth can be notified:
 
-* [Precise (CI/CD) – automatically detect deploys from completed CI/CD builds](how-to-register-a-deploy.md#precise-deploy-detection-from-completed-builds)
+* [Precise (CI/CD) – automatically detect deploys from completed CI/CD builds](how-to-register-a-deploy.md#precise-deploy-detection-from-completed-ci-cd-builds)
 * [Precise (webhook) – send Sleuth a webhook so we know exactly when you've deployed](how-to-register-a-deploy.md#precise-deploy-registration-via-a-webhook)
 * [Approximate – automatically create deploys for every PR merged](how-to-register-a-deploy.md#approximate-automatic-tracking-for-each-pr-merged)
 * [Approximate – automatically create deploys for every commit created](how-to-register-a-deploy.md#approximate-automatic-tracking-for-each-push-to-the-configured-branch)
@@ -16,16 +16,16 @@ We highly **recommend precise deploy registration**. Knowing exactly when you've
 
 ### Precise deploy detection from completed CI/CD builds
 
-When this option is selected Sleuth will guide you through a CI/CD mapping step where you'll map a build / job / pipeline name to each Sleuth environment. Sleuth will then automatically register a deploy on a successfully completed build / job / pipeline that matches the mapped name.&#x20;
+When this option is selected Sleuth will guide you through a CI/CD mapping step where you'll map a build / job / pipeline name to each Sleuth environment. Sleuth will then automatically register a deploy on a successfully completed build / job / pipeline that matches the mapped name.
 
-When using CI/CD build deploy detection there is no need to modify your build scripts or change the way you deploy, Sleuth does all the work and will track your deploys precisely and automatically.&#x20;
+When using CI/CD build deploy detection there is no need to modify your build scripts or change the way you deploy, Sleuth does all the work and will track your deploys precisely and automatically.
 
 For example, we use CircleCI where we have many jobs, but only two are relevant for deploy registration. These are `deploy-prod` and `deploy-stage`, so our mapping between CI/CD and Sleuth environments looks like so:
 
 ![](<../../.gitbook/assets/build detection mapping.png>)
 
 {% hint style="info" %}
-Sleuth is only able to do auto deploy detection from CI/CD builds for our supported [CI/CD integrations](../../integrations-1/builds/).  If you don't see your CI/CD provider please reach out and let us know. We're always adding new Integrations and are prioritizing as demand dictates.
+Sleuth is only able to do auto deploy detection from CI/CD builds for our supported [CI/CD integrations](../../integrations-1/builds/). If you don't see your CI/CD provider please reach out and let us know. We're always adding new Integrations and are prioritizing as demand dictates.
 
 Keep in mind that even without a supported provider you can still achieve precise tracking using our webhook registration.
 {% endhint %}
@@ -37,6 +37,7 @@ There are several edge cases where using CI/CD mapping won't be an option:
 * The GitHub Actions workflow uses the matrix feature
 * The code repository is in GitHub or Bitbucket and the CI/CD system is on Azure
 * The branch mapped to the target environment in Sleuth is a prefixed branch
+* When using Jenkins, only a limited set of jobs is available for mapping. To be applicable, a job must be configured to use [GitSCM](https://plugins.jenkins.io/git/#plugin-content-pipelines).
 
 When build mapping is not an option, the fallback is to register deploys with a webhook.
 

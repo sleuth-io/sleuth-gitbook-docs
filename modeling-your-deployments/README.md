@@ -8,7 +8,7 @@ Sleuth is designed to allow you to get up and running quickly with all of your e
 
 ## How Sleuth models your deployments
 
-![](<../.gitbook/assets/sleuth\_ia\_graphic (1) (1).png>)
+![](<../.gitbook/assets/sleuth\_ia\_graphic (1).png>)
 
 ### Projects
 

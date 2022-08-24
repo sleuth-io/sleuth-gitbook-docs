@@ -20,7 +20,7 @@ To set up the Sleuth Jira Data Center integration:
 2. In the _Jira Data Center_ tile, click **enable**.
 3.  Enter the URL of your Jira instance. If you want to authenticate via a Personal Access Token, enter that or if you want to authenticate with a username and password, enter those into the corresponding fields, then press **Save**.&#x20;
 
-    ![](<../../.gitbook/assets/image (10) (1) (1).png>)
+    ![](<../../.gitbook/assets/image (8) (2) (1) (1).png>)
 
 
 

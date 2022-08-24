@@ -15,7 +15,7 @@ To integrate Bugsnag as an error impact source in Sleuth:
 3. In the Bugsnag tile, click **enable**.
 4. Enter your Bugsnag Personal Auth Token. This token can be found in your Bugsnag user profile, under _Personal auth tokens_.
 
-![](<../../../.gitbook/assets/bugsnag (1) (1) (1).png>)
+![](<../../../.gitbook/assets/bugsnag (1) (1).png>)
 
 5\. Press **Save**.
 
