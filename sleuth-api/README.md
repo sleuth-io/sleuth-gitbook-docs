@@ -32,7 +32,7 @@ The Sleuth REST API requires authentication using the API key from your Sleuth [
 
 ## Provisioning Sleuth with Terraform
 
-For Organizations with many [Projects](../modeling-your-deployments/projects/), [Code Deployments](../modeling-your-deployments/code-deployments/) and [Impact Sources](../integrations-1/impact-sources/) configuring Sleuth via the UI can be cumbersome. The Sleuth API can be used to provision resources directly. However, many teams already rely on [Terraform](https://www.terraform.io/) to provision their infrastructure and other resources.&#x20;
+For Organizations with many [Projects](../modeling-your-deployments/projects/), [Code Deployments](../modeling-your-deployments/code-deployments/) and [Impact Sources](../integrations-1/impact-sources/) configuring Sleuth via the UI can be cumbersome. The Sleuth API can be used to provision resources directly. However, many teams already rely on [Terraform](https://www.terraform.io/) to provision their infrastructure and other resources.
 
 Instead of using the API directly to provision Sleuth resources, you can use Terraform and our [terraform provider](https://registry.terraform.io/providers/sleuth-io/sleuth/latest).
 
@@ -55,11 +55,11 @@ The slugs displayed are the URL of your organization and deployment, with spaces
 Register your deploys via the Sleuth API.
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="Organization Slug" type="string" required="false" %}
+{% swagger-parameter in="path" name="Organization Slug" type="string" required="true" %}
 Slug of the organization parent of the affected code deployment
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="Deployment Slug" type="string" required="false" %}
+{% swagger-parameter in="path" name="Deployment Slug" type="string" required="true" %}
 Slug of the code deployment
 {% endswagger-parameter %}
 
@@ -91,18 +91,14 @@ _Organization Settings > Details > Api Key_
 field
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="sha" type="string" required="false" %}
+{% swagger-parameter in="body" name="sha" type="string" required="true" %}
 The git SHA of the deployment, located in the deploy card of the deployment
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="links" type="string" %}
+{% swagger-parameter in="body" name="links" type="string" required="false" %}
 A key/value pair which is the link name and the link itself of the form:
 
-
-
 mylink=http://my.link
-
-
 
 If you need to send multiple then send a JSON body POST and this is a dictionary of values.
 {% endswagger-parameter %}
@@ -113,7 +109,7 @@ Success
 ```
 {% endswagger-response %}
 
-{% swagger-response status="400" description="Input date problem, including if SHA doesn" %}
+{% swagger-response status="400" description="Returned if any of the input parameters are invalid. This can be if a SHA isn't provided, if a branch doesn't match the configured branch, if the date format isn't valid, the author is not a valid email or we are unable to validate the SHA exists in the remote system. The response text will indicate the nature of the error." %}
 ```
 String of message problem
 ```
@@ -131,11 +127,11 @@ String of message problem
 Manual changes are those not tracked by source code, feature flags, or any other type of change not supported by Sleuth. They are a free-form entry that includes a name and description. Although the description is optional, the form data in the manual change must contain a name as one of its parameters.
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="Organization Slug" type="string" required="false" %}
+{% swagger-parameter in="path" name="Organization Slug" type="string" required="true" %}
 Slug of the organization parent of the affected code deployment
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="Project Slug" type="string" required="false" %}
+{% swagger-parameter in="path" name="Project Slug" type="string" required="true" %}
 Slug of the project that you're registering a deploy to
 {% endswagger-parameter %}
 
@@ -183,7 +179,7 @@ Invalid date format.  Must be in ISO 8601 format
 ```
 {% endswagger-response %}
 
-{% swagger-response status="401" description="Returned if the API key provided doesn" %}
+{% swagger-response status="401" description="Returned if the API key provided doesn't exist" %}
 ```
 Unauthorized
 ```
@@ -237,13 +233,13 @@ Bad Request - impact value must be a number
 ```
 {% endswagger-response %}
 
-{% swagger-response status="401" description="Returned if the API key provided doesn" %}
+{% swagger-response status="401" description="Returned if the API key provided doesn't exist" %}
 ```
 Unauthorized
 ```
 {% endswagger-response %}
 
-{% swagger-response status="404" description="Returned if the Impact ID doesn" %}
+{% swagger-response status="404" description="Returned if the Impact ID doesn't exist" %}
 ```
 MetricImpactSource <Impact ID> Not Found
 ```
