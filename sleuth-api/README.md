@@ -251,3 +251,63 @@ You may only register a custom metric once every 120 seconds
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+{% swagger baseUrl="https://app.sleuth.io" path="/api/1/deployments/<Organization Slug>/<Deployment Slug>/import_deploys" method="post" summary="Deploy Import" %}
+{% swagger-description %}
+Delete all existing deploys in your Code Deployment and create a new history with only the deploys you specify via a CSV file.&#x20;
+
+The deploys should be imported using a CSV file that is uploaded as part of the request. The CSV file should have the headers of `sha,date`, then the `sha` header should contain the full SHA of the commit at the point of release, and the `date` parameter should be date and time in[ ISO 8601](https://en.wikipedia.org/wiki/ISO\_8601) format.
+
+Here is an example CSV file: ``&#x20;
+
+`sha,date`&#x20;
+
+`3c02378,2002-04-03T08:34:02`&#x20;
+
+`6f0d7cf,2002-04-01T15:03:55`
+
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="Organization Slug" type="string" required="true" %}
+Slug of the organization parent of the affected code deployment
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="Deployment Slug" type="string" required="true" %}
+Slug of the code deployment
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="environment" type="string" required="false" %}
+String defining the environment to register the deploy against. If not provided Sleuth will use the default environment of the Project
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="csv_file" type="file" required="true" %}
+The attached CSV file containing the list of deploys to import
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="api_key" type="string" required="false" %}
+Located in the
+
+_Organization Settings > Details > Api Key_
+
+field
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="" %}
+```
+Success
+```
+{% endswagger-response %}
+
+{% swagger-response status="400" description="Returned if any of the input parameters are invalid. This can be if a SHA isn't provided, if a branch doesn't match the configured branch, if the date format isn't valid, the author is not a valid email or we are unable to validate the SHA exists in the remote system. The response text will indicate the nature of the error." %}
+```
+String of message problem
+```
+{% endswagger-response %}
+
+{% swagger-response status="401" description="API key not valid or the deployment is not in the specific organization" %}
+```
+String of message problem
+```
+{% endswagger-response %}
+{% endswagger %}

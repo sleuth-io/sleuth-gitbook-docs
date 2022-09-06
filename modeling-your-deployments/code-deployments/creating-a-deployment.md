@@ -74,10 +74,9 @@ For some teams 30 days of past data won't be enough to meet their needs. If you 
 2. When selecting the tracking type choose `Webhook`
 3. On the `Using the webhook` confirmation screen open the `Advanced` configuration and deselect the option that says `Populate deploys from the last 4 weeks`\
    ![](<../../.gitbook/assets/Code deployment setup - Step 3 - Sleuth 2022-08-05 13-49-34.png>)
-4. Once the deployment has been created you will then need to manually register the past deploy SHA's with Sleuth's [#deploy-registration](../../sleuth-api/#deploy-registration "mention") REST endpoint
-   1. You **MUST** register old deploys in Sleuth from oldest to newest. If you don't Sleuth's rollback detection may get confused, skewing your Change Failure rate
-   2. You will need to provide the Sleuth REST call with the git commit SHA, the Environment the deploy occurred in and the date the deploy occurred
-   3. You will need to wait about 1 minute between each call to the Sleuth API so Sleuth has enough time to sequentially process the new data
+4. Once the deployment has been created you will then need to manually register the past deploy SHA's with Sleuth in one of two ways using the [#deploy-registration](../../sleuth-api/#deploy-registration "mention")APIs
+   1. (Recommended) Import past deploys via a CSV file using the `/import_deploys` endpoint
+   2. Import deploys one by one using the `/register_deploy` endpoint
 5. Once you're satisfied with how the older data looks inside of your code deployment you can edit the code deployment to have the Tracking type that you'd like moving forward.
 
 {% hint style="info" %}
