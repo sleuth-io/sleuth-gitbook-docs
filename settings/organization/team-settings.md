@@ -37,11 +37,11 @@ To enable GitHub Team Sync, perform the following steps:
 
 * First, ensure that you have [enabled GitHub](../../integrations-1/code-deployment/github.md) as a code repository integration in Sleuth.&#x20;
 * Once you've verified that the GitHub code repository integration is enabled, from the **Teams** tab under **Organization Settings**, click the **Manage teams using GitHub** toggle to enable it.
+* If you have multiple GitHub organizations integrated with Sleuth, use the toggles to specify which GitHub organizations to include or exclude from Team Sync.
 * If you've already created teams manually in Sleuth, you will be presented with a warning that those teams will be deleted. Click **Enable Sync**.
 * Sleuth will display a progress icon, and once the sync is complete, Sleuth will display the date and time when the last sync completed. Once complete, you should see all of your GitHub teams, sub-teams, and team memberships reflected in Sleuth.
 * Sleuth will automatically refresh your GitHub teams every 24 hours at 2:00am UTC, but you can also force a refresh at any time by clicking **Sync now**. However, please note that the **Sync now** button can be used only once every 30 minutes.&#x20;
 * Sleuth attempts to link external identities found in GitHub with internal Sleuth users. To view and modify linked external identities, refer to [Linking external identities](members.md#linking-external-user-identities)
 
-\
-
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 

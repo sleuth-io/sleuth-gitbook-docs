@@ -30,7 +30,7 @@ On both the [**Project Metrics**](../modeling-your-deployments/projects/) and [*
 
 The [**Trends**](../modeling-your-deployments/organization/trends.md) **** dashboard also displays percent change for each of the four DORA metrics, but the calculation for percent change here differs slightly from the Project Metrics and Team Metrics dashboards in that the Trends dashboard display only one period of time (i.e. has no concept of a "prior period" in tis comparison.&#x20;
 
-![Percent change is displayed on the Trends dashboard](<../.gitbook/assets/image (6).png>)
+![Percent change is displayed on the Trends dashboard](<../.gitbook/assets/image (6) (1).png>)
 
 For the Trends dashboard, Sleuth calculates percent change by splitting the selected period into two equal halves and calculating the average for each half. From there, the calculation of percent change is similar to the one described for the Project Metrics and Team Metrics dashboards above.&#x20;
 
