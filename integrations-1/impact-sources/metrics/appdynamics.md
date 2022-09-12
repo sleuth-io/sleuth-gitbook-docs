@@ -15,7 +15,7 @@ To add the Sleuth AppDynamics integration:
 * Press **Save**.
 * Once the AppDynamics integration is enabled, you will see **AppDynamics enabled** displayed in the integration card (as shown below).
 
-![](<../../../.gitbook/assets/image (6) (1) (1).png>)
+![](<../../../.gitbook/assets/image (6) (1).png>)
 
 ## Configuring the integration
 

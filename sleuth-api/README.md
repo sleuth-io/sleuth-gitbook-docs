@@ -311,3 +311,56 @@ String of message problem
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+### Examples
+
+Some examples of requests to the API endpoints above.
+
+Note: Make sure you replace the values surrounded by `<` and `>`.
+
+#### Deploy registration
+
+This example shows how to register a deploy for a Code Deployment using a [Custom Git](../integrations-1/code-deployment/custom.md) integration.
+
+{% code overflow="wrap" %}
+```bash
+curl -X POST -v \
+  -H "Content-type: application/json" \
+  -H "Authorization: apikey <APIKEY>" \
+  "https://app.sleuth.io/api/1/deployments/<Organization Slug>/<Deployment Slug>/register_deploy" \
+  -d \
+  '
+  {
+    "sha": "aaaaaa",
+    "ignore_if_duplicate": "true",
+    "commits": [
+      {
+        "revision": "aaaaaa",
+        "message": "My commit message",
+        "author": {
+          "name": "Jane",
+          "email": "jane@email.com",
+          "username": "jane@email.com"
+        },
+        "date": "2022-08-01T00:10:10+00:00",
+        "files": [
+          "/some/path/to/a/file.txt"
+        ],
+        "parents": [
+          "bbbbbb"
+        ],
+        "url": "http://www.commits/aaa"
+      }
+    ],
+    "files": [
+      {
+        "path": "http://www.example.com/some/path.txt",
+        "additions": 3,
+        "deletions": 0,
+        "url": "http://www.example.com"
+      }
+    ]
+  }
+  '
+```
+{% endcode %}
