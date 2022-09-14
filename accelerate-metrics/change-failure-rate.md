@@ -2,7 +2,7 @@
 
 ![What you define as a change failure can vary from project to project. It can be as broad as a change causing a hard-down incident or as fine as a business metric deviating from its norm. Sleuth allows users to flexibly define what failure means to their projects via deploy verification and impact tracking.](<../.gitbook/assets/image (22) (1).png>)
 
-**Change failure rate** measures the percentage of deployed changes that cause their target environments to end up in a state of failure. Along with [MTTR](mttr.md), **Change failure rate** is a measure the _quality_, or _stability_ of your software delivery capability. &#x20;
+**Change failure rate** measures the percentage of deployed changes that cause their target environments to end up in a state of failure. Along with [MTTR](mttr.md), **Change failure rate** is a measure of the _quality_, or _stability_ of your software delivery capability. &#x20;
 
 "Failure" is defined differently for different organizations (and even within an organization), and Sleuth allows you capture your own unique definition of failure for each project you manage in Sleuth (see [Setting up Change failure rate](change-failure-rate.md#setting-up-change-failure) below for additional information on capturing your organization's unique definition of "failure" within Sleuth). At a high level, Sleuth evaluates **Change failure rate** by evaluating the specific [Impact Source integrations](../integrations-1/impact-sources/) you've set up for a given project and then calculates **Change failure rate** by dividing the number of deploys that were within [your change failure sensitivity](https://help.sleuth.io/settings/project/details#advanced-settings) by the total number of deploys in the period.&#x20;
 
