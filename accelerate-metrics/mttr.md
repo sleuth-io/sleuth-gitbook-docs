@@ -2,7 +2,7 @@
 
 ![](<../.gitbook/assets/image (20) (1) (1).png>)
 
-**Mean time to recovery or MTTR** is defined in Sleuth as the time a project spends in a failure state. Along with [Change failure rate](change-failure-rate.md), **MTTR** is a measure the _quality_, or _stability_ of your software delivery capability.&#x20;
+**Mean time to recovery or MTTR** is defined in Sleuth as the time a project spends in a failure state. Along with [Change failure rate](change-failure-rate.md), **MTTR** is a measure of the _quality_, or _stability_ of your software delivery capability.&#x20;
 
 When Sleuth detects that an Impact Source is failing (e.g. an incident in PagerDuty or an elevated metric in Datadog), it creates a failure period that tracks the details of that failure along with its start and end period. When calculating the **MTTR** for a date range, Sleuth accounts for all of the failure periods that occurred in that range and produces the average.&#x20;
 
