@@ -28,7 +28,7 @@ To establish Sleuth as a trusted SP you will need information from the previous 
 This section includes instructions on how to configure your Identity Provider in order to enable the login:
 
 * [Okta](okta-configuration.md)
-* Azure AD
+* [Azure AD](azure-ad-configuration.md)
 
 {% hint style="info" %}
 Even if your Identity Provider is not specified in the list above, Sleuth is respecting the **SAML 2.0 standard** so you can integrate every Identity Provider that supports the standard.
@@ -42,8 +42,8 @@ To enter your IdP's metadata into Sleuth you will need information from the prev
 
 This section includes instructions on how to configure Sleuth in order to enable the login with your selected IdP:
 
-* Okta
-* Azure AD
+* [Okta](https://help.sleuth.io/settings/organization/signup/saml/okta-configuration#enter-oktas-metadata-into-sleuth)
+* [Azure AD](https://help.sleuth.io/settings/organization/signup/saml/azure-ad-configuration#enter-azures-metadata-into-sleuth)
 
 {% hint style="info" %}
 Even if your Identity Provider is not specified on the list above, Sleuth is respecting the **SAML 2.0 standard** so you can integrate any Identity Provider that supports the standard.
