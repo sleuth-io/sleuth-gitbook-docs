@@ -151,7 +151,7 @@ rules:
               An important <{{deploy_url}}|deployment> went out tagged with {{deploy_tags}}.
 ```
 
-### Notify key issues on certain deploys (coming soon)
+### Notify key issues on certain deploys (currently for Jira only)
 
 When a blocker issue is resolved with a deployment to production, add a comment on the issue to notify any watchers of that issue that it has been fixed.
 
@@ -222,7 +222,7 @@ rules:
 
 ## Deployment miscellaneous
 
-### Transition issues on deploy (coming soon)
+### Transition issues on deploy (currently for Linear only)
 
 When code is deployed to production, find any referenced issues and transition them into the `Deployed` state.
 
