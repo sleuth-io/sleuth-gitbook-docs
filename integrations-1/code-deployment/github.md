@@ -18,7 +18,7 @@ To set up the Sleuth GitHub integration:
 2. Select **Code** from the drop down located in the top right.
 3. In the _GitHub_ tile, click **Enable**.
 4. Select **Code** from the drop down located in the top right.&#x20;
-5. Select either **All repositories** or **Only select repositories**. Note that if you choose **Only select repositories**, Sleuth will only be able to see the repos you select.![](<../../.gitbook/assets/image (1).png>)
+5. Select either **All repositories** or **Only select repositories**. Note that if you choose **Only select repositories**, Sleuth will only be able to see the repos you select.![](<../../.gitbook/assets/image (1) (2).png>)
 6. Click **Install & Authorize**.
 7. Upon successful integration, you'll see **GitHub enabled (Connected as \_\<GitHub user account>**\_\*\*) \*\*displayed in the GitHub tile. You'll next configure the code deployment to connect your repo to a project.\
    ![](../../.gitbook/assets/github-enabled.png)
@@ -34,6 +34,12 @@ To configure the GitHub integration:
 2. Select the [Sleuth project](../../modeling-your-deployments/projects/) you wish to add a chance source to from the dropdown list.\
    ![](../../.gitbook/assets/github-add-code-deployment-withdropdown.png)
 3. Follow the instructions for [setting up a new code deployment\_ \_](../../settings/project/code-deployments.md)\_\_
+
+## Adding more repositories
+
+You've added "only select repositories" and want to add more? Head to integrations (bottom left), click the arrow to expand GitHub and follow "Inspect" link
+
+![](../../.gitbook/assets/image.png)
 
 ## Removing the integration
 
