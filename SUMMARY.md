@@ -51,6 +51,11 @@
   * [Project/Deployment history](slack-mission-control/project-deployment-history.md)
   * [Developer standup](slack-mission-control/developer-standup.md)
 * [Sleuth API](sleuth-api/README.md)
+  * [Deploy Registration](sleuth-api/deploy-registration.md)
+  * [Deploy import](sleuth-api/deploy-import.md)
+  * [Manual Change](sleuth-api/manual-change.md)
+  * [Custom Incident Impact Registration](sleuth-api/custom-incident-impact-registration.md)
+  * [Custom Metric Impact Registration](sleuth-api/custom-metric-impact-registration.md)
   * [Deprecation information](sleuth-api/deprecation-information.md)
   * [GraphQL examples](sleuth-api/graphql-examples.md)
 

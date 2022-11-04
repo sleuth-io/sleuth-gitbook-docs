@@ -50,12 +50,7 @@ On the "**Basic SAML Configuration**" tile click "**Edit**":
 
 **Fill in the necessary metadata** (_found in Sleuth_), using the following reference, and click "**Save**":
 
-| AZURE AD                                       | SLEUTH                     | EXAMPLE                                                                                        |   |
-| ---------------------------------------------- | -------------------------- | ---------------------------------------------------------------------------------------------- | - |
-| **Identifier (Entity ID)**                     | SAML Entity ID             | `https://app.sleuth.io/saml/metadata/`                                                         |   |
-| **Reply URL (Assertion Consumer Service URL)** | Assertion Consumer Service | `https://app.sleuth.io/complete/saml/`                                                         |   |
-| **Relay State (Optional)**                     | Default Relay State        | <p><code>sleuth</code><br><code></code><em>(should be your <strong>org slug</strong>)</em></p> |   |
-| **Logout Url (Optional)**                      | Single Logout Service      | `https://app.sleuth.io/saml/sls/`                                                              |   |
+<table><thead><tr><th>AZURE AD</th><th>SLEUTH</th><th>EXAMPLE</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Identifier (Entity ID)</strong></td><td>SAML Entity ID</td><td><code>https://app.sleuth.io/saml/metadata/</code></td><td></td></tr><tr><td><strong>Reply URL (Assertion Consumer Service URL)</strong></td><td>Assertion Consumer Service</td><td><code>https://app.sleuth.io/complete/saml/</code></td><td></td></tr><tr><td><strong>Relay State (Optional)</strong></td><td>Default Relay State</td><td><code>sleuth</code><br><code></code><em>(should be your <strong>org slug</strong>)</em></td><td></td></tr><tr><td><strong>Logout Url (Optional)</strong></td><td>Single Logout Service</td><td><code>https://app.sleuth.io/saml/sls/</code></td><td></td></tr></tbody></table>
 
 <figure><img src="../../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
@@ -107,12 +102,7 @@ Click the "**+Add user/group**" button and **assign Users/Groups** as needed:
 {% tab title="Option 2: Input metadata manually" %}
 **Fill in the necessary metadata** (_found in Azure AD_), using the following reference, and click "**Test Metadata and Save**":
 
-| SLEUTH          | AZURE AD                                                                                                                                                                  | EXAMPLE                                                                                                              |   |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | - |
-| **Entity ID**   | Azure AD Identifier                                                                                                                                                       | `https://sts.windows.net/<...>`                                                                                      |   |
-| **SSO URL**     | Login URL                                                                                                                                                                 | `https://login.microsoftonline.com/<...>`                                                                            |   |
-| **SLO URL**     | Logout URL                                                                                                                                                                | `https://login.microsoftonline.com/<...>`                                                                            |   |
-| **Certificate** | On the "**SAML Certificates**" tile click "**Edit**", then click the **3 ellipses** at the right end of the Active certificate and select "**PEM certificate download**". | <p><code>-----BEGIN CERTIFICATE-----</code><br><code>&#x3C;...></code><br><code>-----END CERTIFICATE-----</code></p> |   |
+<table><thead><tr><th>SLEUTH</th><th>AZURE AD</th><th>EXAMPLE</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Entity ID</strong></td><td>Azure AD Identifier</td><td><code>https://sts.windows.net/&#x3C;...></code></td><td></td></tr><tr><td><strong>SSO URL</strong></td><td>Login URL</td><td><code>https://login.microsoftonline.com/&#x3C;...></code></td><td></td></tr><tr><td><strong>SLO URL</strong></td><td>Logout URL</td><td><code>https://login.microsoftonline.com/&#x3C;...></code></td><td></td></tr><tr><td><strong>Certificate</strong></td><td>On the "<strong>SAML Certificates</strong>" tile click "<strong>Edit</strong>", then click the <strong>3 ellipses</strong> at the right end of the Active certificate and select "<strong>PEM certificate download</strong>".</td><td><code>-----BEGIN CERTIFICATE-----</code><br><code>&#x3C;...></code><br><code>-----END CERTIFICATE-----</code></td><td></td></tr></tbody></table>
 
 <figure><img src="../../../../.gitbook/assets/image (44).png" alt=""><figcaption><p>Open the downloaded file with a text-/code editor and copy the contents to be pasted into the "Certificate" field in Sleuth.</p></figcaption></figure>
 
