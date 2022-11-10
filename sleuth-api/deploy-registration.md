@@ -66,44 +66,7 @@ Make sure you **replace the values** surrounded by**`<`** and **`>`**with your *
   -d '{
   "sha": "&#x3C;SHA>",
   "environment": "&#x3C;ENVIRONMENT>"
-}'
-
-curl -X POST \
-'https://app.sleuth.io/api/1/deployments/&#x3C;ORG_SLUG>/&#x3C;DEPLOYMENT_SLUG>/register_deploy' \
-  -H 'Authorization: apikey &#x3C;APIKEY>' \
-  -H 'Content-Type: application/json' \
-  -d '{
-    "sha": "&#x3C;SHA>",
-    "ignore_if_duplicate": "true",
-    "commits": [
-      {
-        "revision": "&#x3C;SHA>",
-        "message": "My commit message",
-        "author": {
-          "name": "Jane",
-          "email": "jane@email.com",
-          "username": "jane@email.com"
-      },
-        "date": "2022-08-01T00:10:10+00:00",
-        "files": [
-          "/some/path/to/a/file.txt"
-        ],
-        "parents": [
-          "bbbbbb"
-        ],
-        "url": "http://www.commits/aaa"
-      }
-    ],
-    "files": [
-      {
-        "path": "http://www.example.com/some/path.txt",
-        "additions": 3,
-        "deletions": 0,
-        "url": "http://www.example.com"
-      }
-    ]
-  }
-  '</code></pre>
+}'</code></pre>
 
 </details>
 
