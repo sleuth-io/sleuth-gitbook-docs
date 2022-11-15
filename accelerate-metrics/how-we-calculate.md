@@ -47,3 +47,19 @@ As such, Sleuth can present powerful DORA metric "intersections" that show each 
 Similarly, from within the [Project Metrics](../modeling-your-deployments/projects/) dashboard, Sleuth presents a view into **Contributing teams** and their relative impacts on that Project's metrics.&#x20;
 
 ![The Project Metrics dashboard shows DORA metrics for each team's specific contributions to the project ](<../.gitbook/assets/image (26).png>)
+
+## Interpreting Averages across Multiple Projects
+
+When viewing metric averages across multiple Projects in Sleuth, it's important to note that Sleuth calculates cross-Project averages based on the underlying Deploys within each Project.&#x20;
+
+So, for example, if _Project A_ has 2 deploys and _Project B_ has 7 deploys, Sleuth will calculate the average CLT across both Projects by adding the CLT for all 9 Deploys and then dividing that sum by 9 (the total number of Deploys across both Projects).&#x20;
+
+This produces an average CLT result that in most cases will not be equal to the result of adding up the Project-level CLTs and dividing that sum by 2 (the total number of Projects). Sleuth has been intentionally designed around a Deploy-centric point of view, and we believe this Deploy-level handling of cross-project averages provides the most accurate representation of customers' DORA metrics across Projects. &#x20;
+
+Some specific use cases where this Deploy-centric treatment of cross-Project averages include:
+
+* Viewing multiple Projects on the **Trends dashboard**
+* Passing multiple Project slugs into the **Sleuth API**
+* Using **Labels** to view cross-project metrics
+* Viewing **Team-level metrics** for Teams working on multiple Projects
+
