@@ -58,8 +58,7 @@ This produces an average CLT result that in most cases will not be equal to the 
 
 Some specific use cases where this Deploy-centric treatment of cross-Project averages include:
 
-* Viewing multiple Projects on the **Trends dashboard**
-* Passing multiple Project slugs into the **Sleuth API**
+* Viewing multiple Projects on the **Trends** dashboard
 * Using **Labels** to view cross-project metrics
 * Viewing **Team-level metrics** for Teams working on multiple Projects
-
+* Passing multiple Project slugs into the **Sleuth API**
