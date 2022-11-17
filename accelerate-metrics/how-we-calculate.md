@@ -56,7 +56,7 @@ So, for example, if _Project A_ has 2 deploys and _Project B_ has 7 deploys, Sle
 
 This produces an average CLT result that in most cases will not be equal to the result of adding up the Project-level CLTs and dividing that sum by 2 (the total number of Projects). Sleuth has been intentionally designed around a Deploy-centric point of view, and we believe this Deploy-level handling of cross-project averages provides the most accurate representation of customers' DORA metrics across Projects. &#x20;
 
-Some specific use cases where this Deploy-centric treatment of cross-Project averages include:
+Some specific use cases where this applies include:
 
 * Viewing multiple Projects on the **Trends** dashboard
 * Using **Labels** to view cross-project metrics
