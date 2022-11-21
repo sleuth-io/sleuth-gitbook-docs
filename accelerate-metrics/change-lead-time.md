@@ -65,7 +65,7 @@ To enable this option, perform the following steps:
 * In the **Issue states** drop-down, select _all states that should be counted_ _as "in progress" staets with regard to your CLT definition_. It's important that you select _all_ such states because some issue tracker workflows are more free-form than others (e.g. allowing an issue to go straight from "To Do" to "In Review"). Sleuth will look for the earliest transition into any of the states you select here (including cases where the issue is initially _created_ in one of these states), so it's important to be exhaustive here.
 * Note that in cases where no issue start states are detected or where the first commit pre-dates the earliest issue transition, Sleuth will use that first commit as the start time for CLT.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Further Reading
 
