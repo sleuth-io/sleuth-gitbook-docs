@@ -43,5 +43,5 @@ To enable GitHub Team Sync, perform the following steps:
 * Sleuth will automatically refresh your GitHub teams every 24 hours at 2:00am UTC, but you can also force a refresh at any time by clicking **Sync now**. However, please note that the **Sync now** button can be used only once every 30 minutes.&#x20;
 * Sleuth attempts to link external identities found in GitHub with internal Sleuth users. To view and modify linked external identities, refer to [Linking external identities](members.md#linking-external-user-identities)
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
