@@ -35,7 +35,7 @@ Keep in mind that even without a supported provider you can still achieve precis
 There are several edge cases where using CI/CD mapping won't be an option:
 
 * The GitHub Actions workflow uses the matrix feature
-* The code repository is in GitHub or Bitbucket and the CI/CD system is on Azure
+* The code repository is in Bitbucket and the CI/CD system is on Azure
 * The branch mapped to the target environment in Sleuth is a prefixed branch
 * When using Jenkins, only a limited set of jobs is available for mapping. To be applicable, a job must be configured to use [GitSCM](https://plugins.jenkins.io/git/#plugin-content-pipelines).
 
