@@ -29,6 +29,11 @@ For CLT and each of its composite breakdowns, an item is considered "at risk" if
 
 Just like the Metrics Dashboards for Projects and teams, the Work in Progress dashboard can be filtered using global filters for Date Range, Projects, Teams, Environments, and Deployments. These filters impact the specific PRs and Future deploy that display in the listing as well as the data that is displayed in the dashboard charts.
 
+Bear in mind the following considerations when using the Date Range filter:
+
+* The Date Range filter allows you to select the "from" date, but the "to" date will always be the current date. The main reason for specifying a "from" date is to exclude "zombie PRs" (i.e. PRs that have not been updated for a long time and so should not be included in your universe of "current work in progress"
+* Sleuth has been collecting work in progress data since November 23, 2022, so it is not possible to view work in progress that has not been updated since before that date. &#x20;
+
 ### Understanding Work in Progress charts
 
 * **Work in progress lead time** displays a side-by-side comparison of your current CLT values against your "baseline" CLT values from the prior period of the same length.&#x20;
