@@ -78,7 +78,7 @@ The **XML file** will open in a new tab in your browser -> **select and copy its
 
 In Sleuth, click the "**point Sleuth to metadata file URL**" link to trigger the input modal and **paste the copied URL** into the field, then click "**Save**":
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 The remaining fields in Sleuth will get **populated automatically**, just click "**Test Metadata and Save**":
 
