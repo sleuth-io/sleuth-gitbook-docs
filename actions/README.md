@@ -1,8 +1,8 @@
 ---
-description: How to use automate deploy workflows with Sleuth Actions
+description: How to automate deploy workflows with Sleuth Actions
 ---
 
-# Deploy workflows \(beta\)
+# Deploy workflows (beta)
 
 Sleuth Actions is an automation engine to help you to define and automate the workflow and actions you’re likely already doing by convention today. Some examples are:
 
@@ -14,7 +14,7 @@ Execute actions by defining a set of rules for your repository, containing condi
 
 Here's an example `.sleuth/rules.yml`:
 
-```text
+```
 rules:
   - stage-to-prod:
       description: Automatically promotes a healthy staging deployment to production
@@ -37,4 +37,3 @@ For more ideas on what tasks can be automated, see [our cookbook](cookbook.md).
 {% hint style="info" %}
 Sleuth actions is in beta and is undergoing rapid development. If you'd like to participate just drop us a line via email at support@sleuth.io.
 {% endhint %}
-

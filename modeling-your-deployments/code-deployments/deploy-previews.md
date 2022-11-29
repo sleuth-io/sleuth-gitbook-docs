@@ -1,3 +1,7 @@
+---
+description: Future deploys
+---
+
 # Preview upcoming deploys
 
 Sleuth automatically generates previews of your upcoming deploys in your project and environment. The information displayed is similar to the information displayed in the detailed display of a deploy.
