@@ -2,11 +2,11 @@
 
 In addition to tracking deploy metrics, Sleuth also provides **Work in Progress** dashboards for Teams and Projects that provide real-time visibility into in-flight work (i.e. work that has not yet deployed) and highlights risks that you can address right now.&#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Project Work in Progress dashboard</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Project Work in Progress dashboard</p></figcaption></figure>
 
 ### What is "Work in Progress"?
 
-Work in Progress, or WIP, includes any PRs or Future Deploys that have not yet deployed to their target environment (where "Future Deploy" is a Sleuth construct that is essentially a container for PRs that have merge but have not yet deployed).&#x20;
+Work in Progress, or WIP, includes any PRs or Future Deploys that have not yet deployed to their target environment (where a "Future Deploy" in Sleuth is essentially a container for PRs that have merge but have not yet deployed).&#x20;
 
 ### Understanding "at-risk" items
 

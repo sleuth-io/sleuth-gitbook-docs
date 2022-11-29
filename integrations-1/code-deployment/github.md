@@ -39,7 +39,7 @@ To configure the GitHub integration:
 
 You've added "only select repositories" and want to add more? Head to integrations (bottom left), click the arrow to expand GitHub and follow "Inspect" link
 
-![](<../../.gitbook/assets/image (3).png>)
+![](../../.gitbook/assets/image.png)
 
 ## Removing the integration
 
