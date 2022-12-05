@@ -23,7 +23,7 @@ Sleuth currently highlights the following risk types:
 
 For Batch Size, an item is considered "at risk" if it is either Large or Gigantic.
 
-For CLT and its four composite breakdowns, an item is considered "at risk" if it's current value exceeds your rolling average by more than 20% (i.e. your rolling average for the prior period of the same length as your current work-in-progress data range selection). Note that an item must accumulate a minimum of 30 minutes in a given CLT bucket before Sleuth will potentially flag it as at-risk relative to your baseline.&#x20;
+For CLT and its four composite breakdowns, an item is considered "at risk" if it's current value exceeds your "baseline" by more than 20% (where your "baseline" is calculated based on the items that _deployed_ during the same period as your currently work-in-progress data range selection). Note that an item must accumulate a minimum of 30 minutes in a given CLT bucket before Sleuth will potentially flag it as at-risk relative to your baseline.&#x20;
 
 ### Understanding Work in Progress filters
 
@@ -32,11 +32,12 @@ Just like the Metrics Dashboards for Projects and teams, the Work in Progress da
 Bear in mind the following considerations when using the Date Range filter:
 
 * The Date Range filter allows you to select the "from" date, but the "to" date will always be the current date. The main reason for specifying a "from" date is to exclude "zombie PRs" (i.e. PRs that have not been updated for a long time and so should not be included in your universe of "current work in progress"
+* For WIP risks that rely on comparison against your "baseline", that baseline is calculated based on the items that _deployed_ in the same period as your currently selected work-in-progress date range.
 * Sleuth has been collecting work in progress data since November 23, 2022, so it is not possible to view work in progress that has not been updated since before that date. &#x20;
 
 ### Understanding Work in Progress charts
 
-* **Work in progress lead time** displays a side-by-side comparison of your current CLT values against your "baseline" CLT values from the prior period of the same length.&#x20;
+* **Work in progress lead time** displays a side-by-side comparison of your current CLT values against your "baseline" CLT values.&#x20;
 * **Summary of work in progress** displays a the total count work in progress items (PRs and Future Deploys) included in your current global filter selections versus the subset of those that Sleuth has determined to be "at risk".
 * **Batch size breakdown** breaks down your current work in progress by each of Sleuth's four batch size categories.
 * **Current work in progress lead time** and **Baseline lead time** show similar information as **Work in progress lead time** but with a broken-out view that is better suited to comparing the baseline CLT values against the item-by-item WIP CLT values that appear in the listing.
