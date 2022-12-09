@@ -25,6 +25,7 @@
     * [Deployment locking](modeling-your-deployments/code-deployments/deployment-locking.md)
     * [Environment drift](modeling-your-deployments/code-deployments/environment-drift.md)
     * [Preview upcoming deploys](modeling-your-deployments/code-deployments/deploy-previews.md)
+    * [Move code deployments](modeling-your-deployments/code-deployments/move-code-deployments.md)
     * [Search everything](modeling-your-deployments/code-deployments/search.md)
   * [Feature flags](modeling-your-deployments/feature-flags.md)
   * [Manual changes](modeling-your-deployments/manual-changes.md)
