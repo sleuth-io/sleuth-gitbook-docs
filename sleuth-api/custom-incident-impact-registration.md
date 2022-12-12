@@ -39,7 +39,7 @@ The `API key` must also be added to the **end of the path** in this instance.
 | Name    | Type   | Comments                                                                                                       |
 | ------- | ------ | -------------------------------------------------------------------------------------------------------------- |
 | `id`    | string | The unique incident identifier from your system.                                                               |
-| `date`  | enum   | The [ISO 8601 ](https://en.wikipedia.org/wiki/ISO\_8601)date the event occurred. Defaults to the current time. |
+| `date`  | string | The [ISO 8601 ](https://en.wikipedia.org/wiki/ISO\_8601)date the event occurred. Defaults to the current time. |
 | `title` | string | The human-readable title of the incident.                                                                      |
 | `url`   | string | URL to the incident in your external system.                                                                   |
 {% endtab %}
@@ -68,7 +68,8 @@ Make sure you **replace the values** surrounded by**`<`** and **`>`**with your *
   -H 'Content-Type: application/json' \
   -d '{
   "type": "&#x3C;TYPE>"
-}'</code></pre>
+}'
+</code></pre>
 
 </details>
 

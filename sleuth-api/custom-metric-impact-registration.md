@@ -31,9 +31,9 @@ The endpoint path takes **1 ID** which uniquely identifies the Impact Source to 
 {% endtab %}
 
 {% tab title="Optional parameters" %}
-| Name   | Type     | Comments                                                                                                                                                                                 |
-| ------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `date` | datetime | The date and time at which the metric value should be registered. If left blank, it defaults to the current time. Must be in [ISO-8601](https://en.wikipedia.org/wiki/ISO\_8601) format. |
+| Name   | Type   | Comments                                                                                                                                                                                 |
+| ------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `date` | string | The date and time at which the metric value should be registered. If left blank, it defaults to the current time. Must be in [ISO-8601](https://en.wikipedia.org/wiki/ISO\_8601) format. |
 {% endtab %}
 
 {% tab title="Responses" %}
@@ -63,7 +63,8 @@ Make sure you **replace the values** surrounded by**`<`** and **`>`**with your *
   -H 'Content-Type: application/json' \
   -d '{
   "value": &#x3C;METRIC_VALUE>
-}'</code></pre>
+}'
+</code></pre>
 
 </details>
 
