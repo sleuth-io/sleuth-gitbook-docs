@@ -2,7 +2,7 @@
 
 We get it, things change. Sometimes it's a change to your development process or your product architecture, or sometimes you just realize after configuring your initial hierarchy of Projects, Environments, and Code Deployments in Sleuth that there was a better way you could have done things.
 
-Fortunately, Sleuth provides the ability to easily move existing Code Deployments from one Project to another while maintaining each Deployments's full history of deploys, health impacts, etc.   &#x20;
+Fortunately, Sleuth provides the ability to easily move existing Code Deployments from one Project to another while maintaining each Deployments's full history and impact on project-level metrics.   &#x20;
 
 To move a Code Deployment (and all of its Deploys) from one Project to another, perform these steps:
 
