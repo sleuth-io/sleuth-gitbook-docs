@@ -8,7 +8,7 @@ To move a Code Deployment (and all of its Deploys) from one Project to another, 
 
 *   Open the "source" Project, navigate to the Code Deployment you'd like to move, expand the cog, and select **Move code deployment**.&#x20;
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 *   In the next screen, select the "target" Project (i.e. the Project you'd like to move this Deployment to), and specify Environment mappings between the two Projects:
 
     <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
