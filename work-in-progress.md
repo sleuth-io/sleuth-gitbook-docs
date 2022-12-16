@@ -23,7 +23,7 @@ Sleuth currently highlights the following risk types:
 
 For Batch Size, an item is considered "at risk" if it is either Large or Gigantic.
 
-For CLT and its four composite breakdowns, an item is considered "at risk" if it's current value exceeds your "baseline" by more than 20% (where your "baseline" is calculated based on the items that _deployed_ during the same period as your currently work-in-progress data range selection). Note that an item must accumulate a minimum of 30 minutes in a given CLT bucket before Sleuth will potentially flag it as at-risk relative to your baseline.&#x20;
+For CLT and its four composite breakdowns, an item is considered "at risk" if it's current value exceeds your "baseline" by more than 30% (where your "baseline" is calculated based on the items that _deployed_ during the same period as your currently work-in-progress data range selection). Note that an item must accumulate a minimum of 30 minutes in a given CLT bucket before Sleuth will potentially flag it as at-risk relative to your baseline.&#x20;
 
 ### Understanding Work in Progress filters
 
