@@ -2,7 +2,7 @@
 
 No good sleuth should be without an amazing magnifying glass. Sleuth's search is one the most powerful tools in your kit, allowing you to instantly find the cause of any bad deploys.
 
-![](<../../.gitbook/assets/image (10) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (2).png>)
 
 Search in Sleuth allows you to search across all of your [Projects](../projects/), [Deployments](../code-deployments/), [Environments](../environment-support.md), and [Teams](../../settings/organization/team-settings.md). Use Sleuth search to:
 

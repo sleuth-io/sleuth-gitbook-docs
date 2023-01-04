@@ -74,7 +74,7 @@ Similarly as before, you can again choose between **pointing Sleuth to a URL** w
 {% tab title="Option 1: Link to metadata file" %}
 In Azure on the "**SAML Certificates**" tile under your Enterprise Application, **copy the value** of the "**App Federation Metadata Url**" field:
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 In Sleuth, click the "**point Sleuth to metadata file URL**" link to trigger the input modal and **paste the copied URL** into the field, then click "**Save**":
 
@@ -106,7 +106,7 @@ Click the "**+Add user/group**" button and **assign Users/Groups** as needed:
 
 <figure><img src="../../../../.gitbook/assets/image (44).png" alt=""><figcaption><p>Open the downloaded file with a text-/code editor and copy the contents to be pasted into the "Certificate" field in Sleuth.</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

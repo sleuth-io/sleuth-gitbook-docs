@@ -1,10 +1,10 @@
 ---
-description: Future deploys
+description: Previewing upcoming deploys
 ---
 
-# Preview upcoming deploys
+# Future deploys
 
-Sleuth automatically generates previews of your upcoming deploys in your project and environment. The information displayed is similar to the information displayed in the detailed display of a deploy.
+Sleuth automatically generates Future deploys, or previews of your upcoming deploys, in your project and environment. The information displayed in a Future deploy is similar to the information displayed in the detailed display of a Deploy.
 
 ![](<../../.gitbook/assets/6012408558f32c0030bb2e1e\_deploy-preview (1).png>)
 

@@ -2,11 +2,11 @@
 
 In addition to tracking deploy metrics, Sleuth also provides **Work in Progress** dashboards for Teams and Projects that provide real-time visibility into in-flight work (i.e. work that has not yet deployed) and highlights risks that you can address right now.&#x20;
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Project Work in Progress dashboard</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### What is "Work in Progress"?
 
-Work in Progress, or WIP, includes any PRs or Future Deploys that have not yet deployed to their target environment (where a "Future Deploy" in Sleuth is essentially a container for PRs that have merge but have not yet deployed).&#x20;
+Work in Progress, or WIP, includes any PRs or Future Deploys that have not yet deployed to their target environment (where a [Future Deploy](modeling-your-deployments/code-deployments/deploy-previews.md) in Sleuth is essentially a container for PRs that have merge but have not yet deployed).&#x20;
 
 ### Understanding "at-risk" items
 
@@ -23,7 +23,7 @@ Sleuth currently highlights the following risk types:
 
 For Batch Size, an item is considered "at risk" if it is either Large or Gigantic.
 
-For CLT and its four composite breakdowns, an item is considered "at risk" if it's current value exceeds your "baseline" by more than 30% (where your "baseline" is calculated based on the items that _deployed_ during the same period as your currently work-in-progress data range selection). Note that an item must accumulate a minimum of 30 minutes in a given CLT bucket before Sleuth will potentially flag it as at-risk relative to your baseline.&#x20;
+For CLT and its four composite breakdowns, an item is considered "at risk" if it's current value exceeds your average by more than 30% (where your "average" is calculated based on the items that _deployed_ during the same period as your currently work-in-progress data range selection). Note that an item must accumulate a minimum of 30 minutes in a given CLT bucket before Sleuth will potentially flag it as at-risk relative to your average.&#x20;
 
 ### Understanding Work in Progress filters
 
@@ -33,19 +33,20 @@ The Work in Progress dashboards provide two levels of filtering.
 
 Just like the Metrics Dashboards for Projects and teams, the Work in Progress dashboard can be filtered using top-level filters for Date Range, Projects, Teams, Environments, and Deployments. These filters impact the specific PRs and Future deploy that display in the listing as well as the data that is displayed in all of the dashboard charts.
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Top-level work-in-progress dashboard filters</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Top-level work-in-progress dashboard filters</p></figcaption></figure>
 
 Bear in mind the following considerations when using the Date Range filter:
 
 * The Date Range filter allows you to select the "from" date, but the "to" date will always be the current date. The main reason for specifying a "from" date is to exclude "zombie PRs" (i.e. PRs that have not been updated for a long time and so should not be included in your universe of "current work in progress"
-* For WIP risks that rely on comparison against your "baseline", that baseline is calculated based on the items that _deployed_ in the same period as your currently selected work-in-progress date range.
-* Sleuth has been collecting work in progress data since November 23, 2022, so it is not possible to view work in progress that has not been updated since before that date. &#x20;
+* For WIP risks that rely on comparison against your "average", that average is calculated based on the items that _deployed_ in the same period as your currently selected work-in-progress date range.
+* Each time you connect a new [code deployment](modeling-your-deployments/code-deployments/) to a code repository/branch using any of Sleuth's supported [code integrations](integrations-1/code-deployment/), Sleuth will automatically fetch 30 days worth of historical work-in-progress data so that you can immediately begin analyzing your in-flight work.
+* Note that Sleuth has been collecting work in progress data only since November 23, 2022, so it is not possible to view work in progress that has not been updated since before that date.  &#x20;
 
 #### Work-in-progress listing filter
 
 In addition to the top-level filters, the detailed listing of work-in-progress items provides an additional filter to zero-in on items that exhibit a particular risk type. &#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Work-in-progress listing filters by specific risk types</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Work-in-progress listing filters by specific risk types</p></figcaption></figure>
 
 By default, this filter is set to "No Filters," which displays all work-in-progress items that match the top-level filters (i.e. regardless of what risks they might or might not exhibit).
 
@@ -53,10 +54,20 @@ Selecting "All at risk items" filters the listing to show only those items that 
 
 The remaining filters selections show items that exhibit a particular risk type. When these specific risk type filters are active, the listing is also sorted by that risk value from riskiest to least risky.
 
-### Understanding Work in Progress charts
+### Understanding work in progress charts
 
-* **Work in progress lead time** displays a side-by-side comparison of your current CLT values against your "baseline" CLT values.&#x20;
-* **Summary of work in progress** displays a the total count work in progress items (PRs and Future Deploys) included in your current global filter selections versus the subset of those that Sleuth has determined to be "at risk".
-* **Batch size breakdown** breaks down your current work in progress by each of Sleuth's four batch size categories.
-* **Current work in progress lead time** and **Baseline lead time** show similar information as **Work in progress lead time** but with a broken-out view that is better suited to comparing the baseline CLT values against the item-by-item WIP CLT values that appear in the listing.
+| Chart                                        | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](<.gitbook/assets/image (3).png>)         | <p><strong>Work in progress lead time</strong> displays a comparison of your current aggregate WIP lead time breakdowns against your average lead time breakdowns for items that deployed in the same period. </p><p></p><p>Grey columns represent the average for deployed items, while red and green columns represent your current work in progress (red indicates that the current WIP value is at risk relative to the average).<br><br>This chart is responsive to selections made in the listing filter.</p> |
+| ****![](<.gitbook/assets/image (7).png>)**** | <p><strong>Batch size breakdown</strong> groups your current work in progress by each of Sleuth's four batch size categories.<br><br>Large and Gigantic counts are outlined in red  when either is greater than 0.<br><br>This chart is responsive to selections made in the listing filter.</p>                                                                                                                                                                                                                    |
+| ![](<.gitbook/assets/image (10).png>)        | <p><strong>Summary of work in progress</strong> summarized work in progress by showing the total count of all items, the total at risk, and the number of times that each risk type appears in your work in progress.<br><br>Clicking on the count for any risk type in this chart will set the listing filter to that risk type. It is not, however, responsive to selections made in the list filter.</p>                                                                                                         |
 
+### Subscribe to work in progress daily email digests
+
+To subscribe to email digests summarizing the work in progress dashboard, simply click on the notification bell on the top-right of the dashboard and select "Daily." The digest will be sent to your email inbox each day if and only if there is at least one risk present in the work in progress dashboard. &#x20;
+
+![](<.gitbook/assets/image (1).png>)
+
+Note that the digest subscription is specific to your currently selected Team or Project context and  currently selected Environment. The date range for the email digest will always be the default look-back period of 28 days.&#x20;
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
