@@ -29,6 +29,7 @@ The endpoint path takes **2 slugs** which direct the deploys to the correct code
 | -------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------- |
 | `api_key`<mark style="color:red;">\*</mark>  | string | Can be found in the `Organization Settings` -> `Details` -> `Api Key` field in your Sleuth org. |
 | `csv_file`<mark style="color:red;">\*</mark> | file   | The attached CSV file containing the list of deploys to import.                                 |
+| `environment`                                | string | The Sleuth environment slug. Defaults to the primary environment of the project.                |
 {% endtab %}
 
 {% tab title="Responses" %}
