@@ -39,7 +39,7 @@ Bear in mind the following considerations when using the Date Range filter:
 
 * The Date Range filter allows you to select the "from" date, but the "to" date will always be the current date. The main reason for specifying a "from" date is to exclude "zombie PRs" (i.e. PRs that have not been updated for a long time and so should not be included in your universe of "current work in progress"
 * For WIP risks that rely on comparison against your "average", that average is calculated based on the items that _deployed_ in the same period as your currently selected work-in-progress date range.
-* Each time you connect a new [code deployment](modeling-your-deployments/code-deployments/) to a code repository/branch using any of Sleuth's supported [code integrations](integrations-1/code-deployment/), Sleuth will automatically fetch 30 days worth of historical work-in-progress data so that you can immediately begin analyzing your in-flight work.
+* When you enable [build tracking](modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) for a [code deployment](modeling-your-deployments/code-deployments/), if you opt to include historical deploy data for the past 4 weeks, then Sleuth will also fetch all work-in-progress updated in that time period so that you can immediately begin analyzing your in-flight work.
 * Note that Sleuth has been collecting work in progress data only since November 23, 2022, so it is not possible to view work in progress that has not been updated since before that date.  &#x20;
 
 #### Work-in-progress listing filter
