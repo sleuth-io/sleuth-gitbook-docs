@@ -6,7 +6,7 @@ In addition to tracking deploy metrics, Sleuth also provides **Work in Progress*
 
 ### What is "Work in Progress"?
 
-Work in Progress, or WIP, includes any PRs or Future Deploys that have not yet deployed to their target environment (where a [Future Deploy](modeling-your-deployments/code-deployments/deploy-previews.md) in Sleuth is essentially a container for PRs that have merge but have not yet deployed).&#x20;
+Work in Progress, or WIP, includes any PRs or Future Deploys that have not yet deployed to their target environment (where a [Future Deploy](modeling-your-deployments/code-deployments/deploy-previews.md) in Sleuth is essentially a container for PRs that have been merged but have not yet deployed).&#x20;
 
 ### Understanding "at-risk" items
 
@@ -15,7 +15,7 @@ While the **Work in Progress** dashboards present in-flight work in part to prov
 Sleuth currently highlights the following risk types:
 
 * Batch Size
-* Total CLT
+* Total change lead time (CLT)
 * Coding time
 * Review lag time
 * Review time
@@ -23,7 +23,7 @@ Sleuth currently highlights the following risk types:
 
 For Batch Size, an item is considered "at risk" if it is either Large or Gigantic.
 
-For CLT and its four composite breakdowns, an item is considered "at risk" if it's current value exceeds your average by more than 30% (where your "average" is calculated based on the items that _deployed_ during the same period as your currently work-in-progress data range selection). Note that an item must accumulate a minimum of 30 minutes in a given CLT bucket before Sleuth will potentially flag it as at-risk relative to your average.&#x20;
+For change lead time and its four composite breakdowns, an item is considered "at risk" if it's current value exceeds your average by more than 30% (where your "average" is calculated based on the items that _deployed_ during the same period as your currently work-in-progress data range selection). Note that an item must accumulate a minimum of 30 minutes in a given CLT bucket before Sleuth will potentially flag it as at-risk relative to your average.&#x20;
 
 ### Understanding Work in Progress filters
 
