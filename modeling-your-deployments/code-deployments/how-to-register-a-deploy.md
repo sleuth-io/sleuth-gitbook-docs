@@ -30,6 +30,18 @@ Sleuth is only able to do auto deploy detection from CI/CD builds for our suppor
 Keep in mind that even without a supported provider you can still achieve precise tracking using our webhook registration.
 {% endhint %}
 
+#### Manually entering build and job names
+
+{% hint style="info" %}
+This feature is currently only supported when using GitHub Actions.
+{% endhint %}
+
+Certain complex configurations such as using [reusable workflows](https://docs.github.com/en/actions/using-workflows/reusing-workflows) can produce dynamically named workflows and jobs. Sleuth might not be able to get their names from the provider API, which means they won't be available for selection.
+
+To get around this limitation we provide an alternative UI that lets you manually enter workflow and job names. It is accessed by clicking _Can't find your build?_ under the build selection dropdown.
+
+<figure><img src="../../.gitbook/assets/custom-build-names.png" alt=""><figcaption></figcaption></figure>
+
 #### Build mapping caveats
 
 There are several edge cases where using CI/CD mapping won't be an option:
