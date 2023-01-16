@@ -1,6 +1,6 @@
 # Azure DevOps
 
-## About the integration ![](../../.gitbook/assets/devops.png)
+## About the integration <img src="../../.gitbook/assets/devops.png" alt="" data-size="line">
 
 Integrating Azure DevOps with Sleuth is simple. If you're connecting to a personal Azure DevOps repo, you just need your credentials. If you're part of an organization and aren't the owner, you will need permission to allow Sleuth to connect to the repo—after you connect you'll be able to select individual private or public repositories.
 
