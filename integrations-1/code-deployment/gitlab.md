@@ -2,7 +2,9 @@
 
 ## About the integration ![](../../.gitbook/assets/gitlab-logo.svg)
 
-Integrating GitLab with Sleuth is simple. If you're connecting to a personal GitLab repo, you just need your credentials. If you're part of an organization and aren't the owner, you will need permission to allow Sleuth to connect to the repo—after you connect you'll be able to select individual private or public repositories.
+Integrating GitLab with Sleuth is simple. If you're connecting to a personal GitLab repo, you just need your credentials. If you're part of an organization and aren't the owner, you will need permission to allow Sleuth to connect to the repo—after you connect you'll be able to select individual private or public repositories.\
+\
+Be sure your account has at least [maintainer privileges](https://docs.gitlab.com/ee/development/permissions.html#members). We query for `min_access_level=40`
 
 #### Check out this video by Sleuth CTO Don Brown on how to get started with Sleuth and GitLab
 
@@ -32,8 +34,7 @@ GitLab can be configured in read-only mode, making use of a read-only token from
 1. In the GitLab dialog, click on **Advanced settings** and check **Read-only** checkbox.
 2. Continue to add a new code deployment as usual.
 3. Now, you'll need to manually configure the GitLab webhook so that Sleuth is notified about key events. Visit the code deployment page, click on the cog at the top right and select **Get webhook instructions**\
-   ![](<../../.gitbook/assets/image (12) (2).png>)\
-
+   ![](<../../.gitbook/assets/image (12) (2).png>)\\
 4. Copy the webhook URL, secret, and note the events for later
 5. Visit your GitLab repository settings and click on **Webhooks**
 6. Create a new webhook, using the URL and secret from the earlier dialog, and check the events that match with the requested list\
