@@ -1,10 +1,12 @@
 # GitLab
 
-## About the integration ![](../../.gitbook/assets/gitlab-logo.svg)
+## About the integration <img src="../../.gitbook/assets/gitlab-logo.svg" alt="" data-size="line">
 
-Integrating GitLab with Sleuth is simple. If you're connecting to a personal GitLab repo, you just need your credentials. If you're part of an organization and aren't the owner, you will need permission to allow Sleuth to connect to the repo—after you connect you'll be able to select individual private or public repositories.\
-\
+Integrating GitLab with Sleuth is simple. If you're connecting to a personal GitLab repo, you just need your credentials. If you're part of an organization and aren't the owner, you will need permission to allow Sleuth to connect to the repo—after you connect you'll be able to select individual private or public repositories.
+
+{% hint style="info" %}
 Be sure your account has at least [maintainer privileges](https://docs.gitlab.com/ee/development/permissions.html#members). We query for `min_access_level=40`
+{% endhint %}
 
 #### Check out this video by Sleuth CTO Don Brown on how to get started with Sleuth and GitLab
 
