@@ -18,6 +18,14 @@ Sleuth connects to many different systems to provide your full deployment pictur
 
 Yes, Sleuth allows you to manually import past data into a code deployment. Most teams don't need more than the 30 day baseline Sleuth provides out-of-the-box. However, if your team does you can follow these instructions for how to [include as much past data as you'd like](../modeling-your-deployments/code-deployments/creating-a-deployment.md#manually-initializing-a-deployment-with-as-much-past-data-as-you-want).
 
+## How do I register deploys if my deployment tool like ArgoCD or Harness only deploys artifacts and not Git SHAs?
+
+Because Sleuth tracks Git SHAs (revisions or tags) as deploys, when your deployment system of choice is deploying an artifact instead of checking out a SHA and running the deploy there, it can be hard to know what to send to Sleuth as part of the deploy registration webhook.
+
+The first solution to try is to find a way to pass the Git SHA along through to the deployment pipeline. That could be done by embedding the SHA into the version number or tag name, or as part of the artifact metadata. Then, in your deployment pipeline, extract that SHA and report it to Sleuth. If multiple repositories are involved, embed multiple SHAs and call multiple webhooks.
+
+If that isn't an option, you may need to settle for an approximate deploy registration method. For example, have Sleuth track when a Git tag is created and treat that as a deploy. You could also have Sleuth track pushes to a specific branch, then add a fixed delay to approximate when the deploy would have likely been completed.
+
 ## Which browsers are officially supported?
 
 Sleuth officially supports up-to-date versions of all evergreen browsers (Chrome, Firefox, Edge and Opera). We also do our best to make sure everything works in latest Safari.
