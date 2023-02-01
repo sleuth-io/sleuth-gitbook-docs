@@ -42,6 +42,31 @@ To get around this limitation we provide an alternative UI that lets you manuall
 
 <figure><img src="../../.gitbook/assets/custom-build-names.png" alt=""><figcaption></figcaption></figure>
 
+#### Tracking deploys from nested workflows
+
+Some workflows are configured in a **nested structure**; top-level jobs are used to **trigger additional (sub-)jobs**, and any completed sub-job should be considered a deploy by Sleuth.
+
+{% code title="Example Structure" overflow="wrap" %}
+```yaml
+Workflow name: My Test Workflow
+
+Jobs:
+    Example Job 1
+        Example Sub-Job 1
+        Example Sub-Job 2
+```
+{% endcode %}
+
+CI/CD tools **concatenate the job and sub-job names**, placing a `/` between them and return them as a **single string**.
+
+To account for such a setup in build mappings, a job "prefix" can be manually specified in the `Job` field, followed by `/*`:
+
+{% code title="Example job "prefix"" overflow="wrap" %}
+```yaml
+Job: Example Job 1/*
+```
+{% endcode %}
+
 #### Build mapping caveats
 
 There are several edge cases where using CI/CD mapping won't be an option:
