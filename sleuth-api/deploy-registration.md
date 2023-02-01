@@ -31,7 +31,7 @@ The endpoint path takes **2 slugs** which direct the deploy to the correct code 
 | Name                  | Type   | Comments                                                                                                                                                                                                                                                   |
 | --------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `environment`         | string | The environment to register the deploy against. If not provided Sleuth will use the default environment of the Project.                                                                                                                                    |
-| `date`                | string | ISO 8601 deployment date string                                                                                                                                                                                                                            |
+| `date`                | string | ISO 8601 deployment date and time string                                                                                                                                                                                                                   |
 | `tags`                | string | A comma-delimited list of tags. Defaults to tags calculated by matching paths defined in your .sleuth/TAGS file.                                                                                                                                           |
 | `ignore_if_duplicate` | string | If the value is provided and set to `true` Sleuth won't return a 400 error if we see a SHA that has already been registered.                                                                                                                               |
 | `email`               | string | Email address of author                                                                                                                                                                                                                                    |
@@ -66,7 +66,8 @@ Make sure you **replace the values** surrounded by**`<`** and **`>`**with your *
   -d '{
   "sha": "&#x3C;SHA>",
   "environment": "&#x3C;ENVIRONMENT>"
-}'</code></pre>
+}'
+</code></pre>
 
 </details>
 
@@ -102,7 +103,8 @@ curl -X POST \
 -Body '{
       "environment": "&#x3C;ENVIRONMENT>",
       "sha": "&#x3C;SHA>" 
- }'</code></pre>
+ }'
+</code></pre>
 
 </details>
 
