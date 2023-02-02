@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting started](README.md)
+* [Navigating Sleuth](navigating-sleuth.md)
 * [DORA metrics](accelerate-metrics/README.md)
   * [Deploy frequency](accelerate-metrics/deploy-frequency.md)
   * [Change lead time](accelerate-metrics/change-lead-time.md)

@@ -11,5 +11,4 @@ Sleuth uses your code repositories as its main sources of change. Setting up a c
 * Sleuth [automatically tag deploys](tags.md) based on the code that's changed
 * and much more...
 
-![](../../.gitbook/assets/sleuth-sleuth-sleuth-2021-07-13-16-54-07.png)
-
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>

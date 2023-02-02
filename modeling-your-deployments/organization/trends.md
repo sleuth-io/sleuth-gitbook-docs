@@ -2,7 +2,7 @@
 
 Sleuth's **Trends** dashboard allows you spot how your initiatives (projects, labels, or teams) are trending over time.
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25) (1).png>)
 
 You can use the date filter to see trends over the last two weeks, month, quarter or any custom date range you desire.&#x20;
 

@@ -8,7 +8,7 @@ description: >-
 
 If you’re an engineering lead, Sleuth will make sure you have the insights you need to know how your team is performing, where they may be encountering bottlenecks and how to remove them.
 
-![](<../.gitbook/assets/image (13) (1) (1) (1).png>)
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 A healthy team depends on trust between team and leadership. Sleuth helps you verify without breaking trust with your developers.
 

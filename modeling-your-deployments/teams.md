@@ -19,7 +19,7 @@ With Teams, Sleuth user can:
 * [Compare teams](organization/compare.md) with other teams, projects, or labels (Enterprise-only)
 * [Search by team](organization/search.md)
 
-![The Team Metrics dashboard displays Team-level DORA metrics along with breakdowns by "Projects contributed to" and "Sub teams"](<../.gitbook/assets/image (10) (1).png>)
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 Teams are managed and maintained from within Organization Settings. For information on how to set up and maintain your teams, sub-teams, and team members in Sleuth, refer to [Managing Teams](../settings/organization/team-settings.md).&#x20;
 

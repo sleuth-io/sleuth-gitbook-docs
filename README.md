@@ -11,7 +11,7 @@ description: >-
 
 You can't improve what you don't measure. Sleuth lets you do both!
 
-![](<.gitbook/assets/Sleuth hero.png>)
+<figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 ## Setup [deployment & metrics tracking](modeling-your-deployments/) in 5 minutes
 

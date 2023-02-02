@@ -44,7 +44,7 @@ Save the "**Sleuth x509 Certificate**" ([found in Sleuth](broken-reference)) in 
 | --------------------- | --------------------- | --------------------------------- |
 | **Single Logout URL** | Single Logout Service | `https://app.sleuth.io/saml/sls/` |
 
-<figure><img src="../../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Configure Attributes
 
@@ -72,7 +72,7 @@ You can now choose between **pointing Sleuth to a URL** where the IdP's metadata
 {% tab title="Option 1: Link to metadata file" %}
 In OKTA in the "**SAML Signing Certificates**" section under your Application, find the certificate with status "**Active**", click on the "**Actions**" link at the right end of its row and click "**View IdP metadata**":
 
-<figure><img src="../../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (47) (1).png" alt=""><figcaption></figcaption></figure>
 
 The **XML file** will open in a new tab in your browser -> **select and copy its entire URL**.
 
@@ -82,7 +82,7 @@ In Sleuth, click the "**point Sleuth to metadata file URL**" link to trigger the
 
 The remaining fields in Sleuth will get **populated automatically**, just click "**Test Metadata and Save**":
 
-<figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Sleuth defaults all of the Advanced configuration to the most commonly used values, but depending on your IdP configuration you might need to adjust "**Advanced settings**".
@@ -98,7 +98,7 @@ On the Application's homepage click the "**Assignments**" tab, then click "**Ass
 {% tab title="Option 2: Input metadata manually" %}
 In OKTA in the "**SAML Signing Certificates**" section under your Application, click the "**View SAML setup instructions**" button:
 
-<figure><img src="../../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Fill in the necessary metadata**, using the following reference, and click "**Test Metadata and Save**":
 

@@ -1,8 +1,8 @@
 # Details
 
-The **Details** tab contains general information about the selected **project**. The name of selected project is displayed at the top of the sidebar, under **Project**. Select the dropdown to select a different project, if you have more than one.
+The **Details** tab contains general information about the selected **project**. The name of selected project is displayed at the top of the sidebar. Select the "Switch to" dropdown to select a different project, if you have more than one.
 
-![Project selector in the sidebar](../../.gitbook/assets/project-selector.png)
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
 You can change the name of your project in the Details tab, along with an optional **Description** for the project. This is helpful if you are on a large team with multiple projects within the organization.
 

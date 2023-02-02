@@ -2,6 +2,6 @@
 
 The Organization Status dashboard gives you an up-to-the-minute view of how your Organization is performing and what's shipping right now.
 
-![Your 50-foot view of your Organization's status, health and activity](../../.gitbook/assets/org\_dash\_shaddow.png)
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>Your 50-foot view of your Organization's status, health and activity</p></figcaption></figure>
 
-The status view show's a quick summary of each projects DORA metrics, if the project is healthy or currently experiencing a failure and the most recent changes to the project.
+The Org Status view show's a quick summary of each project's DORA metrics, if the project is healthy or currently experiencing a failure and the most recent changes to the project.

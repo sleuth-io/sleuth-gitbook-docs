@@ -19,7 +19,7 @@ In both the [**Project Metrics**](../modeling-your-deployments/projects/) and [*
 
 In addition to plotting the currently selected period and the prior period as two distinct timelines on each graph, Sleuth also displays an overall "percent change" at the top of each graph to help you see at-a-glance how the _average_ for the selected period compares to the _average_ of the prior period.
 
-![Percent change is displayed from prior period to current period](<../.gitbook/assets/image (8).png>)
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Percent change is displayed from prior period to current period</p></figcaption></figure>
 
 On both the [**Project Metrics**](../modeling-your-deployments/projects/) and [**Team Metrics**](../modeling-your-deployments/teams.md) dashboards, percent change is calculated as follows:
 
@@ -30,7 +30,7 @@ On both the [**Project Metrics**](../modeling-your-deployments/projects/) and [*
 
 The [**Trends**](../modeling-your-deployments/organization/trends.md) **** dashboard also displays percent change for each of the four DORA metrics, but the calculation for percent change here differs slightly from the Project Metrics and Team Metrics dashboards in that the Trends dashboard display only one period of time (i.e. has no concept of a "prior period" in tis comparison.&#x20;
 
-![Percent change is displayed on the Trends dashboard](<../.gitbook/assets/image (6) (2) (1).png>)
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>Percent change is displayed on the Trends dashboard</p></figcaption></figure>
 
 For the Trends dashboard, Sleuth calculates percent change by splitting the selected period into two equal halves and calculating the average for each half. From there, the calculation of percent change is similar to the one described for the Project Metrics and Team Metrics dashboards above.&#x20;
 
@@ -42,11 +42,11 @@ Sleuth does not require users to explicitly associate Teams with Projects. Rathe
 
 As such, Sleuth can present powerful DORA metric "intersections" that show each Team's relative contribution to the DORA metrics for the Projects they're working on. This is evident in views such [Team Metrics](../modeling-your-deployments/teams.md) dashboard's **Projects contributed to** panel below, which shows the DORA metrics at the specific intersection of _this Team_ and _those Projects_.  &#x20;
 
-![The Team Metrics dashboard shows DORA metrics for the specific intersections between the selected team and the specific projects to which they're contributing](<../.gitbook/assets/image (15).png>)
+<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption><p>The Team Metrics dashboard shows DORA metrics for the specific intersections between the selected team and the specific projects to which they're contributing</p></figcaption></figure>
 
 Similarly, from within the [Project Metrics](../modeling-your-deployments/projects/) dashboard, Sleuth presents a view into **Contributing teams** and their relative impacts on that Project's metrics.&#x20;
 
-![The Project Metrics dashboard shows DORA metrics for each team's specific contributions to the project ](<../.gitbook/assets/image (26).png>)
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption><p>The Project Metrics dashboard shows DORA metrics for each team's specific contributions to the project </p></figcaption></figure>
 
 ## Interpreting Averages across Multiple Projects
 

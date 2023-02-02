@@ -26,7 +26,7 @@ In the left-hand menu click on "**Enterprise Applications**" and then click "**N
 
 Once the application is created, you'll be taken to its homepage. Click the "**2. Set up single sign on**" tile (_alternatively, you can click the "**Single sign-on**" link in the left-hand navigation_):
 
-<figure><img src="../../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 When prompted, select "**SAML**" as the **single sign-on method**, then proceed with one of the 2 options explained below:
 
@@ -34,13 +34,13 @@ When prompted, select "**SAML**" as the **single sign-on method**, then proceed 
 {% tab title="Option 1: Upload metadata XML file" %}
 Click the "**Upload metadata file**" button to trigger the file import modal, **select the file** to upload, and click "**Add**":
 
-<figure><img src="../../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once the file is uploaded, you'll see a preview of the imported metadata. If needed/desired, you can still make changes, although it generally shouldn't be necessary.
 
 One **optional field** that doesn't get populated automatically is "**Relay State**"; you can specify it manually by inputting your **Sleuth org slug** (_find it in your URL -> `https://app.sleuth.io/`**`<org-slug>`**_) and clicking "**Save**" at the top:
 
-<figure><img src="../../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 2: Enter metadata manually" %}
@@ -52,7 +52,7 @@ On the "**Basic SAML Configuration**" tile click "**Edit**":
 
 <table><thead><tr><th>AZURE AD</th><th>SLEUTH</th><th>EXAMPLE</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Identifier (Entity ID)</strong></td><td>SAML Entity ID</td><td><code>https://app.sleuth.io/saml/metadata/</code></td><td></td></tr><tr><td><strong>Reply URL (Assertion Consumer Service URL)</strong></td><td>Assertion Consumer Service</td><td><code>https://app.sleuth.io/complete/saml/</code></td><td></td></tr><tr><td><strong>Relay State (Optional)</strong></td><td>Default Relay State</td><td><code>sleuth</code><br><code></code><em>(should be your <strong>org slug</strong>)</em></td><td></td></tr><tr><td><strong>Logout Url (Optional)</strong></td><td>Single Logout Service</td><td><code>https://app.sleuth.io/saml/sls/</code></td><td></td></tr></tbody></table>
 
-<figure><img src="../../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -96,7 +96,7 @@ On the Application's homepage click the "**1. Assign users and groups**" tile (_
 
 Click the "**+Add user/group**" button and **assign Users/Groups** as needed:
 
-<figure><img src="../../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 2: Input metadata manually" %}

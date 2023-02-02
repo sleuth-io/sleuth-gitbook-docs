@@ -2,7 +2,7 @@
 
 In addition to tracking deploy metrics, Sleuth also provides **Work in Progress** dashboards for Teams and Projects that provide real-time visibility into in-flight work (i.e. work that has not yet deployed) and highlights risks that you can address right now.&#x20;
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (64).png" alt=""><figcaption><p>Work in Progress dashboard for a specific Project</p></figcaption></figure>
 
 ### What is "Work in Progress"?
 
@@ -27,20 +27,30 @@ For change lead time and its four composite breakdowns, an item is considered "a
 
 ### Understanding Work in Progress filters
 
-The Work in Progress dashboards provide two levels of filtering.
+The Work in Progress dashboards provide three levels of filtering.
+
+#### Left-hand navigation filters
+
+Like all Project-specific and Team-specific dashboards in Sleuth, the highest-level filters for the Work in Progress dashboard are the Project/Team selector and the Environment selector.
+
+When filtering by a specific Environment, note that in order for Sleuth to track PRs for an environment, that environment must be mapped to a branch. See [Environments](modeling-your-deployments/environment-support.md) for more information.
 
 #### Top-level dashboard filters
 
 Just like the Metrics Dashboards for Projects and teams, the Work in Progress dashboard can be filtered using top-level filters for Date Range, Projects, Teams, Environments, and Deployments. These filters impact the specific PRs and Future deploy that display in the listing as well as the data that is displayed in all of the dashboard charts.
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Top-level work-in-progress dashboard filters</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (49).png" alt=""><figcaption><p>Top-level work-in-progress dashboard filters</p></figcaption></figure>
 
-Bear in mind the following considerations when using the Date Range filter:
+Special considerations when using the Date Range filter:
 
 * The Date Range filter allows you to select the "from" date, but the "to" date will always be the current date. The main reason for specifying a "from" date is to exclude "zombie PRs" (i.e. PRs that have not been updated for a long time and so should not be included in your universe of "current work in progress"
 * For WIP risks that rely on comparison against your "average", that average is calculated based on the items that _deployed_ in the same period as your currently selected work-in-progress date range.
 * When you enable [build tracking](modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) for a [code deployment](modeling-your-deployments/code-deployments/), if you opt to include historical deploy data for the past 4 weeks, then Sleuth will also fetch all work-in-progress updated in that time period so that you can immediately begin analyzing your in-flight work.
-* Note that Sleuth has been collecting work in progress data only since November 23, 2022, so it is not possible to view work in progress that has not been updated since before that date.  &#x20;
+* Note that Sleuth has been collecting work in progress data only since November 23, 2022, so it is not possible to view work in progress that has not been updated since before that date. &#x20;
+
+Special considerations when using the Date Range filter:
+
+* The Date Range filter allows you to select the "from" date, but the "to" date will always be the current date. The main reason for specifying a "from" date is to exclude "zombie PRs" (i.e. PRs that have not been updated for a long time and so should not be included in your universe of "current work in progress"
 
 #### Work-in-progress listing filter
 
