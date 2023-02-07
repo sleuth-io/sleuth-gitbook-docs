@@ -27,13 +27,14 @@ The two examples below demonstrate the same query being requested individually o
 
 #### Request body
 
-<pre class="language-json"><code class="lang-json"><strong>[
-</strong><strong>  {
-</strong>    "query": "{ organization(orgSlug: \"sleuth\") { name } }",
+```json
+[
+  {
+    "query": "{ organization(orgSlug: \"sleuth\") { name } }",
     "variables": null
   }
 ]
-</code></pre>
+```
 
 {% hint style="info" %}
 When batching queries, the server response will match the request and return a list of objects instead of a single object.
