@@ -61,6 +61,7 @@
   * [Custom Metric Impact Registration](sleuth-api/custom-metric-impact-registration.md)
   * [Deprecation information](sleuth-api/deprecation-information.md)
   * [GraphQL examples](sleuth-api/graphql-examples.md)
+  * [Query batching](sleuth-api/query-batching.md)
 
 ## Integrations <a href="#integrations-1" id="integrations-1"></a>
 
