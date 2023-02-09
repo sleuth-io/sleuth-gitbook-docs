@@ -128,3 +128,50 @@ Invoke-RestMethod -Method POST `
 {% endcode %}
 
 </details>
+
+<details>
+
+<summary>cURL using Custom Git</summary>
+
+{% code overflow="wrap" lineNumbers="true" %}
+```bash
+curl -X POST -v \
+'https://app.sleuth.io/api/1/deployments/<ORG_SLUG>/<DEPLOYMENT_SLUG>/register_deploy' \
+  -H 'Authorization: apikey <APIKEY>' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "sha": "<SHA>",
+    "environment": "<ENVIRONMENT>",
+    "ignore_if_duplicate": "true",
+    "commits": [
+      {
+        "revision": "<COMMIT SHA>",
+        "message": "<YOUR COMMIT MESSAGE>",
+        "author": {
+          "name": "Jane",
+          "email": "jane@email.com",
+          "username": "jane@email.com"
+        },
+        "date": "2022-08-01T00:10:10+00:00",
+        "files": [
+          "/some/path/to/a/file.txt"
+        ],
+        "parents": [
+          "<PARENT SHA>"
+        ],
+        "url": "http://www.commits/aaa"
+      }
+    ],
+    "files": [
+      {
+        "path": "http://www.example.com/some/path.txt",
+        "additions": 3,
+        "deletions": 0,
+        "url": "http://www.example.com"
+      }
+    ]
+  }'
+```
+{% endcode %}
+
+</details>
