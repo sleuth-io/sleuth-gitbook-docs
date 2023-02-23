@@ -56,7 +56,7 @@ Special considerations when using the Date Range filter:
 
 In addition to the top-level filters, the detailed listing of work-in-progress items provides an additional filter to zero-in on items that exhibit a particular risk type. &#x20;
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Work-in-progress listing filters by specific risk types</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (3).png" alt=""><figcaption><p>Work-in-progress listing filters by specific risk types</p></figcaption></figure>
 
 By default, this filter is set to "No Filters," which displays all work-in-progress items that match the top-level filters (i.e. regardless of what risks they might or might not exhibit).
 
@@ -76,8 +76,8 @@ The remaining filters selections show items that exhibit a particular risk type.
 
 To subscribe to email digests summarizing the work in progress dashboard, simply click on the notification bell on the top-right of the dashboard and select "Daily." The digest will be sent to your email inbox each day if and only if there is at least one risk present in the work in progress dashboard. &#x20;
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (1).png>)
 
 Note that the digest subscription is specific to your currently selected Team or Project context and  currently selected Environment. The date range for the email digest will always be the default look-back period of 28 days.&#x20;
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>

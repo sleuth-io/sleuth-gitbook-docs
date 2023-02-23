@@ -16,12 +16,10 @@ Check out the Sleuth for Jira integration [in the Atlassian Marketplace](https:/
 
 To set up the Sleuth Jira Cloud integration:
 
-1. Click **Integrations** in the left sidebar, then click **Issue Trackers**.
-2. In the _Jira Cloud_ tile, click **enable**.
-3. Enter the _API Token_, _Email_, and fully qualified _URL_ of your Jira Cloud instance into the corresponding fields, then press **Save**. To quickly access your Jira Cloud instance to obtain an API token, click **generate**.\
-   ![](../../.gitbook/assets/screenshot-from-2021-08-23-16-37-29.png)
-
-
+1. Click your **avatar** in the top-right of the navigation bar and click **Integrations** in the **Organization** section.
+2. In the **Jira Cloud** tile, click **Enable**.
+3. Enter the **fully qualified URL** of your Jira Cloud instance, the authorized User's **Email**, and the corresponding **API Token** into the respective fields, then click **Save**. To quickly access your Jira Cloud instance to obtain an API token, click the **generate** link in the title.\
+   ![](../../.gitbook/assets/image.png)
 
 ### Custom HTTP headers
 
@@ -30,42 +28,36 @@ If you using Jira on-premise behind Cloudflare access or similar, Sleuth might n
 1. In the Jira dialog, click on the **Advanced setting**
 2. Enter comma separated list of custom headers you want Sleuth to include
 
-The message **Jira enabled** is displayed in the tile.
+![](<../../.gitbook/assets/image (2).png>)
 
-![Successful integration!](../../.gitbook/assets/screen-shot-2020-06-02-at-3.05.34-pm.png)
+## Using the integration
 
-## Configuring the integration
+Setting up the Jira Cloud integration represents the groundwork for later issue tracking. To actually start tracking issues, you need to **configure your Projects** to use the integration for that purpose.
 
-After setting up the Jira Cloud integration, you must designate which Sleuth project to use as the default issue tracker. If you are configuring the integration immediately after setting it up, you can go directly to step #2 below.
+### To set Jira as the issue tracker on a Project:
 
-### To set the default issue tracker:
+1. Navigate to the Project you wish to use Jira as issue tracker with&#x20;
+2. Click on **Settings** in the left sidebar, then select the **Details** tab.
+3. Select your **Jira** **integration** from the list in the **Issue Integration Provider** dropdown. Please note that the integration must **** first be **set up** **at the organization level** before it can be selected.\
+   \
+   ![](<../../.gitbook/assets/image (1).png>)
+4. Click **Save**.
 
-1. Click on **Integrations** in the left sidebar, then on **Issue Trackers**.
-2. Click on the Jira Cloud **Set default issue tracker** dropdown (see screenshot above).
-3. All projects in the organization are displayed. Select which project you'd like to set Jira Cloud as the default issue tracker for.
-
-You can also change the default issue tracker at any time.
-
-### To change the default issue tracker:
-
-1. Click on **Project Settings** in the left sidebar, then select **Details**.
-2. Select a new default issue tracker. The integration **must be connected** at the organization level before it can be selected.\
-   ![](../../.gitbook/assets/jira-default-issue-tracker.png)
-3. Press **Save**.
+{% hint style="info" %}
+The **Issue Integration Provider** setting is defined on a **Project-level basis**, so it needs to be applied to **each Project individually**.
+{% endhint %}
 
 ## Removing the integration
 
 #### If you wish to disconnect the Jira Cloud integration for the organization:
 
-1. Click on **Integrations** in the left sidebar, then on **Issue Trackers**.
-2. Click **disable**. The message **Jira disabled** is displayed in the Jira Cloud integration card once the integration is dissolved.
+1. Click your **avatar** in the top-right of the navigation bar and click **Integrations** in the **Organization** section.
+2. In the **Jira Cloud** tile, click the **∨** symbol to expand the tile.
+3. A list of all of your Jira connections should be displayed.
+4. Click **Remove** for each of the connections you wish to remove.
 
-The Jira Cloud integration is disconnected and no longer available to any projects within that organization. Any projects that used the Jira Cloud integration will need a new default issue tracker selected.
+Once a connection is removed, it is no longer available for any projects within the organization. Any projects that used that particular Jira Cloud connection will need to have a [new issue tracker connection or a completely different issue tracker selected](jira.md#to-set-jira-as-the-issue-tracker-on-a-project).
 
-#### To set a new default issue tracker:
-
-1. Click on **Project Settings** in the left sidebar, then select **Details**.
-2. Select a new default issue tracker. The integration must be connected via the organization before it's displayed here.
-3. Press **Save**.
-
-The Jira Cloud integration is disconnected and no longer available to any projects within that organization. You will need to select a new default issue tracker for any projects that used the Jira Cloud integration. Simply follow the instructions in the section above: **To set a new default issue tracker**.
+{% hint style="info" %}
+The **integration is fully disconnected** once all Jira Cloud connections are removed.
+{% endhint %}
