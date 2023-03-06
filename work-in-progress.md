@@ -56,7 +56,7 @@ Special considerations when using the Date Range filter:
 
 In addition to the top-level filters, the detailed listing of work-in-progress items provides an additional filter to zero-in on items that exhibit a particular risk type. &#x20;
 
-<figure><img src=".gitbook/assets/image (4) (3).png" alt=""><figcaption><p>Work-in-progress listing filters by specific risk types</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Work-in-progress listing filters by specific risk types</p></figcaption></figure>
 
 By default, this filter is set to "No Filters," which displays all work-in-progress items that match the top-level filters (i.e. regardless of what risks they might or might not exhibit).
 
@@ -68,7 +68,7 @@ The remaining filters selections show items that exhibit a particular risk type.
 
 | Chart                                        | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](<.gitbook/assets/image (3).png>)         | <p><strong>Work in progress lead time</strong> displays a comparison of your current aggregate WIP lead time breakdowns against your average lead time breakdowns for items that deployed in the same period. </p><p></p><p>Grey columns represent the average for deployed items, while red and green columns represent your current work in progress (red indicates that the current WIP value is at risk relative to the average).<br><br>This chart is responsive to selections made in the listing filter.</p> |
+| ![](<.gitbook/assets/image (3) (2).png>)     | <p><strong>Work in progress lead time</strong> displays a comparison of your current aggregate WIP lead time breakdowns against your average lead time breakdowns for items that deployed in the same period. </p><p></p><p>Grey columns represent the average for deployed items, while red and green columns represent your current work in progress (red indicates that the current WIP value is at risk relative to the average).<br><br>This chart is responsive to selections made in the listing filter.</p> |
 | ****![](<.gitbook/assets/image (7).png>)**** | <p><strong>Batch size breakdown</strong> groups your current work in progress by each of Sleuth's four batch size categories.<br><br>Large and Gigantic counts are outlined in red  when either is greater than 0.<br><br>This chart is responsive to selections made in the listing filter.</p>                                                                                                                                                                                                                    |
 | ![](<.gitbook/assets/image (10).png>)        | <p><strong>Summary of work in progress</strong> summarized work in progress by showing the total count of all items, the total at risk, and the number of times that each risk type appears in your work in progress.<br><br>Clicking on the count for any risk type in this chart will set the listing filter to that risk type. It is not, however, responsive to selections made in the list filter.</p>                                                                                                         |
 
@@ -76,8 +76,8 @@ The remaining filters selections show items that exhibit a particular risk type.
 
 To subscribe to email digests summarizing the work in progress dashboard, simply click on the notification bell on the top-right of the dashboard and select "Daily." The digest will be sent to your email inbox each day if and only if there is at least one risk present in the work in progress dashboard. &#x20;
 
-![](<.gitbook/assets/image (1) (1).png>)
+![](<.gitbook/assets/image (1) (2).png>)
 
 Note that the digest subscription is specific to your currently selected Team or Project context and  currently selected Environment. The date range for the email digest will always be the default look-back period of 28 days.&#x20;
 
-<figure><img src=".gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>

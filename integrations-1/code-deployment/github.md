@@ -18,7 +18,7 @@ To set up the Sleuth GitHub integration:
 2. Select **Code** from the drop down located in the top right.
 3. In the _GitHub_ tile, click **Enable**.
 4. Select **Code** from the drop down located in the top right.&#x20;
-5. Select either **All repositories** or **Only select repositories**. Note that if you choose **Only select repositories**, Sleuth will only be able to see the repos you select.![](<../../.gitbook/assets/image (1) (2).png>)
+5. Select either **All repositories** or **Only select repositories**. Note that if you choose **Only select repositories**, Sleuth will only be able to see the repos you select.![](<../../.gitbook/assets/image (1) (2) (1).png>)
 6. Click **Install & Authorize**.
 7. Upon successful integration, you'll see **GitHub enabled (Connected as \_\<GitHub user account>**\_\*\*) \*\*displayed in the GitHub tile. You'll next configure the code deployment to connect your repo to a project.\
    ![](../../.gitbook/assets/github-enabled.png)

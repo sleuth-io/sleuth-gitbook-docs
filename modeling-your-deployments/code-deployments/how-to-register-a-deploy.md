@@ -27,7 +27,7 @@ For example, we use CircleCI where we have many jobs, but only two are relevant 
 {% hint style="info" %}
 Sleuth is only able to do auto deploy detection from CI/CD builds for our supported [CI/CD integrations](../../integrations-1/builds/). If you don't see your CI/CD provider please reach out and let us know. We're always adding new Integrations and are prioritizing as demand dictates.
 
-Keep in mind that even without a supported provider you can still achieve precise tracking using our webhook registration.
+Keep in mind that even without a supported provider you can still achieve precise tracking using our [webhook registration](how-to-register-a-deploy.md#precise-deploy-registration-via-a-webhook).
 {% endhint %}
 
 #### Manually entering build and job names
@@ -66,6 +66,18 @@ To account for such a setup in build mappings, a job "prefix" can be manually sp
 Job: Example Job 1/*
 ```
 {% endcode %}
+
+#### Only detect builds that match the environment branch
+
+When a code deployment has been configured to [map separate branches to environments](creating-a-deployment.md#mapping-the-branch-you-deploy-from), Sleuth's default behavior is to register each specified build against its mapped environment whenever the specified build name is detected, regardless of which branch that build might have been generated from in the CD pipeline. This is the preferred behavior for about 90% of Sleuth customers.&#x20;
+
+Some customers' CD workflows, however, require that Sleuth register a specified build against its mapped environment only when that build has been generated from the specific branch associated with the mapped environment.&#x20;
+
+For such cases, Sleuth provides a toggle under Advanced Settings that, when enabled, tells Sleuth to register the specified build only when that build's source branch matches the mapped environment branch.   &#x20;
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Note that when using any of Sleuth's native CI/CD integrations, this toggle will also impact which builds are included in the Builds tab on the Deploy Details screen. The toggle will not, however, limit which builds appear on Deploy Details screen for deploys that are registered using our [webhook registration](how-to-register-a-deploy.md#precise-deploy-registration-via-a-webhook).&#x20;
 
 #### Build mapping caveats
 

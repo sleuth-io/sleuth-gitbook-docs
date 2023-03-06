@@ -69,6 +69,6 @@ you can write the query parameters in the prefilled format
 
 4\. Make sure **only 1 metric** is graphed, click **Source** and **copy-paste** the JSON to Sleuth
 
-![](<../../../.gitbook/assets/image (3) (2).png>)
+![](<../../../.gitbook/assets/image (3) (2) (1).png>)
 
 ***
