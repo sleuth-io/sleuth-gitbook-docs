@@ -19,7 +19,7 @@ To set up the Sleuth Jira Cloud integration:
 1. Click your **avatar** in the top-right of the navigation bar and click **Integrations** in the **Organization** section.
 2. In the **Jira Cloud** tile, click **Enable**.
 3. Enter the **fully qualified URL** of your Jira Cloud instance, the authorized User's **Email**, and the corresponding **API Token** into the respective fields, then click **Save**. To quickly access your Jira Cloud instance to obtain an API token, click the **generate** link in the title.\
-   ![](../../.gitbook/assets/image.png)
+   ![](<../../.gitbook/assets/image (2).png>)
 
 ### Custom HTTP headers
 
@@ -28,7 +28,7 @@ If you using Jira on-premise behind Cloudflare access or similar, Sleuth might n
 1. In the Jira dialog, click on the **Advanced setting**
 2. Enter comma separated list of custom headers you want Sleuth to include
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (4).png>)
 
 ## Using the integration
 
@@ -40,7 +40,7 @@ Setting up the Jira Cloud integration represents the groundwork for later issue 
 2. Click on **Settings** in the left sidebar, then select the **Details** tab.
 3. Select your **Jira** **integration** from the list in the **Issue Integration Provider** dropdown. Please note that the integration must **** first be **set up** **at the organization level** before it can be selected.\
    \
-   ![](<../../.gitbook/assets/image (1).png>)
+   ![](<../../.gitbook/assets/image (1) (4).png>)
 4. Click **Save**.
 
 {% hint style="info" %}
