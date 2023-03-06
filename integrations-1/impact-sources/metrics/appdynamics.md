@@ -46,7 +46,7 @@ The AppDynamics integration is disconnected and no longer available to any proje
 
     Open _Applications_ dashboard \_\_and select **Metric Browser** from left hand navigation menu
 
-![](<../../../.gitbook/assets/image (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 
 4\.    Select desired metric, right-click and press **Copy REST URL**
 
