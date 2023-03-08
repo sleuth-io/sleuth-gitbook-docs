@@ -76,7 +76,7 @@ The remaining filters selections show items that exhibit a particular risk type.
 
 To subscribe to email digests summarizing the work in progress dashboard, simply click on the notification bell on the top-right of the dashboard and select "Daily." The digest will be sent to your email inbox each day if and only if there is at least one risk present in the work in progress dashboard. &#x20;
 
-![](<.gitbook/assets/image (1) (2).png>)
+![](<.gitbook/assets/image (1) (2) (2).png>)
 
 Note that the digest subscription is specific to your currently selected Team or Project context and  currently selected Environment. The date range for the email digest will always be the default look-back period of 28 days.&#x20;
 
