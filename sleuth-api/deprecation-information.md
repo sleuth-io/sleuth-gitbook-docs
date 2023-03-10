@@ -8,6 +8,12 @@ This page lists all the fields in our GQL API that have been marked as deprecate
 
 We will try to keep all these fields available for at least 3 months after they've been tagged deprecated. You're highly encouraged to update any code still using them to avoid issues once the deprecation period runs out and the fields are removed.
 
+## 2023-03-10
+
+* Top-level field `context` was deprecated. See subfield deprecation messages for more information about alternatives.
+* Field `project` was deprecated from object type `ContextType`. Use field `organization.projects` with `slug` argument query type instead.
+* Field `environment` was deprecated from object type `ContextType`. Use field `organization.project.environment` query type instead.
+
 ## 2023-03-08
 
 * Field `org` was deprecated from object type `ContextType`. Use field `organization` on root query type instead.

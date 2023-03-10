@@ -75,7 +75,7 @@ Some customers' CD workflows, however, require that Sleuth register a specified 
 
 For such cases, Sleuth provides a toggle under Advanced Settings that, when enabled, tells Sleuth to register the specified build only when that build's source branch matches the mapped environment branch. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Note that when using any of Sleuth's native CI/CD integrations, this toggle will also impact which builds are included in the Builds tab on the Deploy Details screen. The toggle will not, however, limit which builds appear on Deploy Details screen for deploys that are registered using our [webhook registration](how-to-register-a-deploy.md#precise-deploy-registration-via-a-webhook).&#x20;
 
