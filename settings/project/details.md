@@ -30,9 +30,9 @@ Setting this value to a longer time means that fewer events will be classified a
 
 #### Health autodetect sensitivity
 
-This setting controls how many impact measurements Sleuth takes into account when auto-determining the health of a deploy.
+This setting controls how many minutes Sleuth takes into account when auto-determining the health of a deploy. Measurements are usually collected every two minutes.
 
-If you set this to _Fine_, we will use fewer measurements to calculate the overall health of the environment and vice-versa if you set it to _Coarse_.
+If you set this to _Fine_, we will use less time to calculate the overall health of the environment and vice-versa if you set it to _Coarse_.
 
 The best setting here will be a trade off between response time and detection reliability. If you're being alerted too often on account of minor anomalies, choose _Coarse_. If you want to be alerted sooner and with higher sensitivity, choose _Fine_.&#x20;
 
