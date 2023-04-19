@@ -11,7 +11,7 @@ Some teams track incidents outside of traditional Observability tools. [Custom i
 ## Path
 
 {% hint style="info" %}
-#### ENDPOINT ****&#x20;
+#### ENDPOINT&#x20;
 
 https://app.sleuth.io/api/1/deployments/<mark style="color:red;">`ORG_SLUG`</mark>/<mark style="color:blue;">`PROJECT_SLUG`</mark>/<mark style="color:green;">`ENVIRONMENT_SLUG`</mark>/<mark style="color:orange;">`IMPACT_SOURCE_SLUG`</mark>/register\_impact/`APIKEY`
 {% endhint %}
@@ -36,22 +36,23 @@ The `API key` must also be added to the **end of the path** in this instance.
 {% endtab %}
 
 {% tab title="Optional parameters" %}
-| Name    | Type   | Comments                                                                                                       |
-| ------- | ------ | -------------------------------------------------------------------------------------------------------------- |
-| `id`    | string | The unique incident identifier from your system.                                                               |
-| `date`  | string | The [ISO 8601 ](https://en.wikipedia.org/wiki/ISO\_8601)date the event occurred. Defaults to the current time. |
-| `title` | string | The human-readable title of the incident.                                                                      |
-| `url`   | string | URL to the incident in your external system.                                                                   |
+| Name         | Type   | Comments                                                                                                                                                                           |
+| ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`         | string | The unique incident identifier from your system.                                                                                                                                   |
+| `date`       | string | The [ISO 8601 ](https://en.wikipedia.org/wiki/ISO\_8601)date the event occurred. Defaults to the current time.                                                                     |
+| `ended_date` | string | <p>The <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601 </a>date the event ended.</p><p>Use it with <code>"type": "triggered"</code> to register past incident event.</p> |
+| `title`      | string | The human-readable title of the incident.                                                                                                                                          |
+| `url`        | string | URL to the incident in your external system.                                                                                                                                       |
 {% endtab %}
 
 {% tab title="Responses" %}
-| Code                                        | Comments                                                                                                                                                                   | Response Text                                                                                                                                   |
-| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| <mark style="color:green;">**`200`**</mark> | Manual change registered successfully.                                                                                                                                     | `Success`                                                                                                                                       |
-| <mark style="color:red;">**`400`**</mark>   | <p>Returned if any of the input parameters are invalid, e.g.:<br>- <code>date</code> format isn't valid<br>- <code>value</code> is not a valid float</p>                   | <p>The response text will indicate the nature of the error:<br><code></code></p><p><code>Bad Request - impact value must be a number</code></p> |
-| <mark style="color:red;">**`401`**</mark>   | Returned if the API key provided doesn't exist.                                                                                                                            | `Unauthorized`                                                                                                                                  |
-| <mark style="color:red;">**`404`**</mark>   | Returned if the <mark style="color:red;">`IMPACT_ID`</mark> does not exist.                                                                                                | `MetricImpactSource Not Found`                                                                                                                  |
-| <mark style="color:red;">**`429`**</mark>   | Returned if your requests are more frequent than one every 120 seconds. A `Retry-After` header is provided with the number of seconds you should wait until you try again. | `You may only register a custom metric once every 120 seconds`                                                                                  |
+| Code                                        | Comments                                                                                                                                                                   | Response Text                                                                                                                      |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| <mark style="color:green;">**`200`**</mark> | Manual change registered successfully.                                                                                                                                     | `Success`                                                                                                                          |
+| <mark style="color:red;">**`400`**</mark>   | <p>Returned if any of the input parameters are invalid, e.g.:<br>- <code>date</code> format isn't valid<br>- <code>value</code> is not a valid float</p>                   | <p>The response text will indicate the nature of the error:<br></p><p><code>Bad Request - impact value must be a number</code></p> |
+| <mark style="color:red;">**`401`**</mark>   | Returned if the API key provided doesn't exist.                                                                                                                            | `Unauthorized`                                                                                                                     |
+| <mark style="color:red;">**`404`**</mark>   | Returned if the <mark style="color:red;">`IMPACT_ID`</mark> does not exist.                                                                                                | `MetricImpactSource Not Found`                                                                                                     |
+| <mark style="color:red;">**`429`**</mark>   | Returned if your requests are more frequent than one every 120 seconds. A `Retry-After` header is provided with the number of seconds you should wait until you try again. | `You may only register a custom metric once every 120 seconds`                                                                     |
 {% endtab %}
 {% endtabs %}
 
