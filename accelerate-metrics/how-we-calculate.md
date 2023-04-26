@@ -28,7 +28,7 @@ On both the [**Project Metrics**](../modeling-your-deployments/projects/) and [*
 
 ### Percent Change for the Trends dashboard
 
-The [**Trends**](../modeling-your-deployments/organization/trends.md) **** dashboard also displays percent change for each of the four DORA metrics, but the calculation for percent change here differs slightly from the Project Metrics and Team Metrics dashboards in that the Trends dashboard display only one period of time (i.e. has no concept of a "prior period" in tis comparison.&#x20;
+The [**Trends**](../modeling-your-deployments/organization/trends.md) dashboard also displays percent change for each of the four DORA metrics, but the calculation for percent change here differs slightly from the Project Metrics and Team Metrics dashboards in that the Trends dashboard display only one period of time (i.e. has no concept of a "prior period" in tis comparison.&#x20;
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>Percent change is displayed on the Trends dashboard</p></figcaption></figure>
 

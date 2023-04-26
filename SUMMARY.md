@@ -33,6 +33,7 @@
   * [Deploys](modeling-your-deployments/deploy-cards.md)
   * [Teams](modeling-your-deployments/teams.md)
 * [Work in Progress](work-in-progress.md)
+* [Goals (beta)](goals-beta.md)
 * [Slack & Email Notifications](notifications.md)
 * [Auto-verify deploys](auto-verify-your-deploys/README.md)
   * [Anomaly detection](auto-verify-your-deploys/anomaly-detection.md)

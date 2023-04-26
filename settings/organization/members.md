@@ -34,5 +34,5 @@ You can manually view and manage linked identities for Sleuth users by performin
 * The **Link external identities** screen shows all currently linked identities for the user along with options to remove existing identities or to link new ones.
 * To search for additional identities not already linked to the user, click **Link**&#x20;
 
-![](<../../.gitbook/assets/image (18) (1).png>)
+![](<../../.gitbook/assets/image (18) (1) (2).png>)
 

@@ -11,7 +11,7 @@ You can submit custom metric impact values to Sleuth. Sleuth will perform its an
 ## Path
 
 {% hint style="info" %}
-#### ENDPOINT ****&#x20;
+#### ENDPOINT&#x20;
 
 https://app.sleuth.io/api/1/impact/<mark style="color:red;">`IMPACT_ID`</mark>_/_register\_impact
 {% endhint %}
@@ -37,13 +37,13 @@ The endpoint path takes **1 ID** which uniquely identifies the Impact Source to 
 {% endtab %}
 
 {% tab title="Responses" %}
-| Code                                        | Comments                                                                                                                                                                   | Response Text                                                                                                                                   |
-| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| <mark style="color:green;">**`200`**</mark> | Manual change registered successfully.                                                                                                                                     | `Success`                                                                                                                                       |
-| <mark style="color:red;">**`400`**</mark>   | <p>Returned if any of the input parameters are invalid, e.g.:<br>- <code>date</code> format isn't valid<br>- <code>value</code> is not a valid float</p>                   | <p>The response text will indicate the nature of the error:<br><code></code></p><p><code>Bad Request - impact value must be a number</code></p> |
-| <mark style="color:red;">**`401`**</mark>   | Returned if the API key provided doesn't exist.                                                                                                                            | `Unauthorized`                                                                                                                                  |
-| <mark style="color:red;">**`404`**</mark>   | Returned if the <mark style="color:red;">`IMPACT_ID`</mark> does not exist.                                                                                                | `MetricImpactSource Not Found`                                                                                                                  |
-| <mark style="color:red;">**`429`**</mark>   | Returned if your requests are more frequent than one every 120 seconds. A `Retry-After` header is provided with the number of seconds you should wait until you try again. | `You may only register a custom metric once every 120 seconds`                                                                                  |
+| Code                                        | Comments                                                                                                                                                                   | Response Text                                                                                                                      |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| <mark style="color:green;">**`200`**</mark> | Manual change registered successfully.                                                                                                                                     | `Success`                                                                                                                          |
+| <mark style="color:red;">**`400`**</mark>   | <p>Returned if any of the input parameters are invalid, e.g.:<br>- <code>date</code> format isn't valid<br>- <code>value</code> is not a valid float</p>                   | <p>The response text will indicate the nature of the error:<br></p><p><code>Bad Request - impact value must be a number</code></p> |
+| <mark style="color:red;">**`401`**</mark>   | Returned if the API key provided doesn't exist.                                                                                                                            | `Unauthorized`                                                                                                                     |
+| <mark style="color:red;">**`404`**</mark>   | Returned if the <mark style="color:red;">`IMPACT_ID`</mark> does not exist.                                                                                                | `MetricImpactSource Not Found`                                                                                                     |
+| <mark style="color:red;">**`429`**</mark>   | Returned if your requests are more frequent than one every 120 seconds. A `Retry-After` header is provided with the number of seconds you should wait until you try again. | `You may only register a custom metric once every 120 seconds`                                                                     |
 {% endtab %}
 {% endtabs %}
 

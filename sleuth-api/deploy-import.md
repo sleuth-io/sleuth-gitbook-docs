@@ -9,7 +9,7 @@ Delete all existing deploys in your Code Deployment and create a new history wit
 ## Path
 
 {% hint style="info" %}
-#### ENDPOINT ****&#x20;
+#### ENDPOINT&#x20;
 
 https://app.sleuth.io/api/1/deployments/<mark style="color:red;">`ORG_SLUG`</mark>_/<mark style="color:blue;">`DEPLOYMENT_SLUG`</mark>_/import\_deploys
 {% endhint %}
@@ -19,7 +19,7 @@ The endpoint path takes **2 slugs** which direct the deploys to the correct code
 * <mark style="color:red;">`ORG_SLUG`</mark>: found in the URL of your Sleuth org, immediately following `https://app.sleuth.io/`
 * <mark style="color:blue;">`DEPLOYMENT_SLUG`</mark>: found in the URL, following the prefix `https://app.sleuth.io/org_slug/deployments/`
 
-``
+
 
 ## Parameters
 
@@ -33,11 +33,11 @@ The endpoint path takes **2 slugs** which direct the deploys to the correct code
 {% endtab %}
 
 {% tab title="Responses" %}
-| Code                                        | Comments                                                                                                                                                                                                                                                                                                                         | Response Text                                                                                                                 |
-| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| <mark style="color:green;">**`200`**</mark> | Deploys imported successfully.                                                                                                                                                                                                                                                                                                   | `Success`                                                                                                                     |
-| <mark style="color:red;">**`400`**</mark>   | <p>Returned if any of the input parameters are invalid, e.g.:<br>- <code>sha</code> isn't provided<br>- branch doesn't match the configured branch<br>- <code>date</code> format isn't valid<br>- <code>author</code> is not a valid email<br>- we're unable to validate if the <code>sha</code> exists in the remote system</p> | <p>The response text will indicate the nature of the error:<br><code></code></p><p><code>String of message problem</code></p> |
-| <mark style="color:red;">**`401`**</mark>   | API key not valid or the deployment is not in the specified organization                                                                                                                                                                                                                                                         | `String of message problem`                                                                                                   |
+| Code                                        | Comments                                                                                                                                                                                                                                                                                                                         | Response Text                                                                                                    |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| <mark style="color:green;">**`200`**</mark> | Deploys imported successfully.                                                                                                                                                                                                                                                                                                   | `Success`                                                                                                        |
+| <mark style="color:red;">**`400`**</mark>   | <p>Returned if any of the input parameters are invalid, e.g.:<br>- <code>sha</code> isn't provided<br>- branch doesn't match the configured branch<br>- <code>date</code> format isn't valid<br>- <code>author</code> is not a valid email<br>- we're unable to validate if the <code>sha</code> exists in the remote system</p> | <p>The response text will indicate the nature of the error:<br></p><p><code>String of message problem</code></p> |
+| <mark style="color:red;">**`401`**</mark>   | API key not valid or the deployment is not in the specified organization                                                                                                                                                                                                                                                         | `String of message problem`                                                                                      |
 {% endtab %}
 {% endtabs %}
 

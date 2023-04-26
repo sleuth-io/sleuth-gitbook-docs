@@ -9,7 +9,7 @@ Manual changes are any changes not tracked by source code, feature flags, or any
 ## Path
 
 {% hint style="info" %}
-#### ENDPOINT ****&#x20;
+#### ENDPOINT&#x20;
 
 https://app.sleuth.io/api/1/deployments/<mark style="color:red;">`ORG_SLUG`</mark>_/<mark style="color:blue;">`PROJECT_SLUG`</mark>_/register\_manual\_deploy
 {% endhint %}
@@ -19,7 +19,7 @@ The endpoint path takes **2 slugs** which direct the manual changes to the corre
 * <mark style="color:red;">`ORG_SLUG`</mark>: found in the URL of your Sleuth org, immediately following `https://app.sleuth.io/`
 * <mark style="color:blue;">`PROJECT_SLUG`</mark>: found in the URL, following the prefix `https://app.sleuth.io/org_slug/`
 
-``
+
 
 ### Parameters
 
@@ -42,13 +42,13 @@ The endpoint path takes **2 slugs** which direct the manual changes to the corre
 {% endtab %}
 
 {% tab title="Responses" %}
-| Code                                        | Comments                                                                                                                                                  | Response Text                                                                                                                 |
-| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| <mark style="color:green;">**`200`**</mark> | Manual change registered successfully.                                                                                                                    | `Success`                                                                                                                     |
-| <mark style="color:red;">**`400`**</mark>   | <p>Returned if any of the input parameters are invalid, e.g.:<br>- <code>date</code> format isn't valid<br>- <code>author</code> is not a valid email</p> | <p>The response text will indicate the nature of the error:<br><code></code></p><p><code>String of message problem</code></p> |
-| <mark style="color:red;">**`401`**</mark>   | Returned if the API key provided doesn't exist.                                                                                                           | `Unauthorized`                                                                                                                |
-| <mark style="color:red;">**`404`**</mark>   | Returned if the project does not exist.                                                                                                                   | `Project not found`                                                                                                           |
-| <mark style="color:red;">**`422`**</mark>   | Returned if `name` is not provided                                                                                                                        | `Name is required.`                                                                                                           |
+| Code                                        | Comments                                                                                                                                                  | Response Text                                                                                                    |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| <mark style="color:green;">**`200`**</mark> | Manual change registered successfully.                                                                                                                    | `Success`                                                                                                        |
+| <mark style="color:red;">**`400`**</mark>   | <p>Returned if any of the input parameters are invalid, e.g.:<br>- <code>date</code> format isn't valid<br>- <code>author</code> is not a valid email</p> | <p>The response text will indicate the nature of the error:<br></p><p><code>String of message problem</code></p> |
+| <mark style="color:red;">**`401`**</mark>   | Returned if the API key provided doesn't exist.                                                                                                           | `Unauthorized`                                                                                                   |
+| <mark style="color:red;">**`404`**</mark>   | Returned if the project does not exist.                                                                                                                   | `Project not found`                                                                                              |
+| <mark style="color:red;">**`422`**</mark>   | Returned if `name` is not provided                                                                                                                        | `Name is required.`                                                                                              |
 
 
 {% endtab %}
@@ -71,7 +71,8 @@ Make sure you **replace the values** surrounded by**`<`** and **`>`**with your *
   -d '{
   "name": "&#x3C;NAME>",
   "description": "&#x3C;description>"
-}'</code></pre>
+}'
+</code></pre>
 
 </details>
 

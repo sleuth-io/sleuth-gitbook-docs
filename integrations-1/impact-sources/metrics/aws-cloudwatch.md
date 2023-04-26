@@ -65,7 +65,7 @@ you can write the query parameters in the prefilled format
 2. Click on **Metrics** in left sidebar
 3. Click through metric groups cards and select the metric you want your impact to track
 
-![](<../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../.gitbook/assets/image (5) (1) (1).png>)
 
 4\. Make sure **only 1 metric** is graphed, click **Source** and **copy-paste** the JSON to Sleuth
 

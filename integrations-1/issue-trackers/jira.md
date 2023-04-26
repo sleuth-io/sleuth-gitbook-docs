@@ -38,7 +38,7 @@ Setting up the Jira Cloud integration represents the groundwork for later issue 
 
 1. Navigate to the Project you wish to use Jira as issue tracker with&#x20;
 2. Click on **Settings** in the left sidebar, then select the **Details** tab.
-3. Select your **Jira** **integration** from the list in the **Issue Integration Provider** dropdown. Please note that the integration must **** first be **set up** **at the organization level** before it can be selected.\
+3. Select your **Jira** **integration** from the list in the **Issue Integration Provider** dropdown. Please note that the integration must first be **set up** **at the organization level** before it can be selected.\
    \
    ![](<../../.gitbook/assets/image (1) (4).png>)
 4. Click **Save**.

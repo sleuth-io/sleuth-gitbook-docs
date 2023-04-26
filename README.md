@@ -58,6 +58,6 @@ Verify the health of your deploys by integrating your Observability and setting 
 {% tab title="Step 5 - Done!" %}
 **Accelerate your team today!**
 
-![](<.gitbook/assets/image (15) (1).png>)
+![](<.gitbook/assets/image (15) (1) (1).png>)
 {% endtab %}
 {% endtabs %}
