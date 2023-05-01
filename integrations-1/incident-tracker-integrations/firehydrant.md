@@ -2,22 +2,22 @@
 
 ## About the integration <img src="../../.gitbook/assets/firehydrant-logo.png" alt="" data-size="line">
 
-FireHydrant takes care of alert handoff, automating incident declaration, and management process. Integrating FireHydrant with Sleuth is simple using a dedicated bot user.
+FireHydrant takes care of alert handoff, automating incident declaration, and management process. Integrating FireHydrant with Sleuth is simple using a [dedicated bot user](https://app.firehydrant.io/organizations/bots).
 
 ## Setting up the integration
 
 To add the Sleuth FireHydrant integration:
 
-* Click **Integrations** in the sidebar.
-* Click the _Incidents_ tab, then **add** in the FireHydrant card.
-* Enter your Bot API token
+* Click **Integrations** in the top right menu.
+* Search for FireHydrant and enable.
+* Enter your Bot API token.
 * Press **Save**.
 
 ## Configuring the integration
 
-* Click **Add incident source** and select a Sleuth project that will track FireHydrant incidents. All projects within your organization will be displayed in the dropdown.
+* Navigate to the desired project and click **Add Impact Source**.
 
-![](../../.gitbook/assets/screenshot-2021-09-07-at-10.47.40.png)
+![](<../../.gitbook/assets/image (5).png>)
 
 * Configure impact source by mapping incidents FireHydrant's environment and service to Sleuth environment.
 * Under advanced settings, you can control the historic data population. If checked Sleuth will populate all incidents that happened in the last 30 days and recalculate the project's Failure Rate and MTTR metrics.
