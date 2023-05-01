@@ -1,6 +1,6 @@
 # Goals (beta)
 
-Sleuth's **Goals** dashboard helps teams set, track and achieve their efficiency goals by:
+Sleuth's **Goals** dashboard, available for Standard an Enterprise plans, helps teams set, track and achieve their efficiency goals by:
 
 * Allowing them to set actionable goals for Coding time, Review lag time, Review time, and Deploying time
 * Automatically notifying PR owners and reviewers in real-time as they begin to drift from their goals
