@@ -48,10 +48,10 @@ One of the most powerful features of Goals is the ability to set up automated Sl
 
     <figure><img src=".gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 * Expand the **Notification type** drop-down and select either "Smart escalations" or "Custom schedule"
-  *   **Smart escalations:** This option will automatically send 3 progressively escalating notifications to the selected slack channel. The first notification is sent at 75% of goal and doesn't specifically mention anyone. The second notification is sent at 85% of goal and @mentions the authors or reviewers on the PR (whichever is appropriate to the specific goal). The third notification is sent at 95% of goal and includes an @channel. \
+  *   **Smart escalations:** This option will automatically send 2 progressively escalating notifications to the selected Slack channel. The first notification is sent at 75% of goal and doesn't specifically mention anyone. The second notification is sent at 90% of goal and @mentions the authors or reviewers on the PR (whichever is appropriate to the specific goal). \
 
 
-      <figure><img src=".gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src=".gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
   *   **Custom schedule:** This option allows you to schedule up to 5 notifications. Specify the elapsed **Days**, **Hours**, and **Minutes** when the first notification should be sent (this value must be less than the goal value, as the notification is intended to warn teams _before_ the goal has passed).To add additional notifications to the schedule, click **+ Add another notification**. \
 
 
