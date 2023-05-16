@@ -8,6 +8,11 @@ This page lists all the fields in our GQL API that have been marked as deprecate
 
 We will try to keep all these fields available for at least 3 months after they've been tagged deprecated. You're highly encouraged to update any code still using them to avoid issues once the deprecation period runs out and the fields are removed.
 
+## 2023-05-10
+
+* Mutation `triggerIssueStatusesSync` was deprecated. Use `triggerRemoteObjectSync` instead.
+* Field `canSeeOrgDashboard` on `UserPermissionsType` was deprecated. The permission in question is enabled for all users, so the field is no longer required.
+
 ## 2023-04-04
 
 * Top level field `projects` was deprecated. Use field `organization.projects` instead.
