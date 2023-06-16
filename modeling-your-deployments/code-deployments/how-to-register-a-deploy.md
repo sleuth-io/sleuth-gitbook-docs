@@ -40,7 +40,11 @@ Certain complex configurations such as using [reusable workflows](https://docs.g
 
 To get around this limitation we provide an alternative UI that lets you manually enter workflow and job names. It is accessed by clicking _Can't find your build?_ under the build selection dropdown.
 
+<div align="center">
+
 <figure><img src="../../.gitbook/assets/custom-build-names.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Tracking deploys from nested workflows
 

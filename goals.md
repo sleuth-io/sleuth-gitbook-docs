@@ -1,4 +1,4 @@
-# Goals (beta)
+# Goals
 
 Sleuth's **Goals** dashboard, available for Standard an Enterprise plans, helps teams set, track and achieve their efficiency goals by:
 
@@ -22,7 +22,7 @@ To enable or modify a suggested goal, perform the following steps:
 
     <figure><img src=".gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 * To modify the suggested goal, simply enter your own goal using the **Days**, **Hours**, and **Minutes** fields.
-* To learn more about how to set up "nudge" notifications for a goal, refer to [Setting up "nudge" notifications](goals-beta.md#setting-up-nudge-notifications-for-goals)
+* To learn more about how to set up "nudge" notifications for a goal, refer to [Setting up "nudge" notifications](goals.md#setting-up-nudge-notifications-for-goals)
 * Click **Save** to enable the goal. Once enabled, the goal chart appears in color, and the goal line updates from a dashed line to a solid line, indicating that the goal is now enabled.
 
 ### Interpreting goal charts
@@ -37,7 +37,7 @@ The main heading on the top-left of the chart summarizes the daily pass/fail dat
 
 The chart also displays a solid blue line representing your trend over the selected time period, and the chart's footer provides commentary on how the direction of that trend compares to your overall average for the period.&#x20;
 
-The Goals dashboard aims to answer the question "How have we been doing against the goals we've set?" Since each column on the goal charts represents the average for items that _deployed_ on that day, the Goals dashboard is inherently backward-looking. However, Sleuth continuously evaluates individual PRs against your goals in real-time, and if you've [set up "nudge" notifications](goals-beta.md#setting-up-nudge-notifications-for-goals) for a goal, Sleuth will notify teams in real-time as PRs begin to approach the thresholds you've defined.&#x20;
+The Goals dashboard aims to answer the question "How have we been doing against the goals we've set?" Since each column on the goal charts represents the average for items that _deployed_ on that day, the Goals dashboard is inherently backward-looking. However, Sleuth continuously evaluates individual PRs against your goals in real-time, and if you've [set up "nudge" notifications](goals.md#setting-up-nudge-notifications-for-goals) for a goal, Sleuth will notify teams in real-time as PRs begin to approach the thresholds you've defined.&#x20;
 
 ### Setting up "nudge" notifications for goals
 
