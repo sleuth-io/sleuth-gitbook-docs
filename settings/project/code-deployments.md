@@ -55,7 +55,7 @@ This can be used in conjunction with Source path prefix includes, see above.
 
 ### Automatically lock deployments
 
-Selecting this checkbox allows Sleuth to automatically lock a deployment if there is a pull request made to your deployment branch. Without this enabled, you can still lock a deployment manually in the Slack notification or in the Dashboard of the active project by clicking the **Lock** button.
+Selecting this checkbox allows Sleuth to automatically lock a deployment when a pull request merged to your deployment branch (Sleuth will then unlock the code deployment once that change has deployed). Without this enabled, you can still lock a deployment manually in the Slack notification or in the Dashboard of the active project by clicking the **Lock** button.
 
 ### Slack notifications
 
