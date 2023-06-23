@@ -23,4 +23,4 @@ If your teams create short-lived branches that are merged into a core branch (tr
 
 #### Strict trunk-based development caveats
 
-If your team is small or nimble enough to commit directly to _one_ branch more granular data may not be available or relevant (e.g., review time and review lag time in change lead time) depending on your process and provider.
+If your team is small or nimble enough to commit directly to _one_ branch, more granular data may not be available or relevant (e.g., review time and review lag time in change lead time) depending on your process and provider. However, Sleuth will still surface the important metrics to help your team succeed in its software delivery optimization goals.
