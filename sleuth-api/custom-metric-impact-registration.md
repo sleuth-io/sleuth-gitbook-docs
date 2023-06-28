@@ -29,6 +29,10 @@ The endpoint path takes **1 ID** which uniquely identifies the Impact Source to 
 
 {% tab title="Optional parameters" %}
 <table><thead><tr><th width="198">Name</th><th width="111">Type</th><th>Comments</th></tr></thead><tbody><tr><td><code>date</code></td><td>string</td><td>The date and time at which the metric value should be registered. If left blank, it defaults to the current time. Must be in <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO-8601</a> format.</td></tr></tbody></table>
+
+{% hint style="danger" %}
+Please note that **backfilling of metrics data is not currently supported**, and the supplied date therefore **cannot be older/before than the Impact Source creation date**.
+{% endhint %}
 {% endtab %}
 
 {% tab title="Responses" %}
