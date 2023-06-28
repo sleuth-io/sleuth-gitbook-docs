@@ -48,7 +48,7 @@ Make sure you **replace the values** surrounded by**`<`** and **`>`**with your *
 
 <pre class="language-bash" data-overflow="wrap" data-line-numbers><code class="lang-bash"><strong>curl -X POST \
 </strong>'https://app.sleuth.io/api/1/impact/&#x3C;IMPACT_ID>/register_impact' \
-  -H 'Authorization: apikey &#x3C;APIKEY>'
+  -H 'Authorization: apikey &#x3C;APIKEY>' \
   -H 'Content-Type: application/json' \
   -d '{
   "value": &#x3C;METRIC_VALUE>
@@ -61,6 +61,7 @@ Make sure you **replace the values** surrounded by**`<`** and **`>`**with your *
 
 <summary>cURL with API key in Body</summary>
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 curl -X POST \
 'https://app.sleuth.io/api/1/impact/<IMPACT_ID>/register_impact' \
@@ -70,6 +71,7 @@ curl -X POST \
   "api_key": "<APIKEY>"
 }'
 ```
+{% endcode %}
 
 </details>
 
@@ -97,6 +99,7 @@ Invoke-RestMethod -Method POST `
 
 <summary>PowerShell with API key in Body</summary>
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```powershell
 Invoke-RestMethod -Method POST `
 -Uri 'https://app.sleuth.io/api/1/impact/<IMPACT_ID>/register_impact' `
@@ -108,5 +111,6 @@ Invoke-RestMethod -Method POST `
     "value": <METRIC_VALUE> 
 }'
 ```
+{% endcode %}
 
 </details>
