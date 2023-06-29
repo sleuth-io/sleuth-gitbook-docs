@@ -9,7 +9,7 @@ To set up SAML integration you will need admin privileges in Sleuth and in your 
 
 To begin SAML configuration navigate to the "**Authentication**" tab under "**Organization settings**" and click "**Configure SAML Authentication**":
 
-<figure><img src="../../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ## Gather Sleuth Service Provider Metadata
 
@@ -19,7 +19,7 @@ To view the Sleuth SAML metadata expand the "**Sleuth Service Provider data**" s
 
 Once expanded, you can either **download the metadata XML file** (_if your IdP supports metadata file imports_) or **manually copy-paste these values** when setting up Sleuth as a trusted service provider within your IdP.
 
-<figure><img src="../../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 ## Establish Sleuth as a trusted Service Provider
 

@@ -27,7 +27,7 @@ To enable or modify a suggested goal, perform the following steps:
 
 ### Interpreting goal charts
 
-<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption><p>Enabled goals are color-coded to highlight the days on which the goal was or wasn't achieved</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (21) (2).png" alt=""><figcaption><p>Enabled goals are color-coded to highlight the days on which the goal was or wasn't achieved</p></figcaption></figure>
 
 In the screen shot above, the enabled goal is represented by the solid grey line.&#x20;
 
@@ -55,7 +55,7 @@ One of the most powerful features of Goals is the ability to set up automated Sl
   *   **Custom schedule:** This option allows you to schedule up to 5 notifications. Specify the elapsed **Days**, **Hours**, and **Minutes** when the first notification should be sent (this value must be less than the goal value, as the notification is intended to warn teams _before_ the goal has passed).To add additional notifications to the schedule, click **+ Add another notification**. \
 
 
-      <figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src=".gitbook/assets/image (23) (2).png" alt=""><figcaption></figcaption></figure>
 
 The formatting for individual notifications varies slightly depending the goal type and whether they include @mentions or an @channel, but they all generally align to the following examples:
 
@@ -67,11 +67,11 @@ Disabling a goal turns it back to grey-scale and pauses any notifications that h
 
 To disable a goal, click on the ellipsis and select **Disable goal**.
 
-<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (20) (2).png" alt=""><figcaption></figcaption></figure>
 
 To re-enable a disabled goal, click **Enable goal**.
 
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Resetting goals and generating new suggestions
 

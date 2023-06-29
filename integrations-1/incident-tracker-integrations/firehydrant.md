@@ -17,7 +17,7 @@ To add the Sleuth FireHydrant integration:
 
 * Navigate to the desired project and click **Add Impact Source**.
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (2).png>)
 
 * Configure impact source by mapping incidents FireHydrant's environment and service to Sleuth environment.
 * Under advanced settings, you can control the historic data population. If checked Sleuth will populate all incidents that happened in the last 30 days and recalculate the project's Failure Rate and MTTR metrics.

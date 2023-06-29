@@ -19,7 +19,7 @@ To enable the Rootly integration for your Organization, perform the following st
 * Locate the _Rootly_ card and click **Enable**
 * Next, you'll need to enter a service-level Rootly API key to authenticate the connection. If you don't already have that key handy, click **generate** to navigate directly to Rootly's API keys management page, where you can generate a new API token or retrieve an existing one.
 
-<figure><img src="../../.gitbook/assets/image (6) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Configuring the integration (Project-level)
 

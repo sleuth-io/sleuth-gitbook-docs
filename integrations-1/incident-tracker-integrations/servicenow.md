@@ -6,7 +6,7 @@ ServiceNow is a cloud-based workflow automation platform that provides a wide ra
 
 Note that the ServiceNow integration currently supports only ServiceNow's _Incident_ object (an extension of ServiceNow's _General Task_ object) and supports only the [default state model](https://docs.servicenow.com/bundle/sandiego-it-service-management/page/product/incident-management/concept/c\_IncidentManagementStateModel.html) for ServiceNow's Incident object, treating all states but _Closed_ as an "open" failure with respect to CFR and MTTR.
 
-&#x20;<img src="../../.gitbook/assets/image (21) (2).png" alt="" data-size="original">
+&#x20;<img src="../../.gitbook/assets/image (21).png" alt="" data-size="original">
 
 ## Enabling the integration (Organization-level)
 
@@ -28,7 +28,7 @@ To enable the ServiceNow integration for your Organization, perform the followin
   * cmdb\_ci\_service\_businessPress
 * Click **Save**.
 
-![](<../../.gitbook/assets/image (23) (2).png>)
+![](<../../.gitbook/assets/image (23).png>)
 
 ## Configuring the integration (Project-level)
 
@@ -54,7 +54,7 @@ To add ServiceNow as an Impact Source for a specific Project, perform the follow
 
 Once you've configured a ServiceNow Impact Source, you should see that Impact Source and its health status listed on each new Deploy within that Project (as well as for the last 30 days of Deploys if you selected that option in the ServiceNow Impact Source):&#x20;
 
-![](<../../.gitbook/assets/image (20) (2).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 You'll also find a chart listing all ServiceNow incidents from the last 14 days (and their health status) within the Impact Source record itself:
 
