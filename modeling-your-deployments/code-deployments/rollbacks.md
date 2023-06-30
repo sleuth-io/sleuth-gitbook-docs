@@ -6,7 +6,7 @@ Sleuth supports the deployment of a previously deployed code revision, otherwise
 
 It's not too uncommon for a team to deploy a code change and then realize, after some time, that the change isn't behaving how they intended. The most common strategy to deal with this is to roll-forward, making a quick fix for the new error. However, sometimes it's too difficult to make a quick fix and you decide to revert to the last known good code revision.
 
-Sleuth automatically detects rollbacks by ways of checking the SHA of the deploy currently being deployed against the SHAs of all the existing deploys in the target environment. If a matching SHA is found on an existing deploy, Sleuth will do the following:
+Sleuth automatically detects rollbacks by checking the SHA of the deploy currently being deployed against the SHAs of all existing deploys in the target environment. If a matching SHA is found on an existing deploy, Sleuth will do the following:
 
 * Register the new deploy as a rollback and tag it with the tag <mark style="color:red;">`rollback`</mark>
 * Identify all deploys registered between the rollback deploy and the initial deploy with the same SHA, and mark them as rolled back, changing their health to `Rolled back` and adding the tag <mark style="color:red;">`rolled_back`</mark>
