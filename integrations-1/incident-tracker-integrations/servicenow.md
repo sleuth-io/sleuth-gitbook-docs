@@ -54,7 +54,7 @@ To add ServiceNow as an Impact Source for a specific Project, perform the follow
 
 Once you've configured a ServiceNow Impact Source, you should see that Impact Source and its health status listed on each new Deploy within that Project (as well as for the last 30 days of Deploys if you selected that option in the ServiceNow Impact Source):&#x20;
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20) (3).png>)
 
 You'll also find a chart listing all ServiceNow incidents from the last 14 days (and their health status) within the Impact Source record itself:
 

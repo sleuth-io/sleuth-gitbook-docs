@@ -12,14 +12,14 @@ Once Jira Cloud is configured as the issue tracker, every time the Jira issue ke
 Check out the Sleuth for Jira integration [in the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1223369/sleuth-for-jira?hosting=cloud\&tab=overview).
 {% endhint %}
 
-## Setting up the integration
+## Setting up Jira Cloud integration for your Sleuth organization&#x20;
 
-To set up the Sleuth Jira Cloud integration:
+To set up the Sleuth Jira Cloud integration for your Sleuth organization:
 
 1. Click your **avatar** in the top-right of the navigation bar and click **Integrations** in the **Organization** section.
 2. In the **Jira Cloud** tile, click **Enable**.
 3. Enter the **fully qualified URL** of your Jira Cloud instance, the authorized User's **Email**, and the corresponding **API Token** into the respective fields, then click **Save**. To quickly access your Jira Cloud instance to obtain an API token, click the **generate** link in the title.\
-   ![](<../../.gitbook/assets/image (2).png>)
+   ![](<../../.gitbook/assets/image (2) (5).png>)
 
 ### Custom HTTP headers
 

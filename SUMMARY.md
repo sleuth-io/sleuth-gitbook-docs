@@ -88,6 +88,7 @@
     * [AWS CloudWatch](integrations-1/impact-sources/metrics/aws-cloudwatch.md)
     * [Custom](integrations-1/impact-sources/metrics/custom.md)
     * [Datadog](integrations-1/impact-sources/metrics/datadog.md)
+    * [Jira metrics (Cloud / Data Center)](integrations-1/impact-sources/metrics/datadog-1.md)
     * [NewRelic](integrations-1/impact-sources/metrics/newrelic.md)
     * [SignalFx](integrations-1/impact-sources/metrics/signalfx.md)
   * [CI/CD builds](integrations-1/impact-sources/build-trackers/README.md)

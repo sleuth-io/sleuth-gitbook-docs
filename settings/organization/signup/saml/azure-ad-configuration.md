@@ -20,7 +20,7 @@ Sign into Azure as an administrator and click on the "**Azure Active Directory**
 
 In the left-hand menu click on "**Enterprise Applications**" and then click "**New application**". On the next page click "**Create your own application**". Name your application (_e.g., Sleuth_), select the "**Integrate any other application you don't find in the gallery (Non-gallery)**" option, and click "**Create**":
 
-<figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Set up Single Sign-On
 
@@ -50,7 +50,7 @@ On the "**Basic SAML Configuration**" tile click "**Edit**":
 
 **Fill in the necessary metadata** (_found in Sleuth_), using the following reference, and click "**Save**":
 
-<table><thead><tr><th>AZURE AD</th><th>SLEUTH</th><th>EXAMPLE</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Identifier (Entity ID)</strong></td><td>SAML Entity ID</td><td><code>https://app.sleuth.io/saml/metadata/</code></td><td></td></tr><tr><td><strong>Reply URL (Assertion Consumer Service URL)</strong></td><td>Assertion Consumer Service</td><td><code>https://app.sleuth.io/complete/saml/</code></td><td></td></tr><tr><td><strong>Relay State (Optional)</strong></td><td>Default Relay State</td><td><code>sleuth</code><br><code></code><em>(should be your <strong>org slug</strong>)</em></td><td></td></tr><tr><td><strong>Logout Url (Optional)</strong></td><td>Single Logout Service</td><td><code>https://app.sleuth.io/saml/sls/</code></td><td></td></tr></tbody></table>
+<table><thead><tr><th>AZURE AD</th><th>SLEUTH</th><th>EXAMPLE</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Identifier (Entity ID)</strong></td><td>SAML Entity ID</td><td><code>https://app.sleuth.io/saml/metadata/</code></td><td></td></tr><tr><td><strong>Reply URL (Assertion Consumer Service URL)</strong></td><td>Assertion Consumer Service</td><td><code>https://app.sleuth.io/complete/saml/</code></td><td></td></tr><tr><td><strong>Relay State (Optional)</strong></td><td>Default Relay State</td><td><code>sleuth</code><br><em>(should be your <strong>org slug</strong>)</em></td><td></td></tr><tr><td><strong>Logout Url (Optional)</strong></td><td>Single Logout Service</td><td><code>https://app.sleuth.io/saml/sls/</code></td><td></td></tr></tbody></table>
 
 <figure><img src="../../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}

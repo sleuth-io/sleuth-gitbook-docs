@@ -22,7 +22,7 @@ On the "**Applications** "page click "**Create App Integration**". In the pop-up
 
 On the "**General Settings**" tab enter a name for your application (_e.g., Sleuth_) and click "**Next**":
 
-<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Set up Single Sign-On
 
@@ -56,7 +56,7 @@ In the "**Attribute Statements**" section add the following Attributes (_using t
 | **first\_name** | Unspecified | user.firstName |
 | **last\_name**  | Unspecified | user.lastName  |
 
-<figure><img src="../../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 Leave the "**Group Attribute Statements**" as they are.
 
