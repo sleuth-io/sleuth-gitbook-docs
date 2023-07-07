@@ -1,6 +1,6 @@
 # Jira metrics (Cloud / Data Center)
 
-About the integration
+## About the integration
 
 Jira is an issue tracking tool that integrates with Sleuth in support of various use cases (as a general [deployment tracking issue integration](../../issue-trackers/jira.md), as an [incident impact source](../../incident-tracker-integrations/jira-cloud-data-center.md), etc.). This article is specific to using Jira as a _**metric impact source**_, which allows you to define a JQL query that returns a count of matching Jira issues and compare those against user-defined environment health thresholds. A common example here would be retuning the number of currently open bug tickets in Jira as an indicator of health. &#x20;
 
