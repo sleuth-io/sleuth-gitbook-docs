@@ -9,7 +9,7 @@
 | [Bugsnag](errors/bugsnag.md)                                 | Errors  |                    |
 | [Custom Metrics](metrics/custom.md)                          | Metrics |                    |
 | [Datadog](metrics/datadog.md)                                | Metrics |                    |
-| [Jira (Cloud / Data Center)](metrics/datadog-1.md)           | Metrics |                    |
+| [Jira (Cloud / Data Center)](metrics/jira-metrics.md)        | Metrics |                    |
 | [Honeybadger](errors/honeybadger.md)                         | Errors  |                    |
 | [NewRelic](metrics/newrelic.md)                              | Metrics |                    |
 | [Rollbar](errors/rollbar.md)                                 | Errors  | \_\_               |

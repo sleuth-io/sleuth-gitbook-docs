@@ -6,6 +6,6 @@
 * [AWS CloudWatch](aws-cloudwatch.md)
 * [Custom Metrics](custom.md)
 * [Datadog](datadog.md)
-* [Jira metrics (Cloud / Data Center)](datadog-1.md)
+* [Jira metrics (Cloud / Data Center)](jira-metrics.md)
 * [NewRelic](newrelic.md)
 * [SignalFx](signalfx.md)
