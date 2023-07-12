@@ -100,12 +100,17 @@ Ping Sleuth with a Git commit SHA or a tag to tell Sleuth you've deployed by mak
 
 * `YOUR_API_KEY`
 * `YOUR_SHA`
-* `ORG_NAME`
-* `PROJECT_NAME`
+* `ENVIRONMENT_SLUG`
+* `ORG_SLUG`
+* `DEPLOYMENT_SLUG`
 
-You can find your _API Key_ in **Organization Settings** > **Details** > **Api key**:
+{% hint style="info" %}
+[Get more detailed information](https://help.sleuth.io/sleuth-api#deploy-registration) on precisely registering a deploy via the Sleuth API.
+{% endhint %}
 
-![Locating your Sleuth API key](../../.gitbook/assets/screen-shot-2020-05-06-at-9.29.52-pm.png)
+You can find your _API Key_ in top right profile menu > **Organization > Settings** > **Details** > **Api key**:
+
+![Locating your Sleuth API key](<../../.gitbook/assets/api key.png>)
 
 You can find `YOUR_SHA` using the commands:
 
@@ -113,10 +118,6 @@ You can find `YOUR_SHA` using the commands:
 git checkout YOUR_BRANCH
 git rev-parse HEAD
 ```
-
-{% hint style="info" %}
-[Get more detailed information](https://help.sleuth.io/sleuth-api#deploy-registration) on precisely registering a deploy via the Sleuth API.
-{% endhint %}
 
 ### Approximate – automatic tracking for each PR merged
 
