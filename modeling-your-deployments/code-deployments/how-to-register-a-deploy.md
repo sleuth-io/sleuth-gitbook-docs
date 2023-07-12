@@ -105,7 +105,7 @@ Ping Sleuth with a Git commit SHA or a tag to tell Sleuth you've deployed by mak
 * `DEPLOYMENT_SLUG`
 
 {% hint style="info" %}
-[Get more detailed information](https://help.sleuth.io/sleuth-api#deploy-registration) on precisely registering a deploy via the Sleuth API.
+[Get more detailed information](../../sleuth-api/deploy-registration.md) on precisely registering a deploy via the Sleuth API.
 {% endhint %}
 
 You can find your _API Key_ in top right profile menu > **Organization > Settings** > **Details** > **Api key**:
