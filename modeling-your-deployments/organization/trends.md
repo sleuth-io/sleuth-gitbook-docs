@@ -14,6 +14,24 @@ Using the Trends dashboard coupled with [Labels](labels.md) and [Teams](../teams
 Trends for all projects is available on all plans. Filtering by specific projects, labels, or teams requires being on an Enterprise plan.
 {% endhint %}
 
+### How is Failure rate calculated?
+
+Each of the four bars represents a period. For each of the 4 periods Sleuth calculates failure rate across all projects. Assume for period 3 one has three projects with corresponding failure rates
+
+* Project A: 30%
+* Project B: 0%
+* Project C: 0%
+
+The resulting average for the period is somewhere around 10%. You can see this by hovering over independent bars.
+
+![](<../../.gitbook/assets/image (85).png>)
+
+The final number at the bottom represents the average across all four periods
+
+![](<../../.gitbook/assets/image (86).png>)
+
+
+
 ## Further Reading
 
 For additional information on how Sleuth calculates and "percent change" for the Trends dashboard and for other dashboards and views, see [Interpreting "Percent Change" in Sleuth](../../accelerate-metrics/how-we-calculate.md#interpreting-percent-change).
