@@ -1,10 +1,4 @@
----
-description: How to automate deploy workflows with Sleuth Actions
----
-
 # Sleuth Actions (legacy)
-
-
 
 {% hint style="warning" %}
 **Sleuth Actions is evolving into Automations Marketplace 🛹 🛵 🚀**
