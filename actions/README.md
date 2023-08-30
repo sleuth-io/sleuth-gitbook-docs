@@ -19,7 +19,7 @@ All that said, we're continuing to support Sleuth Actions for now because, in ce
 
 But let's also be frank: Sleuth Actions is clunky. You'll have to drop Sleuth Action YAML files into all of the code repos you want them in, and depending on your PR process, you might have to issue PRs to add, modify, or remove them. Sounds a little like our competition, right? 🔥
 
-We're hard at work right now on providing you the ability to define your own Marketplace automations with YAML, giving you all the flexibility of legacy Sleuth Actions plus all of the added benefits of Marketplace automations. And since "a rising tide lifts all boats," we're also planning to let you share your custom automations with other Sleuth customers!&#x20;
+We're hard at work right now on providing you the ability to define your own Marketplace automations with YAML, giving you all the flexibility of Sleuth Actions plus all of the added benefits of Marketplace automations. And since "a rising tide lifts all boats," we're also planning to let you share your custom automations with other Sleuth customers!&#x20;
 
 Stay tuned, and in the meantime, please [send us your feedback](mailto:support@sleuth.io)!
 {% endhint %}
