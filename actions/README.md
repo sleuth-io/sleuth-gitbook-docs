@@ -1,23 +1,23 @@
 # Sleuth Actions (legacy)
 
 {% hint style="warning" %}
-**Sleuth Actions is evolving into Automations Marketplace 🛹 🛵 🚀**
+**Sleuth Actions is evolving into Automations Marketplace 🚀**
 
-Sleuth is laser-focused on delivering a first-class developer automation capability, and we're doing it with our new [**Automations Marketplace**](../automations-marketplace/)
+Sleuth is laser-focused on delivering a first-class developer automation capability through our new [**Automations Marketplace**](../automations-marketplace/)
 
 \
-Automtaions Marketplace is where it's at because:\
-\
-&#x20; 1\.   Marketplace automations can be installed, edited, and removed right in Sleuth.
-
-2. Sleuth can suggest Marketplace automations based on your current bottlenecks.&#x20;
-3. Sleuth shows you how Marketplace automations are impacting your metrics.
+Marketplace-provided automations are where it's at because:\
 
 
+1. They can be installed, edited, and removed right from Sleuth.
+2. Sleuth can suggest them based on your current bottlenecks.
+3. Sleuth shows you how they're impacting your metrics.
 
-All that said, we're continuing to support Sleuth Actions for now because, in certain cases, it can still be more expressive than our already highly-configurable Marketplace automations. We're hard at work right now on providing you the ability to define your own Marketplace automations with YAML, giving you all the flexibility of Sleuth Actions plus the easy installation and other added benefits of Marketplace-enabled automations.&#x20;
 
-Stay tuned, and in the meantime, please [send us your feedback](mailto:support@sleuth.io)!
+
+We're continuing to support Sleuth Actions for now because in some cases it's more expressive than our already highly-configurable Marketplace automations. But we're hard at work right now on providing the ability to create your own custom YAML automations via the Marketplace framework, giving you all the flexibility of Sleuth Actions plus easy installation and all the other benefits of our Marketplace-provided automations.&#x20;
+
+Stay tuned for more, and please [send us your feedback](mailto:support@sleuth.io)!
 {% endhint %}
 
 Sleuth Actions is an automation engine to help you to define and automate the workflow and actions you’re likely already doing by convention today. Some examples are:
