@@ -2,7 +2,33 @@
 description: How to automate deploy workflows with Sleuth Actions
 ---
 
-# Deploy workflows (beta)
+# Sleuth Actions (legacy)
+
+
+
+{% hint style="warning" %}
+**Sleuth Actions is evolving into Automations Marketplace 🛹 🛵 🚀**
+
+Sleuth is laser-focused on delivering a first-class developer automation capability, and we're doing it with our new [**Automations Marketplace**](../automations-marketplace/) **⚡️**
+
+\
+Automtaions Marketplace is where it's at because:\
+\
+&#x20; 1\.   Marketplace automations can be installed, edited, and removed right in Sleuth!
+
+2. Sleuth can suggest Marketplace automations based on your current bottlenecks!&#x20;
+3. Sleuth shows you how Marketplace automations are impacting your metrics!
+
+
+
+All that said, we're continuing to support Sleuth Actions for now because, in certain cases, it can still be more expressive than our already highly-configurable Marketplace automations.&#x20;
+
+But let's also be frank: Sleuth Actions is clunky. You'll have to drop Sleuth Action YAML files into all of the code repos you want them in, and depending on your PR process, you might have to issue PRs to add, modify, or remove them. Sounds a little like our competition, right? 🔥
+
+We're hard at work right now on providing you the ability to define your own Marketplace automations with YAML, giving you all the flexibility of legacy Sleuth Actions plus all of the added benefits of Marketplace automations. And since "a rising tide lifts all boats," we're also planning to let you share your custom automations with other Sleuth customers!&#x20;
+
+Stay tuned, and in the meantime, please [send us your feedback](mailto:support@sleuth.io)!
+{% endhint %}
 
 Sleuth Actions is an automation engine to help you to define and automate the workflow and actions you’re likely already doing by convention today. Some examples are:
 
