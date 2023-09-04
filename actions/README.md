@@ -1,7 +1,5 @@
 # Sleuth Actions (legacy)
 
-
-
 {% hint style="warning" %}
 **Sleuth Actions** is now **Automations Marketplace 🚀**
 
@@ -14,7 +12,7 @@ Sleuth is laser-focused on delivering a first-class developer automation capabil
 
 
 
-We're continuing to support Sleuth Actions for now because in some cases it's more expressive than our already highly-configurable Marketplace automations. But we're hard at work right now on providing the ability to create your own custom YAML automations via the Marketplace framework, giving you all the flexibility of Sleuth Actions plus easy installation and all the other benefits of our Marketplace-provided automations. \
+We're continuing to support Sleuth Actions for now because in some cases it's still more expressive than our highly-configurable Marketplace automations. But we're hard at work on providing the ability to create your own custom automations via the Marketplace framework, giving you all the flexibility of Sleuth Actions plus easy installation and all the other benefits of our Marketplace-provided automations. \
 
 
 Stay tuned for more, and please [send us your feedback](mailto:support@sleuth.io)!
