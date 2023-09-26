@@ -8,9 +8,9 @@ Sleuth's **Goals** dashboard, available for Standard an Enterprise plans, helps 
 
 <figure><img src=".gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
-### Sleuth-suggested goals
+### Suggested goals
 
-By default, the Goals dashboard is pre-populated with suggested goals that Sleuth calculates based on your team's historical performance. Suggested goals are calculated by taking your average performance for the selected time period and reducing it by 10% in order to drive improvement. &#x20;
+Goals can be set for Projects or for Teams. By default, the Goals dashboard is pre-populated with suggested goals that Sleuth calculates based on your project's or team's historical performance. Suggested goals are calculated by taking your average performance for the selected time period and reducing it by 10% in order to drive improvement. &#x20;
 
 Suggested goals are presented along with your historical metrics on greyed-out charts, and they will not send notifications to any users until you explicitly enable them.
 
@@ -24,20 +24,6 @@ To enable or modify a suggested goal, perform the following steps:
 * To modify the suggested goal, simply enter your own goal using the **Days**, **Hours**, and **Minutes** fields.
 * To learn more about how to set up "nudge" notifications for a goal, refer to [Setting up "nudge" notifications](goals.md#setting-up-nudge-notifications-for-goals)
 * Click **Save** to enable the goal. Once enabled, the goal chart appears in color, and the goal line updates from a dashed line to a solid line, indicating that the goal is now enabled.
-
-### Interpreting goal charts
-
-<figure><img src=".gitbook/assets/image (21) (2).png" alt=""><figcaption><p>Enabled goals are color-coded to highlight the days on which the goal was or wasn't achieved</p></figcaption></figure>
-
-In the screen shot above, the enabled goal is represented by the solid grey line.&#x20;
-
-Each column on a goal chart represents the average value for the specific metric (in our example, Coding time) for all of the items that deployed on that day, and the columns are colored red or green according to whether or not the goal was achieved for that day.&#x20;
-
-The main heading on the top-left of the chart summarizes the daily pass/fail data as an overall percentage of days passing in the selected period, and the sub-heading presents your overall average across the entire period in relation to the goal.
-
-The chart also displays a solid blue line representing your trend over the selected time period, and the chart's footer provides commentary on how the direction of that trend compares to your overall average for the period.&#x20;
-
-The Goals dashboard aims to answer the question "How have we been doing against the goals we've set?" Since each column on the goal charts represents the average for items that _deployed_ on that day, the Goals dashboard is inherently backward-looking. However, Sleuth continuously evaluates individual PRs against your goals in real-time, and if you've [set up "nudge" notifications](goals.md#setting-up-nudge-notifications-for-goals) for a goal, Sleuth will notify teams in real-time as PRs begin to approach the thresholds you've defined.&#x20;
 
 ### Setting up "nudge" notifications for goals
 
@@ -60,6 +46,20 @@ One of the most powerful features of Goals is the ability to set up automated Sl
 The formatting for individual notifications varies slightly depending the goal type and whether they include @mentions or an @channel, but they all generally align to the following examples:
 
 <figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+### Interpreting goal charts
+
+<figure><img src=".gitbook/assets/image (21) (2).png" alt=""><figcaption><p>Enabled goals are color-coded to highlight the days on which the goal was or wasn't achieved</p></figcaption></figure>
+
+In the screen shot above, the enabled goal is represented by the solid grey line.&#x20;
+
+Each column on a goal chart represents the average value for the specific metric (in our example, Coding time) for all of the items that deployed on that day, and the columns are colored red or green according to whether or not the goal was achieved for that day.&#x20;
+
+The main heading on the top-left of the chart summarizes the daily pass/fail data as an overall percentage of days passing in the selected period, and the sub-heading presents your overall average across the entire period in relation to the goal.
+
+The chart also displays a solid blue line representing your trend over the selected time period, and the chart's footer provides commentary on how the direction of that trend compares to your overall average for the period.&#x20;
+
+The Goals dashboard aims to answer the question "How have we been doing against the goals we've set?" Since each column on the goal charts represents the average for items that _deployed_ on that day, the Goals dashboard is inherently backward-looking. However, Sleuth continuously evaluates individual PRs against your goals in real-time, and if you've [set up "nudge" notifications](goals.md#setting-up-nudge-notifications-for-goals) for a goal, Sleuth will notify teams in real-time as PRs begin to approach the thresholds you've defined.&#x20;
 
 ### Disabling and re-enabling goals
 
