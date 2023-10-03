@@ -139,6 +139,7 @@
     * [SAML 2.0 Setup](settings/organization/signup/saml/README.md)
       * [Okta Configuration](settings/organization/signup/saml/okta-configuration.md)
       * [Azure AD Configuration](settings/organization/signup/saml/azure-ad-configuration.md)
+  * [Access Tokens](settings/organization/access-tokens.md)
   * [Members](settings/organization/members.md)
   * [Team Settings](settings/organization/team-settings.md)
   * [Billing](settings/organization/billing.md)
