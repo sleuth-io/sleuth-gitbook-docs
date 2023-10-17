@@ -25,7 +25,7 @@
     * [Automatic tagging](modeling-your-deployments/code-deployments/tags.md)
     * [Deployment locking](modeling-your-deployments/code-deployments/deployment-locking.md)
     * [Environment drift](modeling-your-deployments/code-deployments/environment-drift.md)
-    * [Future deploys](modeling-your-deployments/code-deployments/deploy-previews.md)
+    * [Deprecated: Future deploys](modeling-your-deployments/code-deployments/deploy-previews.md)
     * [Move code deployments](modeling-your-deployments/code-deployments/move-code-deployments.md)
     * [Search everything](modeling-your-deployments/code-deployments/search.md)
   * [Feature flags](modeling-your-deployments/feature-flags.md)
