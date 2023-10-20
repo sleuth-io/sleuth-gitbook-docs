@@ -12,7 +12,7 @@ You can also change the default issue tracker for the selected project and, if a
 
 ### Advanced settings
 
-![](<../../.gitbook/assets/Project Settings - sleuth - Sleuth 2022-06-24 16-29-57.png>)
+![](<../../.gitbook/assets/Screenshot 2023-10-20 at 11.41.28.png>)
 
 #### Change failure rate boundary
 
@@ -35,6 +35,18 @@ This setting controls how many minutes Sleuth takes into account when auto-deter
 If you set this to _Fine_, we will use less time to calculate the overall health of the environment and vice-versa if you set it to _Coarse_.
 
 The best setting here will be a trade off between response time and detection reliability. If you're being alerted too often on account of minor anomalies, choose _Coarse_. If you want to be alerted sooner and with higher sensitivity, choose _Fine_.&#x20;
+
+#### Change lead time settings
+
+**Start definition**
+
+See the detailed explanation of the different options
+
+[#starting-clt-based-on-first-issue-transition](../../accelerate-metrics/change-lead-time.md#starting-clt-based-on-first-issue-transition "mention")
+
+**Strict issue matching**
+
+When enabled Sleuth will only look for issue references in PR titles and PR branch names. If strict issue matching is disabled, Sleuth will expand the search for issue references to PR descriptions and commit messages.
 
 #### Locking
 
