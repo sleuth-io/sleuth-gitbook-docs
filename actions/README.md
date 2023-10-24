@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 **Sleuth Actions** is now **Automations Marketplace 🚀**
 
-Sleuth is laser-focused on delivering a first-class developer automation capability through our new [**Automations Marketplace**](../automations-marketplace/)**.** Marketplace-provided automations are where it's at because:\
+Sleuth is laser-focused on delivering a first-class developer automation capability through our new [**Automations Marketplace**](../sleuth-automations/)**.** Marketplace-provided automations are where it's at because:\
 
 
 1. They can be installed, edited, and removed right from Sleuth.

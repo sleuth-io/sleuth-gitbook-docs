@@ -34,12 +34,12 @@
   * [Teams](modeling-your-deployments/teams.md)
 * [Work in Progress](work-in-progress.md)
 * [Goals](goals.md)
-* [Automations Marketplace](automations-marketplace/README.md)
-  * [Browsing the Marketplace](automations-marketplace/browsing-the-marketplace.md)
-  * [Installing Automations](automations-marketplace/installing-automations.md)
-  * [Editing and uninstalling Automations](automations-marketplace/editing-and-uninstalling-automations.md)
-  * [Smart suggestions](automations-marketplace/smart-suggestions.md)
-  * [Understanding efficacy](automations-marketplace/understanding-efficacy.md)
+* [Sleuth Automations](sleuth-automations/README.md)
+  * [Automations Marketplace](sleuth-automations/automations-marketplace.md)
+  * [Installing Automations](sleuth-automations/installing-automations.md)
+  * [Editing and uninstalling Automations](sleuth-automations/editing-and-uninstalling-automations.md)
+  * [Smart suggestions](sleuth-automations/smart-suggestions.md)
+  * [Understanding efficacy](sleuth-automations/understanding-efficacy.md)
 * [Sleuth Actions (legacy)](actions/README.md)
   * [Cookbook](actions/cookbook.md)
   * [Webhooks](actions/webhook.md)
@@ -74,13 +74,14 @@
 ## Integrations <a href="#integrations-1" id="integrations-1"></a>
 
 * [About Integrations...](integrations-1/about-integrations.md)
-* [Code integrations](integrations-1/code-deployment/README.md)
+* [Code integrations (read-only)](integrations-1/code-deployment/README.md)
   * [Azure DevOps](integrations-1/code-deployment/azure-devops.md)
   * [Bitbucket](integrations-1/code-deployment/bitbucket.md)
   * [GitHub](integrations-1/code-deployment/github.md)
   * [GitLab](integrations-1/code-deployment/gitlab.md)
   * [Custom Git](integrations-1/code-deployment/custom.md)
   * [Terraform Cloud](integrations-1/code-deployment/terraform-cloud.md)
+* [Code integrations (write)](integrations-1/code-integrations-write.md)
 * [Feature flag integrations](integrations-1/feature-flags/README.md)
   * [LaunchDarkly](integrations-1/feature-flags/launchdarkly.md)
 * [Impact integrations](integrations-1/impact-sources/README.md)
@@ -130,6 +131,7 @@
   * [Rootly](integrations-1/incident-tracker-integrations/rootly.md)
   * [ServiceNow](integrations-1/incident-tracker-integrations/servicenow.md)
   * [Custom](integrations-1/incident-tracker-integrations/custom.md)
+* [Fixing broken integrations](integrations-1/fixing-broken-integrations.md)
 
 ## Settings
 
