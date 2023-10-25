@@ -56,7 +56,7 @@ Special considerations when using the Date Range filter:
 
 In addition to the top-level filters, the detailed listing of work-in-progress items provides an additional filter to zero-in on items that exhibit a particular risk type. &#x20;
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Work-in-progress listing filters by specific risk types</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (3).png" alt=""><figcaption><p>Work-in-progress listing filters by specific risk types</p></figcaption></figure>
 
 By default, this filter is set to "No Filters," which displays all work-in-progress items that match the top-level filters (i.e. regardless of what risks they might or might not exhibit).
 

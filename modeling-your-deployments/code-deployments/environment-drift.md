@@ -6,8 +6,8 @@ For example, if you just deployed your staging environment to production, drift 
 
 Sleuth displays environment drift for individual code deployments within the Code Deployment dashboard, and for Projects with multiple code deployments, it also displays environment drift for each of those code deployments from within the Project Status dashboard.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 What's more, when drift is detected, Sleuth also provides visibility into drift details, showing exactly which deploys, PRs, commits, and issues need to be resolved across the two environments.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
