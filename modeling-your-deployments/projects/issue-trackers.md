@@ -16,7 +16,7 @@ Sleuth also provides higher-level "Issue breakdowns" on the Project Metrics, Tea
 
 From any of these dashboards, the Issue breakdown chart also provides a clickable drill-through to a detailed listing of issues with links to their source records in your issue tracker.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Drill-through to detailed issue listing from "Issue breakdowns" chart </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Drill-through to detailed issue listing from "Issue breakdowns" chart </p></figcaption></figure>
 
 Issue Type is particularly useful for understanding the nature of the work that's going into each release (new features, bugs, tech debt...), while Issue Status is useful for identifying potential breaks in your issue management workflow (e.g. an issue on the Work in Progress dashboard shows as 'Done' even though it has an outstanding PR).&#x20;
 

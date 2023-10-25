@@ -106,6 +106,7 @@
     * [GitHub Actions](integrations-1/impact-sources/build-trackers/github-actions.md)
     * [GitLab CI/CD Pipelines](integrations-1/impact-sources/build-trackers/gitlab-ci-cd.md)
     * [Jenkins](integrations-1/impact-sources/build-trackers/jenkins.md)
+* [Microsoft Teams integration](integrations-1/microsoft-teams-integration.md)
 * [Slack integration](integrations-1/slack.md)
 * [CI/CD integrations](integrations-1/builds/README.md)
   * [Azure Pipelines](integrations-1/builds/azure-pipelines.md)

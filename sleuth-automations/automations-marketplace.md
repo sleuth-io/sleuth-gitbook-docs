@@ -15,7 +15,7 @@ The Automations Marketplace is categorized into 4 main "types" of automations:
 <figure><img src="../.gitbook/assets/image (104).png" alt=""><figcaption><p>Automation types</p></figcaption></figure>
 
 * **PR Checks** analyze pull requests to ensure they conform to industry best practices, cutting down review time and improving morale by relieving reviewers of the onus of “policing” these best practices. Think of them as linters for your PR process!
-* **Notifications** drive awareness and help teams respond quickly by automatically alerting them when Sleuth determines there’s something they need to know.
+* **Notifications** drive awareness and help teams respond quickly by automatically alerting them in Slack or Microsoft Teams when Sleuth determines there’s something they need to know.
 * **Actions** provide a variety of simple, targeted automations across your software delivery tool chain, like automatically transitioning or commenting on a Jira issue to let stakeholders know immediately when a code change they care about has deployed to its target environment.
 * **Workflows** provide powerful automations that can evaluate multiple conditions and execute complex actions across that tool chain. The example I love to use here is auto-promoting a build from Staging to Production once Sleuth determines that it’s had a good soak. Sleuth can do that because it knows exactly when that change hit that environment, it knows the status of all of the monitoring tools connected to that environment, and has the ability to trigger a build in your integrated CI/CD platform.
 

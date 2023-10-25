@@ -2,6 +2,10 @@
 
 Sleuth can send emails or Slack notifications when something of significance happens, including messages for your entire team, yourself, and/or to commit and pull request authors.
 
+{% hint style="info" %}
+Using Microsoft Teams? Check out the [Automations Marketplace](http://maketplace.sleuth.io) to see our rich library of notifications for Microsoft Teams
+{% endhint %}
+
 ## Setting up Slack notifications
 
 Before you set up project-level Slack notifications, the [Slack integration](integrations-1/slack.md#about-the-integration) must first be connected to your Sleuth organization. Once that's done, you can configure who and how those notifications are sent and who receives them.
