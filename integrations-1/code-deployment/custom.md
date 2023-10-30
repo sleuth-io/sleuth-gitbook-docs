@@ -4,10 +4,6 @@
 
 If your Git hosting application isn't supported or if your repository is not internet-accessible, you can still connect it to Sleuth through the 'Custom Git' option.
 
-{% hint style="info" %}
-Because Sleuth won't have access to your repository, Sleuth won't know about associated pull requests. This means features such as the deploy timeline and metrics will only take into account commits, but not also pull requests.
-{% endhint %}
-
 ## Configuring the integration
 
 You can add a [code deployment](../../modeling-your-deployments/code-deployments/) for your git repository to a Sleuth [project](../../modeling-your-deployments/projects/). Once configured and you start [registering deploys](../../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md), Sleuth will be tracking deploys for your code changes.
