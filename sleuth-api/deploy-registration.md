@@ -4,7 +4,7 @@ description: Use this endpoint with the POST method to register deploys.
 
 # Deploy Registration
 
-## A list of commits to use instead of pulling the list of commits from the code repository. See the JSON schema for more details: [https://app.sleuth.io/api/1/schema/register\_deploy](https://app.sleuth.io/api/1/schema/register\_deploy)[#a-list-of-commits-to-use-instead-of-pulling-the-list-of-commits-from-the-code-repository.-see-the-js](deploy-registration.md#a-list-of-commits-to-use-instead-of-pulling-the-list-of-commits-from-the-code-repository.-see-the-js "mention")A list of commits to use instead of pulling the list of commits from the code repository. See the JSON schema for more details: [https://app.sleuth.io/api/1/schema/register\_deploy](https://app.sleuth.io/api/1/schema/register\_deploy)Path
+## Path
 
 {% hint style="info" %}
 #### ENDPOINT&#x20;
