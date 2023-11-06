@@ -13,33 +13,29 @@ The integration is best tested against Azure DevOps Services, however, it should
 
 To set up the Azure DevOps integration:
 
-1. Click **Integrations** in the left sidebar, then click **Change Sources**.
-2. In the _Azure DevOps_ tile, click **enable**.
-3. You must grant Sleuth access to your Azure DevOps account. Don't worry, you'll select the Azure DevOps repo to connect to your Sleuth project later.\
-   ![](../../.gitbook/assets/screenshot-from-2021-08-23-15-14-43.png)
-4. In a separate browser tab or window, visit your Azure DevOps account, and under **User settings**, click on **Personal Access Tokens** and generate a token with the required scopes. The **Work Items** and **Build** scopes are only necessary if you want to configure issue and build integration. Paste this token into the Sleuth form.
-5. On successful integration, _Azure DevOps enabled_ will be displayed in the Azure DevOps tile. You'll next configure the code deployment to connect your repo to a project.
+1. Click **Add** in the top navigation bar and select **Integration** from the list.
+2. Select **Code** from the drop-down located in the top right.
+3. In the **Azure DevOps** tile, click **Enable**.
+4. Enter the details of the account with which you wish to authenticate your Azure DevOps integration. You will have the chance to select specific repo(s) for your Sleuth project(s) later.\
+   ![](../../.gitbook/assets/image.png)
+5. In a separate browser tab or window, visit your Azure DevOps account, and under **User settings**, click on **Personal Access Tokens** and generate a token with the required scopes. The `Work Items` and `Build` scopes are only necessary if you want to configure issue and build integration. Once generated, paste the token into the Sleuth form and click **Save**.
+6.  On successful integration, you'll see **Azure DevOps** marked as **Enabled** and there will be a list of connections (_you can have more than one_) displayed on the tile when expanded:\
+
+
+    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Custom HTTP headers
 
 If you using Azure DevOps on-premise behind Cloudflare access or similar, Sleuth might need to include some HTTP headers in order to reach your instance. In order to set Sleuth to send any custom HTTP headers when making requests:
 
-1. In the Azure DevOps dialog, click on the **Advanced setting**
-2. Enter comma separated list of custom headers you want Sleuth to include
-
-## Configuring the integration
-
-You now need to add a [code deployment](../../modeling-your-deployments/code-deployments/) for your Azure DevOps repo to a Sleuth [project](../../modeling-your-deployments/projects/). Once configured and you start [registering deploys](../../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) Sleuth will be tracking deploys for your code changes.To configure the Azure DevOps integration:
-
-1. After step #4 above, you will be taken back to the Azure DevOps integration tile. On the Azure DevOps tile, click the **Add code deployment** dropdown.
-2. Select the [Sleuth project](../../modeling-your-deployments/projects/) you wish to add a chance source to from the dropdown list.
-3. Follow the instructions for [setting up a new code deployment](../../settings/project/code-deployments.md)
+1. In the Azure DevOps dialog, click on the **Advanced setting**.
+2. Enter a comma-separated list of custom headers you want Sleuth to include.
 
 ## Removing the integration
 
 #### If you wish to remove the **Azure DevOps** integration for the organization:
 
-1. Click on **Integrations** in the left sidebar, then on **Change Sources**.
-2. In the Azure DevOps integration card, click **disable**.
+1. Click the **Add** button in the top nav and select **Integrations** from the list.
+2. Expand the **Azure DevOps** integration card, and click **Remove** next to the connection you wish to remove. If you want to remove all of your Azure DevOps connections, you'll need to repeat this step for each connection. A confirmation screen will appear warning you of the consequences of this action and prompting you to confirm your decision -> click **Confirm**.
 
-The Azure DevOps integration is disconnected and no longer available to any projects within that organization.
+After all connections are removed, the Azure DevOps integration is disconnected and no longer available for any projects within that organization.

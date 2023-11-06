@@ -50,4 +50,4 @@ That being said, if you want to be extra sure, you can always disconnect your Gi
 1. Click the **Add** button in the top nav and select **Integrations** from the list.
 2. Expand the **GitHub** integration card, and click **Remove** next to the connection you wish to remove. If you want to remove all of your GitHub connections, you'll need to repeat this step for each connection. A confirmation screen will appear warning you of the consequences of this action and prompting you to confirm your decision -> click **Confirm**.
 
-The GitHub integration is then disconnected and no longer available for any projects within that organization.
+After all connections are removed, the GitHub integration is then disconnected and no longer available for any projects within that organization.
