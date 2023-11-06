@@ -31,6 +31,14 @@ If you using Azure DevOps on-premise behind Cloudflare access or similar, Sleuth
 1. In the Azure DevOps dialog, click on the **Advanced setting**.
 2. Enter a comma-separated list of custom headers you want Sleuth to include.
 
+## Configuring the integration
+
+After the initial setup is complete, the Azure DevOps integration can be used to set up:
+
+* a **code deployment**: select a Sleuth project from the list and then follow the instructions for [creating a code deployment](https://help.sleuth.io/modeling-your-deployments/code-deployments/creating-a-deployment)
+* a **build server**: select a Sleuth project from the list to set AzureDevops as the `Build integration provider` for the selected project
+* an **issue tracker**: select a Sleuth project from the list to set AzureDevops as the `Issue integration provider` for the selected project
+
 ## Removing the integration
 
 #### If you wish to remove the **Azure DevOps** integration for the organization:
