@@ -30,8 +30,10 @@ To set up the Sleuth GitHub integration:
 After the initial setup is complete, the GitHub integration can be used to set up:
 
 * a **code deployment**: select a Sleuth project from the list and then follow the instructions for [creating a code deployment](https://help.sleuth.io/modeling-your-deployments/code-deployments/creating-a-deployment)
-* a **build server**: select a Sleuth project from the list to set AzureDevops as the `Build integration provider` for the selected project
-* an **issue tracker**: select a Sleuth project from the list to set AzureDevops as the `Issue integration provider` for the selected project
+* a **build server**: select a Sleuth project from the list to set GitHub as the `Build integration provider` for the selected project
+* an **issue tracker**: select a Sleuth project from the list to set GitHub as the `Issue integration provider` for the selected project
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Adding more repositories
 

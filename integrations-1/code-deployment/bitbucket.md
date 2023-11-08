@@ -14,29 +14,28 @@ Check out the Sleuth for Bitbucket integration [in the Atlassian Marketplace](ht
 
 To set up the Sleuth Bitbucket integration:
 
-1. Click **Integrations** in the left sidebar, then click **Change Sources**.
-2. In the _Bitbucket_ tile, click **enable**.
-3. You must grant Sleuth access to your Bitbucket account by clicking **Grant access** in the confirmation dialog. Don't worry, you'll select the Bitbucket repo to connect to your Sleuth project later.\
+1. Click **Add** in the top navigation bar and select **Integration** from the list.
+2. Select **Code** from the drop-down located in the top right.
+3. In the **Bitbucket** tile, click **Enable**.
+4. Grant Sleuth access to your Bitbucket account by clicking **Grant access** in the confirmation dialog. You will have the chance to select specific repo(s) for your Sleuth project(s) later.\
    ![](../../.gitbook/assets/bitbucket-confirmation-dialog.png)
-4. On successful integration, you'll see **Bitbucket enabled (Connected as \_\<Bitbucket user account>**\_\*\*) \*\*displayed in the Bitbucket tile. You'll next configure the code deployment to connect your repo to a project.
+5. On successful integration, you'll see **Bitbucket** marked as **Enabled** and the connection listed in the format **Connected as `<Bitbucket user account>`**.\
+   ![](../../.gitbook/assets/image.png)
 
 ## Configuring the integration
 
-You now need to add a [code deployment](../../modeling-your-deployments/code-deployments/) for your Bitbucket repo to a Sleuth [project](../../modeling-your-deployments/projects/). Once configured and you start [registering deploys](../../modeling-your-deployments/code-deployments/how-to-register-a-deploy.md) Sleuth will be tracking deploys for your code changes.
+After the initial setup is complete, the Bitbucket integration can be used to set up:
 
-To configure the Bitbucket integration:
+* a **code deployment**: select a Sleuth project from the list and then follow the instructions for [creating a code deployment](https://help.sleuth.io/modeling-your-deployments/code-deployments/creating-a-deployment)
+* an **issue tracker**: select a Sleuth project from the list to set Bitbucket as the `Issue integration provider` for the selected project
 
-1. After step #4 above, you will be taken back to the Bitbucket integration tile. On the Bitbucket tile, click the **Add code deployment** dropdown.\
-   ![](../../.gitbook/assets/bitbucket-add-code-deployment.png)
-2. Select the [Sleuth project](../../modeling-your-deployments/projects/) you wish to add a chance source to from the dropdown list.\
-   ![](../../.gitbook/assets/bitbucket-add-code-deployment-withdropdown.png)
-3. Follow the [instructions for setting up a new code deployment](../../settings/project/code-deployments.md)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Removing the integration
 
 #### If you wish to dissolve the Bitbucket integration for the organization:
 
-1. Click on **Integrations** in the left sidebar, then on **Change Sources**.
-2. In the Bitbucket integration card, click **disable**. The message **Bitbucket disabled** is displayed in the Bitbucket integration card once the integration is dissolved.
+1. Click the **Add** button in the top nav and select **Integrations** from the list.
+2. Expand the **Bitbucket** integration card, and click **Remove** next to the connection you wish to remove. A confirmation screen will appear warning you of the consequences of this action and prompting you to confirm your decision -> click **Confirm**.
 
-The Bitbucket integration is disconnected and no longer available to any projects within that organization.
+After all connections are removed, the Bitbucket integration is then disconnected and no longer available for any projects within that organization.

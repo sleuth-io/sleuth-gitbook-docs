@@ -10,4 +10,4 @@ Sleuth displays environment drift for individual code deployments within the Cod
 
 What's more, when drift is detected, Sleuth also provides visibility into drift details, showing exactly which deploys, PRs, commits, and issues need to be resolved across the two environments.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>

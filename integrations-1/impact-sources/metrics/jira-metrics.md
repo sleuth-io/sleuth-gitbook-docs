@@ -20,13 +20,13 @@ Once the Jira integration has been enabled for your Sleuth organization, perform
 *   If the Jira integration has been properly enabled for your Sleuth organization, the integration tile will show "enabled". \
 
 
-    <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Click the tile to configure the Jira metric impact source.
 *   In the following screen, give your metric impact source a name, specify which environment it's for, and enter a JQL query that returns a count.\
 
 
     <figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
-* Optionally, under **Advanced settings**, you can specify a threshold under which the count returned by the metric impact source will be considered healthy.![](<../../../.gitbook/assets/image (3).png>)
+* Optionally, under **Advanced settings**, you can specify a threshold under which the count returned by the metric impact source will be considered healthy.![](<../../../.gitbook/assets/image (3) (3).png>)
 * Test the connection to verify it's retuning the expected counts, and click **Save**.&#x20;
 *   That's it! Sleuth will now start verifying your deploys' health by tracking the values from your Jira metric. To view the new metric, simply choose your new impact source from the Project's left-hand navigation. \
 
