@@ -12,4 +12,4 @@
 | [Jira (Coud/Data Center)](jira-cloud-data-center.md) |                    |
 | [FireHydrant](firehydrant.md)                        | \_\_               |
 | [ServiceNow](servicenow.md)                          |                    |
-| [Custom](custom.md)                                  |                    |
+| [Custom](custom/)                                    |                    |

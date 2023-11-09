@@ -130,7 +130,8 @@
   * [FireHydrant](integrations-1/incident-tracker-integrations/firehydrant.md)
   * [Rootly](integrations-1/incident-tracker-integrations/rootly.md)
   * [ServiceNow](integrations-1/incident-tracker-integrations/servicenow.md)
-  * [Custom](integrations-1/incident-tracker-integrations/custom.md)
+  * [Custom](integrations-1/incident-tracker-integrations/custom/README.md)
+    * [Grafana OnCall](integrations-1/incident-tracker-integrations/custom/grafana-oncall.md)
 * [Fixing broken integrations](integrations-1/fixing-broken-integrations.md)
 
 ## Settings
