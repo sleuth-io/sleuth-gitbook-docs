@@ -50,7 +50,7 @@ The above example uses Grafana's response's default data structure to extract da
 
 The process is mostly the same as for registering a new Incident, with the difference being the **Name** of the webhook, the **Trigger Ty**pe, which needs to be set to `Resolved`, and the content of the **Data** field, which only needs to contain the following:
 
-```
+```json
 {
   "type": "resolved"
 }
