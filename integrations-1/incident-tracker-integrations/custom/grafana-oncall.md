@@ -42,6 +42,10 @@ In the next step, select **Advanced** to ensure you can customize your webhook a
     }
     ```
 
+{% hint style="warning" %}
+Please make sure to **deactivate** **the** `Forward All` **toggle** to ensure only your custom payload is sent to Sleuth's impact registration endpoint.
+{% endhint %}
+
 {% hint style="info" %}
 The above example uses Grafana's response's default data structure to extract data that correspond to fields for Sleuth's custom incident events. The only mandatory field is `type`, all others are optional and can thus be omitted from the response definition.
 {% endhint %}
