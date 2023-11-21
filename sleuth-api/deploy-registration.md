@@ -17,11 +17,19 @@ The endpoint path takes **2 slugs** which direct the deploy to the correct code 
 * <mark style="color:red;">`ORG_SLUG`</mark>: found in the URL of your Sleuth org, immediately following `https://app.sleuth.io/`
 * <mark style="color:blue;">`DEPLOYMENT_SLUG`</mark>: found in the URL, following the prefix `https://app.sleuth.io/org_slug/deployments/`
 
+## Authentication
+
+{% hint style="success" %}
+Each request must contain an `Authorization` header including an **Access Token**. We recommend using an **Access Token with** **limited scope** which can only be used for deploy registration.&#x20;
+{% endhint %}
+
+You can manage your org's tokens it in the `Organization Settings` -> `Access Tokens` page.
+
 ## Parameters
 
 {% tabs %}
 {% tab title="Mandatory parameters" %}
-<table><thead><tr><th width="206.1571906354515">Name</th><th width="109">Type</th><th>Comments</th></tr></thead><tbody><tr><td><code>api_key</code><mark style="color:red;">*</mark></td><td>string</td><td>Can be found in the <code>Organization Settings</code> -> <code>Details</code> -> <code>Api Key</code> field in your Sleuth org.</td></tr><tr><td><code>sha</code><mark style="color:red;">*</mark></td><td>string</td><td>The git SHA of the commit to be registered as a deploy.</td></tr></tbody></table>
+<table><thead><tr><th width="206.1571906354515">Name</th><th width="109">Type</th><th>Comments</th></tr></thead><tbody><tr><td><code>sha</code><mark style="color:red;">*</mark></td><td>string</td><td>The git SHA of the commit to be registered as a deploy.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Optional parameters" %}
@@ -45,11 +53,11 @@ Make sure you **replace the values** surrounded by**`<`** and **`>`**with your *
 
 <details>
 
-<summary>cURL with API key in Header</summary>
+<summary>cURL</summary>
 
 <pre class="language-bash" data-overflow="wrap" data-line-numbers><code class="lang-bash"><strong>curl -X POST \
 </strong>'https://app.sleuth.io/api/1/deployments/&#x3C;ORG_SLUG>/&#x3C;DEPLOYMENT_SLUG>/register_deploy' \
-  -H 'Authorization: apikey &#x3C;APIKEY>' \
+  -H 'Authorization: Bearer &#x3C;ACCESS_TOKEN>' \
   -H 'Content-Type: application/json' \
   -d '{
   "sha": "&#x3C;SHA>",
@@ -61,29 +69,11 @@ Make sure you **replace the values** surrounded by**`<`** and **`>`**with your *
 
 <details>
 
-<summary>cURL with API key in Body</summary>
-
-{% code overflow="wrap" lineNumbers="true" %}
-```bash
-curl -X POST \
-'https://app.sleuth.io/api/1/deployments/<ORG_SLUG>/<DEPLOYMENT_SLUG>/register_deploy' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "sha": "<SHA>",
-  "environment": "<ENVIRONMENT>",
-  "api_key": "<API_KEY>"
-  }'
-```
-{% endcode %}
-
-</details>
-
-<details>
-
-<summary>cURL with API key in Body and optional Tags</summary>
+<summary>cURL with optional Tags</summary>
 
 <pre class="language-bash" data-overflow="wrap" data-line-numbers><code class="lang-bash">curl -X POST \
 'https://app.sleuth.io/api/1/deployments/&#x3C;ORG_SLUG>/&#x3C;DEPLOYMENT_SLUG>/register_deploy' \
+  -H 'Authorization: Bearer &#x3C;ACCESS_TOKEN>' \
   -H 'Content-Type: application/json' \
   -d '{
   "sha": "&#x3C;SHA>",
@@ -92,8 +82,7 @@ curl -X POST \
     "#tag1",
     "#tag2",
     "#tag3"
-  ],
-  "api_key": "&#x3C;API_KEY>"
+    ]
 <strong>  }'
 </strong></code></pre>
 
@@ -103,12 +92,12 @@ curl -X POST \
 
 <details>
 
-<summary>PowerShell with API key in Header</summary>
+<summary>PowerShell</summary>
 
 <pre class="language-powershell" data-overflow="wrap" data-line-numbers><code class="lang-powershell"><strong>Invoke-RestMethod -Method POST `
 </strong><strong>-Uri 'https://app.sleuth.io/api/1/deployments/&#x3C;ORG_SLUG>/&#x3C;DEPLOYMENT_SLUG>/register-deploy' `
 </strong><strong>-Headers @{
-</strong><strong>      'Authorization' = 'apikey &#x3C;API_KEY>'
+</strong><strong>      'Authorization' = 'Bearer &#x3C;ACCESS_TOKEN>'
 </strong><strong>      'Content-Type' = 'application/json'
 </strong>} `
 -Body '{
@@ -121,34 +110,13 @@ curl -X POST \
 
 <details>
 
-<summary>PowerShell with API key in Body</summary>
-
-{% code overflow="wrap" lineNumbers="true" %}
-```powershell
-Invoke-RestMethod -Method POST `
--Uri 'https://app.sleuth.io/api/1/deployments/<ORG_SLUG>/<DEPLOYMENT_SLUG>/register-deploy' `
--Headers @{
-    'Content-Type' = 'application/json'
-} `
--Body '{
-    "api_key": "<API_KEY>",
-    "environment": "<ENVIRONMENT>",
-    "sha": "<SHA>"
-}'
-```
-{% endcode %}
-
-</details>
-
-<details>
-
 <summary>cURL using Custom Git</summary>
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
 curl -X POST -v \
 'https://app.sleuth.io/api/1/deployments/<ORG_SLUG>/<DEPLOYMENT_SLUG>/register_deploy' \
-  -H 'Authorization: apikey <APIKEY>' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
   -H 'Content-Type: application/json' \
   -d '{
     "sha": "<SHA>",
