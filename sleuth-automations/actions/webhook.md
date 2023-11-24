@@ -1,4 +1,4 @@
-# Webhooks
+# Webhook Actions
 
 The `webhook` action will send an HTTP POST to the URL of your choosing. The body contains information about the deployment, and a signature to verify the webhook is valid and originated at Sleuth.
 
@@ -6,7 +6,7 @@ The `webhook` action will send an HTTP POST to the URL of your choosing. The bod
 
 The body of the webhook will look something like this:
 
-```text
+```
 {
   "organization": {
     "slug": "myorg"
@@ -37,5 +37,4 @@ The webhook will contain two headers you can use to safely validate the message:
 
 The signature follows the format Slack uses to validate their webhooks. For more information how it works and how to validate the signature, see [the Slack docs](https://api.slack.com/authentication/verifying-requests-from-slack)
 
-The only difference is Sleuth uses the API key from your Sleuth [organization](../settings/organization/details.md) as the signing key.
-
+The only difference is Sleuth uses the API key from your Sleuth [organization](../../settings/organization/details.md) as the signing key.

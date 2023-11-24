@@ -26,8 +26,8 @@ Under _Action_, select the action that should be executed once the approval is s
 
 The most powerful way to use approvals is to have an action that triggers a CI/CD build. In this way you can use Sleuth to define your deployment workflow. See our documentation on how to configure build triggers for more details.
 
-{% content-ref url="../actions/trigger_build/" %}
-[trigger_build](../actions/trigger_build/)
+{% content-ref url="../sleuth-automations/actions/trigger_build/" %}
+[trigger\_build](../sleuth-automations/actions/trigger\_build/)
 {% endcontent-ref %}
 
 Once you're happy with the configuration, move to the final step by clicking _Next_ again.
@@ -54,4 +54,4 @@ Sleuth keeps track of your approvals to provide additional visibility. If you ev
 
 ![](../.gitbook/assets/approval-tab.png)
 
-Here, you can see which approvals were triggered by the deploy, how your team members voted on them  and what actions were triggered as a result.
+Here, you can see which approvals were triggered by the deploy, how your team members voted on them and what actions were triggered as a result.

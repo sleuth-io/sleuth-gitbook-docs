@@ -1,6 +1,6 @@
-# Cookbook
+# Automations Cookbook
 
-To more easily start using Sleuth Actions, here are several recipes that you can either try today or if labeled with "(coming soon)", may be available in the future. To vote for these proposed use cases or suggest new ones, please [let us know](mailto:support@sleuth.io)
+To more easily start using Sleuth Custom Automations, here are several recipes that you can either try today or if labeled with "(coming soon)", may be available in the future. To vote for these proposed use cases or suggest new ones, please [let us know](mailto:support@sleuth.io)
 
 ## Deployment promotion
 
