@@ -18,7 +18,7 @@ To add the Sleuth Opsgenie integration:
 
 * Click **Add incident source** and select a Sleuth project that will track Opsgenie incidents. All projects within your organization will be displayed in the dropdown.
 
-![](<../../.gitbook/assets/Screenshot 2022-01-13 at 09.31.29.png>)
+![](<../../../.gitbook/assets/Screenshot 2022-01-13 at 09.31.29.png>)
 
 * Configure impact source first by marking if Sleuth should track Opsgenie alerts or incidents.
 * If impact source will be tracking incidents  (did not enable the option to track alerts), you can filter incidents by affected service.

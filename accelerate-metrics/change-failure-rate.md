@@ -6,7 +6,7 @@
 
 "Failure" is defined differently for different organizations (and even within an organization), and Sleuth allows you capture your own unique definition of failure for each project you manage in Sleuth (see [Setting up Change failure rate](change-failure-rate.md#setting-up-change-failure) below for additional information on capturing your organization's unique definition of "failure" within Sleuth). At a high level, Sleuth evaluates **Change failure rate** by evaluating the specific [Impact Source integrations](../integrations-1/impact-sources/) you've set up for a given project and then calculates **Change failure rate** by dividing the number of deploys that were within [your change failure sensitivity](https://help.sleuth.io/settings/project/details#advanced-settings) by the total number of deploys in the period.&#x20;
 
-For example, if you've setup the [PagerDuty integration](../integrations-1/incident-tracker-integrations/pagerduty.md#about-the-integration) as an impact source and your team has one incident during the report period that spanned two deploys and you made a total of 20 deploys in that period, your change failure rate will be: 2 / 20 = 10%.
+For example, if you've setup the [PagerDuty integration](../integrations-1/impact-sources/incident-tracker-integrations/pagerduty.md#about-the-integration) as an impact source and your team has one incident during the report period that spanned two deploys and you made a total of 20 deploys in that period, your change failure rate will be: 2 / 20 = 10%.
 
 For more on how Sleuth measures **Change failure rate** and for best practices for determining what failure means to you, check out Sleuth CTO, Don Brown, explaining it in detail in this SleuthTV episode!
 

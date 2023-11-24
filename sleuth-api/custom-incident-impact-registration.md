@@ -6,7 +6,7 @@ description: >-
 
 # Custom Incident Impact Registration
 
-Some teams track incidents outside of traditional Observability tools. [Custom impact sources](../integrations-1/incident-tracker-integrations/custom/) allow you to submit these values to Sleuth and get your Failure Rate and MTTR values.
+Some teams track incidents outside of traditional Observability tools. [Custom impact sources](../integrations-1/impact-sources/incident-tracker-integrations/custom/) allow you to submit these values to Sleuth and get your Failure Rate and MTTR values.
 
 ## Path
 

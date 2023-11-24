@@ -18,7 +18,7 @@ To add the Sleuth Blameless integration:
 
 * Click **Add incident source** and select a Sleuth project that will track Blameless incidents. All projects within your organization will be displayed in the dropdown.
 
-![](../../.gitbook/assets/blameless-add-incident-source.png)
+![](../../../.gitbook/assets/blameless-add-incident-source.png)
 
 * Configure impact source by selecting desired Blameless incident type and/or severity threshold to track with Sleuth.\
   Incidents with matching or lower severities will be considered a failure in Sleuth.

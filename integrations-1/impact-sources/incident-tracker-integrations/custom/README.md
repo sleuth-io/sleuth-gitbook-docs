@@ -6,7 +6,7 @@ Some teams track incidents using tools Sleuth doesn't have an out-of-the-box int
 
 ## Setting up the integration
 
-A Custom Incident Impact Source is always available within your Sleuth project(s). No additional configuration is needed. See '[Configuring the integration](../../impact-sources/metrics/custom.md)' below for details on how to use a Custom Incident Impact Source.
+A Custom Incident Impact Source is always available within your Sleuth project(s). No additional configuration is needed. See '[Configuring the integration](../../metrics/custom.md)' below for details on how to use a Custom Incident Impact Source.
 
 ## Configuring the integration
 
@@ -16,11 +16,11 @@ A Custom Incident Impact Source is always available within your Sleuth project(s
 * Choose **Custom Incident - user provided** from the selection of tiles/providers.
 * On the **Configure impact source page**, enter a name for your Impact Source (_we recommend choosing a name that's descriptive, such as "Production incidents"_), select the environment you want the collected incident data to apply for from the dropdown, and click **Save**.
 
-![](<../../../.gitbook/assets/Screenshot 2021-10-29 at 13.43.22.png>)
+![](<../../../../.gitbook/assets/Screenshot 2021-10-29 at 13.43.22.png>)
 
 *   Once the Impact Source is created, a window will pop up, providing instructions on how to use the Impact Source to register incident events.&#x20;
 
-    <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p><em>You can also always come back to this page by navigating to the Impact Source, clicking the <strong>gearwheel</strong> in the top right, and selecting <strong>Show register details</strong>.</em></p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p><em>You can also always come back to this page by navigating to the Impact Source, clicking the <strong>gearwheel</strong> in the top right, and selecting <strong>Show register details</strong>.</em></p></figcaption></figure>
 
 That's it! Sleuth will now start monitoring incidents from your custom source. Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs.
 
