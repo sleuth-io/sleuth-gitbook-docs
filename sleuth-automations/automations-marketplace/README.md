@@ -1,6 +1,6 @@
 # Automations Marketplace
 
-Sleuth's **Automations Marketplace** provides a rich offering of [easy-to-install](installing-automations.md) automations designed to help teams drive improvements across their entire software delivery workflow!&#x20;
+Sleuth's [**Automations Marketplace**](https://marketplace.sleuth.io/) provides a rich offering of easy-to-install automations designed to help teams drive improvements across their entire software delivery workflow.&#x20;
 
 ### Getting there
 
