@@ -24,11 +24,29 @@ A rule can be named whatever you want, `stage-to-prod` in this example, and can 
 
 For more ideas on what tasks can be automated, see [our cookbook](cookbook.md).
 
-#### Two methods for installing and maintaining custom automations
+### Two methods for installing and maintaining custom automations
 
-There are two ways to install and maintain custom automations. The first is to define your rules in a YAML file and then insert that YAML file into each code repository where you want those rules to be evaluated (located at `.sleuth/rules.yml`). The advantage of this approach is that you can modify your custom automations "as code" (e.g. enforcing your SDLC process around changes to rules and ensuring preservation of historical states). The disadvantage is that it's more effort to deploy rules to multiple repositories (since each requires its own rules.yaml file) and to make changes to rules over time (since rules changes will be treated like any other code changes).
+There are two ways to install and maintain custom automations.&#x20;
 
-The second method is to use the [Custom Automation template](https://marketplace.sleuth.io/?filter=custom) provided in Sleuth's Automations Marketplace. This option allows you to quickly write a new automations (using YAML) and deploy it to multiple teams or projects, all from within Sleuth's UI. You can also modify or uninstall those automations quickly from within Sleuth's UI. This option is great for quickly experimenting with automations, putting them out to team quickly, tweaking them based on feedback, and if they aren't producing the intended effect, removing them as quickly as you added them. While this option streamlines experimentation by removing the need to manually add a rules.yaml files to multiple repositories or to issue pull requests each time you want to change those rules, it might not conform to some organizations' policies for managing "rules as code".
+#### Method 1: Add a YAML file to your code repositories&#x20;
+
+The first method is to define your rules in a YAML file and then insert that YAML file into each code repository where you want those rules to be evaluated (located at `.sleuth/rules.yml`). The advantage of this approach is that you can modify your custom automations "as code" (e.g. enforcing your SDLC process around changes to rules and ensuring preservation of historical states). The disadvantage is that it's more effort to deploy rules to multiple repositories (since each requires its own rules.yaml file) and to make changes to rules over time (since rules changes will be treated like any other code changes).
+
+#### Method 1: Add custom automations from Marketplace
+
+The second method is to use the [Custom Automation template](https://marketplace.sleuth.io/?filter=custom) provided in Sleuth's Automations Marketplace.
+
+&#x20;![](<../../.gitbook/assets/image (1).png>)
+
+This option allows you to quickly write a new automation (using YAML) and deploy it to multiple teams or projects, all from within Sleuth's UI. You can also modify or uninstall those automations quickly from within Sleuth's UI.&#x20;
+
+This option is great for quickly experimenting with automations, putting them out to team quickly, tweaking them based on feedback, and if they aren't producing the intended effect, removing them as quickly as you added them. While this option streamlines experimentation by removing the need to manually add a rules.yaml files to multiple repositories or to issue pull requests each time you want to change those rules, it might not conform to some organizations' policies for managing "rules as code".
+
+The quickest way to get started with custom automations is to copy the YAML either from an existing automation or from our automations [cookbook](https://help.sleuth.io/sleuth-automations/actions), then tweak it to meet your organization's unique needs. Access the YAML for any existing automation on the Marketplace by navigating to its YAML tab as shown here:
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### Ready to automate?
 

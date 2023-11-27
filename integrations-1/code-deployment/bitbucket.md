@@ -20,7 +20,7 @@ To set up the Sleuth Bitbucket integration:
 4. Grant Sleuth access to your Bitbucket account by clicking **Grant access** in the confirmation dialog. You will have the chance to select specific repo(s) for your Sleuth project(s) later.\
    ![](../../.gitbook/assets/bitbucket-confirmation-dialog.png)
 5. On successful integration, you'll see **Bitbucket** marked as **Enabled** and the connection listed in the format **Connected as `<Bitbucket user account>`**.\
-   ![](<../../.gitbook/assets/image (2).png>)
+   ![](<../../.gitbook/assets/image (2) (1).png>)
 
 ## Configuring the integration
 
@@ -29,7 +29,7 @@ After the initial setup is complete, the Bitbucket integration can be used to se
 * a **code deployment**: select a Sleuth project from the list and then follow the instructions for [creating a code deployment](https://help.sleuth.io/modeling-your-deployments/code-deployments/creating-a-deployment)
 * an **issue tracker**: select a Sleuth project from the list to set Bitbucket as the `Issue integration provider` for the selected project
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Removing the integration
 

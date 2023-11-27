@@ -20,7 +20,7 @@ Once the Jira integration has been enabled for your Sleuth organization, perform
 *   If the Jira integration has been properly enabled for your Sleuth organization, the integration tile will show "enabled". \
 
 
-    <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Click the tile to configure the Jira metric impact source.
 *   In the following screen, give your metric impact source a name, specify which environment it's for, and enter a JQL query that returns a count.\
 

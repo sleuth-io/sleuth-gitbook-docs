@@ -20,7 +20,7 @@ A Custom Incident Impact Source is always available within your Sleuth project(s
 
 *   Once the Impact Source is created, a window will pop up, providing instructions on how to use the Impact Source to register incident events.&#x20;
 
-    <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p><em>You can also always come back to this page by navigating to the Impact Source, clicking the <strong>gearwheel</strong> in the top right, and selecting <strong>Show register details</strong>.</em></p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p><em>You can also always come back to this page by navigating to the Impact Source, clicking the <strong>gearwheel</strong> in the top right, and selecting <strong>Show register details</strong>.</em></p></figcaption></figure>
 
 That's it! Sleuth will now start monitoring incidents from your custom source. Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs.
 
