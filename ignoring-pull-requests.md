@@ -1,4 +1,4 @@
-# Ignoring PRs
+# Ignoring pull requests
 
 Whether it's because of Dependabot PRs or those one-off, unusually long deploy times, rest assured you can always ignore specific PRs from Sleuth's DORA metrics, Work in Progress, Goals, and notifications.&#x20;
 
