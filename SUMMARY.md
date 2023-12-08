@@ -52,6 +52,7 @@
   * [Anomaly detection](auto-verify-your-deploys/anomaly-detection.md)
   * [Error impact](auto-verify-your-deploys/error-impact.md)
   * [Metric impact](auto-verify-your-deploys/metric-impact.md)
+* [Ignoring PRs](ignoring-prs.md)
 * [Slack mission control](slack-mission-control/README.md)
   * [Approvals](slack-mission-control/approvals.md)
   * [Project notifications](slack-mission-control/team-notifications.md)
