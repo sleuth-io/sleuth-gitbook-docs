@@ -4,7 +4,7 @@ Some of Sleuth's automations can directly update pull requests by doing things l
 
 <figure><img src="../../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
-These pull request "update" automations are currently available only for GitHub and require the **Sleuth Automations for GitHub** application to be installed in your GitHub organization, as this application grants Sleuth the additional write permissions to perform updates to pull requests.
+These pull request "update" automations are currently available only for GitHub and require the **Sleuth Automations for GitHub** application to be installed in your GitHub organization, as this application grants Sleuth the additional write permissions to perform updates to pull requests. See [Code integrations (write)](../../../integrations-1/code-integrations-write.md) for more information on the specific permission granted by this application.
 
 <figure><img src="../../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
@@ -12,4 +12,4 @@ Sleuth will let you know before you try to install one of these automations if t
 
 <figure><img src="../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
-Note that [PR Check automations](../#automation-types) do **not** require the **GitHub Automations for GitHub** application. PR Checks can be installed using any of Sleuth's standard code "read" integrations for GitHub, GitLab, BitBucket, or Azure DevOps.
+Note that [PR Check automations](../#automation-types) do **not** require the **GitHub Automations for GitHub** application. PR Checks can be installed using any of Sleuth's standard [code "read" integrations](../../../integrations-1/code-deployment/) for GitHub, GitLab, BitBucket, or Azure DevOps.

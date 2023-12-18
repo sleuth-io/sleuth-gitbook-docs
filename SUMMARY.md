@@ -35,7 +35,7 @@
 * [Goals](goals.md)
 * [Sleuth Automations](sleuth-automations/README.md)
   * [Automations Marketplace](sleuth-automations/automations-marketplace/README.md)
-    * [Installing Automations](sleuth-automations/automations-marketplace/installing-automations/README.md)
+    * [Installing Automations](sleuth-automations/automations-marketplace/installing-automations.md)
       * [Installing PR "Update" Automations](sleuth-automations/automations-marketplace/installing-automations/installing-pr-update-automations.md)
     * [Editing and uninstalling Automations](sleuth-automations/automations-marketplace/editing-and-uninstalling-automations.md)
     * [Smart suggestions](sleuth-automations/automations-marketplace/smart-suggestions.md)

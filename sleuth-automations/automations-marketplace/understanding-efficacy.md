@@ -12,7 +12,7 @@ To view the install dates for installed automations within the Project Metrics o
 
     <figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
-    NOTE: If you don't see the lightning bolt icon, it's likely because you have no automations installed for the current Project/Team. To install an automation, refer to [Installing automations](installing-automations/).
+    NOTE: If you don't see the lightning bolt icon, it's likely because you have no automations installed for the current Project/Team. To install an automation, refer to [Installing automations](installing-automations.md).
 *   The date range selection auto-updates to a period that starts from the earliest automation installation date and ends one week following the most recent installation (or the current date when it has been less than one week since the last automation was installed).
 
     <figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
