@@ -67,6 +67,14 @@ To enable this option, perform the following steps:
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
+## Working Hours and Change lead time
+
+Many customers want the change lead time clock to stop on weekends, holidays, or based on individual users' working hours.&#x20;
+
+Users can set their individual working hours on their Account Settings page, and administrators can set Organization-level working hours in Organization Settings page.&#x20;
+
+Organization-level working hours will be applied for any users that don't have their own working hours specified (this includes any Contributors that do not have direct access to Sleuth). For any uses that have set their own working hours, user-level working hours will trump organization-level working hours.   &#x20;
+
 ## Further Reading
 
 For additional information on how Sleuth calculates and presents Change lead time and other DORA metrics throughout its various dashboards and views, see [Interpreting metrics in Sleuth](how-we-calculate.md).
