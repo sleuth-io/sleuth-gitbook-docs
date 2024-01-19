@@ -16,5 +16,6 @@ The **API Key** described below is a legacy feature. It's still supported so as 
 
 * You can change the name of your organization in the **Details** tab, along with an optional **Description** for the organization.
 * Enter an optional well-formed URL in the **URL** field.
+* **Working Hours** allow you to specify default working hours for Change lead time calculations. The working hours specified here will be used for any users that haven't set their own working hours (including Contributor users who don't have access direct to Sleuth). For more information on working hours, refer to [Working hours and Change lead time](../../accelerate-metrics/change-lead-time.md#working-hours-and-change-lead-time).
 * The **API Key** field contains an API key for external application access to your organization's data. Keep this key private, and **do not share it** with anyone or any system without knowing what you're doing! If you feel your API key has been compromised, click Regenerate Key to obtain a new one. Any external applications that access your Sleuth organization programmatically might stop working, so be sure you know what you're doing!
 * Press **Save** after making any changes in the _Details_ tab.
