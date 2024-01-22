@@ -19,3 +19,5 @@ If you need to change your password for any reason, click on the Change Password
 User can set their own working hours to be used in Change lead time calculations. Working hours specified here will override working hours that might have been specified in [Origination settings](../organization/details.md).&#x20;
 
 For more information on working hours, refer to [Working hours and Change lead time](../../accelerate-metrics/change-lead-time.md#working-hours-and-change-lead-time).
+
+<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
