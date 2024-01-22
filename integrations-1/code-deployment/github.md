@@ -33,7 +33,7 @@ After the initial setup is complete, the GitHub integration can be used to set u
 * a **build server**: select a Sleuth project from the list to set GitHub as the `Build integration provider` for the selected project
 * an **issue tracker**: select a Sleuth project from the list to set GitHub as the `Issue integration provider` for the selected project
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Adding more repositories
 
