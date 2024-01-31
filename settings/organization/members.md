@@ -2,17 +2,17 @@
 
 The **Members** tab allows you to manage the roles of the members of your organization. You can also invite new members to your organization.
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 You can quickly access the **Members** section of your organization by clicking \*\*Invite People \*\*in the sidebar.
 {% endhint %}
 
-![](../../.gitbook/assets/manage-organization-members-sleuth-2021-01-30-11-39-47.png)
-
-\*\*To invite a new member: \*\*
+### To invite a new member:&#x20;
 
 1. Enter their email address in the Member field.
 2. Select a role in the dropdown.
-3. Press **Invite**.
+3. Click **Invite**
 
 {% hint style="info" %}
 Before setting a role, read more about Sleuth's RBAC (role-based access control) implementation in [Role Based Access Control](../access-control.md).
@@ -23,6 +23,14 @@ All members of the organization are displayed, along with any invitations that h
 In the example shown below, the user **dbowman@sleuth.io** was sent an invitation, but has yet to respond. The invitation can be re-sent or revoked.
 
 ![User dbowman@sleuth.io has been invited to the organization.](<../../.gitbook/assets/members-invitation (1).png>)
+
+## Setting Working Hours
+
+From the members tab, you can set working hours for multiple members at once. Click **Set working hours for members**, then select multiple members to set their working hours in bulk.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+The working hours set per member here will override the org-level default working hours specified on the [Organization details](details.md#working-hours-org-level-default) tab. For more on how working hours impact change lead time calculations, refer to [Working hours and Change lead time](../../accelerate-metrics/change-lead-time.md#working-hours-and-change-lead-time).
 
 ## Linking External User Identities
 
