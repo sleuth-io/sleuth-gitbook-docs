@@ -28,7 +28,7 @@ In the example shown below, the user **dbowman@sleuth.io** was sent an invitatio
 
 From the members tab, you can set working hours for multiple members at once. Click **Set working hours for members**, then select multiple members to set their working hours in bulk.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
 The working hours set per member here will override the org-level default working hours specified on the [Organization details](details.md#working-hours-org-level-default) tab. For more on how working hours impact change lead time calculations, refer to [Working hours and Change lead time](../../accelerate-metrics/change-lead-time.md#working-hours-and-change-lead-time).
 
