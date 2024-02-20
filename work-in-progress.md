@@ -1,6 +1,6 @@
 # Work in Progress
 
-In addition to tracking deploy metrics, Sleuth also provides **Work in Progress** dashboards for Teams and Projects that provide real-time visibility into in-flight work (i.e. work that has not yet deployed) and highlights risks that you can address right now.&#x20;
+In addition to tracking deploy metrics, Sleuth also provides **Work in Progress** dashboards and notifications for Teams and Projects that provide real-time visibility into in-flight work (i.e. work that has not yet deployed) and highlight risks that teams can address right now.&#x20;
 
 <figure><img src=".gitbook/assets/image (64).png" alt=""><figcaption><p>Work in Progress dashboard for a specific Project</p></figcaption></figure>
 
@@ -72,9 +72,19 @@ The remaining filters selections show items that exhibit a particular risk type.
 | ![](<.gitbook/assets/image (7).png>)     | <p><strong>Batch size breakdown</strong> groups your current work in progress by each of Sleuth's four batch size categories.<br><br>Large and Gigantic counts are outlined in red  when either is greater than 0.<br><br>This chart is responsive to selections made in the listing filter.</p>                                                                                                                                                                                                                    |
 | ![](<.gitbook/assets/image (10).png>)    | <p><strong>Summary of work in progress</strong> summarized work in progress by showing the total count of all items, the total at risk, and the number of times that each risk type appears in your work in progress.<br><br>Clicking on the count for any risk type in this chart will set the listing filter to that risk type. It is not, however, responsive to selections made in the list filter.</p>                                                                                                         |
 
-### Subscribe to work in progress daily email digests
+### Subscribe to daily work in progress risk digests
 
-To subscribe to email digests summarizing the work in progress dashboard, simply click on the notification bell on the top-right of the dashboard and select "Daily." The digest will be sent to your email inbox each day if and only if there is at least one risk present in the work in progress dashboard. &#x20;
+Daily WIP risk digests help ensure that teams are aware of and responding to risks on a daily basis.
+
+#### Slack and Microsoft Teams digests
+
+We recommend using our [Slack or Microsoft Teams digests](https://marketplace.sleuth.io/?search=work+in+progress) over the email digest because they can be delivered to a team's channel, where everyone can see an comment on them, and because they can be scheduled down the minute (e.g. to arrive in a team's channel just before their daily stand-up.).
+
+<figure><img src=".gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
+
+#### Email digests
+
+If Slack or Microsoft Teams digests aren't an option, then email digests are a great alternative. Simply click on the notification bell on the top-right of the dashboard and select "Daily." The email digest will be sent to your email inbox each day if and only if there is at least one risk present in the work in progress dashboard. &#x20;
 
 ![](<.gitbook/assets/image (1) (2) (2).png>)
 
