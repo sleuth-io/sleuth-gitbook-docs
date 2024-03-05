@@ -2,13 +2,16 @@
 
 ## Steps to follow
 
-* [Create a new Application](okta-configuration-1.md#create-a-new-application)
-* [Set up Single Sign-On](okta-configuration-1.md#set-up-single-sign-on)
-  * [Configure Attributes](okta-configuration-1.md#configure-attributes)
-* [Enter PingIdentity's metadata into Sleuth](okta-configuration-1.md#enter-pingidentitys-metadata-into-sleuth)
-  * Option 1: Link to metadata file
-  * Option 2: Enter metadata manually
-* [Assign People/Groups to the Application](okta-configuration-1.md#assign-people-groups-to-the-application)
+* [Create a new Application](pingid-configuration.md#create-a-new-application)
+* [Set up Single Sign-On](pingid-configuration.md#set-up-single-sign-on)
+  * [Import Metadata](pingid-configuration.md#import-metadata)
+  * [Import From URL](pingid-configuration.md#import-from-url)
+  * [Manually Enter](pingid-configuration.md#manually-enter)
+  * [Configure Attributes](pingid-configuration.md#configure-attributes)
+* [Enter PingIdentity's metadata into Sleuth](pingid-configuration.md#enter-pingidentitys-metadata-into-sleuth)
+  * [Option 1: Link to metadata file](pingid-configuration.md#option-1-link-to-metadata-file)
+  * [Option 2: Input metadata manually](pingid-configuration.md#option-2-input-metadata-manually)
+* [Assign Groups to the Application](pingid-configuration.md#assign-groups-to-the-application)
 
 ## Create a new Application
 
