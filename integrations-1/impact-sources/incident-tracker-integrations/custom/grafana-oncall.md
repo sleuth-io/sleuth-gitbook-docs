@@ -15,7 +15,7 @@ Please note that this is just one possible scenario on how you could use Grafana
 
 Within your **Grafana OnCall** dashboard, navigate to the **Outgoing webhooks** page and click **+ New Outgoing Webhook**:
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the next step, select **Advanced** to ensure you can customize your webhook as much as possible:
 

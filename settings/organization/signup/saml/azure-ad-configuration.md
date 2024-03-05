@@ -58,13 +58,13 @@ On the "**Basic SAML Configuration**" tile click "**Edit**":
 
 ### Configure Attributes & Claims
 
-On the "**Attributes & Claims**" tile click "**Edit**".
+Leave the **Attributes & Claims** section configured as it is, the settings should look like this:
 
-Under "**Required claim**" click on the "**Unique User Identifier (Name ID)**" claim and change the "**Source attribute**" from `user.userprincipalname` to `user.mail` and click "**Save**".
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
-
-Leave the "**Additional claims**" as they are.
+{% hint style="danger" %}
+Keeping the **Unique User Identifier** claim set to `user.userprincipalname` is a **prerequisite** for your SAML configuration to work with Sleuth.
+{% endhint %}
 
 ## Enter Azure's metadata into Sleuth
 

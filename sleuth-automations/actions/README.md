@@ -36,7 +36,7 @@ The first method is to define your rules in a YAML file and then insert that YAM
 
 The second method is to use the [Custom Automation template](https://marketplace.sleuth.io/?filter=custom) provided in Sleuth's Automations Marketplace.
 
-&#x20;![](<../../.gitbook/assets/image (1) (1) (1).png>)
+&#x20;![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 This option allows you to quickly write a new automation (using YAML) and deploy it to multiple teams or projects, all from within Sleuth's UI. You can also modify or uninstall those automations quickly from within Sleuth's UI.&#x20;
 

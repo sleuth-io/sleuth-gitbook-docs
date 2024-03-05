@@ -22,7 +22,7 @@ To set up the Azure DevOps integration:
 6.  On successful integration, you'll see **Azure DevOps** marked as **Enabled** and there will be a list of connections (_you can have more than one_) displayed on the tile when expanded:\
 
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Custom HTTP headers
 
