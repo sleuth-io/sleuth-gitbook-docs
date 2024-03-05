@@ -4,13 +4,10 @@
 
 * [Create a new Application](pingid-configuration.md#create-a-new-application)
 * [Set up Single Sign-On](pingid-configuration.md#set-up-single-sign-on)
-  * [Import Metadata](pingid-configuration.md#import-metadata)
-  * [Import From URL](pingid-configuration.md#import-from-url)
-  * [Manually Enter](pingid-configuration.md#manually-enter)
   * [Configure Attributes](pingid-configuration.md#configure-attributes)
 * [Enter PingIdentity's metadata into Sleuth](pingid-configuration.md#enter-pingidentitys-metadata-into-sleuth)
-  * [Option 1: Link to metadata file](pingid-configuration.md#option-1-link-to-metadata-file)
-  * [Option 2: Input metadata manually](pingid-configuration.md#option-2-input-metadata-manually)
+  * Option 1: Link to metadata file
+  * Option 2: Input metadata manually
 * [Assign Groups to the Application](pingid-configuration.md#assign-groups-to-the-application)
 
 ## Create a new Application
