@@ -11,6 +11,7 @@
 | [Opsgenie](opsgenie.md)                              |
 | [Jira (Coud/Data Center)](jira-cloud-data-center.md) |
 | [FireHydrant](firehydrant.md)                        |
+| [Rootly](rootly.md)                                  |
 | [ServiceNow](servicenow.md)                          |
 | [Custom](custom/)                                    |
 
