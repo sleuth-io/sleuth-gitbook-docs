@@ -55,6 +55,12 @@ sha,date
 Make sure you **replace the values** surrounded by**`<`** and **`>`**with your **own values**. Adjust the `csv_file` path accordingly or run the command from the directory that contains the `csv_file`.
 {% endhint %}
 
+{% hint style="warning" %}
+When using the Organization API token found under **Organization Settings > Details**, the `Authorization` header needs to pass the API key via `apikey` e.g. `Authorization: apikey <APIKEY>`
+
+When using API tokens created under **Organization Settings > Access Tokens** the `Authorization` header needs to pass the API token via `Bearer` e.g. `Authorization: Bearer <API_TOKEN>`
+{% endhint %}
+
 <details>
 
 <summary>cURL with API key in Header</summary>
