@@ -24,13 +24,19 @@ The correct setting very much depends on how you configured your impact sources 
 
 #### Change failure sensitivity
 
-This setting represents the amount of time (in minutes) a deploy must spend in a failure status (see Change failure rate boundary above for details) before it is determined a failure.
+This setting represents the amount of time (in minutes) a deploy must spend in a failure status (see Change failure rate boundary above for details) before it is determined a failure and will count towards the failure rate of the project.
 
-Setting this value to a longer time means that fewer events will be classified as failures.
+The default setting is 7 minutes. Setting this value to a longer time means that fewer events will be classified as failures.
+
+Using the default setting of 7 minutes, if any given deploy has had a failure registered for less than 7 minutes it will not count towards the failure rate of the project. If the failure status (e.g. an incident) has lasted for 7 minutes or longer, the deploy will now count towards the failure rate of the project.
 
 #### Health autodetect sensitivity
 
-This setting controls how many minutes Sleuth takes into account when auto-determining the health of a deploy. Measurements are usually collected every two minutes.
+This setting controls how many minutes Sleuth takes into account when auto-determining the health of a deploy. As a part of this health-check Sleuth will send notifications about said deploy.
+
+In other words, this setting controls how long Sleuth should wait before sending notifications about the health of a deploy.
+
+Measurements related to health, coming from a project's impact sources, are usually collected every two minutes.
 
 If you set this to _Fine_, we will use less time to calculate the overall health of the environment and vice-versa if you set it to _Coarse_.
 
