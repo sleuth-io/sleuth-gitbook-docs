@@ -8,7 +8,7 @@ Using Microsoft Teams? Check out the [Automations Marketplace](https://marketpla
 
 ## Setting up Slack notifications
 
-Before you set up project-level Slack notifications, the [Slack integration](integrations-1/slack.md#about-the-integration) must first be connected to your Sleuth organization. Once that's done, you can configure who and how those notifications are sent and who receives them.
+Before you set up project-level Slack notifications, the [Sleuth DORA App for Slack](integrations-1/slack.md#about-the-integration) must first be enabled in your Slack workspace. Once that's done, you can configure who and how those notifications are sent and who receives them.
 
 {% hint style="info" %}
 You must be the owner of or have admin access to an organization to setup an integration. See [Access control](settings/access-control.md) for more information.

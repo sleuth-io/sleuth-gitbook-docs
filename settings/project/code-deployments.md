@@ -59,7 +59,7 @@ Selecting this checkbox allows Sleuth to automatically lock a deployment when a 
 
 ### Slack notifications
 
-Selecting this checkbox lets Sleuth send Slack notification through your Slack integration. You can configure these notifications in the [Slack Notifications tab](slack-notifications.md) of Project Settings.
+Selecting this checkbox lets Sleuth send Slack notification through the Sleuth DORA App for Slack. You can configure these notifications in the [Slack Notifications tab](slack-notifications.md) of Project Settings.
 
 ### Collect impact
 
