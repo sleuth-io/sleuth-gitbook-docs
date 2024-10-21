@@ -34,9 +34,17 @@ Using the default setting of 7 minutes, if any given deploy has had a failure re
 
 This setting controls how many minutes Sleuth takes into account when auto-determining the health of a deploy. As a part of this health-check Sleuth will send notifications about said deploy.
 
-In other words, this setting controls how long Sleuth should wait before sending notifications about the health of a deploy.
+Based on the selected setting (`Fine (6 minutes)`, `Normal (18 minutes)`, or `Coarse (30 minutes)`), Sleuth will take the selected number of minutes and divide that time into the max. number of 3-minute windows (_2, 6, or 10 respectively_). Sleuth will then calculate the **worst environment health in each individual window**, and finally calculate the **average of all the windows** to get to the final result.&#x20;
 
-Measurements related to health, coming from a project's impact sources, are usually collected every two minutes.
+Important to note, that what is being calculated is the **ENVIRONMENT HEALTH**, not the deploy health. So the set period length doesn't start from the moment the deploy is registered forward, Sleuth actually looks backward, to the past X minutes from the moment the deploy was registered for an environment.
+
+One way to illustrate how this works would be:
+
+<figure><img src="../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
+
+Another important thing to note, this setting only pertains to `Error Impact Sources` and/or `Metric Impact Sources`,  if an `Incident Impact Source` is reporting an incident, that is taken at face value and no averages are calculated.
+
+That is all to say, that the notification will **always be sent out around 6 minutes post deploy registration** in Sleuth, the difference is in **how big of a past time window** prior to the deploy being registered Sleuth should consider when determining whether the deploy is healthy or not.
 
 If you set this to _Fine_, we will use less time to calculate the overall health of the environment and vice-versa if you set it to _Coarse_.
 
