@@ -8,9 +8,10 @@ The Sleuth DORA App for Slack is set up and configured in a Sleuth organization.
 
 ## Setting up the integration
 
-1. Click **Integrations** in the sidebar.
-2. In the **Chat Ops** > **Slack** card, click **enable**.
-3. Click **Allow** to make the integration.
+1. Click **Add** in the top navigation bar and select **Integration** from the list.
+2. Select **Chat** from the drop-down located in the top right.
+3. In the **Slack** tile, click **Enable**.
+4. Click **Allow** to make the integration.
 
 {% hint style="info" %}
 You must add Sleuth DORA as an Authorized Application in Slack. For more information, [read the Slack documentation](https://api.slack.com).
@@ -22,9 +23,9 @@ Adding a third-party integration to Slack must be authorized by your Slack App M
 
 ![Adding Slack third-party integrations might require your App Manager's approval.](../.gitbook/assets/slack-request-to-install-screen.png)
 
-4\. Upon a succesful connection to your Sleuth account, the message **Slack enabled (Connected to workspace \_\<workspace name>**\_**)** is displayed in the tile.
+4\. Upon a successful connection to your Sleuth account, the message **Slack  (Connected to workspace \_\<workspace name>**\_**)** is displayed in the tile.
 
-![](../.gitbook/assets/slack-integration-connected.png)
+<figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The Slack integration is done at the organization level. Since multiple [projects](../modeling-your-deployments/projects/) can exist within an organization, you'll want to go in to each [project and configure notifications](../settings/project/slack-notifications.md) individually.
