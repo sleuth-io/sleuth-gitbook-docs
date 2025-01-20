@@ -24,6 +24,25 @@ A Custom Incident Impact Source is always available within your Sleuth project(s
 
 That's it! Sleuth will now start monitoring incidents from your custom source. Head over to the Dashboard to start seeing your data in action in the project and deploy health graphs.
 
+## Using the integration
+
+The webhook sent to Sleuth must contain the **mandatory** `type` parameter, the value can be:
+
+* `triggered`
+* `resolved`
+* `reopened`
+
+There are also several **optional** parameters, such as:
+
+* `id`: The unique incident identifier in your system
+* `date`: The ISO 8601 date the event occurred, defaults to the current time
+* `title`: The human readable title of the incident
+* `url`: URL to incident in your external system
+
+{% hint style="info" %}
+To access the detailed instruction on how to use the Impact Source at any time, navigate to the Impact Source, click the :gear: icon in the top-right corner, and click `Show register details`.
+{% endhint %}
+
 ## Removing the integration
 
 #### To remove the custom incident source
