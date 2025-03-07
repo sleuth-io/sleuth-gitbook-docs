@@ -13,6 +13,9 @@ Sleuth connects to many different systems to provide your full deployment pictur
 * 52.42.95.252
 * 44.225.94.110
 * 54.148.48.201
+* 35.162.250.51
+* 52.32.199.5
+* 35.81.173.156
 
 ## Can I initialize a code deployment with more than 30 days worth of past deploys?
 
