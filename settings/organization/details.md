@@ -8,13 +8,13 @@ The top section of the **Details** tab contains general information about the or
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Default user role
 
 The **Default user role** determines the role that will be granted to users who access Sleuth for the first time via SSO.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Working hours (org-level default)
 
@@ -22,7 +22,7 @@ This section allows you to specify default working hours to be used in [Change l
 
 The working hours specified here will be used for any members that haven't set their own working hours (including Contributor users who don't have access direct to Sleuth). For more information on working hours, refer to [Working hours and Change lead time](../../accelerate-metrics/change-lead-time.md#working-hours-and-change-lead-time).
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### API Key
 

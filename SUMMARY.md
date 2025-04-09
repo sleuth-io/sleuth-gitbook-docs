@@ -43,11 +43,11 @@
   * [Custom Automations](sleuth-automations/actions/README.md)
     * [Automations Cookbook](sleuth-automations/actions/cookbook.md)
     * [Webhook Actions](sleuth-automations/actions/webhook.md)
-    * [Trigger Build Actions](sleuth-automations/actions/trigger\_build/README.md)
-      * [Bitbucket Pipelines](sleuth-automations/actions/trigger\_build/trigger-build-bb-pipelines.md)
-      * [CircleCI](sleuth-automations/actions/trigger\_build/trigger-build-circleci.md)
-      * [Github Actions](sleuth-automations/actions/trigger\_build/trigger-build-gh-actions.md)
-      * [Jenkins](sleuth-automations/actions/trigger\_build/jenkins.md)
+    * [Trigger Build Actions](sleuth-automations/actions/trigger_build/README.md)
+      * [Bitbucket Pipelines](sleuth-automations/actions/trigger_build/trigger-build-bb-pipelines.md)
+      * [CircleCI](sleuth-automations/actions/trigger_build/trigger-build-circleci.md)
+      * [Github Actions](sleuth-automations/actions/trigger_build/trigger-build-gh-actions.md)
+      * [Jenkins](sleuth-automations/actions/trigger_build/jenkins.md)
 * [Slack & Email Notifications](notifications.md)
 * [Auto-verify deploys](auto-verify-your-deploys/README.md)
   * [Anomaly detection](auto-verify-your-deploys/anomaly-detection.md)
@@ -135,6 +135,33 @@
   * [Linear](integrations-1/issue-trackers/linear.md)
   * [Shortcut](integrations-1/issue-trackers/shortcut.md)
 * [Fixing broken integrations](integrations-1/fixing-broken-integrations.md)
+
+## Pulse
+
+* [Welcome to Pulse docs](pulse/welcome-to-pulse-docs.md)
+* [Quick Start setup guide](pulse/quick-start-setup-guide.md)
+* [Beginner tutorials](pulse/beginner-tutorials/README.md)
+  * [1. How to create a Teamspace](pulse/beginner-tutorials/1.-how-to-create-a-teamspace.md)
+  * [2. How to create a Review](pulse/beginner-tutorials/2.-how-to-create-a-review.md)
+  * [3. How to create a Survey](pulse/beginner-tutorials/3.-how-to-create-a-survey.md)
+
+***
+
+* [Features](features/README.md)
+  * [Reviews](features/reviews/README.md)
+    * [Review workflow](features/reviews/review-workflow.md)
+    * [Review templates](features/reviews/review-templates.md)
+    * [Widgets and Sections](features/reviews/widgets-and-sections/README.md)
+      * [Widget type](features/reviews/widgets-and-sections/widget-type.md)
+    * [Review settings](features/reviews/review-settings.md)
+  * [Surveys](features/surveys/README.md)
+    * [Survey Workflow](features/surveys/survey-workflow.md)
+  * [Teamspaces](features/teamspaces.md)
+  * [Inbox](features/inbox.md)
+  * [AI assistant](features/ai-assistant.md)
+  * [General settings](features/general-settings/README.md)
+    * [Users and Teams](features/general-settings/users-and-teams.md)
+    * [Investment mix](features/general-settings/investment-mix.md)
 
 ## Settings
 

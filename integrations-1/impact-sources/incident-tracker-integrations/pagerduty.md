@@ -11,7 +11,7 @@ To add the Sleuth PagerDuty integration:
 * Click **Integrations** in the sidebar.
 * Click the \_Incidents \_tab, then **enable** in the PagerDuty card.
 * Select the PagerDuty account you want to use
-* Upon successful integration, you'll see **PagerDuty enabled (Connected as \_\<PagerDuty user account>)**displayed in the PagerDuty tile. You'll next configure the impact sources.
+* Upon successful integration, you'll see **PagerDuty enabled (Connected as \_\<PagerDuty user account>)**&#x64;isplayed in the PagerDuty tile. You'll next configure the impact sources.
 
 ![](<../../../.gitbook/assets/screenshot-2021-10-05-at-15.10.07 (1).png>)
 

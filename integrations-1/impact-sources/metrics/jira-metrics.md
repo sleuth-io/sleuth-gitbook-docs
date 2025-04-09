@@ -6,7 +6,7 @@ Jira is an issue tracking tool that integrates with Sleuth in support of various
 
 ## Setting up the Jira integration for your Sleuth organization
 
-If you've already set up the Jira integration for your Sleuth organization in support of any of the aforementioned use cases, you can skip ahead to [Configuring Jira as a Metric Impact Source](https://app.gitbook.com/o/-M1gHTBLHOo121mCa7Tk/s/-M1bR\_-Od0islbiOl4G0/\~/changes/702/integrations-1/impact-sources/metrics/datadog-1#configuring-jira-as-a-metric-impact-source) below.&#x20;
+If you've already set up the Jira integration for your Sleuth organization in support of any of the aforementioned use cases, you can skip ahead to [Configuring Jira as a Metric Impact Source](https://app.gitbook.com/o/-M1gHTBLHOo121mCa7Tk/s/-M1bR_-Od0islbiOl4G0/~/changes/702/integrations-1/impact-sources/metrics/datadog-1#configuring-jira-as-a-metric-impact-source) below.&#x20;
 
 Otherwise, follow instructions for [Jira Cloud](../../issue-trackers/jira.md#setting-up-the-integration) or [Jira Datacenter](../../issue-trackers/jira-datacenter.md#setting-up-the-integration) to establish the integration, and then proceed to the next section to configure the impact source.
 
@@ -20,7 +20,7 @@ Once the Jira integration has been enabled for your Sleuth organization, perform
 *   If the Jira integration has been properly enabled for your Sleuth organization, the integration tile will show "enabled". \
 
 
-    <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Click the tile to configure the Jira metric impact source.
 *   In the following screen, give your metric impact source a name, specify which environment it's for, and enter a JQL query that returns a count.\
 

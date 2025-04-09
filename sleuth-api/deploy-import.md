@@ -39,7 +39,7 @@ Importing deploys into a pre-populated code deployment will **delete all existin
 
 ## CSV File Structure
 
-The deploys should be imported using a **CSV file** that is uploaded as part of the request. The CSV file should contain the headers `sha` and `date`, the `sha` column should contain the **full SHA** of the commits at the point of release, and the `date` column should contain the **date and time** of the deploy in the [ISO 8601](https://en.wikipedia.org/wiki/ISO\_8601) format.
+The deploys should be imported using a **CSV file** that is uploaded as part of the request. The CSV file should contain the headers `sha` and `date`, the `sha` column should contain the **full SHA** of the commits at the point of release, and the `date` column should contain the **date and time** of the deploy in the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format.
 
 {% code title="Example CSV file" lineNumbers="true" %}
 ```csv
@@ -52,7 +52,7 @@ sha,date
 ## Examples
 
 {% hint style="warning" %}
-Make sure you **replace the values** surrounded by**`<`** and **`>`**with your **own values**. Adjust the `csv_file` path accordingly or run the command from the directory that contains the `csv_file`.
+Make sure you **replace the values** surrounded b&#x79;**`<`** and **`>`**&#x77;ith your **own values**. Adjust the `csv_file` path accordingly or run the command from the directory that contains the `csv_file`.
 {% endhint %}
 
 {% hint style="warning" %}

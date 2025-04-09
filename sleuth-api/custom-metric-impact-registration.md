@@ -13,7 +13,7 @@ You can submit custom metric impact values to Sleuth. Sleuth will perform its an
 {% hint style="info" %}
 #### ENDPOINT&#x20;
 
-https://app.sleuth.io/api/1/impact/<mark style="color:red;">`IMPACT_ID`</mark>_/_register\_impact
+https://app.sleuth.io/api/1/impact/<mark style="color:red;">`IMPACT_ID`</mark>_/_&#x72;egister\_impact
 {% endhint %}
 
 The endpoint path takes **1 ID** which uniquely identifies the Impact Source to register a value against:
@@ -43,7 +43,7 @@ Please note that **backfilling of metrics data is not currently supported**, and
 ### Examples
 
 {% hint style="warning" %}
-Make sure you **replace the values** surrounded by**`<`** and **`>`**with your **own values**.&#x20;
+Make sure you **replace the values** surrounded b&#x79;**`<`** and **`>`**&#x77;ith your **own values**.&#x20;
 {% endhint %}
 
 <details>

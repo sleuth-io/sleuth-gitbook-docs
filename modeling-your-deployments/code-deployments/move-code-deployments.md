@@ -12,7 +12,7 @@ To move a Code Deployment (and all of its Deploys) from one Project to another, 
 *   In the next screen, select the "target" Project (i.e. the Project you'd like to move this Deployment to), and specify Environment mappings between the two Projects:
 
     <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
-*   For any of source environments that do not have a corresponding environment in the target Project, select "Do not map." Note, however, that _**this action will irrevocably delete all historical deploy data**_ for that source environment_**.**_ Sleuth will ask you to confirm:
+*   For any of source environments that do not have a corresponding environment in the target Project, select "Do not map." Note, however, that _**this action will irrevocably delete all historical deploy data**_ for that source environmen&#x74;_**.**_ Sleuth will ask you to confirm:
 
     <figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 * It is not currently possible to map a single source environment to multiple target environments

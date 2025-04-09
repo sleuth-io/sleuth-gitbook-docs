@@ -42,7 +42,7 @@ The `API key` must also be added to the **end of the path** in this instance.
 {% endtabs %}
 
 {% hint style="warning" %}
-Make sure you **replace the values** surrounded by**`<`** and **`>`**with your **own values**.&#x20;
+Make sure you **replace the values** surrounded b&#x79;**`<`** and **`>`**&#x77;ith your **own values**.&#x20;
 {% endhint %}
 
 <details>

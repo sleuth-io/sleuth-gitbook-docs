@@ -12,12 +12,12 @@ To add the Sleuth Jenkins integration:
 2.  Select "CI/CD" in the drop-down, then click **enable** in the Jenkins card.\
 
 
-    <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 3. Enter your Jenkins instance publicly accessible URL, your username and API token, then press **Save**. You can generate the API token through Jenkins UI at `<YOUR_JENKINS_URL>/user/<YOUR_USERNAME>/configure`
 4.  On successful integration, you'll see new **Jenkins connection** displayed in the Jenkins tile. You'll configure the default build server later.\
 
 
-    <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Custom HTTP headers
 

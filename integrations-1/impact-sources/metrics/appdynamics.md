@@ -15,7 +15,7 @@ To add the Sleuth AppDynamics integration:
 * Press **Save**.
 * Once the AppDynamics integration is enabled, you will see **AppDynamics enabled** displayed in the integration card (as shown below).
 
-![](<../../../.gitbook/assets/image (6) (1).png>)
+![](<../../../.gitbook/assets/image (6) (1) (1).png>)
 
 ## Configuring the integration
 
@@ -46,8 +46,8 @@ The AppDynamics integration is disconnected and no longer available to any proje
 
     Open _Applications_ dashboard \_\_and select **Metric Browser** from left hand navigation menu
 
-![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 4\.    Select desired metric, right-click and press **Copy REST URL**
 
-![](<../../../.gitbook/assets/image (7) (1).png>)
+![](<../../../.gitbook/assets/image (7) (1) (1).png>)

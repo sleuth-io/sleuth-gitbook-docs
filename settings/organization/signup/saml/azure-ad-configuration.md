@@ -60,7 +60,7 @@ On the "**Basic SAML Configuration**" tile click "**Edit**":
 
 Leave the **Attributes & Claims** section configured as it is, the settings should look like this:
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 Keeping the **Unique User Identifier** claim set to `user.userprincipalname` is a **prerequisite** for your SAML configuration to work with Sleuth.

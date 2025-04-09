@@ -36,7 +36,7 @@ On Sleuth dashboards the change lead time and breakdowns are the averages for ea
 
 On the deploy view the change lead time and breakdowns are the averages for each pull request that was deployed.
 
-You can view the individual change lead time and breakdowns for an individual pull request by viewing the_`PRs`_tab on the deploy view.
+You can view the individual change lead time and breakdowns for an individual pull request by viewing th&#x65;_`PRs`_&#x74;ab on the deploy view.
 {% endhint %}
 
 ## Feature flags and Change lead time
