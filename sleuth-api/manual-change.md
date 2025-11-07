@@ -50,7 +50,7 @@ Make sure you **replace the values** surrounded b&#x79;**`<`** and **`>`**&#x77;
 <summary>cURL with API key in Header</summary>
 
 <pre class="language-bash" data-overflow="wrap" data-line-numbers><code class="lang-bash"><strong>curl -X POST \
-</strong>'https://app.sleuth.io/api/1/deployments/&#x3C;ORG_SLUG>/&#x3C;DEPLOYMENT_SLUG>/register_manual_deploy' \
+</strong>'https://app.sleuth.io/api/1/deployments/&#x3C;ORG_SLUG>/&#x3C;PROJECT_SLUG>/register_manual_deploy' \
   -H 'Authorization: apikey &#x3C;APIKEY>' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -68,7 +68,7 @@ Make sure you **replace the values** surrounded b&#x79;**`<`** and **`>`**&#x77;
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
 curl -X POST \
-'https://app.sleuth.io/api/1/deployments/<ORG_SLUG>/<DEPLOYMENT_SLUG>/register_deploy' \
+'https://app.sleuth.io/api/1/deployments/<ORG_SLUG>/<PROJECT_SLUG>/register_manual_deploy' \
   -H 'Content-Type: application/json' \
   -d '{
   "name": "<NAME>",
@@ -87,7 +87,7 @@ curl -X POST \
 {% code overflow="wrap" lineNumbers="true" %}
 ```powershell
 Invoke-RestMethod -Method POST `
--Uri 'https://app.sleuth.io/api/1/deployments/<ORG_SLUG>/<DEPLOYMENT_SLUG>/register_manual_deploy' `
+-Uri 'https://app.sleuth.io/api/1/deployments/<ORG_SLUG>/<PROJECT_SLUG>/register_manual_deploy' `
 -Headers @{
     'Authorization' = 'apikey <APIKEY>'
     'Content-Type' = 'application/json'   
@@ -108,7 +108,7 @@ Invoke-RestMethod -Method POST `
 {% code overflow="wrap" lineNumbers="true" %}
 ```powershell
 Invoke-RestMethod -Method POST `
--Uri 'https://app.sleuth.io/api/1/deployments/<ORG_SLUG>/<DEPLOYMENT_SLUG>/register_deploy' `
+-Uri 'https://app.sleuth.io/api/1/deployments/<ORG_SLUG>/<PROJECT_SLUG>/register_manual_deploy' `
 -Headers @{
     'Content-Type' = 'application/json'   
 } `
