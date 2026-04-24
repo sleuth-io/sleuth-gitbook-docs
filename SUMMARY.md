@@ -1,5 +1,7 @@
 # Table of contents
 
+## Sleuth DORA
+
 * [Getting started](README.md)
 * [Navigating Sleuth](navigating-sleuth.md)
 * [DORA metrics](accelerate-metrics/README.md)
@@ -72,7 +74,7 @@
   * [GraphQL Mutations](sleuth-api/graphql-mutations.md)
   * [Query batching](sleuth-api/query-batching.md)
 
-## Integrations <a href="#integrations-1" id="integrations-1"></a>
+### Integrations
 
 * [About Integrations...](integrations-1/about-integrations.md)
 * [Code integrations (read-only)](integrations-1/code-deployment/README.md)
@@ -136,34 +138,7 @@
   * [Shortcut](integrations-1/issue-trackers/shortcut.md)
 * [Fixing broken integrations](integrations-1/fixing-broken-integrations.md)
 
-## Pulse
-
-* [Welcome to Pulse docs](pulse/welcome-to-pulse-docs.md)
-* [Quick Start setup guide](pulse/quick-start-setup-guide.md)
-* [Beginner tutorials](pulse/beginner-tutorials/README.md)
-  * [1. How to create a Teamspace](pulse/beginner-tutorials/1.-how-to-create-a-teamspace.md)
-  * [2. How to create a Review](pulse/beginner-tutorials/2.-how-to-create-a-review.md)
-  * [3. How to create a Survey](pulse/beginner-tutorials/3.-how-to-create-a-survey.md)
-
-***
-
-* [Features](features/README.md)
-  * [Reviews](features/reviews/README.md)
-    * [Review workflow](features/reviews/review-workflow.md)
-    * [Review templates](features/reviews/review-templates.md)
-    * [Widgets and Sections](features/reviews/widgets-and-sections/README.md)
-      * [Widget type](features/reviews/widgets-and-sections/widget-type.md)
-    * [Review settings](features/reviews/review-settings.md)
-  * [Surveys](features/surveys/README.md)
-    * [Survey Workflow](features/surveys/survey-workflow.md)
-  * [Teamspaces](features/teamspaces.md)
-  * [Inbox](features/inbox.md)
-  * [AI assistant](features/ai-assistant.md)
-  * [General settings](features/general-settings/README.md)
-    * [Users and Teams](features/general-settings/users-and-teams.md)
-    * [Investment mix](features/general-settings/investment-mix.md)
-
-## Settings
+### Settings
 
 * [Organization settings](settings/organization/README.md)
   * [Details](settings/organization/details.md)
@@ -189,9 +164,31 @@
   * [Identities settings](settings/account/identities.md)
 * [Role Based Access Control](settings/access-control.md)
 
-## Resources
+### Resources
 
 * [FAQ](resources/faq.md)
 * [Sleuth TV](resources/sleuth-tv.md)
 * [Purchasing](resources/purchasing.md)
 * [About Sleuth...](resources/about.md)
+
+## Sleuth Skills
+
+* [Welcome to Sleuth Skills](sleuth-skills/README.md)
+* [Quick Start Guide](sleuth-skills/quick-start.md)
+* [Installation Targets](sleuth-skills/installation-targets/README.md)
+  * [Organization](sleuth-skills/installation-targets/organization.md)
+  * [Teams](sleuth-skills/installation-targets/teams.md)
+  * [Repositories](sleuth-skills/installation-targets/repositories.md)
+  * [Bots](sleuth-skills/installation-targets/bots.md)
+  * [Personal](sleuth-skills/installation-targets/personal.md)
+* [Assets](sleuth-skills/assets/README.md)
+  * [Skills](sleuth-skills/assets/skills.md)
+  * [Rules](sleuth-skills/assets/rules.md)
+  * [Agents](sleuth-skills/assets/agents.md)
+  * [Commands](sleuth-skills/assets/commands.md)
+  * [Hooks](sleuth-skills/assets/hooks.md)
+  * [MCP servers](sleuth-skills/assets/mcp-servers.md)
+  * [Claude Code plugins](sleuth-skills/assets/claude-code-plugins.md)
+* [Governance](sleuth-skills/governance/README.md)
+  * [Audit log](sleuth-skills/governance/audit-log.md)
+  * [Usage metrics](sleuth-skills/governance/metrics.md)
