@@ -57,6 +57,10 @@ Once an asset is in the vault, teammates can find it by:
 * **Asking the assistant** — "top skills in the last 30 days" or "what MCP servers do we have?"
 * **skills.sh integration** — `sx add --browse` searches [skills.sh](https://skills.sh), a community directory of 85k+ agent skills, and pulls a chosen asset into your vault with metadata intact.
 
+### Automatic GitHub scan
+
+Connecting a GitHub repository to Sleuth Skills also triggers a discovery scan. The app walks the repo for anything that looks like an asset — `.claude/skills/`, `.cursor/rules/`, `.github/copilot-instructions.md`, MCP configs, hooks, Claude Code plugin bundles — and surfaces each hit in **AI Assets** tagged with its source repository. From there your team can promote a discovered asset to an org-wide install, edit it through a Change Request, or retire it, without ever needing to re-author the content that already lives in the repo. Re-running the scan picks up new assets committed since the last scan.
+
 ## Versioning
 
 Uploading a new payload creates a new **version** of the asset. Each version has its own files, quality score, and audit trail. Installations pin to a specific version; upgrading to a new version means updating the install (or letting `sx install` pick up the latest when run).

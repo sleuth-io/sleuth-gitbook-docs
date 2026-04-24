@@ -19,6 +19,10 @@ Once you have assets published and distributed, the question becomes: _is anyone
 
 The audit log is the compliance record — it's what you reach for during an incident review or a security question. The usage dashboards are the adoption signal — they tell you which assets are earning their keep.
 
+## Pre-built and custom dashboards
+
+Under **Usage metrics**, Sleuth Skills ships four pre-built dashboards — **AI Metrics**, **Adoption**, **Usage**, and **Leaderboards** — plus a fifth **Start from scratch** option for building your own. You can clone any preset into a new custom dashboard and extend it, add widgets backed by PQL queries, or ask the assistant to generate persistent charts and tables from a natural-language prompt. See [Usage metrics](metrics.md#custom-dashboards) for the full walkthrough.
+
 ## Why both matter
 
 Governance often means "compliance checkbox," but in Sleuth Skills the two surfaces work together to support real engineering decisions:

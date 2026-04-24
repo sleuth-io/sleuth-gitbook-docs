@@ -70,7 +70,27 @@ Every widget respects the page-level filters (date range, asset type, team, repo
 
 ## Custom dashboards
 
-Use **Create Dashboard** in the top-right to build your own. Dashboards are composed of widgets, each backed by a [PQL](#) query (the Sleuth Skills query language for usage data). You can start from a default dashboard and clone it, then modify from there.
+The four default dashboards answer the most common questions, but most teams eventually want to slice usage their own way. Click **Create Dashboard** in the top-right of any dashboard page to build your own.
+
+<figure><img src="../../.gitbook/assets/skills/create-dashboard.png" alt=""><figcaption><p>The Create Dashboard picker. Start from a blank canvas or clone one of the four preset templates.</p></figcaption></figure>
+
+You pick one of five starting points:
+
+| Template | Starts you with |
+|----------|-----------------|
+| **Start from scratch** | A blank canvas. Add widgets one at a time. |
+| **AI Metrics** | Copy of the AI Metrics dashboard — KPIs, bot-vs-human, token cost trend. |
+| **Adoption** | Copy of the Adoption dashboard — user/team/repo adoption + newcomers. |
+| **Usage** | Copy of the Usage dashboard — top assets by usage and token cost, time series. |
+| **Leaderboards** | Copy of the Leaderboards dashboard — ranked assets, actors, teams. |
+
+Every widget is backed by a PQL query (the Sleuth Skills query language for usage data), so the cloned dashboards are fully editable: rename widgets, change time windows, add filters, or swap the underlying query entirely.
+
+### AI-generated widgets
+
+You can also add widgets by asking the assistant. Describe what you want — "a chart showing MCP tool-call duration by bot over the last 90 days" — and the assistant researches what's available in your usage data, writes the PQL, and creates a persistent widget on your dashboard. The widget keeps the generated query so it re-runs automatically whenever the dashboard loads — it's a real widget, not a one-off answer.
+
+This is the fastest way to prototype a new dashboard: start from a preset, ask the assistant for the two or three custom widgets you're missing, and save.
 
 ## CLI access
 

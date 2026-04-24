@@ -66,6 +66,7 @@ Before creating anything new, it's worth seeing what is already published in you
 
 <figure><img src="../.gitbook/assets/skills/assets-list.png" alt=""><figcaption><p>The AI Assets list, filtered by type. Each row shows usage count, token cost, and publication status.</p></figcaption></figure>
 
+* **Automatic GitHub scan.** When you connect a GitHub repository to Sleuth Skills, the app scans it for assets that already exist in the code — `.claude/` skills, `.cursor/rules/`, `claude-code-plugin` bundles, hooks, and the rest. Anything it finds shows up in **AI Assets** tagged with the source repository so your team can adopt, promote, or retire it from the UI without having to re-publish by hand.
 * **In the UI:** click **AI Assets** in the left nav. Filter by type (Skill, Agent, Command, MCP, Hook, Rule, Claude Code Plugin), by source (which repo it was discovered from), or search by name.
 * **From the CLI:** run `sx add --browse` to search [skills.sh](https://skills.sh), a community directory of 85k+ agent skills, and pull one into your vault.
 

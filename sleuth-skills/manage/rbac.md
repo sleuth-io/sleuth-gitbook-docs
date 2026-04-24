@@ -46,6 +46,8 @@ A team admin cannot change other teams, the organization's global settings, or a
 
 Team admins are the most common "reviewer" role in practice — they're the people approving day-to-day edits from their own teammates without needing a global admin in the loop.
 
+<figure><img src="../../.gitbook/assets/skills/team-members-edit.png" alt=""><figcaption><p>The Edit team → Members tab. The "Team admin" badge next to a member's email marks them as a reviewer for that team's Change Requests and installation requests.</p></figcaption></figure>
+
 ### Member
 
 A **member** is the default role for everyone in the organization. Members can:
@@ -95,7 +97,11 @@ The same flow applies to **installation requests**. A member who wants to instal
 
 ## How roles are assigned
 
-Global admin is granted from **Organization settings** by an existing global admin. Team admin is granted from a team's page — open the team, expand the member list, and toggle the admin flag. Bot members of a team cannot be admins.
+Global admin is granted from **Organization settings** by an existing global admin.
+
+Team admin is granted from a team's page: open the team, click **Edit** in the top-right, switch to the **Members** tab, and toggle the **Team admin** badge next to the relevant member. Bot members of a team cannot be admins.
+
+<figure><img src="../../.gitbook/assets/skills/team-edit.png" alt=""><figcaption><p>The Edit team dialog opens from the Edit button on the team page. Use the tabs on the left to switch between General, Members, Bots, and Repositories.</p></figcaption></figure>
 
 Every role change — promotion, demotion, removal — is recorded in the [Audit Log](../govern/audit-log.md).
 
