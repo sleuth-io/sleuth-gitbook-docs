@@ -95,7 +95,7 @@
   * [GraphQL Queries](sleuth-api/graphql-examples.md)
   * [GraphQL Mutations](sleuth-api/graphql-mutations.md)
   * [Query batching](sleuth-api/query-batching.md)
-* Integrations
+* [Integrations](integrations-1/README.md)
   * [About Integrations...](integrations-1/about-integrations.md)
   * [Code integrations (read-only)](integrations-1/code-deployment/README.md)
     * [Azure DevOps](integrations-1/code-deployment/azure-devops.md)
@@ -157,7 +157,7 @@
     * [Linear](integrations-1/issue-trackers/linear.md)
     * [Shortcut](integrations-1/issue-trackers/shortcut.md)
   * [Fixing broken integrations](integrations-1/fixing-broken-integrations.md)
-* Settings
+* [Settings](settings/README.md)
   * [Organization settings](settings/organization/README.md)
     * [Details](settings/organization/details.md)
     * [Authentication](settings/organization/signup/README.md)
@@ -181,7 +181,7 @@
     * [Notifications settings](settings/account/notifications.md)
     * [Identities settings](settings/account/identities.md)
   * [Role Based Access Control](settings/access-control.md)
-* Resources
+* [Resources](resources/README.md)
   * [FAQ](resources/faq.md)
   * [Sleuth TV](resources/sleuth-tv.md)
   * [Purchasing](resources/purchasing.md)
