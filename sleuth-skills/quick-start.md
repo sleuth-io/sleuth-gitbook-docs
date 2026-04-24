@@ -58,7 +58,7 @@ Every artifact you publish to Sleuth Skills is an **asset** with a type. Each ty
 | **MCP server** | A Model Context Protocol server definition the client launches. | `hi-dylan` — returns "Hi Dylan!". |
 | **Claude Code plugin** | A bundle of skills, commands, hooks, and MCP configs shipped as a single unit. | `claude-code-plugins` — team-wide plugin bundle. |
 
-Each type has its own definition format. See [Assets](assets/README.md) for the full breakdown.
+Each type has its own definition format. See [Manage](manage/README.md) for the full breakdown.
 
 ## 4. Discover existing assets
 
@@ -87,7 +87,7 @@ An asset exists as a definition until you _install_ it somewhere. Installation t
 * **Bots** — service accounts that can be added to teams and installed against directly.
 * **Personal** — an individual user; they can install their own assets globally without affecting anyone else.
 
-See [Installation Targets](installation-targets/README.md) for the detailed semantics.
+See [Distribute](distribute/README.md) for the detailed semantics.
 
 ## 7. Distribute and verify
 
@@ -117,6 +117,6 @@ Once assets are running, the **Govern** section in the left nav tells you whethe
 
 ## What next?
 
-* Wire a [team](installation-targets/teams.md) so new joiners inherit the right assets automatically.
-* Add a [bot](installation-targets/bots.md) so CI or an agent loop gets its own curated asset set.
-* Set up [scope filters](installation-targets/repositories.md#path-scoped-installs) for a monorepo.
+* Wire a [team](distribute/teams.md) so new joiners inherit the right assets automatically.
+* Add a [bot](distribute/bots.md) so CI or an agent loop gets its own curated asset set.
+* Set up [scope filters](distribute/repositories.md#path-scoped-installs) for a monorepo.

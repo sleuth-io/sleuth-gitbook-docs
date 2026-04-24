@@ -2,12 +2,11 @@
 description: >-
   Sleuth Skills keeps an append-only audit log of every install and team
   change, plus pre-built dashboards that show what your org is actually using.
-  This is the "Govern" pillar of the product.
 ---
 
-# Governance
+# Govern
 
-Once you have assets published and targeted, the question becomes: _is anyone actually using them, and can I reconstruct what happened?_ Sleuth Skills answers both through the **Govern** section of the left navigation.
+Once you have assets published and distributed, the question becomes: _is anyone actually using them, and can I reconstruct what happened?_ Sleuth Skills answers both through the **Govern** pillar.
 
 <figure><img src="../../.gitbook/assets/skills/home.png" alt=""><figcaption><p>The Govern section — Audit Log, AI Metrics, Adoption, Usage, and Leaderboards.</p></figcaption></figure>
 

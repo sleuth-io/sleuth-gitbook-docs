@@ -1,16 +1,16 @@
 ---
 description: >-
-  The core domain model of Sleuth Skills. An installation target answers
-  "who gets this asset?" — Organization, Team, Repository, Bot, or Personal.
+  Once an asset exists, Distribute is where you decide who gets it — your
+  organization, a team, a repository, a bot, or an individual person.
 ---
 
-# Installation Targets
+# Distribute
 
-Every asset in Sleuth Skills is published once and then _installed_ to one or more **targets**. A target is the entity an installation attaches to; when someone runs `sx install`, the CLI resolves the set of assets that apply to them based on these targets.
+**Distribute** is the second pillar of Sleuth Skills. Every asset in the vault is published once and then _installed_ to one or more **targets**. A target is the entity an installation attaches to; when someone runs `sx install`, the CLI resolves the set of assets that apply to them based on these targets.
 
-## The five targets
+## The five installation targets
 
-Sleuth Skills has five installation targets, visible as five entries under the **Distribute** section of the left navigation.
+Sleuth Skills has five installation targets, visible as five entries in this section.
 
 | Target | Who it applies to | Typical use |
 |--------|-------------------|-------------|
@@ -48,4 +48,4 @@ If an asset has no active install on any of these targets, `sx install` will not
 
 ## Changing targets
 
-Every target change — adding a user to a team, switching an asset from org-wide to repo-scoped, promoting a member to admin — is recorded in the [Audit Log](../governance/audit-log.md). Target changes are also idempotent: re-adding an existing member or re-installing with the same scope is a silent no-op that does not rewrite state or emit noise into the audit trail.
+Every target change — adding a user to a team, switching an asset from org-wide to repo-scoped, promoting a member to admin — is recorded in the [Audit Log](../govern/audit-log.md). Target changes are also idempotent: re-adding an existing member or re-installing with the same scope is a silent no-op that does not rewrite state or emit noise into the audit trail.

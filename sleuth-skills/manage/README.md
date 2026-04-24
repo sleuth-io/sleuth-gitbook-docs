@@ -1,17 +1,18 @@
 ---
 description: >-
-  Assets are the units you manage in Sleuth Skills — skills, rules, agents,
-  commands, hooks, MCP servers, and Claude Code plugins. This page covers the
-  concepts shared by every type; subpages cover each type's specifics.
+  Create, edit, version, and review the AI assets your org publishes — plus
+  the RBAC model that controls who is allowed to do each of those things.
 ---
 
-# Assets
+# Manage
 
-An **asset** is any artifact you publish to Sleuth Skills that shapes how an AI client behaves: a skill, a rule, an agent, a command, a hook, an MCP server, or a Claude Code plugin bundle. Assets are the things engineers create; [installation targets](../installation-targets/README.md) are how you decide who sees them.
+**Manage** is where assets are created, edited, versioned, and reviewed. It covers both the _artifacts_ your engineers publish (skills, rules, agents, commands, hooks, MCP servers, Claude Code plugins) and the _RBAC model_ that decides who can do what to them.
+
+Start with [RBAC](rbac.md) if you're setting up a team for the first time — it explains the roles and the change-request flow that gates member edits. Then see the individual asset-type pages for the structure and metadata each one expects.
 
 <figure><img src="../../.gitbook/assets/skills/assets-list.png" alt=""><figcaption><p>The AI Assets list — filter by type, search by name, and sort by recency or popularity.</p></figcaption></figure>
 
-## The asset types
+## Asset types
 
 Sleuth Skills currently supports seven asset types. Each has its own page below.
 
@@ -46,6 +47,8 @@ There are three entry points:
 2. **Create button.** Use the `+ Create` button in the top-right of any page for a guided form.
 3. **CLI.** Run `sx add /path/to/asset-dir` to upload from a local directory. `sx` auto-detects the asset type from the file layout and metadata.
 
+Who is allowed to do each of those depends on your [RBAC](rbac.md) role.
+
 ## Asset discovery
 
 Once an asset is in the vault, teammates can find it by:
@@ -62,7 +65,9 @@ The asset detail page's right-hand rail shows the active version, published stat
 
 ## Change Requests
 
-Asset edits can flow through a Change Request — a PR-style review flow visible under **Change Requests** in the left nav. This is useful for assets that affect the whole org (coding rules, global hooks) where you want a second pair of eyes before publication.
+When a non-admin member edits a published asset, the edit flows through a **Change Request** — a PR-style review that a team admin (or org admin) must approve before the new version is merged. Installation requests follow the same pattern. See [RBAC](rbac.md) for the full approval flow and who can approve what.
+
+Change Requests are visible under **Change Requests** in the left nav.
 
 ## Evals and quality
 

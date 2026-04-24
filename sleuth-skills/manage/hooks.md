@@ -64,6 +64,6 @@ Hooks run arbitrary shell commands on the user's machine. Treat hook installs as
 
 * Prefer hooks with scripts bundled in the asset over hooks that `curl | bash` at runtime.
 * Limit org-wide hook installs to well-reviewed assets.
-* Use the [Audit Log](../governance/audit-log.md) to watch for hook installs you didn't authorize.
+* Use the [Audit Log](../govern/audit-log.md) to watch for hook installs you didn't authorize.
 
 Hooks are one of the sharpest tools in the Sleuth Skills set; lock them down like you would any other shared piece of automation.

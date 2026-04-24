@@ -1,0 +1,221 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "Skills.new" [ref=e118] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e119]: Skills.new
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - button "Search ⌘ K" [ref=e122] [cursor=pointer]:
+        - img [ref=e123]
+        - generic [ref=e125]: Search
+        - generic [ref=e126]:
+          - generic [ref=e127]: ⌘
+          - generic [ref=e128]: K
+      - generic [ref=e15]:
+        - generic [ref=e129]: Manage
+        - generic [ref=e130]:
+          - link "AI Assets" [ref=e131] [cursor=pointer]:
+            - /url: /assets?reset=true
+            - generic [ref=e132]:
+              - img [ref=e133]
+              - generic [ref=e135]: AI Assets
+          - link "Change Requests" [ref=e136] [cursor=pointer]:
+            - /url: /change-requests/
+            - generic [ref=e137]:
+              - img [ref=e138]
+              - generic [ref=e140]: Change Requests
+        - generic [ref=e141]: Distribute
+        - generic [ref=e142]:
+          - link "Installed" [ref=e143] [cursor=pointer]:
+            - /url: /users/US8CdXhrnA/assets/installed
+            - generic [ref=e144]:
+              - img [ref=e145]
+              - generic [ref=e147]: Installed
+          - link "Organization" [ref=e148] [cursor=pointer]:
+            - /url: /organization
+            - generic [ref=e149]:
+              - img [ref=e150]
+              - generic [ref=e152]: Organization
+          - button "Bots" [ref=e155] [cursor=pointer]:
+            - button "Bots" [ref=e157]:
+              - generic [ref=e158]:
+                - img [ref=e159]
+                - generic [ref=e161]: Bots
+              - button [ref=e162]:
+                - img [ref=e163]
+          - button "Teams" [ref=e167] [cursor=pointer]:
+            - button "Teams" [ref=e169]:
+              - generic [ref=e170]:
+                - img [ref=e171]
+                - generic [ref=e173]: Teams
+              - button [ref=e174]:
+                - img [ref=e175]
+          - button "Repositories" [ref=e179] [cursor=pointer]:
+            - button "Repositories" [ref=e181]:
+              - generic [ref=e182]:
+                - img [ref=e183]
+                - generic [ref=e185]: Repositories
+          - link "Personal" [ref=e186] [cursor=pointer]:
+            - /url: /users/US8CdXhrnA/assets
+            - generic [ref=e187]:
+              - img [ref=e188]
+              - generic [ref=e190]: Personal
+        - generic [ref=e191]: Govern
+        - generic [ref=e192]:
+          - link "Audit Log" [ref=e193] [cursor=pointer]:
+            - /url: /usage/audit-log
+            - generic [ref=e194]:
+              - img [ref=e195]
+              - generic [ref=e197]: Audit Log
+          - link "AI Metrics" [ref=e198] [cursor=pointer]:
+            - /url: /usage/dashboards/RV03zJMAKJ
+            - generic [ref=e199]:
+              - img [ref=e200]
+              - generic [ref=e202]: AI Metrics
+          - link "Adoption" [ref=e203] [cursor=pointer]:
+            - /url: /usage/dashboards/RVNuFKJzFU
+            - generic [ref=e204]:
+              - img [ref=e205]
+              - generic [ref=e207]: Adoption
+          - link "Usage" [ref=e208] [cursor=pointer]:
+            - /url: /usage/dashboards/RVvLZQ2dzB
+            - generic [ref=e209]:
+              - img [ref=e210]
+              - generic [ref=e212]: Usage
+          - link "Leaderboards" [ref=e213] [cursor=pointer]:
+            - /url: /usage/dashboards/RVAD847WNj
+            - generic [ref=e214]:
+              - img [ref=e215]
+              - generic [ref=e217]: Leaderboards
+        - generic [ref=e16]:
+          - button "Installation Help" [ref=e17] [cursor=pointer]:
+            - generic [ref=e18]:
+              - img [ref=e19]
+              - generic [ref=e21]: Installation Help
+          - button "Help" [ref=e23] [cursor=pointer]:
+            - button "Help" [ref=e24]:
+              - generic [ref=e25]:
+                - img [ref=e26]
+                - generic [ref=e28]: Help
+          - button "John Admin John Admin" [ref=e30] [cursor=pointer]:
+            - button "John Admin John Admin" [ref=e31]:
+              - generic [ref=e32]:
+                - img "John Admin" [ref=e33]
+                - generic [ref=e34]: John Admin
+    - main [ref=e36]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - navigation "Breadcrumb" [ref=e41]:
+            - list [ref=e42]:
+              - listitem [ref=e43]:
+                - generic [ref=e44]:
+                  - img [ref=e45]
+                  - generic [ref=e47]: Home
+          - button "Create" [ref=e222] [cursor=pointer]:
+            - button "Create" [ref=e223]:
+              - img [ref=e224]
+              - generic [ref=e226]: Create
+              - img [ref=e227]
+        - generic [ref=e48]:
+          - heading "How can I help today?" [level=2] [ref=e49]
+          - generic [ref=e50]:
+            - button "Expand chat" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+            - generic [ref=e56]:
+              - generic [ref=e229]:
+                - generic [ref=e233]: Which skills had the most usage in the last 30 days?
+                - generic [ref=e236] [cursor=pointer]:
+                  - generic [ref=e237]: ⚒️
+                  - 'generic "PQL query: list:asset.usage[@skill_name] (30d)" [ref=e238]'
+                  - generic [ref=e239]: (1 result)
+                  - generic [ref=e240]: ▼
+                - generic [ref=e244]:
+                  - paragraph [ref=e245]: No usage data was recorded in the last 30 days — it looks like there haven't been any skill invocations during that period.
+                  - paragraph [ref=e246]: "A few possible reasons:"
+                  - list [ref=e247]:
+                    - listitem [ref=e248]
+                    - listitem [ref=e251]
+                    - listitem [ref=e254]
+                  - paragraph [ref=e257]: Would you like me to check what skills are currently published and installed, or look at a longer time range (e.g. 90 days or all time)?
+              - generic [ref=e60]:
+                - textbox "Ask me to audit, create, install, or analyze assets..." [ref=e61]
+                - generic [ref=e62]:
+                  - button "Clear chat history" [ref=e63] [cursor=pointer]:
+                    - img [ref=e64]
+                  - button "Upload image or markdown file" [ref=e66] [cursor=pointer]:
+                    - img [ref=e67]
+                  - button [disabled] [ref=e70]:
+                    - img [ref=e71]
+              - generic [ref=e259]:
+                - button "Create skill" [ref=e260] [cursor=pointer]
+                - button "Top skills" [ref=e261] [cursor=pointer]
+                - button "New team" [ref=e262] [cursor=pointer]
+                - button "New bot" [ref=e263] [cursor=pointer]
+                - button "Bot vs human" [ref=e264] [cursor=pointer]
+                - button "What can I do?" [ref=e265] [cursor=pointer]
+        - generic [ref=e73]:
+          - heading "Activity" [level=3] [ref=e76]
+          - generic [ref=e78]:
+            - generic [ref=e80]:
+              - heading "Assets usage" [level=2] [ref=e81]
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]:
+                    - generic [ref=e85]: 56 of 60
+                    - generic [ref=e86]: assets used
+                  - generic [ref=e87]:
+                    - generic [ref=e88]: "199"
+                    - generic [ref=e89]: avg uses / day
+                - generic [ref=e90]:
+                  - button "All Types" [ref=e92] [cursor=pointer]:
+                    - button "All Types" [ref=e93]
+                  - button "Last 30 days" [ref=e97] [cursor=pointer]:
+                    - button "Last 30 days" [ref=e98]
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - heading "Popular" [level=2] [ref=e268]
+                - generic [ref=e269]:
+                  - button "Install asset" [ref=e270] [cursor=pointer]:
+                    - img [ref=e271]
+                    - text: Install asset
+                  - link "View all" [ref=e273] [cursor=pointer]:
+                    - /url: /assets?sortBy=popularity_30d&sortDirection=desc
+              - generic [ref=e274]:
+                - generic [ref=e275]:
+                  - generic [ref=e277]:
+                    - 'link "Skill: Tenant Context Use this skill when implementing multi-tenant organization context management, adding tenant isolation to new features, debugging context propagation issues across HTTP/Celery/GraphQL boundaries, or ensuring thread-safe tenant scoping in async operations. Used 1036 times 62 tokens" [ref=e279] [cursor=pointer]':
+                      - /url: /assets/ASCJU8kxr3
+                    - 'link "Skill: StreamableObject Interface and Real-Time Event Broadcasting Use this skill when implementing new domain models with real-time streaming capabilities, adding event broadcasting to orchestrators, or debugging streaming/event persistence issues. Used 635 times 46 tokens" [ref=e292] [cursor=pointer]':
+                      - /url: /assets/ASQNsjYvzs
+                    - 'link "Rule: arch auto This rule enforces architectural standards by requiring adherence to SOLID principles, automatic loading of specific skills based on the type of changes (frontend, backend, Django models, or specialized areas), and maintaining code size limits for functions and modules. Used 167 times 569 tokens" [ref=e305] [cursor=pointer]':
+                      - /url: /assets/ASw1hwCsBL
+                    - 'link "Hook: better skill Tries to prod the LLM to load skills more liberally Used 120 times" [ref=e318] [cursor=pointer]':
+                      - /url: /assets/ASDTC6oIql
+                  - generic [ref=e328]:
+                    - 'link "Rule: testing Discovered rule from sleuth-io/sleuth (cursor) Used 112 times" [ref=e330] [cursor=pointer]':
+                      - /url: /assets/ASIX1RTkZY
+                    - 'link "Command: flush toilet Prints ASCII art of a flushing toilet. Used 86 times 318 tokens" [ref=e340] [cursor=pointer]':
+                      - /url: /assets/AShoIRuTpR
+                    - 'link "Agent: reviewer Reviews code changes on a branch with senior architect rigor. Catches bugs, enforces quality, validates architecture, and blocks security/performance regressions before merge. Used 82 times 1.2k tokens" [ref=e353] [cursor=pointer]':
+                      - /url: /assets/AS2GnyFHlc
+                    - 'link "Agent: dr who A Time Lord who travels through time and space solving problems and righting wrongs across the universe. Used 72 times 53 tokens" [ref=e366] [cursor=pointer]':
+                      - /url: /assets/ASBdAemJ6n
+                  - generic [ref=e379]:
+                    - 'link "Claude Code Plugin: claude code plugins does claude stuff Used 59 times" [ref=e381] [cursor=pointer]':
+                      - /url: /assets/ASnQjvPXwr
+                    - 'link "MCP: granola MCP server that connects Granola.ai meeting data to Claude Desktop, enabling natural language queries across meeting history, transcripts, and attendee information. Used 58 times" [ref=e391] [cursor=pointer]':
+                      - /url: /assets/ASQNsy8Yvz
+                - img [ref=e402] [cursor=pointer]
+  - generic:
+    - img
+  - generic [ref=e104]:
+    - button "Toggle Nuxt DevTools" [ref=e105] [cursor=pointer]:
+      - img [ref=e106]
+    - generic "Page load time" [ref=e109]:
+      - generic [ref=e110]: "152"
+      - generic [ref=e111]: ms
+    - button "Toggle Component Inspector" [ref=e113] [cursor=pointer]:
+      - img [ref=e114]
