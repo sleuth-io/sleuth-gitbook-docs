@@ -22,6 +22,10 @@
 * [Govern](sleuth-skills/govern/README.md)
   * [Audit log](sleuth-skills/govern/audit-log.md)
   * [Usage metrics](sleuth-skills/govern/metrics.md)
+* [API](sleuth-skills/api/README.md)
+  * [Authentication](sleuth-skills/api/authentication.md)
+  * [REST API](sleuth-skills/api/rest.md)
+  * [GraphQL API](sleuth-skills/api/graphql.md)
 
 ## Sleuth DORA
 
