@@ -17,11 +17,12 @@ There are two surfaces:
 | **REST** | `https://app.skills.new/api/skills/` | Asset distribution: lock-file resolution, version listing, bundle download, upload, profile selection, usage reporting. This is what `sx` calls. |
 | **GraphQL** | `https://app.skills.new/graphql` | Everything else: managing assets, bots, profiles, installations, change requests, audit log, AI metrics. This is what the web UI calls. |
 
-Both surfaces share the same authentication model — an org-scoped credential identifies the caller, and the credential type (user OAuth token, organization API key, or bot API key) determines what the caller can see and do.
+Both surfaces share the same authentication model — an org-scoped credential identifies the caller, and the credential type (bot API key, personal access token, or browser session) determines what the caller can see and do.
 
 ## Quick orientation
 
 * **Bot API keys** are the recommended credential for unattended automation. Issue one per bot, scope it to that bot's teams, and rotate without downtime. See [Authentication](authentication.md).
+* **Personal access tokens** are for scripts and CLI tools that should act as _you_ — issue them from your user settings. See [Authentication](authentication.md#personal-access-tokens).
 * **`sx` itself is just a REST client.** Everything `sx install`, `sx update`, and `sx vault` do is a documented call against the REST API on this page — see [REST API](rest.md).
 * **GraphQL is introspectable.** Open [https://app.skills.new/graphql](https://app.skills.new/graphql) while signed in to explore the full schema in GraphiQL. See [GraphQL API](graphql.md) for the high-level shape.
 

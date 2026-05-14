@@ -25,20 +25,14 @@ The endpoint is **introspectable** — open it in a signed-in browser tab to exp
 GraphQL accepts the same credentials as REST — see [Authentication](authentication.md). Set the `Authorization` header:
 
 ```bash
-# Bot API key or scoped access token
+# Bot API key (CI / unattended) or personal access token (acts as you)
 curl https://app.skills.new/graphql \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{"query": "{ user { display } }"}'
-
-# Legacy org API key
-curl https://app.skills.new/graphql \
-  -H "Authorization: apikey YOUR_ORG_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"query": "{ bots { slug name } }"}'
 ```
 
-In GraphiQL the session cookie is used automatically. For bot tokens used in CI, set the `Authorization` header in your HTTP client.
+In GraphiQL the session cookie is used automatically. For automation use a bot API key; for personal scripts use a [personal access token](authentication.md#personal-access-tokens).
 
 ## What's in the schema
 
@@ -179,20 +173,20 @@ type Query {
 
 Filter by actor, event type, target, or date range — this is what powers the **Govern → Audit log** page.
 
-### Org-level access tokens
+### Personal access tokens
 
 ```graphql
-type OrganizationType {
-  accessTokens(first: Int, after: String): AccessTokenConnection!
+type User {
+  personalTokens(first: Int, after: String): AccessTokenConnection!
 }
 
 type Mutation {
-  createAccessToken(input: CreateAccessTokenInputType!): CreateAccessTokenMutation
-  deleteAccessToken(input: DeleteAccessTokenInputType!): DeleteAccessTokenMutation
+  createPersonalToken(label: String!): CreatePersonalTokenMutation
+  deletePersonalToken(tokenId: ID!): DeletePersonalTokenMutation
 }
 ```
 
-Use these to issue and rotate scoped org-level tokens (`ALL`, `REGISTER_DEPLOY`) without going through the UI.
+`createPersonalToken` returns the raw token **once**, in the `token` field of the response — copy it then or lose it. Subsequent reads of `user.personalTokens` return a camouflaged value for identification only. See [Authentication](authentication.md#personal-access-tokens) for the full flow.
 
 ## Example: create a bot and issue a key
 

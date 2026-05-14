@@ -14,8 +14,8 @@ Skills.new accepts three credential types:
 | Credential | Header | Acts as | Best for |
 |------------|--------|---------|----------|
 | **Bot API key** | `Authorization: Bearer <token>` | A specific [bot](../distribute/bots.md) — inherits the assets installed to the bot's teams and direct installs. | Unattended automation: CI runs, scheduled loops, review workers. |
-| **Org API key** (legacy) | `Authorization: apikey <token>` | An org-level admin principal. | Legacy integrations migrating from the DORA API key. New integrations should use a bot. |
-| **User session / OAuth** | Browser session cookie, or `Authorization: Bearer <user-token>` | The signed-in user, with their RBAC role. | The web UI and `sx` running on a developer's laptop. |
+| **Personal access token** | `Authorization: Bearer <token>` | The user that created the token, with their RBAC role. | Personal scripts, GraphQL exploration, and CLI tools that should act _as you_. |
+| **User session** | Browser session cookie | The signed-in user, with their RBAC role. | The web UI and GraphiQL. |
 
 ## Bot API keys (recommended)
 
@@ -77,48 +77,85 @@ Revocation is immediate — in-flight requests using that key will fail on next 
 **Never share a bot key across bots.** Each bot's keys grant access to that bot's installed asset set. If two CI workers need different asset sets, give them different bots; if they need the same set, put them on the same teams and give each its own key.
 {% endhint %}
 
-## Org API keys (legacy)
+## Personal access tokens
 
-Each organization has a single legacy org-level API key, the same one used by the Sleuth DORA API. It authenticates as an admin principal for the org. To use it on Skills.new:
+A **personal access token** (PAT) is an OAuth2 token tied to your individual user account, scoped to a single organization. Use one when you want a script or CLI tool to act _as you_ — it inherits your RBAC role and your asset installs. PATs are the recommended credential for ad-hoc GraphQL queries, personal automation, and anywhere you'd otherwise be tempted to copy a session cookie.
+
+### Issuing a PAT
+
+In the web UI, open the user settings (top-right avatar) and choose **Personal Access Tokens**. Click **Add access token**, give the token a descriptive name (e.g. `local-graphiql`, `home-laptop-sx`), and **copy the value when it's shown** — the full token is only displayed once at creation time. Afterward, the table shows an obfuscated value (`••••••••…`) for identification.
+
+You can also create one over GraphQL while signed in:
+
+```graphql
+mutation CreatePAT($label: String!) {
+  createPersonalToken(label: $label) {
+    token            # the raw token — returned ONCE
+    errors
+  }
+}
+```
+
+```graphql
+{
+  user {
+    personalTokens(first: 50) {
+      edges { node { id label token created expires applicationName } }
+    }
+  }
+}
+```
+
+The `token` field on the listing is camouflaged; only the response of `createPersonalToken` returns the raw value.
+
+### Passing a PAT
+
+PATs use the standard `Bearer` scheme:
 
 ```bash
 curl https://app.skills.new/graphql \
-  -H "Authorization: apikey YOUR_ORG_API_KEY" \
+  -H "Authorization: Bearer YOUR_PERSONAL_TOKEN" \
   -H "Content-Type: application/json" \
-  -d '{"query": "{ vault { assets(first: 5) { nodes { name } } } }"}'
+  -d '{"query": "{ user { display } vault { assets(first: 5) { nodes { name } } } }"}'
 ```
 
-{% hint style="info" %}
-Note the scheme is **`apikey`**, not **`Bearer`**, for this credential type.
-{% endhint %}
-
-For new integrations, prefer a bot API key. The org-level key is broader than most callers need, harder to rotate (there is only one), and the GraphQL `Organization.apiKey` field is deprecated in favor of [scoped access tokens](#scoped-access-tokens).
-
-### Scoped access tokens
-
-You can also issue **org-level scoped access tokens** via the web UI or GraphQL. These behave like the legacy API key but are individually labeled, rotatable, and scoped:
-
-* **`ALL`** — full admin access for the org.
-* **`REGISTER_DEPLOY`** — limited to registering deploys (DORA only, not used by Skills.new).
-
-Create one in the web UI under **Settings → Organization → Access Tokens**, or with the `createAccessToken` GraphQL mutation. Pass it the same way as a bot key, with the `Bearer` scheme:
+They work the same way on REST:
 
 ```bash
 curl https://app.skills.new/api/skills/sx.lock \
-  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+  -H "Authorization: Bearer YOUR_PERSONAL_TOKEN"
 ```
 
-When the token's scope is `ALL` and it isn't tied to a bot, the API treats it as the org-level admin principal.
+Because the token represents _you_, the response is scoped to _your_ installs — `sx.lock` returns the assets installed to you, your teams, and the repositories you have access to.
 
-## User credentials
+### PAT scope and lifetime
 
-When `sx` runs on a developer's laptop, it authenticates as **that user** — so `sx.lock` returns the assets installed to the user, the user's teams, and the user's repositories. You typically don't construct user credentials by hand; they are issued by the [`sx login`](https://github.com/sleuth-io/sx) flow.
+* **Scope** — a PAT acts with the issuing user's RBAC role in the org it was created in. It cannot escalate beyond what you can do in the web UI, and it cannot be used against a different org.
+* **Lifetime** — 10 years. Rotate by issuing a new one and deleting the old one.
+* **Revocation** — immediate when you click **Delete** in the settings UI (or call `deletePersonalToken(tokenId:)`).
 
-In the browser, the web UI authenticates via session cookie. GraphiQL inherits that cookie automatically, so once you're signed in at [skills.new](https://skills.new) you can explore the API at [https://app.skills.new/graphql](https://app.skills.new/graphql) without any extra setup.
+### When to use a PAT vs a bot key
+
+| Use a **PAT** when... | Use a **bot API key** when... |
+|-----------------------|--------------------------------|
+| The work runs interactively or under your account. | The work runs unattended in CI, a scheduled loop, or a review worker. |
+| The assets should resolve to **your** team/repo membership. | The assets should resolve to a service account's team membership. |
+| Revoking it shouldn't affect your colleagues. | Revoking it shouldn't affect any individual person. |
+| You'd otherwise be copying a browser session cookie. | You'd otherwise be sharing a human's PAT across CI runners. |
+
+{% hint style="warning" %}
+**Don't share PATs across people or environments.** A PAT carries one user's permissions across one organization — treat it like a password. For shared automation, create a [bot](../distribute/bots.md) and use a bot key.
+{% endhint %}
+
+## User sessions
+
+In the browser, the web UI authenticates via session cookie. GraphiQL at [https://app.skills.new/graphql](https://app.skills.new/graphql) inherits that cookie automatically, so once you're signed in at [skills.new](https://skills.new) you can explore the API interactively without setting any headers.
+
+For programmatic access from a tool running on your behalf — including the [`sx`](https://github.com/sleuth-io/sx) CLI — use a [PAT](#personal-access-tokens). `sx login` walks you through obtaining one and storing it locally.
 
 ## Picking the right credential
 
-* **Building a CI integration?** Create a bot in the UI, add it to the teams whose assets it needs, issue one API key per CI environment.
-* **Building a one-off admin script?** Use an org-level scoped access token labeled for the script. Delete the token when the script is retired.
-* **Writing a developer tool that runs as the user?** Use the `sx` login flow rather than asking users to paste tokens.
-* **Migrating from the DORA org API key?** Issue a new scoped access token, use it with the `Bearer` scheme on `app.skills.new`, and leave the DORA key untouched.
+* **Building a CI integration or unattended automation?** Create a [bot](../distribute/bots.md), add it to the teams whose assets it needs, issue one bot API key per environment.
+* **Writing a personal script or exploring the API from cURL?** Issue a PAT from your user settings and delete it when the script is retired.
+* **Running the `sx` CLI on your own machine?** Use `sx login` — it manages a PAT for you.
+* **Just clicking around in GraphiQL?** Sign in at [skills.new](https://skills.new) and your session cookie is all you need.
